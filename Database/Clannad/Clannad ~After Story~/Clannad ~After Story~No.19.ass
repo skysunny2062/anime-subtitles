@@ -1,0 +1,529 @@
+﻿[Script Info]
+Title: CLANNAD After Story 19 gb
+Original Script: ～ FLsnow & SumiSora & NF-GL ～
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.601
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: chs-Ana,思源黑体 CN Normal,66,&H002578E8,&HF0FFFFFF,&H00FFFFFF,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,8,45,45,85,1
+Style: eng-Ana,思源黑体 CN Normal,60,&H002578E8,&HF0FFFFFF,&H00FFFFFF,&H00000000,0,-1,0,0,100,100,0,0,1,2,2,8,45,45,30,1
+Style: staff,simhei,32,&H00000000,&H00000000,&H01FFFFFF,&H80000000,-1,0,0,0,100,100,0.8,0,1,0,0,4,90,90,30,134
+Style: title1,楷体,72,&H00FFFFFF,&HF0FFFFFF,&H005DAE76,&H90FFFFFF,0,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: title2,楷体,72,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,3,2,30,30,10,134
+Style: OPJP,Arphic PRoman-Mincho Ultra JIS,39,&H00877468,&H00FFFFFF,&H00D2C1B4,&H80B21230,0,0,0,0,100,100,0,0,1,2,0,2,261,261,18,1
+Style: OPTC,思源黑体 CN Normal,66,&H00877468,&H00FFFFFF,&H00D2C1B4,&H80B21230,0,0,0,0,100,100,0,0,1,3,0,8,261,261,18,1
+Style: EDJP,Arphic PRoman-Mincho Ultra JIS,39,&H00877468,&H00FFFFFF,&H00D2C1B4,&H80B21230,0,0,0,0,100,100,0,0,1,2,0,2,261,261,18,1
+Style: EDTC,思源黑体 CN Normal,66,&H00877468,&H00FFFFFF,&H00D2C1B4,&H80B21230,0,0,0,0,100,100,0,0,1,3,0,8,261,261,18,1
+Style: chs for CL汐,方正正准黑_GBK,66,&H00FFFFFF,&H00FFFFFF,&H3CCC8613,&H00686766,0,0,0,0,100,100,1.8,0,1,3.2,0,2,15,15,66,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:05:19.15,0:05:22.80,title1,,0,0,0,,{\fad(500,0)\blur3\pos(960,735)}家 路
+Dialogue: 0,0:24:05.74,0:24:09.74,title2,,0,0,0,,{\fad(400,0)\an5\pos(960,735)}汐風的嬉戲
+Dialogue: 1,0:04:06.09,0:04:11.56,OPJP,,0,0,0,,{\fad(500,200)\bord0\blur10\t(0,1000,1,\blur0)}{\1c&H040404&}{\kf46}君{\kf16}だ{\kf27}け{\kf34}が{\kf29}過{\kf20}ぎ{\kf31}去{\kf18}っ{\kf34}た{\kf0}{\kf95}坂{\kf42}の{\kf37}途{\kf50}中{\kf68}は
+Dialogue: 0,0:04:06.59,0:04:11.56,OPJP,,0,0,0,,{\fad(500,200)\bord2\be3\1a&HFF&\3c&HA4A09F&}君だけが過ぎ去った坂の途中は
+Dialogue: 0,0:04:11.44,0:04:16.03,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(617.465,992,572.394,1037,0,500)\t(0,800,1,\be0\frx0)}暖
+Dialogue: 0,0:04:12.01,0:04:16.08,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(669.296,992,624.225,1037,0,500)\t(0,800,1,\be0\frx0)}か
+Dialogue: 0,0:04:12.30,0:04:16.13,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(721.127,992,676.056,1037,0,500)\t(0,800,1,\be0\frx0)}な
+Dialogue: 0,0:04:12.66,0:04:16.18,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(772.958,992,727.887,1037,0,500)\t(0,800,1,\be0\frx0)}陽
+Dialogue: 0,0:04:12.93,0:04:16.23,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(824.789,992,779.718,1037,0,500)\t(0,800,1,\be0\frx0)}だ
+Dialogue: 0,0:04:13.13,0:04:16.28,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(876.62,992,831.549,1037,0,500)\t(0,800,1,\be0\frx0)}ま
+Dialogue: 0,0:04:13.38,0:04:16.33,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(928.451,992,883.38,1037,0,500)\t(0,800,1,\be0\frx0)}り
+Dialogue: 0,0:04:13.62,0:04:16.38,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(980.282,992,935.211,1037,0,500)\t(0,800,1,\be0\frx0)}が
+Dialogue: 0,0:04:14.02,0:04:16.43,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1032.113,992,987.042,1037,0,500)\t(0,800,1,\be0\frx0)}い
+Dialogue: 0,0:04:14.36,0:04:16.48,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1083.944,992,1038.873,1037,0,500)\t(0,800,1,\be0\frx0)}く
+Dialogue: 0,0:04:14.85,0:04:16.53,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1135.775,992,1090.704,1037,0,500)\t(0,800,1,\be0\frx0)}つ
+Dialogue: 0,0:04:15.29,0:04:16.58,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1187.606,992,1142.535,1037,0,500)\t(0,800,1,\be0\frx0)}も
+Dialogue: 0,0:04:15.55,0:04:16.63,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1239.437,992,1194.366,1037,0,500)\t(0,800,1,\be0\frx0)}で
+Dialogue: 0,0:04:15.74,0:04:16.68,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1291.268,992,1246.197,1037,0,500)\t(0,800,1,\be0\frx0)}き
+Dialogue: 0,0:04:15.93,0:04:16.73,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1343.099,992,1298.028,1037,0,500)\t(0,800,1,\be0\frx0)}て
+Dialogue: 0,0:04:16.19,0:04:16.78,OPJP,,0,0,0,,{\an5\fad(500,0)\be5\frx-90\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1394.93,992,1349.859,1037,0,500)\t(0,800,1,\be0\frx0)}た
+Dialogue: 0,0:04:16.03,0:04:16.83,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(572.394,1037,527.324,1082,300,800)\t(0,800,1,\be5\frx90)}暖
+Dialogue: 0,0:04:16.08,0:04:16.88,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(624.225,1037,579.155,1082,300,800)\t(0,800,1,\be5\frx90)}か
+Dialogue: 0,0:04:16.13,0:04:16.93,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(676.056,1037,630.986,1082,300,800)\t(0,800,1,\be5\frx90)}な
+Dialogue: 0,0:04:16.18,0:04:16.98,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(727.887,1037,682.817,1082,300,800)\t(0,800,1,\be5\frx90)}陽
+Dialogue: 0,0:04:16.23,0:04:17.03,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(779.718,1037,734.648,1082,300,800)\t(0,800,1,\be5\frx90)}だ
+Dialogue: 0,0:04:16.28,0:04:17.08,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(831.549,1037,786.479,1082,300,800)\t(0,800,1,\be5\frx90)}ま
+Dialogue: 0,0:04:16.33,0:04:17.13,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(883.38,1037,838.31,1082,300,800)\t(0,800,1,\be5\frx90)}り
+Dialogue: 0,0:04:16.38,0:04:17.18,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(935.211,1037,890.141,1082,300,800)\t(0,800,1,\be5\frx90)}が
+Dialogue: 0,0:04:16.43,0:04:17.23,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(987.042,1037,941.972,1082,300,800)\t(0,800,1,\be5\frx90)}い
+Dialogue: 0,0:04:16.48,0:04:17.28,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1038.873,1037,993.803,1082,300,800)\t(0,800,1,\be5\frx90)}く
+Dialogue: 0,0:04:16.53,0:04:17.33,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1090.704,1037,1045.634,1082,300,800)\t(0,800,1,\be5\frx90)}つ
+Dialogue: 0,0:04:16.58,0:04:17.38,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1142.535,1037,1097.465,1082,300,800)\t(0,800,1,\be5\frx90)}も
+Dialogue: 0,0:04:16.63,0:04:17.43,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1194.366,1037,1149.296,1082,300,800)\t(0,800,1,\be5\frx90)}で
+Dialogue: 0,0:04:16.68,0:04:17.48,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1246.197,1037,1201.127,1082,300,800)\t(0,800,1,\be5\frx90)}き
+Dialogue: 0,0:04:16.73,0:04:17.53,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1298.028,1037,1252.958,1082,300,800)\t(0,800,1,\be5\frx90)}て
+Dialogue: 0,0:04:16.78,0:04:17.58,OPJP,,0,0,0,,{\an5\fad(0,500)\be0\bord3\1c&HF0E0FF&\3c&HD9A9DB&\move(1349.859,1037,1304.789,1082,300,800)\t(0,800,1,\be5\frx90)}た
+Dialogue: 0,0:04:17.28,0:04:22.31,OPJP,,0,0,0,,{\fad(500,500)\be3}{\1c&HBF93D4&\3c&HD9A9DB&}{\t(392,433,1,\1c&H483125&\3c&HDEB3A3&)}{\kf51}僕{\kf64}一{\kf64}人{\kf66}が{\kf20}{\kf22}こ{\kf23}こ{\kf40}で{\kf76}優{\kf46}し{\kf31}い
+Dialogue: 0,0:04:22.45,0:04:30.09,OPJP,,0,0,0,,{\fad(200,200)}{\be3\1c&H483125&\3c&HDEB3A3&)}{\t(458,917,1,\1c&H8B675E&\3c&HCCAFAB&)}{\t(1626,2002,1,\1c&H4F3E3A&\3c&H8B4E46&)}{\t(2460,2752,1,\1c&H3D6952&\3c&H82ABA4&)}{\t(3713,4004,1,\1c&H6D5D6A&\3c&HB5B0CF&)}{\t(5297,5881,1,\1c&H21243E&\3c&H54679D&)}{\kf85}暖{\kf32}か{\kf55}さ{\kf81}を{\kf48}思{\kf43}い{\kf79}返{\kf93}し{\kf27}て{\kf152}る
+Dialogue: 0,0:04:30.24,0:04:37.79,OPJP,,0,0,0,,{\fad(500,500)\be3\org(11506,1062)}{\1c&H301211&\3c&H413B55&}{\t(320,361,1,\1c&H3862A0&\3c&H70C3F9&)}{\t(778,1738,1,\1c&H5F4E46&\3c&HA49288&)}{\t(2614,3781,1,\1c&H8E5D5E&\3c&HB99A9D&)}{\t(4324,4365,1,\1c&H4E4FA9&\3c&H99AAE3&)}{\t(5825,5867,1,\1c&H2281CC&\3c&H47C4F3&)}{\t(5900,7550,,\fr0.2)}{\kf91}君{\fr0\t(6150,7550,,\fr0.15)}{\kf68}だ{\fr0\t(6326,7550,,\fr0.1)}{\kf59}け{\fr0\t(6534,7550,,\fr0.05)}{\kf177}を{\fr0}{\kf23}　{\kf83}君{\kf67}だ{\kf25}け{\kf152}を
+Dialogue: 0,0:04:37.87,0:04:44.00,OPJP,,0,0,0,,{\fad(500,500)\be3\org(11506,1062)}{\1c&H5F4E46&\3c&HA49288&}{\t(1782,2950,1,\1c&H55423B&\3c&H7F7370&)}{\t(3534,3575,1,\1c&H432D2F&\3c&HAA7570&)}{\t(4827,4868,1,\1c&H5F4E46&\3c&HA49288&)}{\kf84}好{\kf66}き{\kf182}で{\kf34}{\kf66}い{\t(5160,6130,,\fr0.05)}{\kf61}た{\fr0\t(5360,6130,,\fr0.1)}{\kf110}よ
+Dialogue: 0,0:04:44.09,0:04:51.60,OPJP,,0,0,0,,{\fad(500,500)\be3}{\1c&H5F4E46&\3c&HA49288&}{\t(776,817,1,\1c&H5F4E46&\3c&HA49288&)}{\t(2611,3779,1,\1c&H367797&\3c&H379FB6&)}{\t(4237,4279,1,\1c&H637595&\3c&HA6BED0&)}{\t(5739,5781,1,\1c&H024670&\3c&H1485C0&)}{\kf90}風{\kf64}で{\fr0}{\kf64}目{\kf189}が{\kf18}　{\kf74}に{\kf55}じ{\kf34}ん{\kf149}で
+Dialogue: 0,0:04:51.85,0:04:58.72,OPJP,,0,0,0,,{\fad(500,500)\be3}{\1c&H5F4E46&\3c&HA49288&}{\t(1776,2944,1,\1c&H8593C5&\3c&HC1DBFB&)}{\t(3320,3361,1,\1c&H5C5650&\3c&H887D6F&)}{\t(4654,4696,1,\1c&H5C5650&\3c&H887D6F&)}{\t(5820,5812,1,\1c&HD9A857&\3c&HD2C1B4&)}{\t(6072,6114,1,\1c&H307E83&\3c&HD2C1B4&)}{\t(6323,6364,1,\1c&H384E10&\3c&HD2C1B4&)}{\t(6614,6656,1,\1c&H0C7EF0&\3c&H64E5F5&)}{\kf134}遠{\kf173}く{\kf23}{\kf88}な{\kf55}る{\kf204}よ
+Dialogue: 0,0:04:58.30,0:04:59.74,OPJP,,0,0,0,,{\pos(726,1038)\an5\fade(255,0,255,140,640,640,1140)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(140,640,0.5,\bord3\blur1\fscx110\fscy110)\t(640,1140,2,\bord5\blur10\fscx100\fscy100)}い
+Dialogue: 0,0:04:58.30,0:04:59.96,OPJP,,0,0,0,,{\pos(778,1038)\an5\fade(255,0,255,360,860,860,1360)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(360,860,0.5,\bord3\blur1\fscx110\fscy110)\t(860,1360,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:04:58.30,0:05:00.23,OPJP,,0,0,0,,{\pos(830,1038)\an5\fade(255,0,255,630,1130,1130,1630)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(630,1130,0.5,\bord3\blur1\fscx110\fscy110)\t(1130,1630,2,\bord5\blur10\fscx100\fscy100)}ま
+Dialogue: 0,0:04:58.30,0:05:00.46,OPJP,,0,0,0,,{\pos(882,1038)\an5\fade(255,0,255,860,1360,1360,1860)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(860,1360,0.5,\bord3\blur1\fscx110\fscy110)\t(1360,1860,2,\bord5\blur10\fscx100\fscy100)}で
+Dialogue: 0,0:04:58.30,0:05:00.70,OPJP,,0,0,0,,{\pos(934,1038)\an5\fade(255,0,255,1100,1600,1600,2100)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(1100,1600,0.5,\bord3\blur1\fscx110\fscy110)\t(1600,2100,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:04:58.30,0:05:01.09,OPJP,,0,0,0,,{\pos(1038,1038)\an5\fade(255,0,255,1390,1890,1890,2390)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(1390,1890,0.5,\bord3\blur1\fscx110\fscy110)\t(1890,2390,2,\bord5\blur10\fscx100\fscy100)}覚
+Dialogue: 0,0:04:58.30,0:05:01.27,OPJP,,0,0,0,,{\pos(1090,1038)\an5\fade(255,0,255,1670,2170,2170,2670)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(1670,2170,0.5,\bord3\blur1\fscx110\fscy110)\t(2170,2670,2,\bord5\blur10\fscx100\fscy100)}え
+Dialogue: 0,0:04:58.30,0:05:01.53,OPJP,,0,0,0,,{\pos(1142,1038)\an5\fade(255,0,255,1930,2430,2430,2930)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(1930,2430,0.5,\bord3\blur1\fscx110\fscy110)\t(2430,2930,2,\bord5\blur10\fscx100\fscy100)}て
+Dialogue: 0,0:04:58.30,0:05:01.69,OPJP,,0,0,0,,{\pos(1194,1038)\an5\fade(255,0,255,2090,2590,2590,3090)\bord5\blur10\fscx90\fscy90\1c&H384E10&\3c&HD2C1B4&\t(172,214,1,\1c&H0C7EF0&\3c&H64E5F5&)\t(459,496,1,\1c&H221B0E&\3c&H675A4C&)\t(1330,1706,1,\1c&H4D7599&\3c&H71B8EA&)\t(2415,2748,1,\1c&H162331&\3c&H248B99&)\t(2090,2590,0.5,\bord3\blur1\fscx110\fscy110)\t(2590,3090,2,\bord5\blur10\fscx100\fscy100)}る
+Dialogue: 0,0:05:00.39,0:05:02.16,OPJP,,0,0,0,,{\pos(726,1038)\an5\fade(255,0,255,270,770,770,1270)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(270,770,0.5,\bord3\blur1\fscx110\fscy110)\t(770,1270,2,\bord5\blur10\fscx100\fscy100)}何
+Dialogue: 0,0:05:00.39,0:05:02.38,OPJP,,0,0,0,,{\pos(778,1038)\an5\fade(255,0,255,690,1190,1190,1690)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(690,1190,0.5,\bord3\blur1\fscx110\fscy110)\t(1190,1690,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:00.39,0:05:02.61,OPJP,,0,0,0,,{\pos(830,1038)\an5\fade(255,0,255,920,1420,1420,1920)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(920,1420,0.5,\bord3\blur1\fscx110\fscy110)\t(1420,1920,2,\bord5\blur10\fscx100\fscy100)}か
+Dialogue: 0,0:05:00.39,0:05:02.85,OPJP,,0,0,0,,{\pos(882,1038)\an5\fade(255,0,255,1160,1660,1660,2160)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1160,1660,0.5,\bord3\blur1\fscx110\fscy110)\t(1660,2160,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:00.39,0:05:03.04,OPJP,,0,0,0,,{\pos(986,1038)\an5\fade(255,0,255,1350,1850,1850,2350)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1350,1850,0.5,\bord3\blur1\fscx110\fscy110)\t(1850,2350,2,\bord5\blur10\fscx100\fscy100)}変
+Dialogue: 0,0:05:00.39,0:05:03.24,OPJP,,0,0,0,,{\pos(1038,1038)\an5\fade(255,0,255,1550,2050,2050,2550)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1550,2050,0.5,\bord3\blur1\fscx110\fscy110)\t(2050,2550,2,\bord5\blur10\fscx100\fscy100)}わ
+Dialogue: 0,0:05:00.39,0:05:03.49,OPJP,,0,0,0,,{\pos(1090,1038)\an5\fade(255,0,255,1800,2300,2300,2800)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1800,2300,0.5,\bord3\blur1\fscx110\fscy110)\t(2300,2800,2,\bord5\blur10\fscx100\fscy100)}っ
+Dialogue: 0,0:05:00.39,0:05:03.67,OPJP,,0,0,0,,{\pos(1142,1038)\an5\fade(255,0,255,1980,2480,2480,2980)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1980,2480,0.5,\bord3\blur1\fscx110\fscy110)\t(2480,2980,2,\bord5\blur10\fscx100\fscy100)}て
+Dialogue: 0,0:05:00.39,0:05:03.85,OPJP,,0,0,0,,{\pos(1194,1038)\an5\fade(255,0,255,2160,2660,2660,3160)\bord5\blur10\fscx90\fscy90\1c&H4D7599&\3c&H71B8EA&\t(325,658,1,\1c&H162331&\3c&H248B99&)\t(1451,1826,1,\1c&H66868E&\3c&H7CACBC&)\t(2452,2786,1,\1c&H7CA991&\3c&HC7D6E4&)\t(2160,2660,0.5,\bord3\blur1\fscx110\fscy110)\t(2660,3160,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:02.55,0:05:04.11,OPJP,,0,0,0,,{\pos(700,1038)\an5\fade(255,0,255,260,760,760,1260)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(260,760,0.5,\bord3\blur1\fscx110\fscy110)\t(760,1260,2,\bord5\blur10\fscx100\fscy100)}ひ
+Dialogue: 0,0:05:02.55,0:05:04.31,OPJP,,0,0,0,,{\pos(752,1038)\an5\fade(255,0,255,460,960,960,1460)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(460,960,0.5,\bord3\blur1\fscx110\fscy110)\t(960,1460,2,\bord5\blur10\fscx100\fscy100)}と
+Dialogue: 0,0:05:02.55,0:05:04.53,OPJP,,0,0,0,,{\pos(804,1038)\an5\fade(255,0,255,680,1180,1180,1680)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(680,1180,0.5,\bord3\blur1\fscx110\fscy110)\t(1180,1680,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:05:02.55,0:05:04.75,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,900,1400,1400,1900)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(900,1400,0.5,\bord3\blur1\fscx110\fscy110)\t(1400,1900,2,\bord5\blur10\fscx100\fscy100)}だ
+Dialogue: 0,0:05:02.55,0:05:04.91,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,1060,1560,1560,2060)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(1060,1560,0.5,\bord3\blur1\fscx110\fscy110)\t(1560,2060,2,\bord5\blur10\fscx100\fscy100)}け
+Dialogue: 0,0:05:02.55,0:05:05.11,OPJP,,0,0,0,,{\pos(1012,1038)\an5\fade(255,0,255,1260,1760,1760,2260)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(1260,1760,0.5,\bord3\blur1\fscx110\fscy110)\t(1760,2260,2,\bord5\blur10\fscx100\fscy100)}ひ
+Dialogue: 0,0:05:02.55,0:05:05.38,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1530,2030,2030,2530)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(1530,2030,0.5,\bord3\blur1\fscx110\fscy110)\t(2030,2530,2,\bord5\blur10\fscx100\fscy100)}と
+Dialogue: 0,0:05:02.55,0:05:05.60,OPJP,,0,0,0,,{\pos(1116,1038)\an5\fade(255,0,255,1750,2250,2250,2750)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(1750,2250,0.5,\bord3\blur1\fscx110\fscy110)\t(2250,2750,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:05:02.55,0:05:05.84,OPJP,,0,0,0,,{\pos(1168,1038)\an5\fade(255,0,255,1990,2490,2490,2990)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(1990,2490,0.5,\bord3\blur1\fscx110\fscy110)\t(2490,2990,2,\bord5\blur10\fscx100\fscy100)}だ
+Dialogue: 0,0:05:02.55,0:05:06.08,OPJP,,0,0,0,,{\pos(1220,1038)\an5\fade(255,0,255,2230,2730,2730,3230)\bord5\blur10\fscx90\fscy90\1c&H66868E&\3c&H7CACBC&\t(292,626,1,\1c&H7CA991&\3c&HC7D6E4&)\t(1335,1710,1,\1c&H0D0E0C&\3c&H5E5B55&)\t(2502,2836,1,\1c&H384172&\3c&H5A7BE1&)\t(2230,2730,0.5,\bord3\blur1\fscx110\fscy110)\t(2730,3230,2,\bord5\blur10\fscx100\fscy100)}け
+Dialogue: 0,0:05:04.78,0:05:06.28,OPJP,,0,0,0,,{\pos(700,1038)\an5\fade(255,0,255,200,700,700,1200)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(200,700,0.5,\bord3\blur1\fscx110\fscy110)\t(700,1200,2,\bord5\blur10\fscx100\fscy100)}あ
+Dialogue: 0,0:05:04.78,0:05:06.46,OPJP,,0,0,0,,{\pos(752,1038)\an5\fade(255,0,255,380,880,880,1380)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(380,880,0.5,\bord3\blur1\fscx110\fscy110)\t(880,1380,2,\bord5\blur10\fscx100\fscy100)}り
+Dialogue: 0,0:05:04.78,0:05:06.69,OPJP,,0,0,0,,{\pos(804,1038)\an5\fade(255,0,255,610,1110,1110,1610)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(610,1110,0.5,\bord3\blur1\fscx110\fscy110)\t(1110,1610,2,\bord5\blur10\fscx100\fscy100)}ふ
+Dialogue: 0,0:05:04.78,0:05:06.88,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,800,1300,1300,1800)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(800,1300,0.5,\bord3\blur1\fscx110\fscy110)\t(1300,1800,2,\bord5\blur10\fscx100\fscy100)}れ
+Dialogue: 0,0:05:04.78,0:05:07.10,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,1020,1520,1520,2020)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1020,1520,0.5,\bord3\blur1\fscx110\fscy110)\t(1520,2020,2,\bord5\blur10\fscx100\fscy100)}た
+Dialogue: 0,0:05:04.78,0:05:07.30,OPJP,,0,0,0,,{\pos(1012,1038)\an5\fade(255,0,255,1220,1720,1720,2220)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1220,1720,0.5,\bord3\blur1\fscx110\fscy110)\t(1720,2220,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:04.78,0:05:07.48,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1400,1900,1900,2400)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1400,1900,0.5,\bord3\blur1\fscx110\fscy110)\t(1900,2400,2,\bord5\blur10\fscx100\fscy100)}の
+Dialogue: 0,0:05:04.78,0:05:07.75,OPJP,,0,0,0,,{\pos(1116,1038)\an5\fade(255,0,255,1670,2170,2170,2670)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1670,2170,0.5,\bord3\blur1\fscx110\fscy110)\t(2170,2670,2,\bord5\blur10\fscx100\fscy100)}だ
+Dialogue: 0,0:05:04.78,0:05:08.01,OPJP,,0,0,0,,{\pos(1168,1038)\an5\fade(255,0,255,1930,2430,2430,2930)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1930,2430,0.5,\bord3\blur1\fscx110\fscy110)\t(2430,2930,2,\bord5\blur10\fscx100\fscy100)}け
+Dialogue: 0,0:05:04.78,0:05:08.45,OPJP,,0,0,0,,{\pos(1220,1038)\an5\fade(255,0,255,2170,2670,2670,3370)\bord5\blur10\fscx90\fscy90\1c&H0D0E0C&\3c&H5E5B55&\t(272,606,1,\1c&H384172&\3c&H5A7BE1&)\t(1315,1690,1,\1c&H836953&\3c&HBD977C&)\t(2650,3100,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(2170,2670,0.5,\bord3\blur1\fscx110\fscy110)\t(2670,3370,2,\bord5\blur10\fscx100\fscy100)}ど
+Dialogue: 0,0:05:07.15,0:05:08.60,OPJP,,0,0,0,,{\pos(752,1038)\an5\fade(255,0,255,150,650,650,1150)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(150,650,0.5,\bord3\blur1\fscx110\fscy110)\t(650,1150,2,\bord5\blur10\fscx100\fscy100)}見
+Dialogue: 0,0:05:07.15,0:05:08.84,OPJP,,0,0,0,,{\pos(804,1038)\an5\fade(255,0,255,390,890,890,1390)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(390,890,0.5,\bord3\blur1\fscx110\fscy110)\t(890,1390,2,\bord5\blur10\fscx100\fscy100)}せ
+Dialogue: 0,0:05:07.15,0:05:09.11,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,660,1160,1160,1660)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(660,1160,0.5,\bord3\blur1\fscx110\fscy110)\t(1160,1660,2,\bord5\blur10\fscx100\fscy100)}て
+Dialogue: 0,0:05:07.15,0:05:09.32,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,870,1370,1370,1870)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(870,1370,0.5,\bord3\blur1\fscx110\fscy110)\t(1370,1870,2,\bord5\blur10\fscx100\fscy100)}や
+Dialogue: 0,0:05:07.15,0:05:09.52,OPJP,,0,0,0,,{\pos(960,1038)\an5\fade(255,0,255,1070,1570,1570,2070)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1070,1570,0.5,\bord3\blur1\fscx110\fscy110)\t(1570,2070,2,\bord5\blur10\fscx100\fscy100)}る
+Dialogue: 0,0:05:07.15,0:05:10.15,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1400,1900,1900,2400)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1400,1900,0.5,\bord3\blur1\fscx110\fscy110)\t(1900,2400,2,\bord5\blur10\fscx100\fscy100)}輝
+Dialogue: 0,0:05:07.15,0:05:10.34,OPJP,,0,0,0,,{\pos(1116,1038)\an5\fade(255,0,255,1890,2390,2390,2890)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(1890,2390,0.5,\bord3\blur1\fscx110\fscy110)\t(2390,2890,2,\bord5\blur10\fscx100\fscy100)}き
+Dialogue: 0,0:05:07.15,0:05:10.57,OPJP,,0,0,0,,{\pos(1168,1038)\an5\fade(255,0,255,2120,2620,2620,3120)\bord5\blur10\fscx90\fscy90\1c&H836953&\3c&HBD977C&\t(280,739,1,\1c&H3E3B33&\3c&H9F9FB5&)\t(2120,2620,0.5,\bord3\blur1\fscx110\fscy110)\t(2620,3120,2,\bord5\blur10\fscx100\fscy100)}に
+Dialogue: 0,0:05:09.27,0:05:10.74,OPJP,,0,0,0,,{\pos(700,1038)\an5\fade(255,0,255,170,670,670,1170)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(170,670,0.5,\bord3\blur1\fscx110\fscy110)\t(670,1170,2,\bord5\blur10\fscx100\fscy100)}満
+Dialogue: 0,0:05:09.27,0:05:10.97,OPJP,,0,0,0,,{\pos(752,1038)\an5\fade(255,0,255,400,900,900,1400)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(400,900,0.5,\bord3\blur1\fscx110\fscy110)\t(900,1400,2,\bord5\blur10\fscx100\fscy100)}ち
+Dialogue: 0,0:05:09.27,0:05:11.14,OPJP,,0,0,0,,{\pos(804,1038)\an5\fade(255,0,255,570,1070,1070,1570)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(570,1070,0.5,\bord3\blur1\fscx110\fscy110)\t(1070,1570,2,\bord5\blur10\fscx100\fscy100)}た
+Dialogue: 0,0:05:09.27,0:05:11.42,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,850,1350,1350,1850)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(850,1350,0.5,\bord3\blur1\fscx110\fscy110)\t(1350,1850,2,\bord5\blur10\fscx100\fscy100)}そ
+Dialogue: 0,0:05:09.27,0:05:11.69,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,1120,1620,1620,2120)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1120,1620,0.5,\bord3\blur1\fscx110\fscy110)\t(1620,2120,2,\bord5\blur10\fscx100\fscy100)}の
+Dialogue: 0,0:05:09.27,0:05:11.82,OPJP,,0,0,0,,{\pos(1012,1038)\an5\fade(255,0,255,1250,1750,1750,2250)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1250,1750,0.5,\bord3\blur1\fscx110\fscy110)\t(1750,2250,2,\bord5\blur10\fscx100\fscy100)}ひ
+Dialogue: 0,0:05:09.27,0:05:12.06,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1490,1990,1990,2490)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1490,1990,0.5,\bord3\blur1\fscx110\fscy110)\t(1990,2490,2,\bord5\blur10\fscx100\fscy100)}と
+Dialogue: 0,0:05:09.27,0:05:12.34,OPJP,,0,0,0,,{\pos(1116,1038)\an5\fade(255,0,255,1770,2270,2270,2770)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1770,2270,0.5,\bord3\blur1\fscx110\fscy110)\t(2270,2770,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:05:09.27,0:05:12.54,OPJP,,0,0,0,,{\pos(1168,1038)\an5\fade(255,0,255,1970,2470,2470,2970)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1970,2470,0.5,\bord3\blur1\fscx110\fscy110)\t(2470,2970,2,\bord5\blur10\fscx100\fscy100)}だ
+Dialogue: 0,0:05:09.27,0:05:12.73,OPJP,,0,0,0,,{\pos(1220,1038)\an5\fade(255,0,255,2160,2660,2660,3160)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(2160,2660,0.5,\bord3\blur1\fscx110\fscy110)\t(2660,3160,2,\bord5\blur10\fscx100\fscy100)}け
+Dialogue: 0,0:05:11.43,0:05:12.93,OPJP,,0,0,0,,{\pos(700,1038)\an5\fade(255,0,255,200,700,700,1200)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(200,700,0.5,\bord3\blur1\fscx110\fscy110)\t(700,1200,2,\bord5\blur10\fscx100\fscy100)}い
+Dialogue: 0,0:05:11.43,0:05:13.13,OPJP,,0,0,0,,{\pos(752,1038)\an5\fade(255,0,255,400,900,900,1400)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(400,900,0.5,\bord3\blur1\fscx110\fscy110)\t(900,1400,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:05:11.43,0:05:13.32,OPJP,,0,0,0,,{\pos(804,1038)\an5\fade(255,0,255,590,1090,1090,1590)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(590,1090,0.5,\bord3\blur1\fscx110\fscy110)\t(1090,1590,2,\bord5\blur10\fscx100\fscy100)}ま
+Dialogue: 0,0:05:11.43,0:05:13.54,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,810,1310,1310,1810)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(810,1310,0.5,\bord3\blur1\fscx110\fscy110)\t(1310,1810,2,\bord5\blur10\fscx100\fscy100)}で
+Dialogue: 0,0:05:11.43,0:05:13.82,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,1090,1590,1590,2090)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1090,1590,0.5,\bord3\blur1\fscx110\fscy110)\t(1590,2090,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:11.43,0:05:13.97,OPJP,,0,0,0,,{\pos(1012,1038)\an5\fade(255,0,255,1240,1740,1740,2240)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1240,1740,0.5,\bord3\blur1\fscx110\fscy110)\t(1740,2240,2,\bord5\blur10\fscx100\fscy100)}い
+Dialogue: 0,0:05:11.43,0:05:14.17,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1440,1940,1940,2440)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1440,1940,0.5,\bord3\blur1\fscx110\fscy110)\t(1940,2440,2,\bord5\blur10\fscx100\fscy100)}つ
+Dialogue: 0,0:05:11.43,0:05:14.40,OPJP,,0,0,0,,{\pos(1116,1038)\an5\fade(255,0,255,1670,2170,2170,2670)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1670,2170,0.5,\bord3\blur1\fscx110\fscy110)\t(2170,2670,2,\bord5\blur10\fscx100\fscy100)}ま
+Dialogue: 0,0:05:11.43,0:05:14.64,OPJP,,0,0,0,,{\pos(1168,1038)\an5\fade(255,0,255,1910,2410,2410,2910)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1910,2410,0.5,\bord3\blur1\fscx110\fscy110)\t(2410,2910,2,\bord5\blur10\fscx100\fscy100)}で
+Dialogue: 0,0:05:11.43,0:05:14.84,OPJP,,0,0,0,,{\pos(1220,1038)\an5\fade(255,0,255,2110,2610,2610,3110)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(2110,2610,0.5,\bord3\blur1\fscx110\fscy110)\t(2610,3110,2,\bord5\blur10\fscx100\fscy100)}も
+Dialogue: 0,0:05:13.54,0:05:15.30,OPJP,,0,0,0,,{\pos(856,1038)\an5\fade(255,0,255,260,760,760,1260)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(260,760,0.5,\bord3\blur1\fscx110\fscy110)\t(760,1260,2,\bord5\blur10\fscx100\fscy100)}守
+Dialogue: 0,0:05:13.54,0:05:15.49,OPJP,,0,0,0,,{\pos(908,1038)\an5\fade(255,0,255,650,1150,1150,1650)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(650,1150,0.5,\bord3\blur1\fscx110\fscy110)\t(1150,1650,2,\bord5\blur10\fscx100\fscy100)}っ
+Dialogue: 0,0:05:13.54,0:05:15.73,OPJP,,0,0,0,,{\pos(960,1038)\an5\fade(255,0,255,890,1390,1390,1890)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(890,1390,0.5,\bord3\blur1\fscx110\fscy110)\t(1390,1890,2,\bord5\blur10\fscx100\fscy100)}て
+Dialogue: 0,0:05:13.54,0:05:15.91,OPJP,,0,0,0,,{\pos(1012,1038)\an5\fade(255,0,255,1070,1570,1570,2070)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1070,1570,0.5,\bord3\blur1\fscx110\fscy110)\t(1570,2070,2,\bord5\blur10\fscx100\fscy100)}ゆ
+Dialogue: 0,0:05:13.54,0:05:17.51,OPJP,,0,0,0,,{\pos(1064,1038)\an5\fade(255,0,255,1270,1770,1770,3670)\bord5\blur10\fscx90\fscy90\1c&H3E3B33&\3c&H9F9FB5&\t(1270,1770,0.5,\bord3\blur1\fscx110\fscy110)\t(1770,3670,2,\bord5\blur10\fscx100\fscy100)}く
+Dialogue: 0,0:22:18.77,0:22:25.84,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf21}見{\kf26}つ{\kf24}め{\kf24}て{\kf26}い{\kf86}た{\kf47}　{\kf53}流{\kf26}れ{\kf68}る{\kf121}雲{\kf185}を
+Dialogue: 0,0:22:26.23,0:22:32.82,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf57}感{\kf23}じ{\kf22}て{\kf22}い{\kf100}た{\kf42}　{\kf29}変{\kf23}わ{\kf13}る{\kf137}空{\kf35}の{\kf72}色{\kf84}を
+Dialogue: 0,0:22:33.75,0:22:41.02,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf30}立{\kf30}ち{\kf21}止{\kf27}ま{\kf18}っ{\kf100}た{\kf37}　{\kf55}僕{\kf25}ら{\kf65}は{\kf64}気{\kf60}づ{\kf195}く
+Dialogue: 0,0:22:41.30,0:22:48.02,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf57}移{\kf24}ろ{\kf23}い{\kf23}行{\kf87}く{\kf45}　{\kf34}世{\kf47}界{\kf68}が{\kf98}紡{\kf45}ぐ{\kf50}歌{\kf71}に
+Dialogue: 0,0:22:48.41,0:22:55.53,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf98}伸{\kf30}ば{\kf41}し{\kf117}た{\kf18}{\kf80}指{\kf46}で{\kf28}手{\kf88}繰{\kf25}る{\kf34}よ{\kf35}う{\kf72}に
+Dialogue: 0,0:22:55.89,0:23:03.36,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf104}唯{\kf40}一{\kf98}つ{\kf23}{\kf55}変{\kf38}わ{\kf30}ら{\kf48}な{\kf25}い{\kf48}も{\kf22}の{\kf10}を{\kf120}探{\kf86}す
+Dialogue: 0,0:23:04.60,0:23:11.63,EDJP,,0,0,0,,{\be3\1c&HC380B8&\3c&HF2E3FA&\fad(200,200)}{\kf72}翳{\kf77}す{\kf70}手{\kf111}に{\kf35}　{\kf83}灯{\kf151}火{\kf104}を
+Dialogue: 0,0:23:11.99,0:23:19.31,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf40}明{\kf56}日{\kf72}へ{\kf24}と{\kf70}続{\kf82}く{\kf26}　{\kf69}小{\kf35}さ{\kf60}な{\kf198}標
+Dialogue: 0,0:23:19.49,0:23:26.46,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf89}今{\kf77}も{\kf73}ま{\kf119}だ{\kf26}　{\kf45}こ{\kf41}だ{\kf65}ま{\kf84}す{\kf78}る
+Dialogue: 0,0:23:26.92,0:23:34.03,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf65}あ{\kf46}の{\kf68}日{\kf26}の{\kf70}言{\kf84}葉{\kf25}　{\kf77}誓{\kf26}い{\kf92}に{\kf72}変{\kf60}え
+Dialogue: 0,0:23:34.40,0:23:38.80,EDJP,,0,0,0,,{\be3\fad(200,200)}{\kf93}僕{\kf20}は{\kf166}行{\kf161}く
+Dialogue: 0,0:00:09.38,0:00:20.15,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The place changes and goes. Like a wind, like clouds.
+Dialogue: 0,0:00:20.30,0:00:33.95,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}Like the traces of the heart, no halt at the places.
+Dialogue: 0,0:00:34.95,0:00:45.45,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The place is so far away, be far apart.
+Dialogue: 0,0:00:45.45,0:00:58.50,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}people's hand does not reach, so merely has the worship.
+Dialogue: 0,0:01:00.31,0:01:10.80,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The place is a lofty lord. can't meet nobody put on.
+Dialogue: 0,0:01:11.36,0:01:23.74,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}We will lose the place. so lofty which changes.
+Dialogue: 0,0:01:24.77,0:01:35.69,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}Not all were desired. However, we're never sad.
+Dialogue: 0,0:01:36.58,0:01:50.26,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}still, there is still the place. far away. far away.
+Dialogue: 0,0:02:19.52,0:02:30.19,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The place buried in deep snow. like the collapsing castle.
+Dialogue: 0,0:02:30.19,0:02:43.64,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}like the head of the shade, figure will be thrown away.
+Dialogue: 0,0:02:44.90,0:02:55.29,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The hut buried in deep snow. It sinks in to the flood.
+Dialogue: 0,0:02:55.71,0:03:09.30,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}and the "not dyeing" is dyed out, and waits for a oppose one.
+Dialogue: 0,0:03:10.27,0:03:20.87,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}The place is a lofty lord. can't meet nobody put on.
+Dialogue: 0,0:03:21.16,0:03:36.91,eng-Ana,,0,0,0,,{\blur3\fad(300,300)}still, there is still the place. far away. far away.
+Dialogue: 0,0:00:09.38,0:00:20.15,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}時空荏苒 如風似雲
+Dialogue: 0,0:00:20.30,0:00:33.95,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}宛如心跡 毫不停息
+Dialogue: 0,0:00:34.95,0:00:45.45,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}彼方之遠 支離破碎
+Dialogue: 0,0:00:45.45,0:00:58.50,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}無法觸及 唯能禮敬
+Dialogue: 0,0:01:00.31,0:01:10.80,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}高高在上 君臨萬物
+Dialogue: 0,0:01:11.36,0:01:23.74,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}轉瞬即逝 變幻莫測
+Dialogue: 0,0:01:24.77,0:01:35.69,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}絕非遂心 從不氣餒
+Dialogue: 0,0:01:36.58,0:01:50.26,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}約定之地 其路漫漫
+Dialogue: 0,0:02:19.52,0:02:30.19,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}沒入冰雪 搖搖欲墜
+Dialogue: 0,0:02:30.19,0:02:43.64,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}更似暗影 無蹤無跡
+Dialogue: 0,0:02:44.90,0:02:55.29,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}雪覆屋頂 深陷其間
+Dialogue: 0,0:02:55.71,0:03:09.30,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}銀裝素裹 靜待君臨
+Dialogue: 0,0:03:10.27,0:03:20.87,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}高高在上 君臨萬物
+Dialogue: 0,0:03:21.16,0:03:36.91,chs-Ana,,0,0,0,,{\blur3\fad(300,300)}此地永在 其路修遠
+Dialogue: 0,0:00:11.53,0:00:12.61,chs for CL汐,,0,0,0,,{\blur3}我們回來了
+Dialogue: 0,0:00:13.07,0:00:14.30,chs for CL汐,,0,0,0,,{\blur3}歡迎回來
+Dialogue: 0,0:00:14.90,0:00:16.99,chs for CL汐,,0,0,0,,{\blur3}旅行高興嗎
+Dialogue: 0,0:00:17.16,0:00:17.62,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:00:17.93,0:00:20.70,chs for CL汐,,0,0,0,,{\blur3}早苗阿姨 下次要跟我約會哦
+Dialogue: 0,0:00:20.78,0:00:21.33,chs for CL汐,,0,0,0,,{\blur3}嗯？
+Dialogue: 0,0:00:21.54,0:00:24.29,chs for CL汐,,0,0,0,,{\blur3}因為這次跟說好的不一樣嘛
+Dialogue: 0,0:00:24.36,0:00:27.63,chs for CL汐,,0,0,0,,{\blur3}我本來還很期待著跟早苗阿姨一起去旅行的呢
+Dialogue: 0,0:00:27.84,0:00:30.26,chs for CL汐,,0,0,0,,{\blur3}你這傢伙 別糾纏別人的老婆
+Dialogue: 0,0:00:30.38,0:00:31.74,chs for CL汐,,0,0,0,,{\blur3}阿秋
+Dialogue: 0,0:00:32.08,0:00:35.27,chs for CL汐,,0,0,0,,{\blur3}當然 約會的時候也會帶上汐 是吧
+Dialogue: 0,0:00:35.54,0:00:36.15,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:00:36.29,0:00:37.92,chs for CL汐,,0,0,0,,{\blur3}那讓我也參加進來吧
+Dialogue: 0,0:00:37.97,0:00:40.07,chs for CL汐,,0,0,0,,{\blur3}我們三人好好玩一玩吧
+Dialogue: 0,0:00:40.23,0:00:41.62,chs for CL汐,,0,0,0,,{\blur3}朋也 汐
+Dialogue: 0,0:00:41.62,0:00:43.68,chs for CL汐,,0,0,0,,{\blur3}別把我排除在外啊
+Dialogue: 0,0:01:11.47,0:01:12.18,chs for CL汐,,0,0,0,,{\blur3}渚…
+Dialogue: 0,0:01:14.46,0:01:15.39,chs for CL汐,,0,0,0,,{\blur3}朋也
+Dialogue: 0,0:01:18.75,0:01:20.18,chs for CL汐,,0,0,0,,{\blur3}一點也沒變吧
+Dialogue: 0,0:01:21.13,0:01:24.90,chs for CL汐,,0,0,0,,{\blur3}這房間還保持著你們結婚時的狀態
+Dialogue: 0,0:01:25.05,0:01:27.22,chs for CL汐,,0,0,0,,{\blur3}是啊 一點也沒變呢
+Dialogue: 0,0:01:28.06,0:01:29.93,chs for CL汐,,0,0,0,,{\blur3}那個 要帶走嗎
+Dialogue: 0,0:01:30.96,0:01:32.24,chs for CL汐,,0,0,0,,{\blur3}我指那個布偶
+Dialogue: 0,0:01:33.02,0:01:35.13,chs for CL汐,,0,0,0,,{\blur3}汐也很喜歡那個呢
+Dialogue: 0,0:01:39.01,0:01:41.47,chs for CL汐,,0,0,0,,{\blur3}這麼長的時間 真是對不起你們
+Dialogue: 0,0:01:41.56,0:01:42.31,chs for CL汐,,0,0,0,,{\blur3}嗯？
+Dialogue: 0,0:01:42.56,0:01:44.76,chs for CL汐,,0,0,0,,{\blur3}我一直把汐推給你們
+Dialogue: 0,0:01:46.19,0:01:49.17,chs for CL汐,,0,0,0,,{\blur3}我能找到身為父親的責任和義務
+Dialogue: 0,0:01:49.53,0:01:51.80,chs for CL汐,,0,0,0,,{\blur3}也全都是靠了早苗阿姨
+Dialogue: 0,0:01:51.89,0:01:54.37,chs for CL汐,,0,0,0,,{\blur3}我什麼也沒做哦
+Dialogue: 0,0:01:54.83,0:01:57.67,chs for CL汐,,0,0,0,,{\blur3}真的把她培養成了一個好孩子
+Dialogue: 0,0:01:58.29,0:01:59.70,chs for CL汐,,0,0,0,,{\blur3}我都不知道該如何道謝了
+Dialogue: 0,0:01:59.76,0:02:02.17,chs for CL汐,,0,0,0,,{\blur3}好 接下來模仿江川吧
+Dialogue: 0,0:02:02.27,0:02:03.65,chs for CL汐,,0,0,0,,{\blur3}江川
+Dialogue: 0,0:02:05.37,0:02:08.41,chs for CL汐,,0,0,0,,{\blur3}但是 接下來我會靠自己來好好撫養她
+Dialogue: 0,0:02:08.94,0:02:12.93,chs for CL汐,,0,0,0,,{\blur3}把她培養成和渚一樣既為別人著想 又堅強的孩子
+Dialogue: 0,0:02:14.10,0:02:20.92,chs for CL汐,,0,0,0,,{\blur3}秋生和我為了渚而換工作 也是在渚五歲的時候
+Dialogue: 0,0:02:21.62,0:02:22.95,chs for CL汐,,0,0,0,,{\blur3}你要加油哦
+Dialogue: 0,0:02:24.13,0:02:26.77,chs for CL汐,,0,0,0,,{\blur3}我會用一生來報答這份恩情的
+Dialogue: 0,0:02:27.47,0:02:30.37,chs for CL汐,,0,0,0,,{\blur3}那麼 就請你們幸福哦
+Dialogue: 0,0:02:33.25,0:02:36.01,chs for CL汐,,0,0,0,,{\blur3}我們一定會幸福的 跟汐一起
+Dialogue: 0,0:02:36.42,0:02:37.04,chs for CL汐,,0,0,0,,{\blur3}好的
+Dialogue: 0,0:02:38.38,0:02:39.39,chs for CL汐,,0,0,0,,{\blur3}爸爸
+Dialogue: 0,0:02:43.18,0:02:44.63,chs for CL汐,,0,0,0,,{\blur3}怎麼了 汐
+Dialogue: 0,0:02:44.98,0:02:46.92,chs for CL汐,,0,0,0,,{\blur3}阿秋說打棒球
+Dialogue: 0,0:02:49.28,0:02:50.54,chs for CL汐,,0,0,0,,{\blur3}加油
+Dialogue: 0,0:02:50.62,0:02:52.51,chs for CL汐,,0,0,0,,{\blur3}請加油哦
+Dialogue: 0,0:02:53.84,0:02:57.71,chs for CL汐,,0,0,0,,{\blur3}像條死魚一樣的傢伙復活了嗎
+Dialogue: 0,0:02:57.79,0:02:59.42,chs for CL汐,,0,0,0,,{\blur3}別廢話了 快投吧
+Dialogue: 0,0:02:59.55,0:03:04.01,chs for CL汐,,0,0,0,,{\blur3}汐 好好記住你老爸的醜態哦
+Dialogue: 0,0:03:04.09,0:03:05.09,chs for CL汐,,0,0,0,,{\blur3}喂喂喂
+Dialogue: 0,0:03:05.19,0:03:07.49,chs for CL汐,,0,0,0,,{\blur3}汐認為哪邊會贏呢
+Dialogue: 0,0:03:07.61,0:03:08.64,chs for CL汐,,0,0,0,,{\blur3}阿秋
+Dialogue: 0,0:03:08.73,0:03:09.58,chs for CL汐,,0,0,0,,{\blur3}真的嗎
+Dialogue: 0,0:03:10.51,0:03:13.01,chs for CL汐,,0,0,0,,{\blur3}那孩子可是看著我的英姿長大的
+Dialogue: 0,0:03:13.65,0:03:16.06,chs for CL汐,,0,0,0,,{\blur3}那麼 看我怎麼打敗你
+Dialogue: 0,0:03:17.24,0:03:18.18,chs for CL汐,,0,0,0,,{\blur3}可笑至極
+Dialogue: 0,0:03:27.04,0:03:28.43,chs for CL汐,,0,0,0,,{\blur3}啊 怎麼可能
+Dialogue: 0,0:03:28.55,0:03:29.65,chs for CL汐,,0,0,0,,{\blur3}看到了嗎 汐
+Dialogue: 0,0:03:31.96,0:03:35.01,chs for CL汐,,0,0,0,,{\blur3}又得去道歉了呢
+Dialogue: 0,0:05:33.47,0:05:34.37,chs for CL汐,,0,0,0,,{\blur3}早苗啊
+Dialogue: 0,0:05:35.35,0:05:37.40,chs for CL汐,,0,0,0,,{\blur3}你也沒資格說別人吧
+Dialogue: 0,0:05:39.18,0:05:40.65,chs for CL汐,,0,0,0,,{\blur3}從那天起就再也沒哭過
+Dialogue: 0,0:05:42.29,0:05:44.24,chs for CL汐,,0,0,0,,{\blur3}你真清楚呢
+Dialogue: 0,0:05:44.98,0:05:48.72,chs for CL汐,,0,0,0,,{\blur3}那當然了 你當我是誰啊
+Dialogue: 0,0:05:49.42,0:05:52.17,chs for CL汐,,0,0,0,,{\blur3}因為我有了自己的目標
+Dialogue: 0,0:05:52.65,0:05:55.59,chs for CL汐,,0,0,0,,{\blur3}因為我必須要去養育汐
+Dialogue: 0,0:05:57.00,0:06:01.57,chs for CL汐,,0,0,0,,{\blur3}所以真太好了 沒有迷失了自我
+Dialogue: 0,0:06:02.19,0:06:03.54,chs for CL汐,,0,0,0,,{\blur3}五年嗎…
+Dialogue: 0,0:06:03.91,0:06:07.45,chs for CL汐,,0,0,0,,{\blur3}多虧了汐我們才有了寄託呢
+Dialogue: 0,0:06:08.01,0:06:10.06,chs for CL汐,,0,0,0,,{\blur3}嗯 沒錯呢
+Dialogue: 0,0:06:10.75,0:06:13.07,chs for CL汐,,0,0,0,,{\blur3}但這下也終於結束了呢
+Dialogue: 0,0:06:14.12,0:06:14.77,chs for CL汐,,0,0,0,,{\blur3}是
+Dialogue: 0,0:06:16.82,0:06:19.03,chs for CL汐,,0,0,0,,{\blur3}這麼長的時間真是辛苦你了
+Dialogue: 0,0:06:19.48,0:06:22.71,chs for CL汐,,0,0,0,,{\blur3}哪裡 我們是一家人啊
+Dialogue: 0,0:06:24.50,0:06:25.57,chs for CL汐,,0,0,0,,{\blur3}已經…
+Dialogue: 0,0:06:26.21,0:06:27.11,chs for CL汐,,0,0,0,,{\blur3}可以了
+Dialogue: 0,0:06:29.32,0:06:30.73,chs for CL汐,,0,0,0,,{\blur3}你做得很好
+Dialogue: 0,0:06:31.34,0:06:33.07,chs for CL汐,,0,0,0,,{\blur3}這次該你好好哭一場了
+Dialogue: 0,0:06:33.86,0:06:34.77,chs for CL汐,,0,0,0,,{\blur3}秋生…
+Dialogue: 0,0:06:35.34,0:06:37.97,chs for CL汐,,0,0,0,,{\blur3}覺得撐不下去的時候 還有我在
+Dialogue: 0,0:06:38.49,0:06:40.97,chs for CL汐,,0,0,0,,{\blur3}在你哭完之前 我都會在你身邊
+Dialogue: 0,0:06:41.59,0:06:43.53,chs for CL汐,,0,0,0,,{\blur3}所以 已經可以了
+Dialogue: 0,0:07:14.94,0:07:16.10,chs for CL汐,,0,0,0,,{\blur3}那麼 我們就走了
+Dialogue: 0,0:07:16.23,0:07:17.31,chs for CL汐,,0,0,0,,{\blur3}我們走了
+Dialogue: 0,0:07:17.45,0:07:18.60,chs for CL汐,,0,0,0,,{\blur3}路上小心哦
+Dialogue: 0,0:07:18.63,0:07:20.49,chs for CL汐,,0,0,0,,{\blur3}哦 去叼了回來
+Dialogue: 0,0:07:20.51,0:07:21.06,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:07:22.17,0:07:23.61,chs for CL汐,,0,0,0,,{\blur3}你也能聽懂啊
+Dialogue: 0,0:07:24.34,0:07:27.32,chs for CL汐,,0,0,0,,{\blur3}今天開始就要跟爸爸一起住了呢
+Dialogue: 0,0:07:27.32,0:07:28.73,chs for CL汐,,0,0,0,,{\blur3}要做個乖孩子哦
+Dialogue: 0,0:07:28.87,0:07:29.54,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:07:30.25,0:07:33.27,chs for CL汐,,0,0,0,,{\blur3}以後我因為工作下班遲了的時候
+Dialogue: 0,0:07:33.34,0:07:35.59,chs for CL汐,,0,0,0,,{\blur3}幼兒園的接送還得拜託你們
+Dialogue: 0,0:07:35.64,0:07:37.17,chs for CL汐,,0,0,0,,{\blur3}嗯 全交給我吧
+Dialogue: 0,0:07:37.61,0:07:40.20,chs for CL汐,,0,0,0,,{\blur3}朋也 關於那邊的…
+Dialogue: 0,0:07:42.87,0:07:43.74,chs for CL汐,,0,0,0,,{\blur3}我知道
+Dialogue: 0,0:07:44.84,0:07:46.89,chs for CL汐,,0,0,0,,{\blur3}我打算最近就過去
+Dialogue: 0,0:07:50.29,0:07:53.36,chs for CL汐,,0,0,0,,{\blur3}您的情況我從古河夫人那裡聽說了
+Dialogue: 0,0:07:53.90,0:07:56.25,chs for CL汐,,0,0,0,,{\blur3}今後還請多多關照了呢
+Dialogue: 0,0:07:56.32,0:07:58.50,chs for CL汐,,0,0,0,,{\blur3}彼此彼此
+Dialogue: 0,0:08:00.26,0:08:01.17,chs for CL汐,,0,0,0,,{\blur3}那麼 汐
+Dialogue: 0,0:08:01.64,0:08:03.25,chs for CL汐,,0,0,0,,{\blur3}爸爸去工作了
+Dialogue: 0,0:08:03.45,0:08:05.55,chs for CL汐,,0,0,0,,{\blur3}嗯 慢走 爸爸
+Dialogue: 0,0:08:05.76,0:08:07.07,chs for CL汐,,0,0,0,,{\blur3}嗯 我走了
+Dialogue: 0,0:08:14.57,0:08:16.81,chs for CL汐,,0,0,0,,{\blur3}看 那個人就是岡崎先生
+Dialogue: 0,0:08:16.97,0:08:18.85,chs for CL汐,,0,0,0,,{\blur3}一直以來都幹什麼去了啊
+Dialogue: 0,0:08:19.23,0:08:22.01,chs for CL汐,,0,0,0,,{\blur3}是不是跟古河家發生過什麼
+Dialogue: 0,0:08:22.19,0:08:23.25,chs for CL汐,,0,0,0,,{\blur3}家庭糾紛？
+Dialogue: 0,0:08:23.35,0:08:26.04,chs for CL汐,,0,0,0,,{\blur3}要是以前的我肯定發飆了呢
+Dialogue: 0,0:08:26.70,0:08:30.88,chs for CL汐,,0,0,0,,{\blur3}你好 我是岡崎 是岡崎汐的父親
+Dialogue: 0,0:08:31.45,0:08:32.48,chs for CL汐,,0,0,0,,{\blur3}啊 你好
+Dialogue: 0,0:08:32.57,0:08:33.40,chs for CL汐,,0,0,0,,{\blur3}你好
+Dialogue: 0,0:08:33.45,0:08:38.16,chs for CL汐,,0,0,0,,{\blur3}因為一些原因 一直都把女兒託付給了妻子的娘家
+Dialogue: 0,0:08:38.49,0:08:43.18,chs for CL汐,,0,0,0,,{\blur3}從今天起我們就要一起住了 還請多多關照
+Dialogue: 0,0:08:43.67,0:08:46.12,chs for CL汐,,0,0,0,,{\blur3}不 您太客氣了 我們才是請你多關照
+Dialogue: 0,0:08:46.32,0:08:50.20,chs for CL汐,,0,0,0,,{\blur3}我家的孩子 跟小汐也很要好呢
+Dialogue: 0,0:08:50.24,0:08:52.07,chs for CL汐,,0,0,0,,{\blur3}請多多關照了呢
+Dialogue: 0,0:08:53.14,0:08:53.92,chs for CL汐,,0,0,0,,{\blur3}是嗎
+Dialogue: 0,0:08:54.34,0:08:55.99,chs for CL汐,,0,0,0,,{\blur3}你們要住在一起了嗎
+Dialogue: 0,0:08:56.12,0:08:59.59,chs for CL汐,,0,0,0,,{\blur3}是的 一直以來勞煩您為我們擔心了
+Dialogue: 0,0:08:59.74,0:09:01.18,chs for CL汐,,0,0,0,,{\blur3}但是會很辛苦的吧
+Dialogue: 0,0:09:01.43,0:09:03.49,chs for CL汐,,0,0,0,,{\blur3}要一個人帶大一個小孩子的話
+Dialogue: 0,0:09:03.75,0:09:08.46,chs for CL汐,,0,0,0,,{\blur3}最重要的時期已經由早苗阿姨和大叔代為照顧了
+Dialogue: 0,0:09:08.90,0:09:10.76,chs for CL汐,,0,0,0,,{\blur3}所以從今往後無論如何辛苦
+Dialogue: 0,0:09:11.08,0:09:13.24,chs for CL汐,,0,0,0,,{\blur3}和他們的辛苦比起來 都算不了什麼
+Dialogue: 0,0:09:14.15,0:09:16.23,chs for CL汐,,0,0,0,,{\blur3}如果有什麼困難 隨時可以來找我
+Dialogue: 0,0:09:16.60,0:09:20.22,chs for CL汐,,0,0,0,,{\blur3}公司也會盡力幫忙的
+Dialogue: 0,0:09:21.18,0:09:22.84,chs for CL汐,,0,0,0,,{\blur3}那麼 恕我冒昧…
+Dialogue: 0,0:09:25.59,0:09:26.40,chs for CL汐,,0,0,0,,{\blur3}爸爸
+Dialogue: 0,0:09:26.60,0:09:28.46,chs for CL汐,,0,0,0,,{\blur3}汐 我來接你了
+Dialogue: 0,0:09:30.36,0:09:30.92,chs for CL汐,,0,0,0,,{\blur3}您好
+Dialogue: 0,0:09:31.47,0:09:34.00,chs for CL汐,,0,0,0,,{\blur3}雖然現在是夏季保育中
+Dialogue: 0,0:09:34.11,0:09:37.43,chs for CL汐,,0,0,0,,{\blur3}但是小汐班級的班主任請假了
+Dialogue: 0,0:09:37.56,0:09:39.42,chs for CL汐,,0,0,0,,{\blur3}請假是因為生病了嗎
+Dialogue: 0,0:09:39.78,0:09:42.15,chs for CL汐,,0,0,0,,{\blur3}她去參加保育士的研修會了
+Dialogue: 0,0:09:42.77,0:09:44.67,chs for CL汐,,0,0,0,,{\blur3}下週就回來了
+Dialogue: 0,0:09:44.67,0:09:47.27,chs for CL汐,,0,0,0,,{\blur3}回來後 請重新和她打聲招呼
+Dialogue: 0,0:09:47.70,0:09:48.61,chs for CL汐,,0,0,0,,{\blur3}我知道了
+Dialogue: 0,0:09:49.53,0:09:51.89,chs for CL汐,,0,0,0,,{\blur3}你的老師是個怎麼樣的人
+Dialogue: 0,0:09:52.32,0:09:55.27,chs for CL汐,,0,0,0,,{\blur3}頭髮長長的 既漂亮又溫柔
+Dialogue: 0,0:09:58.33,0:10:00.76,chs for CL汐,,0,0,0,,{\blur3}那麼 爸爸要回去工作了
+Dialogue: 0,0:10:01.43,0:10:04.71,chs for CL汐,,0,0,0,,{\blur3}如果有外人來了 不可以開門的哦
+Dialogue: 0,0:10:04.96,0:10:05.28,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:10:06.11,0:10:08.95,chs for CL汐,,0,0,0,,{\blur3}有什麼事的話就給早苗阿姨打電話
+Dialogue: 0,0:10:09.03,0:10:11.03,chs for CL汐,,0,0,0,,{\blur3}電話你會打吧
+Dialogue: 0,0:10:11.42,0:10:12.08,chs for CL汐,,0,0,0,,{\blur3}會
+Dialogue: 0,0:10:12.89,0:10:15.10,chs for CL汐,,0,0,0,,{\blur3}我會在天黑前回來的
+Dialogue: 0,0:10:15.28,0:10:15.83,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:10:16.74,0:10:17.61,chs for CL汐,,0,0,0,,{\blur3}我走了
+Dialogue: 0,0:10:17.69,0:10:19.61,chs for CL汐,,0,0,0,,{\blur3}走好 爸爸
+Dialogue: 0,0:10:46.05,0:10:46.82,chs for CL汐,,0,0,0,,{\blur3}是誰
+Dialogue: 0,0:10:46.92,0:10:47.72,chs for CL汐,,0,0,0,,{\blur3}是爸爸
+Dialogue: 0,0:10:47.96,0:10:50.56,chs for CL汐,,0,0,0,,{\blur3}兩隻手拿滿了行李 幫我開一下門
+Dialogue: 0,0:10:56.09,0:10:58.33,chs for CL汐,,0,0,0,,{\blur3}從古河家拿過來了
+Dialogue: 0,0:10:58.43,0:11:02.06,chs for CL汐,,0,0,0,,{\blur3}糰子大家族和你的換洗衣服 還有玩具什麼的
+Dialogue: 0,0:11:03.36,0:11:04.96,chs for CL汐,,0,0,0,,{\blur3}首先把這個放好
+Dialogue: 0,0:11:05.98,0:11:07.69,chs for CL汐,,0,0,0,,{\blur3}放哪裡比較好呢
+Dialogue: 0,0:11:12.44,0:11:13.14,chs for CL汐,,0,0,0,,{\blur3}這裡
+Dialogue: 0,0:11:13.80,0:11:15.01,chs for CL汐,,0,0,0,,{\blur3}好 就放那兒
+Dialogue: 0,0:11:23.70,0:11:25.66,chs for CL汐,,0,0,0,,{\blur3}爸爸會做飯嗎
+Dialogue: 0,0:11:26.22,0:11:28.40,chs for CL汐,,0,0,0,,{\blur3}從現在開始會慢慢去學的
+Dialogue: 0,0:11:28.77,0:11:29.94,chs for CL汐,,0,0,0,,{\blur3}我們兩個人一起學吧
+Dialogue: 0,0:11:30.40,0:11:30.90,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:11:32.22,0:11:33.50,chs for CL汐,,0,0,0,,{\blur3}岡崎先生
+Dialogue: 0,0:11:36.89,0:11:39.61,chs for CL汐,,0,0,0,,{\blur3}公子小姐 好久不見了
+Dialogue: 0,0:11:39.69,0:11:41.62,chs for CL汐,,0,0,0,,{\blur3}好幾年不見了啊
+Dialogue: 0,0:11:42.27,0:11:43.24,chs for CL汐,,0,0,0,,{\blur3}這孩子是…
+Dialogue: 0,0:11:43.62,0:11:45.03,chs for CL汐,,0,0,0,,{\blur3}她是我的女兒 叫汐
+Dialogue: 0,0:11:45.31,0:11:47.16,chs for CL汐,,0,0,0,,{\blur3}汐 快打招呼
+Dialogue: 0,0:11:47.61,0:11:49.04,chs for CL汐,,0,0,0,,{\blur3}你好
+Dialogue: 0,0:11:50.28,0:11:53.46,chs for CL汐,,0,0,0,,{\blur3}你好 我叫芳野公子
+Dialogue: 0,0:11:55.02,0:11:57.19,chs for CL汐,,0,0,0,,{\blur3}這孩子就是小渚的…
+Dialogue: 0,0:11:58.05,0:11:59.87,chs for CL汐,,0,0,0,,{\blur3}很像啊
+Dialogue: 0,0:12:00.85,0:12:03.30,chs for CL汐,,0,0,0,,{\blur3}她也一定能成為像小渚那樣
+Dialogue: 0,0:12:03.56,0:12:06.78,chs for CL汐,,0,0,0,,{\blur3}既堅強又討人喜歡的女性吧
+Dialogue: 0,0:12:06.94,0:12:09.27,chs for CL汐,,0,0,0,,{\blur3}如果能這樣就好了
+Dialogue: 0,0:12:09.71,0:12:11.68,chs for CL汐,,0,0,0,,{\blur3}她以前是媽媽的老師哦
+Dialogue: 0,0:12:13.28,0:12:15.93,chs for CL汐,,0,0,0,,{\blur3}對了 我聽芳野先生說了
+Dialogue: 0,0:12:16.25,0:12:18.25,chs for CL汐,,0,0,0,,{\blur3}您妹妹出院了吧
+Dialogue: 0,0:12:18.71,0:12:19.75,chs for CL汐,,0,0,0,,{\blur3}恭喜
+Dialogue: 0,0:12:20.26,0:12:24.34,chs for CL汐,,0,0,0,,{\blur3}是的 雖然醫生說這是奇蹟
+Dialogue: 0,0:12:24.34,0:12:26.38,chs for CL汐,,0,0,0,,{\blur3}但我們一直都堅信著她會醒過來
+Dialogue: 0,0:12:27.14,0:12:30.01,chs for CL汐,,0,0,0,,{\blur3}其實今天是和妹妹一起出來的
+Dialogue: 0,0:12:31.74,0:12:33.59,chs for CL汐,,0,0,0,,{\blur3}小風
+Dialogue: 0,0:12:42.22,0:12:44.91,chs for CL汐,,0,0,0,,{\blur3}快打招呼 他們是姐姐的朋友
+Dialogue: 0,0:12:47.87,0:12:49.35,chs for CL汐,,0,0,0,,{\blur3}她就是您的妹妹啊
+Dialogue: 0,0:12:59.77,0:13:01.73,chs for CL汐,,0,0,0,,{\blur3}您妹妹真有趣啊
+Dialogue: 0,0:13:02.02,0:13:03.81,chs for CL汐,,0,0,0,,{\blur3}小風 沒事的
+Dialogue: 0,0:13:03.81,0:13:06.28,chs for CL汐,,0,0,0,,{\blur3}他是姐姐的朋友
+Dialogue: 0,0:13:07.29,0:13:08.67,chs for CL汐,,0,0,0,,{\blur3}她是我妹妹風子
+Dialogue: 0,0:13:09.49,0:13:12.11,chs for CL汐,,0,0,0,,{\blur3}這兩位是岡崎先生和小汐
+Dialogue: 0,0:13:12.23,0:13:13.50,chs for CL汐,,0,0,0,,{\blur3}初次見面
+Dialogue: 0,0:13:13.68,0:13:15.28,chs for CL汐,,0,0,0,,{\blur3}嗯 初次見面
+Dialogue: 0,0:13:15.40,0:13:16.84,chs for CL汐,,0,0,0,,{\blur3}初次見面
+Dialogue: 0,0:13:20.82,0:13:21.36,chs for CL汐,,0,0,0,,{\blur3}幹什麼啊
+Dialogue: 0,0:13:21.41,0:13:23.80,chs for CL汐,,0,0,0,,{\blur3}太可愛了 我能抱她嗎
+Dialogue: 0,0:13:24.91,0:13:27.63,chs for CL汐,,0,0,0,,{\blur3}喂 你一說完就抱啊
+Dialogue: 0,0:13:27.70,0:13:30.03,chs for CL汐,,0,0,0,,{\blur3}小風 不能這樣哦 太沒禮貌了
+Dialogue: 0,0:13:32.15,0:13:34.16,chs for CL汐,,0,0,0,,{\blur3}對不起 她就是這樣的
+Dialogue: 0,0:13:34.75,0:13:36.11,chs for CL汐,,0,0,0,,{\blur3}她多大了
+Dialogue: 0,0:13:36.53,0:13:38.52,chs for CL汐,,0,0,0,,{\blur3}和岡崎先生同齡
+Dialogue: 0,0:13:38.96,0:13:41.21,chs for CL汐,,0,0,0,,{\blur3}但是因為一直昏迷著
+Dialogue: 0,0:13:41.36,0:13:45.33,chs for CL汐,,0,0,0,,{\blur3}所以她本人的感覺還只是高中一年級
+Dialogue: 0,0:13:45.83,0:13:48.83,chs for CL汐,,0,0,0,,{\blur3}話說 感覺和汐沒多大區別嘛
+Dialogue: 0,0:13:49.59,0:13:53.06,chs for CL汐,,0,0,0,,{\blur3}真是的 姐姐和岡崎先生太失禮了
+Dialogue: 0,0:13:53.17,0:13:56.37,chs for CL汐,,0,0,0,,{\blur3}生氣了 所以這孩子就是風子的妹妹了
+Dialogue: 0,0:13:57.19,0:13:59.43,chs for CL汐,,0,0,0,,{\blur3}別說莫名其妙的話
+Dialogue: 0,0:13:59.43,0:14:01.70,chs for CL汐,,0,0,0,,{\blur3}趁亂也不行嗎
+Dialogue: 0,0:14:01.94,0:14:02.55,chs for CL汐,,0,0,0,,{\blur3}不行
+Dialogue: 0,0:14:02.85,0:14:05.69,chs for CL汐,,0,0,0,,{\blur3}嗚 真是太可惜了
+Dialogue: 0,0:14:10.31,0:14:11.74,chs for CL汐,,0,0,0,,{\blur3}雖然有點怪
+Dialogue: 0,0:14:11.87,0:14:14.12,chs for CL汐,,0,0,0,,{\blur3}但是交到了新朋友真是太好了呢
+Dialogue: 0,0:14:14.15,0:14:14.75,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:14:15.23,0:14:19.90,chs for CL汐,,0,0,0,,{\blur3}汐 爸爸明天也請假了 我們一起出去吧
+Dialogue: 0,0:14:20.57,0:14:21.70,chs for CL汐,,0,0,0,,{\blur3}又去旅行？
+Dialogue: 0,0:14:22.59,0:14:23.82,chs for CL汐,,0,0,0,,{\blur3}不是旅行
+Dialogue: 0,0:14:29.99,0:14:32.31,chs for CL汐,,0,0,0,,{\blur3}你也喜歡糰子大家族嗎
+Dialogue: 0,0:14:32.46,0:14:34.17,chs for CL汐,,0,0,0,,{\blur3}早苗說過
+Dialogue: 0,0:14:34.46,0:14:36.61,chs for CL汐,,0,0,0,,{\blur3}這是媽媽的味道
+Dialogue: 0,0:14:36.97,0:14:37.61,chs for CL汐,,0,0,0,,{\blur3}是嗎
+Dialogue: 0,0:14:38.45,0:14:39.82,chs for CL汐,,0,0,0,,{\blur3}好香
+Dialogue: 0,0:14:59.77,0:15:00.55,chs for CL汐,,0,0,0,,{\blur3}我回來了
+Dialogue: 0,0:15:17.91,0:15:18.61,chs for CL汐,,0,0,0,,{\blur3}哦…
+Dialogue: 0,0:15:19.51,0:15:20.61,chs for CL汐,,0,0,0,,{\blur3}朋也君
+Dialogue: 0,0:15:31.63,0:15:32.28,chs for CL汐,,0,0,0,,{\blur3}我回來了
+Dialogue: 0,0:15:33.15,0:15:33.80,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:15:34.92,0:15:36.78,chs for CL汐,,0,0,0,,{\blur3}老了很多啊 老爸
+Dialogue: 0,0:15:37.61,0:15:38.30,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:15:41.57,0:15:42.85,chs for CL汐,,0,0,0,,{\blur3}她是你的孫女
+Dialogue: 0,0:15:44.94,0:15:46.22,chs for CL汐,,0,0,0,,{\blur3}你好
+Dialogue: 0,0:15:47.10,0:15:48.23,chs for CL汐,,0,0,0,,{\blur3}你好
+Dialogue: 0,0:15:52.08,0:15:53.50,chs for CL汐,,0,0,0,,{\blur3}你一直待在家裡嗎
+Dialogue: 0,0:15:54.98,0:15:55.72,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:15:57.60,0:15:59.64,chs for CL汐,,0,0,0,,{\blur3}我見過你的母親了
+Dialogue: 0,0:16:01.79,0:16:03.31,chs for CL汐,,0,0,0,,{\blur3}和她一起去旅行的
+Dialogue: 0,0:16:03.92,0:16:05.08,chs for CL汐,,0,0,0,,{\blur3}在那北方的…
+Dialogue: 0,0:16:05.97,0:16:09.04,chs for CL汐,,0,0,0,,{\blur3}是你以前帶我去過的那個地方
+Dialogue: 0,0:16:09.47,0:16:09.97,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:16:11.55,0:16:13.24,chs for CL汐,,0,0,0,,{\blur3}我聽說了很多事情
+Dialogue: 0,0:16:14.47,0:16:16.26,chs for CL汐,,0,0,0,,{\blur3}我覺得你過去很辛苦
+Dialogue: 0,0:16:17.39,0:16:19.29,chs for CL汐,,0,0,0,,{\blur3}我也想起了很多…
+Dialogue: 0,0:16:20.06,0:16:21.01,chs for CL汐,,0,0,0,,{\blur3}以前的事情
+Dialogue: 0,0:16:24.97,0:16:26.20,chs for CL汐,,0,0,0,,{\blur3}我說 老爸
+Dialogue: 0,0:16:27.37,0:16:28.27,chs for CL汐,,0,0,0,,{\blur3}你累了吧
+Dialogue: 0,0:16:30.32,0:16:33.01,chs for CL汐,,0,0,0,,{\blur3}差不多也該休息一下了
+Dialogue: 0,0:16:34.62,0:16:36.02,chs for CL汐,,0,0,0,,{\blur3}回家鄉去怎麼樣
+Dialogue: 0,0:16:36.77,0:16:38.35,chs for CL汐,,0,0,0,,{\blur3}你的媽媽在那等著你
+Dialogue: 0,0:16:39.28,0:16:43.87,chs for CL汐,,0,0,0,,{\blur3}在你牽著我的手 發誓要把我撫養成人的地方
+Dialogue: 0,0:16:46.62,0:16:47.52,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:16:48.52,0:16:51.40,chs for CL汐,,0,0,0,,{\blur3}你已經足夠努力了
+Dialogue: 0,0:16:51.79,0:16:53.97,chs for CL汐,,0,0,0,,{\blur3}所以 去休息吧
+Dialogue: 0,0:16:54.60,0:16:58.54,chs for CL汐,,0,0,0,,{\blur3}回到家鄉去 陪著你的母親一起生活
+Dialogue: 0,0:16:58.64,0:16:59.36,chs for CL汐,,0,0,0,,{\blur3}好不好
+Dialogue: 0,0:17:16.64,0:17:17.60,chs for CL汐,,0,0,0,,{\blur3}已經…
+Dialogue: 0,0:17:18.94,0:17:20.40,chs for CL汐,,0,0,0,,{\blur3}可以了嗎
+Dialogue: 0,0:17:20.70,0:17:21.58,chs for CL汐,,0,0,0,,{\blur3}可以什麼
+Dialogue: 0,0:17:22.24,0:17:25.87,chs for CL汐,,0,0,0,,{\blur3}我已經 完成了自己的使命了嗎
+Dialogue: 0,0:17:37.31,0:17:42.24,chs for CL汐,,0,0,0,,{\blur3}你不是犧牲了自己的一切 養育我到今天了嗎
+Dialogue: 0,0:17:43.72,0:17:46.81,chs for CL汐,,0,0,0,,{\blur3}為了我這樣沒出息的兒子
+Dialogue: 0,0:17:47.26,0:17:49.98,chs for CL汐,,0,0,0,,{\blur3}耗費了自己的一生
+Dialogue: 0,0:17:51.30,0:17:52.54,chs for CL汐,,0,0,0,,{\blur3}已經足夠了
+Dialogue: 0,0:17:55.08,0:17:56.24,chs for CL汐,,0,0,0,,{\blur3}是嗎…
+Dialogue: 0,0:17:57.57,0:18:01.82,chs for CL汐,,0,0,0,,{\blur3}不經不覺 我已經完成了自己的使命了嗎
+Dialogue: 0,0:18:04.70,0:18:07.34,chs for CL汐,,0,0,0,,{\blur3}那真是 太好了
+Dialogue: 0,0:18:11.96,0:18:13.68,chs for CL汐,,0,0,0,,{\blur3}太好了
+Dialogue: 0,0:18:35.29,0:18:36.29,chs for CL汐,,0,0,0,,{\blur3}替換的衣服…
+Dialogue: 0,0:18:36.64,0:18:39.42,chs for CL汐,,0,0,0,,{\blur3}還有一點不多的錢 我幫你放進去了
+Dialogue: 0,0:18:39.66,0:18:41.42,chs for CL汐,,0,0,0,,{\blur3}嗯 麻煩你了
+Dialogue: 0,0:18:41.82,0:18:44.28,chs for CL汐,,0,0,0,,{\blur3}那邊就由我去聯繫吧
+Dialogue: 0,0:18:44.87,0:18:47.09,chs for CL汐,,0,0,0,,{\blur3}在路上別把行李弄丟哦
+Dialogue: 0,0:18:47.48,0:18:49.00,chs for CL汐,,0,0,0,,{\blur3}嗯 我會小心的
+Dialogue: 0,0:18:50.60,0:18:52.76,chs for CL汐,,0,0,0,,{\blur3}這個家的問題我會想辦法的
+Dialogue: 0,0:18:53.36,0:18:54.99,chs for CL汐,,0,0,0,,{\blur3}債務問題也會妥善解決的
+Dialogue: 0,0:18:56.38,0:18:57.48,chs for CL汐,,0,0,0,,{\blur3}真是對不起
+Dialogue: 0,0:18:58.16,0:18:59.16,chs for CL汐,,0,0,0,,{\blur3}汐 來
+Dialogue: 0,0:18:59.56,0:19:00.93,chs for CL汐,,0,0,0,,{\blur3}和爺爺說拜拜
+Dialogue: 0,0:19:01.28,0:19:03.16,chs for CL汐,,0,0,0,,{\blur3}拜拜了 爺爺
+Dialogue: 0,0:19:11.01,0:19:12.91,chs for CL汐,,0,0,0,,{\blur3}那麼 就此告別了
+Dialogue: 0,0:19:13.53,0:19:15.36,chs for CL汐,,0,0,0,,{\blur3}多注意下身體
+Dialogue: 0,0:19:15.77,0:19:16.35,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:19:18.45,0:19:20.42,chs for CL汐,,0,0,0,,{\blur3}酒別喝太多了
+Dialogue: 0,0:19:20.97,0:19:21.61,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:19:23.50,0:19:24.16,chs for CL汐,,0,0,0,,{\blur3}朋也
+Dialogue: 0,0:19:24.54,0:19:26.63,chs for CL汐,,0,0,0,,{\blur3}快看 是零食哦
+Dialogue: 0,0:19:27.05,0:19:28.82,chs for CL汐,,0,0,0,,{\blur3}煙也別抽太多了
+Dialogue: 0,0:19:29.44,0:19:29.99,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:19:30.73,0:19:34.70,chs for CL汐,,0,0,0,,{\blur3}爸爸又要出去了 你別吃太多了哦
+Dialogue: 0,0:19:35.30,0:19:36.61,chs for CL汐,,0,0,0,,{\blur3}一定要健康長壽啊
+Dialogue: 0,0:19:37.19,0:19:39.37,chs for CL汐,,0,0,0,,{\blur3}總是讓你那麼寂寞 抱歉了
+Dialogue: 0,0:19:39.74,0:19:42.06,chs for CL汐,,0,0,0,,{\blur3}我一定會去報恩的
+Dialogue: 0,0:19:42.45,0:19:45.37,chs for CL汐,,0,0,0,,{\blur3}等我回來後 好好給你做晚飯
+Dialogue: 0,0:19:46.01,0:19:47.53,chs for CL汐,,0,0,0,,{\blur3}我一定會去…
+Dialogue: 0,0:19:48.06,0:19:49.28,chs for CL汐,,0,0,0,,{\blur3}我們倆一起吃吧
+Dialogue: 0,0:19:54.78,0:19:56.35,chs for CL汐,,0,0,0,,{\blur3}好不好 朋也
+Dialogue: 0,0:20:04.75,0:20:06.41,chs for CL汐,,0,0,0,,{\blur3}怎麼了 朋也
+Dialogue: 0,0:20:10.15,0:20:11.70,chs for CL汐,,0,0,0,,{\blur3}為什麼哭了呢
+Dialogue: 0,0:20:21.91,0:20:23.10,chs for CL汐,,0,0,0,,{\blur3}對不起 汐
+Dialogue: 0,0:20:24.63,0:20:25.99,chs for CL汐,,0,0,0,,{\blur3}不用擔心我的
+Dialogue: 0,0:20:29.64,0:20:30.24,chs for CL汐,,0,0,0,,{\blur3}父親
+Dialogue: 0,0:20:31.90,0:20:33.61,chs for CL汐,,0,0,0,,{\blur3}一直以來 謝謝你了
+Dialogue: 0,0:20:33.99,0:20:34.59,chs for CL汐,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:20:40.89,0:20:42.36,chs for CL汐,,0,0,0,,{\blur3}那麼 我走了
+Dialogue: 0,0:20:42.63,0:20:44.06,chs for CL汐,,0,0,0,,{\blur3}嗯 保重
+Dialogue: 0,0:20:44.43,0:20:46.25,chs for CL汐,,0,0,0,,{\blur3}朋也 你也多保重
+Dialogue: 0,0:20:57.27,0:20:59.99,chs for CL汐,,0,0,0,,{\blur3}那個人的一生是否是幸福的呢
+Dialogue: 0,0:21:01.01,0:21:04.56,chs for CL汐,,0,0,0,,{\blur3}在最幸福的時候失去了愛人
+Dialogue: 0,0:21:05.28,0:21:08.03,chs for CL汐,,0,0,0,,{\blur3}然後只剩下了父子兩人
+Dialogue: 0,0:21:09.23,0:21:12.61,chs for CL汐,,0,0,0,,{\blur3}為了我這個不懂得孝順的兒子一直努力著
+Dialogue: 0,0:21:13.95,0:21:16.67,chs for CL汐,,0,0,0,,{\blur3}這樣的人生 是否是幸福的呢
+Dialogue: 0,0:21:22.67,0:21:23.50,chs for CL汐,,0,0,0,,{\blur3}父親…
+Dialogue: 0,0:21:50.14,0:21:51.11,chs for CL汐,,0,0,0,,{\blur3}怎麼了 汐
+Dialogue: 0,0:21:52.00,0:21:53.11,chs for CL汐,,0,0,0,,{\blur3}光…
+Dialogue: 0,0:21:53.49,0:21:55.18,chs for CL汐,,0,0,0,,{\blur3}啊 太耀眼了嗎
+Dialogue: 0,0:21:55.81,0:21:56.49,chs for CL汐,,0,0,0,,{\blur3}來
+Dialogue: 0,0:23:41.53,0:23:42.61,chs for CL汐,,0,0,0,,{\blur3}對了 汐
+Dialogue: 0,0:23:42.73,0:23:44.94,chs for CL汐,,0,0,0,,{\blur3}明天有客人來找你哦
+Dialogue: 0,0:23:45.54,0:23:48.06,chs for CL汐,,0,0,0,,{\blur3}汐 你有什麼會玩的遊戲嗎
+Dialogue: 0,0:23:48.58,0:23:50.90,chs for CL汐,,0,0,0,,{\blur3}汐 跟媽媽說我們出門了
+Dialogue: 0,0:23:51.77,0:23:53.36,chs for CL汐,,0,0,0,,{\blur3}喂 汐
+Dialogue: 0,0:23:53.90,0:23:55.53,chs for CL汐,,0,0,0,,{\blur3}很危險的 等等
+Dialogue: 0,0:23:58.97,0:23:59.60,chs for CL汐,,0,0,0,,{\blur3}爸爸
+Dialogue: 0,0:24:00.55,0:24:01.59,chs for CL汐,,0,0,0,,{\blur3}加油啊
+Dialogue: 0,0:04:06.09,0:04:11.56,OPTC,,0,0,0,,{\fad(500,200)\bord0\blur10\t(0,1000,1,\blur0)}{\1c&H040404&}在那坡道的中途 你漸漸遠去了
+Dialogue: 0,0:04:06.59,0:04:11.56,OPTC,,0,0,0,,{\fad(500,200)\bord2\be3\1a&HFF&}{\1c&H040404&\3c&HA4A09F&}在那坡道的中途 你漸漸遠去了
+Dialogue: 0,0:04:11.74,0:04:17.28,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&HC380B8&\3c&HF2E3FA&}溫暖的夕陽 留下了無數珍貴的回憶
+Dialogue: 0,0:04:17.28,0:04:22.31,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H5F2536&\3c&HB083B7&}{\t(392,433,1,\1c&H8E6B6C&\3c&HDAC0B8&)}只留我獨自一人　在這裡
+Dialogue: 0,0:04:22.45,0:04:30.09,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H8E6B6C&\3c&HDAC0B8&)}{\t(458,917,1,\1c&H4B251B&\3c&H7D645E&)}{\t(1626,2002,1,\1c&H9C6687&\3c&HE8D9F0&)}{\t(2460,2752,1,\1c&HC9838A&\3c&HE6C6C9&)}{\t(3713,4004,1,\1c&H93464D&\3c&HF7C8C2&)}{\t(5297,5881,1,\1c&H1C8AF6&\3c&HBCD8F9&)}用思念回憶著　這份溫暖
+Dialogue: 0,0:04:30.24,0:04:37.79,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H3B343E&\3c&HE2EDF5&}{\t(320,361,1,\1c&H3D464A&\3c&H408141&)}{\t(778,1738,1,\1c&HC28147&\3c&HE9B997&)}{\t(2614,3781,1,\1c&H625A2B&\3c&HA7C08C&)}{\t(4324,4365,1,\1c&H8C77C0&\3c&HC5BBE9&)}{\t(5825,5867,1,\1c&HE96B0E&\3c&HF4AD4F&)}唯有你　唯有你
+Dialogue: 0,0:04:37.87,0:04:44.00,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H7C2506&\3c&HD76923&}{\t(1782,2950,1,\1c&H5C3C08&\3c&HA09D6D&)}{\t(3534,3575,1,\1c&H6C5C6B&\3c&HB8A5B1&)}{\t(4827,4868,1,\1c&H7C2506&\3c&HD76923&)}我一直喜歡著你
+Dialogue: 0,0:04:44.09,0:04:51.60,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H7C2506&\3c&HD76923&}{\t(776,817,1,\1c&H5F4E46&\3c&HA49288&)}{\t(858,1883,1,\1c&H459BEF&\3c&H60C2F6&)}{\t(2611,3779,1,\1c&H554E76&\3c&H9EA6DC&)}{\t(4237,4279,1,\1c&H459BEF&\3c&H60C2F6&)}{\t(5739,5781,1,\1c&H4F4753&\3c&H9F76A6&)}風沙起　眼迷離
+Dialogue: 0,0:04:51.85,0:04:58.72,OPTC,,0,0,0,,{\fad(200,1000)}{\be3\1c&H63594E&\3c&H8A8378&}{\t(1776,2944,1,\1c&H723F44&\3c&H6A515F&)}{\t(3320,3361,1,\1c&H7F4B3B&\3c&HBC9483&)}{\t(4654,4696,1,\1c&H673320&\3c&HCC9A80&)}{\t(5820,5812,1,\1c&HC1785B&\3c&HD2C1B4&)}{\t(6072,6114,1,\1c&H5F70B8&\3c&HD2C1B4&)}{\t(6323,6364,1,\1c&HA3E1F0&\3c&HD2C1B4&)}{\t(6614,6656,1,\1c&H7899D3&\3c&H95BDF7&)}你漸漸遠去
+Dialogue: 0,0:04:58.80,0:05:00.89,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H102505&\3c&H5EA748&}{\t(830,1206,1,\1c&H545355&\3c&HA5897C&)}無論何時　都會銘記
+Dialogue: 0,0:05:00.89,0:05:03.05,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H7E86DE&\3c&HA9B4F5&}{\t(951,1326,1,\1c&H646048&\3c&HAB927B&)}即便世間　斗轉星移
+Dialogue: 0,0:05:03.05,0:05:05.28,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&HA04C67&\3c&H6992CA&}{\t(835,1210,1,\1c&H7D788D&\3c&HCECFDD&)}唯有那件　唯有那件
+Dialogue: 0,0:05:05.28,0:05:07.65,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&H445055&\3c&H6E8284&}{\t(815,1190,1,\1c&HF19E3C&\3c&HF4E4BB&)}日常之事　不曾改變
+Dialogue: 0,0:05:07.65,0:05:09.77,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&HB28374&\3c&HEFE6E2&}看一看吧　那些光輝
+Dialogue: 0,0:05:09.77,0:05:11.93,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&HB28374&\3c&HEFE6E2&}願望實現　唯有一件
+Dialogue: 0,0:05:11.93,0:05:14.04,OPTC,,0,0,0,,{\fad(200,200)}{\be3\1c&HB28374&\3c&HEFE6E2&}無論何時　無論何時
+Dialogue: 0,0:05:14.04,0:05:17.51,OPTC,,0,0,0,,{\fad(200,1400)}{\be3\1c&HB28374&\3c&HEFE6E2&}都在守護著
+Dialogue: 0,0:24:38.82,0:24:40.82,EDTC,,0,0,0,,
+Dialogue: 0,0:22:18.77,0:22:25.84,EDTC,,0,0,0,,{\be18\fad(200,200)}凝望著朵朵流逝的雲彩
+Dialogue: 0,0:22:26.23,0:22:32.82,EDTC,,0,0,0,,{\be18\fad(200,200)}感受著變化無窮的天空
+Dialogue: 0,0:22:33.75,0:22:41.02,EDTC,,0,0,0,,{\be18\fad(200,200)}駐足而立的我們察覺到
+Dialogue: 0,0:22:41.30,0:22:48.02,EDTC,,0,0,0,,{\be18\fad(200,200)}這不斷變遷的世界編織出的歌曲
+Dialogue: 0,0:22:48.41,0:22:55.53,EDTC,,0,0,0,,{\be18\fad(200,200)}彷彿伸出手來追尋一般
+Dialogue: 0,0:22:55.89,0:23:03.36,EDTC,,0,0,0,,{\be18\fad(200,200)}去尋找那恆久不變的東西
+Dialogue: 0,0:23:04.60,0:23:11.63,EDTC,,0,0,0,,{\be18\1c&HF0E0FF&\3c&HD9A9DB&\fad(200,200)}手裡高舉著的火炬
+Dialogue: 0,0:23:11.99,0:23:19.31,EDTC,,0,0,0,,{\be18\fad(200,200)}是通向明天的小小路標
+Dialogue: 0,0:23:19.49,0:23:26.46,EDTC,,0,0,0,,{\be18\fad(200,200)}現在依然明亮
+Dialogue: 0,0:23:26.92,0:23:34.03,EDTC,,0,0,0,,{\be18\fad(200,200)}那一天的言語化為誓約
+Dialogue: 0,0:23:34.40,0:23:38.80,EDTC,,0,0,0,,{\be18\fad(200,200)}激勵我們前進

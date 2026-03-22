@@ -1,0 +1,85 @@
+﻿[Script Info]
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,思源黑体 CN Medium,68,&H00FFFFFF,&HAC000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,23,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:08.72,0:00:10.05,Default,,0,0,0,,嘟嘟嚕
+Dialogue: 0,0:00:10.55,0:00:14.68,Default,,0,0,0,,吶吶 聽好了哦 真由理和克里斯
+Dialogue: 0,0:00:15.56,0:00:16.64,Default,,0,0,0,,馬上會給大家做炸雞塊喲
+Dialogue: 0,0:00:16.93,0:00:20.40,Default,,0,0,0,,什麼……
+Dialogue: 0,0:00:20.56,0:00:25.21,Default,,0,0,0,,住手 那樣的話 我們的研究室會變成地獄啊
+Dialogue: 0,0:00:25.23,0:00:26.40,Default,,0,0,0,,炒雞同意
+Dialogue: 0,0:00:26.44,0:00:27.36,Default,,0,0,0,,你們兩個的反應也太誇張了吧
+Dialogue: 0,0:00:28.03,0:00:32.16,Default,,0,0,0,,沒問題 今天可是有秘密道具的哦
+Dialogue: 0,0:00:33.28,0:00:36.33,Default,,0,0,0,,和你們這些中二病妄想中的道具不一樣的啦
+Dialogue: 0,0:00:32.03,0:00:34.41,Default,,0,0,0,,{\an8}秘密道具 難道說是
+Dialogue: 0,0:00:36.95,0:00:37.45,Default,,0,0,0,,就是它啦
+Dialogue: 0,0:00:38.29,0:00:40.04,Default,,0,0,0,,大家好 我是烏帕
+Dialogue: 0,0:00:40.21,0:00:43.88,Default,,0,0,0,,是跟Cognitive Computing終端相連的智能機器
+Dialogue: 0,0:00:44.46,0:00:48.21,Default,,0,0,0,,認知 要在這個傢伙的協助下完成嗎
+Dialogue: 0,0:00:48.46,0:00:50.22,Default,,0,0,0,,是的 由在下來幫忙
+Dialogue: 0,0:00:52.68,0:00:54.55,Default,,0,0,0,,這樣的話 應該沒問題吧
+Dialogue: 0,0:00:56.10,0:00:57.93,Default,,0,0,0,,明白了 暫且先相信這傢伙吧
+Dialogue: 0,0:00:50.44,0:00:58.02,Default,,0,0,0,,{\an8}需要的食材 烹飪方法 烹飪時間 任何細微的指示都會由我…
+Dialogue: 0,0:00:58.58,0:01:01.60,Default,,0,0,0,,烏帕 不 智能計算機喲
+Dialogue: 0,0:01:02.19,0:01:05.90,Default,,0,0,0,,幫助真由理兩位女士做出完美的料理吧
+Dialogue: 0,0:01:06.11,0:01:07.69,Default,,0,0,0,,為什麼你是一副高高在上的語氣
+Dialogue: 0,0:01:07.94,0:01:10.78,Default,,0,0,0,,因為這才是岡倫呀
+Dialogue: 0,0:01:11.70,0:01:15.03,Default,,0,0,0,,首先請確定下炸雞塊的食材清單
+Dialogue: 0,0:01:15.37,0:01:17.49,Default,,0,0,0,,雞腿肉  小麥粉  生粉
+Dialogue: 0,0:01:17.91,0:01:21.16,Default,,0,0,0,,然後是調味用的料酒和醬油
+Dialogue: 0,0:01:21.46,0:01:22.46,Default,,0,0,0,,馬上開始做吧
+Dialogue: 0,0:01:22.83,0:01:23.12,Default,,0,0,0,,嗯
+Dialogue: 0,0:01:24.79,0:01:26.50,Default,,0,0,0,,那麼 這一堆是什麼啊
+Dialogue: 0,0:01:26.84,0:01:32.68,Default,,0,0,0,,牛肉  巧克力  杏罐頭  小麥粉  雞蛋  香蕉等  這些食材
+Dialogue: 0,0:01:33.09,0:01:35.30,Default,,0,0,0,,做炸雞塊用這些 你逗我麼
+Dialogue: 0,0:01:35.35,0:01:36.30,Default,,0,0,0,,太過分了
+Dialogue: 0,0:01:36.35,0:01:39.02,Default,,0,0,0,,沒辦法啊 實驗室沒有需要的食材啊
+Dialogue: 0,0:01:39.27,0:01:41.18,Default,,0,0,0,,買回來就好了嘛
+Dialogue: 0,0:01:41.23,0:01:46.65,Default,,0,0,0,,真奇葩 需要的生粉沒有 杏罐頭這樣稀罕的食材倒還是有呢
+Dialogue: 0,0:01:46.73,0:01:47.40,Default,,0,0,0,,到底是誰買的…
+Dialogue: 0,0:01:47.65,0:01:49.36,Default,,0,0,0,,欸 橋田？！
+Dialogue: 0,0:01:49.98,0:01:51.40,Default,,0,0,0,,為什麼會有這種東西呢
+Dialogue: 0,0:01:52.11,0:01:56.74,Default,,0,0,0,,因為我覺得將來要有女朋友的話會在實驗室給我做愛妻便當才準備的
+Dialogue: 0,0:01:57.53,0:01:59.45,Default,,0,0,0,,先不管橋田你的妄想
+Dialogue: 0,0:02:00.04,0:02:02.58,Default,,0,0,0,,但是就眼前這些食材的話 做炸雞塊
+Dialogue: 0,0:02:03.00,0:02:04.33,Default,,0,0,0,,理論上講 壓根就不可能吧
+Dialogue: 0,0:02:04.46,0:02:05.67,Default,,0,0,0,,所以我說了去把食材買回來嘛
+Dialogue: 0,0:02:05.92,0:02:09.13,Default,,0,0,0,,馬上來分析下使用這些食材能合成什麼樣的料理
+Dialogue: 0,0:02:09.34,0:02:11.74,Default,,0,0,0,,好厲害 這種事都能辦得到啊
+Dialogue: 0,0:02:11.80,0:02:13.13,Default,,0,0,0,,請交給在下
+Dialogue: 0,0:02:29.40,0:02:30.36,Default,,0,0,0,,做好啦
+Dialogue: 0,0:02:30.48,0:02:31.03,Default,,0,0,0,,完成了
+Dialogue: 0,0:02:32.69,0:02:33.28,Default,,0,0,0,,這是什麼
+Dialogue: 0,0:02:33.70,0:02:34.90,Default,,0,0,0,,巧克力卷
+Dialogue: 0,0:02:35.41,0:02:37.28,Default,,0,0,0,,看上去很好吃的樣子
+Dialogue: 0,0:02:37.62,0:02:41.66,Default,,0,0,0,,是吧 岡倫和桶子君 嚐一下味道吧
+Dialogue: 0,0:02:42.33,0:02:45.79,Default,,0,0,0,,好吧 既然是你們這麼辛苦完成的
+Dialogue: 0,0:02:45.96,0:02:47.96,Default,,0,0,0,,我已經做好了覺悟了
+Dialogue: 0,0:02:48.13,0:02:49.29,Default,,0,0,0,,那麼 橋田君 你先來
+Dialogue: 0,0:02:49.50,0:02:51.80,Default,,0,0,0,,啊 你都說到這份上了 為什麼丟給我
+Dialogue: 0,0:02:51.84,0:02:55.01,Default,,0,0,0,,你剛才不是說看上去不錯了麼
+Dialogue: 0,0:02:55.17,0:02:59.51,Default,,0,0,0,,岡倫 要是你這麼嫌棄的話
+Dialogue: 0,0:02:59.80,0:03:01.81,Default,,0,0,0,,真由理我會很傷心的哦
+Dialogue: 0,0:03:05.69,0:03:09.11,Default,,0,0,0,,我知道了 我吃就好了嘛
+Dialogue: 0,0:03:16.45,0:03:17.91,Default,,0,0,0,,好 好吃
+Dialogue: 0,0:03:19.41,0:03:21.70,Default,,0,0,0,,好吃那是理所當然的 你緊張個什麼啊
+Dialogue: 0,0:03:22.29,0:03:25.58,Default,,0,0,0,,是我 看來是我看到的幻覺
+Dialogue: 0,0:03:25.71,0:03:28.04,Default,,0,0,0,,不 是味覺錯亂了
+Dialogue: 0,0:03:28.14,0:03:31.34,Default,,0,0,0,,啊 這樣下去被機關奪走的可能性很高啊
+Dialogue: 0,0:03:30.00,0:03:31.13,Default,,0,0,0,,{\an8}好好吃啊
+Dialogue: 0,0:03:31.38,0:03:32.50,Default,,0,0,0,,真是個死傲嬌啊
+Dialogue: 0,0:03:33.00,0:03:35.13,Default,,0,0,0,,多虧了烏帕醬哦
+Dialogue: 0,0:03:36.01,0:03:38.68,Default,,0,0,0,,El psy congroo
+Dialogue: 0,0:00:00.98,0:00:05.98,Default,,0,0,0,,{\fn方正大标宋_GBK\1cH070609\bord0\b1\fs90}聰明睿智的Cognitive Computing\N\N\N
+Dialogue: 0,0:00:11.40,0:00:13.36,Default,,0,0,0,,{\fn方正毡笔黑_GBK\fs75\1cH848282\bord0\pos(922.5,666)\fsp-4.5}未{\fs}來{\fs90\fsp-22.5}道{\fs60}具{\fs75\fsp-7.5}研究所
+Dialogue: 0,0:00:20.58,0:00:27.25,Default,,0,0,0,,{\fn方正正粗黑_GBK\3cFFFFFF\1c000000\shad3\pos(1364.571,911.785)\fad(891,0)}#1 料理編

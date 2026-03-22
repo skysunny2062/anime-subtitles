@@ -1,0 +1,320 @@
+﻿[Script Info]
+Title: New subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: effect 25-furigana,DFPLiSong-Bd,35,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,4,2,10,10,10,1
+Style: effect 24-furigana,DFHeiLight-B5,25,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: SOP-JP-furigana,Ｃ＆Ｇ Pれいしっく,27.5,&H00FFFFFF,&H000000FF,&H002075E7,&H640C63CD,0,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: SOP-CH-furigana,華康儷細黑,24,&H00FFFFFF,&H000000FF,&H002075E7,&H640C63CD,-1,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: 副本 - UP-furigana,華康粗圓體,26.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
+Style: 下一回-furigana,華康雅藝體W6(P),37.5,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: warning en BS11-furigana,Eras Demi ITC,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning en-furigana,Eras Demi ITC,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning ch BS11-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: warning ch-furigana,華康雅藝體W6,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: warning-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: thanks TV-furigana,Babylon5,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: thanks-furigana,DFLiSong-Md,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: staff TV-furigana,DFFangYuanW7-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,0,0,0,1
+Style: staff-furigana,DFPFangSongW6-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: other-furigana,華康新綜藝體,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: explanation 03-furigana,ＤＦ中太丸ゴシック体,19,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: explanation 02-furigana,DFKai-SB,19,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: explaination 02-furigana,DFPHeiMedium-UN,17.5,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,1.5,7,20,10,8,1
+Style: explaination 01-furigana,華康中圓體,22.5,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,1,7,20,10,8,1
+Style: explaination-furigana,華康中黑體(P),19,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: effect background 03-furigana,ＤＦＰ綜藝体W7,30,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 02-furigana,ＤＦＰ綜藝体W7,30,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 01-furigana,ＤＦＰ綜藝体W7,30,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: Upside-furigana,DFPHuaZongW5-B5,25,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,3.5,0,2,15,15,130,1
+Style: SED-JP-furigana,Ｃ＆Ｇ Pれいしっく,27.5,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: SED-CH-furigana,華康儷細黑,22.5,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,1,1,7,30,10,10,1
+Style: ADT-furigana,@華康新特明體,35,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Default,DFPHuaZongW5-B5,61,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,0,0,0,0,100,100,0,0,1,7,0,2,15,15,35,1
+Style: ADT,@華康新特明體,70,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Default-furigana,華康新綜藝體W5(P),32,&H00FFFFFF,&H000000FF,&H00004FD0,&H00E16227,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,15,1
+Style: SED-CH,華康儷細黑,45,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: SED-JP,Ｃ＆Ｇ Pれいしっく,55,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,4,4,7,30,10,10,1
+Style: Upside,DFPHuaZongW5-B5,50,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,130,1
+Style: effect background 01,ＤＦＰ綜藝体W7,60,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 02,ＤＦＰ綜藝体W7,60,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 03,ＤＦＰ綜藝体W7,60,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: explaination,華康中黑體(P),38,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: explaination 01,華康中圓體,45,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,2,7,20,10,8,1
+Style: explaination 02,DFPHeiMedium-UN,35,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,3,7,20,10,8,1
+Style: explanation 02,DFKai-SB,38,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: explanation 03,ＤＦ中太丸ゴシック体,38,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: other,華康新綜藝體,60,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: staff,DFPFangSongW6-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: staff TV,DFFangYuanW7-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
+Style: thanks,DFLiSong-Md,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: thanks TV,Babylon5,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0,0,10,1
+Style: warning,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: warning ch,華康雅藝體W6,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning ch BS11,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning en,Eras Demi ITC,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: warning en BS11,Eras Demi ITC,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: 下一回,華康雅藝體W6(P),75,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: 副本 - UP,華康粗圓體,53,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
+Style: SOP-CH,華康儷細黑,48,&H00FFFFFF,&H000000FF,&H002075E7,&H640C63CD,-1,0,0,0,100,100,0,0,1,4,4,7,30,10,10,1
+Style: SOP-JP,Ｃ＆Ｇ Pれいしっく,55,&H00FFFFFF,&H000000FF,&H002075E7,&H640C63CD,0,0,0,0,100,100,0,0,1,4,4,7,30,10,10,1
+Style: effect 24,DFHeiLight-B5,50,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: effect 25,DFPLiSong-Bd,70,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,8,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Upside,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Default-furigana,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:03.98,0:00:05.19,Default,,0,0,0,karaoke,接下來要做什麼呢?
+Comment: 0,0:00:05.92,0:00:06.90,Default,,0,0,0,karaoke,這個嘛...
+Comment: 0,0:00:07.34,0:00:10.17,Default,,0,0,0,karaoke,我想去 Pasticceria Manicagni
+Comment: 0,0:00:10.30,0:00:11.64,Default,,0,0,0,karaoke,我是可以啦
+Comment: 0,0:00:12.02,0:00:16.44,Default,,0,0,0,karaoke,這又讓我想起初春整個人貼在玻璃櫃前猶豫不決的場景
+Comment: 0,0:00:16.74,0:00:19.01,Default,,0,0,0,karaoke,因為 每個都看起來很好吃嘛
+Comment: 0,0:00:19.23,0:00:21.11,Default,,0,0,0,karaoke,不可能馬上就挑好啦
+Comment: 0,0:00:21.11,0:00:22.88,Default,,0,0,0,karaoke,拜託大家了~
+Comment: 0,0:00:24.24,0:00:26.09,Default,,0,0,0,karaoke,可以的話請收下吧
+Comment: 0,0:00:26.87,0:00:27.56,Default,,0,0,0,karaoke,欸?
+Comment: 0,0:00:28.09,0:00:29.44,Default,,0,0,0,karaoke,固法學姐?
+Comment: 0,0:00:30.59,0:00:32.45,Default,,0,0,0,karaoke,拜託大家了~
+Comment: 0,0:00:34.01,0:00:36.01,Default,001,0,0,0,,
+Comment: 0,0:00:34.92,0:00:37.68,Default,,0,0,0,karaoke,為什麼固法學姐會幫澡堂做宣傳?
+Comment: 0,0:00:38.39,0:00:39.26,Default,,0,0,0,karaoke,其實啊...
+Comment: 0,0:00:39.70,0:00:41.56,Default,,0,0,0,karaoke,最近客人愈來愈少
+Comment: 0,0:00:41.77,0:00:43.46,Default,,0,0,0,karaoke,再這樣下去可能會倒掉...
+Comment: 0,0:00:43.76,0:00:45.13,Default,,0,0,0,karaoke,怎... 怎麼會...
+Comment: 0,0:00:45.51,0:00:46.53,Default,,0,0,0,karaoke,從小時候開始
+Comment: 0,0:00:47.18,0:00:51.60,Default,,0,0,0,karaoke,這間澡堂一直包容著我長大
+Comment: 0,0:00:52.50,0:00:55.29,Default,,0,0,0,karaoke,所以 我才希望這間澡堂也一直經營下去
+Comment: 0,0:00:56.37,0:00:57.19,Default,,0,0,0,karaoke,固法學姐
+Comment: 0,0:00:57.42,0:00:59.15,Default,,0,0,0,karaoke,如果有什麼要幫忙的就儘管說吧
+Comment: 0,0:00:59.45,0:01:01.25,Default,,0,0,0,karaoke,我也來幫忙發傳單
+Comment: 0,0:01:01.41,0:01:02.27,Default,,0,0,0,karaoke,謝謝妳們
+Comment: 0,0:01:02.43,0:01:04.24,Default,,0,0,0,karaoke,還有沒有其他可以做的事情?
+Comment: 0,0:01:04.47,0:01:06.24,Default,,0,0,0,karaoke,可以讓大家開心之類的
+Comment: 0,0:01:08.09,0:01:10.43,Default,,0,0,0,karaoke,比如說在浴池飄著一大堆的玩具怎麼樣
+Comment: 0,0:01:10.78,0:01:12.95,Default,,0,0,0,karaoke,對小朋友的話是沒關係啦
+Comment: 0,0:01:13.25,0:01:15.93,Default,,0,0,0,karaoke,可是我覺得對大人來說的話 會覺得全身不自在吧
+Comment: 0,0:01:16.44,0:01:17.69,Default,,0,0,0,karaoke,是這樣嗎...
+Comment: 0,0:01:17.96,0:01:18.56,Default,,0,0,0,karaoke,不然...
+Comment: 0,0:01:18.76,0:01:20.98,Default,,0,0,0,karaoke,就讓大家向後轉 把硬幣丟進浴池上的小船裡面
+Comment: 0,0:01:21.12,0:01:23.82,Default,,0,0,0,karaoke,表示說會財源滾滾 或是戀愛進展順利之類的
+Comment: 0,0:01:23.88,0:01:25.83,Default,,0,0,0,karaoke,讓大家知道這些都市傳說吧
+Comment: 0,0:01:25.83,0:01:28.49,Default,,0,0,0,karaoke,我覺得這個可能有困難...
+Comment: 0,0:01:28.80,0:01:29.84,Default,,0,0,0,karaoke,不行啊...
+Comment: 0,0:01:31.00,0:01:32.88,Default,,0,0,0,karaoke,真拿妳們沒辦法
+Comment: 0,0:01:33.02,0:01:33.92,Default,,0,0,0,karaoke,什麼啊
+Comment: 0,0:01:34.25,0:01:39.74,Default,,0,0,0,karaoke,就讓黑子 來獻上一個提昇顧客量的妙計吧
+Comment: 0,0:01:40.14,0:01:41.51,Default,,0,0,0,karaoke,是什麼樣的方法呢?
+Comment: 0,0:01:41.82,0:01:43.31,Default,,0,0,0,karaoke,電療浴
+Comment: 0,0:01:43.63,0:01:47.31,Default,,0,0,0,karaoke,讓常盤台的超電磁砲幫顧客舒緩筋骨
+Comment: 0,0:01:43.63,0:01:47.31,Default-furigana,,0,0,0,karaoke,{\pos(900,980)}Railgun
+Comment: 0,0:01:47.48,0:01:50.41,Default,,0,0,0,karaoke,這將會是獨一無二的賣點哦
+Comment: 0,0:01:50.94,0:01:53.05,Default,,0,0,0,karaoke,我才不會做這種事...
+Comment: 0,0:01:52.67,0:01:53.74,Upside,,0,0,0,karaoke,好耶 這個不錯
+Comment: 0,0:01:53.99,0:01:56.35,Default,,0,0,0,karaoke,那我來做新的傳單吧
+Comment: 0,0:01:56.70,0:01:57.63,Default,,0,0,0,karaoke,那我...
+Comment: 0,0:01:57.89,0:01:59.61,Default,,0,0,0,karaoke,對了 我來做招牌吧
+Comment: 0,0:01:59.79,0:02:02.30,Default,,0,0,0,karaoke,等一下 我去找找看可以一起來幫忙的人
+Comment: 0,0:02:01.75,0:02:03.66,Upside,,0,0,0,karaoke,算了 就這樣吧...
+Comment: 0,0:02:03.80,0:02:05.91,Default,,0,0,0,karaoke,就是這樣 姊姊大人
+Comment: 0,0:02:05.91,0:02:10.79,Default,,0,0,0,karaoke,那我就準備可以讓入浴更加性感的潤滑液...
+Comment: 0,0:02:12.11,0:02:13.48,Default,,0,0,0,karaoke,我不需要這種東西
+Comment: 0,0:02:13.48,0:02:14.95,Default,,0,0,0,karaoke,歹勢...
+Comment: 0,0:02:14.95,0:02:16.67,Default,,0,0,0,karaoke,好 開始準備吧
+Comment: 0,0:02:16.73,0:02:17.18,Default,,0,0,0,karaoke,是
+Comment: 0,0:02:17.01,0:02:17.68,Upside,,0,0,0,karaoke,太棒了
+Comment: 0,0:02:20.04,0:02:21.49,Default,,0,0,0,karaoke,這樣就完成了
+Comment: 0,0:02:32.32,0:02:34.04,Default,,0,0,0,karaoke,嗶哩嗶哩的唷~
+Comment: 0,0:02:34.22,0:02:35.58,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:02:38.31,0:02:39.15,Default,,0,0,0,karaoke,弄好了
+Comment: 0,0:02:40.14,0:02:41.87,Default,,0,0,0,karaoke,那 就開店囉
+Comment: 0,0:02:42.25,0:02:44.43,Default,,0,0,0,karaoke,歡迎光臨!!
+Comment: 0,0:02:43.45,0:02:44.51,Upside,,0,0,0,karaoke,主人歡迎光臨!!
+Comment: 0,0:03:30.22,0:03:32.41,Default,,0,0,0,karaoke,主人 請慢走!
+Comment: 0,0:03:33.76,0:03:35.98,Default,,0,0,0,karaoke,好 那我們也來泡澡吧
+Comment: 0,0:03:36.38,0:03:36.89,Default,,0,0,0,karaoke,好
+Comment: 0,0:03:37.26,0:03:38.47,Default,,0,0,0,karaoke,姊姊大人
+Comment: 0,0:03:38.71,0:03:40.51,Default,,0,0,0,karaoke,姊姊大人從什麼時候...
+Comment: 0,0:03:40.95,0:03:42.82,Default,,0,0,0,karaoke,聽說營業額超出預期呢
+Comment: 0,0:03:43.02,0:03:44.04,Default,,0,0,0,karaoke,多虧大家的幫忙
+Comment: 0,0:03:44.72,0:03:46.66,Default,,0,0,0,karaoke,泡在大浴池裡面很舒服
+Comment: 0,0:03:46.75,0:03:49.80,Default,,0,0,0,karaoke,客人也被澡堂的爽感征服了
+Comment: 0,0:03:45.73,0:03:46.67,Upside,,0,0,0,karaoke,姊姊大人
+Comment: 0,0:03:47.31,0:03:48.46,Upside,,0,0,0,karaoke,姊姊大人!
+Comment: 0,0:03:49.88,0:03:50.93,Default,,0,0,0,karaoke,對啊
+Comment: 0,0:03:52.48,0:03:54.58,Default,,0,0,0,karaoke,御坂 我來幫妳刷背吧
+Comment: 0,0:03:56.07,0:03:56.83,Default,,0,0,0,karaoke,真不好意思
+Comment: 0,0:03:57.06,0:03:58.79,Default,,0,0,0,karaoke,沒關係啦
+Comment: 0,0:03:56.68,0:03:58.00,Upside,,0,0,0,karaoke,姊姊大人的背
+Comment: 0,0:03:58.30,0:03:59.84,Upside,,0,0,0,karaoke,純淨潔白的肌膚
+Comment: 0,0:04:00.18,0:04:02.14,Upside,,0,0,0,karaoke,一定要黑子我 來刷!
+Comment: 0,0:04:01.21,0:04:03.96,Default,,0,0,0,karaoke,那固法學姐的背就我來刷吧
+Comment: 0,0:04:04.07,0:04:05.39,Default,,0,0,0,karaoke,那我也來刷前面
+Comment: 0,0:04:06.04,0:04:06.72,Default,,0,0,0,karaoke,前面!?
+Comment: 0,0:04:06.39,0:04:08.52,Upside,,0,0,0,karaoke,姊姊大人的前面要我來才對!
+Comment: 0,0:04:06.72,0:04:08.46,Default,,0,0,0,karaoke,固法學姐的皮膚好光滑啊
+Comment: 0,0:04:11.12,0:04:13.26,Upside,,0,0,0,karaoke,為什麼只有黑子我被綁住啊
+Comment: 0,0:04:10.25,0:04:11.44,Default,,0,0,0,karaoke,可以讓我摸摸看嗎?
+Comment: 0,0:04:14.29,0:04:16.23,Default,,0,0,0,karaoke,那 我也要摸御坂的
+Comment: 0,0:04:16.89,0:04:18.72,Upside,,0,0,0,karaoke,姊姊大人美麗的肌膚
+Comment: 0,0:04:19.43,0:04:21.68,Upside,,0,0,0,karaoke,所以才要我直接來撫摸
+Comment: 0,0:04:22.10,0:04:23.55,Upside,,0,0,0,karaoke,可是 我竟然不能...
+Comment: 0,0:04:22.63,0:04:24.07,Default,,0,0,0,karaoke,真拿妳沒辦法
+Comment: 0,0:04:25.66,0:04:27.34,Default,,0,0,0,karaoke,今天妳也辛苦了一天
+Comment: 0,0:04:27.48,0:04:28.75,Default,,0,0,0,karaoke,好好泡澡放鬆吧
+Comment: 0,0:04:29.90,0:04:30.49,Default,,0,0,0,karaoke,但是
+Comment: 0,0:04:30.80,0:04:32.78,Default,,0,0,0,karaoke,眼罩妳還是不能拆下來唷
+Comment: 0,0:04:33.69,0:04:35.55,Default,,0,0,0,karaoke,真是太感謝妳了 姊姊大人
+Comment: 0,0:04:36.03,0:04:38.02,Default,,0,0,0,karaoke,來吧! 讓黑子的肌膚跟姊姊大人...
+Comment: 0,0:04:39.62,0:04:42.30,Default,,0,0,0,karaoke,好啦好啦 我知道妳很想趕快泡澡
+Comment: 0,0:04:45.49,0:04:46.68,Default,,0,0,0,karaoke,泡得真爽~
+Comment: 0,0:04:59.12,0:05:00.80,Default,,0,0,0,karaoke,學... 學姐
+Comment: 0,0:05:00.90,0:05:01.64,Default,,0,0,0,karaoke,原來...
+Comment: 0,0:05:06.23,0:05:07.61,Default,,0,0,0,karaoke,這就是祕密武器
+Comment: 0,0:05:07.91,0:05:09.54,Default,,0,0,0,karaoke,做好覺悟了吧 各位
+Comment: 0,0:05:09.79,0:05:10.32,Default,,0,0,0,karaoke,是
+Comment: 0,0:05:10.43,0:05:11.31,Default,,0,0,0,karaoke,當然
+Comment: 0,0:05:11.68,0:05:14.81,Default,,0,0,0,karaoke,固法學姐 每天喝的量都比這些還多
+Comment: 0,0:05:15.08,0:05:15.91,Default,,0,0,0,karaoke,準備囉
+Comment: 0,0:05:16.14,0:05:17.24,Default,,0,0,0,karaoke,果然牛奶...
+Comment: 0,0:05:18.00,0:05:19.53,Default,,0,0,0,karaoke,就是要喝「武藏牛乳」!!
+Comment: 0,0:05:25.10,0:05:26.03,Default,,0,0,0,karaoke,再一瓶!
+Comment: 0,0:05:25.85,0:05:26.94,Upside,,0,0,0,karaoke,再喝一瓶!
+Comment: 0,0:05:26.88,0:05:28.80,Default,,0,0,0,karaoke,明顯已經有效果了
+Comment: 0,0:05:29.66,0:05:31.49,Default,,0,0,0,karaoke,讓妳們見識什麼叫做能喝
+Comment: 0,0:05:31.95,0:05:33.49,Default,,0,0,0,karaoke,連固法學姐都...
+Comment: 0,0:05:39.31,0:05:41.23,Default,ED,0,0,0,,
+Comment: 0,0:05:59.33,0:06:07.33,Default,thanks,0,0,0,,
+Dialogue: 0,0:00:29.88,0:00:34.01,ADT,,0,0,0,,{\an7\frz-90\pos(761,404)}重要的事\N都是在澡堂裡學到的
+Dialogue: 0,0:00:34.01,0:00:37.93,effect 24,eff,0,0,0,,{\an7\p1\fscx700\fscy400\1a&H77&\bord0\c&HFFFFFF&\3c&HC38581&\pos(20,20)}m 0 0 l 0 0 l 0 50 l 50 50 l 50 0
+Dialogue: 0,0:00:34.01,0:00:37.93,effect 24,eff,0,0,0,,{\fs35\an7\pos(40,40)}第七學區 人氣No.1
+Dialogue: 0,0:00:34.01,0:00:37.93,effect 24,eff,0,0,0,,{\fs50\an5\pos(195,120)}本格澡堂
+Dialogue: 0,0:00:34.01,0:00:37.93,effect 24,eff,0,0,0,,{\fs35\an5\pos(195,180)}就在大浴場內
+Dialogue: 0,0:03:06.12,0:03:07.58,effect 25,eff,0,0,0,,{\pos(960,873)\fs75\c&H95DBFF&\3c&H092734&\bord4\4c&H003164&}性感泡泡沐浴乳
+Dialogue: 0,0:00:03.98,0:00:05.19,Default,,0,0,0,fx,{\be5\blur5}接下來要做什麼呢?
+Dialogue: 0,0:00:05.92,0:00:06.90,Default,,0,0,0,fx,{\be5\blur5}這個嘛...
+Dialogue: 0,0:00:07.34,0:00:10.17,Default,,0,0,0,fx,{\be5\blur5}我想去 Pasticceria Manicagni
+Dialogue: 0,0:00:10.30,0:00:11.64,Default,,0,0,0,fx,{\be5\blur5}我是可以啦
+Dialogue: 0,0:00:12.02,0:00:16.44,Default,,0,0,0,fx,{\be5\blur5}這又讓我想起初春整個人貼在玻璃櫃前猶豫不決的場景
+Dialogue: 0,0:00:16.74,0:00:19.01,Default,,0,0,0,fx,{\be5\blur5}因為 每個都看起來很好吃嘛
+Dialogue: 0,0:00:19.23,0:00:21.11,Default,,0,0,0,fx,{\be5\blur5}不可能馬上就挑好啦
+Dialogue: 0,0:00:21.11,0:00:22.88,Default,,0,0,0,fx,{\be5\blur5}拜託大家了~
+Dialogue: 0,0:00:24.24,0:00:26.09,Default,,0,0,0,fx,{\be5\blur5}可以的話請收下吧
+Dialogue: 0,0:00:26.87,0:00:27.56,Default,,0,0,0,fx,{\be5\blur5}欸?
+Dialogue: 0,0:00:28.09,0:00:29.44,Default,,0,0,0,fx,{\be5\blur5}固法學姐?
+Dialogue: 0,0:00:30.59,0:00:32.45,Default,,0,0,0,fx,{\be5\blur5}拜託大家了~
+Dialogue: 0,0:00:34.92,0:00:37.68,Default,,0,0,0,fx,{\be5\blur5}為什麼固法學姐會幫澡堂做宣傳?
+Dialogue: 0,0:00:38.39,0:00:39.26,Default,,0,0,0,fx,{\be5\blur5}其實啊...
+Dialogue: 0,0:00:39.70,0:00:41.56,Default,,0,0,0,fx,{\be5\blur5}最近客人愈來愈少
+Dialogue: 0,0:00:41.77,0:00:43.46,Default,,0,0,0,fx,{\be5\blur5}再這樣下去可能會倒掉...
+Dialogue: 0,0:00:43.76,0:00:45.13,Default,,0,0,0,fx,{\be5\blur5}怎... 怎麼會...
+Dialogue: 0,0:00:45.51,0:00:46.53,Default,,0,0,0,fx,{\be5\blur5}從小時候開始
+Dialogue: 0,0:00:47.18,0:00:51.60,Default,,0,0,0,fx,{\be5\blur5}這間澡堂一直包容到我長大
+Dialogue: 0,0:00:52.50,0:00:55.29,Default,,0,0,0,fx,{\be5\blur5}所以 我才希望這間澡堂也一直經營下去
+Dialogue: 0,0:00:56.37,0:00:57.19,Default,,0,0,0,fx,{\be5\blur5}固法學姐
+Dialogue: 0,0:00:57.42,0:00:59.15,Default,,0,0,0,fx,{\be5\blur5}如果有什麼要幫忙的就儘管說吧
+Dialogue: 0,0:00:59.45,0:01:01.25,Default,,0,0,0,fx,{\be5\blur5}我也來幫忙發傳單
+Dialogue: 0,0:01:01.41,0:01:02.27,Default,,0,0,0,fx,{\be5\blur5}謝謝妳們
+Dialogue: 0,0:01:02.43,0:01:04.24,Default,,0,0,0,fx,{\be5\blur5}還有沒有其他可以做的事情?
+Dialogue: 0,0:01:04.47,0:01:06.24,Default,,0,0,0,fx,{\be5\blur5}可以讓大家開心之類的
+Dialogue: 0,0:01:08.09,0:01:10.43,Default,,0,0,0,fx,{\be5\blur5}比如說在浴池飄著一大堆的玩具怎麼樣
+Dialogue: 0,0:01:10.78,0:01:12.95,Default,,0,0,0,fx,{\be5\blur5}對小朋友的話是沒關係啦
+Dialogue: 0,0:01:13.25,0:01:15.93,Default,,0,0,0,fx,{\be5\blur5}可是我覺得對大人來說的話 會覺得全身不自在吧
+Dialogue: 0,0:01:16.44,0:01:17.69,Default,,0,0,0,fx,{\be5\blur5}是這樣嗎...
+Dialogue: 0,0:01:17.96,0:01:18.56,Default,,0,0,0,fx,{\be5\blur5}不然...
+Dialogue: 0,0:01:18.76,0:01:20.98,Default,,0,0,0,fx,{\be5\blur5}就讓大家向後轉 把硬幣丟進浴池上的小船裡面
+Dialogue: 0,0:01:21.12,0:01:23.82,Default,,0,0,0,fx,{\be5\blur5}表示說會財源滾滾 或是戀愛進展順利之類的
+Dialogue: 0,0:01:23.88,0:01:25.83,Default,,0,0,0,fx,{\be5\blur5}讓大家知道這些都市傳說吧
+Dialogue: 0,0:01:25.83,0:01:28.49,Default,,0,0,0,fx,{\be5\blur5}我覺得這個可能有困難...
+Dialogue: 0,0:01:28.80,0:01:29.84,Default,,0,0,0,fx,{\be5\blur5}不行啊...
+Dialogue: 0,0:01:31.00,0:01:32.88,Default,,0,0,0,fx,{\be5\blur5}真拿妳們沒辦法
+Dialogue: 0,0:01:33.02,0:01:33.92,Default,,0,0,0,fx,{\be5\blur5}什麼啊
+Dialogue: 0,0:01:34.25,0:01:39.74,Default,,0,0,0,fx,{\be5\blur5}就讓黑子 來獻上一個提昇顧客量的妙計吧
+Dialogue: 0,0:01:40.14,0:01:41.51,Default,,0,0,0,fx,{\be5\blur5}是什麼樣的方法呢?
+Dialogue: 0,0:01:41.82,0:01:43.31,Default,,0,0,0,fx,{\be5\blur5}電療浴
+Dialogue: 0,0:01:43.63,0:01:47.31,Default,,0,0,0,fx,{\be5\blur5}讓常盤台的超電磁砲幫顧客舒緩筋骨
+Dialogue: 0,0:01:43.63,0:01:47.31,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(900,980)}Railgun
+Dialogue: 0,0:01:47.48,0:01:50.41,Default,,0,0,0,fx,{\be5\blur5}這將會是獨一無二的賣點哦
+Dialogue: 0,0:01:50.94,0:01:53.05,Default,,0,0,0,fx,{\be5\blur5}我才不會做這種事...
+Dialogue: 0,0:01:52.67,0:01:53.74,Upside,,0,0,0,fx,{\be5\blur5}好耶 這個不錯
+Dialogue: 0,0:01:53.99,0:01:56.35,Default,,0,0,0,fx,{\be5\blur5}那我來做新的傳單吧
+Dialogue: 0,0:01:56.70,0:01:57.63,Default,,0,0,0,fx,{\be5\blur5}那我...
+Dialogue: 0,0:01:57.89,0:01:59.61,Default,,0,0,0,fx,{\be5\blur5}對了 我來做招牌吧
+Dialogue: 0,0:01:59.79,0:02:02.30,Default,,0,0,0,fx,{\be5\blur5}等一下 我去找找看可以一起來幫忙的人
+Dialogue: 0,0:02:01.75,0:02:03.66,Upside,,0,0,0,fx,{\be5\blur5}算了 就這樣吧...
+Dialogue: 0,0:02:03.80,0:02:05.91,Default,,0,0,0,fx,{\be5\blur5}就是這樣 姊姊大人
+Dialogue: 0,0:02:05.91,0:02:10.79,Default,,0,0,0,fx,{\be5\blur5}那我就準備可以讓入浴更加性感的潤滑液...
+Dialogue: 0,0:02:12.11,0:02:13.48,Default,,0,0,0,fx,{\be5\blur5}我不需要這種東西
+Dialogue: 0,0:02:13.48,0:02:14.95,Default,,0,0,0,fx,{\be5\blur5}歹勢...
+Dialogue: 0,0:02:14.95,0:02:16.67,Default,,0,0,0,fx,{\be5\blur5}好 開始準備吧
+Dialogue: 0,0:02:16.73,0:02:17.18,Default,,0,0,0,fx,{\be5\blur5}是
+Dialogue: 0,0:02:17.01,0:02:17.68,Upside,,0,0,0,fx,{\be5\blur5}太棒了
+Dialogue: 0,0:02:20.04,0:02:21.49,Default,,0,0,0,fx,{\be5\blur5}這樣就完成了
+Dialogue: 0,0:02:32.32,0:02:34.04,Default,,0,0,0,fx,{\be5\blur5}嗶哩嗶哩的唷~
+Dialogue: 0,0:02:34.22,0:02:35.58,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:02:38.31,0:02:39.15,Default,,0,0,0,fx,{\be5\blur5}弄好了
+Dialogue: 0,0:02:40.14,0:02:41.87,Default,,0,0,0,fx,{\be5\blur5}那 就開店囉
+Dialogue: 0,0:02:42.25,0:02:44.43,Default,,0,0,0,fx,{\be5\blur5}歡迎光臨!!
+Dialogue: 0,0:02:43.45,0:02:44.51,Upside,,0,0,0,fx,{\be5\blur5}主人歡迎光臨!!
+Dialogue: 0,0:03:30.22,0:03:32.41,Default,,0,0,0,fx,{\be5\blur5}主人 請慢走!
+Dialogue: 0,0:03:33.76,0:03:35.98,Default,,0,0,0,fx,{\be5\blur5}好 那我們也來泡澡吧
+Dialogue: 0,0:03:36.38,0:03:36.89,Default,,0,0,0,fx,{\be5\blur5}好
+Dialogue: 0,0:03:37.26,0:03:38.47,Default,,0,0,0,fx,{\be5\blur5}姊姊大人
+Dialogue: 0,0:03:38.71,0:03:40.51,Default,,0,0,0,fx,{\be5\blur5}姊姊大人從什麼時候...
+Dialogue: 0,0:03:40.95,0:03:42.82,Default,,0,0,0,fx,{\be5\blur5}聽說營業額超出預期呢
+Dialogue: 0,0:03:43.02,0:03:44.04,Default,,0,0,0,fx,{\be5\blur5}多虧大家的幫忙
+Dialogue: 0,0:03:44.72,0:03:46.66,Default,,0,0,0,fx,{\be5\blur5}泡在大浴池裡面很舒服
+Dialogue: 0,0:03:46.75,0:03:49.80,Default,,0,0,0,fx,{\be5\blur5}客人也被澡堂的爽感征服了
+Dialogue: 0,0:03:45.73,0:03:46.67,Upside,,0,0,0,fx,{\be5\blur5}姊姊大人
+Dialogue: 0,0:03:47.31,0:03:48.46,Upside,,0,0,0,fx,{\be5\blur5}姊姊大人!
+Dialogue: 0,0:03:49.88,0:03:50.93,Default,,0,0,0,fx,{\be5\blur5}對啊
+Dialogue: 0,0:03:52.48,0:03:54.58,Default,,0,0,0,fx,{\be5\blur5}御坂 我來幫妳刷背吧
+Dialogue: 0,0:03:56.07,0:03:56.83,Default,,0,0,0,fx,{\be5\blur5}真不好意思
+Dialogue: 0,0:03:57.06,0:03:58.79,Default,,0,0,0,fx,{\be5\blur5}沒關係啦
+Dialogue: 0,0:03:56.68,0:03:58.00,Upside,,0,0,0,fx,{\be5\blur5}姊姊大人的背
+Dialogue: 0,0:03:58.30,0:03:59.84,Upside,,0,0,0,fx,{\be5\blur5}純淨潔白的肌膚
+Dialogue: 0,0:04:00.18,0:04:02.14,Upside,,0,0,0,fx,{\be5\blur5}一定要黑子我 來刷!
+Dialogue: 0,0:04:01.21,0:04:03.96,Default,,0,0,0,fx,{\be5\blur5}那固法學姐的背就我來刷吧
+Dialogue: 0,0:04:04.07,0:04:05.39,Default,,0,0,0,fx,{\be5\blur5}那我也來刷前面
+Dialogue: 0,0:04:06.04,0:04:06.72,Default,,0,0,0,fx,{\be5\blur5}前面!?
+Dialogue: 0,0:04:06.39,0:04:08.52,Upside,,0,0,0,fx,{\be5\blur5}姊姊大人的前面要我來才對!
+Dialogue: 0,0:04:06.72,0:04:08.46,Default,,0,0,0,fx,{\be5\blur5}固法學姐的皮膚好光滑啊
+Dialogue: 0,0:04:11.12,0:04:13.26,Upside,,0,0,0,fx,{\be5\blur5}為什麼只有黑子我被綁住啊
+Dialogue: 0,0:04:10.25,0:04:11.44,Default,,0,0,0,fx,{\be5\blur5}可以讓我摸摸看嗎?
+Dialogue: 0,0:04:14.29,0:04:16.23,Default,,0,0,0,fx,{\be5\blur5}那 我也要摸御坂的
+Dialogue: 0,0:04:16.89,0:04:18.72,Upside,,0,0,0,fx,{\be5\blur5}姊姊大人美麗的肌膚
+Dialogue: 0,0:04:19.43,0:04:21.68,Upside,,0,0,0,fx,{\be5\blur5}所以才要我直接來撫摸
+Dialogue: 0,0:04:22.10,0:04:23.55,Upside,,0,0,0,fx,{\be5\blur5}可是 我竟然不能...
+Dialogue: 0,0:04:22.63,0:04:24.07,Default,,0,0,0,fx,{\be5\blur5}真拿妳沒辦法
+Dialogue: 0,0:04:25.66,0:04:27.34,Default,,0,0,0,fx,{\be5\blur5}今天妳也辛苦了一天
+Dialogue: 0,0:04:27.48,0:04:28.75,Default,,0,0,0,fx,{\be5\blur5}好好泡澡放鬆吧
+Dialogue: 0,0:04:29.90,0:04:30.49,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:04:30.80,0:04:32.78,Default,,0,0,0,fx,{\be5\blur5}眼罩妳還是不能拆下來唷
+Dialogue: 0,0:04:33.69,0:04:35.55,Default,,0,0,0,fx,{\be5\blur5}真是太感謝妳了 姊姊大人
+Dialogue: 0,0:04:36.03,0:04:38.02,Default,,0,0,0,fx,{\be5\blur5}來吧! 讓黑子的肌膚跟姊姊大人...
+Dialogue: 0,0:04:39.62,0:04:42.30,Default,,0,0,0,fx,{\be5\blur5}好啦好啦 我知道妳很想趕快泡澡
+Dialogue: 0,0:04:45.49,0:04:46.68,Default,,0,0,0,fx,{\be5\blur5}泡得真爽~
+Dialogue: 0,0:04:59.12,0:05:00.80,Default,,0,0,0,fx,{\be5\blur5}學... 學姐
+Dialogue: 0,0:05:00.90,0:05:01.64,Default,,0,0,0,fx,{\be5\blur5}原來...
+Dialogue: 0,0:05:06.23,0:05:07.61,Default,,0,0,0,fx,{\be5\blur5}這就是祕密武器
+Dialogue: 0,0:05:07.91,0:05:09.54,Default,,0,0,0,fx,{\be5\blur5}做好覺悟了吧 各位
+Dialogue: 0,0:05:09.79,0:05:10.32,Default,,0,0,0,fx,{\be5\blur5}是
+Dialogue: 0,0:05:10.43,0:05:11.31,Default,,0,0,0,fx,{\be5\blur5}當然
+Dialogue: 0,0:05:11.68,0:05:14.81,Default,,0,0,0,fx,{\be5\blur5}固法學姐 每天喝的量都比這些還多
+Dialogue: 0,0:05:15.08,0:05:15.91,Default,,0,0,0,fx,{\be5\blur5}準備囉
+Dialogue: 0,0:05:16.14,0:05:17.24,Default,,0,0,0,fx,{\be5\blur5}果然牛奶...
+Dialogue: 0,0:05:18.00,0:05:19.53,Default,,0,0,0,fx,{\be5\blur5}就是要喝「武藏牛乳」!!
+Dialogue: 0,0:05:25.10,0:05:26.03,Default,,0,0,0,fx,{\be5\blur5}再一瓶!
+Dialogue: 0,0:05:25.85,0:05:26.94,Upside,,0,0,0,fx,{\be5\blur5}再喝一瓶!
+Dialogue: 0,0:05:26.88,0:05:28.80,Default,,0,0,0,fx,{\be5\blur5}明顯已經有效果了
+Dialogue: 0,0:05:29.66,0:05:31.49,Default,,0,0,0,fx,{\be5\blur5}讓妳們見識什麼叫做能喝
+Dialogue: 0,0:05:31.95,0:05:33.49,Default,,0,0,0,fx,{\be5\blur5}連固法學姐都...

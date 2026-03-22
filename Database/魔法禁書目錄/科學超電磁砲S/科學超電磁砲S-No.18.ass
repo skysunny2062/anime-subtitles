@@ -1,0 +1,1099 @@
+﻿[Script Info]
+Title: New subtitles
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.601
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: explaination 02-furigana,DFPHeiMedium-UN,17.5,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,1.5,7,20,10,8,1
+Style: explaination 01-furigana,華康中圓體,22.5,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,1,7,20,10,8,1
+Style: effect background 03-furigana,ＤＦＰ綜藝体W7,30,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 02-furigana,ＤＦＰ綜藝体W7,30,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 01-furigana,ＤＦＰ綜藝体W7,30,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: warning en BS11-furigana,Eras Demi ITC,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning en-furigana,Eras Demi ITC,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning ch BS11-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: warning ch-furigana,華康雅藝體W6,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: thanks TV-furigana,Babylon5,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: staff TV-furigana,DFFangYuanW7-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,0,0,0,1
+Style: 副本 - UP-furigana,華康粗圓體,26.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
+Style: 下一回-furigana,華康雅藝體W6(P),37.5,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: warning-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: thanks-furigana,DFLiSong-Md,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: staff-furigana,DFPFangSongW6-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: other-furigana,華康新綜藝體,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: explanation 03-furigana,ＤＦ中太丸ゴシック体,19,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: explanation 02-furigana,DFKai-SB,19,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: explaination-furigana,華康中黑體(P),19,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: Upside-furigana,DFPHuaZongW5-B5,25,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,3.5,0,2,15,15,130,1
+Style: SED-JP-furigana,Ｃ＆Ｇ Pれいしっく,27.5,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: SED-CH-furigana,華康儷細黑,22.5,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,1,1,7,30,10,10,1
+Style: ADT-furigana,@華康新特明體,35,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Default,DFPHuaZongW5-B5,61,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,0,0,0,0,100,100,0,0,1,7,0,2,15,15,35,1
+Style: ADT,@華康新特明體,70,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Default-furigana,華康新綜藝體W5(P),32,&H00FFFFFF,&H000000FF,&H00004FD0,&H00E16227,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,15,1
+Style: SED-CH,華康儷細黑,45,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,2,2,7,30,10,10,1
+Style: SED-JP,Ｃ＆Ｇ Pれいしっく,55,&H00FFFFFF,&H000000FF,&H00E77B1F,&H64D26609,0,0,0,0,100,100,0,0,1,4,4,7,30,10,10,1
+Style: Upside,DFPHuaZongW5-B5,50,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,130,1
+Style: explaination,華康中黑體(P),38,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: explanation 02,DFKai-SB,38,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: explanation 03,ＤＦ中太丸ゴシック体,38,&H00FFFFFF,&H000000FF,&H000B7E24,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: other,華康新綜藝體,60,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: staff,DFPFangSongW6-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: thanks,DFLiSong-Md,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: warning,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: 下一回,華康雅藝體W6(P),75,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: 副本 - UP,華康粗圓體,53,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
+Style: staff TV,DFFangYuanW7-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
+Style: thanks TV,Babylon5,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0,0,10,1
+Style: warning ch,華康雅藝體W6,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning ch BS11,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning en,Eras Demi ITC,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: warning en BS11,Eras Demi ITC,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: effect background 01,ＤＦＰ綜藝体W7,60,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 02,ＤＦＰ綜藝体W7,60,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 03,ＤＦＰ綜藝体W7,60,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: explaination 01,華康中圓體,45,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,2,7,20,10,8,1
+Style: explaination 02,DFPHeiMedium-UN,35,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,3,7,20,10,8,1
+Style: OPCN,思源黑体 CN Normal,68,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,-1,0,0,100,100,0,0,1,3,0,2,45,45,30,134
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Upside,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Default-furigana,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:07.50,0:00:08.35,Default,,0,0,0,karaoke,結果
+Comment: 0,0:00:08.62,0:00:10.69,Default,,0,0,0,karaoke,這次的委託是什麼啊?
+Comment: 0,0:00:10.99,0:00:11.61,Default,,0,0,0,karaoke,誰知道
+Comment: 0,0:00:11.91,0:00:13.01,Default,,0,0,0,karaoke,超有疑問的
+Comment: 0,0:00:14.07,0:00:16.23,Default,???,0,0,0,karaoke,叫我們阻止武器交易
+Comment: 0,0:00:16.27,0:00:17.65,Default,,0,0,0,karaoke,結果來這裡一看
+Comment: 0,0:00:17.77,0:00:20.41,Default,,0,0,0,karaoke,別說是交易 根本連隻貓影都沒看到
+Comment: 0,0:00:21.43,0:00:25.05,Default,,0,0,0,karaoke,結果竟然是這堆鳥玩具襲擊我們
+Comment: 0,0:00:27.47,0:00:28.31,Default,,0,0,0,karaoke,怎麼了嗎?
+Comment: 0,0:00:28.62,0:00:29.26,Default,,0,0,0,karaoke,瀧壺
+Comment: 0,0:00:29.88,0:00:30.51,Default,,0,0,0,karaoke,總覺得
+Comment: 0,0:00:31.00,0:00:32.01,Default,,0,0,0,karaoke,有種奇怪的感覺
+Comment: 0,0:00:35.18,0:00:36.04,Default,,0,0,0,karaoke,麥野
+Comment: 0,0:00:40.03,0:00:40.65,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:00:41.12,0:00:42.40,Default,,0,0,0,karaoke,超沒問題的
+Comment: 0,0:00:46.33,0:00:47.85,Default,,0,0,0,karaoke,不要嚇我嘛
+Comment: 0,0:00:48.89,0:00:49.84,Default,,0,0,0,karaoke,謝啦麥野...
+Comment: 0,0:00:53.86,0:00:56.54,Default,,0,0,0,karaoke,以測試運轉來說的話 成果還算不錯
+Comment: 0,0:00:57.46,0:01:00.11,Default,,0,0,0,karaoke,朝著主要目標蒐集到越來越多數據...
+Comment: 0,0:00:59.75,0:01:00.25,Default,,0,0,0,karaoke,有富
+Comment: 0,0:01:10.90,0:01:12.70,Default,???,0,0,0,karaoke,肚子好撐啊~
+Comment: 0,0:01:13.03,0:01:15.90,Default,,0,0,0,karaoke,我還是第一次吃到鱉料理呢
+Comment: 0,0:01:16.19,0:01:18.86,Default,,0,0,0,karaoke,御坂帶來的肉也很棒對吧
+Comment: 0,0:01:19.43,0:01:21.66,Default,,0,0,0,karaoke,結果不小心吃太多了
+Comment: 0,0:01:21.89,0:01:24.27,Default,,0,0,0,karaoke,還是吃一下藥比較好喔
+Comment: 0,0:01:27.16,0:01:28.01,Default,,0,0,0,karaoke,話說
+Comment: 0,0:01:28.39,0:01:30.53,Default,,0,0,0,karaoke,結果跟老師談得怎麼樣?
+Comment: 0,0:01:33.38,0:01:35.74,Default,,0,0,0,karaoke,找到一個不錯的地方喔
+Comment: 0,0:01:37.07,0:01:38.09,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:01:38.97,0:01:39.93,Default,,0,0,0,karaoke,終於到了這一天啊
+Comment: 0,0:01:43.99,0:01:45.25,Default,OP,0,0,0,,
+Comment: 0,0:03:13.96,0:03:16.42,Default,001,0,0,0,,
+Comment: 0,0:03:15.94,0:03:16.49,Default,,0,0,0,karaoke,所以
+Comment: 0,0:03:17.00,0:03:18.15,Default,,0,0,0,karaoke,剛才那個人是誰呀?
+Comment: 0,0:03:19.05,0:03:20.58,Default,???,0,0,0,karaoke,那個很豪爽的人
+Comment: 0,0:03:20.87,0:03:22.12,Default,,0,0,0,karaoke,就只是認識的人而已
+Comment: 0,0:03:22.49,0:03:23.67,Default,,0,0,0,karaoke,又來了又來了
+Comment: 0,0:03:24.42,0:03:26.05,Default,,0,0,0,karaoke,該不會是上次送餅乾的對象吧?
+Comment: 0,0:03:26.22,0:03:27.58,Default,,0,0,0,karaoke,才...才不是 才不是
+Comment: 0,0:03:27.66,0:03:29.70,Default,???,0,0,0,karaoke,最近老被他纏著覺得很煩啊
+Comment: 0,0:03:30.01,0:03:33.02,Default,,0,0,0,karaoke,所以妳到底是把餅乾送給誰呀?
+Comment: 0,0:03:33.73,0:03:34.81,Default,,0,0,0,karaoke,就說不是...
+Comment: 0,0:03:34.56,0:03:35.49,Default,,0,0,0,karaoke,姐姐大人
+Comment: 0,0:03:36.01,0:03:37.22,Default,,0,0,0,karaoke,妳很慢耶
+Comment: 0,0:03:37.29,0:03:38.35,Default,,0,0,0,karaoke,到底在幹什...
+Comment: 0,0:03:38.35,0:03:39.39,Default,,0,0,0,karaoke,就是啊 那個~
+Comment: 0,0:03:40.14,0:03:41.99,Default,,0,0,0,karaoke,妳看妳看 電梯來了
+Comment: 0,0:03:42.07,0:03:43.15,Default,,0,0,0,karaoke,大家 走吧走吧
+Comment: 0,0:03:43.32,0:03:45.42,Default,,0,0,0,karaoke,好啦 快點快點
+Comment: 0,0:03:45.46,0:03:48.02,Upside,,0,0,0,karaoke,怎...怎麼了嗎? 御坂
+Comment: 0,0:03:45.87,0:03:46.65,Default,,0,0,0,karaoke,真的
+Comment: 0,0:03:47.26,0:03:48.62,Default,,0,0,0,karaoke,好可愛呀~
+Comment: 0,0:03:50.75,0:03:52.16,Default,,0,0,0,karaoke,恭喜妳 枝先
+Comment: 0,0:03:54.10,0:03:55.84,Default,,0,0,0,karaoke,後天就能出院了吧
+Comment: 0,0:03:57.08,0:03:57.90,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:03:58.26,0:03:59.45,Default,,0,0,0,karaoke,都是多虧了大家
+Comment: 0,0:04:00.01,0:04:01.48,Default,,0,0,0,karaoke,說好在暑假結束以前
+Comment: 0,0:04:01.75,0:04:04.46,Default,,0,0,0,karaoke,一定要出院穿上那件制服
+Comment: 0,0:04:04.66,0:04:06.21,Default,,0,0,0,karaoke,我才能這麼努力的
+Comment: 0,0:04:09.78,0:04:12.58,Default,,0,0,0,karaoke,話說 出院之後的事情都規劃好了嗎?
+Comment: 0,0:04:13.88,0:04:16.81,Default,,0,0,0,karaoke,枝先會和春上一起住喔
+Comment: 0,0:04:17.80,0:04:18.49,Default,,0,0,0,karaoke,是這樣嗎?
+Comment: 0,0:04:19.18,0:04:19.61,Default,,0,0,0,karaoke,是啊
+Comment: 0,0:04:19.91,0:04:22.73,Default,,0,0,0,karaoke,因為 我一直都住在研究設施裡的關係
+Comment: 0,0:04:23.37,0:04:26.04,Default,,0,0,0,karaoke,突然要自己一個人生活太困難了嘛
+Comment: 0,0:04:26.60,0:04:28.76,Default,,0,0,0,karaoke,所以我才去拜託老師
+Comment: 0,0:04:29.04,0:04:31.66,Default,,0,0,0,karaoke,能不能安排我跟絆理住在同一間
+Comment: 0,0:04:33.16,0:04:34.42,Default,,0,0,0,karaoke,是這樣啊
+Comment: 0,0:04:35.53,0:04:37.40,Default,,0,0,0,karaoke,所以又要搬家了呢
+Comment: 0,0:04:37.93,0:04:39.57,Default,,0,0,0,karaoke,要不要我們去幫忙啊?
+Comment: 0,0:04:39.96,0:04:40.91,Default,,0,0,0,karaoke,沒關係啦
+Comment: 0,0:04:42.06,0:04:44.15,Default,,0,0,0,karaoke,我和初春已經一起整理好了
+Comment: 0,0:04:44.41,0:04:45.14,Default,,0,0,0,karaoke,是喔
+Comment: 0,0:04:45.35,0:04:45.79,Default,,0,0,0,karaoke,是啊
+Comment: 0,0:04:46.07,0:04:48.60,Default,,0,0,0,karaoke,明天搬家公司就會來了
+Comment: 0,0:04:48.99,0:04:50.10,Default,,0,0,0,karaoke,是喔
+Comment: 0,0:04:50.39,0:04:51.95,Default,???,0,0,0,karaoke,真是見外耶
+Comment: 0,0:04:53.95,0:04:57.66,Default,,0,0,0,karaoke,春上說她還想再跟枝先多聊一下
+Comment: 0,0:04:58.01,0:04:58.62,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:04:59.62,0:05:00.51,Default,,0,0,0,karaoke,初春真是的
+Comment: 0,0:05:00.76,0:05:03.37,Default,,0,0,0,karaoke,如果有和我說一聲 就可以去幫忙搬家了
+Comment: 0,0:05:03.50,0:05:04.18,Default,,0,0,0,karaoke,那是因為
+Comment: 0,0:05:04.27,0:05:06.38,Default,,0,0,0,karaoke,意外的沒有什麼大問題
+Comment: 0,0:05:06.71,0:05:10.07,Default,,0,0,0,karaoke,不過也因為這樣 現在我房間放了一堆紙箱
+Comment: 0,0:05:10.60,0:05:11.33,Default,,0,0,0,karaoke,這麼說來
+Comment: 0,0:05:11.50,0:05:14.67,Default,,0,0,0,karaoke,春上搬來的時候就有很多東西了啊
+Comment: 0,0:05:15.00,0:05:17.08,Default,,0,0,0,karaoke,比那時候又再更多了
+Comment: 0,0:05:17.58,0:05:20.58,Default,,0,0,0,karaoke,明明沒過多久 真奇怪啊
+Comment: 0,0:05:23.03,0:05:23.77,Default,,0,0,0,karaoke,啊 對了
+Comment: 0,0:05:25.58,0:05:26.37,Default,,0,0,0,karaoke,白井
+Comment: 0,0:05:26.54,0:05:28.12,Default,,0,0,0,karaoke,時間差不多了吧
+Comment: 0,0:05:29.62,0:05:30.66,Default,,0,0,0,karaoke,是啊
+Comment: 0,0:05:30.83,0:05:31.43,Default,,0,0,0,karaoke,什麼?
+Comment: 0,0:05:31.76,0:05:33.22,Default,,0,0,0,karaoke,又是風紀委員的工作?
+Comment: 0,0:05:31.76,0:05:33.22,Default-furigana,,0,0,0,karaoke,{\pos(914,980)}judgment
+Comment: 0,0:05:33.46,0:05:34.00,Default,,0,0,0,karaoke,是的
+Comment: 0,0:05:34.49,0:05:37.46,Default,,0,0,0,karaoke,要去幫忙這次學究會的警備
+Comment: 0,0:05:37.74,0:05:39.51,Default,,0,0,0,karaoke,今天是去事前調查的
+Comment: 0,0:05:39.64,0:05:40.47,Default,,0,0,0,karaoke,欸~~~
+Comment: 0,0:05:40.91,0:05:41.53,Default,,0,0,0,karaoke,那個...
+Comment: 0,0:05:42.25,0:05:45.32,Default,,0,0,0,karaoke,學級會為什麼會需要警備啊?
+Comment: 0,0:05:47.74,0:05:49.53,Default,,0,0,0,karaoke,不是這樣啦 佐天
+Comment: 0,0:05:50.41,0:05:52.14,Default,,0,0,0,karaoke,不是班級的學級會
+Comment: 0,0:05:52.58,0:05:54.52,Default,,0,0,0,karaoke,是學園都市研究發表會
+Comment: 0,0:05:55.02,0:05:56.45,Default,,0,0,0,karaoke,簡稱「學究會」
+Comment: 0,0:05:56.94,0:06:00.20,Default,,0,0,0,karaoke,日夜致力於學習的學園都市的學生中
+Comment: 0,0:06:00.74,0:06:04.34,Default,,0,0,0,karaoke,給予成績優異者的研究發表場所
+Comment: 0,0:06:05.11,0:06:08.16,Default,,0,0,0,karaoke,這就是「學園都市研究發表會」
+Comment: 0,0:06:08.90,0:06:10.02,Default,,0,0,0,karaoke,不過在這裡
+Comment: 0,0:06:10.24,0:06:12.82,Default,,0,0,0,karaoke,所謂的成績並不是指能力的優劣
+Comment: 0,0:06:13.16,0:06:14.58,Default,,0,0,0,karaoke,是指學業上的成績
+Comment: 0,0:06:15.21,0:06:15.91,Default,,0,0,0,karaoke,也就是說
+Comment: 0,0:06:16.18,0:06:19.56,Default,,0,0,0,karaoke,是頭腦聰明者的大霸星祭嗎?
+Comment: 0,0:06:20.10,0:06:22.20,Default,,0,0,0,karaoke,沒有到那麼盛大啦
+Comment: 0,0:06:22.43,0:06:22.83,Default,,0,0,0,karaoke,但是
+Comment: 0,0:06:22.97,0:06:26.76,Default,,0,0,0,karaoke,有很多精心準備的發表和講座之類的
+Comment: 0,0:06:28.31,0:06:29.34,Default,,0,0,0,karaoke,雖然不是很明白
+Comment: 0,0:06:29.65,0:06:32.98,Default,,0,0,0,karaoke,總之就是今年開始又多了一個有趣的活動
+Comment: 0,0:06:34.05,0:06:34.63,Default,,0,0,0,karaoke,那個...
+Comment: 0,0:06:35.47,0:06:37.02,Default,,0,0,0,karaoke,這個每年都會舉辦...
+Comment: 0,0:06:37.93,0:06:38.72,Default,,0,0,0,karaoke,真假!?
+Comment: 0,0:06:39.27,0:06:41.74,Default,,0,0,0,karaoke,真的能來幫忙嗎?
+Comment: 0,0:06:42.12,0:06:44.79,Default,,0,0,0,karaoke,是社團學姐們拜託我們的
+Comment: 0,0:06:44.97,0:06:46.31,Default,,0,0,0,karaoke,不管怎麼說 婚后都不需要...
+Comment: 0,0:06:46.06,0:06:47.64,Default,,0,0,0,karaoke,妳在說什麼啊?
+Comment: 0,0:06:47.94,0:06:49.69,Default,,0,0,0,karaoke,既然是妳們兩個的學姐
+Comment: 0,0:06:49.97,0:06:51.83,Default,,0,0,0,karaoke,當然也是我的學姐啊
+Comment: 0,0:06:52.26,0:06:55.35,Default,,0,0,0,karaoke,而且我剛來這不久
+Comment: 0,0:06:55.62,0:06:58.20,Default,,0,0,0,karaoke,還沒看過學究會呢
+Comment: 0,0:06:58.58,0:06:59.92,Default,,0,0,0,karaoke,這正是個好機會...
+Comment: 0,0:06:59.96,0:07:01.03,Default,,0,0,0,karaoke,婚后!
+Comment: 0,0:07:01.37,0:07:02.24,Default,,0,0,0,karaoke,妳沒事吧?
+Comment: 0,0:07:02.44,0:07:03.67,Default,,0,0,0,karaoke,無禮之人
+Comment: 0,0:07:03.91,0:07:06.31,Default,,0,0,0,karaoke,你知道我可是婚后光子嗎?
+Comment: 0,0:07:06.14,0:07:06.81,Default,,0,0,0,karaoke,誰來...
+Comment: 0,0:07:07.67,0:07:08.77,Default,,0,0,0,karaoke,我的包包...
+Comment: 0,0:07:16.35,0:07:17.82,Default,,0,0,0,karaoke,光天化日
+Comment: 0,0:07:18.14,0:07:21.38,Default,,0,0,0,karaoke,眾目睽睽下行此惡行真是不可饒恕
+Comment: 0,0:07:22.07,0:07:23.49,Default,,0,0,0,karaoke,像你這種惡黨
+Comment: 0,0:07:24.02,0:07:26.20,Default,,0,0,0,karaoke,即使天容你
+Comment: 0,0:07:26.76,0:07:27.24,Default,,0,0,0,karaoke,在下
+Comment: 0,0:07:27.98,0:07:29.88,Default,,0,0,0,karaoke,婚后光子絕對不容赦!!
+Comment: 0,0:07:30.80,0:07:32.38,Default,,0,0,0,karaoke,真不愧是婚后
+Comment: 0,0:07:32.57,0:07:33.82,Default,,0,0,0,karaoke,爽快俐落
+Comment: 0,0:07:34.65,0:07:36.16,Default,,0,0,0,karaoke,灣內 泡浮
+Comment: 0,0:07:36.83,0:07:39.32,Default,,0,0,0,karaoke,前面有警備員的值勤室
+Comment: 0,0:07:36.83,0:07:39.32,Default-furigana,,0,0,0,karaoke,{\pos(927,980)}Anti-skill
+Comment: 0,0:07:39.64,0:07:40.98,Default,,0,0,0,karaoke,請去叫他們過來
+Comment: 0,0:07:41.75,0:07:42.39,Default,,0,0,0,karaoke,馬上去
+Comment: 0,0:07:44.32,0:07:45.45,Default,,0,0,0,karaoke,接下來
+Comment: 0,0:07:45.93,0:07:46.45,Default,,0,0,0,karaoke,妳
+Comment: 0,0:07:46.92,0:07:47.94,Default,,0,0,0,karaoke,能打擾一下嗎?
+Comment: 0,0:07:49.32,0:07:50.88,Default,,0,0,0,karaoke,我從剛剛就一直在看
+Comment: 0,0:07:51.52,0:07:53.16,Default,,0,0,0,karaoke,妳是不是稍微做過頭了?
+Comment: 0,0:07:54.75,0:07:57.42,Default,,0,0,0,karaoke,就算對方是犯罪者
+Comment: 0,0:07:58.06,0:08:00.97,Default,,0,0,0,karaoke,像妳這樣隨意使用能力我可不能認同
+Comment: 0,0:08:01.17,0:08:02.51,Default,,0,0,0,karaoke,你是哪位啊?
+Comment: 0,0:08:02.29,0:08:04.45,Default,,0,0,0,karaoke,平息事情的方法
+Comment: 0,0:08:04.88,0:08:06.68,Default,,0,0,0,karaoke,還有很多其他的辦法
+Comment: 0,0:08:07.62,0:08:09.10,Default,,0,0,0,karaoke,就如同妳說的
+Comment: 0,0:08:09.43,0:08:12.07,Default,,0,0,0,karaoke,前面有警備員的值勤室
+Comment: 0,0:08:09.43,0:08:12.07,Default-furigana,,0,0,0,karaoke,{\pos(927,980)}Anti-skill
+Comment: 0,0:08:12.65,0:08:14.44,Default,,0,0,0,karaoke,也有監視攝影器
+Comment: 0,0:08:14.84,0:08:15.80,Default,,0,0,0,karaoke,你到底想說...
+Comment: 0,0:08:15.59,0:08:16.74,Default,,0,0,0,karaoke,更重要的是
+Comment: 0,0:08:17.64,0:08:21.63,Default,,0,0,0,karaoke,妳應該要意識到自己令周遭的人陷入險境
+Comment: 0,0:08:22.97,0:08:24.40,Default,,0,0,0,karaoke,妳沒注意到嗎?
+Comment: 0,0:08:27.49,0:08:30.54,Default,,0,0,0,karaoke,這次是運氣好 將他一擊打倒
+Comment: 0,0:08:31.13,0:08:33.91,Default,,0,0,0,karaoke,如果妳失敗的話會怎麼樣呢?
+Comment: 0,0:08:35.07,0:08:36.27,Default,,0,0,0,karaoke,被激怒的他
+Comment: 0,0:08:36.68,0:08:39.19,Default,,0,0,0,karaoke,也許會抓女性或是小孩做人質
+Comment: 0,0:08:39.38,0:08:41.74,Upside,,0,0,0,karaoke,說的也是 的確不該隨意使用能力...
+Comment: 0,0:08:41.82,0:08:43.16,Upside,,0,0,0,karaoke,的確有可能喔...
+Comment: 0,0:08:43.39,0:08:46.24,Default,,0,0,0,karaoke,看來你對自己的能力很有自信
+Comment: 0,0:08:46.70,0:08:48.42,Default,,0,0,0,karaoke,能力不是萬能的
+Comment: 0,0:08:48.57,0:08:50.18,Default,,0,0,0,karaoke,那...那是
+Comment: 0,0:08:51.02,0:08:52.04,Default,,0,0,0,karaoke,請等一下
+Comment: 0,0:08:53.10,0:08:54.73,Default,,0,0,0,karaoke,不知道你是何方神聖
+Comment: 0,0:08:54.97,0:08:57.10,Default,,0,0,0,karaoke,但不管怎樣也不用說成這樣...
+Comment: 0,0:08:57.88,0:09:01.26,Default,,0,0,0,karaoke,婚后捕獲了犯人是事實
+Comment: 0,0:09:01.91,0:09:02.95,Default,,0,0,0,karaoke,妳們...
+Comment: 0,0:09:03.59,0:09:05.26,Default,,0,0,0,karaoke,不好意思來晚了
+Comment: 0,0:09:05.73,0:09:08.34,Default,,0,0,0,karaoke,警備員馬上就過來了
+Comment: 0,0:09:05.73,0:09:08.34,Default-furigana,,0,0,0,karaoke,{\pos(771,980)}Anti-skill
+Comment: 0,0:09:08.57,0:09:10.21,Default,,0,0,0,karaoke,謝...謝謝
+Comment: 0,0:09:11.66,0:09:12.17,Default,,0,0,0,karaoke,咦?
+Comment: 0,0:09:12.89,0:09:15.80,Default,,0,0,0,karaoke,剛才那個人去哪裡了?
+Comment: 0,0:09:17.85,0:09:19.32,Default,,0,0,0,karaoke,我回來了
+Comment: 0,0:09:20.75,0:09:21.99,Default,,0,0,0,karaoke,歡迎回來 黑子
+Comment: 0,0:09:24.82,0:09:26.66,Default,,0,0,0,karaoke,怎麼了? 累成這樣
+Comment: 0,0:09:27.30,0:09:29.03,Default,,0,0,0,karaoke,學究會的事前調查
+Comment: 0,0:09:29.61,0:09:33.77,Default,,0,0,0,karaoke,雖然我知道會場分散在好幾個大學裡
+Comment: 0,0:09:34.36,0:09:36.50,Default,,0,0,0,karaoke,但是沒想到要走那麼多的路
+Comment: 0,0:09:37.05,0:09:38.70,Default,,0,0,0,karaoke,多虧這樣 我的腿都走直了
+Comment: 0,0:09:39.25,0:09:40.86,Default,,0,0,0,karaoke,風紀委員也真夠辛苦的
+Comment: 0,0:09:39.25,0:09:40.86,Default-furigana,,0,0,0,karaoke,{\pos(775,980)}Judgment
+Comment: 0,0:09:42.42,0:09:44.91,Default,,0,0,0,karaoke,話說回來 初春怎麼樣?
+Comment: 0,0:09:45.88,0:09:47.28,Default,,0,0,0,karaoke,還是老樣子啊
+Comment: 0,0:09:48.22,0:09:50.22,Default,,0,0,0,karaoke,認真地完成了工作
+Comment: 0,0:09:50.68,0:09:51.49,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:09:52.36,0:09:53.30,Default,,0,0,0,karaoke,搬家啊
+Comment: 0,0:09:54.17,0:09:55.49,Default,,0,0,0,karaoke,有很多事情要做呢
+Comment: 0,0:09:56.28,0:09:59.56,Default,,0,0,0,karaoke,妳當初搬來這個房間的時候也發生了一些事呢
+Comment: 0,0:10:00.33,0:10:02.86,Default,,0,0,0,karaoke,又提起這種以前的事情
+Comment: 0,0:10:03.07,0:10:04.89,Default,,0,0,0,karaoke,那個都已經做了...
+Comment: 0,0:10:08.47,0:10:09.38,Default,,0,0,0,karaoke,姐姐大人
+Comment: 0,0:10:10.36,0:10:11.38,Default,,0,0,0,karaoke,各式各樣的事都有呢
+Comment: 0,0:10:11.98,0:10:12.94,Default,,0,0,0,karaoke,畢竟這裡是學園都市嘛
+Comment: 0,0:10:15.01,0:10:15.45,Default,,0,0,0,karaoke,是
+Comment: 0,0:10:17.47,0:10:18.12,Default,,0,0,0,karaoke,對了
+Comment: 0,0:10:18.46,0:10:20.65,Default,,0,0,0,karaoke,妳累的話 我幫妳按摩一下吧
+Comment: 0,0:10:20.81,0:10:26.56,Default,,0,0,0,karaoke,我幫妳按摩一下吧~
+Comment: 0,0:10:28.49,0:10:29.10,Default,,0,0,0,karaoke,黑子?
+Comment: 0,0:10:30.58,0:10:31.14,Default,,0,0,0,karaoke,怎麼?
+Comment: 0,0:10:34.23,0:10:37.08,Default,,0,0,0,karaoke,我先去洗澡
+Comment: 0,0:10:44.74,0:10:48.18,Default,,0,0,0,karaoke,初~~~春!
+Comment: 0,0:10:50.92,0:10:51.50,Default,,0,0,0,karaoke,真是的
+Comment: 0,0:10:51.67,0:10:53.59,Default,,0,0,0,karaoke,佐天妳每次都這樣!
+Comment: 0,0:10:53.40,0:10:54.63,Default,,0,0,0,karaoke,抱歉抱歉
+Comment: 0,0:10:57.19,0:10:58.65,Default,,0,0,0,karaoke,妳特地在等我嗎?
+Comment: 0,0:11:00.26,0:11:01.36,Default,,0,0,0,karaoke,啊~沒啦
+Comment: 0,0:11:01.46,0:11:03.14,Default,,0,0,0,karaoke,也不是特地在等...
+Comment: 0,0:11:03.61,0:11:05.36,Default,,0,0,0,karaoke,我沒問題的喔
+Comment: 0,0:11:06.63,0:11:09.51,Default,,0,0,0,karaoke,我和春上很早之前就說好了
+Comment: 0,0:11:10.29,0:11:11.83,Default,,0,0,0,karaoke,枝先出院後
+Comment: 0,0:11:12.20,0:11:14.92,Default,,0,0,0,karaoke,和春上一起住是最好的了
+Comment: 0,0:11:16.07,0:11:16.94,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:11:18.00,0:11:21.90,Default,,0,0,0,karaoke,說完全不會感到孤單是騙人的
+Comment: 0,0:11:22.83,0:11:23.35,Default,,0,0,0,karaoke,但是
+Comment: 0,0:11:23.82,0:11:25.11,Default,,0,0,0,karaoke,我是這麼想的
+Comment: 0,0:11:26.20,0:11:27.01,Default,,0,0,0,karaoke,果然
+Comment: 0,0:11:27.24,0:11:29.36,Default,,0,0,0,karaoke,她們兩個住在一起比較好
+Comment: 0,0:11:30.47,0:11:31.32,Default,,0,0,0,karaoke,而且
+Comment: 0,0:11:31.53,0:11:33.89,Default,,0,0,0,karaoke,又不是要去很遠的地方
+Comment: 0,0:11:34.66,0:11:35.79,Default,,0,0,0,karaoke,新學期開始後
+Comment: 0,0:11:36.06,0:11:37.71,Default,,0,0,0,karaoke,每天在學校都能見面
+Comment: 0,0:11:39.29,0:11:39.98,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:11:40.65,0:11:41.33,Default,,0,0,0,karaoke,也是呢
+Comment: 0,0:11:42.82,0:11:43.72,Default,,0,0,0,karaoke,好乖好乖
+Comment: 0,0:11:43.94,0:11:45.70,Default,,0,0,0,karaoke,姐姐我安心了~
+Comment: 0,0:11:45.48,0:11:47.96,Default,,0,0,0,karaoke,佐天真是的!
+Comment: 0,0:11:50.92,0:11:51.84,Default,,0,0,0,karaoke,沒問題的
+Comment: 0,0:11:55.69,0:11:56.26,Default,,0,0,0,karaoke,是的
+Comment: 0,0:11:54.35,0:11:56.94,Default,break,0,0,0,,
+Comment: 0,0:11:56.94,0:11:59.65,Default,002,0,0,0,,
+Comment: 0,0:11:57.89,0:11:58.57,Default,,0,0,0,karaoke,各位
+Comment: 0,0:11:58.74,0:11:59.58,Default,,0,0,0,karaoke,久等了
+Comment: 0,0:12:02.01,0:12:03.75,Default,,0,0,0,karaoke,如何...呢?
+Comment: 0,0:12:04.62,0:12:05.06,Default,,0,0,0,karaoke,好!
+Comment: 0,0:12:05.10,0:12:06.11,Default,,0,0,0,karaoke,超讚的!
+Comment: 0,0:12:06.38,0:12:07.88,Default,,0,0,0,karaoke,非常適合喔!
+Comment: 0,0:12:08.32,0:12:09.38,Default,,0,0,0,karaoke,太好了
+Comment: 0,0:12:10.49,0:12:14.80,Default,,0,0,0,karaoke,之前妳們兩個留在醫院中談的就是這個啊!
+Comment: 0,0:12:15.86,0:12:18.49,Default,,0,0,0,karaoke,因為想早點穿給大家看
+Comment: 0,0:12:17.18,0:12:18.50,Upside,,0,0,0,karaoke,快啊 姐姐大人
+Comment: 0,0:12:18.66,0:12:19.70,Default,,0,0,0,karaoke,啊 對了
+Comment: 0,0:12:20.87,0:12:21.56,Default,,0,0,0,karaoke,枝先
+Comment: 0,0:12:22.04,0:12:23.11,Default,,0,0,0,karaoke,恭喜妳出院
+Comment: 0,0:12:23.38,0:12:24.98,Default,,0,0,0,karaoke,恭喜妳了!
+Comment: 0,0:12:25.06,0:12:26.04,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:12:26.49,0:12:28.04,Default,,0,0,0,karaoke,那麼 趕快出發吧
+Comment: 0,0:12:28.89,0:12:29.51,Default,,0,0,0,karaoke,去哪裡?
+Comment: 0,0:12:30.00,0:12:31.64,Default,,0,0,0,karaoke,出院的慶祝會
+Comment: 0,0:12:31.92,0:12:34.85,Default,,0,0,0,karaoke,我預約了一家蛋糕很好吃的店喔
+Comment: 0,0:12:35.45,0:12:36.20,Default,,0,0,0,karaoke,蛋糕!
+Comment: 0,0:12:37.12,0:12:38.17,Default,,0,0,0,karaoke,謝謝~
+Comment: 0,0:12:37.40,0:12:38.66,Default,,0,0,0,karaoke,喂 我是白井
+Comment: 0,0:12:39.71,0:12:40.70,Default,,0,0,0,karaoke,固法學姐...
+Comment: 0,0:12:43.13,0:12:44.28,Default,,0,0,0,karaoke,紅綠燈故障?
+Comment: 0,0:12:45.37,0:12:47.18,Default,,0,0,0,karaoke,我什麼都沒做喔!
+Comment: 0,0:12:48.45,0:12:51.30,Default,,0,0,0,karaoke,這附近的紅綠燈全部都沒有訊號
+Comment: 0,0:12:51.91,0:12:52.50,Default,,0,0,0,karaoke,不好意思
+Comment: 0,0:12:52.60,0:12:53.65,Default,,0,0,0,karaoke,可以請妳馬上過來嗎?
+Comment: 0,0:12:54.20,0:12:55.53,Default,,0,0,0,karaoke,是 是
+Comment: 0,0:12:56.25,0:12:57.23,Default,,0,0,0,karaoke,我知道了
+Comment: 0,0:12:58.34,0:12:59.75,Default,,0,0,0,karaoke,初春也要去嗎?
+Comment: 0,0:13:00.65,0:13:01.19,Default,,0,0,0,karaoke,那個...
+Comment: 0,0:13:01.19,0:13:02.56,Default,,0,0,0,karaoke,欸~怎麼這樣
+Comment: 0,0:13:02.92,0:13:05.29,Default,,0,0,0,karaoke,好不容易枝先出院了
+Comment: 0,0:13:05.71,0:13:07.27,Default,,0,0,0,karaoke,我一個人去也...
+Comment: 0,0:13:07.02,0:13:08.39,Default,,0,0,0,karaoke,妳在說什麼?
+Comment: 0,0:13:08.84,0:13:10.47,Default,,0,0,0,karaoke,我也是風紀委員
+Comment: 0,0:13:08.84,0:13:10.47,Default-furigana,,0,0,0,karaoke,{\pos(1052,980)}Judgment
+Comment: 0,0:13:11.26,0:13:12.79,Default,,0,0,0,karaoke,請妳們先去
+Comment: 0,0:13:13.28,0:13:14.95,Default,,0,0,0,karaoke,等事情結束後我們馬上趕過去
+Comment: 0,0:13:15.37,0:13:16.61,Default,,0,0,0,karaoke,路上小心喔
+Comment: 0,0:13:17.78,0:13:18.90,Default,,0,0,0,karaoke,工作加油
+Comment: 0,0:13:19.11,0:13:19.51,Default,,0,0,0,karaoke,好的
+Comment: 0,0:13:20.34,0:13:21.29,Default,,0,0,0,karaoke,那麼 白井
+Comment: 0,0:13:22.45,0:13:23.21,Default,,0,0,0,karaoke,好
+Comment: 0,0:13:23.57,0:13:24.05,Default,,0,0,0,karaoke,先走了
+Comment: 0,0:13:25.52,0:13:26.31,Default,,0,0,0,karaoke,消失了?
+Comment: 0,0:13:28.36,0:13:29.89,Default,,0,0,0,karaoke,總而言之 先出發吧
+Comment: 0,0:13:32.02,0:13:34.11,Default,,0,0,0,karaoke,雖然原定計畫有點被打亂了
+Comment: 0,0:13:34.49,0:13:35.73,Default,,0,0,0,karaoke,總之 再一次地
+Comment: 0,0:13:36.37,0:13:38.10,Default,,0,0,0,karaoke,恭喜妳出院!
+Comment: 0,0:13:38.46,0:13:39.43,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:13:43.34,0:13:44.47,Default,,0,0,0,karaoke,好好吃~
+Comment: 0,0:13:44.64,0:13:45.34,Default,,0,0,0,karaoke,對吧
+Comment: 0,0:13:45.69,0:13:48.39,Default,,0,0,0,karaoke,初春說如果要慶祝的話 一定要來這裡
+Comment: 0,0:13:48.68,0:13:50.23,Default,,0,0,0,karaoke,預約和選擇蛋糕
+Comment: 0,0:13:50.45,0:13:51.85,Default,,0,0,0,karaoke,都是她一手包辦的喔
+Comment: 0,0:13:52.09,0:13:54.78,Default,,0,0,0,karaoke,初春真的很厲害呢
+Comment: 0,0:13:56.09,0:13:57.22,Default,,0,0,0,karaoke,出院前也是
+Comment: 0,0:13:57.50,0:14:00.79,Default,,0,0,0,karaoke,搬家和入學的手續也是她幫忙辦理的
+Comment: 0,0:14:01.06,0:14:01.35,Default,,0,0,0,karaoke,對吧
+Comment: 0,0:14:03.19,0:14:04.19,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:14:04.63,0:14:05.37,Default,,0,0,0,karaoke,果然
+Comment: 0,0:14:05.51,0:14:08.12,Default,,0,0,0,karaoke,能當風紀委員的人都很厲害啊
+Comment: 0,0:14:05.51,0:14:08.12,Default-furigana,,0,0,0,karaoke,{\pos(810,980)}Judgment
+Comment: 0,0:14:08.55,0:14:10.28,Default,,0,0,0,karaoke,能讓妳這麼開心
+Comment: 0,0:14:10.42,0:14:12.53,Default,,0,0,0,karaoke,不枉費初春這麼費心挑選了
+Comment: 0,0:14:12.78,0:14:13.95,Default,,0,0,0,karaoke,就是啊就是啊
+Comment: 0,0:14:14.09,0:14:14.57,Default,,0,0,0,karaoke,因為
+Comment: 0,0:14:14.78,0:14:16.20,Default,,0,0,0,karaoke,真的超好吃的啊
+Comment: 0,0:14:28.14,0:14:29.65,Default,,0,0,0,karaoke,新房間的鑰匙?
+Comment: 0,0:14:32.33,0:14:34.52,Default,,0,0,0,karaoke,初春真是費了不少心思啊
+Comment: 0,0:14:35.80,0:14:37.85,Default,,0,0,0,karaoke,我那時候也是
+Comment: 0,0:14:38.47,0:14:40.65,Default,,0,0,0,karaoke,春上搬來的時候嗎?
+Comment: 0,0:14:41.28,0:14:42.45,Default,,0,0,0,karaoke,啊 對啊對啊
+Comment: 0,0:14:42.84,0:14:45.16,Default,,0,0,0,karaoke,那個時候她也是充滿幹勁呢
+Comment: 0,0:14:45.82,0:14:47.44,Default,,0,0,0,karaoke,那時候一個人很不安
+Comment: 0,0:14:48.39,0:14:50.02,Default,,0,0,0,karaoke,但都多虧有初春陪我一起
+Comment: 0,0:14:52.10,0:14:52.89,Default,,0,0,0,karaoke,所以
+Comment: 0,0:14:53.67,0:14:55.78,Default,,0,0,0,karaoke,這次輪到我要加油了
+Comment: 0,0:14:56.43,0:14:58.33,Default,,0,0,0,karaoke,像初春為我所做的那樣
+Comment: 0,0:14:58.86,0:15:00.97,Default,,0,0,0,karaoke,我要幫助絆理
+Comment: 0,0:15:02.17,0:15:02.73,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:15:06.09,0:15:08.05,Default,,0,0,0,karaoke,初春還不快來~
+Comment: 0,0:15:08.51,0:15:09.06,Default,,0,0,0,karaoke,她現在
+Comment: 0,0:15:09.43,0:15:11.95,Default,,0,0,0,karaoke,一定很認真地在工作
+Comment: 0,0:15:12.46,0:15:14.04,Default,,0,0,0,karaoke,會不會戴著完全不適合她的安全帽
+Comment: 0,0:15:14.34,0:15:16.41,Default,,0,0,0,karaoke,在指揮著交通呢?
+Comment: 0,0:15:17.05,0:15:19.26,Default,,0,0,0,karaoke,明明這種時候偷懶一下也沒關係
+Comment: 0,0:15:19.70,0:15:22.28,Default,,0,0,0,karaoke,這不可能的啦 因為她是初春啊
+Comment: 0,0:15:22.94,0:15:23.58,Default,,0,0,0,karaoke,就是啊
+Comment: 0,0:15:25.28,0:15:27.63,Default,,0,0,0,karaoke,我也來當風紀委員好了
+Comment: 0,0:15:25.28,0:15:27.63,Default-furigana,,0,0,0,karaoke,{\pos(1020,980)}Judgment
+Comment: 0,0:15:29.54,0:15:30.71,Default,,0,0,0,karaoke,怎麼突然這麼說?
+Comment: 0,0:15:31.40,0:15:32.31,Default,,0,0,0,karaoke,這樣一來
+Comment: 0,0:15:32.89,0:15:35.69,Default,,0,0,0,karaoke,就可以成為像初春一樣的人了吧
+Comment: 0,0:15:38.63,0:15:39.65,Default,,0,0,0,karaoke,初春她啊
+Comment: 0,0:15:40.06,0:15:44.20,Default,,0,0,0,karaoke,並不是因為她是風紀委員所以才對枝先這麼溫柔的喔
+Comment: 0,0:15:40.06,0:15:44.20,Default-furigana,,0,0,0,karaoke,{\pos(807,980)}Judgment
+Comment: 0,0:15:45.31,0:15:46.57,Default,,0,0,0,karaoke,那麼 為什麼?
+Comment: 0,0:15:47.89,0:15:48.90,Default,,0,0,0,karaoke,因為是朋友
+Comment: 0,0:15:49.26,0:15:49.61,Default,,0,0,0,karaoke,對吧?
+Comment: 0,0:15:53.34,0:15:54.08,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:15:56.29,0:15:57.72,Default,,0,0,0,karaoke,不過說到出院啊
+Comment: 0,0:15:58.60,0:15:59.52,Default,,0,0,0,karaoke,沒什麼啦...
+Comment: 0,0:15:59.65,0:16:01.77,Default,,0,0,0,karaoke,我的朋友也住院了
+Comment: 0,0:16:02.12,0:16:03.53,Default,,0,0,0,karaoke,如果她們也出院了
+Comment: 0,0:16:03.69,0:16:06.83,Default,,0,0,0,karaoke,能不能和她們像這樣一起吃飯之類的呢...
+Comment: 0,0:16:10.35,0:16:11.21,Default,,0,0,0,karaoke,啊 沒啦
+Comment: 0,0:16:11.38,0:16:12.12,Default,,0,0,0,karaoke,不要在意
+Comment: 0,0:16:12.25,0:16:14.00,Default,,0,0,0,karaoke,不是很重要的事情
+Comment: 0,0:16:14.12,0:16:14.82,Default,,0,0,0,karaoke,真的
+Comment: 0,0:16:16.04,0:16:18.83,Default,,0,0,0,karaoke,如果她們能早點出院就好了
+Comment: 0,0:16:21.59,0:16:22.23,Default,,0,0,0,karaoke,謝謝
+Comment: 0,0:16:23.42,0:16:24.39,Default,,0,0,0,karaoke,辛苦了
+Comment: 0,0:16:25.20,0:16:26.10,Default,,0,0,0,karaoke,不好意思啊
+Comment: 0,0:16:26.19,0:16:27.43,Default,,0,0,0,karaoke,突然把妳叫來
+Comment: 0,0:16:27.74,0:16:30.34,Default,,0,0,0,karaoke,不過紅綠燈故障這種事情...
+Comment: 0,0:16:30.84,0:16:33.27,Default,,0,0,0,karaoke,好像是電力系統出現異狀的樣子
+Comment: 0,0:16:33.51,0:16:34.88,Default,,0,0,0,karaoke,真是稀奇啊
+Comment: 0,0:16:35.28,0:16:37.54,Default,,0,0,0,karaoke,這個城市竟然會發生這種事情
+Comment: 0,0:16:38.33,0:16:39.45,Default,,0,0,0,karaoke,白井
+Comment: 0,0:16:39.86,0:16:41.24,Default,,0,0,0,karaoke,啊 對了
+Comment: 0,0:16:41.82,0:16:43.29,Default,,0,0,0,karaoke,那麼 我們就先...
+Comment: 0,0:16:44.55,0:16:46.01,Default,,0,0,0,karaoke,怎麼了啊? 真是的
+Comment: 0,0:16:46.20,0:16:48.22,Default,,0,0,0,karaoke,我有個想去的地方!
+Comment: 0,0:16:48.62,0:16:50.98,Default,,0,0,0,karaoke,是 我知道啦 所以...
+Comment: 0,0:16:50.51,0:16:51.48,Default,,0,0,0,karaoke,不是
+Comment: 0,0:16:51.81,0:16:54.51,Default,,0,0,0,karaoke,在那之前想要先繞去一個地方
+Comment: 0,0:16:58.52,0:16:59.27,Default,,0,0,0,karaoke,怎麼辦?
+Comment: 0,0:16:59.36,0:17:00.37,Default,,0,0,0,karaoke,打電話看看嗎?
+Comment: 0,0:17:00.84,0:17:02.49,Default,,0,0,0,karaoke,就是啊...
+Comment: 0,0:17:05.88,0:17:07.47,Default,,0,0,0,karaoke,就打個電話看看吧
+Comment: 0,0:17:07.74,0:17:09.04,Default,*,0,0,0,karaoke,讓妳們久...
+Comment: 0,0:17:09.24,0:17:10.72,Default,*,0,0,0,karaoke,久等了!
+Comment: 0,0:17:10.95,0:17:11.69,Default,*,0,0,0,karaoke,久等了
+Comment: 0,0:17:12.46,0:17:13.50,Default,,0,0,0,karaoke,終於來啦
+Comment: 0,0:17:13.68,0:17:15.48,Default,,0,0,0,karaoke,真是的 初春太慢了啦
+Comment: 0,0:17:15.83,0:17:18.77,Default,,0,0,0,karaoke,枝先說要去一趟醫院 先走了啦
+Comment: 0,0:17:19.78,0:17:21.49,Default,,0,0,0,karaoke,欸!? 是這樣啊
+Comment: 0,0:17:22.02,0:17:23.43,Default,,0,0,0,karaoke,不不...不好意思
+Comment: 0,0:17:23.73,0:17:24.76,Default,,0,0,0,karaoke,沒關係的
+Comment: 0,0:17:25.46,0:17:28.00,Default,,0,0,0,karaoke,絆理說蛋糕很好吃喔
+Comment: 0,0:17:30.66,0:17:31.03,Default,,0,0,0,karaoke,那個
+Comment: 0,0:17:31.36,0:17:31.77,Default,,0,0,0,karaoke,這個...
+Comment: 0,0:17:32.35,0:17:34.16,Default,,0,0,0,karaoke,請和枝先一起吃
+Comment: 0,0:17:39.35,0:17:40.05,Default,,0,0,0,karaoke,鯛魚燒?
+Comment: 0,0:17:40.63,0:17:41.65,Default,,0,0,0,karaoke,那個 初春啊
+Comment: 0,0:17:41.98,0:17:44.37,Default,,0,0,0,karaoke,我們在此之前才剛吃完蛋糕啊
+Comment: 0,0:17:44.57,0:17:46.48,Default,,0,0,0,karaoke,話...話這麼說沒錯啦
+Comment: 0,0:17:46.58,0:17:48.39,Default,,0,0,0,karaoke,蛋糕之後再吃鯛魚燒啊...
+Comment: 0,0:17:48.55,0:17:49.99,Default,,0,0,0,karaoke,不是 所以那是...
+Comment: 0,0:17:49.99,0:17:51.82,Default,,0,0,0,karaoke,所以我就說嘛
+Comment: 0,0:17:52.04,0:17:52.73,Default,,0,0,0,karaoke,好啦好啦
+Comment: 0,0:17:52.99,0:17:54.58,Default,,0,0,0,karaoke,心意最重要嘛...
+Comment: 0,0:17:54.17,0:17:55.03,Default,,0,0,0,karaoke,所以...
+Comment: 0,0:17:55.03,0:17:56.77,Default,,0,0,0,karaoke,是那時候的鯛魚燒啊
+Comment: 0,0:17:58.50,0:17:58.92,Default,,0,0,0,karaoke,這個
+Comment: 0,0:17:59.41,0:18:01.45,Default,,0,0,0,karaoke,在我極度不安的時候
+Comment: 0,0:18:02.04,0:18:04.18,Default,,0,0,0,karaoke,初春買給我的鯛魚燒
+Comment: 0,0:18:06.12,0:18:07.64,Default,,0,0,0,karaoke,非常的好吃
+Comment: 0,0:18:09.01,0:18:10.47,Default,,0,0,0,karaoke,等...等等 春上
+Comment: 0,0:18:10.95,0:18:11.88,Default,,0,0,0,karaoke,不行了
+Comment: 0,0:18:12.55,0:18:14.76,Default,,0,0,0,karaoke,明明決定今天不哭的
+Comment: 0,0:18:15.66,0:18:16.26,Default,,0,0,0,karaoke,那個...
+Comment: 0,0:18:16.70,0:18:17.35,Default,,0,0,0,karaoke,我
+Comment: 0,0:18:18.53,0:18:19.43,Default,,0,0,0,karaoke,會加油的
+Comment: 0,0:18:20.55,0:18:21.91,Default,,0,0,0,karaoke,像初春一樣
+Comment: 0,0:18:22.55,0:18:24.52,Default,,0,0,0,karaoke,我會為了絆理而加油的
+Comment: 0,0:18:26.57,0:18:27.69,Default,,0,0,0,karaoke,沒問題的
+Comment: 0,0:18:28.15,0:18:29.30,Default,,0,0,0,karaoke,春上的話
+Comment: 0,0:18:30.06,0:18:30.58,Default,,0,0,0,karaoke,一定
+Comment: 0,0:18:31.60,0:18:32.46,Default,,0,0,0,karaoke,沒問題的
+Comment: 0,0:18:34.32,0:18:35.30,Default,,0,0,0,karaoke,初春
+Comment: 0,0:18:39.82,0:18:41.77,Default,,0,0,0,karaoke,春...春上
+Comment: 0,0:18:42.45,0:18:43.14,Default,,0,0,0,karaoke,這樣太...
+Comment: 0,0:18:43.79,0:18:45.50,Default,,0,0,0,karaoke,太誇張了啦...
+Comment: 0,0:18:49.96,0:18:50.74,Default,,0,0,0,karaoke,算了算了
+Comment: 0,0:18:50.78,0:18:52.15,Default,,0,0,0,karaoke,真是小孩子
+Comment: 0,0:18:52.48,0:18:54.00,Default,,0,0,0,karaoke,真沒辦法啊
+Comment: 0,0:18:54.39,0:18:55.31,Default,,0,0,0,karaoke,這樣也挺好的啊
+Comment: 0,0:19:08.78,0:19:09.59,Default,,0,0,0,karaoke,我...
+Comment: 0,0:19:11.42,0:19:14.10,Default,,0,0,0,karaoke,有幫上春上的忙對吧?
+Comment: 0,0:19:15.54,0:19:16.68,Default,,0,0,0,karaoke,妳在說什麼啊
+Comment: 0,0:19:17.06,0:19:18.84,Default,,0,0,0,karaoke,當然是有幫上忙啦
+Comment: 0,0:19:19.00,0:19:20.30,Default,,0,0,0,karaoke,好痛...
+Comment: 0,0:19:20.30,0:19:21.83,Default,,0,0,0,karaoke,不只是春上唷
+Comment: 0,0:19:23.26,0:19:24.03,Default,,0,0,0,karaoke,初春妳啊
+Comment: 0,0:19:24.45,0:19:26.62,Default,,0,0,0,karaoke,也幫了枝先呢
+Comment: 0,0:19:27.69,0:19:28.62,Default,,0,0,0,karaoke,御坂...
+Comment: 0,0:19:29.13,0:19:29.55,Default,,0,0,0,karaoke,沒錯
+Comment: 0,0:19:30.10,0:19:31.32,Default,,0,0,0,karaoke,然後姐姐大人
+Comment: 0,0:19:31.74,0:19:33.27,Default,,0,0,0,karaoke,就來幫助黑子我...
+Comment: 0,0:19:33.59,0:19:35.07,Default,,0,0,0,karaoke,那麼 回去了回去了
+Comment: 0,0:19:35.46,0:19:36.17,Default,,0,0,0,karaoke,對了
+Comment: 0,0:19:36.49,0:19:38.32,Default,,0,0,0,karaoke,這前面有條近路喔
+Comment: 0,0:19:40.47,0:19:40.94,Default,,0,0,0,karaoke,我說
+Comment: 0,0:19:41.11,0:19:42.57,Default,,0,0,0,karaoke,真的是這裡嗎?
+Comment: 0,0:19:42.81,0:19:43.72,Default,,0,0,0,karaoke,沒問題的
+Comment: 0,0:19:43.96,0:19:46.63,Default,,0,0,0,karaoke,穿過這裡馬上就是寬敞的道路了
+Comment: 0,0:19:47.35,0:19:49.10,Default,,0,0,0,karaoke,妳知道的真清楚呢
+Comment: 0,0:19:50.19,0:19:50.83,Default,,0,0,0,karaoke,姐姐大人
+Comment: 0,0:19:51.35,0:19:52.54,Default,,0,0,0,karaoke,怎麼了嗎?
+Comment: 0,0:19:53.88,0:19:54.91,Default,,0,0,0,karaoke,那個是...
+Comment: 0,0:19:56.63,0:19:57.88,Default,,0,0,0,karaoke,那是...
+Comment: 0,0:19:58.31,0:19:59.82,Default,,0,0,0,karaoke,女孩...子?
+Comment: 0,0:20:03.21,0:20:04.31,Default,,0,0,0,karaoke,好可愛
+Comment: 0,0:20:04.81,0:20:06.76,Default,,0,0,0,karaoke,不是說這種話的時候啦
+Comment: 0,0:20:07.05,0:20:08.43,Default,,0,0,0,karaoke,等等 黑子
+Comment: 0,0:20:16.05,0:20:17.34,Default,,0,0,0,karaoke,醒過來了唷
+Comment: 0,0:20:18.35,0:20:19.37,Default,,0,0,0,karaoke,早安
+Comment: 0,0:20:20.06,0:20:22.46,Default,,0,0,0,karaoke,為什麼睡在這種地方呢?
+Comment: 0,0:20:24.02,0:20:25.98,Default,,0,0,0,karaoke,妳叫什麼名字呢?
+Comment: 0,0:20:28.84,0:20:29.66,Default,,0,0,0,karaoke,那個...
+Comment: 0,0:20:29.91,0:20:31.66,Default,,0,0,0,karaoke,那麼...妳幾歲呢?
+Comment: 0,0:20:33.53,0:20:35.21,Default,,0,0,0,karaoke,妳家在哪裡?
+Comment: 0,0:20:35.83,0:20:36.43,Default,,0,0,0,karaoke,學校呢?
+Comment: 0,0:20:37.02,0:20:38.96,Default,,0,0,0,karaoke,導師的名字知道嗎?
+Comment: 0,0:20:41.01,0:20:42.55,Default,,0,0,0,karaoke,真困擾啊
+Comment: 0,0:20:42.84,0:20:44.71,Default,,0,0,0,karaoke,聽不懂日文嗎?
+Comment: 0,0:20:45.14,0:20:47.28,Default,,0,0,0,karaoke,真是的 不是啦不是啦
+Comment: 0,0:20:47.77,0:20:49.54,Default,,0,0,0,karaoke,和小孩子說話的時候
+Comment: 0,0:20:49.88,0:20:51.80,Default,,0,0,0,karaoke,必須要像這樣視線交會才行
+Comment: 0,0:20:53.07,0:20:54.63,Default,,0,0,0,karaoke,看起來很好吃的糖果啊
+Comment: 0,0:20:56.37,0:20:57.26,Default,,0,0,0,karaoke,我啊
+Comment: 0,0:20:57.87,0:20:58.95,Default,,0,0,0,karaoke,叫做淚子
+Comment: 0,0:20:59.57,0:21:00.28,Default,,0,0,0,karaoke,妳呢?
+Comment: 0,0:21:00.72,0:21:02.13,Default,,0,0,0,karaoke,會說妳的名字嗎?
+Comment: 0,0:21:07.76,0:21:08.45,Default,,0,0,0,karaoke,菲布理
+Comment: 0,0:21:10.05,0:21:11.54,Default,,0,0,0,karaoke,叫做菲布理啊
+Comment: 0,0:21:12.03,0:21:13.05,Default,,0,0,0,karaoke,那麼 菲布理
+Comment: 0,0:21:13.50,0:21:14.50,Default,,0,0,0,karaoke,什麼都可以
+Comment: 0,0:21:14.73,0:21:16.84,Default,,0,0,0,karaoke,能告訴我妳知道的事情嗎?
+Comment: 0,0:21:20.46,0:21:21.88,Default,,0,0,0,karaoke,御坂美琴
+Comment: 0,0:21:27.22,0:21:28.01,Default,ED,0,0,0,,
+Comment: 0,0:22:57.23,0:23:00.69,Default,003,0,0,0,,
+Comment: 0,0:22:59.22,0:23:00.70,Default,,0,0,0,karaoke,在這次實驗中
+Comment: 0,0:23:00.99,0:23:03.27,Default,,0,0,0,karaoke,即使對手是排名第四的超能力者
+Comment: 0,0:23:00.99,0:23:03.27,Default-furigana,,0,0,0,karaoke,{\pos(1275,980)}Level5
+Comment: 0,0:23:03.74,0:23:06.23,Default,,0,0,0,karaoke,也得到了與計算相符的數據
+Comment: 0,0:23:07.32,0:23:10.18,Default,,0,0,0,karaoke,雖然在現場發生了預料之外的事件
+Comment: 0,0:23:10.61,0:23:12.88,Default,,0,0,0,karaoke,不過很快就可以解決了吧
+Comment: 0,0:23:13.70,0:23:14.96,Default,,0,0,0,karaoke,準備已經完成
+Comment: 0,0:23:15.73,0:23:17.38,Default,,0,0,0,karaoke,現在正是將我們的力量
+Comment: 0,0:23:17.71,0:23:20.76,Default,,0,0,0,karaoke,展現在這個能力至上主義城市的時刻
+Comment: 0,0:23:21.72,0:23:24.82,Default,,0,0,0,karaoke,贊成計畫繼續向下一個階段進行的人
+Comment: 0,0:23:25.21,0:23:25.64,Default,,0,0,0,karaoke,舉手
+Comment: 0,0:23:29.97,0:23:31.22,Default,next,0,0,0,,
+Comment: 0,0:23:31.09,0:23:31.54,Default,,0,0,0,karaoke,什麼?
+Comment: 0,0:23:31.54,0:23:32.76,Default,,0,0,0,karaoke,這個叫做菲布理的孩子
+Comment: 0,0:23:32.84,0:23:34.58,Default,,0,0,0,karaoke,為什麼會知道我的名字呢?
+Comment: 0,0:23:34.58,0:23:35.60,Default,,0,0,0,karaoke,迷路了嗎?
+Comment: 0,0:23:35.60,0:23:36.38,Default,,0,0,0,karaoke,怎麼辦呢?
+Comment: 0,0:23:36.55,0:23:38.46,Default,,0,0,0,karaoke,在學究會上決定吧!
+Comment: 0,0:23:38.62,0:23:39.97,Default,,0,0,0,karaoke,學究會?
+Comment: 0,0:23:39.98,0:23:47.98,Default,thanks,0,0,0,,
+Comment: 0,0:23:44.97,0:23:46.97,staff,export,0,0,0,,
+Dialogue: 1,0:06:15.93,0:06:20.68,effect background 01,title,0,0,0,,{\an7\bord0\p1\pos(20,20)\fscx0\t(0,250,2,\fscx147)\alpha&H90&\t(4250,4500,2,\fscx0)}m 0 0 l 0 60 l 102 60 l 102 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 0,0:06:15.93,0:06:20.68,effect background 02,title,0,0,0,,{\an7\bord0\p1\fscx0\t(0,250,2,\fscx975)\alpha&H80&\pos(20,20)\t(4250,4500,2,\fscx0)}m 0 0 l 0 60 l 85 60 l 75 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 0,0:06:15.93,0:06:20.43,effect background 03,title,0,0,0,,{\an7\3c&HFFFFFF&\bord0\shad2\p1\pos(20,82)\fscx975\fscy0\t(250,500,2,\fscy930)\alpha&HC0&\t(4000,4250,2,\fscy0)}m 0 0 l 0 25 l 85 25 l 85 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 1,0:06:16.18,0:06:20.18,explaination 01,title,0,0,0,,{\pos(31,28)}{\an7\fscx0\t(0,250,2,\fscx100)\t(3750,4000,2,\fscx0)}註解  {\fs40\fnＶＤ ロゴジー 太\3c&H345761&\c&HFFFFFF&\bord\shad3}大霸星祭
+Dialogue: 0,0:06:16.18,0:06:20.18,explaination 02,content,0,0,0,,{\pos(30,93)}{\an7\fscy0\t(0,250,2,\fscy100)\t(3750,4000,2,\fscy0)}學園都市所有學校一同舉辦的超大規模運動大會，\N於9月19日到25日一週內舉辦。期間內學園都市幾乎\N對外公開，也有電視轉播。雖然比賽內容和一般的運\N動會差不多，但因為推薦使用超能力(不得危害觀眾\N，因此也有高等級能力者反而無法施展能力)，幾乎\N成為華麗的超能力大戰。
+Dialogue: 0,0:11:54.35,0:11:56.94,ADT,,0,0,0,,{\frz-90\an1\pos(478,336)}搬宿舍
+Dialogue: 0,0:23:31.22,0:23:39.97,下一回,,0,0,0,,{\an7\fs70\pos(509,535)}學{\r\fs50}園都市
+Dialogue: 0,0:23:31.22,0:23:39.97,下一回,,0,0,0,,{\an7\fs50\pos(535,605)}研{\r\fs70}究
+Dialogue: 0,0:23:31.22,0:23:39.97,下一回,,0,0,0,,{\an7\fs50\pos(565,675)}發表{\fs70}會
+Dialogue: 0,0:00:07.50,0:00:08.35,Default,,0,0,0,fx,{\be5\blur5}結果
+Dialogue: 0,0:00:08.62,0:00:10.69,Default,,0,0,0,fx,{\be5\blur5}這次的委託是什麼啊?
+Dialogue: 0,0:00:10.99,0:00:11.61,Default,,0,0,0,fx,{\be5\blur5}誰知道
+Dialogue: 0,0:00:11.91,0:00:13.01,Default,,0,0,0,fx,{\be5\blur5}超有疑問的
+Dialogue: 0,0:00:14.07,0:00:16.23,Default,???,0,0,0,fx,{\be5\blur5}叫我們阻止武器交易
+Dialogue: 0,0:00:16.27,0:00:17.65,Default,,0,0,0,fx,{\be5\blur5}結果來這裡一看
+Dialogue: 0,0:00:17.77,0:00:20.41,Default,,0,0,0,fx,{\be5\blur5}別說是交易 根本連隻貓影都沒看到
+Dialogue: 0,0:00:21.43,0:00:25.05,Default,,0,0,0,fx,{\be5\blur5}結果竟然是這堆鳥玩具襲擊我們
+Dialogue: 0,0:00:27.47,0:00:28.31,Default,,0,0,0,fx,{\be5\blur5}怎麼了嗎?
+Dialogue: 0,0:00:28.62,0:00:29.26,Default,,0,0,0,fx,{\be5\blur5}瀧壺
+Dialogue: 0,0:00:29.88,0:00:30.51,Default,,0,0,0,fx,{\be5\blur5}總覺得
+Dialogue: 0,0:00:31.00,0:00:32.01,Default,,0,0,0,fx,{\be5\blur5}有種奇怪的感覺
+Dialogue: 0,0:00:35.18,0:00:36.04,Default,,0,0,0,fx,{\be5\blur5}麥野
+Dialogue: 0,0:00:40.03,0:00:40.65,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:00:41.12,0:00:42.40,Default,,0,0,0,fx,{\be5\blur5}超沒問題的
+Dialogue: 0,0:00:46.33,0:00:47.85,Default,,0,0,0,fx,{\be5\blur5}不要嚇我嘛
+Dialogue: 0,0:00:48.89,0:00:49.84,Default,,0,0,0,fx,{\be5\blur5}謝啦麥野...
+Dialogue: 0,0:00:53.86,0:00:56.54,Default,,0,0,0,fx,{\be5\blur5}以測試運轉來說的話 成果還算不錯
+Dialogue: 0,0:00:57.46,0:01:00.11,Default,,0,0,0,fx,{\be5\blur5}朝著主要目標蒐集到越來越多數據...
+Dialogue: 0,0:00:59.75,0:01:00.25,Default,,0,0,0,fx,{\be5\blur5}有富
+Dialogue: 0,0:01:10.90,0:01:12.70,Default,???,0,0,0,fx,{\be5\blur5}肚子好撐啊~
+Dialogue: 0,0:01:13.03,0:01:15.90,Default,,0,0,0,fx,{\be5\blur5}我還是第一次吃到鱉料理呢
+Dialogue: 0,0:01:16.19,0:01:18.86,Default,,0,0,0,fx,{\be5\blur5}御坂帶來的肉也很棒對吧
+Dialogue: 0,0:01:19.43,0:01:21.66,Default,,0,0,0,fx,{\be5\blur5}結果不小心吃太多了
+Dialogue: 0,0:01:21.89,0:01:24.27,Default,,0,0,0,fx,{\be5\blur5}還是吃一下藥比較好喔
+Dialogue: 0,0:01:27.16,0:01:28.01,Default,,0,0,0,fx,{\be5\blur5}話說
+Dialogue: 0,0:01:28.39,0:01:30.53,Default,,0,0,0,fx,{\be5\blur5}結果跟老師談得怎麼樣?
+Dialogue: 0,0:01:33.38,0:01:35.74,Default,,0,0,0,fx,{\be5\blur5}找到一個不錯的地方喔
+Dialogue: 0,0:01:37.07,0:01:38.09,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:01:38.97,0:01:39.93,Default,,0,0,0,fx,{\be5\blur5}終於到了這一天啊
+Dialogue: 0,0:03:15.94,0:03:16.49,Default,,0,0,0,fx,{\be5\blur5}所以
+Dialogue: 0,0:03:17.00,0:03:18.15,Default,,0,0,0,fx,{\be5\blur5}剛才那個人是誰呀?
+Dialogue: 0,0:03:19.05,0:03:20.58,Default,???,0,0,0,fx,{\be5\blur5}那個很豪爽的人
+Dialogue: 0,0:03:20.87,0:03:22.12,Default,,0,0,0,fx,{\be5\blur5}就只是認識的人而已
+Dialogue: 0,0:03:22.49,0:03:23.67,Default,,0,0,0,fx,{\be5\blur5}又來了又來了
+Dialogue: 0,0:03:24.42,0:03:26.05,Default,,0,0,0,fx,{\be5\blur5}該不會是上次送餅乾的對象吧?
+Dialogue: 0,0:03:26.22,0:03:27.58,Default,,0,0,0,fx,{\be5\blur5}才...才不是 才不是
+Dialogue: 0,0:03:27.66,0:03:29.70,Default,???,0,0,0,fx,{\be5\blur5}最近老被他纏著覺得很煩啊
+Dialogue: 0,0:03:30.01,0:03:33.02,Default,,0,0,0,fx,{\be5\blur5}所以妳到底是把餅乾送給誰呀?
+Dialogue: 0,0:03:33.73,0:03:34.81,Default,,0,0,0,fx,{\be5\blur5}就說不是...
+Dialogue: 0,0:03:34.56,0:03:35.49,Default,,0,0,0,fx,{\be5\blur5}姐姐大人
+Dialogue: 0,0:03:36.01,0:03:37.22,Default,,0,0,0,fx,{\be5\blur5}妳很慢耶
+Dialogue: 0,0:03:37.29,0:03:38.35,Default,,0,0,0,fx,{\be5\blur5}到底在幹什...
+Dialogue: 0,0:03:38.35,0:03:39.39,Default,,0,0,0,fx,{\be5\blur5}就是啊 那個~
+Dialogue: 0,0:03:40.14,0:03:41.99,Default,,0,0,0,fx,{\be5\blur5}妳看妳看 電梯來了
+Dialogue: 0,0:03:42.07,0:03:43.15,Default,,0,0,0,fx,{\be5\blur5}大家 走吧走吧
+Dialogue: 0,0:03:43.32,0:03:45.42,Default,,0,0,0,fx,{\be5\blur5}好啦 快點快點
+Dialogue: 0,0:03:45.46,0:03:48.02,Upside,,0,0,0,fx,{\be5\blur5}怎...怎麼了嗎? 御坂
+Dialogue: 0,0:03:45.87,0:03:46.65,Default,,0,0,0,fx,{\be5\blur5}真的
+Dialogue: 0,0:03:47.26,0:03:48.62,Default,,0,0,0,fx,{\be5\blur5}好可愛呀~
+Dialogue: 0,0:03:50.75,0:03:52.16,Default,,0,0,0,fx,{\be5\blur5}恭喜妳 枝先
+Dialogue: 0,0:03:54.10,0:03:55.84,Default,,0,0,0,fx,{\be5\blur5}後天就能出院了吧
+Dialogue: 0,0:03:57.08,0:03:57.90,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:03:58.26,0:03:59.45,Default,,0,0,0,fx,{\be5\blur5}都是多虧了大家
+Dialogue: 0,0:04:00.01,0:04:01.48,Default,,0,0,0,fx,{\be5\blur5}說好在暑假結束以前
+Dialogue: 0,0:04:01.75,0:04:04.46,Default,,0,0,0,fx,{\be5\blur5}一定要出院穿上那件制服
+Dialogue: 0,0:04:04.66,0:04:06.21,Default,,0,0,0,fx,{\be5\blur5}我才能這麼努力的
+Dialogue: 0,0:04:09.78,0:04:12.58,Default,,0,0,0,fx,{\be5\blur5}話說 出院之後的事情都規劃好了嗎?
+Dialogue: 0,0:04:13.88,0:04:16.81,Default,,0,0,0,fx,{\be5\blur5}枝先會和春上一起住喔
+Dialogue: 0,0:04:17.80,0:04:18.49,Default,,0,0,0,fx,{\be5\blur5}是這樣嗎?
+Dialogue: 0,0:04:19.18,0:04:19.61,Default,,0,0,0,fx,{\be5\blur5}是啊
+Dialogue: 0,0:04:19.91,0:04:22.73,Default,,0,0,0,fx,{\be5\blur5}因為 我一直都住在研究設施裡的關係
+Dialogue: 0,0:04:23.37,0:04:26.04,Default,,0,0,0,fx,{\be5\blur5}突然要自己一個人生活太困難了嘛
+Dialogue: 0,0:04:26.60,0:04:28.76,Default,,0,0,0,fx,{\be5\blur5}所以我才去拜託老師
+Dialogue: 0,0:04:29.04,0:04:31.66,Default,,0,0,0,fx,{\be5\blur5}能不能安排我跟絆理住在同一間
+Dialogue: 0,0:04:33.16,0:04:34.42,Default,,0,0,0,fx,{\be5\blur5}是這樣啊
+Dialogue: 0,0:04:35.53,0:04:37.40,Default,,0,0,0,fx,{\be5\blur5}所以又要搬家了呢
+Dialogue: 0,0:04:37.93,0:04:39.57,Default,,0,0,0,fx,{\be5\blur5}要不要我們去幫忙啊?
+Dialogue: 0,0:04:39.96,0:04:40.91,Default,,0,0,0,fx,{\be5\blur5}沒關係啦
+Dialogue: 0,0:04:42.06,0:04:44.15,Default,,0,0,0,fx,{\be5\blur5}我和初春已經一起整理好了
+Dialogue: 0,0:04:44.41,0:04:45.14,Default,,0,0,0,fx,{\be5\blur5}是喔
+Dialogue: 0,0:04:45.35,0:04:45.79,Default,,0,0,0,fx,{\be5\blur5}是啊
+Dialogue: 0,0:04:46.07,0:04:48.60,Default,,0,0,0,fx,{\be5\blur5}明天搬家公司就會來了
+Dialogue: 0,0:04:48.99,0:04:50.10,Default,,0,0,0,fx,{\be5\blur5}是喔
+Dialogue: 0,0:04:50.39,0:04:51.95,Default,???,0,0,0,fx,{\be5\blur5}真是見外耶
+Dialogue: 0,0:04:53.95,0:04:57.66,Default,,0,0,0,fx,{\be5\blur5}春上說她還想再跟枝先多聊一下
+Dialogue: 0,0:04:58.01,0:04:58.62,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:04:59.62,0:05:00.51,Default,,0,0,0,fx,{\be5\blur5}初春真是的
+Dialogue: 0,0:05:00.76,0:05:03.37,Default,,0,0,0,fx,{\be5\blur5}如果有和我說一聲 就可以去幫忙搬家了
+Dialogue: 0,0:05:03.50,0:05:04.18,Default,,0,0,0,fx,{\be5\blur5}那是因為
+Dialogue: 0,0:05:04.27,0:05:06.38,Default,,0,0,0,fx,{\be5\blur5}意外的沒有什麼大問題
+Dialogue: 0,0:05:06.71,0:05:10.07,Default,,0,0,0,fx,{\be5\blur5}不過也因為這樣 現在我房間放了一堆紙箱
+Dialogue: 0,0:05:10.60,0:05:11.33,Default,,0,0,0,fx,{\be5\blur5}這麼說來
+Dialogue: 0,0:05:11.50,0:05:14.67,Default,,0,0,0,fx,{\be5\blur5}春上搬來的時候就有很多東西了啊
+Dialogue: 0,0:05:15.00,0:05:17.08,Default,,0,0,0,fx,{\be5\blur5}比那時候又再更多了
+Dialogue: 0,0:05:17.58,0:05:20.58,Default,,0,0,0,fx,{\be5\blur5}明明沒過多久 真奇怪啊
+Dialogue: 0,0:05:23.03,0:05:23.77,Default,,0,0,0,fx,{\be5\blur5}啊 對了
+Dialogue: 0,0:05:25.58,0:05:26.37,Default,,0,0,0,fx,{\be5\blur5}白井
+Dialogue: 0,0:05:26.54,0:05:28.12,Default,,0,0,0,fx,{\be5\blur5}時間差不多了吧
+Dialogue: 0,0:05:29.62,0:05:30.66,Default,,0,0,0,fx,{\be5\blur5}是啊
+Dialogue: 0,0:05:30.83,0:05:31.43,Default,,0,0,0,fx,{\be5\blur5}什麼?
+Dialogue: 0,0:05:31.76,0:05:33.22,Default,,0,0,0,fx,{\be5\blur5}又是風紀委員的工作?
+Dialogue: 0,0:05:31.76,0:05:33.22,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(914,980)}judgment
+Dialogue: 0,0:05:33.46,0:05:34.00,Default,,0,0,0,fx,{\be5\blur5}是的
+Dialogue: 0,0:05:34.49,0:05:37.46,Default,,0,0,0,fx,{\be5\blur5}要去幫忙這次學究會的警備
+Dialogue: 0,0:05:37.74,0:05:39.51,Default,,0,0,0,fx,{\be5\blur5}今天是去事前調查的
+Dialogue: 0,0:05:39.64,0:05:40.47,Default,,0,0,0,fx,{\be5\blur5}欸~~~
+Dialogue: 0,0:05:40.91,0:05:41.53,Default,,0,0,0,fx,{\be5\blur5}那個...
+Dialogue: 0,0:05:42.25,0:05:45.32,Default,,0,0,0,fx,{\be5\blur5}學級會為什麼會需要警備啊?
+Dialogue: 0,0:05:47.74,0:05:49.53,Default,,0,0,0,fx,{\be5\blur5}不是這樣啦 佐天
+Dialogue: 0,0:05:50.41,0:05:52.14,Default,,0,0,0,fx,{\be5\blur5}不是班級的學級會
+Dialogue: 0,0:05:52.58,0:05:54.52,Default,,0,0,0,fx,{\be5\blur5}是學園都市研究發表會
+Dialogue: 0,0:05:55.02,0:05:56.45,Default,,0,0,0,fx,{\be5\blur5}簡稱「學究會」
+Dialogue: 0,0:05:56.94,0:06:00.20,Default,,0,0,0,fx,{\be5\blur5}日夜致力於學習的學園都市的學生中
+Dialogue: 0,0:06:00.74,0:06:04.34,Default,,0,0,0,fx,{\be5\blur5}給予成績優異者的研究發表場所
+Dialogue: 0,0:06:05.11,0:06:08.16,Default,,0,0,0,fx,{\be5\blur5}這就是「學園都市研究發表會」
+Dialogue: 0,0:06:08.90,0:06:10.02,Default,,0,0,0,fx,{\be5\blur5}不過在這裡
+Dialogue: 0,0:06:10.24,0:06:12.82,Default,,0,0,0,fx,{\be5\blur5}所謂的成績並不是指能力的優劣
+Dialogue: 0,0:06:13.16,0:06:14.58,Default,,0,0,0,fx,{\be5\blur5}是指學業上的成績
+Dialogue: 0,0:06:15.21,0:06:15.91,Default,,0,0,0,fx,{\be5\blur5}也就是說
+Dialogue: 0,0:06:16.18,0:06:19.56,Default,,0,0,0,fx,{\be5\blur5}是頭腦聰明者的大霸星祭嗎?
+Dialogue: 0,0:06:20.10,0:06:22.20,Default,,0,0,0,fx,{\be5\blur5}沒有到那麼盛大啦
+Dialogue: 0,0:06:22.43,0:06:22.83,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:06:22.97,0:06:26.76,Default,,0,0,0,fx,{\be5\blur5}有很多精心準備的發表和講座之類的
+Dialogue: 0,0:06:28.31,0:06:29.34,Default,,0,0,0,fx,{\be5\blur5}雖然不是很明白
+Dialogue: 0,0:06:29.65,0:06:32.98,Default,,0,0,0,fx,{\be5\blur5}總之就是今年開始又多了一個有趣的活動
+Dialogue: 0,0:06:34.05,0:06:34.63,Default,,0,0,0,fx,{\be5\blur5}那個...
+Dialogue: 0,0:06:35.47,0:06:37.02,Default,,0,0,0,fx,{\be5\blur5}這個每年都會舉辦...
+Dialogue: 0,0:06:37.93,0:06:38.72,Default,,0,0,0,fx,{\be5\blur5}真假!?
+Dialogue: 0,0:06:39.27,0:06:41.74,Default,,0,0,0,fx,{\be5\blur5}真的能來幫忙嗎?
+Dialogue: 0,0:06:42.12,0:06:44.79,Default,,0,0,0,fx,{\be5\blur5}是社團學姐們拜託我們的
+Dialogue: 0,0:06:44.97,0:06:46.31,Default,,0,0,0,fx,{\be5\blur5}不管怎麼說 婚后都不需要...
+Dialogue: 0,0:06:46.06,0:06:47.64,Default,,0,0,0,fx,{\be5\blur5}妳在說什麼啊?
+Dialogue: 0,0:06:47.94,0:06:49.69,Default,,0,0,0,fx,{\be5\blur5}既然是妳們兩個的學姐
+Dialogue: 0,0:06:49.97,0:06:51.83,Default,,0,0,0,fx,{\be5\blur5}當然也是我的學姐啊
+Dialogue: 0,0:06:52.26,0:06:55.35,Default,,0,0,0,fx,{\be5\blur5}而且我剛來這不久
+Dialogue: 0,0:06:55.62,0:06:58.20,Default,,0,0,0,fx,{\be5\blur5}還沒看過學究會呢
+Dialogue: 0,0:06:58.58,0:06:59.92,Default,,0,0,0,fx,{\be5\blur5}這正是個好機會...
+Dialogue: 0,0:06:59.96,0:07:01.03,Default,,0,0,0,fx,{\be5\blur5}婚后!
+Dialogue: 0,0:07:01.37,0:07:02.24,Default,,0,0,0,fx,{\be5\blur5}妳沒事吧?
+Dialogue: 0,0:07:02.44,0:07:03.67,Default,,0,0,0,fx,{\be5\blur5}無禮之人
+Dialogue: 0,0:07:03.91,0:07:06.31,Default,,0,0,0,fx,{\be5\blur5}你知道我可是婚后光子嗎?
+Dialogue: 0,0:07:06.14,0:07:06.81,Default,,0,0,0,fx,{\be5\blur5}誰來...
+Dialogue: 0,0:07:07.67,0:07:08.77,Default,,0,0,0,fx,{\be5\blur5}我的包包...
+Dialogue: 0,0:07:16.35,0:07:17.82,Default,,0,0,0,fx,{\be5\blur5}光天化日
+Dialogue: 0,0:07:18.14,0:07:21.38,Default,,0,0,0,fx,{\be5\blur5}眾目睽睽下行此惡行真是不可饒恕
+Dialogue: 0,0:07:22.07,0:07:23.49,Default,,0,0,0,fx,{\be5\blur5}像你這種惡黨
+Dialogue: 0,0:07:24.02,0:07:26.20,Default,,0,0,0,fx,{\be5\blur5}即使天容你
+Dialogue: 0,0:07:26.76,0:07:27.24,Default,,0,0,0,fx,{\be5\blur5}在下
+Dialogue: 0,0:07:27.98,0:07:29.88,Default,,0,0,0,fx,{\be5\blur5}婚后光子絕對不容赦!!
+Dialogue: 0,0:07:30.80,0:07:32.38,Default,,0,0,0,fx,{\be5\blur5}真不愧是婚后
+Dialogue: 0,0:07:32.57,0:07:33.82,Default,,0,0,0,fx,{\be5\blur5}爽快俐落
+Dialogue: 0,0:07:34.65,0:07:36.16,Default,,0,0,0,fx,{\be5\blur5}灣內 泡浮
+Dialogue: 0,0:07:36.83,0:07:39.32,Default,,0,0,0,fx,{\be5\blur5}前面有警備員的值勤室
+Dialogue: 0,0:07:36.83,0:07:39.32,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(927,980)}Anti-skill
+Dialogue: 0,0:07:39.64,0:07:40.98,Default,,0,0,0,fx,{\be5\blur5}請去叫他們過來
+Dialogue: 0,0:07:41.75,0:07:42.39,Default,,0,0,0,fx,{\be5\blur5}馬上去
+Dialogue: 0,0:07:44.32,0:07:45.45,Default,,0,0,0,fx,{\be5\blur5}接下來
+Dialogue: 0,0:07:45.93,0:07:46.45,Default,,0,0,0,fx,{\be5\blur5}妳
+Dialogue: 0,0:07:46.92,0:07:47.94,Default,,0,0,0,fx,{\be5\blur5}能打擾一下嗎?
+Dialogue: 0,0:07:49.32,0:07:50.88,Default,,0,0,0,fx,{\be5\blur5}我從剛剛就一直在看
+Dialogue: 0,0:07:51.52,0:07:53.16,Default,,0,0,0,fx,{\be5\blur5}妳是不是稍微做過頭了?
+Dialogue: 0,0:07:54.75,0:07:57.42,Default,,0,0,0,fx,{\be5\blur5}就算對方是犯罪者
+Dialogue: 0,0:07:58.06,0:08:00.97,Default,,0,0,0,fx,{\be5\blur5}像妳這樣隨意使用能力我可不能認同
+Dialogue: 0,0:08:01.17,0:08:02.51,Default,,0,0,0,fx,{\be5\blur5}你是哪位啊?
+Dialogue: 0,0:08:02.29,0:08:04.45,Default,,0,0,0,fx,{\be5\blur5}平息事情的方法
+Dialogue: 0,0:08:04.88,0:08:06.68,Default,,0,0,0,fx,{\be5\blur5}還有很多其他的辦法
+Dialogue: 0,0:08:07.62,0:08:09.10,Default,,0,0,0,fx,{\be5\blur5}就如同妳說的
+Dialogue: 0,0:08:09.43,0:08:12.07,Default,,0,0,0,fx,{\be5\blur5}前面有警備員的值勤室
+Dialogue: 0,0:08:09.43,0:08:12.07,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(927,980)}Anti-skill
+Dialogue: 0,0:08:12.65,0:08:14.44,Default,,0,0,0,fx,{\be5\blur5}也有監視攝影器
+Dialogue: 0,0:08:14.84,0:08:15.80,Default,,0,0,0,fx,{\be5\blur5}你到底想說...
+Dialogue: 0,0:08:15.59,0:08:16.74,Default,,0,0,0,fx,{\be5\blur5}更重要的是
+Dialogue: 0,0:08:17.64,0:08:21.63,Default,,0,0,0,fx,{\be5\blur5}妳應該要意識到自己令周遭的人陷入險境
+Dialogue: 0,0:08:22.97,0:08:24.40,Default,,0,0,0,fx,{\be5\blur5}妳沒注意到嗎?
+Dialogue: 0,0:08:27.49,0:08:30.54,Default,,0,0,0,fx,{\be5\blur5}這次是運氣好 將他一擊打倒
+Dialogue: 0,0:08:31.13,0:08:33.91,Default,,0,0,0,fx,{\be5\blur5}如果妳失敗的話會怎麼樣呢?
+Dialogue: 0,0:08:35.07,0:08:36.27,Default,,0,0,0,fx,{\be5\blur5}被激怒的他
+Dialogue: 0,0:08:36.68,0:08:39.19,Default,,0,0,0,fx,{\be5\blur5}也許會抓女性或是小孩做人質
+Dialogue: 0,0:08:39.38,0:08:41.74,Upside,,0,0,0,fx,{\be5\blur5}說的也是 的確不該隨意使用能力...
+Dialogue: 0,0:08:41.82,0:08:43.16,Upside,,0,0,0,fx,{\be5\blur5}的確有可能喔...
+Dialogue: 0,0:08:43.39,0:08:46.24,Default,,0,0,0,fx,{\be5\blur5}看來你對自己的能力很有自信
+Dialogue: 0,0:08:46.70,0:08:48.42,Default,,0,0,0,fx,{\be5\blur5}能力不是萬能的
+Dialogue: 0,0:08:48.57,0:08:50.18,Default,,0,0,0,fx,{\be5\blur5}那...那是
+Dialogue: 0,0:08:51.02,0:08:52.04,Default,,0,0,0,fx,{\be5\blur5}請等一下
+Dialogue: 0,0:08:53.10,0:08:54.73,Default,,0,0,0,fx,{\be5\blur5}不知道你是何方神聖
+Dialogue: 0,0:08:54.97,0:08:57.10,Default,,0,0,0,fx,{\be5\blur5}但不管怎樣也不用說成這樣...
+Dialogue: 0,0:08:57.88,0:09:01.26,Default,,0,0,0,fx,{\be5\blur5}婚后捕獲了犯人是事實
+Dialogue: 0,0:09:01.91,0:09:02.95,Default,,0,0,0,fx,{\be5\blur5}妳們...
+Dialogue: 0,0:09:03.59,0:09:05.26,Default,,0,0,0,fx,{\be5\blur5}不好意思來晚了
+Dialogue: 0,0:09:05.73,0:09:08.34,Default,,0,0,0,fx,{\be5\blur5}警備員馬上就過來了
+Dialogue: 0,0:09:05.73,0:09:08.34,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(771,980)}Anti-skill
+Dialogue: 0,0:09:08.57,0:09:10.21,Default,,0,0,0,fx,{\be5\blur5}謝...謝謝
+Dialogue: 0,0:09:11.66,0:09:12.17,Default,,0,0,0,fx,{\be5\blur5}咦?
+Dialogue: 0,0:09:12.89,0:09:15.80,Default,,0,0,0,fx,{\be5\blur5}剛才那個人去哪裡了?
+Dialogue: 0,0:09:17.85,0:09:19.32,Default,,0,0,0,fx,{\be5\blur5}我回來了
+Dialogue: 0,0:09:20.75,0:09:21.99,Default,,0,0,0,fx,{\be5\blur5}歡迎回來 黑子
+Dialogue: 0,0:09:24.82,0:09:26.66,Default,,0,0,0,fx,{\be5\blur5}怎麼了? 累成這樣
+Dialogue: 0,0:09:27.30,0:09:29.03,Default,,0,0,0,fx,{\be5\blur5}學究會的事前調查
+Dialogue: 0,0:09:29.61,0:09:33.77,Default,,0,0,0,fx,{\be5\blur5}雖然我知道會場分散在好幾個大學裡
+Dialogue: 0,0:09:34.36,0:09:36.50,Default,,0,0,0,fx,{\be5\blur5}但是沒想到要走那麼多的路
+Dialogue: 0,0:09:37.05,0:09:38.70,Default,,0,0,0,fx,{\be5\blur5}多虧這樣 我的腿都走直了
+Dialogue: 0,0:09:39.25,0:09:40.86,Default,,0,0,0,fx,{\be5\blur5}風紀委員也真夠辛苦的
+Dialogue: 0,0:09:39.25,0:09:40.86,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(775,980)}Judgment
+Dialogue: 0,0:09:42.42,0:09:44.91,Default,,0,0,0,fx,{\be5\blur5}話說回來 初春怎麼樣?
+Dialogue: 0,0:09:45.88,0:09:47.28,Default,,0,0,0,fx,{\be5\blur5}還是老樣子啊
+Dialogue: 0,0:09:48.22,0:09:50.22,Default,,0,0,0,fx,{\be5\blur5}認真地完成了工作
+Dialogue: 0,0:09:50.68,0:09:51.49,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:09:52.36,0:09:53.30,Default,,0,0,0,fx,{\be5\blur5}搬家啊
+Dialogue: 0,0:09:54.17,0:09:55.49,Default,,0,0,0,fx,{\be5\blur5}有很多事情要做呢
+Dialogue: 0,0:09:56.28,0:09:59.56,Default,,0,0,0,fx,{\be5\blur5}妳當初搬來這個房間的時候也發生了一些事呢
+Dialogue: 0,0:10:00.33,0:10:02.86,Default,,0,0,0,fx,{\be5\blur5}又提起這種以前的事情
+Dialogue: 0,0:10:03.07,0:10:04.89,Default,,0,0,0,fx,{\be5\blur5}那個都已經做了...
+Dialogue: 0,0:10:08.47,0:10:09.38,Default,,0,0,0,fx,{\be5\blur5}姐姐大人
+Dialogue: 0,0:10:10.36,0:10:11.38,Default,,0,0,0,fx,{\be5\blur5}各式各樣的事都有呢
+Dialogue: 0,0:10:11.98,0:10:12.94,Default,,0,0,0,fx,{\be5\blur5}畢竟這裡是學園都市嘛
+Dialogue: 0,0:10:15.01,0:10:15.45,Default,,0,0,0,fx,{\be5\blur5}是
+Dialogue: 0,0:10:17.47,0:10:18.12,Default,,0,0,0,fx,{\be5\blur5}對了
+Dialogue: 0,0:10:18.46,0:10:20.65,Default,,0,0,0,fx,{\be5\blur5}妳累的話 我幫妳按摩一下吧
+Dialogue: 0,0:10:20.81,0:10:26.56,Default,,0,0,0,fx,{\be5\blur5}我幫妳按摩一下吧~
+Dialogue: 0,0:10:28.49,0:10:29.10,Default,,0,0,0,fx,{\be5\blur5}黑子?
+Dialogue: 0,0:10:30.58,0:10:31.14,Default,,0,0,0,fx,{\be5\blur5}怎麼?
+Dialogue: 0,0:10:34.23,0:10:37.08,Default,,0,0,0,fx,{\be5\blur5}我先去洗澡
+Dialogue: 0,0:10:44.74,0:10:48.18,Default,,0,0,0,fx,{\be5\blur5}初~~~春!
+Dialogue: 0,0:10:50.92,0:10:51.50,Default,,0,0,0,fx,{\be5\blur5}真是的
+Dialogue: 0,0:10:51.67,0:10:53.59,Default,,0,0,0,fx,{\be5\blur5}佐天妳每次都這樣!
+Dialogue: 0,0:10:53.40,0:10:54.63,Default,,0,0,0,fx,{\be5\blur5}抱歉抱歉
+Dialogue: 0,0:10:57.19,0:10:58.65,Default,,0,0,0,fx,{\be5\blur5}妳特地在等我嗎?
+Dialogue: 0,0:11:00.26,0:11:01.36,Default,,0,0,0,fx,{\be5\blur5}啊~沒啦
+Dialogue: 0,0:11:01.46,0:11:03.14,Default,,0,0,0,fx,{\be5\blur5}也不是特地在等...
+Dialogue: 0,0:11:03.61,0:11:05.36,Default,,0,0,0,fx,{\be5\blur5}我沒問題的喔
+Dialogue: 0,0:11:06.63,0:11:09.51,Default,,0,0,0,fx,{\be5\blur5}我和春上很早之前就說好了
+Dialogue: 0,0:11:10.29,0:11:11.83,Default,,0,0,0,fx,{\be5\blur5}枝先出院後
+Dialogue: 0,0:11:12.20,0:11:14.92,Default,,0,0,0,fx,{\be5\blur5}和春上一起住是最好的了
+Dialogue: 0,0:11:16.07,0:11:16.94,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:11:18.00,0:11:21.90,Default,,0,0,0,fx,{\be5\blur5}說完全不會感到孤單是騙人的
+Dialogue: 0,0:11:22.83,0:11:23.35,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:11:23.82,0:11:25.11,Default,,0,0,0,fx,{\be5\blur5}我是這麼想的
+Dialogue: 0,0:11:26.20,0:11:27.01,Default,,0,0,0,fx,{\be5\blur5}果然
+Dialogue: 0,0:11:27.24,0:11:29.36,Default,,0,0,0,fx,{\be5\blur5}她們兩個住在一起比較好
+Dialogue: 0,0:11:30.47,0:11:31.32,Default,,0,0,0,fx,{\be5\blur5}而且
+Dialogue: 0,0:11:31.53,0:11:33.89,Default,,0,0,0,fx,{\be5\blur5}又不是要去很遠的地方
+Dialogue: 0,0:11:34.66,0:11:35.79,Default,,0,0,0,fx,{\be5\blur5}新學期開始後
+Dialogue: 0,0:11:36.06,0:11:37.71,Default,,0,0,0,fx,{\be5\blur5}每天在學校都能見面
+Dialogue: 0,0:11:39.29,0:11:39.98,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:11:40.65,0:11:41.33,Default,,0,0,0,fx,{\be5\blur5}也是呢
+Dialogue: 0,0:11:42.82,0:11:43.72,Default,,0,0,0,fx,{\be5\blur5}好乖好乖
+Dialogue: 0,0:11:43.94,0:11:45.70,Default,,0,0,0,fx,{\be5\blur5}姐姐我安心了~
+Dialogue: 0,0:11:45.48,0:11:47.96,Default,,0,0,0,fx,{\be5\blur5}佐天真是的!
+Dialogue: 0,0:11:50.92,0:11:51.84,Default,,0,0,0,fx,{\be5\blur5}沒問題的
+Dialogue: 0,0:11:55.69,0:11:56.26,Default,,0,0,0,fx,{\be5\blur5}是的
+Dialogue: 0,0:11:57.89,0:11:58.57,Default,,0,0,0,fx,{\be5\blur5}各位
+Dialogue: 0,0:11:58.74,0:11:59.58,Default,,0,0,0,fx,{\be5\blur5}久等了
+Dialogue: 0,0:12:02.01,0:12:03.75,Default,,0,0,0,fx,{\be5\blur5}如何...呢?
+Dialogue: 0,0:12:04.62,0:12:05.06,Default,,0,0,0,fx,{\be5\blur5}好!
+Dialogue: 0,0:12:05.10,0:12:06.11,Default,,0,0,0,fx,{\be5\blur5}超讚的!
+Dialogue: 0,0:12:06.38,0:12:07.88,Default,,0,0,0,fx,{\be5\blur5}非常適合喔!
+Dialogue: 0,0:12:08.32,0:12:09.38,Default,,0,0,0,fx,{\be5\blur5}太好了
+Dialogue: 0,0:12:10.49,0:12:14.80,Default,,0,0,0,fx,{\be5\blur5}之前妳們兩個留在醫院中談的就是這個啊!
+Dialogue: 0,0:12:15.86,0:12:18.49,Default,,0,0,0,fx,{\be5\blur5}因為想早點穿給大家看
+Dialogue: 0,0:12:17.18,0:12:18.50,Upside,,0,0,0,fx,{\be5\blur5}快啊 姐姐大人
+Dialogue: 0,0:12:18.66,0:12:19.70,Default,,0,0,0,fx,{\be5\blur5}啊 對了
+Dialogue: 0,0:12:20.87,0:12:21.56,Default,,0,0,0,fx,{\be5\blur5}枝先
+Dialogue: 0,0:12:22.04,0:12:23.11,Default,,0,0,0,fx,{\be5\blur5}恭喜妳出院
+Dialogue: 0,0:12:23.38,0:12:24.98,Default,,0,0,0,fx,{\be5\blur5}恭喜妳了!
+Dialogue: 0,0:12:25.06,0:12:26.04,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:12:26.49,0:12:28.04,Default,,0,0,0,fx,{\be5\blur5}那麼 趕快出發吧
+Dialogue: 0,0:12:28.89,0:12:29.51,Default,,0,0,0,fx,{\be5\blur5}去哪裡?
+Dialogue: 0,0:12:30.00,0:12:31.64,Default,,0,0,0,fx,{\be5\blur5}出院的慶祝會
+Dialogue: 0,0:12:31.92,0:12:34.85,Default,,0,0,0,fx,{\be5\blur5}我預約了一家蛋糕很好吃的店喔
+Dialogue: 0,0:12:35.45,0:12:36.20,Default,,0,0,0,fx,{\be5\blur5}蛋糕!
+Dialogue: 0,0:12:37.12,0:12:38.17,Default,,0,0,0,fx,{\be5\blur5}謝謝~
+Dialogue: 0,0:12:37.40,0:12:38.66,Default,,0,0,0,fx,{\be5\blur5}喂 我是白井
+Dialogue: 0,0:12:39.71,0:12:40.70,Default,,0,0,0,fx,{\be5\blur5}固法學姐...
+Dialogue: 0,0:12:43.13,0:12:44.28,Default,,0,0,0,fx,{\be5\blur5}紅綠燈故障?
+Dialogue: 0,0:12:45.37,0:12:47.18,Default,,0,0,0,fx,{\be5\blur5}我什麼都沒做喔!
+Dialogue: 0,0:12:48.45,0:12:51.30,Default,,0,0,0,fx,{\be5\blur5}這附近的紅綠燈全部都沒有訊號
+Dialogue: 0,0:12:51.91,0:12:52.50,Default,,0,0,0,fx,{\be5\blur5}不好意思
+Dialogue: 0,0:12:52.60,0:12:53.65,Default,,0,0,0,fx,{\be5\blur5}可以請妳馬上過來嗎?
+Dialogue: 0,0:12:54.20,0:12:55.53,Default,,0,0,0,fx,{\be5\blur5}是 是
+Dialogue: 0,0:12:56.25,0:12:57.23,Default,,0,0,0,fx,{\be5\blur5}我知道了
+Dialogue: 0,0:12:58.34,0:12:59.75,Default,,0,0,0,fx,{\be5\blur5}初春也要去嗎?
+Dialogue: 0,0:13:00.65,0:13:01.19,Default,,0,0,0,fx,{\be5\blur5}那個...
+Dialogue: 0,0:13:01.19,0:13:02.56,Default,,0,0,0,fx,{\be5\blur5}欸~怎麼這樣
+Dialogue: 0,0:13:02.92,0:13:05.29,Default,,0,0,0,fx,{\be5\blur5}好不容易枝先出院了
+Dialogue: 0,0:13:05.71,0:13:07.27,Default,,0,0,0,fx,{\be5\blur5}我一個人去也...
+Dialogue: 0,0:13:07.02,0:13:08.39,Default,,0,0,0,fx,{\be5\blur5}妳在說什麼?
+Dialogue: 0,0:13:08.84,0:13:10.47,Default,,0,0,0,fx,{\be5\blur5}我也是風紀委員
+Dialogue: 0,0:13:08.84,0:13:10.47,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1052,980)}Judgment
+Dialogue: 0,0:13:11.26,0:13:12.79,Default,,0,0,0,fx,{\be5\blur5}請妳們先去
+Dialogue: 0,0:13:13.28,0:13:14.95,Default,,0,0,0,fx,{\be5\blur5}等事情結束後我們馬上趕過去
+Dialogue: 0,0:13:15.37,0:13:16.61,Default,,0,0,0,fx,{\be5\blur5}路上小心喔
+Dialogue: 0,0:13:17.78,0:13:18.90,Default,,0,0,0,fx,{\be5\blur5}工作加油
+Dialogue: 0,0:13:19.11,0:13:19.51,Default,,0,0,0,fx,{\be5\blur5}好的
+Dialogue: 0,0:13:20.34,0:13:21.29,Default,,0,0,0,fx,{\be5\blur5}那麼 白井
+Dialogue: 0,0:13:22.45,0:13:23.21,Default,,0,0,0,fx,{\be5\blur5}好
+Dialogue: 0,0:13:23.57,0:13:24.05,Default,,0,0,0,fx,{\be5\blur5}先走了
+Dialogue: 0,0:13:25.52,0:13:26.31,Default,,0,0,0,fx,{\be5\blur5}消失了?
+Dialogue: 0,0:13:28.36,0:13:29.89,Default,,0,0,0,fx,{\be5\blur5}總而言之 先出發吧
+Dialogue: 0,0:13:32.02,0:13:34.11,Default,,0,0,0,fx,{\be5\blur5}雖然原定計畫有點被打亂了
+Dialogue: 0,0:13:34.49,0:13:35.73,Default,,0,0,0,fx,{\be5\blur5}總之 再一次地
+Dialogue: 0,0:13:36.37,0:13:38.10,Default,,0,0,0,fx,{\be5\blur5}恭喜妳出院!
+Dialogue: 0,0:13:38.46,0:13:39.43,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:13:43.34,0:13:44.47,Default,,0,0,0,fx,{\be5\blur5}好好吃~
+Dialogue: 0,0:13:44.64,0:13:45.34,Default,,0,0,0,fx,{\be5\blur5}對吧
+Dialogue: 0,0:13:45.69,0:13:48.39,Default,,0,0,0,fx,{\be5\blur5}初春說如果要慶祝的話 一定要來這裡
+Dialogue: 0,0:13:48.68,0:13:50.23,Default,,0,0,0,fx,{\be5\blur5}預約和選擇蛋糕
+Dialogue: 0,0:13:50.45,0:13:51.85,Default,,0,0,0,fx,{\be5\blur5}都是她一手包辦的喔
+Dialogue: 0,0:13:52.09,0:13:54.78,Default,,0,0,0,fx,{\be5\blur5}初春真的很厲害呢
+Dialogue: 0,0:13:56.09,0:13:57.22,Default,,0,0,0,fx,{\be5\blur5}出院前也是
+Dialogue: 0,0:13:57.50,0:14:00.79,Default,,0,0,0,fx,{\be5\blur5}搬家和入學的手續也是她幫忙辦理的
+Dialogue: 0,0:14:01.06,0:14:01.35,Default,,0,0,0,fx,{\be5\blur5}對吧
+Dialogue: 0,0:14:03.19,0:14:04.19,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:14:04.63,0:14:05.37,Default,,0,0,0,fx,{\be5\blur5}果然
+Dialogue: 0,0:14:05.51,0:14:08.12,Default,,0,0,0,fx,{\be5\blur5}能當風紀委員的人都很厲害啊
+Dialogue: 0,0:14:05.51,0:14:08.12,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(810,980)}Judgment
+Dialogue: 0,0:14:08.55,0:14:10.28,Default,,0,0,0,fx,{\be5\blur5}能讓妳這麼開心
+Dialogue: 0,0:14:10.42,0:14:12.53,Default,,0,0,0,fx,{\be5\blur5}不枉費初春這麼費心挑選了
+Dialogue: 0,0:14:12.78,0:14:13.95,Default,,0,0,0,fx,{\be5\blur5}就是啊就是啊
+Dialogue: 0,0:14:14.09,0:14:14.57,Default,,0,0,0,fx,{\be5\blur5}因為
+Dialogue: 0,0:14:14.78,0:14:16.20,Default,,0,0,0,fx,{\be5\blur5}真的超好吃的啊
+Dialogue: 0,0:14:28.14,0:14:29.65,Default,,0,0,0,fx,{\be5\blur5}新房間的鑰匙?
+Dialogue: 0,0:14:32.33,0:14:34.52,Default,,0,0,0,fx,{\be5\blur5}初春真是費了不少心思啊
+Dialogue: 0,0:14:35.80,0:14:37.85,Default,,0,0,0,fx,{\be5\blur5}我那時候也是
+Dialogue: 0,0:14:38.47,0:14:40.65,Default,,0,0,0,fx,{\be5\blur5}春上搬來的時候嗎?
+Dialogue: 0,0:14:41.28,0:14:42.45,Default,,0,0,0,fx,{\be5\blur5}啊 對啊對啊
+Dialogue: 0,0:14:42.84,0:14:45.16,Default,,0,0,0,fx,{\be5\blur5}那個時候她也是充滿幹勁呢
+Dialogue: 0,0:14:45.82,0:14:47.44,Default,,0,0,0,fx,{\be5\blur5}那時候一個人很不安
+Dialogue: 0,0:14:48.39,0:14:50.02,Default,,0,0,0,fx,{\be5\blur5}但都多虧有初春陪我一起
+Dialogue: 0,0:14:52.10,0:14:52.89,Default,,0,0,0,fx,{\be5\blur5}所以
+Dialogue: 0,0:14:53.67,0:14:55.78,Default,,0,0,0,fx,{\be5\blur5}這次輪到我要加油了
+Dialogue: 0,0:14:56.43,0:14:58.33,Default,,0,0,0,fx,{\be5\blur5}像初春為我所做的那樣
+Dialogue: 0,0:14:58.86,0:15:00.97,Default,,0,0,0,fx,{\be5\blur5}我要幫助絆理
+Dialogue: 0,0:15:02.17,0:15:02.73,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:15:06.09,0:15:08.05,Default,,0,0,0,fx,{\be5\blur5}初春還不快來~
+Dialogue: 0,0:15:08.51,0:15:09.06,Default,,0,0,0,fx,{\be5\blur5}她現在
+Dialogue: 0,0:15:09.43,0:15:11.95,Default,,0,0,0,fx,{\be5\blur5}一定很認真地在工作
+Dialogue: 0,0:15:12.46,0:15:14.04,Default,,0,0,0,fx,{\be5\blur5}會不會戴著完全不適合她的安全帽
+Dialogue: 0,0:15:14.34,0:15:16.41,Default,,0,0,0,fx,{\be5\blur5}在指揮著交通呢?
+Dialogue: 0,0:15:17.05,0:15:19.26,Default,,0,0,0,fx,{\be5\blur5}明明這種時候偷懶一下也沒關係
+Dialogue: 0,0:15:19.70,0:15:22.28,Default,,0,0,0,fx,{\be5\blur5}這不可能的啦 因為她是初春啊
+Dialogue: 0,0:15:22.94,0:15:23.58,Default,,0,0,0,fx,{\be5\blur5}就是啊
+Dialogue: 0,0:15:25.28,0:15:27.63,Default,,0,0,0,fx,{\be5\blur5}我也來當風紀委員好了
+Dialogue: 0,0:15:25.28,0:15:27.63,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1020,980)}Judgment
+Dialogue: 0,0:15:29.54,0:15:30.71,Default,,0,0,0,fx,{\be5\blur5}怎麼突然這麼說?
+Dialogue: 0,0:15:31.40,0:15:32.31,Default,,0,0,0,fx,{\be5\blur5}這樣一來
+Dialogue: 0,0:15:32.89,0:15:35.69,Default,,0,0,0,fx,{\be5\blur5}就可以成為像初春一樣的人了吧
+Dialogue: 0,0:15:38.63,0:15:39.65,Default,,0,0,0,fx,{\be5\blur5}初春她啊
+Dialogue: 0,0:15:40.06,0:15:44.20,Default,,0,0,0,fx,{\be5\blur5}並不是因為她是風紀委員所以才對枝先這麼溫柔的喔
+Dialogue: 0,0:15:40.06,0:15:44.20,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(807,980)}Judgment
+Dialogue: 0,0:15:45.31,0:15:46.57,Default,,0,0,0,fx,{\be5\blur5}那麼 為什麼?
+Dialogue: 0,0:15:47.89,0:15:48.90,Default,,0,0,0,fx,{\be5\blur5}因為是朋友
+Dialogue: 0,0:15:49.26,0:15:49.61,Default,,0,0,0,fx,{\be5\blur5}對吧?
+Dialogue: 0,0:15:53.34,0:15:54.08,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:15:56.29,0:15:57.72,Default,,0,0,0,fx,{\be5\blur5}不過說到出院啊
+Dialogue: 0,0:15:58.60,0:15:59.52,Default,,0,0,0,fx,{\be5\blur5}沒什麼啦...
+Dialogue: 0,0:15:59.65,0:16:01.77,Default,,0,0,0,fx,{\be5\blur5}我的朋友也住院了
+Dialogue: 0,0:16:02.12,0:16:03.53,Default,,0,0,0,fx,{\be5\blur5}如果她們也出院了
+Dialogue: 0,0:16:03.69,0:16:06.83,Default,,0,0,0,fx,{\be5\blur5}能不能和她們像這樣一起吃飯之類的呢...
+Dialogue: 0,0:16:10.35,0:16:11.21,Default,,0,0,0,fx,{\be5\blur5}啊 沒啦
+Dialogue: 0,0:16:11.38,0:16:12.12,Default,,0,0,0,fx,{\be5\blur5}不要在意
+Dialogue: 0,0:16:12.25,0:16:14.00,Default,,0,0,0,fx,{\be5\blur5}不是很重要的事情
+Dialogue: 0,0:16:14.12,0:16:14.82,Default,,0,0,0,fx,{\be5\blur5}真的
+Dialogue: 0,0:16:16.04,0:16:18.83,Default,,0,0,0,fx,{\be5\blur5}如果她們能早點出院就好了
+Dialogue: 0,0:16:21.59,0:16:22.23,Default,,0,0,0,fx,{\be5\blur5}謝謝
+Dialogue: 0,0:16:23.42,0:16:24.39,Default,,0,0,0,fx,{\be5\blur5}辛苦了
+Dialogue: 0,0:16:25.20,0:16:26.10,Default,,0,0,0,fx,{\be5\blur5}不好意思啊
+Dialogue: 0,0:16:26.19,0:16:27.43,Default,,0,0,0,fx,{\be5\blur5}突然把妳叫來
+Dialogue: 0,0:16:27.74,0:16:30.34,Default,,0,0,0,fx,{\be5\blur5}不過紅綠燈故障這種事情...
+Dialogue: 0,0:16:30.84,0:16:33.27,Default,,0,0,0,fx,{\be5\blur5}好像是電力系統出現異狀的樣子
+Dialogue: 0,0:16:33.51,0:16:34.88,Default,,0,0,0,fx,{\be5\blur5}真是稀奇啊
+Dialogue: 0,0:16:35.28,0:16:37.54,Default,,0,0,0,fx,{\be5\blur5}這個城市竟然會發生這種事情
+Dialogue: 0,0:16:38.33,0:16:39.45,Default,,0,0,0,fx,{\be5\blur5}白井
+Dialogue: 0,0:16:39.86,0:16:41.24,Default,,0,0,0,fx,{\be5\blur5}啊 對了
+Dialogue: 0,0:16:41.82,0:16:43.29,Default,,0,0,0,fx,{\be5\blur5}那麼 我們就先...
+Dialogue: 0,0:16:44.55,0:16:46.01,Default,,0,0,0,fx,{\be5\blur5}怎麼了啊? 真是的
+Dialogue: 0,0:16:46.20,0:16:48.22,Default,,0,0,0,fx,{\be5\blur5}我有個想去的地方!
+Dialogue: 0,0:16:48.62,0:16:50.98,Default,,0,0,0,fx,{\be5\blur5}是 我知道啦 所以...
+Dialogue: 0,0:16:50.51,0:16:51.48,Default,,0,0,0,fx,{\be5\blur5}不是
+Dialogue: 0,0:16:51.81,0:16:54.51,Default,,0,0,0,fx,{\be5\blur5}在那之前想要先繞去一個地方
+Dialogue: 0,0:16:58.52,0:16:59.27,Default,,0,0,0,fx,{\be5\blur5}怎麼辦?
+Dialogue: 0,0:16:59.36,0:17:00.37,Default,,0,0,0,fx,{\be5\blur5}打電話看看嗎?
+Dialogue: 0,0:17:00.84,0:17:02.49,Default,,0,0,0,fx,{\be5\blur5}就是啊...
+Dialogue: 0,0:17:05.88,0:17:07.47,Default,,0,0,0,fx,{\be5\blur5}就打個電話看看吧
+Dialogue: 0,0:17:07.74,0:17:09.04,Default,*,0,0,0,fx,{\be5\blur5}讓妳們久...
+Dialogue: 0,0:17:09.24,0:17:10.72,Default,*,0,0,0,fx,{\be5\blur5}久等了!
+Dialogue: 0,0:17:10.95,0:17:11.69,Default,*,0,0,0,fx,{\be5\blur5}久等了
+Dialogue: 0,0:17:12.46,0:17:13.50,Default,,0,0,0,fx,{\be5\blur5}終於來啦
+Dialogue: 0,0:17:13.68,0:17:15.48,Default,,0,0,0,fx,{\be5\blur5}真是的 初春太慢了啦
+Dialogue: 0,0:17:15.83,0:17:18.77,Default,,0,0,0,fx,{\be5\blur5}枝先說要去一趟醫院 先走了啦
+Dialogue: 0,0:17:19.78,0:17:21.49,Default,,0,0,0,fx,{\be5\blur5}欸!? 是這樣啊
+Dialogue: 0,0:17:22.02,0:17:23.43,Default,,0,0,0,fx,{\be5\blur5}不不...不好意思
+Dialogue: 0,0:17:23.73,0:17:24.76,Default,,0,0,0,fx,{\be5\blur5}沒關係的
+Dialogue: 0,0:17:25.46,0:17:28.00,Default,,0,0,0,fx,{\be5\blur5}絆理說蛋糕很好吃喔
+Dialogue: 0,0:17:30.66,0:17:31.03,Default,,0,0,0,fx,{\be5\blur5}那個
+Dialogue: 0,0:17:31.36,0:17:31.77,Default,,0,0,0,fx,{\be5\blur5}這個...
+Dialogue: 0,0:17:32.35,0:17:34.16,Default,,0,0,0,fx,{\be5\blur5}請和枝先一起吃
+Dialogue: 0,0:17:39.35,0:17:40.05,Default,,0,0,0,fx,{\be5\blur5}鯛魚燒?
+Dialogue: 0,0:17:40.63,0:17:41.65,Default,,0,0,0,fx,{\be5\blur5}那個 初春啊
+Dialogue: 0,0:17:41.98,0:17:44.37,Default,,0,0,0,fx,{\be5\blur5}我們在此之前才剛吃完蛋糕啊
+Dialogue: 0,0:17:44.57,0:17:46.48,Default,,0,0,0,fx,{\be5\blur5}話...話這麼說沒錯啦
+Dialogue: 0,0:17:46.58,0:17:48.39,Default,,0,0,0,fx,{\be5\blur5}蛋糕之後再吃鯛魚燒啊...
+Dialogue: 0,0:17:48.55,0:17:49.99,Default,,0,0,0,fx,{\be5\blur5}不是 所以那是...
+Dialogue: 0,0:17:49.99,0:17:51.82,Default,,0,0,0,fx,{\be5\blur5}所以我就說嘛
+Dialogue: 0,0:17:52.04,0:17:52.73,Default,,0,0,0,fx,{\be5\blur5}好啦好啦
+Dialogue: 0,0:17:52.99,0:17:54.58,Default,,0,0,0,fx,{\be5\blur5}心意最重要嘛...
+Dialogue: 0,0:17:54.17,0:17:55.03,Default,,0,0,0,fx,{\be5\blur5}所以...
+Dialogue: 0,0:17:55.03,0:17:56.77,Default,,0,0,0,fx,{\be5\blur5}是那時候的鯛魚燒啊
+Dialogue: 0,0:17:58.50,0:17:58.92,Default,,0,0,0,fx,{\be5\blur5}這個
+Dialogue: 0,0:17:59.41,0:18:01.45,Default,,0,0,0,fx,{\be5\blur5}在我極度不安的時候
+Dialogue: 0,0:18:02.04,0:18:04.18,Default,,0,0,0,fx,{\be5\blur5}初春買給我的鯛魚燒
+Dialogue: 0,0:18:06.12,0:18:07.64,Default,,0,0,0,fx,{\be5\blur5}非常的好吃
+Dialogue: 0,0:18:09.01,0:18:10.47,Default,,0,0,0,fx,{\be5\blur5}等...等等 春上
+Dialogue: 0,0:18:10.95,0:18:11.88,Default,,0,0,0,fx,{\be5\blur5}不行了
+Dialogue: 0,0:18:12.55,0:18:14.76,Default,,0,0,0,fx,{\be5\blur5}明明決定今天不哭的
+Dialogue: 0,0:18:15.66,0:18:16.26,Default,,0,0,0,fx,{\be5\blur5}那個...
+Dialogue: 0,0:18:16.70,0:18:17.35,Default,,0,0,0,fx,{\be5\blur5}我
+Dialogue: 0,0:18:18.53,0:18:19.43,Default,,0,0,0,fx,{\be5\blur5}會加油的
+Dialogue: 0,0:18:20.55,0:18:21.91,Default,,0,0,0,fx,{\be5\blur5}像初春一樣
+Dialogue: 0,0:18:22.55,0:18:24.52,Default,,0,0,0,fx,{\be5\blur5}我會為了絆理而加油的
+Dialogue: 0,0:18:26.57,0:18:27.69,Default,,0,0,0,fx,{\be5\blur5}沒問題的
+Dialogue: 0,0:18:28.15,0:18:29.30,Default,,0,0,0,fx,{\be5\blur5}春上的話
+Dialogue: 0,0:18:30.06,0:18:30.58,Default,,0,0,0,fx,{\be5\blur5}一定
+Dialogue: 0,0:18:31.60,0:18:32.46,Default,,0,0,0,fx,{\be5\blur5}沒問題的
+Dialogue: 0,0:18:34.32,0:18:35.30,Default,,0,0,0,fx,{\be5\blur5}初春
+Dialogue: 0,0:18:39.82,0:18:41.77,Default,,0,0,0,fx,{\be5\blur5}春...春上
+Dialogue: 0,0:18:42.45,0:18:43.14,Default,,0,0,0,fx,{\be5\blur5}這樣太...
+Dialogue: 0,0:18:43.79,0:18:45.50,Default,,0,0,0,fx,{\be5\blur5}太誇張了啦...
+Dialogue: 0,0:18:49.96,0:18:50.74,Default,,0,0,0,fx,{\be5\blur5}算了算了
+Dialogue: 0,0:18:50.78,0:18:52.15,Default,,0,0,0,fx,{\be5\blur5}真是小孩子
+Dialogue: 0,0:18:52.48,0:18:54.00,Default,,0,0,0,fx,{\be5\blur5}真沒辦法啊
+Dialogue: 0,0:18:54.39,0:18:55.31,Default,,0,0,0,fx,{\be5\blur5}這樣也挺好的啊
+Dialogue: 0,0:19:08.78,0:19:09.59,Default,,0,0,0,fx,{\be5\blur5}我...
+Dialogue: 0,0:19:11.42,0:19:14.10,Default,,0,0,0,fx,{\be5\blur5}有幫上春上的忙對吧?
+Dialogue: 0,0:19:15.54,0:19:16.68,Default,,0,0,0,fx,{\be5\blur5}妳在說什麼啊
+Dialogue: 0,0:19:17.06,0:19:18.84,Default,,0,0,0,fx,{\be5\blur5}當然是有幫上忙啦
+Dialogue: 0,0:19:19.00,0:19:20.30,Default,,0,0,0,fx,{\be5\blur5}好痛...
+Dialogue: 0,0:19:20.30,0:19:21.83,Default,,0,0,0,fx,{\be5\blur5}不只是春上唷
+Dialogue: 0,0:19:23.26,0:19:24.03,Default,,0,0,0,fx,{\be5\blur5}初春妳啊
+Dialogue: 0,0:19:24.45,0:19:26.62,Default,,0,0,0,fx,{\be5\blur5}也幫了枝先呢
+Dialogue: 0,0:19:27.69,0:19:28.62,Default,,0,0,0,fx,{\be5\blur5}御坂...
+Dialogue: 0,0:19:29.13,0:19:29.55,Default,,0,0,0,fx,{\be5\blur5}沒錯
+Dialogue: 0,0:19:30.10,0:19:31.32,Default,,0,0,0,fx,{\be5\blur5}然後姐姐大人
+Dialogue: 0,0:19:31.74,0:19:33.27,Default,,0,0,0,fx,{\be5\blur5}就來幫助黑子我...
+Dialogue: 0,0:19:33.59,0:19:35.07,Default,,0,0,0,fx,{\be5\blur5}那麼 回去了回去了
+Dialogue: 0,0:19:35.46,0:19:36.17,Default,,0,0,0,fx,{\be5\blur5}對了
+Dialogue: 0,0:19:36.49,0:19:38.32,Default,,0,0,0,fx,{\be5\blur5}這前面有條近路喔
+Dialogue: 0,0:19:40.47,0:19:40.94,Default,,0,0,0,fx,{\be5\blur5}我說
+Dialogue: 0,0:19:41.11,0:19:42.57,Default,,0,0,0,fx,{\be5\blur5}真的是這裡嗎?
+Dialogue: 0,0:19:42.81,0:19:43.72,Default,,0,0,0,fx,{\be5\blur5}沒問題的
+Dialogue: 0,0:19:43.96,0:19:46.63,Default,,0,0,0,fx,{\be5\blur5}穿過這裡馬上就是寬敞的道路了
+Dialogue: 0,0:19:47.35,0:19:49.10,Default,,0,0,0,fx,{\be5\blur5}妳知道的真清楚呢
+Dialogue: 0,0:19:50.19,0:19:50.83,Default,,0,0,0,fx,{\be5\blur5}姐姐大人
+Dialogue: 0,0:19:51.35,0:19:52.54,Default,,0,0,0,fx,{\be5\blur5}怎麼了嗎?
+Dialogue: 0,0:19:53.88,0:19:54.91,Default,,0,0,0,fx,{\be5\blur5}那個是...
+Dialogue: 0,0:19:56.63,0:19:57.88,Default,,0,0,0,fx,{\be5\blur5}那是...
+Dialogue: 0,0:19:58.31,0:19:59.82,Default,,0,0,0,fx,{\be5\blur5}女孩...子?
+Dialogue: 0,0:20:03.21,0:20:04.31,Default,,0,0,0,fx,{\be5\blur5}好可愛
+Dialogue: 0,0:20:04.81,0:20:06.76,Default,,0,0,0,fx,{\be5\blur5}不是說這種話的時候啦
+Dialogue: 0,0:20:07.05,0:20:08.43,Default,,0,0,0,fx,{\be5\blur5}等等 黑子
+Dialogue: 0,0:20:16.05,0:20:17.34,Default,,0,0,0,fx,{\be5\blur5}醒過來了唷
+Dialogue: 0,0:20:18.35,0:20:19.37,Default,,0,0,0,fx,{\be5\blur5}早安
+Dialogue: 0,0:20:20.06,0:20:22.46,Default,,0,0,0,fx,{\be5\blur5}為什麼睡在這種地方呢?
+Dialogue: 0,0:20:24.02,0:20:25.98,Default,,0,0,0,fx,{\be5\blur5}妳叫什麼名字呢?
+Dialogue: 0,0:20:28.84,0:20:29.66,Default,,0,0,0,fx,{\be5\blur5}那個...
+Dialogue: 0,0:20:29.91,0:20:31.66,Default,,0,0,0,fx,{\be5\blur5}那麼...妳幾歲呢?
+Dialogue: 0,0:20:33.53,0:20:35.21,Default,,0,0,0,fx,{\be5\blur5}妳家在哪裡?
+Dialogue: 0,0:20:35.83,0:20:36.43,Default,,0,0,0,fx,{\be5\blur5}學校呢?
+Dialogue: 0,0:20:37.02,0:20:38.96,Default,,0,0,0,fx,{\be5\blur5}導師的名字知道嗎?
+Dialogue: 0,0:20:41.01,0:20:42.55,Default,,0,0,0,fx,{\be5\blur5}真困擾啊
+Dialogue: 0,0:20:42.84,0:20:44.71,Default,,0,0,0,fx,{\be5\blur5}聽不懂日文嗎?
+Dialogue: 0,0:20:45.14,0:20:47.28,Default,,0,0,0,fx,{\be5\blur5}真是的 不是啦不是啦
+Dialogue: 0,0:20:47.77,0:20:49.54,Default,,0,0,0,fx,{\be5\blur5}和小孩子說話的時候
+Dialogue: 0,0:20:49.88,0:20:51.80,Default,,0,0,0,fx,{\be5\blur5}必須要像這樣視線交會才行
+Dialogue: 0,0:20:53.07,0:20:54.63,Default,,0,0,0,fx,{\be5\blur5}看起來很好吃的糖果啊
+Dialogue: 0,0:20:56.37,0:20:57.26,Default,,0,0,0,fx,{\be5\blur5}我啊
+Dialogue: 0,0:20:57.87,0:20:58.95,Default,,0,0,0,fx,{\be5\blur5}叫做淚子
+Dialogue: 0,0:20:59.57,0:21:00.28,Default,,0,0,0,fx,{\be5\blur5}妳呢?
+Dialogue: 0,0:21:00.72,0:21:02.13,Default,,0,0,0,fx,{\be5\blur5}會說妳的名字嗎?
+Dialogue: 0,0:21:07.76,0:21:08.45,Default,,0,0,0,fx,{\be5\blur5}菲布理
+Dialogue: 0,0:21:10.05,0:21:11.54,Default,,0,0,0,fx,{\be5\blur5}叫做菲布理啊
+Dialogue: 0,0:21:12.03,0:21:13.05,Default,,0,0,0,fx,{\be5\blur5}那麼 菲布理
+Dialogue: 0,0:21:13.50,0:21:14.50,Default,,0,0,0,fx,{\be5\blur5}什麼都可以
+Dialogue: 0,0:21:14.73,0:21:16.84,Default,,0,0,0,fx,{\be5\blur5}能告訴我妳知道的事情嗎?
+Dialogue: 0,0:21:20.46,0:21:21.88,Default,,0,0,0,fx,{\be5\blur5}御坂美琴
+Dialogue: 0,0:22:59.22,0:23:00.70,Default,,0,0,0,fx,{\be5\blur5}在這次實驗中
+Dialogue: 0,0:23:00.99,0:23:03.27,Default,,0,0,0,fx,{\be5\blur5}即使對手是排名第四的超能力者
+Dialogue: 0,0:23:00.99,0:23:03.27,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1275,980)}Level5
+Dialogue: 0,0:23:03.74,0:23:06.23,Default,,0,0,0,fx,{\be5\blur5}也得到了與計算相符的數據
+Dialogue: 0,0:23:07.32,0:23:10.18,Default,,0,0,0,fx,{\be5\blur5}雖然在現場發生了預料之外的事件
+Dialogue: 0,0:23:10.61,0:23:12.88,Default,,0,0,0,fx,{\be5\blur5}不過很快就可以解決了吧
+Dialogue: 0,0:23:13.70,0:23:14.96,Default,,0,0,0,fx,{\be5\blur5}準備已經完成
+Dialogue: 0,0:23:15.73,0:23:17.38,Default,,0,0,0,fx,{\be5\blur5}現在正是將我們的力量
+Dialogue: 0,0:23:17.71,0:23:20.76,Default,,0,0,0,fx,{\be5\blur5}展現在這個能力至上主義城市的時刻
+Dialogue: 0,0:23:21.72,0:23:24.82,Default,,0,0,0,fx,{\be5\blur5}贊成計畫繼續向下一個階段進行的人
+Dialogue: 0,0:23:25.21,0:23:25.64,Default,,0,0,0,fx,{\be5\blur5}舉手
+Dialogue: 0,0:23:31.09,0:23:31.54,Default,,0,0,0,fx,{\be5\blur5}什麼?
+Dialogue: 0,0:23:31.54,0:23:32.76,Default,,0,0,0,fx,{\be5\blur5}這個叫做菲布理的孩子
+Dialogue: 0,0:23:32.84,0:23:34.58,Default,,0,0,0,fx,{\be5\blur5}為什麼會知道我的名字呢?
+Dialogue: 0,0:23:34.58,0:23:35.60,Default,,0,0,0,fx,{\be5\blur5}迷路了嗎?
+Dialogue: 0,0:23:35.60,0:23:36.38,Default,,0,0,0,fx,{\be5\blur5}怎麼辦呢?
+Dialogue: 0,0:23:36.55,0:23:38.46,Default,,0,0,0,fx,{\be5\blur5}在學究會上決定吧!
+Dialogue: 0,0:23:38.62,0:23:39.97,Default,,0,0,0,fx,{\be5\blur5}學究會?
+Dialogue: 0,0:01:45.62,0:01:52.21,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}璀璨的希望終會穿越這座城市
+Dialogue: 0,0:01:52.30,0:01:58.63,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}與永遠相互信任的同伴手牽著手
+Dialogue: 0,0:01:58.68,0:02:05.68,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}隨著心兒  繼續尋找所相信的明天
+Dialogue: 0,0:02:07.02,0:02:13.61,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}佇立在人群中 注視著你遠去的背影
+Dialogue: 0,0:02:13.73,0:02:20.16,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}漸漸理解「甘苦共享」的重要
+Dialogue: 0,0:02:20.32,0:02:26.91,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}幾份笑容如今依舊點染炫彩
+Dialogue: 0,0:02:26.95,0:02:35.13,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}就是想要守護這份繚繞著大家的平常
+Dialogue: 0,0:02:35.25,0:02:41.68,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}若讓伊始的夢想響徹蒼穹
+Dialogue: 0,0:02:41.84,0:02:48.23,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}堅定不移的能力便會捉住現實
+Dialogue: 0,0:02:48.39,0:02:55.07,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}因為擁有承認軟弱的那份堅強
+Dialogue: 0,0:02:55.07,0:03:01.61,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}為了永記心間  唯獨抱緊這份情誼
+Dialogue: 0,0:03:01.61,0:03:08.29,OPCN,NTP,0,0,0,,{\fad(300,300)\blur4.5}挺起胸膛  衝破足以自豪的未來
+Dialogue: 0,0:21:33.24,0:21:39.75,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}邁入的這個世界 對我來說過於廣闊
+Dialogue: 0,0:21:40.00,0:21:46.13,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}掩蓋焦慮不安 逞強伸伸腰
+Dialogue: 0,0:21:46.26,0:21:52.56,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}心中想著沒找到的答案
+Dialogue: 0,0:21:52.93,0:21:58.98,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}毫無喘息空隙光陰荏苒
+Dialogue: 0,0:21:59.77,0:22:05.69,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}若在反覆的日常中變得痛苦的話
+Dialogue: 0,0:22:06.19,0:22:09.41,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}便來一個深呼吸  你瞧
+Dialogue: 0,0:22:09.61,0:22:15.66,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}向著彩虹揮灑的山丘上進發吧
+Dialogue: 0,0:22:15.75,0:22:21.04,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}將難忘的今日也銘記於心
+Dialogue: 0,0:22:21.25,0:22:25.46,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}為相遇道一聲「謝謝」
+Dialogue: 0,0:22:25.59,0:22:28.72,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}一定甚是珍貴
+Dialogue: 0,0:22:28.88,0:22:33.97,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}向前邁進吧 銜接著明天
+Dialogue: 0,0:22:34.06,0:22:37.98,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}互相會意而笑道「謝謝」
+Dialogue: 0,0:22:37.98,0:22:41.56,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}分享悲傷與喜悅
+Dialogue: 0,0:22:41.69,0:22:52.03,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}來吧  將它們合二為一吧
+Dialogue: 0,0:23:39.97,0:23:39.98,Default,,0,0,0,,

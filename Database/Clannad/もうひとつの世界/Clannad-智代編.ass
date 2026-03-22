@@ -1,0 +1,434 @@
+﻿[Script Info]
+Title: CLANNAD BD SP2
+Original Script: - FLsnow & SumiSora & NF-GL -
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: eng-Ana ZD,华文隶书,52,&H00FFFFFF,&HF0FFFFFF,&HFF000000,&HA0000000,-1,0,0,0,100,100,0,0,1,2,2,8,45,45,30,1
+Style: chs-Ana ZD,思源黑体 CN Normal,66,&H00FFFFFF,&HF0FFFFFF,&HFF000000,&HA0000000,-1,0,0,0,100,100,0,0,1,2,2,8,45,45,85,1
+Style: jap for CL智代,FOT-Humming Std D,56,&H00FFFFFF,&H00FFFFFF,&H3C757575,&H00FFFFFF,0,0,0,0,100,100,2,0,1,4,0,2,15,15,87,128
+Style: chs for CL,方正正准黑_GBK,66,&H00FFFFFF,&H00FFFFFF,&H3CCC8613,&H00686766,0,0,0,0,100,100,1.8,0,1,3.2,0,2,15,15,66,1
+Style: chs for CL朋也,方正正准黑_GBK,66,&H00FFFFFF,&H00FFFFFF,&H3CFEAD27,&H00FFFFFF,0,0,0,0,100,100,1.8,0,1,3.2,0,2,15,15,15,1
+Style: title1,楷体,72,&H00FFFFFF,&HF0FFFFFF,&H005DAE76,&H90FFFFFF,0,0,0,0,100,100,0,0,1,3,0,2,30,30,10,134
+Style: title2,楷体,72,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,3,2,30,30,10,134
+Style: jap for CL,FOT-Humming Std D,56,&H00FFFFFF,&H00FFFFFF,&H3CCC8613,&H00686766,0,0,0,0,100,100,2,0,1,3,0,2,15,15,87,128
+Style: OP1,Arphic PRoman-Mincho Ultra JIS,54,&H00867469,&H00FFFFFF,&H00D1C1B5,&H80AC042F,0,-1,0,0,100,100,0,0,1,3,0,2,15,15,15,1
+Style: OP2,Arphic PRoman-Mincho Ultra JIS,54,&H11000000,&H00FFFFFF,&H22FFFFFF,&H80AC042F,0,-1,0,0,100,100,0,0,1,3,0,2,15,15,15,1
+Style: OC,思源黑体 CN Regular,80,&H22000000,&H88000000,&H22FFFFFF,&H80AC042F,0,-1,0,0,100,100,0,0,1,3,0,8,15,15,18,1
+Style: ED,DFPMaruMoji-W9,53,&H00FFFFFF,&H00000000,&H00000000,&HF0000000,0,0,0,0,100,100,0,0,1,3,0,5,45,45,30,1
+Style: EDCN,思源黑体 CN Normal,69,&H00FFFFFF,&H88000000,&H00FFFFFF,&H80AC042F,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,12,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:03:26.61,0:03:30.31,title1,,0,0,0,,{\pos(960,820)\fad(500,0)\blur3}另一個世界\N\N智代篇
+Dialogue: 0,0:00:44.00,0:00:49.85,OP1,,0,0,0,,{\move(960,1045.5,960,1075.5)\fad(460,425)\be1\t(0,200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(200,400,\1c&H00867469\3c&H00D1C1B5\bord3)}透{\r\t(400,600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(600,800,\1c&H00867469\3c&H00D1C1B5\bord3)}き{\r\t(800,1200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1200,1600,\1c&H00867469\3c&H00D1C1B5\bord3)}通{\r\t(1600,2000,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(2000,2400,\1c&H00867469\3c&H00D1C1B5\bord3)}る{\r\t(3200,3550,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3550,3700,\1c&H00867469\3c&H00D1C1B5\bord3)}夢{\r\t(3700,3850,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3850,4000,\1c&H00867469\3c&H00D1C1B5\bord3)}を{\r\t(4000,4150,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4150,4300,\1c&H00867469\3c&H00D1C1B5\bord3)}見{\r\t(4300,4450,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4450,4600,\1c&H00867469\3c&H00D1C1B5\bord3)}て{\r\t(4600,4750,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4750,4900,\1c&H00867469\3c&H00D1C1B5\bord3)}い{\r\t(4900,5050,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(5050,5200,\1c&H00867469\3c&H00D1C1B5\bord3)}た
+Dialogue: 0,0:00:50.21,0:00:57.23,OP1,,0,0,0,,{\move(900,1065,1020,1065)\fad(420,420)\be1\t(0,500,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(500,1000,\1c&H00867469\3c&H00D1C1B5\bord3)}柔{\r\t(1000,1200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1200,1400,\1c&H00867469\3c&H00D1C1B5\bord3)}ら{\r\t(1400,1550,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1550,1700,\1c&H00867469\3c&H00D1C1B5\bord3)}か{\r\t(1700,2200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(2200,2700,\1c&H00867469\3c&H00D1C1B5\bord3)}い{\r\t(2700,3100,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3100,3500,\1c&H00867469\3c&H00D1C1B5\bord3)}永{\r\t(3500,3900,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3900,4300,\1c&H00867469\3c&H00D1C1B5\bord3)}遠
+Dialogue: 0,0:00:57.44,0:01:02.85,OP1,,0,0,0,,{\pos(960,1065)\fad(400,400)\be1\t(0,200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(200,400,\1c&H00867469\3c&H00D1C1B5\bord3)}風{\r\t(400,550,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(550,700,\1c&H00867469\3c&H00D1C1B5\bord3)}の{\r\t(700,850,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(850,1000,\1c&H00867469\3c&H00D1C1B5\bord3)}よ{\r\t(1000,1150,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1150,1300,\1c&H00867469\3c&H00D1C1B5\bord3)}う{\r\t(1300,1450,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1450,1600,\1c&H00867469\3c&H00D1C1B5\bord3)}な{\r\t(2700,2900,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(2900,3100,\1c&H00867469\3c&H00D1C1B5\bord3)}微{\r\t(3100,3250,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3250,3400,\1c&H00867469\3c&H00D1C1B5\bord3)}か{\r\t(3400,3600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3600,3800,\1c&H00867469\3c&H00D1C1B5\bord3)}な{\r\t(3800,4100,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4100,4400,\1c&H00867469\3c&H00D1C1B5\bord3)}声{\r\t(4400,4550,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4550,4700,\1c&H00867469\3c&H00D1C1B5\bord3)}が
+Dialogue: 0,0:01:03.69,0:01:10.37,OP1,,0,0,0,,{\fad(400,4680)\be1\move(960,1045.5,960,1075.5,2000,6680)\t(0,400,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(400,800,\1c&H00867469\3c&H00D1C1B5\bord3)}高{\r\t(800,1000,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1000,1200,\1c&H00867469\3c&H00D1C1B5\bord3)}い{\r\t(1200,1600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(1600,2000,\1c&H00867469\3c&H00D1C1B5\bord3)}空{\r\t(2000,2200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(2200,2400,\1c&H00867469\3c&H00D1C1B5\bord3)}か{\r\t(2400,2600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(2600,2800,\1c&H00867469\3c&H00D1C1B5\bord3)}ら{\r\t(3000,3350,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3350,3700,\1c&H00867469\3c&H00D1C1B5\bord3)}僕{\r\t(3700,3900,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(3900,4100,\1c&H00867469\3c&H00D1C1B5\bord3)}を{\r\t(4100,4350,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4350,4600,\1c&H00867469\3c&H00D1C1B5\bord3)}呼{\r\t(4500,4600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4600,4700,\1c&H00867469\3c&H00D1C1B5\bord3)}ん{\r\t(4700,4850,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(4850,5000,\1c&H00867469\3c&H00D1C1B5\bord3)}で{\r\t(5000,5200,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(5200,5400,\1c&H00867469\3c&H00D1C1B5\bord3)}い{\r\t(5400,5600,\1c&H22FFFFFF\3c&H22FFFFFF\bord7.5)\t(5600,5800,\1c&H00867469\3c&H00D1C1B5\bord3)}る
+Dialogue: 1,0:01:10.32,0:01:14.02,OP2,,0,0,0,,{\pos(960,1065)\fad(200,200)\K120\be1\1c&H00463E20\3c&H00A1B36E}こ{\K40}の{\K70}ま{\K70}ま{\K70}{\K70}飛{\K60}び{\K40}立{\K30}て{\K30}ば
+Dialogue: 0,0:01:13.82,0:01:16.29,OP2,,0,0,0,,{\pos(960,1065)\fad(200,200)\be1\1c&H00DF9535\3c&H00F0D9C3}このまま{\K70}飛{\K60}び{\K40}立{\K30}て{\K30}ば
+Dialogue: 1,0:01:16.55,0:01:20.05,OP2,,0,0,0,,{\pos(960,1065)\fad(200,400)\K60\be1\1c&H00F96113\3c&H004CF1F4}ど{\K100}こ{\K30}に{\K60}だ{\K20}っ{\K40}て{\K30}行{\K40}け{\K300}る
+Dialogue: 0,0:01:19.65,0:01:23.59,OP2,,0,0,0,,{\pos(960,1065)\fad(400,500)\be1\1c&H0010431E\3c&H0042BC70}どこにだって{\K30}行{\K40}け{\K300}る
+Dialogue: 0,0:01:23.62,0:01:30.02,OP2,,0,0,0,,{\pos(960,1065)\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\1a&HFF\3a&HFF}重ねた手{\K320\1a&H00\3a&H00}{\K40}と{\K80}{\K40}手{\K20}の{\K80}中{\K40}に
+Dialogue: 1,0:01:23.62,0:01:30.02,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1080,5178,6400)}重{\K0\1a&HFF\3a&HFF}ねた手と手の中に
+Dialogue: 2,0:01:23.62,0:01:30.02,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1077,5387,6400)\1a&HFF\3a&HFF}重{\K120\1a&H00\3a&H00}{\K40}ね{\K0\1a&HFF\3a&HFF}た手と手の中に
+Dialogue: 3,0:01:23.62,0:01:30.02,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1074,5595,6400)\1a&HFF\3a&HFF}重ね{\K160\1a&H00\3a&H00}{\K80}た{\K0\1a&HFF\3a&HFF}手と手の中に
+Dialogue: 4,0:01:23.62,0:01:30.02,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1071,5804,6400)\1a&HFF\3a&HFF}重ねた{\K280\1a&H00\3a&H00}{\K40}手{\K0\1a&HFF\3a&HFF}と手の中に
+Dialogue: 0,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\1a&HFF\3a&HFF}が見えたら
+Dialogue: 1,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1068,6180,6540)\1a&HFF\3a&HFF}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\1a&H00\3a&H00}{\K40}が{\1a&HFF\3a&HFF}見えたら
+Dialogue: 2,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1071,5970,6540)\1a&HFF\3a&HFF}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\K40}が{\1a&H00\3a&H00}{\K40}見{\1a&HFF\3a&HFF}えたら
+Dialogue: 3,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1074,5760,6540)\1a&HFF\3a&HFF}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\K40}が{\K40}見{\1a&H00\3a&H00}{\K40}え{\1a&HFF\3a&HFF}たら
+Dialogue: 4,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1077,5560,6540)\1a&HFF\3a&HFF}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\K40}が{\K40}見{\K40}え{\1a&H00\3a&H00}{\K80}た{\1a&HFF\3a&HFF}ら
+Dialogue: 5,0:01:30.12,0:01:36.66,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1080,5390,6540)\1a&HFF\3a&HFF}小{\K40}さ{\K40}な{\K40}{\K80}未{\K80}来{\K40}が{\K40}見{\K40}え{\K80}た{\1a&H00\3a&H00}{\K30}ら
+Dialogue: 0,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\pos(960,1065)\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\1a&HFF\3a&HFF}光の中揺ら{\K520\1a&H00\3a&H00}{\K60}め{\K30}い{\K30}た
+Dialogue: 1,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\fad(200,400)\K160\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1080,5227,6670)}光{\K0\1a&HFF\3a&HFF}の中揺らめいた
+Dialogue: 2,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\fad(200,400)\K160\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1077,5435,6670)\1a&HFF\3a&HFF}光{\1a&H00\3a&H00}{\K80}の{\K0\1a&HFF\3a&HFF}中揺らめいた
+Dialogue: 3,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\fad(200,400)\K160\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1074,5644,6670)\1a&HFF\3a&HFF}光{\K80}の{\K20\1a&H00\3a&H00}{\K80}中{\K0\1a&HFF\3a&HFF}揺らめいた
+Dialogue: 4,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\fad(200,400)\K160\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1071,5852,6670)\1a&HFF\3a&HFF}光{\K80}の{\K20}{\K80}中{\K100\1a&H00\3a&H00}{\K40}揺{\K0\1a&HFF\3a&HFF}らめいた
+Dialogue: 5,0:01:36.71,0:01:43.38,OP2,,0,0,0,,{\fad(200,400)\K160\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1068,6061,6670)\1a&HFF\3a&HFF}光{\K80}の{\K20}{\K80}中{\K100}{\K40}揺{\K40\1a&H00\3a&H00}ら{\K0\1a&HFF\3a&HFF}めいた
+Dialogue: 0,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\K120\be1\1c&H00896A5B\3c&H00C5E5F0}言{\K40}葉{\1a&HFF\3a&HFF}も想いも全部
+Dialogue: 1,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1065,6126,6080)\1a&HFF\3a&HFF}言葉{\K200\1a&H00\3a&H00}{\K40}も{\K0\1a&HFF\3a&HFF}想いも全部
+Dialogue: 2,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1068,6084,6080)\1a&HFF\3a&HFF}言葉も{\K240\1a&H00\3a&H00}{\K100}想{\K0\1a&HFF\3a&HFF}いも全部
+Dialogue: 3,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1071,5875,6080)\1a&HFF\3a&HFF}言葉も想{\K340\1a&H00\3a&H00}{\K40}い{\K0\1a&HFF\3a&HFF}も全部
+Dialogue: 4,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1074,5667,6080)\1a&HFF\3a&HFF}言葉も想い{\K400\1a&H00\3a&H00}{\K40}も{\K0\1a&HFF\3a&HFF}全部
+Dialogue: 5,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1077,5458,6080)\1a&HFF\3a&HFF}言葉も想いも{\K440\1a&H00\3a&H00}{\K60}全{\K0\1a&HFF\3a&HFF}部
+Dialogue: 6,0:01:43.36,0:01:49.44,OP2,,0,0,0,,{\fad(200,400)\be1\1c&H00896A5B\3c&H00C5E5F0\move(960,1065,960,1080,5292,6080)\1a&HFF\3a&HFF}言葉も想いも全{\K500\1a&H00\3a&H00}{\K30}部
+Dialogue: 0,0:01:49.56,0:02:02.56,OP2,,0,0,0,,{\pos(960,1065)\fad(200,200)\K110\be1\1c&H00896A5B\3c&H00C5E5F0}遥{\K30}か{\K100}な{\K100}{\K100}君{\K30}ま{\K100}で{\K100}　{\K100}残{\K30}さ{\K100}ず{\K100}{\K100}伝{\K30}え{\K100}て{\K80}　{\K60}き{\K20}っ{\K160}と
+Dialogue: 0,0:02:02.36,0:02:09.58,OP2,,0,0,0,,{\pos(960,1065)\fad(200,1000)\be1\1c&H00617EB1\3c&H00BDBBEF}遥かな君まで　残さず伝えて{\K30}　{\K60}き{\K20}っ{\K160}と
+Dialogue: 0,0:20:22.80,0:20:34.25,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}時空荏苒  如風似雲
+Dialogue: 0,0:20:33.45,0:20:48.75,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}宛如心跡  毫不停留
+Dialogue: 0,0:20:47.95,0:20:59.40,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}遠在彼方  支離破碎
+Dialogue: 0,0:20:58.60,0:21:14.15,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}無法觸及  唯能禮敬
+Dialogue: 0,0:21:13.35,0:21:25.05,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}高高在上  君臨萬物
+Dialogue: 0,0:21:24.25,0:21:38.25,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}轉瞬即逝  變幻莫測
+Dialogue: 0,0:21:37.45,0:21:49.15,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}決非遂心  從不氣餒
+Dialogue: 0,0:21:49.46,0:22:04.05,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}一如既往  遙不可及
+Dialogue: 0,0:22:32.35,0:22:43.95,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}沒入冰雪  搖搖欲墜
+Dialogue: 0,0:22:43.15,0:22:57.14,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}更似暗影  無蹤無形
+Dialogue: 0,0:22:57.82,0:23:09.05,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}高高在上  君臨萬物
+Dialogue: 0,0:23:08.63,0:23:24.96,chs-Ana ZD,,0,0,0,,{\pos(960,80)\fad(300,300)\blur3}一如既往  遙不可及
+Dialogue: 0,0:20:22.80,0:20:34.25,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}The place changes and goes. Like a wind, like clouds.
+Dialogue: 0,0:20:33.45,0:20:48.75,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}Like the traces of the heart, no halt at the places.
+Dialogue: 0,0:20:47.95,0:20:59.40,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}The place is so far away, be far apart.
+Dialogue: 0,0:20:58.60,0:21:14.15,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}people's hand does not reach, so merely has the worship.
+Dialogue: 0,0:21:13.35,0:21:25.05,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}The place is a lofty lord. can't meet nobody put on.
+Dialogue: 0,0:21:24.25,0:21:38.25,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}We will lose the place. so lofty which changes.
+Dialogue: 0,0:21:37.45,0:21:49.15,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}Not all were desired. However, we're never sad.
+Dialogue: 0,0:21:49.46,0:22:04.05,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}still, there is still the place.far away. far away.
+Dialogue: 0,0:22:32.35,0:22:43.95,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}The place buried in deep snow.like the collapsing castle.
+Dialogue: 0,0:22:43.15,0:22:57.14,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}like the head of the shade,figure will be thrown away.
+Dialogue: 0,0:22:57.82,0:23:09.05,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}The place is a lofty lord. can't meet nobody put on.
+Dialogue: 0,0:23:08.63,0:23:24.96,eng-Ana ZD,,0,0,0,,{\pos(960,20)\fad(300,300)\blur3}still,there is still the place. far away. far away.
+Dialogue: 0,0:00:05.03,0:00:06.51,chs for CL,,0,0,0,,{\blur3}朋也 起床了
+Dialogue: 0,0:00:08.14,0:00:10.00,chs for CL,,0,0,0,,{\blur3}我肚子痛 要休息
+Dialogue: 0,0:00:10.21,0:00:12.98,chs for CL,,0,0,0,,{\blur3}你一週肚子要痛幾次啊
+Dialogue: 0,0:00:13.28,0:00:16.08,chs for CL,,0,0,0,,{\blur3}不是告訴過你不用特意過來嗎
+Dialogue: 0,0:00:16.11,0:00:20.11,chs for CL,,0,0,0,,{\blur3}我不能放著你不管 畢竟我是你的女朋友啊
+Dialogue: 0,0:00:20.22,0:00:21.10,chs for CL,,0,0,0,,{\blur3}我們分手吧
+Dialogue: 0,0:00:24.80,0:00:27.45,chs for CL,,0,0,0,,{\blur3}就算是玩笑也請你不要說這種話
+Dialogue: 0,0:00:27.78,0:00:29.78,chs for CL,,0,0,0,,{\blur3}真的會讓人傷心的
+Dialogue: 0,0:00:30.22,0:00:32.70,chs for CL,,0,0,0,,{\blur3}別擺出這種表情嘛 是我不對
+Dialogue: 0,0:00:33.04,0:00:36.28,chs for CL,,0,0,0,,{\blur3}對了 今天不是學生會長選舉的日子嗎
+Dialogue: 0,0:00:36.67,0:00:38.06,chs for CL,,0,0,0,,{\blur3}打起精神來吧
+Dialogue: 0,0:00:38.89,0:00:41.40,chs for CL,,0,0,0,,{\blur3}也是啊 用笑臉來迎接吧
+Dialogue: 0,0:02:17.68,0:02:20.99,chs for CL,,0,0,0,,{\blur3}馬上就要公佈了吧 不在自己班裡待著可以嗎
+Dialogue: 0,0:02:21.84,0:02:24.21,chs for CL,,0,0,0,,{\blur3}和你在一起更能讓我安心
+Dialogue: 0,0:02:27.82,0:02:30.21,chs for CL,,0,0,0,,{\blur3}我跟智代交往已經有一個月了
+Dialogue: 0,0:02:30.69,0:02:32.82,chs for CL,,0,0,0,,{\blur3}要說發展成現在這樣的契機其實也沒什麼
+Dialogue: 0,0:02:33.71,0:02:37.59,chs for CL,,0,0,0,,{\blur3}遲到 翹課 在街上閒逛
+Dialogue: 0,0:02:38.13,0:02:40.98,chs for CL,,0,0,0,,{\blur3}在這樣的每一天中 與智代相識
+Dialogue: 0,0:02:41.53,0:02:43.04,chs for CL,,0,0,0,,{\blur3}不知何時變得親近了起來
+Dialogue: 0,0:02:43.45,0:02:45.84,chs for CL,,0,0,0,,{\blur3}等回過神來時已經變成戀人關係了
+Dialogue: 0,0:02:50.51,0:02:54.34,chs for CL,,0,0,0,,{\blur3}現在公佈學生會成員的選舉結果
+Dialogue: 0,0:02:54.97,0:02:56.16,chs for CL,,0,0,0,,{\blur3}學生會長是
+Dialogue: 0,0:02:56.98,0:03:00.14,chs for CL,,0,0,0,,{\blur3}坂上智代同學 533票當選
+Dialogue: 0,0:02:59.09,0:03:00.14,chs for CL,,0,0,0,,{\an8\blur3}成功了 智代
+Dialogue: 0,0:03:00.30,0:03:02.66,chs for CL,,0,0,0,,{\blur3}多虧了你支持我
+Dialogue: 0,0:03:02.94,0:03:05.21,chs for CL,,0,0,0,,{\blur3}但是 這並不代表著結束吧
+Dialogue: 0,0:03:05.27,0:03:08.30,chs for CL,,0,0,0,,{\blur3}你的最終目標是保住那片櫻花樹吧
+Dialogue: 0,0:03:09.40,0:03:10.47,chs for CL,,0,0,0,,{\blur3}我知道
+Dialogue: 0,0:03:12.20,0:03:15.69,chs for CL,,0,0,0,,{\blur3}朋也 從今往後你也願意待在我的身邊嗎
+Dialogue: 0,0:03:16.61,0:03:17.68,chs for CL,,0,0,0,,{\blur3}那還用問嗎
+Dialogue: 0,0:03:30.76,0:03:32.76,chs for CL,,0,0,0,,{\blur3}恭喜你當選
+Dialogue: 0,0:03:32.94,0:03:36.00,chs for CL,,0,0,0,,{\blur3}坂上前輩 恭喜你當選
+Dialogue: 0,0:03:36.43,0:03:37.37,chs for CL,,0,0,0,,{\blur3}謝謝
+Dialogue: 0,0:03:37.44,0:03:39.31,chs for CL,,0,0,0,,{\blur3}我們一直相信你會當選的
+Dialogue: 0,0:03:39.42,0:03:40.98,chs for CL,,0,0,0,,{\an8\blur3\fs56}以後我們也會一直支持你
+Dialogue: 0,0:03:39.62,0:03:42.45,chs for CL,,0,0,0,,{\blur3}不過還真是個不可思議的組合啊
+Dialogue: 0,0:03:43.31,0:03:46.23,chs for CL,,0,0,0,,{\blur3}遊手好閒三年級學生二人組外加學生會長
+Dialogue: 0,0:03:46.32,0:03:48.44,chs for CL,,0,0,0,,{\blur3}所處的世界不是完全不同的嗎
+Dialogue: 0,0:03:48.90,0:03:53.36,chs for CL,,0,0,0,,{\blur3}那不是有名的不良學生嗎 為什麼會跟坂上同學在一起呢
+Dialogue: 0,0:03:53.40,0:03:56.45,chs for CL,,0,0,0,,{\blur3}你不知道嗎 智代同學好像跟那些傢伙關係很好呢
+Dialogue: 0,0:03:57.99,0:04:01.27,chs for CL,,0,0,0,,{\blur3}你說 學生會長今天還會來嗎
+Dialogue: 0,0:04:01.44,0:04:04.82,chs for CL,,0,0,0,,{\blur3}那自然是會來的啦 畢竟每天都有來
+Dialogue: 0,0:04:04.84,0:04:06.36,chs for CL,,0,0,0,,{\blur3}你可真是悠閒啊
+Dialogue: 0,0:04:06.38,0:04:06.95,chs for CL,,0,0,0,,{\blur3}什麼？
+Dialogue: 0,0:04:07.24,0:04:10.43,chs for CL,,0,0,0,,{\blur3}你好好想想吧 在當選了學生會長的現在
+Dialogue: 0,0:04:10.56,0:04:13.57,chs for CL,,0,0,0,,{\blur3}一定會比之前更加嘮叨不停的
+Dialogue: 0,0:04:13.90,0:04:18.38,chs for CL,,0,0,0,,{\blur3}不要在走廊上奔跑什麼的 點心 飯 茶要三角進餐什麼的
+Dialogue: 0,0:04:13.90,0:04:18.38,chs for CL,,0,0,0,,{\an8\blur3\fs48}三角進餐:日本的傳統習慣，進餐時將各類食物\N以一定的順序吃，如必須先吃麵包，再吃牛奶，最後吃點心
+Dialogue: 0,0:04:18.60,0:04:20.97,chs for CL,,0,0,0,,{\blur3}我可不想當那麼乖的人啊
+Dialogue: 0,0:04:20.99,0:04:22.74,chs for CL,,0,0,0,,{\blur3}你怎麼了 出那麼大聲
+Dialogue: 0,0:04:22.81,0:04:27.77,chs for CL,,0,0,0,,{\blur3}智代 去你的！ 我偏偏就先吃蔬菜
+Dialogue: 0,0:04:26.76,0:04:27.62,chs for CL,,0,0,0,,{\an8\fad(100,0)\blur3\fs48}(極品蔬菜王子）
+Dialogue: 0,0:04:27.79,0:04:29.79,chs for CL,,0,0,0,,{\blur3}他在說些什麼啊
+Dialogue: 0,0:04:29.82,0:04:30.63,chs for CL,,0,0,0,,{\blur3}他是個笨蛋嘛
+Dialogue: 0,0:04:30.81,0:04:31.76,chs for CL,,0,0,0,,{\blur3}也是啊
+Dialogue: 0,0:04:31.78,0:04:33.09,chs for CL,,0,0,0,,{\blur3}別在那邊自己就肯定了啊
+Dialogue: 0,0:04:33.32,0:04:35.13,chs for CL,,0,0,0,,{\blur3}我今天是帶這些過來的
+Dialogue: 0,0:04:35.83,0:04:39.01,chs for CL,,0,0,0,,{\blur3}因為還有學生會的召集工作呢 那麼再見了
+Dialogue: 0,0:04:41.05,0:04:43.15,chs for CL,,0,0,0,,{\blur3}馬上就忙起來了呢
+Dialogue: 0,0:04:45.53,0:04:47.44,chs for CL,,0,0,0,,{\blur3}連我那份也有做啊
+Dialogue: 0,0:04:48.85,0:04:51.23,chs for CL,,0,0,0,,{\blur3}但是這樣一來就分不清哪份是誰的…
+Dialogue: 0,0:04:51.83,0:04:53.12,chs for CL,,0,0,0,,{\blur3}太好分了
+Dialogue: 0,0:04:53.33,0:04:56.07,chs for CL,,0,0,0,,{\blur3}怎麼回事 到底跟坂上同學是什麼關係啊
+Dialogue: 0,0:04:56.35,0:04:59.07,chs for CL,,0,0,0,,{\blur3}誰知道呢 不過好像關係很好的樣子呢
+Dialogue: 0,0:04:59.16,0:05:00.44,chs for CL,,0,0,0,,{\blur3}難道說是在交往嗎
+Dialogue: 0,0:05:00.46,0:05:01.56,chs for CL,,0,0,0,,{\blur3}哎 不會吧
+Dialogue: 0,0:05:01.58,0:05:02.52,chs for CL,,0,0,0,,{\blur3}喂 小聲點
+Dialogue: 0,0:05:02.90,0:05:04.36,chs for CL,,0,0,0,,{\blur3}看什麼看啊
+Dialogue: 0,0:05:09.77,0:05:11.68,chs for CL,,0,0,0,,{\blur3}她好慢啊
+Dialogue: 0,0:05:11.95,0:05:14.10,chs for CL,,0,0,0,,{\blur3}畢竟中午也很忙的樣子呢
+Dialogue: 0,0:05:14.86,0:05:16.76,chs for CL,,0,0,0,,{\blur3}我再等一會兒吧
+Dialogue: 0,0:05:18.33,0:05:21.78,chs for CL,,0,0,0,,{\blur3}那個 朋也 很抱歉你先回去吧
+Dialogue: 0,0:05:22.26,0:05:22.98,chs for CL,,0,0,0,,{\blur3}智代！？
+Dialogue: 0,0:05:23.60,0:05:26.28,chs for CL,,0,0,0,,{\blur3}我忘記還有關於學園祭相關的會議要開了
+Dialogue: 0,0:05:26.49,0:05:29.35,chs for CL,,0,0,0,,{\blur3}大概會忙到晚上 所以…
+Dialogue: 0,0:05:29.37,0:05:31.87,chs for CL,,0,0,0,,{\blur3}會長 廣播裝置不能私用…
+Dialogue: 0,0:05:31.89,0:05:33.11,chs for CL,,0,0,0,,{\blur3}快點關掉啦
+Dialogue: 0,0:05:34.58,0:05:37.63,chs for CL,,0,0,0,,{\blur3}你的女朋友可真夠大膽的啊
+Dialogue: 0,0:05:38.74,0:05:42.91,chs for CL,,0,0,0,,{\blur3}實際上也有人質疑很多人是不是湊熱鬧才投的票
+Dialogue: 0,0:05:43.60,0:05:46.67,chs for CL,,0,0,0,,{\blur3}我看過坂上同學在之前學校的資料
+Dialogue: 0,0:05:47.04,0:05:50.78,chs for CL,,0,0,0,,{\blur3}雖然這麼說不太合適 不過確實是引發過不少問題呢
+Dialogue: 0,0:05:51.13,0:05:52.43,chs for CL,,0,0,0,,{\blur3}那都是以前的事了吧
+Dialogue: 0,0:05:52.68,0:05:53.34,chs for CL,,0,0,0,,{\blur3}確實如此
+Dialogue: 0,0:05:53.65,0:05:58.42,chs for CL,,0,0,0,,{\blur3}不過坂上同學在本校也已經引發過數次騷動了
+Dialogue: 0,0:05:58.81,0:06:00.19,chs for CL,,0,0,0,,{\blur3}這一點毋庸置疑吧？
+Dialogue: 0,0:06:00.63,0:06:03.18,chs for CL,,0,0,0,,{\blur3}我沒有要強制你們怎麼做的意思
+Dialogue: 0,0:06:03.45,0:06:06.30,chs for CL,,0,0,0,,{\blur3}只是想提醒你要有點自覺並好好注意一下
+Dialogue: 0,0:06:06.53,0:06:09.32,chs for CL,,0,0,0,,{\blur3}畢竟你是本校的學生會長呢
+Dialogue: 0,0:06:09.48,0:06:10.13,chs for CL,,0,0,0,,{\blur3}是的
+Dialogue: 0,0:06:11.32,0:06:13.67,chs for CL,,0,0,0,,{\blur3}老師會在意也是沒辦法的事
+Dialogue: 0,0:06:14.40,0:06:18.67,chs for CL,,0,0,0,,{\blur3}我也知道有人在背後議論我們的事
+Dialogue: 0,0:06:19.04,0:06:21.56,chs for CL,,0,0,0,,{\blur3}不過 那也得看我們自己
+Dialogue: 0,0:06:22.02,0:06:23.26,chs for CL,,0,0,0,,{\blur3}沒錯吧 朋也
+Dialogue: 0,0:06:26.46,0:06:28.62,chs for CL,,0,0,0,,{\blur3}啊 是啊
+Dialogue: 0,0:06:29.71,0:06:30.41,chs for CL,,0,0,0,,{\blur3}沒錯
+Dialogue: 0,0:06:39.97,0:06:43.86,chs for CL,,0,0,0,,{\blur3}學園祭啊 我忘得一乾二淨了
+Dialogue: 0,0:06:43.95,0:06:46.88,chs for CL,,0,0,0,,{\blur3}她說這段時間也會很忙呢
+Dialogue: 0,0:06:46.96,0:06:48.30,chs for CL,,0,0,0,,{\blur3}我們去哪兒玩玩吧
+Dialogue: 0,0:06:49.01,0:06:51.04,chs for CL,,0,0,0,,{\blur3}放鬆啦 放鬆
+Dialogue: 0,0:06:51.33,0:06:53.44,chs for CL,,0,0,0,,{\blur3}回家的時候去哪兒逛逛吧
+Dialogue: 0,0:06:53.62,0:06:55.23,chs for CL,,0,0,0,,{\blur3}反正你很閒的吧
+Dialogue: 0,0:07:33.72,0:07:35.38,chs for CL,,0,0,0,,{\blur3}別這副表情啦
+Dialogue: 0,0:07:35.55,0:07:39.63,chs for CL,,0,0,0,,{\blur3}等學園祭結束後 智代也會稍微清閒一點的吧
+Dialogue: 0,0:07:39.89,0:07:41.77,chs for CL,,0,0,0,,{\blur3}到時候又能三個人一起玩啦
+Dialogue: 0,0:07:42.19,0:07:43.48,chs for CL,,0,0,0,,{\blur3}能那樣就好了呢
+Dialogue: 0,0:07:43.55,0:07:47.26,chs for CL,,0,0,0,,{\blur3}不過對我而言 能不看到她反而更好一些
+Dialogue: 0,0:07:48.26,0:07:51.19,chs for CL,,0,0,0,,{\blur3}不說這些了 去向那兩個人搭訕吧
+Dialogue: 0,0:07:51.44,0:07:53.79,chs for CL,,0,0,0,,{\blur3}看啊看啊 那個馬尾女孩…
+Dialogue: 0,0:07:54.03,0:07:55.40,chs for CL,,0,0,0,,{\blur3}喂 你在聽嗎
+Dialogue: 0,0:07:58.55,0:07:59.73,chs for CL,,0,0,0,,{\blur3}好像很熱呢
+Dialogue: 0,0:08:00.72,0:08:04.74,chs for CL,,0,0,0,,{\blur3}但是 如果被發現的話就會被強行帶回學生會室
+Dialogue: 0,0:08:05.00,0:08:06.56,chs for CL,,0,0,0,,{\blur3}有這麼忙嗎
+Dialogue: 0,0:08:06.75,0:08:09.77,chs for CL,,0,0,0,,{\blur3}嗯 現在也正在巡邏呢
+Dialogue: 0,0:08:10.07,0:08:11.67,chs for CL,,0,0,0,,{\blur3}別太勉強了哦
+Dialogue: 0,0:08:11.99,0:08:16.54,chs for CL,,0,0,0,,{\blur3}我可沒勉強 因為我想跟朋也待在一起所以才來這裡的
+Dialogue: 0,0:08:17.43,0:08:21.13,chs for CL,,0,0,0,,{\blur3}最近因為很忙 也沒時間跟你在一起
+Dialogue: 0,0:08:25.89,0:08:31.74,chs for CL,,0,0,0,,{\blur3}等學園祭結束後 終於要正式地開展保留櫻花樹的運動了
+Dialogue: 0,0:08:32.30,0:08:34.86,chs for CL,,0,0,0,,{\blur3}或許會變得比現在還要忙
+Dialogue: 0,0:08:36.07,0:08:36.83,chs for CL,,0,0,0,,{\blur3}所以…
+Dialogue: 0,0:08:42.63,0:08:43.31,chs for CL,,0,0,0,,{\blur3}坂上
+Dialogue: 0,0:08:45.56,0:08:49.85,chs for CL,,0,0,0,,{\blur3}正在找你呢 同窗會的會長們來打招呼了
+Dialogue: 0,0:08:50.20,0:08:51.27,chs for CL,,0,0,0,,{\blur3}請馬上回來
+Dialogue: 0,0:08:52.68,0:08:56.38,chs for CL,,0,0,0,,{\blur3}能等我把這雪糕吃完嗎
+Dialogue: 0,0:08:56.69,0:08:58.72,chs for CL,,0,0,0,,{\blur3}已經讓他們等了三十分鐘了
+Dialogue: 0,0:08:59.56,0:09:03.09,chs for CL,,0,0,0,,{\blur3}我們有請他們協助保留櫻花樹的運動
+Dialogue: 0,0:09:03.51,0:09:05.19,chs for CL,,0,0,0,,{\blur3}要是得罪了他們會很不好辦吧
+Dialogue: 0,0:09:07.18,0:09:09.38,chs for CL,,0,0,0,,{\blur3}我知道了 抱歉
+Dialogue: 0,0:09:09.53,0:09:11.34,chs for CL,,0,0,0,,{\blur3}沒事 加油吧
+Dialogue: 0,0:09:13.83,0:09:14.65,chs for CL,,0,0,0,,{\blur3}我走了
+Dialogue: 0,0:09:20.62,0:09:22.39,chs for CL,,0,0,0,,{\blur3}你是岡崎朋也吧
+Dialogue: 0,0:09:22.98,0:09:25.12,chs for CL,,0,0,0,,{\blur3}二年級的小子竟然不用敬語啊
+Dialogue: 0,0:09:25.27,0:09:28.37,chs for CL,,0,0,0,,{\blur3}你有沒有注意到 自己名聲已經不小了
+Dialogue: 0,0:09:28.75,0:09:31.02,chs for CL,,0,0,0,,{\blur3}因為是不良的遊手好閒之徒吧
+Dialogue: 0,0:09:31.05,0:09:33.13,chs for CL,,0,0,0,,{\blur3}因為你是坂上智代的男朋友
+Dialogue: 0,0:09:34.18,0:09:35.91,chs for CL,,0,0,0,,{\blur3}我之前就想要跟你說
+Dialogue: 0,0:09:36.24,0:09:38.21,chs for CL,,0,0,0,,{\blur3}請你不要再糾纏她了
+Dialogue: 0,0:09:38.74,0:09:40.63,chs for CL,,0,0,0,,{\blur3}什麼嘛 你在吃飛醋啊
+Dialogue: 0,0:09:41.93,0:09:45.16,chs for CL,,0,0,0,,{\blur3}不對呢 應該說是感興趣吧
+Dialogue: 0,0:09:45.85,0:09:49.29,chs for CL,,0,0,0,,{\blur3}因為她是 往高處走的人
+Dialogue: 0,0:09:50.83,0:09:53.01,chs for CL,,0,0,0,,{\blur3}她處事認真 也很努力
+Dialogue: 0,0:09:53.62,0:09:55.72,chs for CL,,0,0,0,,{\blur3}今後也能夠往更高的層次邁進
+Dialogue: 0,0:09:56.03,0:09:58.04,chs for CL,,0,0,0,,{\blur3}她就是這一類的人
+Dialogue: 0,0:09:58.91,0:10:03.13,chs for CL,,0,0,0,,{\blur3}你在拖她的後腿 大家都是這麼認為的
+Dialogue: 0,0:10:03.94,0:10:06.08,chs for CL,,0,0,0,,{\blur3}你這傢伙 想打架嗎
+Dialogue: 0,0:10:06.10,0:10:09.40,chs for CL,,0,0,0,,{\blur3}你 你自己不也明白的嗎
+Dialogue: 0,0:10:10.37,0:10:13.44,chs for CL,,0,0,0,,{\blur3}自己沒法為她做任何事
+Dialogue: 0,0:10:15.32,0:10:18.87,chs for CL,,0,0,0,,{\blur3}我要走了 因為必須要去幫坂上的忙才行
+Dialogue: 0,0:10:34.44,0:10:36.06,chs for CL,,0,0,0,,{\blur3}坂上同學非常優秀
+Dialogue: 0,0:10:36.53,0:10:37.75,chs for CL,,0,0,0,,{\blur3}名聲也不錯
+Dialogue: 0,0:10:37.99,0:10:39.22,chs for CL,,0,0,0,,{\blur3}然而與此不相稱地
+Dialogue: 0,0:10:39.41,0:10:43.03,chs for CL,,0,0,0,,{\blur3}她卻和某個把遲到曠課當作家常便飯的同學混在一起
+Dialogue: 0,0:10:43.98,0:10:48.41,chs for CL,,0,0,0,,{\blur3}為了聯繫那位同學而私自使用校內廣播
+Dialogue: 0,0:10:48.77,0:10:52.11,chs for CL,,0,0,0,,{\blur3}在學園祭中離開自己的崗位 和那位同學勾搭在一起
+Dialogue: 0,0:10:52.92,0:10:53.73,chs for CL,,0,0,0,,{\blur3}明白了吧
+Dialogue: 0,0:10:54.09,0:10:58.52,chs for CL,,0,0,0,,{\blur3}只要是她惹出的問題 就必定和岡崎你有關
+Dialogue: 0,0:11:01.77,0:11:02.57,chs for CL,,0,0,0,,{\blur3}朋也
+Dialogue: 0,0:11:03.40,0:11:04.09,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:11:05.28,0:11:06.02,chs for CL,,0,0,0,,{\blur3}怎麼了
+Dialogue: 0,0:11:06.31,0:11:08.27,chs for CL,,0,0,0,,{\blur3}抱歉 有緊急情況
+Dialogue: 0,0:11:08.41,0:11:09.54,chs for CL,,0,0,0,,{\blur3}你先回去吧
+Dialogue: 0,0:11:09.88,0:11:11.43,chs for CL,,0,0,0,,{\blur3}會很花時間嗎
+Dialogue: 0,0:11:11.87,0:11:13.64,chs for CL,,0,0,0,,{\blur3}我不清楚 大概是吧…
+Dialogue: 0,0:11:14.52,0:11:16.21,chs for CL,,0,0,0,,{\blur3}沒關係 不要介意
+Dialogue: 0,0:11:16.70,0:11:18.20,chs for CL,,0,0,0,,{\blur3}嗯 謝謝
+Dialogue: 0,0:11:23.51,0:11:25.09,chs for CL,,0,0,0,,{\blur3}原因就在你身上
+Dialogue: 0,0:11:26.10,0:11:30.45,chs for CL,,0,0,0,,{\blur3}她為了留下那條櫻花步道而四處奔走的事 你知道吧
+Dialogue: 0,0:11:30.99,0:11:32.52,chs for CL,,0,0,0,,{\blur3}這又怎麼了
+Dialogue: 0,0:11:32.90,0:11:36.68,chs for CL,,0,0,0,,{\blur3}拜託來做聲援的老前輩似乎聽到個不好的傳聞
+Dialogue: 0,0:11:37.20,0:11:43.07,chs for CL,,0,0,0,,{\blur3}有人看見坂上智代早上和她的男朋友一起從屋子裡走出來
+Dialogue: 0,0:11:43.12,0:11:46.40,chs for CL,,0,0,0,,{\blur3}什麼 她只是來叫我起床罷了
+Dialogue: 0,0:11:46.58,0:11:49.65,chs for CL,,0,0,0,,{\blur3}就算這是事實 但那人可是你啊
+Dialogue: 0,0:11:49.96,0:11:51.81,chs for CL,,0,0,0,,{\blur3}變成惡評也是自然的
+Dialogue: 0,0:11:52.58,0:11:54.27,chs for CL,,0,0,0,,{\blur3}坂上她是學生會長
+Dialogue: 0,0:11:54.99,0:11:57.46,chs for CL,,0,0,0,,{\blur3}站在那個立場上 就必須成為其他同學的榜樣
+Dialogue: 0,0:11:57.97,0:12:01.71,chs for CL,,0,0,0,,{\blur3}如果這樣的人惹出問題 就會對運動造成障礙
+Dialogue: 0,0:12:03.14,0:12:05.50,chs for CL,,0,0,0,,{\blur3}喂 你到底明不明白
+Dialogue: 0,0:12:06.40,0:12:09.18,chs for CL,,0,0,0,,{\blur3}自己在與一個什麼樣的人交往
+Dialogue: 0,0:12:10.67,0:12:13.18,chs for CL,,0,0,0,,{\blur3}自己到底是個什麼樣的人
+Dialogue: 0,0:12:19.98,0:12:21.94,chs for CL,,0,0,0,,{\blur3}並不是什麼大問題
+Dialogue: 0,0:12:22.30,0:12:25.02,chs for CL,,0,0,0,,{\blur3}反正誤會也解開了 沒什麼關係的
+Dialogue: 0,0:12:25.52,0:12:26.90,chs for CL,,0,0,0,,{\blur3}這事已經過去了
+Dialogue: 0,0:12:27.26,0:12:27.78,chs for CL,,0,0,0,,{\blur3}好嗎
+Dialogue: 0,0:12:34.02,0:12:36.18,chs for CL,,0,0,0,,{\blur3}看 都因為你呆呆的
+Dialogue: 0,0:12:38.51,0:12:39.24,chs for CL,,0,0,0,,{\blur3}智代
+Dialogue: 0,0:12:39.53,0:12:40.16,chs for CL,,0,0,0,,{\blur3}嗯？
+Dialogue: 0,0:12:40.60,0:12:41.39,chs for CL,,0,0,0,,{\blur3}我們分手吧
+Dialogue: 0,0:12:47.99,0:12:51.06,chs for CL,,0,0,0,,{\blur3}我們 果然還是分手比較好
+Dialogue: 0,0:12:52.76,0:12:55.33,chs for CL,,0,0,0,,{\blur3}我不是說過不要開這種玩笑…
+Dialogue: 0,0:12:55.35,0:12:57.16,chs for CL,,0,0,0,,{\blur3}你有你自己的目標吧
+Dialogue: 0,0:12:57.90,0:13:01.17,chs for CL,,0,0,0,,{\blur3}但如果和我在一起的話 可能就無法達成了
+Dialogue: 0,0:13:07.12,0:13:08.71,chs for CL,,0,0,0,,{\blur3}所以 那個…
+Dialogue: 0,0:13:08.74,0:13:09.29,chs for CL,,0,0,0,,{\blur3}不要
+Dialogue: 0,0:13:11.05,0:13:11.76,chs for CL,,0,0,0,,{\blur3}我不要
+Dialogue: 0,0:13:12.47,0:13:12.78,chs for CL,,0,0,0,,{\blur3}智…
+Dialogue: 0,0:13:12.80,0:13:13.54,chs for CL,,0,0,0,,{\blur3}我不要
+Dialogue: 0,0:13:13.58,0:13:14.34,chs for CL,,0,0,0,,{\blur3}怎麼了
+Dialogue: 0,0:13:14.54,0:13:16.24,chs for CL,,0,0,0,,{\blur3}真是的 不能去看的啦
+Dialogue: 0,0:13:16.26,0:13:18.96,chs for CL,,0,0,0,,{\blur3}如果 如果離開了我的話
+Dialogue: 0,0:13:19.11,0:13:20.25,chs for CL,,0,0,0,,{\blur3}你會很困擾的
+Dialogue: 0,0:13:20.90,0:13:24.24,chs for CL,,0,0,0,,{\blur3}如果離開了我的話 每天早上誰去叫你起床
+Dialogue: 0,0:13:24.89,0:13:26.62,chs for CL,,0,0,0,,{\blur3}誰給你去準備便當
+Dialogue: 0,0:13:27.87,0:13:29.96,chs for CL,,0,0,0,,{\blur3}還有考試的學習 該怎麼辦
+Dialogue: 0,0:13:30.72,0:13:32.66,chs for CL,,0,0,0,,{\blur3}而且 而且…
+Dialogue: 0,0:13:32.69,0:13:33.50,chs for CL,,0,0,0,,{\blur3}沒關係的
+Dialogue: 0,0:13:34.23,0:13:37.05,chs for CL,,0,0,0,,{\blur3}就算沒有你 我也能做好
+Dialogue: 0,0:13:37.51,0:13:39.56,chs for CL,,0,0,0,,{\blur3}但是 但是…
+Dialogue: 0,0:13:39.94,0:13:43.50,chs for CL,,0,0,0,,{\blur3}有你在身邊的話 我就會變得只想依靠你
+Dialogue: 0,0:13:43.94,0:13:45.33,chs for CL,,0,0,0,,{\blur3}這可不行
+Dialogue: 0,0:13:45.79,0:13:49.76,chs for CL,,0,0,0,,{\blur3}我喜歡你 想和你在一起
+Dialogue: 0,0:13:49.81,0:13:50.48,chs for CL,,0,0,0,,{\blur3}智代…
+Dialogue: 0,0:13:53.62,0:13:56.40,chs for CL,,0,0,0,,{\blur3}我對你的感情 並不是戀情
+Dialogue: 0,0:13:58.90,0:14:01.22,chs for CL,,0,0,0,,{\blur3}我是個很隨便的傢伙
+Dialogue: 0,0:14:03.24,0:14:06.19,chs for CL,,0,0,0,,{\blur3}智代 去回應那些對你的期待吧
+Dialogue: 0,0:14:07.03,0:14:08.06,chs for CL,,0,0,0,,{\blur3}然後 讓我以後
+Dialogue: 0,0:14:08.34,0:14:11.77,chs for CL,,0,0,0,,{\blur3}可以想起「我曾和這麼厲害的傢伙交往過啊」
+Dialogue: 0,0:14:12.97,0:14:14.71,chs for CL,,0,0,0,,{\blur3}好不好 智代
+Dialogue: 0,0:14:20.70,0:14:21.55,chs for CL,,0,0,0,,{\blur3}我明白了
+Dialogue: 0,0:14:24.17,0:14:25.20,chs for CL,,0,0,0,,{\blur3}我向你保證
+Dialogue: 0,0:14:27.32,0:14:32.95,chs for CL,,0,0,0,,{\blur3}能 能和我這樣的女孩交往…
+Dialogue: 0,0:14:34.62,0:14:35.45,chs for CL,,0,0,0,,{\blur3}謝謝你
+Dialogue: 0,0:14:38.77,0:14:39.61,chs for CL,,0,0,0,,{\blur3}保重
+Dialogue: 0,0:14:40.38,0:14:40.88,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:15:24.41,0:15:27.29,chs for CL,,0,0,0,,{\blur3}我還以為你們會一路走到結婚呢
+Dialogue: 0,0:15:27.58,0:15:29.61,chs for CL,,0,0,0,,{\blur3}哪會有這麼簡單的事啊
+Dialogue: 0,0:15:30.16,0:15:32.52,chs for CL,,0,0,0,,{\blur3}不 還以為她在遇到這種抉擇時
+Dialogue: 0,0:15:32.67,0:15:35.38,chs for CL,,0,0,0,,{\blur3}比起學生會 還是會選擇你
+Dialogue: 0,0:15:36.37,0:15:37.12,chs for CL,,0,0,0,,{\blur3}是嗎
+Dialogue: 0,0:15:38.91,0:15:44.42,chs for CL,,0,0,0,,{\blur3}不過離開了智代妹妹 朋也君是不是又要變回廢柴了
+Dialogue: 0,0:15:57.44,0:16:00.33,chs for CL,,0,0,0,,{\blur3}因此 第二問是例一的…
+Dialogue: 0,0:16:01.30,0:16:02.88,chs for CL,,0,0,0,,{\blur3}推廣應用
+Dialogue: 0,0:16:33.38,0:16:36.60,chs for CL,,0,0,0,,{\blur3}聽說了嗎 智代同學在全國模擬考拿了第四名
+Dialogue: 0,0:16:36.81,0:16:39.61,chs for CL,,0,0,0,,{\blur3}前段時間的志願活動也被表彰了
+Dialogue: 0,0:16:39.67,0:16:41.97,chs for CL,,0,0,0,,{\blur3}還聽說要去交換留學呢
+Dialogue: 0,0:16:46.28,0:16:47.81,chs for CL,,0,0,0,,{\blur3}我真的要看了哦
+Dialogue: 0,0:16:47.98,0:16:49.14,chs for CL,,0,0,0,,{\blur3}隨你便了
+Dialogue: 0,0:16:51.87,0:16:55.57,chs for CL,,0,0,0,,{\blur3}唉 我主要是考慮到你的心情嘛
+Dialogue: 0,0:16:57.36,0:16:58.43,chs for CL,,0,0,0,,{\blur3}真的可以嗎
+Dialogue: 0,0:16:58.87,0:17:00.06,chs for CL,,0,0,0,,{\blur3}真囉嗦
+Dialogue: 0,0:17:01.34,0:17:01.98,chs for CL,,0,0,0,,{\blur3}是麼
+Dialogue: 0,0:17:03.67,0:17:06.85,chs for CL,,0,0,0,,{\an7\fs42\blur3}I bite the bullet in order to prevent the loneliness.
+Dialogue: 0,0:17:07.48,0:17:11.00,chs for CL,,0,0,0,,{\an7\fs42\blur3}If we hadn't know \Nthe row of cherry trees would have been gone,
+Dialogue: 0,0:17:10.24,0:17:10.92,chs for CL,,0,0,0,,{\blur3}說哪國話呢
+Dialogue: 0,0:17:11.30,0:17:13.83,chs for CL,,0,0,0,,{\an7\fs42\blur3}we wouldn't have found fortune given by them.
+Dialogue: 0,0:17:11.32,0:17:14.09,chs for CL,,0,0,0,,{\blur3}好像是在說那些櫻花樹的事
+Dialogue: 0,0:17:14.13,0:17:18.70,chs for CL,,0,0,0,,{\an7\fs42\blur3}Because we all did nothing\Nexcept for making the grade by might and main.
+Dialogue: 0,0:17:19.67,0:17:21.96,chs for CL,,0,0,0,,{\blur3}這是之前在錄像裡看到的那東西吧
+Dialogue: 0,0:17:22.02,0:17:22.52,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:17:23.26,0:17:26.57,chs for CL,,0,0,0,,{\blur3}我們曾和這麼厲害的女孩子是朋友啊
+Dialogue: 0,0:17:32.68,0:17:33.31,chs for CL,,0,0,0,,{\blur3}喂
+Dialogue: 0,0:17:39.70,0:17:41.06,chs for CL,,0,0,0,,{\blur3}好像很忙碌的樣子呢
+Dialogue: 0,0:17:41.84,0:17:42.46,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:17:56.25,0:17:57.58,chs for CL,,0,0,0,,{\blur3}你那腦袋是啥啊
+Dialogue: 0,0:17:57.88,0:18:02.05,chs for CL,,0,0,0,,{\blur3}笑啥 我自己照鏡子的時候也覺得彆扭死了
+Dialogue: 0,0:18:02.63,0:18:07.39,chs for CL,,0,0,0,,{\blur3}但也沒辦法啊 又不可能一頭金髮去面試
+Dialogue: 0,0:18:08.56,0:18:12.03,chs for CL,,0,0,0,,{\blur3}嗯 可能不適合你呢
+Dialogue: 0,0:18:13.00,0:18:15.28,chs for CL,,0,0,0,,{\blur3}但是 也不要因此就放棄
+Dialogue: 0,0:18:15.93,0:18:19.38,chs for CL,,0,0,0,,{\blur3}總會找到適合自己的工作的
+Dialogue: 0,0:18:24.82,0:18:26.81,chs for CL,,0,0,0,,{\blur3}好不容易找到的工作
+Dialogue: 0,0:18:27.49,0:18:29.87,chs for CL,,0,0,0,,{\blur3}結果還是在這個小鎮裡
+Dialogue: 0,0:18:31.15,0:18:33.44,chs for CL,,0,0,0,,{\blur3}哪怕能稍微遠離這裡一點也好啊
+Dialogue: 0,0:18:39.87,0:18:43.62,chs for CL,,0,0,0,,{\blur3}你們中的大多數人將在升學後 慢慢步入社會
+Dialogue: 0,0:18:43.77,0:18:46.29,chs for CL,,0,0,0,,{\blur3}找到屬於自己的重要工作
+Dialogue: 0,0:18:46.75,0:18:48.51,chs for CL,,0,0,0,,{\blur3}我們學校至今的…
+Dialogue: 0,0:18:49.74,0:18:52.39,chs for CL,,0,0,0,,{\blur3}什麼啊 真的要走了嗎
+Dialogue: 0,0:18:52.52,0:18:54.11,chs for CL,,0,0,0,,{\blur3}一會兒還有送別會呢
+Dialogue: 0,0:18:54.31,0:18:55.65,chs for CL,,0,0,0,,{\blur3}我去了也沒什麼意思啊
+Dialogue: 0,0:18:56.25,0:18:57.82,chs for CL,,0,0,0,,{\blur3}一會兒我會去你房間的
+Dialogue: 0,0:18:58.29,0:18:58.98,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:19:20.59,0:19:21.67,chs for CL朋也,,0,0,0,,{\blur3}還好嗎
+Dialogue: 0,0:19:22.18,0:19:22.89,chs for CL,,0,0,0,,{\blur3}嗯
+Dialogue: 0,0:19:26.00,0:19:26.75,chs for CL,,0,0,0,,{\blur3}怎麼了
+Dialogue: 0,0:19:27.10,0:19:30.13,chs for CL朋也,,0,0,0,,{\blur3}等你很久了 想要向你報告一件事
+Dialogue: 0,0:19:30.53,0:19:31.10,chs for CL,,0,0,0,,{\blur3}什麼
+Dialogue: 0,0:19:31.79,0:19:33.61,chs for CL朋也,,0,0,0,,{\blur3}這裡的櫻花樹保住了
+Dialogue: 0,0:19:34.37,0:19:35.65,chs for CL朋也,,0,0,0,,{\blur3}終於定下來了
+Dialogue: 0,0:19:36.52,0:19:37.32,chs for CL,,0,0,0,,{\blur3}是嗎
+Dialogue: 0,0:19:37.83,0:19:38.76,chs for CL朋也,,0,0,0,,{\blur3}真是好長
+Dialogue: 0,0:19:39.46,0:19:41.00,chs for CL朋也,,0,0,0,,{\blur3}那個不容妥協的目標
+Dialogue: 0,0:19:41.77,0:19:43.50,chs for CL朋也,,0,0,0,,{\blur3}終於實現了
+Dialogue: 0,0:19:44.05,0:19:45.66,chs for CL,,0,0,0,,{\blur3}夢想實現了呢
+Dialogue: 0,0:19:46.82,0:19:49.40,chs for CL朋也,,0,0,0,,{\blur3}但是 也有因此而失去的東西
+Dialogue: 0,0:19:50.54,0:19:54.68,chs for CL朋也,,0,0,0,,{\blur3}本應能和喜歡的人一起度過的好幾個月時間
+Dialogue: 0,0:19:56.83,0:19:58.49,chs for CL朋也,,0,0,0,,{\blur3}我喜歡你
+Dialogue: 0,0:19:59.63,0:20:03.08,chs for CL朋也,,0,0,0,,{\blur3}現在也一樣 比以前更加喜歡你了
+Dialogue: 0,0:20:03.84,0:20:06.43,chs for CL,,0,0,0,,{\blur3}不是都那麼長時間沒說過話了嗎
+Dialogue: 0,0:20:07.02,0:20:07.88,chs for CL朋也,,0,0,0,,{\blur3}是啊
+Dialogue: 0,0:20:08.72,0:20:09.74,chs for CL朋也,,0,0,0,,{\blur3}但我在看著
+Dialogue: 0,0:20:11.08,0:20:12.23,chs for CL朋也,,0,0,0,,{\blur3}一直在看著你
+Dialogue: 0,0:20:13.35,0:20:16.24,chs for CL朋也,,0,0,0,,{\blur3}就算離開了我 你也做得井井有條
+Dialogue: 0,0:20:16.99,0:20:18.64,chs for CL朋也,,0,0,0,,{\blur3}每天都按時去上課
+Dialogue: 0,0:20:19.34,0:20:21.60,chs for CL朋也,,0,0,0,,{\blur3}一點一點地在努力著
+Dialogue: 0,0:20:25.23,0:20:26.86,chs for CL,,0,0,0,,{\blur3}不過便當就沒辦法了
+Dialogue: 0,0:20:28.26,0:20:31.00,chs for CL,,0,0,0,,{\blur3}就業問題也盡自己所能努力了
+Dialogue: 0,0:20:31.54,0:20:34.65,chs for CL,,0,0,0,,{\blur3}但果然因為在校評價不好 吃了很多閉門羹
+Dialogue: 0,0:20:34.87,0:20:37.07,chs for CL,,0,0,0,,{\blur3}然而 最近也終於定下來了
+Dialogue: 0,0:20:37.70,0:20:40.47,chs for CL,,0,0,0,,{\blur3}是一家小公司 搞廢物回收的
+Dialogue: 0,0:20:41.25,0:20:43.74,chs for CL,,0,0,0,,{\blur3}不過 地點倒是挺近的
+Dialogue: 0,0:20:44.74,0:20:47.96,chs for CL,,0,0,0,,{\blur3}畢竟就在這個小鎮裡面 上班會輕鬆點
+Dialogue: 0,0:20:53.14,0:20:54.10,chs for CL,,0,0,0,,{\blur3}就這些了
+Dialogue: 0,0:20:56.08,0:20:56.61,chs for CL,,0,0,0,,{\blur3}吶…
+Dialogue: 0,0:20:57.55,0:20:59.58,chs for CL,,0,0,0,,{\blur3}我過去都和你說過些什麼呢
+Dialogue: 0,0:21:00.75,0:21:04.51,chs for CL,,0,0,0,,{\blur3}是用怎樣的口吻 是怎麼笑過的呢
+Dialogue: 0,0:21:06.67,0:21:08.49,chs for CL,,0,0,0,,{\blur3}我不能和你一起前進
+Dialogue: 0,0:21:09.78,0:21:11.49,chs for CL,,0,0,0,,{\blur3}你明年也將畢業
+Dialogue: 0,0:21:12.01,0:21:14.59,chs for CL,,0,0,0,,{\blur3}一定會離開這個小鎮 前往遠方
+Dialogue: 0,0:21:15.79,0:21:17.46,chs for CL,,0,0,0,,{\blur3}能前往那遙遠的地方
+Dialogue: 0,0:21:18.75,0:21:19.89,chs for CL,,0,0,0,,{\blur3}但我卻不一樣
+Dialogue: 0,0:21:20.99,0:21:22.63,chs for CL,,0,0,0,,{\blur3}將會一直生活在這個小鎮
+Dialogue: 0,0:21:23.30,0:21:24.84,chs for CL,,0,0,0,,{\blur3}一直生活在同一個地方
+Dialogue: 0,0:21:26.41,0:21:27.75,chs for CL,,0,0,0,,{\blur3}我只是這樣的人而已
+Dialogue: 0,0:21:30.43,0:21:33.08,chs for CL朋也,,0,0,0,,{\blur3}那樣的話 我就前往你的身旁
+Dialogue: 0,0:21:34.43,0:21:35.35,chs for CL朋也,,0,0,0,,{\blur3}前往那裡
+Dialogue: 0,0:21:37.58,0:21:41.79,chs for CL,,0,0,0,,{\blur3}為什麼 你應該可以去更好的地方的
+Dialogue: 0,0:21:42.25,0:21:45.02,chs for CL,,0,0,0,,{\blur3}去一所好的大學 邂逅許多的人
+Dialogue: 0,0:21:45.17,0:21:47.38,chs for CL,,0,0,0,,{\blur3}被賦予重望 然後回報那些期待…
+Dialogue: 0,0:21:47.54,0:21:49.92,chs for CL,,0,0,0,,{\blur3}你還能去更高的層次啊
+Dialogue: 0,0:21:50.47,0:21:52.42,chs for CL,,0,0,0,,{\blur3}比在我這種人的身邊更加…
+Dialogue: 0,0:21:52.42,0:21:53.87,chs for CL朋也,,0,0,0,,{\blur3}別說什麼「我這種人」
+Dialogue: 0,0:21:55.04,0:21:56.36,chs for CL朋也,,0,0,0,,{\blur3}別說什麼「我這種人」
+Dialogue: 0,0:21:58.00,0:21:59.23,chs for CL朋也,,0,0,0,,{\blur3}這是我的選擇
+Dialogue: 0,0:21:59.84,0:22:03.62,chs for CL朋也,,0,0,0,,{\blur3}比起老師的評價和考試成績所堆積起來的高度
+Dialogue: 0,0:22:04.25,0:22:06.32,chs for CL朋也,,0,0,0,,{\blur3}對我來說 這擁有更大的價值
+Dialogue: 0,0:22:08.16,0:22:11.03,chs for CL朋也,,0,0,0,,{\blur3}所以 我要前往朋也的身邊
+Dialogue: 0,0:22:11.54,0:22:13.08,chs for CL朋也,,0,0,0,,{\blur3}竭盡全力前往那裡
+Dialogue: 0,0:22:34.46,0:22:36.10,chs for CL朋也,,0,0,0,,{\blur3}到底誰才是前輩啊
+Dialogue: 0,0:22:37.88,0:22:38.49,chs for CL朋也,,0,0,0,,{\blur3}我要前往
+Dialogue: 0,0:22:40.34,0:22:42.01,chs for CL朋也,,0,0,0,,{\blur3}雖然有點遲了
+Dialogue: 0,0:22:42.98,0:22:45.12,chs for CL朋也,,0,0,0,,{\blur3}我也要前往你的身邊
+Dialogue: 0,0:22:54.35,0:22:57.64,chs for CL朋也,,0,0,0,,{\blur3}朋也 朋也
+Dialogue: 0,0:22:59.48,0:23:02.64,chs for CL朋也,,0,0,0,,{\blur3}怎麼了 到底怎麼了
+Dialogue: 0,0:23:11.49,0:23:14.57,chs for CL朋也,,0,0,0,,{\blur3}怎麼了 不要哭啊
+Dialogue: 0,0:23:15.95,0:23:16.66,chs for CL朋也,,0,0,0,,{\blur3}不要哭…
+Dialogue: 0,0:00:44.00,0:00:49.85,OC,,0,0,0,,{\move(960,4.5,960,34.5)\fad(460,425)\be1\1c&H00867469\3c&H00D1C1B5}做了一個夢  一個晶瑩剔透的夢
+Dialogue: 0,0:00:50.21,0:00:57.23,OC,,0,0,0,,{\move(900,12,1020,12)\fad(420,420)\be1\1c&H00867469\3c&H00D1C1B5}一個縹緲卻又永恆的夢
+Dialogue: 0,0:00:57.44,0:01:02.85,OC,,0,0,0,,{\pos(960,12)\fad(400,400)\be1\1c&H00867469\3c&H00D1C1B5}如清風般輕聲的話語
+Dialogue: 0,0:01:03.69,0:01:10.37,OC,,0,0,0,,{\fad(400,4680)\be1\1c&H00867469\3c&H00D1C1B5\move(960,4.5,960,34.5,2000,6680)}在高空呼喚著我
+Dialogue: 1,0:01:10.32,0:01:14.02,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H00463E20\3c&H00A1B36E}若是就此飛向天空
+Dialogue: 0,0:01:13.82,0:01:16.29,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H00DF9535\3c&H00F0D9C3}若是就此飛向天空
+Dialogue: 1,0:01:16.55,0:01:20.05,OC,,0,0,0,,{\pos(960,12)\fad(200,400)\be1\1c&H00DF9535\3c&H00F0D9C3}無論何處都能到達
+Dialogue: 0,0:01:19.65,0:01:23.59,OC,,0,0,0,,{\pos(960,12)\fad(400,500)\be1\1c&H0010431E\3c&H0042BC70}無論何處都能到達
+Dialogue: 0,0:01:23.62,0:01:30.02,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H00607BAE\3c&H007EB7D6}在那牽繫在一起的雙手間
+Dialogue: 0,0:01:30.12,0:01:36.66,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H00AB969E\3c&H00C9C1C1}若能尋覓到那小小的未來
+Dialogue: 0,0:01:36.71,0:01:43.38,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H006177B8\3c&H00C9ACB1}在光芒中搖曳著的
+Dialogue: 0,0:01:43.36,0:01:49.44,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H000E1312\3c&H00A8B0B0}所有話語和思念
+Dialogue: 0,0:01:49.56,0:02:02.48,OC,,0,0,0,,{\pos(960,12)\fad(200,200)\be1\1c&H00566060\3c&H00C5E5F0}都必將 毫無保留地 傳遞給 身在遠方的你
+Dialogue: 0,0:02:02.28,0:02:09.58,OC,,0,0,0,,{\pos(960,12)\fad(200,1000)\be1\1c&H00617EB1\3c&H00BDBBEF}都必將 毫無保留地 傳遞給 身在遠方的你
+Dialogue: 0,0:23:16.66,0:23:18.66,chs for CL朋也,,0,0,0,,

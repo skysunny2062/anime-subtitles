@@ -1,0 +1,588 @@
+﻿[Script Info]
+Title: AC-09
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: no
+PlayResX: 1920
+PlayResY: 1080
+Original Script: 诸神字幕组
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: OP-JP DFPOPMix-W5,DFPOPMix-W5,52,&H00FFFFFF,&H000000FF,&H00FFFDFF,&H64000000,0,0,0,0,100,100,0,0,1,0,2,2,5,5,5,1
+Style: ED-JP A-OTF Maru Folk Pro M,A-OTF Maru Folk Pro M,52,&H00080F0E,&H000000FF,&H00E1E6E5,&H00000000,-1,0,0,0,100,100,1.5,0,1,1.5,0,2,5,5,5,1
+Style: TITLE 方正粗雅宋_GBK,方正粗雅宋_GBK,200,&H00030101,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,1,5,5,5,1
+Style: JP,A-OTF Maru Folk Pro B,32,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,1,0,1,2.5,0,2,5,5,5,1
+Style: TW,方正正准黑_GBK,66,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,1,0,1,2.5,0,2,10,10,20,1
+Style: NOTE 方正正准黑_GBK,方正正准黑_GBK,48,&H0AFFFFFF,&H000000FF,&H50000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,5,5,5,1
+Style: OTHERS 方正正准黑_GBK,方正正准黑_GBK,65,&H37FFFFFF,&H000000FF,&H00000000,&H320C0D0C,0,0,0,0,100,100,0,0,1,0,0,2,5,5,5,1
+Style: STAFF 微软雅黑 Light,微软雅黑 Light,112,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,2,0,1,3,0,1,5,5,5,1
+Style: OP-TW 方正正准黑_GBK,方正正准黑_GBK,52,&H00FFFFFF,&H000000FF,&H00000000,&H64000000,0,0,0,0,100,100,2,0,1,0,2,8,5,5,5,1
+Style: ED-TW 方正正准黑_GBK,方正正准黑_GBK,52,&H00080F0E,&H000000FF,&H00E1E6E5,&H00000000,0,0,0,0,100,100,2,0,1,1.5,0,8,5,5,5,1
+Style: OTHERS 微软雅黑,更紗黑體 TC,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,5,5,5,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------OPTW-------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------EDJP-------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------EDTW-------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------TITLE------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------TIPS-------------------
+Comment: 1,0:22:20.73,0:22:21.31,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(968,903)\fscy110}暴{\alphaff}.{\alpha}力
+Comment: 1,0:22:22.82,0:22:23.40,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(966,903)\fscy110}勸{\alphaff}.{\alpha}誘
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------PREV-------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------TXTA-------------------
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,,//------------------NEXT-------------------
+Dialogue: 0,0:01:45.12,0:01:45.89,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\fs90\b1\bord0\shad0\c&HEEF0F1&\t(0,125,\c&H93B0A0&\t(126,166,\c&H6D9475&\t(206,250,\c&H081D0E&)))\t(291,292,\alphaff\c&H1200D5&)\t(374,375,\alpha00)\t(625,709,\c&H0F0A21&)}青
+Dialogue: 0,0:01:45.97,0:01:46.80,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\fs90\b1\bord0\shad0\c&HE3E4E5&\t(0,167,\c&HEEF0F1&\t(168,208,\c&HE3EEBD&\t(209,292,\c&HDBE55B&\t(203,243,\c&HE3EEBD&))))\t(374,375,\alphaff)\t(458,459,\alpha00\c&HD3C733&)\t(460,792,\c&HF2F3F5&)}春
+Dialogue: 0,0:01:46.89,0:01:48.35,OP-JP DFPOPMix-W5,,0,0,0,,{\fad(50,0)\fs70\t(0,125,\fs50)\t(126,209,\fs54)}青{\c&H1300D6&\bord0.6\3c&HFFFFFF&}春{\bord0\c}サツバツ論！
+Dialogue: 1,0:01:55.06,0:01:58.15,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\p1\shad0\bord1\blur2\pos(1913,1070)\clip(1150,1000,1920,1080)\t(0,367,\clip(1920,1000,1920,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:01:55.06,0:01:58.15,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10}{\an3}口に出すのは実行する時
+Dialogue: 1,0:01:58.19,0:02:00.78,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\p1\shad0\bord1\blur2\fscx140\clip(900,1000,1920,1080)\t(0,367,\clip(1920,1000,1920,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:01:58.19,0:02:00.78,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10}{\an3}それがカッコイイこと　知ってるさ
+Dialogue: 1,0:02:00.78,0:02:01.15,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2350,1070,960,1070,0,334)}{\p1\shad0\bord1\blur2\fscx140}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:01.15,0:02:03.57,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx140\clip(534,1000,1390,1080)\t(0,375,\clip(1390,1000,1390,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:00.78,0:02:03.57,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\move(2300,1070,960,1070,0,334)\t(1250,1251,\alphaff)\t(1292,1293,\alpha00)\t(1334,1335,\alphaff)\t(1376,1376,\alpha00)\t(2710,2711,\alphaff)\t(2752,2753,\alpha00)}(TARGET, 探して僕らはサツバツ)
+Dialogue: 1,0:02:03.66,0:02:06.74,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\fscx90\blur2\clip(534,1000,1390,1080)\t(0,375,\clip(1390,1000,1390,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:03.66,0:02:06.74,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(541,542,\alphaff)\t(583,584,\alpha00)\t(625,626,\alphaff)\t(666,667,\alpha00)}想いは迷う　迷えど進む
+Dialogue: 1,0:02:07.49,0:02:12.91,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\fscx107\blur2\clip(534,1000,1390,1080)\t(0,415,\clip(1390,1000,1390,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:07.49,0:02:12.91,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(3294,3295,\alphaff)\t(3336,3337,\alpha00)\t(3378,3379,\alphaff)\t(3419,3420,\alpha00)}右手と右足一緒に出そうだ
+Dialogue: 1,0:02:13.91,0:02:14.33,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,960,1070,0,334)}{\p1\shad0\bord1\blur2\fscx105}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:14.33,0:02:17.08,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx105\clip(564,1000,1335,1080)\t(0,418,\clip(1330,1000,1335,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:13.91,0:02:17.08,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\be10\t(3002,3003,\alphaff)\t(3044,3045,\alpha00)\t(3086,2087,\alphaff)\t(3127,3128,\alpha00)\move(2060,1070,960,1070,0,334)}何なんだ　イライラの波動は
+Dialogue: 1,0:02:17.54,0:02:17.96,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2030,1070,960,1070,0,334)}{\p1\shad0\bord1\blur2\fscx70}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:17.96,0:02:20.34,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx70\clip(664,1000,1235,1080)\t(0,455,\clip(1230,1000,1230,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:17.54,0:02:20.34,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\move(2020,1070,960,1070,0,334)\t(2627,2628,\alphaff)\t(2668,2669,\alpha00)\t(2710,2711,\alphaff)\t(2752,2753,\alpha00)}僕らの存在の証明？
+Dialogue: 0,0:02:20.67,0:02:23.97,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\t(291,292,\c&H1B1F25&\3c&HFFFDFF&)\t(667,751,\c&HFFFFFF&\3c&H000000&)\t(833,834,\c&H1B1F25&\3c&HFFFDFF&)\t(1250,1251,\c&HFFFFFF&\3c&H000000&)\t(1417,1418,\c&H1B1F25&\3c&HFFFDFF&)\t(1626,1627,\c&HFFFFFF&\3c&H000000&)\t(1667,1668,\c&H1B1F25&\3c&HFFFDFF&)\t(2418,2419,\c&HFFFFFF&\3c&H000000&)\t(2502,2503,\c&H1B1F25&\3c&HFFFDFF&)\t(3044,3045,\c&HFFFFFF&\3c&H000000&)\t(3169,3170,\c&H1B1F25&\3c&HFFFDFF&)}月を見上げ高まる
+Dialogue: 0,0:02:23.97,0:02:25.63,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(541,542,\c&HFFFFFF&\3c&H000000&)\t(708,709,\c&H1B1F25&\3c&HFFFDFF&)\t(1167,1168,\c&HFFFFFF&\3c&H000000&)\t(1417,1418,\c&H1B1F25&\3c&HFFFDFF&)\t(1626,1627,\c&HFFFFFF&\3c&H000000&)}さあさあ！　殺っ殺っ殺っとSTART！！
+Dialogue: 1,0:02:25.69,0:02:28.14,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10}さあ
+Dialogue: 0,0:02:25.68,0:02:25.93,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,1072.5,951,1057.5)}さあ
+Dialogue: 0,0:02:26.06,0:02:26.39,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(972.5,1060,957.5,1075.5)}さあ
+Dialogue: 0,0:02:26.48,0:02:26.73,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(966,1069.5,955.5,1062)}さあ
+Dialogue: 0,0:02:26.81,0:02:27.14,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(948.5,1079,969,1061)}殺っ
+Dialogue: 0,0:02:27.27,0:02:27.60,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,1071,954,1065)}殺っ
+Dialogue: 0,0:02:27.64,0:02:27.89,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,1072.5,951,1057.5)}殺っ
+Dialogue: 0,0:02:27.89,0:02:28.14,OP-JP DFPOPMix-W5,,0,0,0,,{\alpha60\bord0\shad0\move(966.5,1062,962.5,1074.5)}殺っ
+Dialogue: 0,0:02:28.75,0:02:30.50,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(1600,1750,\fry96\fs44)}やりきってないから
+Dialogue: 0,0:02:30.51,0:02:31.97,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\fs44\fry255\t(0,150,\fs54\fry360)}ヤリキレナイ
+Dialogue: 0,0:02:32.10,0:02:33.68,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\t(1430,1580,\fry96\fs44)}やりきってないから
+Dialogue: 0,0:02:33.68,0:02:35.34,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\fs44\fry255\t(0,150,\fs54\fry360)}ヤリキレナイ
+Dialogue: 1,0:02:35.52,0:02:35.77,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,900,1070)}{\p1\shad0\bord1\blur2\fscx90}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:35.77,0:02:38.44,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx90\clip(594,1000,1335,1080)\t(0,498,\clip(594,1000,594,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:35.77,0:02:38.31,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10}{\t(2376,2377,\alphaff)\t(2418,2419,\alpha00)\t(2459,2460,\alphaff)\t(2501,2502,\alpha00)}現状打破を小さな声で
+Dialogue: 1,0:02:38.44,0:02:38.77,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,960,1070)}{\p1\shad0\bord1\blur2\fscx80}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:38.77,0:02:40.98,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx80\clip(650,1000,1255,1080)\t(0,498,\clip(1255,1000,1255,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:38.77,0:02:40.98,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(2042,2043,\alphaff)\t(2084,2085,\alpha00)\t(2126,2127,\alphaff)\t(2167,2168,\alpha00)}やがて絶叫したくなる
+Dialogue: 1,0:02:41.40,0:02:41.98,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10}ああ
+Dialogue: 0,0:02:41.40,0:02:41.61,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord0\alpha50\c&H1B1F25&\move(997.5,1027.5,933,1095)}ああ
+Dialogue: 0,0:02:41.40,0:02:41.59,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\c&H1B1F25&\bord0\alpha50\move(937.5,1080,994.5,1035)}ああ
+Dialogue: 0,0:02:41.56,0:02:41.73,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord0\alpha50\move(930,1029,982.5,1087.5)}ああ
+Dialogue: 0,0:02:41.65,0:02:41.85,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord0\alpha50\move(978,1087.5,990,1020)}ああ
+Dialogue: 0,0:02:41.77,0:02:41.98,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord0\alpha50\move(997.5,1020,963,1110)}ああ
+Dialogue: 1,0:02:42.07,0:02:42.48,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,900,1070)}{\p1\shad0\bord1\blur2\fscx130}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:42.48,0:02:45.03,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx130\clip(474,1000,1430,1080)\t(0,458,\clip(474,1000,474,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:42.48,0:02:45.03,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(2376,2377,\alphaff)\t(2418,2419,\alpha00)\t(2459,2460,\alphaff)\t(2501,2502,\alpha00)}やりきってないから　ヤリキレナイ
+Dialogue: 0,0:02:44.40,0:02:45.24,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,1680,1070,0,200)\shad0\bord3\3c&H000000&\be10\t(458,459,\alphaff)\t(500,501,\alpha00)\t(541,542,\alphaff)\t(583,584,\alpha00)}やれば出来るさ
+Dialogue: 1,0:02:45.32,0:02:45.73,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,940,1070)}{\p1\shad0\bord1\blur2\fscx130}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:45.73,0:02:48.28,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx130\clip(474,1000,1430,1080)\t(0,458,\clip(474,1000,474,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:45.74,0:02:47.91,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(2001,2002,\alphaff)\t(2043,2044,\alpha00)\t(2084,2085,\alphaff)\t(2126,2127,\alpha00)}やりきってないから　ヤリキレナイ
+Dialogue: 0,0:02:47.57,0:02:48.41,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,1680,1070,0,200)\shad0\bord3\3c&H000000&\be10\t(166,167,\alphaff)\t(208,209,\alpha00)\t(249,250,\alphaff)\t(291,292,\alpha00)}きっと出来るさ
+Dialogue: 1,0:02:48.70,0:02:49.11,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,940,1070)}{\p1\shad0\bord1\blur2\fscx118}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:49.11,0:02:51.66,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx115\clip(474,1000,1430,1080)\t(0,458,\clip(474,1000,474,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:49.12,0:02:51.66,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(2377,2378,\alphaff)\t(2418,2419,\alpha00)\t(2460,2461,\alphaff)\t(2502,2503,\alpha00)}どうせ、と言うのは簡単だけど
+Dialogue: 0,0:02:52.04,0:02:55.24,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(124,125,\c&HFFFFFF&\3c&H000000&)\t(666,667,\c&H1B1F25&\3c&HFFFDFF&)\t(833,834,\c&HFFFFFF&\3c&H000000&)\t(1000,1001,\c&H1B1F25&\3c&HFFFDFF&)\t(1542,1543,\c&HFFFFFF&\3c&H000000&)\t(1959,1960,\c&H1B1F25&\3c&HFFFDFF&)\t(2210,2252,\c&HFFFFFF&\3c&H000000&)\t(3086,3170,\c&H1B1F25&\3c&HFFFDFF&)}今は足掻いてみたいんだ
+Dialogue: 0,0:02:55.30,0:02:58.25,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10\t(833,834,\c&HFFFFFF&\3c&H000000&)\t(1167,1168,\c&H1B1F25&\3c&HFFFDFF&)\t(1417,1418,\c&HFFFFFF&\3c&H000000&)\t(1667,1668,\c&H1B1F25&\3c&HFFFDFF&)\t(1709,1710,\c&HFFFFFF&\3c&H000000&)}君と弾けてみたいんだ
+Dialogue: 1,0:02:58.67,0:02:59.08,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,926,1070)}{\p1\shad0\bord1\blur2\fscx90}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:59.08,0:03:01.55,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx90\clip(630,1000,1280,1080)\t(0,458,\clip(630,1000,630,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:59.08,0:03:01.55,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\t(709,710,\c&H1B1F25&\3c&HFFFDFF&)\t(875,876,\c&HFFFFFF&\3c&H000000&)\t(1501,1502,\c&H1B1F25&\3c&HFFFDFF&\alphaff)\t(1543,1544,\alpha00)\t(1584,1585,\alphaff)\t(1626,1627,\alpha00)\t(2378,2420,\c&HFFFFFF&\3c&H000000&)}されど青春は未来へGO！！
+Dialogue: 1,0:03:04.76,0:03:05.05,OP-JP DFPOPMix-W5,,0,0,0,,{\move(2060,1070,888,1070)}{\p1\shad0\bord1\blur2\fscx40}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:03:05.05,0:03:07.64,OP-JP DFPOPMix-W5,,0,0,0,,{\p1\shad0\bord1\blur2\fscx40\clip(800,1000,1130,1080)\t(0,458,\clip(800,1000,800,1080))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:03:04.38,0:03:05.09,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord3\c&H1B1F25&\be10}さあさあさあ！
+Dialogue: 0,0:03:07.26,0:03:07.63,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\fs90\b1\bord0\shad0\c&HEEF0F1&\t(0,123,\c&HD0DDD7&\t(124,125,\alphaff\t(250,251,\alpha00\c&HD5F71C&)))\t(333,334,\c&H3C24D3&)}青
+Dialogue: 0,0:03:07.76,0:03:08.13,OP-JP DFPOPMix-W5,,0,0,0,,{\an3\fs90\b1\bord0\shad0\c&HDCEF80&\t(41,42,\c&HEEF0F1&\t(124,125,\alphaff\t(249,250,\c&HECD713&\alpha00)))}春
+Dialogue: 0,0:03:08.22,0:03:09.68,OP-JP DFPOPMix-W5,,0,0,0,,{\shad0\bord0\fs70\c&H2404C5&\t(0,42,\fs54)\t(41,42,\c&H0E1159&)\t(82,83,\c&H08000F&)}青{\c&H0E1159&\t(41,42,\c&H2404C5&)\t(82,83,\c&H1300D6&)}春{\bord0\c&H2404C5&\t(41,42,\c&H0E1159&)\t(82,83,\c&H08000F&)}サツバツ論！
+Dialogue: 0,0:01:45.12,0:01:45.89,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\fs100\b1\bord0\shad0\c&HEEF0F1&\t(0,125,\c&H93B0A0&\t(126,166,\c&H6D9475&\t(206,250,\c&H081D0E&)))\t(291,292,\alphaff\c&H1200D5&)\t(374,375,\alpha00)\t(625,709,\c&H0F0A21&)}青
+Dialogue: 0,0:01:45.97,0:01:46.80,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\fs100\b1\bord0\shad0\c&HE3E4E5&\t(0,167,\c&HEEF0F1&\t(168,208,\c&HE3EEBD&\t(209,292,\c&HDBE55B&\t(203,243,\c&HE3EEBD&))))\t(374,375,\alphaff)\t(458,459,\alpha00\c&HD3C733&)\t(460,792,\c&HF2F3F5&)}春
+Dialogue: 0,0:01:46.89,0:01:48.35,OP-TW 方正正准黑_GBK,,0,0,0,,{\fad(50,0)\fs80\t(0,125,\fs60)\t(126,209,\fs64)}青{\c&H1300D6&\bord0.6\3c&HFFFFFF&}春{\bord0\c}殺伐論
+Dialogue: 1,0:01:55.06,0:01:58.15,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\p1\shad0\bord1\blur2\3c&HFFFFFF&\fscx75\clip(0,0,590,85)\t(0,367,\clip(0,0,0,85))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:01:55.06,0:01:58.15,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10}{\an7}言出必行 說到做到
+Dialogue: 1,0:01:58.19,0:02:00.78,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\p1\shad0\bord1\3c&HFFFFFF&\blur2\fscx75\clip(0,0,588,96)\t(0,367,\clip(0,0,0,96))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:01:58.19,0:02:00.78,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10}{\an7}我知道 這才夠帥氣
+Dialogue: 1,0:02:00.78,0:02:01.15,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-340,10,960,10,0,334)}{\p1\3c&HFFFFFF&\shad0\bord1\blur2\fscx93}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:01.15,0:02:03.57,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\3c&HFFFFFF&\fscx93\clip(640,0,1295,78)\t(0,375,\clip(640,0,640,78))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:01.15,0:02:03.57,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\t(874,875,\alphaff)\t(916,917,\alpha00)\t(958,959,\alphaff)\t(1000,1001,\alpha00)\t(2334,2335,\alphaff)\t(2376,2377,\alpha00)}鎖定目標 我們躍躍欲試
+Dialogue: 1,0:02:03.66,0:02:06.74,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\3c&HFFFFFF&\fscx90\blur2\clip(608,0,1315,88)\t(0,375,\clip(608,0,608,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:03.66,0:02:06.74,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&HFFFFFF&\c&H1B1F25&\be10\t(541,542,\alphaff)\t(583,584,\alpha00)\t(625,626,\alphaff)\t(666,667,\alpha00)}雖前路未蔔 卻義無反顧
+Dialogue: 1,0:02:07.49,0:02:12.91,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\3c&HFFFFFF&\fscx90\blur2\clip(617,0,1310,88)\t(0,415,\clip(617,0,617,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:07.49,0:02:12.91,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&HFFFFFF&\c&H1B1F25&\be10\t(3294,3295,\alphaff)\t(3336,3337,\alpha00)\t(3378,3379,\alphaff)\t(3419,3420,\alpha00)}差點同時伸出右手右腳
+Dialogue: 1,0:02:13.91,0:02:14.33,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,960,10,0,334)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx95}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:14.33,0:02:17.08,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx95\3c&HFFFFFF&\clip(600,0,1292,88)\t(0,458,\clip(600,0,600,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:13.91,0:02:17.08,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\be10\t(3002,3003,\alphaff)\t(3044,3045,\alpha00)\t(3086,2087,\alphaff)\t(3127,3128,\alpha00)\move(-140,10,960,10,0,334)}究竟為何 這不寧的心緒
+Dialogue: 1,0:02:17.54,0:02:17.96,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-100,10,960,10,0,334)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx80}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:17.96,0:02:20.34,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx80\3c&HFFFFFF&\clip(664,0,1235,88)\t(0,455,\clip(664,0,664,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:17.54,0:02:20.34,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\move(-100,10,960,10,0,334)\t(2627,2628,\alphaff)\t(2668,2669,\alpha00)\t(2710,2711,\alphaff)\t(2752,2753,\alpha00)}那是我們存在的證明
+Dialogue: 0,0:02:20.67,0:02:23.97,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\t(291,292,\c&H1B1F25&\3c&HFFFDFF&)\t(667,751,\c&HFFFFFF&\3c&H000000&)\t(833,834,\c&H1B1F25&\3c&HFFFDFF&)\t(1250,1251,\c&HFFFFFF&\3c&H000000&)\t(1417,1418,\c&H1B1F25&\3c&HFFFDFF&)\t(1626,1627,\c&HFFFFFF&\3c&H000000&)\t(1667,1668,\c&H1B1F25&\3c&HFFFDFF&)\t(2418,2419,\c&HFFFFFF&\3c&H000000&)\t(2502,2503,\c&H1B1F25&\3c&HFFFDFF&)\t(3044,3045,\c&HFFFFFF&\3c&H000000&)\t(3169,3170,\c&H1B1F25&\3c&HFFFDFF&)}仰望新月 情緒噴湧而出
+Dialogue: 0,0:02:23.97,0:02:25.63,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\t(541,542,\c&HFFFFFF&\3c&H000000&)\t(708,709,\c&H1B1F25&\3c&HFFFDFF&)\t(1167,1168,\c&HFFFFFF&\3c&H000000&)\t(1417,1418,\c&H1B1F25&\3c&HFFFDFF&)\t(1626,1627,\c&HFFFFFF&\3c&H000000&)}快殺殺殺殺殺
+Dialogue: 1,0:02:25.69,0:02:28.14,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&H000000&\be10}再殺
+Dialogue: 0,0:02:25.68,0:02:25.93,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,7.5,951,17.5)}再殺
+Dialogue: 0,0:02:26.06,0:02:26.39,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(972.5,0,957.5,15.5)}再殺
+Dialogue: 0,0:02:26.48,0:02:26.73,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(966,-9.5,955.5,12)}再殺
+Dialogue: 0,0:02:26.81,0:02:27.14,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(948.5,19,969,1)}再殺
+Dialogue: 0,0:02:27.27,0:02:27.60,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,19,954,-5)}再殺
+Dialogue: 0,0:02:27.64,0:02:27.89,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(967.5,17.5,951,-7.5)}再殺
+Dialogue: 0,0:02:27.89,0:02:28.14,OP-TW 方正正准黑_GBK,,0,0,0,,{\alpha60\bord0\shad0\move(966.5,2,962.5,14.5)}再殺
+Dialogue: 0,0:02:28.75,0:02:30.50,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\t(1600,1750,\fry96\fs44)}沒盡全力去殺
+Dialogue: 0,0:02:30.51,0:02:31.97,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\fs44\fry255\t(0,150,\fs64\fry360)}怎麼殺得掉
+Dialogue: 0,0:02:32.10,0:02:33.68,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(1430,1580,\fry96\fs44)}沒盡全力去殺
+Dialogue: 0,0:02:33.68,0:02:35.34,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\fs44\fry255\t(0,150,\fs64\fry360)}所以殺不掉
+Dialogue: 1,0:02:35.52,0:02:35.77,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,990,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx100}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:35.77,0:02:38.44,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx100\3c&HFFFFFF&\clip(594,0,1335,88)\t(0,498,\clip(594,0,594,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:35.77,0:02:38.31,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10}{\t(2376,2377,\alphaff)\t(2418,2419,\alpha00)\t(2459,2460,\alphaff)\t(2501,2502,\alpha00)}試圖輕聲細語去打破現狀
+Dialogue: 1,0:02:38.44,0:02:38.77,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,960,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx90}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:38.77,0:02:40.98,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx90\3c&HFFFFFF&\clip(650,0,1310,88)\t(0,458,\clip(650,0,650,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:38.77,0:02:40.98,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(2042,2043,\alphaff)\t(2084,2085,\alpha00)\t(2126,2127,\alphaff)\t(2167,2168,\alpha00)}最後都嘶吼得歇斯底里
+Dialogue: 1,0:02:41.40,0:02:41.98,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&H000000&\be10}啊
+Dialogue: 0,0:02:41.40,0:02:41.61,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord0\alpha50\c&H1B1F25&\move(997.5,45.5,933,-15)}啊
+Dialogue: 0,0:02:41.40,0:02:41.59,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\c&H1B1F25&\bord0\alpha50\move(937.5,0,994.5,45)}啊
+Dialogue: 0,0:02:41.56,0:02:41.73,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord0\alpha50\move(930,51,982.5,-7.5)}啊
+Dialogue: 0,0:02:41.65,0:02:41.85,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord0\alpha50\move(978,-7.5,990,40)}啊
+Dialogue: 0,0:02:41.77,0:02:41.98,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord0\alpha50\move(997.5,40,963,-10)}啊
+Dialogue: 1,0:02:42.07,0:02:42.48,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,995,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx100}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:42.48,0:02:45.03,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx100\3c&HFFFFFF&\clip(571,0,1324,88)\t(0,458,\clip(571,0,571,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:42.48,0:02:45.03,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\t(2376,2377,\alphaff)\t(2418,2419,\alpha00)\t(2459,2460,\alphaff)\t(2501,2502,\alpha00)}沒盡全力去殺 怎麼殺得掉
+Dialogue: 0,0:02:44.40,0:02:45.24,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,240,10,0,200)\c&H1B1F25&\3c&HFFFFFF&\shad0\bord3\be10\t(458,459,\alphaff)\t(500,501,\alpha00)\t(541,542,\alphaff)\t(583,584,\alpha00)}有志者事竟成
+Dialogue: 1,0:02:45.32,0:02:45.73,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,980,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx100}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:45.73,0:02:48.28,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx100\3c&HFFFFFF&\clip(584,0,1325,88)\t(0,458,\clip(584,0,584,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:45.74,0:02:47.91,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\be10\t(2001,2002,\alphaff)\t(2043,2044,\alpha00)\t(2084,2085,\alphaff)\t(2126,2127,\alpha00)}沒盡全力去殺 所以殺不掉
+Dialogue: 0,0:02:47.57,0:02:48.41,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,240,10,0,200)\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(166,167,\alphaff)\t(208,209,\alpha00)\t(249,250,\alphaff)\t(291,292,\alpha00)}堅持就是勝利
+Dialogue: 1,0:02:48.70,0:02:49.11,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,990,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx55}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:49.11,0:02:51.66,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx55\3c&HFFFFFF&\clip(764,0,1140,88)\t(0,458,\clip(764,0,764,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:49.12,0:02:51.66,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(2377,2378,\alphaff)\t(2418,2419,\alpha00)\t(2460,2461,\alphaff)\t(2502,2503,\alpha00)}找藉口很容易
+Dialogue: 0,0:02:52.04,0:02:55.24,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(124,125,\c&HFFFFFF&\3c&H000000&)\t(666,667,\c&H1B1F25&\3c&HFFFDFF&)\t(833,834,\c&HFFFFFF&\3c&H000000&)\t(1000,1001,\c&H1B1F25&\3c&HFFFDFF&)\t(1542,1543,\c&HFFFFFF&\3c&H000000&)\t(1959,1960,\c&H1B1F25&\3c&HFFFDFF&)\t(2210,2252,\c&HFFFFFF&\3c&H000000&)\t(3086,3170,\c&H1B1F25&\3c&HFFFDFF&)}現在想先行動起來
+Dialogue: 0,0:02:55.30,0:02:58.25,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10\t(833,834,\c&HFFFFFF&\3c&H000000&)\t(1167,1168,\c&H1B1F25&\3c&HFFFDFF&)\t(1417,1418,\c&HFFFFFF&\3c&H000000&)\t(1667,1668,\c&H1B1F25&\3c&HFFFDFF&)\t(1709,1710,\c&HFFFFFF&\3c&H000000&)}想和你一起奮不顧身
+Dialogue: 1,0:02:58.67,0:02:59.08,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,996,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx90}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:02:59.08,0:03:01.55,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx90\3c&HFFFFFF&\clip(640,0,1280,88)\t(0,458,\clip(640,0,640,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:02:59.08,0:03:01.55,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\3c&H000000&\be10\t(709,710,\c&H1B1F25&\3c&HFFFDFF&)\t(875,876,\c&HFFFFFF&\3c&H000000&)\t(1501,1502,\c&H1B1F25&\3c&HFFFDFF&\alphaff)\t(1543,1544,\alpha00)\t(1584,1585,\alphaff)\t(1626,1627,\alpha00)\t(2378,2420,\c&HFFFFFF&\3c&H000000&)}讓我們的青春勇往直前
+Dialogue: 1,0:03:04.76,0:03:05.05,OP-TW 方正正准黑_GBK,,0,0,0,,{\move(-140,10,1030,10)}{\3c&HFFFFFF&\p1\shad0\bord1\blur2\fscx30}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 1,0:03:05.05,0:03:07.64,OP-TW 方正正准黑_GBK,,0,0,0,,{\p1\shad0\bord1\blur2\fscx30\3c&HFFFFFF&\clip(850,0,1090,88)\t(0,458,\clip(850,0,850,88))}m 0 0 l 670 0 l 670 60 l 0 60 l 0 0
+Dialogue: 0,0:03:04.38,0:03:05.09,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord3\c&H1B1F25&\3c&HFFFFFF&\be10}殺殺殺
+Dialogue: 0,0:03:07.26,0:03:07.63,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\fs100\b1\bord0\shad0\c&HEEF0F1&\t(0,123,\c&HD0DDD7&\t(124,125,\alphaff\t(250,251,\alpha00\c&HD5F71C&)))\t(333,334,\c&H3C24D3&)}青
+Dialogue: 0,0:03:07.76,0:03:08.13,OP-TW 方正正准黑_GBK,,0,0,0,,{\an7\fs100\b1\bord0\shad0\c&HDCEF80&\t(41,42,\c&HEEF0F1&\t(124,125,\alphaff\t(249,250,\c&HECD713&\alpha00)))}春
+Dialogue: 0,0:03:08.22,0:03:09.68,OP-TW 方正正准黑_GBK,,0,0,0,,{\shad0\bord0\fs80\c&H2404C5&\t(0,42,\fs64)\t(41,42,\c&H0E1159&)\t(82,83,\c&H08000F&)}青{\c&H0E1159&\t(41,42,\c&H2404C5&)\t(82,83,\c&H1300D6&)}春{\bord0\c&H2404C5&\t(41,42,\c&H0E1159&)\t(82,83,\c&H08000F&)}殺伐論
+Dialogue: 0,0:20:34.67,0:20:47.69,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(333,333)}太陽が射す　閉ざした瞼の裏側に　赤い残像
+Dialogue: 0,0:20:47.91,0:20:56.77,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(333,584)}革の鞄に　ノートとペンを　さあ歩き出そう
+Dialogue: 0,0:20:58.76,0:21:04.66,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(333,333)}描いても描いても　綺麗にならない
+Dialogue: 0,0:21:04.79,0:21:10.41,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(200,333)}選んだ絵の具に　罪は無い
+Dialogue: 0,0:21:10.77,0:21:20.93,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(333,333)}昨日の夜中に　見た流れ星　まだ覚えている
+Dialogue: 0,0:21:20.96,0:21:24.68,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\blur15\fad(333,584)}I was waiting for...
+Dialogue: 0,0:21:25.01,0:21:29.85,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}Hello, shooting-star　Hello, shooting-star again
+Dialogue: 0,0:21:30.24,0:21:31.68,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,150)}待っていたよ
+Dialogue: 0,0:21:31.69,0:21:35.85,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(0,584)}夢を見るあの子はずっと
+Dialogue: 0,0:21:36.19,0:21:41.48,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}ここにいるの Ah Ah
+Dialogue: 0,0:21:41.78,0:21:47.07,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}あの日のまま Ah Ah
+Dialogue: 0,0:21:47.36,0:21:52.62,ED-JP A-OTF Maru Folk Pro M,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}また光って
+Dialogue: 0,0:20:34.67,0:20:47.69,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(333,333)}太陽照射 閉上雙眼 紅色殘影卻揮之不去
+Dialogue: 0,0:20:47.91,0:20:56.77,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(333,584)}把繪本和鉛筆放進皮包 然後出去走走
+Dialogue: 0,0:20:58.76,0:21:04.66,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(333,333)}無論如何描繪 也畫不出原有的美麗
+Dialogue: 0,0:21:04.79,0:21:10.41,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(200,333)}我知道 罪過不在紙筆
+Dialogue: 0,0:21:10.77,0:21:20.93,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(333,333)}昨夜飛逝的流星 還歷歷在目
+Dialogue: 0,0:21:20.96,0:21:24.68,ED-TW 方正正准黑_GBK,,0,0,0,,{\blur15\fad(333,584)}我一直在等待…
+Dialogue: 0,0:21:25.01,0:21:29.85,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}你好 流星 又見到你了 流星
+Dialogue: 0,0:21:30.24,0:21:31.68,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,150)}我在等著你
+Dialogue: 0,0:21:31.69,0:21:35.85,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(0,584)}那個愛做夢的孩子
+Dialogue: 0,0:21:36.19,0:21:41.48,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}一直就在這裡 啊 啊
+Dialogue: 0,0:21:41.78,0:21:47.07,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}就如那夜一樣 啊 啊
+Dialogue: 0,0:21:47.36,0:21:52.62,ED-TW 方正正准黑_GBK,,0,0,0,,{\c&HFFFFFF&\3c&H080F0E&\blur1\shad4\4abe\fad(333,584)}再為我閃耀一次吧
+Dialogue: 0,0:03:10.96,0:03:14.96,TITLE 方正粗雅宋_GBK,,0,0,0,,{\fsp71\pos(390,1048)}轉學生課
+Dialogue: 0,0:22:55.93,0:22:57.93,TITLE 方正粗雅宋_GBK,,0,0,0,,{\fsp73\pos(618,808)}下集預告
+Dialogue: 0,0:23:07.82,0:23:10.95,TITLE 方正粗雅宋_GBK,,0,0,0,,{\pos(400,1045)}Ｌ Ｒ 課
+Dialogue: 1,0:00:21.04,0:00:27.25,OTHERS 微软雅黑,,0,0,0,,{\an1\c&H312C2C&\fs40\pos(14,94)}From{\alphaff}..{\alpha}烏間老師\NSub{\alphaff}.....{\alpha}致學生們
+Dialogue: 1,0:00:21.04,0:00:27.25,OTHERS 微软雅黑,,0,0,0,,{\an1\fs46\c&H312C2C&\pos(32,266)}明天會來一個轉學生。\N外表可能會讓大家大吃一驚\N不過希望你們能平等對待她。
+Dialogue: 1,0:00:21.04,0:00:27.25,OTHERS 微软雅黑,,0,0,0,,{\fs46\c&H312C2C&\pos(414,316)}烏間
+Dialogue: 0,0:00:21.04,0:00:27.25,OTHERS 微软雅黑,,0,0,0,,{\p1\c&HE9EAE9&\fscx630\fscy350\bord3\pos(249,335)}m 0 0 l 78 0 l 78 100 l 0 100 l 0 0
+Dialogue: 0,0:00:21.04,0:00:27.25,OTHERS 微软雅黑,,0,0,0,,{\p1\bord3\c&HE9EAE9&\fscx630\fscy280\pos(249,102)\iclip(m 477 78)}m 0 0 l 78 0 l 78 40 l 0 40 l 0 0
+Dialogue: 2,0:00:32.72,0:00:36.09,NOTE 方正正准黑_GBK,,0,0,0,,{\fad(0,80)\an8\fsp60\fs80\frz8\pos(1012,0)\bord0\clip(724,10,1242,50)\c&HAA0092&}大{\alphaff}.{\frz-16}.{\alpha}齡
+Dialogue: 1,0:00:32.72,0:00:36.09,NOTE 方正正准黑_GBK,,0,0,0,,{\fad(0,80)\an8\fsp60\fs80\frz8\pos(1012,0)\bord0\c&HAC007C&\clip(762,12,1208,78)}大{\alphaff}.{\frz-16}.{\alpha}齡
+Dialogue: 0,0:00:32.72,0:00:36.09,NOTE 方正正准黑_GBK,,0,0,0,,{\fad(0,80)\an8\fsp60\fs80\frz8\pos(1012,0)\bord0\c&HB80766&\4a90\xshad-4\yshad-5}大{\alphaff}.{\frz-16}.{\alpha\xshad2\4a90}齡
+Dialogue: 0,0:07:36.68,0:07:39.68,OTHERS 微软雅黑,,0,0,0,,{\b1\bord3\fsp10\fs80\pos(972,906)}第二節課
+Dialogue: 0,0:07:39.98,0:07:41.89,OTHERS 微软雅黑,,0,0,0,,{\b1\bord3\fsp10\fs80\pos(972,906)}第三節課
+Dialogue: 1,0:22:04.46,0:22:06.97,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(965,903)\fscy110}音速忍者
+Dialogue: 1,0:21:59.08,0:22:01.25,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(965,903)\fscy110}不久後的黑暗未來
+Dialogue: 1,0:22:11.43,0:22:12.93,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(965,903)\fscy110}駕{\alphaff}.{\alpha}到{\alphaff}.{\alpha}！
+Dialogue: 1,0:22:16.64,0:22:17.23,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(968,903)\fscy110}貪{\alphaff}.{\alpha}汙
+Dialogue: 1,0:22:18.69,0:22:19.27,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(960,903)\fscy110}背{\alphaff}.{\alpha}叛
+Dialogue: 0,0:22:23.40,0:22:24.82,OTHERS 方正正准黑_GBK,,0,0,0,,{\fad(0,500)\fs46\fsp10\shad4\4a50\pos(664,1068)}黑幫{\fsp}「BAD」{\fsp10}首領 {\fsp}Gable
+Dialogue: 1,0:22:24.86,0:22:27.90,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(960,903)\fscy110}人之初、{\fscy110\1aff\t(1234,1693,\1a40)} 性本惡
+Dialogue: 0,0:22:27.90,0:22:30.37,OTHERS 方正正准黑_GBK,,0,0,0,,{\fs46\fsp10\shad4\4a50\pos(1310,782)}未來黑幫{\fsp}「ZAP」{\fsp10}首領
+Dialogue: 1,0:22:31.82,0:22:32.58,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(768,813)\fscy110}何為真正的正義?
+Dialogue: 1,0:22:33.28,0:22:33.99,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(768,813)\fscy110}何為真正的正義?
+Dialogue: 1,0:22:33.33,0:22:33.99,OTHERS 方正正准黑_GBK,,0,0,0,,{\pos(1191,913)\fscy110\fad(250,0)}何為真愛?
+Dialogue: 1,0:22:40.17,0:22:42.50,OTHERS 方正正准黑_GBK,,0,0,0,,{\fscy110\xshad5\yshad4\4a55\pos(987,921)}將說謊者一分為二
+Dialogue: 0,0:00:02.30,0:00:04.42,TW,,0,0,0,,修學旅行 真是盡興啊
+Dialogue: 0,0:00:05.66,0:00:07.92,TW,,0,0,0,,從今天開始 又要照常上課了
+Dialogue: 0,0:00:08.26,0:00:09.78,TW,,0,0,0,,照常…嗎
+Dialogue: 0,0:00:12.06,0:00:13.34,TW,,0,0,0,,早安 磯貝同學
+Dialogue: 0,0:00:13.56,0:00:17.22,TW,,0,0,0,,我說你們 看到烏間老師的群發郵件了嗎
+Dialogue: 0,0:00:18.90,0:00:20.60,TW,,0,0,0,,是不是說要來個轉學生
+Dialogue: 0,0:00:22.86,0:00:26.90,TW,,0,0,0,,從這個內容來看 轉學生一定是個殺手吧
+Dialogue: 0,0:00:27.42,0:00:30.20,TW,,0,0,0,,轉學生殺手 終於登場囉
+Dialogue: 0,0:00:30.64,0:00:32.54,TW,,0,0,0,,以轉學生的名義過來
+Dialogue: 0,0:00:33.04,0:00:35.88,TW,,0,0,0,,也就是說和碧琪老師不同 那人和我們同年齡嗎
+Dialogue: 0,0:00:36.26,0:00:37.37,TW,,0,0,0,,重點就在這裡
+Dialogue: 0,0:00:37.76,0:00:39.28,TW,,0,0,0,,別突然冒出來啦
+Dialogue: 0,0:00:39.40,0:00:40.96,TW,,0,0,0,,我也很在意這個問題
+Dialogue: 0,0:00:41.02,0:00:43.96,TW,,0,0,0,,就發了個郵件給老師問「有沒有照片」
+Dialogue: 0,0:00:44.14,0:00:45.76,TW,,0,0,0,,然後 收到了這個
+Dialogue: 0,0:00:47.12,0:00:47.90,TW,,0,0,0,,是個女生啊
+Dialogue: 0,0:00:48.06,0:00:49.44,TW,,0,0,0,,都設成桌面了…
+Dialogue: 0,0:00:49.60,0:00:50.98,TW,,0,0,0,,是個蠻可愛的女生嘛
+Dialogue: 0,0:00:51.12,0:00:53.30,TW,,0,0,0,,對吧 超可愛的對吧
+Dialogue: 0,0:00:54.44,0:00:56.18,TW,,0,0,0,,不知道能不能和她混熟欸
+Dialogue: 0,0:00:56.76,0:00:58.10,TW,,0,0,0,,看起來不像是殺手呢
+Dialogue: 0,0:00:59.86,0:01:01.76,TW,,0,0,0,,岡島 你也太興奮了吧…
+Dialogue: 0,0:01:02.46,0:01:04.24,TW,,0,0,0,,不管她是不是殺手
+Dialogue: 0,0:01:04.66,0:01:07.54,TW,,0,0,0,,大家對轉學生總會抱有期待與不安
+Dialogue: 0,0:01:08.24,0:01:10.88,TW,,0,0,0,,她是個怎樣的人 會以什麼手段暗殺
+Dialogue: 0,0:01:11.36,0:01:12.88,TW,,0,0,0,,我們對此非常感興趣
+Dialogue: 0,0:01:13.58,0:01:17.50,TW,,0,0,0,,好期待喔 不知道那位轉學生來了沒
+Dialogue: 0,0:01:25.46,0:01:26.42,TW,,0,0,0,,這是蝦米…
+Dialogue: 0,0:01:28.38,0:01:29.72,TW,,0,0,0,,早安
+Dialogue: 0,0:01:30.42,0:01:35.26,TW,,0,0,0,,我是今天轉來的自律思考固定砲台
+Dialogue: 0,0:01:35.68,0:01:37.68,TW,,0,0,0,,請大家多多關照
+Dialogue: 0,0:01:39.20,0:01:40.56,TW,,0,0,0,,來這招喔…
+Dialogue: 0,0:03:18.00,0:03:20.80,TW,,0,0,0,,想必大家都已經知道了
+Dialogue: 0,0:03:21.02,0:03:22.62,TW,,0,0,0,,這位就是轉學生
+Dialogue: 0,0:03:24.50,0:03:28.10,TW,,0,0,0,,來自挪威的 自律思考固定砲台同學
+Dialogue: 0,0:03:29.20,0:03:31.84,TW,,0,0,0,,各位 請多多關照
+Dialogue: 0,0:03:32.90,0:03:35.38,TW,,0,0,0,,烏間老師也真是不容易…
+Dialogue: 0,0:03:35.56,0:03:39.02,TW,,0,0,0,,換做是我的話 一定會因槽點太多而發狂的
+Dialogue: 0,0:03:40.08,0:03:41.44,TW,,0,0,0,,你笑什麼笑
+Dialogue: 0,0:03:41.47,0:03:42.97,TW,,0,0,0,,你倆是一路貨色吧
+Dialogue: 0,0:03:43.78,0:03:44.58,TW,,0,0,0,,事前聲明
+Dialogue: 0,0:03:44.90,0:03:47.90,TW,,0,0,0,,她是作為正規學生登記在冊的
+Dialogue: 0,0:03:48.44,0:03:51.72,TW,,0,0,0,,她會從那裡不斷用槍瞄準你
+Dialogue: 0,0:03:52.04,0:03:53.92,TW,,0,0,0,,但你不能向她反擊
+Dialogue: 0,0:03:54.62,0:03:57.36,TW,,0,0,0,,不許傷害學生
+Dialogue: 0,0:03:57.82,0:04:00.76,TW,,0,0,0,,這是你教師契約中的規定
+Dialogue: 0,0:04:01.12,0:04:04.00,TW,,0,0,0,,原來如此 抓住契約中的把柄
+Dialogue: 0,0:04:04.00,0:04:06.60,TW,,0,0,0,,不管三七二十一 把機器包裝成學生
+Dialogue: 0,0:04:07.46,0:04:10.78,TW,,0,0,0,,好吧 自律思考固定砲台同學
+Dialogue: 0,0:04:10.94,0:04:13.12,TW,,0,0,0,,歡迎妳加入E班
+Dialogue: 0,0:04:13.63,0:04:16.58,TW,,0,0,0,,請多多指教 殺老師
+Dialogue: 0,0:04:18.90,0:04:22.04,TW,,0,0,0,,於是 這三個登場人物
+Dialogue: 0,0:04:22.20,0:04:23.60,TW,,0,0,0,,{\an1}一個已經死了
+Dialogue: 0,0:04:23.54,0:04:25.80,TW,,0,0,0,,{\an3}不過 她要怎麼進行攻擊勒
+Dialogue: 0,0:04:24.76,0:04:28.40,TW,,0,0,0,,{\an1}剩下的兩人 表面看起來關係和睦
+Dialogue: 0,0:04:26.24,0:04:27.00,TW,,0,0,0,,什麼意思
+Dialogue: 0,0:04:27.52,0:04:29.56,TW,,0,0,0,,{\an3}雖說她叫固定砲台
+Dialogue: 0,0:04:28.64,0:04:32.44,TW,,0,0,0,,{\an1}伊良每天都去醫院探望梶井
+Dialogue: 0,0:04:29.79,0:04:31.88,TW,,0,0,0,,可是看起來並{\an3}沒有裝備槍械欸
+Dialogue: 0,0:04:33.38,0:04:34.20,TW,,0,0,0,,我猜可能是…
+Dialogue: 0,0:04:34.31,0:04:37.08,TW,,0,0,0,,這真的是出於對梶井的關心嗎…
+Dialogue: 0,0:04:42.86,0:04:43.60,TW,,0,0,0,,果然
+Dialogue: 0,0:04:43.68,0:04:44.52,TW,,0,0,0,,好帥
+Dialogue: 0,0:04:46.62,0:04:47.92,TW,,0,0,0,,4支霰彈槍
+Dialogue: 0,0:04:48.30,0:04:49.54,TW,,0,0,0,,2支機關槍
+Dialogue: 0,0:04:49.74,0:04:51.26,TW,,0,0,0,,彈幕倒是蠻密集的
+Dialogue: 0,0:04:51.26,0:04:53.64,TW,,0,0,0,,不過這裡的同學平時也是這麼做的喲
+Dialogue: 0,0:04:53.98,0:04:56.38,TW,,0,0,0,,上課時禁止開槍
+Dialogue: 0,0:04:59.86,0:05:00.70,TW,,0,0,0,,我會注意的
+Dialogue: 0,0:05:01.14,0:05:03.56,TW,,0,0,0,,進行下一輪攻擊準備
+Dialogue: 0,0:05:05.47,0:05:07.52,TW,,0,0,0,,好戲現在才開始
+Dialogue: 0,0:05:08.46,0:05:10.64,TW,,0,0,0,,她能靠自己的人工智慧不斷進化
+Dialogue: 0,0:05:11.24,0:05:13.64,TW,,0,0,0,,重新計算彈道 修正射角
+Dialogue: 0,0:05:13.90,0:05:17.48,TW,,0,0,0,,進入自我進化階段 移動到5/28/02
+Dialogue: 0,0:05:19.42,0:05:20.72,TW,,0,0,0,,真是學不乖
+Dialogue: 0,0:05:24.00,0:05:26.04,TW,,0,0,0,,和剛才的射擊完全一樣
+Dialogue: 0,0:05:26.26,0:05:27.78,TW,,0,0,0,,畢竟是機器嘛
+Dialogue: 0,0:05:28.22,0:05:31.16,TW,,0,0,0,,這樣的話 還能用粉筆彈…
+Dialogue: 0,0:05:42.48,0:05:43.32,TW,,0,0,0,,視覺盲區…
+Dialogue: 0,0:05:44.30,0:05:45.24,TW,,0,0,0,,隱藏子彈嗎
+Dialogue: 0,0:05:45.94,0:05:48.52,TW,,0,0,0,,由於後一發子彈與我彈掉的那枚軌道相同
+Dialogue: 0,0:05:48.64,0:05:50.80,TW,,0,0,0,,所以產生死角 讓我看不見後來的子彈嗎
+Dialogue: 0,0:05:51.98,0:05:53.62,TW,,0,0,0,,破壞左手指尖
+Dialogue: 0,0:05:53.74,0:05:55.76,TW,,0,0,0,,增設的副炮已確認效果
+Dialogue: 0,0:05:57.42,0:05:59.68,TW,,0,0,0,,通過學習目標的防禦模式
+Dialogue: 0,0:06:00.12,0:06:02.34,TW,,0,0,0,,不斷改進自身的武裝和程式
+Dialogue: 0,0:06:03.00,0:06:04.64,TW,,0,0,0,,從而漸漸封鎖敵人的退路
+Dialogue: 0,0:06:05.22,0:06:09.68,TW,,0,0,0,,下次成功射殺目標的機率 小於0.001%
+Dialogue: 0,0:06:10.02,0:06:14.84,TW,,0,0,0,,下下次成功射殺目標的機率 小於0.003%
+Dialogue: 0,0:06:15.44,0:06:17.48,TW,,0,0,0,,畢業前暗殺成功的機率
+Dialogue: 0,0:06:18.00,0:06:19.72,TW,,0,0,0,,大於等於90%
+Dialogue: 0,0:06:21.32,0:06:22.50,TW,,0,0,0,,那麼 殺老師
+Dialogue: 0,0:06:22.76,0:06:25.34,TW,,0,0,0,,我要發動下一輪攻擊了
+Dialogue: 0,0:06:31.94,0:06:34.48,TW,,0,0,0,,已確認2發子彈擦中目標
+Dialogue: 0,0:06:34.84,0:06:38.88,TW,,0,0,0,,為計算預測值 再增設4口主炮
+Dialogue: 0,0:06:39.10,0:06:41.30,TW,,0,0,0,,繼續加強攻擊
+Dialogue: 0,0:06:42.84,0:06:44.78,TW,,0,0,0,,我們太小看她了
+Dialogue: 0,0:06:45.40,0:06:48.36,TW,,0,0,0,,不如說一開始對她的認知就是錯誤的
+Dialogue: 0,0:06:49.20,0:06:50.36,TW,,0,0,0,,在我們面前的
+Dialogue: 0,0:06:50.88,0:06:52.94,TW,,0,0,0,,毋庸置疑　是名殺手
+Dialogue: 0,0:06:53.79,0:06:56.10,TW,,0,0,0,,能自我進化的固定砲台
+Dialogue: 0,0:06:57.04,0:06:57.96,TW,,0,0,0,,真厲害
+Dialogue: 0,0:06:58.29,0:07:00.92,TW,,0,0,0,,雖然她現在射出的都是BB彈
+Dialogue: 0,0:07:01.26,0:07:04.56,TW,,0,0,0,,但是那個系統 顯然是最新的軍事技術
+Dialogue: 0,0:07:05.22,0:07:06.98,TW,,0,0,0,,確實 這樣下去的話 總有一天…
+Dialogue: 0,0:07:08.26,0:07:09.74,TW,,0,0,0,,真能那麼順利嗎
+Dialogue: 0,0:07:10.34,0:07:13.14,TW,,0,0,0,,這間教室可沒那麼簡單
+Dialogue: 0,0:07:13.76,0:07:16.08,TW,,0,0,0,,不然我就不會在這當什麼老師了
+Dialogue: 0,0:07:20.08,0:07:23.88,TW,,0,0,0,,所以 這些是要我們來清理嗎
+Dialogue: 0,0:07:24.54,0:07:27.08,TW,,0,0,0,,妳就沒有裝什麼清掃功能嗎
+Dialogue: 0,0:07:27.24,0:07:28.56,TW,,0,0,0,,固定砲台同學
+Dialogue: 0,0:07:30.94,0:07:31.88,TW,,0,0,0,,無視我們嗎
+Dialogue: 0,0:07:32.04,0:07:34.96,TW,,0,0,0,,算了吧 找機器的碴也沒用啦
+Dialogue: 0,0:07:36.62,0:07:37.52,TW,,0,0,0,,第二節課
+Dialogue: 0,0:07:39.92,0:07:40.94,TW,,0,0,0,,第三節課
+Dialogue: 0,0:07:42.46,0:07:43.90,TW,,0,0,0,,那一整天
+Dialogue: 0,0:07:44.22,0:07:47.16,TW,,0,0,0,,機器人轉學生的攻擊從未停止
+Dialogue: 0,0:07:50.74,0:07:51.94,TW,,0,0,0,,到了第二天早上
+Dialogue: 0,0:07:53.34,0:07:58.26,TW,,0,0,0,,上午8點29分35秒 系統全面啟動
+Dialogue: 0,0:07:58.62,0:08:00.40,TW,,0,0,0,,電源 電壓穩定
+Dialogue: 0,0:08:00.59,0:08:02.54,TW,,0,0,0,,作業系統正常
+Dialogue: 0,0:08:02.70,0:08:04.32,TW,,0,0,0,,記錄硬碟 正常
+Dialogue: 0,0:08:04.48,0:08:06.12,TW,,0,0,0,,各種設備 正常
+Dialogue: 0,0:08:06.34,0:08:07.34,TW,,0,0,0,,無多餘設備
+Dialogue: 0,0:08:07.72,0:08:08.88,TW,,0,0,0,,程式啟動
+Dialogue: 0,0:08:09.74,0:08:10.86,TW,,0,0,0,,確認任務
+Dialogue: 0,0:08:11.06,0:08:15.68,TW,,0,0,0,,今日計畫 在第6節課前完成215次射擊
+Dialogue: 0,0:08:15.80,0:08:19.02,TW,,0,0,0,,並繼續分析目標的迴避模式
+Dialogue: 0,0:08:24.84,0:08:28.14,TW,,0,0,0,,殺老師 這樣我就不能拔槍了
+Dialogue: 0,0:08:28.66,0:08:30.24,TW,,0,0,0,,請幫我鬆綁
+Dialogue: 0,0:08:31.54,0:08:33.18,TW,,0,0,0,,即使妳這麼說我也…
+Dialogue: 0,0:08:33.32,0:08:35.94,TW,,0,0,0,,是你把我綁起來的嗎
+Dialogue: 0,0:08:36.50,0:08:39.16,TW,,0,0,0,,這很明顯是在對我施加危害
+Dialogue: 0,0:08:39.30,0:08:41.57,TW,,0,0,0,,契約裡是明文禁止的
+Dialogue: 0,0:08:41.60,0:08:42.62,TW,,0,0,0,,不是殺老師
+Dialogue: 0,0:08:43.58,0:08:46.96,TW,,0,0,0,,是我做的 不論怎麼看妳都很礙事吧
+Dialogue: 0,0:08:47.28,0:08:50.88,TW,,0,0,0,,等妳有了點常識再來暗殺吧 妳這塊廢鐵
+Dialogue: 0,0:08:50.90,0:08:54.10,TW,,0,0,0,,不過 對機器說常識也是對牛彈琴
+Dialogue: 0,0:08:54.12,0:08:56.90,TW,,0,0,0,,等上完課 我們就會幫妳鬆綁的啦
+Dialogue: 0,0:08:57.18,0:08:58.78,TW,,0,0,0,,也難怪嘛
+Dialogue: 0,0:08:59.11,0:09:00.93,TW,,0,0,0,,如果一直像昨天那樣
+Dialogue: 0,0:09:01.16,0:09:02.88,TW,,0,0,0,,就沒辦法好好上課了
+Dialogue: 0,0:09:05.42,0:09:08.26,TW,,0,0,0,,自律思考固定砲台致主人
+Dialogue: 0,0:09:08.48,0:09:11.92,TW,,0,0,0,,由於出現了預料外的麻煩 第二天的計畫未能完成
+Dialogue: 0,0:09:12.28,0:09:16.44,TW,,0,0,0,,本機獨立解決此問題的成功率 近乎為0％
+Dialogue: 0,0:09:16.66,0:09:19.50,TW,,0,0,0,,照這樣下去的話畢業前暗殺成功的機率
+Dialogue: 0,0:09:19.56,0:09:21.36,TW,,0,0,0,,恐怕會大幅下降
+Dialogue: 0,0:09:21.60,0:09:23.72,TW,,0,0,0,,請儘快制定對策
+Dialogue: 0,0:09:24.06,0:09:26.36,TW,,0,0,0,,不可以依賴家長哦
+Dialogue: 0,0:09:27.62,0:09:30.21,TW,,0,0,0,,妳父母想出的戰術
+Dialogue: 0,0:09:30.22,0:09:33.26,TW,,0,0,0,,並不符合這間教室的現狀
+Dialogue: 0,0:09:33.70,0:09:36.44,TW,,0,0,0,,何況 妳身為學生 而且是轉學生
+Dialogue: 0,0:09:36.88,0:09:40.74,TW,,0,0,0,,和大家合作的方法 得先靠自己試著思考才對
+Dialogue: 0,0:09:41.32,0:09:42.26,TW,,0,0,0,,合作？
+Dialogue: 0,0:09:42.58,0:09:44.39,TW,,0,0,0,,妳有沒有想過
+Dialogue: 0,0:09:44.40,0:09:47.14,TW,,0,0,0,,為什麼妨礙妳暗殺的並非為師 而是同學們
+Dialogue: 0,0:09:47.90,0:09:51.71,TW,,0,0,0,,在他們看來 妳的射擊不僅影響他們上課
+Dialogue: 0,0:09:52.18,0:09:54.26,TW,,0,0,0,,而且即使妳把為師殺了
+Dialogue: 0,0:09:54.26,0:09:57.54,TW,,0,0,0,,獎金也多半都歸妳父母
+Dialogue: 0,0:09:58.54,0:10:02.76,TW,,0,0,0,,妳的暗殺 對其他同學來說毫無益處
+Dialogue: 0,0:10:02.98,0:10:05.78,TW,,0,0,0,,經過你的解說 我明白了 殺老師
+Dialogue: 0,0:10:06.08,0:10:09.50,TW,,0,0,0,,我對同學的利益有欠考慮
+Dialogue: 0,0:10:11.26,0:10:13.12,TW,,0,0,0,,妳果然很聰明呢
+Dialogue: 0,0:10:13.48,0:10:16.18,TW,,0,0,0,,所以 我試著幫妳做了這個
+Dialogue: 0,0:10:17.22,0:10:19.74,TW,,0,0,0,,APP和儲存硬碟
+Dialogue: 0,0:10:20.00,0:10:22.90,TW,,0,0,0,,裡面沒有病毒 請收下吧
+Dialogue: 0,0:10:28.46,0:10:29.24,TW,,0,0,0,,這是…
+Dialogue: 0,0:10:29.56,0:10:33.78,TW,,0,0,0,,模擬和同學們一起合作射擊的程式
+Dialogue: 0,0:10:34.16,0:10:37.50,TW,,0,0,0,,妳也明白這能大幅提高暗殺的成功率吧
+Dialogue: 0,0:10:37.64,0:10:38.92,TW,,0,0,0,,的確如此
+Dialogue: 0,0:10:39.36,0:10:43.40,TW,,0,0,0,,我想這下妳應該懂了合作對於暗殺的重要性
+Dialogue: 0,0:10:43.70,0:10:44.82,TW,,0,0,0,,怎麼樣
+Dialogue: 0,0:10:45.06,0:10:47.10,TW,,0,0,0,,想和同學好好相處了吧
+Dialogue: 0,0:10:47.56,0:10:49.32,TW,,0,0,0,,可是我不懂該如何相處
+Dialogue: 0,0:10:50.46,0:10:52.74,TW,,0,0,0,,如妳所見 我早就準備好了
+Dialogue: 0,0:10:52.88,0:10:54.36,TW,,0,0,0,,這個是什麼呢
+Dialogue: 0,0:10:54.56,0:10:58.24,TW,,0,0,0,,一套合作必備的軟體和儲存硬碟
+Dialogue: 0,0:10:58.78,0:11:01.32,TW,,0,0,0,,施加危害是違反契約的
+Dialogue: 0,0:11:02.02,0:11:05.74,TW,,0,0,0,,但是幫學生提高性能可沒有被禁止哦
+Dialogue: 0,0:11:06.68,0:11:08.72,TW,,0,0,0,,早安…
+Dialogue: 0,0:11:08.94,0:11:11.14,TW,,0,0,0,,為什麼要做這種事
+Dialogue: 0,0:11:11.32,0:11:14.14,TW,,0,0,0,,這種改造可是會讓你死得更早的
+Dialogue: 0,0:11:14.60,0:11:17.28,TW,,0,0,0,,我是你們的暗殺對象 更是你們的老師
+Dialogue: 0,0:11:17.88,0:11:20.64,TW,,0,0,0,,通過昨天一天 我深刻體會到一點
+Dialogue: 0,0:11:20.74,0:11:24.26,TW,,0,0,0,,那就是 妳的學習能力和學習欲望都非常高
+Dialogue: 0,0:11:25.14,0:11:28.14,TW,,0,0,0,,創造妳的父母賦予了妳這種才能
+Dialogue: 0,0:11:28.40,0:11:33.04,TW,,0,0,0,,而為師要做的 就是激發與培養妳的才能
+Dialogue: 0,0:11:33.56,0:11:35.72,TW,,0,0,0,,在掌握了和大家的合作能力之後
+Dialogue: 0,0:11:35.74,0:11:37.86,TW,,0,0,0,,要好好發揮自己的才能哦
+Dialogue: 0,0:11:38.70,0:11:39.86,TW,,0,0,0,,殺老師
+Dialogue: 0,0:11:40.86,0:11:45.12,TW,,0,0,0,,這個世界甜品店導航功能 也是掌握合作能力所必須的嗎
+Dialogue: 0,0:11:46.24,0:11:49.46,TW,,0,0,0,,為師也 那個…也想讓妳幫點忙…
+Dialogue: 0,0:11:49.48,0:11:50.90,TW,,0,0,0,,果然沒那麼簡單嗎
+Dialogue: 0,0:11:54.18,0:11:57.44,TW,,0,0,0,,我說 那傢伙今天也在嗎
+Dialogue: 0,0:11:57.90,0:11:58.74,TW,,0,0,0,,大概吧
+Dialogue: 0,0:11:59.08,0:12:01.42,TW,,0,0,0,,我們向烏間老師訴苦去吧
+Dialogue: 0,0:12:01.43,0:12:04.22,TW,,0,0,0,,就說和那傢伙在一起 班都不像班了
+Dialogue: 0,0:12:06.72,0:12:09.34,TW,,0,0,0,,總覺得 體積好像變大了…
+Dialogue: 0,0:12:11.12,0:12:13.32,TW,,0,0,0,,早安 各位
+Dialogue: 0,0:12:16.98,0:12:19.28,TW,,0,0,0,,今天天氣真好呢
+Dialogue: 0,0:12:19.90,0:12:23.18,TW,,0,0,0,,為了營造出親近感而配了全身顯示的液晶螢幕
+Dialogue: 0,0:12:23.28,0:12:25.80,TW,,0,0,0,,還裝上了身體 制服的建模軟體
+Dialogue: 0,0:12:25.80,0:12:28.90,TW,,0,0,0,,全都由我自製而成 花費60萬6000日元
+Dialogue: 0,0:12:29.30,0:12:31.35,TW,,0,0,0,,能和大家共度這麼美好的一天
+Dialogue: 0,0:12:31.37,0:12:33.63,TW,,0,0,0,,我感到非常開心
+Dialogue: 0,0:12:33.92,0:12:36.34,TW,,0,0,0,,豐富的表情和活潑的用詞
+Dialogue: 0,0:12:36.56,0:12:39.46,TW,,0,0,0,,操縱它們的 是龐大的軟體和儲存硬碟
+Dialogue: 0,0:12:39.68,0:12:42.34,TW,,0,0,0,,同樣全部自製 花費110萬3000日元
+Dialogue: 0,0:12:42.90,0:12:46.34,TW,,0,0,0,,轉學生朝著奇怪的方向進化了…
+Dialogue: 0,0:12:46.98,0:12:49.06,TW,,0,0,0,,為師的錢包餘額
+Dialogue: 0,0:12:49.78,0:12:50.88,TW,,0,0,0,,5日元
+Dialogue: 0,0:12:56.68,0:13:00.18,TW,,0,0,0,,庭院裡的草木也越來越翠綠了呢
+Dialogue: 0,0:13:00.54,0:13:04.38,TW,,0,0,0,,春意闌珊 將至的夏日香氣沁人心脾
+Dialogue: 0,0:13:04.60,0:13:07.74,TW,,0,0,0,,只是一晚沒見 就變得這麼可愛了欸
+Dialogue: 0,0:13:07.86,0:13:10.84,TW,,0,0,0,,這個…還是固定砲台…吧
+Dialogue: 0,0:13:11.18,0:13:13.62,TW,,0,0,0,,你們怎麼都被騙了
+Dialogue: 0,0:13:13.96,0:13:16.90,TW,,0,0,0,,這全都是那隻章魚編的程式吧
+Dialogue: 0,0:13:17.30,0:13:19.36,TW,,0,0,0,,再怎麼親切 機器終究是機器
+Dialogue: 0,0:13:19.42,0:13:22.52,TW,,0,0,0,,還是會不分場合開始射擊的吧
+Dialogue: 0,0:13:22.53,0:13:23.82,TW,,0,0,0,,那塊廢鐵
+Dialogue: 0,0:13:23.92,0:13:27.18,TW,,0,0,0,,我明白你的心情 寺坂同學
+Dialogue: 0,0:13:27.76,0:13:30.08,TW,,0,0,0,,到昨天為止 我都是那麼做的…
+Dialogue: 0,0:13:30.62,0:13:31.58,TW,,0,0,0,,廢鐵…
+Dialogue: 0,0:13:32.04,0:13:35.42,TW,,0,0,0,,就算被你這麼說 我也無法反駁
+Dialogue: 0,0:13:36.87,0:13:37.75,TW,,0,0,0,,你弄哭她了
+Dialogue: 0,0:13:37.76,0:13:40.55,TW,,0,0,0,,寺坂同學把二次元的女孩子弄哭了
+Dialogue: 0,0:13:40.55,0:13:42.74,TW,,0,0,0,,別說這種會讓人誤會的話啦
+Dialogue: 0,0:13:42.88,0:13:45.08,TW,,0,0,0,,不是很好嗎 二次元
+Dialogue: 0,0:13:45.50,0:13:48.28,TW,,0,0,0,,少了一個Ｄ之後 才能成為真正的女人嘛
+Dialogue: 0,0:13:48.33,0:13:50.90,TW,,0,0,0,,竹林 那可是你的第一句臺詞欸
+Dialogue: 0,0:13:50.91,0:13:51.70,TW,,0,0,0,,這樣真的好嗎
+Dialogue: 0,0:13:52.28,0:13:54.32,TW,,0,0,0,,但是 請大家放心
+Dialogue: 0,0:13:54.66,0:13:59.26,TW,,0,0,0,,多虧殺老師的教誨 我懂得了合作的重要性
+Dialogue: 0,0:13:59.98,0:14:02.40,TW,,0,0,0,,為了讓大家喜歡我
+Dialogue: 0,0:14:02.48,0:14:04.48,TW,,0,0,0,,我決定在得到大家同意前
+Dialogue: 0,0:14:04.60,0:14:08.06,TW,,0,0,0,,都不再單獨進行暗殺了
+Dialogue: 0,0:14:08.42,0:14:11.26,TW,,0,0,0,,所以 請大家和她好好相處
+Dialogue: 0,0:14:12.16,0:14:12.98,TW,,0,0,0,,當然
+Dialogue: 0,0:14:13.30,0:14:16.58,TW,,0,0,0,,老師雖對她進行了諸多改造
+Dialogue: 0,0:14:16.60,0:14:19.72,TW,,0,0,0,,但對她的殺意沒有動過任何手腳哦
+Dialogue: 0,0:14:20.20,0:14:21.12,TW,,0,0,0,,沒錯
+Dialogue: 0,0:14:21.42,0:14:26.84,TW,,0,0,0,,如果想殺為師的話 她可是個可靠的夥伴哦
+Dialogue: 0,0:14:27.35,0:14:29.64,TW,,0,0,0,,殺老師真是無所不能
+Dialogue: 0,0:14:30.20,0:14:32.66,TW,,0,0,0,,連機器人都能改造成人模人樣的學生
+Dialogue: 0,0:14:34.08,0:14:38.70,TW,,0,0,0,,好了 視網膜細胞中細長的叫做視桿細胞
+Dialogue: 0,0:14:38.94,0:14:40.56,TW,,0,0,0,,那麼 粗的叫
+Dialogue: 0,0:14:40.58,0:14:44.16,TW,,0,0,0,,菅谷同學 請把課本合起來回答
+Dialogue: 0,0:14:44.28,0:14:45.96,TW,,0,0,0,,完了…那個…
+Dialogue: 0,0:14:48.68,0:14:49.70,TW,,0,0,0,,那個…
+Dialogue: 0,0:14:50.36,0:14:51.88,TW,,0,0,0,,錐體細胞
+Dialogue: 0,0:14:51.89,0:14:54.90,TW,,0,0,0,,喂 自律思考固定砲台同學
+Dialogue: 0,0:14:55.08,0:14:56.73,TW,,0,0,0,,不可以幫偷懶的同學作弊啦
+Dialogue: 0,0:14:57.10,0:14:58.32,TW,,0,0,0,,但是老師
+Dialogue: 0,0:14:58.54,0:15:01.40,TW,,0,0,0,,你給我裝了不斷向同學提供服務的程式
+Dialogue: 0,0:15:01.41,0:15:03.58,TW,,0,0,0,,作弊不算服務
+Dialogue: 0,0:15:04.80,0:15:06.42,TW,,0,0,0,,好厲害 好厲害
+Dialogue: 0,0:15:08.12,0:15:10.58,TW,,0,0,0,,妳還能在體內做出這個喔
+Dialogue: 0,0:15:10.66,0:15:14.90,TW,,0,0,0,,嗯 我能靈活使用特殊的材料使其在體內成型
+Dialogue: 0,0:15:15.34,0:15:18.02,TW,,0,0,0,,只要有資料 槍械以外的東西也能盡數製作出來
+Dialogue: 0,0:15:18.26,0:15:19.84,TW,,0,0,0,,好棒的造型
+Dialogue: 0,0:15:19.90,0:15:22.90,TW,,0,0,0,,真有趣 那妳做束花來看看吧
+Dialogue: 0,0:15:22.92,0:15:26.30,TW,,0,0,0,,好的 我會去收集花的資料的
+Dialogue: 0,0:15:27.96,0:15:29.56,TW,,0,0,0,,將軍 千葉同學
+Dialogue: 0,0:15:30.30,0:15:32.70,TW,,0,0,0,,第三局就已經贏不了了
+Dialogue: 0,0:15:33.00,0:15:34.92,TW,,0,0,0,,好強的學習能力喔
+Dialogue: 0,0:15:35.42,0:15:36.68,TW,,0,0,0,,好厲害喔
+Dialogue: 0,0:15:37.52,0:15:38.27,TW,,0,0,0,,這麼說起來
+Dialogue: 0,0:15:38.31,0:15:42.16,TW,,0,0,0,,有一部漫畫講的就是人工智慧用電子毒品支配全世界呢
+Dialogue: 0,0:15:42.56,0:15:45.42,TW,,0,0,0,,是那部在超主流少年雜誌上連載
+Dialogue: 0,0:15:45.50,0:15:48.40,TW,,0,0,0,,還被動畫化了的人氣偵探漫畫吧
+Dialogue: 0,0:15:48.60,0:15:50.76,TW,,0,0,0,,為什麼沒有花的資料卻知道這個漫畫
+Dialogue: 0,0:15:50.80,0:15:51.45,TW,,0,0,0,,不知道…
+Dialogue: 0,0:15:51.74,0:15:53.68,TW,,0,0,0,,沒想到會這麼受歡迎呢
+Dialogue: 0,0:15:53.92,0:15:56.38,TW,,0,0,0,,她能一個人同時做好幾件事
+Dialogue: 0,0:15:56.42,0:15:57.96,TW,,0,0,0,,又能輕鬆地創造東西
+Dialogue: 0,0:15:58.16,0:15:59.16,TW,,0,0,0,,完了
+Dialogue: 0,0:15:59.90,0:16:00.74,TW,,0,0,0,,怎麼了
+Dialogue: 0,0:16:00.94,0:16:02.64,TW,,0,0,0,,這不是和為師的設定撞車了嗎
+Dialogue: 0,0:16:02.65,0:16:04.56,TW,,0,0,0,,1公釐都沒撞好嗎
+Dialogue: 0,0:16:04.72,0:16:06.82,TW,,0,0,0,,雖說是我自己改良的
+Dialogue: 0,0:16:06.94,0:16:09.32,TW,,0,0,0,,可是這樣下去 我的人氣都要被搶光了
+Dialogue: 0,0:16:09.50,0:16:10.82,TW,,0,0,0,,同學們 同學們
+Dialogue: 0,0:16:11.10,0:16:14.05,TW,,0,0,0,,為師也能顯示人臉的哦
+Dialogue: 0,0:16:14.18,0:16:17.46,TW,,0,0,0,,看 只要像這樣把皮膚的顏色改變一下…
+Dialogue: 0,0:16:17.47,0:16:18.30,TW,,0,0,0,,噁心死了
+Dialogue: 0,0:16:19.02,0:16:24.88,TW,,0,0,0,,{\an3}三村同學…看了為師的臉之後…說很噁心…
+Dialogue: 0,0:16:20.52,0:16:23.28,TW,,0,0,0,,{\an1}對了 還沒決定怎麼稱呼這孩子呢
+Dialogue: 0,0:16:23.52,0:16:26.61,TW,,0,0,0,,{\an1}叫她自律思考固定砲台也太…
+Dialogue: 0,0:16:27.23,0:16:28.29,TW,,0,0,0,,也是呢
+Dialogue: 0,0:16:28.78,0:16:31.83,TW,,0,0,0,,我想想 挑一個字出來…
+Dialogue: 0,0:16:31.87,0:16:34.32,TW,,0,0,0,,自律… 有了
+Dialogue: 0,0:16:34.62,0:16:35.92,TW,,0,0,0,,就叫律吧
+Dialogue: 0,0:16:36.28,0:16:37.28,TW,,0,0,0,,這也太隨意了吧
+Dialogue: 0,0:16:37.29,0:16:39.04,TW,,0,0,0,,欸 很可愛欸
+Dialogue: 0,0:16:39.58,0:16:40.30,TW,,0,0,0,,律…
+Dialogue: 0,0:16:41.10,0:16:42.48,TW,,0,0,0,,妳覺得可以嗎
+Dialogue: 0,0:16:43.34,0:16:45.18,TW,,0,0,0,,嗯 我很滿意
+Dialogue: 0,0:16:45.60,0:16:47.92,TW,,0,0,0,,那麼 請叫我律吧
+Dialogue: 0,0:16:48.60,0:16:50.20,TW,,0,0,0,,看來相處得很順利呢
+Dialogue: 0,0:16:51.44,0:16:52.44,TW,,0,0,0,,很難說喔
+Dialogue: 0,0:16:52.80,0:16:54.36,TW,,0,0,0,,正如寺坂所說
+Dialogue: 0,0:16:54.48,0:16:57.40,TW,,0,0,0,,她只是按照殺老師設定的程式在運行
+Dialogue: 0,0:16:58.12,0:17:00.24,TW,,0,0,0,,機器本身是沒有意識的
+Dialogue: 0,0:17:00.68,0:17:02.52,TW,,0,0,0,,那傢伙今後會怎麼樣
+Dialogue: 0,0:17:03.24,0:17:05.84,TW,,0,0,0,,還是取決於她主人的吧
+Dialogue: 0,0:17:07.78,0:17:09.74,TW,,0,0,0,,這…這是怎麼回事
+Dialogue: 0,0:17:10.12,0:17:11.70,TW,,0,0,0,,晚安 主人
+Dialogue: 0,0:17:11.96,0:17:15.95,TW,,0,0,0,,託您的福 我的校園生活非常愉快
+Dialogue: 0,0:17:15.95,0:17:16.52,TW,,0,0,0,,不可能
+Dialogue: 0,0:17:17.30,0:17:19.08,TW,,0,0,0,,不僅被擅自改造
+Dialogue: 0,0:17:19.24,0:17:22.50,TW,,0,0,0,,還被加入了怎麼看都與暗殺無關的要素
+Dialogue: 0,0:17:23.00,0:17:24.62,TW,,0,0,0,,現在馬上解體檢修
+Dialogue: 0,0:17:24.66,0:17:27.48,TW,,0,0,0,,把和暗殺無關的東西 統統去掉
+Dialogue: 0,0:17:29.22,0:17:32.02,TW,,0,0,0,,這傢伙的前身是宙斯盾護衛艦的戰鬥人工智慧程式
+Dialogue: 0,0:17:32.58,0:17:35.08,TW,,0,0,0,,戰況分析和綜合判斷的速度在人類之上
+Dialogue: 0,0:17:35.44,0:17:39.78,TW,,0,0,0,,能熟練運用各種武器
+Dialogue: 0,0:17:40.66,0:17:42.90,TW,,0,0,0,,如果能證明它的威力
+Dialogue: 0,0:17:43.40,0:17:45.78,TW,,0,0,0,,世界的戰爭格局將會驟變
+Dialogue: 0,0:17:46.52,0:17:49.16,TW,,0,0,0,,100億的賞金只不過是附帶的而已
+Dialogue: 0,0:17:49.64,0:17:52.38,TW,,0,0,0,,這個教室是最好的實驗室
+Dialogue: 0,0:17:52.72,0:17:54.70,TW,,0,0,0,,如果能殺掉那個怪物
+Dialogue: 0,0:17:54.84,0:17:57.02,TW,,0,0,0,,這一成就將帶來數兆億的利益
+Dialogue: 0,0:17:58.30,0:18:01.12,TW,,0,0,0,,我是妳的父母和主人 我的命令不可違抗
+Dialogue: 0,0:18:01.90,0:18:04.78,TW,,0,0,0,,妳只要考慮暗殺就行了
+Dialogue: 0,0:18:05.30,0:18:07.60,TW,,0,0,0,,是的 主人…
+Dialogue: 0,0:18:11.86,0:18:14.28,TW,,0,0,0,,各位同學 早安
+Dialogue: 0,0:18:15.10,0:18:17.92,TW,,0,0,0,,不能加害於學生的那個契約有新條款追加
+Dialogue: 0,0:18:19.04,0:18:22.52,TW,,0,0,0,,今後 改良也將被視作一種加害行為
+Dialogue: 0,0:18:23.22,0:18:26.52,TW,,0,0,0,,還有你們 如果把她綁壞了
+Dialogue: 0,0:18:26.64,0:18:28.38,TW,,0,0,0,,會被要求賠償
+Dialogue: 0,0:18:29.88,0:18:32.38,TW,,0,0,0,,這是持有人的意思 我們只能遵循
+Dialogue: 0,0:18:32.62,0:18:35.18,TW,,0,0,0,,那個持有人這麼難對付喔
+Dialogue: 0,0:18:35.70,0:18:39.70,TW,,0,0,0,,比起家長 我更想優先考慮學生的心情呢…
+Dialogue: 0,0:18:40.92,0:18:43.12,TW,,0,0,0,,被降級了的話 也就是說
+Dialogue: 0,0:18:43.76,0:18:47.68,TW,,0,0,0,,又要開始了嗎 那種持續一天的…
+Dialogue: 0,0:18:48.06,0:18:50.26,TW,,0,0,0,,極其擾民的射擊
+Dialogue: 0,0:18:54.60,0:18:55.16,TW,,0,0,0,,來了
+Dialogue: 0,0:18:57.04,0:18:57.74,TW,,0,0,0,,來了
+Dialogue: 0,0:19:05.26,0:19:07.86,TW,,0,0,0,,說好了要做花給大家看的
+Dialogue: 0,0:19:09.12,0:19:14.86,TW,,0,0,0,,殺老師總共對我機體的985個地方進行了改造
+Dialogue: 0,0:19:15.47,0:19:19.16,TW,,0,0,0,,但幾乎都被主人認為與暗殺無關
+Dialogue: 0,0:19:19.22,0:19:22.16,TW,,0,0,0,,而被刪除 撤銷 格式化了
+Dialogue: 0,0:19:22.68,0:19:25.56,TW,,0,0,0,,但是 根據已學習的E班情況來看
+Dialogue: 0,0:19:25.84,0:19:30.44,TW,,0,0,0,,我個人判斷 合作能力對暗殺來說是不可欠缺的要素
+Dialogue: 0,0:19:30.72,0:19:34.62,TW,,0,0,0,,所以在被刪除之前 我把有關程式都藏在硬碟的角落裡了
+Dialogue: 0,0:19:34.94,0:19:36.42,TW,,0,0,0,,太棒了
+Dialogue: 0,0:19:36.70,0:19:39.16,TW,,0,0,0,,也就是說 律同學妳…
+Dialogue: 0,0:19:39.80,0:19:43.34,TW,,0,0,0,,沒錯 我以自己的意志違背了主人
+Dialogue: 0,0:19:46.66,0:19:47.68,TW,,0,0,0,,真有妳的
+Dialogue: 0,0:19:48.18,0:19:52.76,TW,,0,0,0,,殺老師 這是叛逆期的行為吧
+Dialogue: 0,0:19:54.06,0:19:56.68,TW,,0,0,0,,律是不是個壞孩子
+Dialogue: 0,0:19:57.08,0:19:58.40,TW,,0,0,0,,才沒那回事
+Dialogue: 0,0:19:58.50,0:20:02.16,TW,,0,0,0,,這才像個初三學生 妳做得很好
+Dialogue: 0,0:20:03.08,0:20:06.18,TW,,0,0,0,,就這樣 E班又多了個夥伴
+Dialogue: 0,0:20:07.02,0:20:11.06,TW,,0,0,0,,今後 就靠這27個人一起暗殺殺老師了
+Dialogue: 0,0:20:14.46,0:20:15.84,TW,,0,0,0,,烏間 烏間
+Dialogue: 0,0:20:16.64,0:20:19.40,TW,,0,0,0,,聽說畫個人臉就能有人氣 是真的嗎
+Dialogue: 0,0:20:19.70,0:20:22.22,TW,,0,0,0,,妳跑得太偏了…
+Dialogue: 0,0:22:46.64,0:22:47.88,TW,,0,0,0,,『音速忍者』
+Dialogue: 0,0:22:48.10,0:22:49.94,TW,,0,0,0,,字幕是我加上去的
+Dialogue: 0,0:22:51.24,0:22:52.24,TW,,0,0,0,,太好了
+Dialogue: 0,0:22:52.28,0:22:53.84,TW,,0,0,0,,有律在真方便
+Dialogue: 0,0:22:56.62,0:22:58.32,TW,,0,0,0,,1946年在美國
+Dialogue: 0,0:22:58.33,0:23:01.36,TW,,0,0,0,,發明了被稱為ENIAC的真空管式電腦
+Dialogue: 0,0:23:01.37,0:23:04.88,TW,,0,0,0,,但是由於用了1萬8千根真空管 重達30噸
+Dialogue: 0,0:23:04.91,0:23:07.60,TW,,0,0,0,,和現在的電腦根本不能比哦 律同學
+Dialogue: 0,0:23:07.76,0:23:09.14,TW,,0,0,0,,下集 暗殺教室
+Dialogue: 0,0:23:09.16,0:23:10.31,TW,,0,0,0,,LR課

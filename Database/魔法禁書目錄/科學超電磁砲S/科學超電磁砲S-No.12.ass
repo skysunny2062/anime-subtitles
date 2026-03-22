@@ -1,0 +1,762 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: explaination 02-furigana,DFPHeiMedium-UN,17.5,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,1.5,7,20,10,8,1
+Style: explaination 01-furigana,華康中圓體,22.5,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,1,7,20,10,8,1
+Style: effect background 03-furigana,ＤＦＰ綜藝体W7,30,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 02-furigana,ＤＦＰ綜藝体W7,30,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: effect background 01-furigana,ＤＦＰ綜藝体W7,30,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,2.5,0,1,10,10,10,1
+Style: thanks-furigana,DFLiSong-Md,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: eff 001-furigana,DFHeiBold-B5,25,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: warning en BS11-furigana,Eras Demi ITC,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning en-furigana,Eras Demi ITC,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning ch BS11-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: warning ch-furigana,華康雅藝體W6,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: thanks TV-furigana,Babylon5,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: staff TV-furigana,DFFangYuanW7-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,0,0,0,1
+Style: explaination-furigana,華康中黑體(P),20,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: warning-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: ADT-furigana,@華康新特明體,35,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Upside-furigana,DFPHuaZongW5-B5,25,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,3.5,0,2,15,15,130,1
+Style: other-furigana,華康新綜藝體,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: 副本 - UP-furigana,華康粗圓體,26.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
+Style: 下一回-furigana,華康雅藝體W6(P),37.5,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: staff-furigana,DFPFangSongW6-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: Default,DFPHuaZongW5-B5,61,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,0,0,0,0,100,100,0,0,1,7,0,2,15,15,35,1
+Style: Default-furigana,華康新綜藝體W5(P),32,&H00FFFFFF,&H000000FF,&H00004FD0,&H00E16227,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,15,1
+Style: staff,DFPFangSongW6-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: 下一回,華康雅藝體W6(P),75,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: 副本 - UP,華康粗圓體,53,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
+Style: other,華康新綜藝體,60,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: Upside,DFPHuaZongW5-B5,50,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,130,1
+Style: ADT,@華康新特明體,70,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: warning,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: explaination,華康中黑體(P),40,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: staff TV,DFFangYuanW7-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
+Style: thanks TV,Babylon5,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0,0,10,1
+Style: warning ch,華康雅藝體W6,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning ch BS11,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning en,Eras Demi ITC,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: warning en BS11,Eras Demi ITC,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: eff 001,DFHeiBold-B5,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: thanks,DFLiSong-Md,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: effect background 01,ＤＦＰ綜藝体W7,60,&H000075D8,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 02,ＤＦＰ綜藝体W7,60,&H004AB9FF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: effect background 03,ＤＦＰ綜藝体W7,60,&H0095DDFF,&H00C20A0C,&H00F6F6F6,&H00000000,0,0,0,0,100,100,0,0,1,5,0,1,10,10,10,1
+Style: explaination 01,華康中圓體,45,&H00FFFFFF,&H000000FF,&H00FFFFFF,&H96000000,0,0,0,0,100,100,0,0,1,0,2,7,20,10,8,1
+Style: explaination 02,DFPHeiMedium-UN,35,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0,3,7,20,10,8,1
+Style: OPCN,思源黑体 CN Normal,68,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,-1,0,0,100,100,0,0,1,3,0,2,45,45,30,134
+Style: OPJP,HGMinchoE,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Upside,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Default-furigana,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:06.88,0:00:08.04,Default,,0,0,0,karaoke,我回來了
+Comment: 0,0:00:09.84,0:00:12.74,Default,,0,0,0,karaoke,美琴~ 妳在哭什麼呢?
+Comment: 0,0:00:20.19,0:00:21.29,Default,,0,0,0,karaoke,這樣放著就好了
+Comment: 0,0:00:21.58,0:00:22.39,Default,,0,0,0,karaoke,真的嗎?
+Comment: 0,0:00:23.09,0:00:26.09,Default,,0,0,0,karaoke,如果美琴做個好孩子 呱太一定會復原的唷
+Comment: 0,0:00:26.32,0:00:27.64,Default,,0,0,0,karaoke,真的嗎真的嗎?
+Comment: 0,0:00:27.99,0:00:31.29,Default,,0,0,0,karaoke,莫非是聖誕老公公會幫我修好嗎?
+Comment: 0,0:00:32.22,0:00:35.39,Default,,0,0,0,karaoke,聖誕老人? 現在是春天啊...
+Comment: 0,0:00:36.19,0:00:40.74,Default,,0,0,0,karaoke,嗯 沒錯喔 那個歐吉桑是媽媽的好朋友 媽媽幫妳拜託他
+Comment: 0,0:00:41.00,0:00:42.14,Default,,0,0,0,karaoke,你們是朋友啊?
+Comment: 0,0:00:42.55,0:00:43.08,Default,,0,0,0,karaoke,交給我
+Comment: 0,0:00:44.60,0:00:46.74,Default,,0,0,0,karaoke,所以現在快睡覺覺吧
+Comment: 0,0:01:11.00,0:01:12.75,Default,,0,0,0,karaoke,好囉 準備完畢
+Comment: 0,0:01:13.04,0:01:14.94,Default,,0,0,0,karaoke,媽媽 媽媽!
+Comment: 0,0:01:15.59,0:01:18.79,Default,,0,0,0,karaoke,媽媽 妳看妳看 登登~!
+Comment: 0,0:01:18.95,0:01:20.14,Default,,0,0,0,karaoke,修好了!
+Comment: 0,0:01:20.92,0:01:22.89,Default,,0,0,0,karaoke,小時候 會讓我哭的事情
+Comment: 0,0:01:20.89,0:01:22.49,Upside,,0,0,0,karaoke,嗯 太好了
+Comment: 0,0:01:23.30,0:01:26.69,Default,,0,0,0,karaoke,在我睡覺時 媽媽會全部替我解決
+Comment: 0,0:01:28.51,0:01:31.39,Default,,0,0,0,karaoke,如果那個實驗 和那天發生的事情
+Comment: 0,0:01:32.04,0:01:33.49,Default,,0,0,0,karaoke,全部都是惡夢...
+Comment: 0,0:01:34.96,0:01:39.74,Default,,0,0,0,karaoke,醒來後...全部都沒發生過 那該有多好?
+Comment: 0,0:01:43.51,0:01:46.24,Default,,0,0,0,karaoke,早安 姐姐大人!
+Comment: 0,0:01:46.24,0:01:48.94,Default,,0,0,0,karaoke,在挨揍之前要好好感受這幸福的觸感...
+Comment: 0,0:01:52.28,0:01:53.69,Default,,0,0,0,karaoke,嗯 早
+Comment: 0,0:01:59.95,0:02:01.64,Default,,0,0,0,karaoke,今天天氣也很好呢
+Comment: 0,0:02:03.42,0:02:04.84,Default,,0,0,0,karaoke,現實沒那麼簡單
+Comment: 0,0:02:05.60,0:02:08.74,Default,,0,0,0,karaoke,這裡沒有可以幫我解決一切的媽媽
+Comment: 0,0:02:09.42,0:02:12.54,Default,,0,0,0,karaoke,即使求神拜佛 也不可能會發生奇蹟
+Comment: 0,0:02:15.60,0:02:18.64,Default,,0,0,0,karaoke,會趕過來救我的英雄並不存在
+Comment: 0,0:02:20.40,0:02:21.89,Default,,0,0,0,karaoke,今天也要出門嗎?
+Comment: 0,0:02:25.19,0:02:27.44,Default,,0,0,0,karaoke,不過 雜事在今天就會辦完了
+Comment: 0,0:02:32.73,0:02:33.39,Default,,0,0,0,karaoke,就在今天...
+Comment: 0,0:02:44.24,0:02:47.64,Default,,0,0,0,karaoke,我只能親手了結這一切
+Comment: 0,0:02:48.02,0:02:51.27,Default,OP,0,0,0,,
+Comment: 0,0:04:17.98,0:04:22.36,Default,001,0,0,0,,
+Comment: 0,0:04:22.05,0:04:23.30,Default,,0,0,0,karaoke,時間差不多了
+Comment: 0,0:04:28.44,0:04:34.80,Default,,0,0,0,karaoke,希望大家不會因為是我的朋友 而被投以怪異的眼光
+Comment: 0,0:04:43.15,0:04:44.40,Default,,0,0,0,karaoke,樹狀圖設計者
+Comment: 0,0:04:43.15,0:04:44.40,Default-furigana,,0,0,0,karaoke,{\pos(960,980)}Tree Diagram
+Comment: 0,0:04:45.45,0:04:49.25,Default,,0,0,0,karaoke,學園都市以分析氣象資料為藉口
+Comment: 0,0:04:49.75,0:04:52.50,Default,,0,0,0,karaoke,所發射到太空的人造衛星「織女一號」上裝設的
+Comment: 0,0:04:52.75,0:04:54.95,Default,,0,0,0,karaoke,世界最高階的超級電腦
+Comment: 0,0:04:56.11,0:04:57.00,Default,,0,0,0,karaoke,每個月一次
+Comment: 0,0:04:57.47,0:05:00.65,Default,,0,0,0,karaoke,預測地球上所有空氣粒子的動向
+Comment: 0,0:05:00.97,0:05:03.45,Default,,0,0,0,karaoke,一次演算一整個月份的天氣
+Comment: 0,0:05:04.10,0:05:09.20,Default,,0,0,0,karaoke,其他的日子就用來對學園都市的各種研究進行預測演算
+Comment: 0,0:05:10.39,0:05:11.10,Default,,0,0,0,karaoke,並且
+Comment: 0,0:05:12.25,0:05:17.10,Default,,0,0,0,karaoke,也是下達指示製造兩萬具複製人並殺害的超高級平行模擬器
+Comment: 0,0:05:21.10,0:05:24.40,Default,,0,0,0,karaoke,喲 妳也剛補完習嗎?
+Comment: 0,0:05:24.69,0:05:25.90,Default,,0,0,0,karaoke,嗶哩嗶哩中學生
+Comment: 0,0:05:26.14,0:05:27.75,Default,,0,0,0,karaoke,啊 是你啊
+Comment: 0,0:05:28.36,0:05:30.40,Default,,0,0,0,karaoke,我不是嗶哩嗶哩 是御坂美琴
+Comment: 0,0:05:31.04,0:05:34.20,Default,,0,0,0,karaoke,我今天很累 想保留體力
+Comment: 0,0:05:34.73,0:05:36.65,Default,,0,0,0,karaoke,就不對你嗶哩嗶哩放電了
+Comment: 0,0:05:37.18,0:05:38.65,Default,,0,0,0,karaoke,妳自己還不是說了嗶哩嗶哩
+Comment: 0,0:05:39.59,0:05:42.35,Default,,0,0,0,karaoke,對了 妳妹妹今天沒和妳一起啊?
+Comment: 0,0:05:43.62,0:05:47.00,Default,,0,0,0,karaoke,昨天她幫我搬果汁 想跟她道個謝
+Comment: 0,0:05:47.24,0:05:49.40,Default,,0,0,0,karaoke,你 又見到她了嗎?
+Comment: 0,0:05:49.60,0:05:52.20,Default,,0,0,0,karaoke,欸...啊...是啊
+Comment: 0,0:05:52.65,0:05:53.25,Default,,0,0,0,karaoke,為什麼?
+Comment: 0,0:05:54.12,0:05:57.05,Default,,0,0,0,karaoke,妳問我為什麼...是巧合啦 巧合!
+Comment: 0,0:05:58.27,0:05:59.85,Default,,0,0,0,karaoke,明天也晴天啊
+Comment: 0,0:06:02.75,0:06:05.45,Default,,0,0,0,karaoke,我 超討厭那艘飛船的
+Comment: 0,0:06:06.84,0:06:07.55,Default,,0,0,0,karaoke,為什麼啊?
+Comment: 0,0:06:11.27,0:06:16.05,Default,,0,0,0,karaoke,因為人類竟然在遵守機械所訂下的政策
+Comment: 0,0:06:17.55,0:06:21.05,Default,,0,0,0,karaoke,因此 我要讓它再也無法下達瘋狂的指示
+Comment: 0,0:06:21.72,0:06:23.55,Default,,0,0,0,karaoke,竄改計畫
+Comment: 0,0:06:24.35,0:06:24.85,Default,,0,0,0,karaoke,喂!
+Comment: 0,0:06:25.52,0:06:26.45,Default,,0,0,0,karaoke,然後破壞它!
+Comment: 0,0:06:32.44,0:06:34.15,Default,,0,0,0,karaoke,那傢伙怎麼回事啊?
+Comment: 0,0:06:34.44,0:06:37.45,Default,,0,0,0,karaoke,真是的 是為了什麼事情那樣嗶哩嗶哩緊張兮兮的
+Comment: 0,0:06:42.98,0:06:43.75,Default,,0,0,0,karaoke,嗶哩嗶哩!
+Comment: 0,0:06:45.03,0:06:46.62,Default,,0,0,0,karaoke,妳剛剛明明往那邊走...
+Comment: 0,0:06:48.98,0:06:51.55,Default,,0,0,0,karaoke,由於你沒有理由叫我嗶哩嗶哩
+Comment: 0,0:06:52.01,0:06:56.20,Default,,0,0,0,karaoke,所以是這隻貓咪叫做嗶哩嗶哩 御坂這樣推測
+Comment: 0,0:06:56.64,0:06:58.65,Default,,0,0,0,karaoke,原來妳是妹妹啊
+Comment: 0,0:06:59.13,0:07:01.55,Default,,0,0,0,karaoke,沒有戴護目鏡還真的分不出來呢
+Comment: 0,0:07:03.73,0:07:06.05,Default,,0,0,0,karaoke,話說回來 謝謝妳昨天幫忙我搬果汁
+Comment: 0,0:07:07.01,0:07:11.50,Default,,0,0,0,karaoke,我做的目的並不是要你的道謝 御坂回答道
+Comment: 0,0:07:12.19,0:07:13.70,Default,,0,0,0,karaoke,之所以摘掉護目鏡
+Comment: 0,0:07:14.01,0:07:17.25,Default,,0,0,0,karaoke,是因為貓咪不喜歡鏡片等會反光的東西 貓咪有這種特性
+Comment: 0,0:07:17.48,0:07:19.75,Default,,0,0,0,karaoke,御坂只是遵從這點
+Comment: 0,0:07:20.31,0:07:22.10,Default,,0,0,0,karaoke,御坂說明道
+Comment: 0,0:07:22.72,0:07:23.90,Default,,0,0,0,karaoke,貓會這樣啊?
+Comment: 0,0:07:24.20,0:07:26.15,Default,,0,0,0,karaoke,那麼 為什麼又戴上了?
+Comment: 0,0:07:26.89,0:07:29.30,Default,,0,0,0,karaoke,因為沒有必要再摘下了
+Comment: 0,0:07:29.64,0:07:31.65,Default,,0,0,0,karaoke,御坂說明道
+Comment: 0,0:07:32.13,0:07:34.10,Default,,0,0,0,karaoke,什麼? 已經餵完吃的了?
+Comment: 0,0:07:35.79,0:07:36.95,Default,,0,0,0,karaoke,我還沒有餵牠
+Comment: 0,0:07:37.92,0:07:39.85,Default,,0,0,0,karaoke,那麼 為什麼戴上?
+Comment: 0,0:07:46.24,0:07:49.20,Default,,0,0,0,karaoke,這不是值得提及的問題
+Comment: 0,0:07:49.40,0:07:51.25,Default,,0,0,0,karaoke,御坂拒絕回答
+Comment: 0,0:07:51.61,0:07:57.85,Default,,0,0,0,karaoke,啊 什麼嘛 莫非是怕被別人看見?
+Comment: 0,0:07:59.56,0:08:02.00,Default,,0,0,0,karaoke,並不是這樣
+Comment: 0,0:08:02.37,0:08:03.55,Default,,0,0,0,karaoke,那麼 到底是為什麼?
+Comment: 0,0:08:06.59,0:08:07.10,Default,,0,0,0,karaoke,喂
+Comment: 0,0:08:07.68,0:08:09.70,Default,,0,0,0,karaoke,拒絕做出說明
+Comment: 0,0:08:09.88,0:08:11.65,Default,,0,0,0,karaoke,御坂再度宣言道
+Comment: 0,0:08:13.96,0:08:16.15,Default,,0,0,0,karaoke,算了 再見啦
+Comment: 0,0:08:17.00,0:08:20.45,Default,,0,0,0,karaoke,請等一下 御坂阻止道
+Comment: 0,0:08:21.12,0:08:22.75,Default,,0,0,0,karaoke,怎麼了啊?
+Comment: 0,0:08:23.29,0:08:26.30,Default,,0,0,0,karaoke,請聽我說 這裡有一隻貓
+Comment: 0,0:08:26.82,0:08:30.75,Default,,0,0,0,karaoke,面對這隻肚子餓的黑貓 卻什麼都不給牠吃就離開
+Comment: 0,0:08:30.77,0:08:31.90,Default,,0,0,0,karaoke,你這是怎樣?
+Comment: 0,0:08:32.24,0:08:34.05,Default,,0,0,0,karaoke,御坂這樣問道
+Comment: 0,0:08:34.29,0:08:38.50,Default,,0,0,0,karaoke,但是 妳不是要將甜麵包給牠吃嗎?
+Comment: 0,0:08:38.75,0:08:42.25,Default,,0,0,0,karaoke,御坂給這隻貓咪吃東西是不可能的
+Comment: 0,0:08:42.55,0:08:44.50,Default,,0,0,0,karaoke,御坂做出結論
+Comment: 0,0:08:44.96,0:08:48.20,Default,,0,0,0,karaoke,御坂有一個致命的缺陷
+Comment: 0,0:08:48.31,0:08:49.85,Default,,0,0,0,karaoke,御坂補充說明道
+Comment: 0,0:08:50.14,0:08:50.95,Default,,0,0,0,karaoke,缺陷?
+Comment: 0,0:08:51.08,0:08:52.50,Default,,0,0,0,karaoke,別用這種不好的說法說自己啦
+Comment: 0,0:08:52.65,0:08:54.50,Default,,0,0,0,karaoke,不 的確是缺陷
+Comment: 0,0:08:55.14,0:08:58.55,Default,,0,0,0,karaoke,御坂的身體 一直都有微弱的磁場
+Comment: 0,0:08:58.76,0:09:00.70,Default,,0,0,0,karaoke,御坂說明道
+Comment: 0,0:09:01.42,0:09:05.50,Default,,0,0,0,karaoke,雖然人體感覺不到 但是動物能感覺到
+Comment: 0,0:09:06.66,0:09:09.50,Default,,0,0,0,karaoke,也就是說 御坂的妹妹都是因為磁場的關係
+Comment: 0,0:09:09.70,0:09:11.65,Default,,0,0,0,karaoke,所以容易被動物討厭嗎?
+Comment: 0,0:09:12.45,0:09:14.40,Default,,0,0,0,karaoke,我認為並不是討厭我
+Comment: 0,0:09:15.14,0:09:17.20,Default,,0,0,0,karaoke,而是會害怕
+Comment: 0,0:09:17.50,0:09:19.90,Default,,0,0,0,karaoke,御坂要求訂正
+Comment: 0,0:09:20.41,0:09:23.15,Default,,0,0,0,karaoke,那麼 給我好了 我來餵牠們就可...
+Comment: 0,0:09:23.81,0:09:27.40,Default,,0,0,0,karaoke,並不是這樣 為什麼你不考慮把牠撿回家養呢?
+Comment: 0,0:09:27.50,0:09:29.10,Default,,0,0,0,karaoke,御坂再度問道
+Comment: 0,0:09:29.36,0:09:34.00,Default,,0,0,0,karaoke,被衛生局帶回去的動物 你知道會受到什麼樣的待遇嗎?
+Comment: 0,0:09:34.23,0:09:36.85,Default,,0,0,0,karaoke,御坂來打個比方吧
+Comment: 0,0:09:37.43,0:09:41.70,Default,,0,0,0,karaoke,首先將動物塞進透明的塑膠盒子裡
+Comment: 0,0:09:41.95,0:09:44.10,Default,,0,0,0,karaoke,然後加入A3點20...
+Comment: 0,0:09:43.84,0:09:47.40,Default,,0,0,0,karaoke,別說了! 不要堂堂正正地說這種討厭的事情
+Comment: 0,0:09:48.10,0:09:50.00,Default,,0,0,0,karaoke,如果妳這麼想的話 那麼妳撿回去吧!
+Comment: 0,0:09:51.28,0:09:54.60,Default,,0,0,0,karaoke,御坂收養這隻貓咪 是不可能的
+Comment: 0,0:09:54.79,0:09:56.35,Default,,0,0,0,karaoke,御坂正直地回答
+Comment: 0,0:09:57.15,0:09:59.05,Default,,0,0,0,karaoke,除了剛才所說的缺陷外
+Comment: 0,0:09:59.32,0:10:03.50,Default,,0,0,0,karaoke,御坂所生存的地方和你的生活環境有點不同
+Comment: 0,0:10:03.76,0:10:05.85,Default,,0,0,0,karaoke,御坂敘述理由
+Comment: 0,0:10:07.43,0:10:08.90,Default,,0,0,0,karaoke,所以我說...
+Comment: 0,0:10:14.36,0:10:15.35,Default,,0,0,0,karaoke,好啦好啦
+Comment: 0,0:10:19.30,0:10:20.70,Default,,0,0,0,karaoke,我知道了~
+Comment: 0,0:10:30.87,0:10:33.55,Default,,0,0,0,karaoke,胸部感到疼痛...嗎?
+Comment: 0,0:10:34.33,0:10:36.09,Default,,0,0,0,karaoke,沒有什麼特別的異常啊...
+Comment: 0,0:10:36.65,0:10:39.40,Default,,0,0,0,karaoke,明天就輪到10031號執行任務了喔
+Comment: 0,0:10:40.01,0:10:42.60,Default,,0,0,0,karaoke,要是實驗出錯的話就糟糕了
+Comment: 0,0:10:42.88,0:10:45.90,Default,,0,0,0,karaoke,對啊 要再詳細檢查嗎?
+Comment: 0,0:10:46.31,0:10:49.75,Default,,0,0,0,karaoke,不用 這不至於影響到實驗
+Comment: 0,0:10:50.04,0:10:52.20,Default,,0,0,0,karaoke,御坂自我分析道
+Comment: 0,0:10:53.59,0:10:57.40,Default,,0,0,0,karaoke,實際也看不出來異常 如果妳這麼說的話就這樣吧
+Comment: 0,0:11:00.36,0:11:05.30,Default,,0,0,0,karaoke,那個 如果眼前出現自己的複製人
+Comment: 0,0:11:05.34,0:11:07.30,Default,,0,0,0,karaoke,會是什麼樣的感受呢?
+Comment: 0,0:11:07.57,0:11:09.55,Default,,0,0,0,karaoke,御坂發問
+Comment: 0,0:11:09.89,0:11:11.30,Default,,0,0,0,karaoke,自己的複製人!?
+Comment: 0,0:11:11.42,0:11:13.20,Default,,0,0,0,karaoke,那當然是不希望她出現啦
+Comment: 0,0:11:13.40,0:11:15.25,Default,,0,0,0,karaoke,是嗎? 不是很方便嗎?
+Comment: 0,0:11:15.30,0:11:19.75,Default,,0,0,0,karaoke,欸!? 想像一下一個跟自己長得一模一樣的人站在自己的面前!
+Comment: 0,0:11:19.97,0:11:22.65,Default,,0,0,0,karaoke,而且還用和自己一樣的聲音搭話喔...
+Comment: 0,0:11:23.08,0:11:25.70,Default,,0,0,0,karaoke,光用想的雞皮疙瘩就掉滿地了
+Comment: 0,0:11:26.11,0:11:29.35,Default,,0,0,0,karaoke,嗯...妳這樣一說的確有點毛
+Comment: 0,0:11:32.59,0:11:37.85,Default,,0,0,0,karaoke,不要用這種聲音 這種樣子... 不要出現在我眼前!
+Comment: 0,0:11:38.60,0:11:39.90,Default,,0,0,0,karaoke,對姐姐大人來說
+Comment: 0,0:11:40.51,0:11:43.10,Default,,0,0,0,karaoke,御坂是她想要否定的存在呢...
+Comment: 0,0:11:46.41,0:11:51.60,Default,,0,0,0,karaoke,感謝您搭乘學園都市觀光巴士
+Comment: 0,0:11:52.36,0:11:57.30,Default,,0,0,0,karaoke,本巴士已進入第二十三學區 宇宙開發區域
+Comment: 0,0:11:58.30,0:12:03.90,Default,,0,0,0,karaoke,宇宙開發區域 名符其實 集合了許多專門研究宇宙產業的設施
+Comment: 0,0:12:04.24,0:12:08.55,Default,,0,0,0,karaoke,擁有火箭發射場的學園都市宇宙開發中心等設施
+Comment: 0,0:12:09.28,0:12:13.00,Default,,0,0,0,karaoke,左手邊看到的建築物 是世界最高階的超級電腦
+Comment: 0,0:12:13.47,0:12:16.65,Default-furigana,,0,0,0,karaoke,{\pos(748,980)}Tree Diagram
+Comment: 0,0:12:13.47,0:12:16.65,Default,,0,0,0,karaoke,「樹狀圖設計者」的情報收發中心
+Comment: 0,0:12:16.95,0:12:20.00,Default,,0,0,0,karaoke,每天 根據情報來做出天氣預報以及...
+Comment: 0,0:12:28.50,0:12:31.50,Default,,0,0,0,karaoke,真難得這時間會有學生來啊
+Comment: 0,0:12:32.08,0:12:36.40,Default,,0,0,0,karaoke,是的 要做暑假報告 有些東西想要調查一下
+Comment: 0,0:12:36.76,0:12:40.30,Default,,0,0,0,karaoke,妳還真是用功呢...雖然我想這麼說
+Comment: 0,0:12:40.67,0:12:43.35,Default,,0,0,0,karaoke,但妳是事到如今才慌慌張張開始做對吧?
+Comment: 0,0:12:45.25,0:12:49.80,Default,,0,0,0,karaoke,太陽也快下山了 可別迷路晃到那邊的鐵網附近喔
+Comment: 0,0:12:50.35,0:12:52.60,Default,,0,0,0,karaoke,會被警衛機器人包圍的
+Comment: 0,0:12:52.92,0:12:55.25,Default,,0,0,0,karaoke,好的 我會小心
+Comment: 0,0:13:02.80,0:13:08.10,Default,,0,0,0,karaoke,情報收發中心 是與樹狀圖設計者通訊的唯一窗口
+Comment: 0,0:13:02.80,0:13:08.10,Default-furigana,,0,0,0,karaoke,{\pos(1000,980)}Tree Diagram
+Comment: 0,0:13:08.81,0:13:12.50,Default,,0,0,0,karaoke,從這裡駭入 讓它做出假預言
+Comment: 0,0:13:13.06,0:13:14.70,Default,,0,0,0,karaoke,沒錯 例如
+Comment: 0,0:13:15.02,0:13:19.95,Default,,0,0,0,karaoke,現在進行中的絕對能力進化計畫觀測出致命性的錯誤
+Comment: 0,0:13:15.02,0:13:19.95,Default-furigana,,0,0,0,karaoke,{\pos(868,980)}Level 6 Shift
+Comment: 0,0:13:20.53,0:13:24.95,Default,,0,0,0,karaoke,錯誤是因為「一方通行」與「超電磁砲」交戰所產生的
+Comment: 0,0:13:20.53,0:13:24.95,Default-furigana,,0,0,0,karaoke,{\pos(716,980)}Accelerator
+Comment: 0,0:13:20.53,0:13:24.95,Default-furigana,,0,0,0,karaoke,{\pos(1143,980)}Railgun
+Comment: 0,0:13:25.25,0:13:26.46,Default,,0,0,0,karaoke,不可能修復
+Comment: 0,0:13:27.20,0:13:27.90,Default,,0,0,0,karaoke,因此
+Comment: 0,0:13:28.20,0:13:31.60,Default,,0,0,0,karaoke,一方通行是不可能進化為絕對能力者的
+Comment: 0,0:13:28.20,0:13:31.60,Default-furigana,,0,0,0,karaoke,{\pos(1270,980)}Level 6
+Comment: 0,0:13:28.20,0:13:31.60,Default-furigana,,0,0,0,karaoke,{\pos(563,980)}Accelerator
+Comment: 0,0:13:32.42,0:13:37.00,Default,,0,0,0,karaoke,完全依賴樹狀圖設計者的研究者們 會陷入恐慌吧
+Comment: 0,0:13:32.42,0:13:37.00,Default-furigana,,0,0,0,karaoke,{\pos(739,980)}Tree Diagram
+Comment: 0,0:13:40.25,0:13:45.15,Default,,0,0,0,karaoke,當然 只要再次演算 就會知道搞錯了
+Comment: 0,0:13:46.69,0:13:49.00,Default,,0,0,0,karaoke,結果 小把戲遲早會被揭穿
+Comment: 0,0:13:50.17,0:13:55.25,Default,,0,0,0,karaoke,但是 在那之前我就會先將計畫逼向終止的絕境!
+Comment: 0,0:13:53.27,0:13:56.98,Default,title,0,0,0,,
+Comment: 0,0:13:56.98,0:13:59.23,Default,002,0,0,0,,
+Comment: 0,0:14:03.00,0:14:05.80,Default,,0,0,0,karaoke,真是的 一開始交出來不就好了嗎?
+Comment: 0,0:14:05.97,0:14:06.90,Default,,0,0,0,karaoke,那...那是...
+Comment: 0,0:14:07.20,0:14:08.65,Default,,0,0,0,karaoke,吵死人了!
+Comment: 0,0:14:11.05,0:14:12.20,Default,,0,0,0,karaoke,只有這點錢啊?
+Comment: 0,0:14:17.68,0:14:20.40,Default,,0,0,0,karaoke,真是的 你也很不幸啊
+Comment: 0,0:14:22.69,0:14:26.35,Default,,0,0,0,karaoke,為什麼牠在叫? 御坂問道
+Comment: 0,0:14:26.98,0:14:29.05,Default,,0,0,0,karaoke,因為還想要吃東西 所以正在耍脾氣
+Comment: 0,0:14:29.44,0:14:30.45,Default,,0,0,0,karaoke,耍脾氣?
+Comment: 0,0:14:31.40,0:14:32.95,Default,,0,0,0,karaoke,妳也餵牠吃吃看啊
+Comment: 0,0:14:33.42,0:14:35.85,Default,,0,0,0,karaoke,但是 我說過餵牠吃飼料是不可能的...
+Comment: 0,0:14:35.85,0:14:36.90,Default,,0,0,0,karaoke,別說啦 快點餵
+Comment: 0,0:14:49.70,0:14:51.60,Default,,0,0,0,karaoke,妳看 牠吃掉了對吧
+Comment: 0,0:14:55.76,0:14:57.30,Default,,0,0,0,karaoke,牠正在耍脾氣嗎?
+Comment: 0,0:14:57.85,0:14:59.95,Default,,0,0,0,karaoke,不 牠現在很開心
+Comment: 0,0:15:00.70,0:15:02.00,Default,,0,0,0,karaoke,很開心?
+Comment: 0,0:15:08.21,0:15:10.15,Default,,0,0,0,karaoke,對了 給牠取個名字吧
+Comment: 0,0:15:11.00,0:15:14.05,Default,,0,0,0,karaoke,名字? 牠不是叫做嗶哩嗶哩嗎?
+Comment: 0,0:15:14.34,0:15:15.20,Default,,0,0,0,karaoke,不是啦
+Comment: 0,0:15:15.58,0:15:18.70,Default,,0,0,0,karaoke,這是妳的貓吧 替牠取一個妳喜歡的名字吧
+Comment: 0,0:15:19.99,0:15:21.05,Default,,0,0,0,karaoke,御坂的...
+Comment: 0,0:15:23.56,0:15:24.05,Default,,0,0,0,karaoke,狗
+Comment: 0,0:15:25.20,0:15:28.20,Default,,0,0,0,karaoke,這隻黑貓 叫做狗 御坂命名道
+Comment: 0,0:15:28.87,0:15:31.55,Default,,0,0,0,karaoke,明明是貓咪 卻叫做狗 呵呵呵
+Comment: 0,0:15:32.07,0:15:34.95,Default,,0,0,0,karaoke,我說...那個...不認真點取嗎?
+Comment: 0,0:15:35.57,0:15:37.65,Default,,0,0,0,karaoke,取個稍微有威嚴點的名字...?
+Comment: 0,0:15:37.77,0:15:41.40,Default,,0,0,0,karaoke,那麼 德川家康 御坂再次考慮道
+Comment: 0,0:15:41.65,0:15:42.50,Default,,0,0,0,karaoke,偉大過頭了吧
+Comment: 0,0:15:42.86,0:15:44.50,Default,,0,0,0,karaoke,那麼 薛丁格吧
+Comment: 0,0:15:44.73,0:15:45.75,Default,,0,0,0,karaoke,別開玩笑了!
+Comment: 0,0:15:46.17,0:15:51.55,Default,,0,0,0,karaoke,就算是舉例 得意洋洋地論述著將貓放進毒氣箱子中的博士
+Comment: 0,0:15:51.88,0:15:53.50,Default,,0,0,0,karaoke,怎麼可能會喜歡貓!
+Comment: 0,0:15:56.00,0:15:58.50,Default,,0,0,0,karaoke,那麼 就先暫時叫做「保留」吧
+Comment: 0,0:15:59.35,0:16:00.25,Default,,0,0,0,karaoke,保留!
+Comment: 0,0:16:02.40,0:16:06.75,Default,,0,0,0,karaoke,總覺得到最後就會變成叫做「保留」啊...
+Comment: 0,0:16:09.41,0:16:11.80,Default,,0,0,0,karaoke,對了 我們要去哪裡呢?
+Comment: 0,0:16:12.33,0:16:15.65,Default,,0,0,0,karaoke,和昨天搬果汁時走的路線不一樣
+Comment: 0,0:16:15.90,0:16:17.60,Default,,0,0,0,karaoke,御坂指出問題
+Comment: 0,0:16:17.87,0:16:21.00,Default,,0,0,0,karaoke,我繞了路 因為想買本書
+Comment: 0,0:16:21.50,0:16:25.55,Default,,0,0,0,karaoke,目的是去書店嗎? 御坂問道
+Comment: 0,0:16:26.19,0:16:30.85,Default,,0,0,0,karaoke,以地理來說 剛才那個十字路口右轉似乎比較近
+Comment: 0,0:16:31.20,0:16:34.50,Default,,0,0,0,karaoke,不是 不是那邊 而是對面的二手書店
+Comment: 0,0:16:35.27,0:16:38.25,Default,,0,0,0,karaoke,關於飼養貓的方法 是不分新舊的吧
+Comment: 0,0:16:38.95,0:16:42.15,Default,,0,0,0,karaoke,想要買關於飼養貓咪的書籍嗎?
+Comment: 0,0:16:42.45,0:16:44.65,Default,,0,0,0,karaoke,御坂確認道
+Comment: 0,0:16:45.03,0:16:46.70,Default,,0,0,0,karaoke,是想要書籍裡面記載的知識啊
+Comment: 0,0:16:47.04,0:16:48.30,Default,,0,0,0,karaoke,我的話是不需要啦
+Comment: 0,0:16:48.59,0:16:52.05,Default,,0,0,0,karaoke,因為我家那兩個啦  修女裝和巫女裝...
+Comment: 0,0:16:52.63,0:16:53.90,Default,,0,0,0,karaoke,她們可不會啊...
+Comment: 0,0:16:54.31,0:16:58.70,Default,,0,0,0,karaoke,也就是說 你要將飼養責任推給他人嗎?
+Comment: 0,0:16:59.04,0:17:00.70,Default,,0,0,0,karaoke,御坂問道
+Comment: 0,0:17:01.08,0:17:06.65,Default,,0,0,0,karaoke,也不是這樣啦...咦 妳生氣了?
+Comment: 0,0:17:07.09,0:17:08.00,Default,,0,0,0,karaoke,我沒有生氣
+Comment: 0,0:17:08.50,0:17:11.70,Default,,0,0,0,karaoke,只是 如果不謹慎看待貓咪的生命的話
+Comment: 0,0:17:11.93,0:17:13.95,Default,,0,0,0,karaoke,你會被追究器物損壞罪的
+Comment: 0,0:17:14.15,0:17:16.05,Default,,0,0,0,karaoke,御坂警告道
+Comment: 0,0:17:16.55,0:17:17.90,Default,,0,0,0,karaoke,果然生氣了吧
+Comment: 0,0:17:18.27,0:17:19.25,Default,,0,0,0,karaoke,沒有生氣
+Comment: 0,0:17:23.88,0:17:26.70,Default,,0,0,0,karaoke,那麼 我去買一下書 妳在這等我
+Comment: 0,0:17:27.00,0:17:30.00,Default,,0,0,0,karaoke,我知道了 御坂了解道
+Comment: 0,0:17:30.50,0:17:32.45,Default,,0,0,0,karaoke,這兩句話意思重複了吧
+Comment: 0,0:17:33.72,0:17:38.15,Default,,0,0,0,karaoke,話說回來 就這樣抱著貓咪進去店裡沒關係嗎?
+Comment: 0,0:17:38.46,0:17:41.20,Default,,0,0,0,karaoke,你的台詞充滿了推諉搪塞的味道
+Comment: 0,0:17:41.33,0:17:43.35,Default,,0,0,0,karaoke,請不要把貓咪交給我
+Comment: 0,0:17:43.23,0:17:44.85,Default,,0,0,0,karaoke,接招吧 貓炸彈!
+Comment: 0,0:17:47.94,0:17:49.55,Default,,0,0,0,karaoke,因為體質關係而被討厭?
+Comment: 0,0:17:50.11,0:17:53.80,Default,,0,0,0,karaoke,越過那道高牆才能萌生真正的友情啊
+Comment: 0,0:17:56.99,0:18:00.30,Default,,0,0,0,karaoke,真是的 到底是多沒神經
+Comment: 0,0:18:00.61,0:18:03.10,Default,,0,0,0,karaoke,才會把小貓咪扔過來啊
+Comment: 0,0:18:03.35,0:18:05.60,Default,,0,0,0,karaoke,御坂一個人發著牢騷
+Comment: 0,0:18:07.81,0:18:09.40,Default,,0,0,0,karaoke,你在耍脾氣嗎?
+Comment: 0,0:18:11.73,0:18:14.30,Default,,0,0,0,karaoke,還是很開心?
+Comment: 0,0:18:23.50,0:18:25.20,Default,,0,0,0,karaoke,是我們不好...
+Comment: 0,0:18:25.53,0:18:27.10,Default,,0,0,0,karaoke,所以 饒了我們...
+Comment: 0,0:18:28.80,0:18:35.55,Default,,0,0,0,karaoke,喂喂 是你們先來找我麻煩 你以為道個歉就沒事了嗎?
+Comment: 0,0:18:37.10,0:18:39.70,Upside,,0,0,0,karaoke,好痛 好痛喔! 為什麼碰不到...
+Comment: 0,0:18:45.44,0:18:51.20,Default,,0,0,0,karaoke,真是的 有群人偶可是一句怨言都沒有地完成自己的任務啊
+Comment: 0,0:18:53.85,0:18:57.65,Default,,0,0,0,karaoke,你們至少做到能讓我運動運動好消化一下晚餐吧
+Comment: 0,0:19:03.75,0:19:07.08,Default,,0,0,0,karaoke,這麼說來 時間也差不多到了啊?
+Comment: 0,0:19:08.05,0:19:10.25,Default,,0,0,0,karaoke,你們撿回一條小命呢
+Comment: 0,0:19:17.65,0:19:18.80,Default,,0,0,0,karaoke,讓你久等了
+Comment: 0,0:19:21.19,0:19:27.15,Default,,0,0,0,karaoke,下一個實驗對象 是我御坂10031號 御坂告知道
+Comment: 0,0:19:29.27,0:19:32.85,Default,,0,0,0,karaoke,什麼嘛 妳們還真是會混淆耳目
+Comment: 0,0:19:33.85,0:19:36.55,Default,,0,0,0,karaoke,讓你感到混亂 御坂需要為此道歉嗎?
+Comment: 0,0:19:38.20,0:19:41.75,Default,,0,0,0,karaoke,馬上就要死的傢伙的道歉我承受不起啊
+Comment: 0,0:19:45.20,0:19:52.50,Default,,0,0,0,karaoke,確認完畢 現在10031 10032號 照計畫進行行動
+Comment: 0,0:20:06.76,0:20:09.85,Default,,0,0,0,karaoke,奇怪 完全沒有人的氣息
+Comment: 0,0:20:10.39,0:20:12.20,Default,,0,0,0,karaoke,連感應器也沒啟用的話...
+Comment: 0,0:20:12.69,0:20:14.25,Default,,0,0,0,karaoke,監視器恐怕也...
+Comment: 0,0:20:20.36,0:20:24.60,Default,,0,0,0,karaoke,這裡是能與學園都市頭腦通訊的最重要的設施
+Comment: 0,0:20:28.89,0:20:34.45,Default,,0,0,0,karaoke,但是 只有表面有些警備 內部幾乎暢行無阻
+Comment: 0,0:20:35.45,0:20:37.45,Default,,0,0,0,karaoke,逃走了? 還是是陷阱?
+Comment: 0,0:20:38.02,0:20:41.10,Default,,0,0,0,karaoke,不管是哪個 應該都有更好的做法
+Comment: 0,0:20:41.95,0:20:44.70,Default,,0,0,0,karaoke,讓我入侵到這種地方 對他們而言沒有任何好處\N
+Comment: 0,0:20:52.09,0:20:53.95,Default,,0,0,0,karaoke,難道他們認為不可能有人駭得進去...
+Comment: 0,0:20:54.05,0:20:55.25,Default,,0,0,0,karaoke,是我低估了嗎?
+Comment: 0,0:20:59.23,0:21:01.50,Default,,0,0,0,karaoke,連通訊室也空蕩蕩的?
+Comment: 0,0:21:02.55,0:21:04.35,Default,,0,0,0,karaoke,設施的機能正在運作
+Comment: 0,0:21:06.09,0:21:06.70,Default,,0,0,0,karaoke,但是
+Comment: 0,0:21:08.80,0:21:10.15,Default,,0,0,0,karaoke,這已經不是一天兩天的事了...
+Comment: 0,0:21:10.59,0:21:15.10,Default,,0,0,0,karaoke,可以認為這個設施被放置一段時間了
+Comment: 0,0:21:15.92,0:21:16.60,Default,,0,0,0,karaoke,為什麼?
+Comment: 0,0:21:18.28,0:21:20.45,Default,,0,0,0,karaoke,現在想這些也無濟於事
+Comment: 0,0:21:21.14,0:21:22.90,Default,,0,0,0,karaoke,總之先做該做的事情
+Comment: 0,0:21:23.88,0:21:24.45,Default,,0,0,0,karaoke,這是...
+Comment: 0,0:21:26.92,0:21:27.65,Default,,0,0,0,karaoke,怎麼回事?
+Comment: 0,0:21:28.95,0:21:30.80,Default,,0,0,0,karaoke,今天的通訊件數是零件!?
+Comment: 0,0:21:31.34,0:21:34.75,Default,,0,0,0,karaoke,每天應該都有數百件的委託傳給樹狀圖設計者啊
+Comment: 0,0:21:31.34,0:21:34.75,Default-furigana,,0,0,0,karaoke,{\pos(1358,980)}Tree Diagram
+Comment: 0,0:21:36.70,0:21:40.40,Default,,0,0,0,karaoke,不對 有新委託項目 可是卻完全沒有處裡啊
+Comment: 0,0:21:41.01,0:21:43.20,Default,,0,0,0,karaoke,昨天是 更早之前也是 一直都是...
+Comment: 0,0:21:50.45,0:21:51.40,Default,,0,0,0,karaoke,報告書?
+Comment: 0,0:21:53.10,0:21:56.70,Default,,0,0,0,karaoke,第23次報告...24次報告
+Comment: 0,0:21:59.00,0:21:59.70,Default,,0,0,0,karaoke,這是...
+Comment: 0,0:22:00.83,0:22:04.80,Default,,0,0,0,karaoke,關於下落不明的樹狀圖設計者的最終報告
+Comment: 0,0:22:00.83,0:22:04.80,Default-furigana,,0,0,0,karaoke,{\pos(1024,980)}Tree Diagram
+Comment: 0,0:22:05.89,0:22:08.65,Default,,0,0,0,karaoke,7月28日 0:22
+Comment: 0,0:22:09.08,0:22:12.50,Default,,0,0,0,karaoke,樹狀圖設計者從衛星軌道上消失
+Comment: 0,0:22:09.08,0:22:12.50,Default-furigana,,0,0,0,karaoke,{\pos(717,980)}Tree Diagram
+Comment: 0,0:22:13.00,0:22:17.05,Default,,0,0,0,karaoke,同日 1:15 派出第一次搜查隊
+Comment: 0,0:22:17.46,0:22:22.00,Default,,0,0,0,karaoke,同日 3:40 回收找到的部分殘骸
+Comment: 0,0:22:22.80,0:22:23.85,Default,,0,0,0,karaoke,分析結果
+Comment: 0,0:22:24.24,0:22:25.75,Default,,0,0,0,karaoke,樹狀圖設計者...
+Comment: 0,0:22:24.24,0:22:25.75,Default-furigana,,0,0,0,karaoke,{\pos(928,980)}Tree Diagram
+Comment: 0,0:22:29.32,0:22:30.90,Default,,0,0,0,karaoke,樹狀圖設計者
+Comment: 0,0:22:29.32,0:22:30.90,Default-furigana,,0,0,0,karaoke,{\pos(960,980)}Tree Diagram
+Comment: 0,0:22:31.56,0:22:33.15,Default,,0,0,0,karaoke,已不存在?
+Comment: 0,0:22:34.55,0:22:35.25,Default,,0,0,0,karaoke,那...
+Comment: 0,0:22:36.43,0:22:41.85,Default,,0,0,0,karaoke,我找找 貓 貓 貓...
+Comment: 0,0:22:44.38,0:22:50.26,Default,,0,0,0,,ED
+Comment: 0,0:23:31.26,0:23:33.20,Default,,0,0,0,karaoke,樹狀圖設計者已不存在?
+Comment: 0,0:23:31.26,0:23:33.20,Default-furigana,,0,0,0,karaoke,{\pos(825,980)}Tree Diagram
+Comment: 0,0:23:33.20,0:23:34.25,Default,,0,0,0,karaoke,實驗繼續進行著
+Comment: 0,0:23:34.25,0:23:36.00,Default,,0,0,0,karaoke,已經沒有方法能拯救她們了嗎?
+Comment: 0,0:23:36.01,0:23:37.80,Default,,0,0,0,karaoke,御坂要去進行下一個實驗
+Comment: 0,0:23:37.81,0:23:38.57,Default,,0,0,0,karaoke,御坂...
+Comment: 0,0:23:38.57,0:23:39.85,Default,,0,0,0,karaoke,不要去 求妳了!
+Comment: 0,0:23:30.01,0:23:31.30,Default,,0,0,0,,Title next
+Comment: 0,0:23:40.02,0:23:45.01,下一回,thanks,0,0,0,,
+Comment: 0,0:23:40.01,0:23:45.01,下一回,export,0,0,0,,
+Dialogue: 0,0:13:53.27,0:13:56.98,ADT,,0,0,0,,{\frz-90\fs58\pos(173,313)}樹狀圖\N設計者
+Dialogue: 0,0:13:53.27,0:13:56.98,ADT,,0,0,0,,{\fs45\pos(310,224)}Tree Diagram
+Dialogue: 1,0:15:45.85,0:15:50.60,effect background 01,title,0,0,0,,{\an7\bord0\p1\pos(20,20)\fscx0\t(0,250,2,\fscx147)\alpha&H90&\t(4250,4500,2,\fscx0)}m 0 0 l 0 60 l 102 60 l 102 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 0,0:15:45.85,0:15:50.60,effect background 02,title,0,0,0,,{\an7\bord0\p1\fscx0\t(0,250,2,\fscx685)\alpha&H80&\pos(20,20)\t(4250,4500,2,\fscx0)}m 0 0 l 0 60 l 85 60 l 75 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 0,0:15:45.85,0:15:50.35,effect background 03,title,0,0,0,,{\an7\3c&HFFFFFF&\bord0\shad2\p1\pos(20,82)\fscx685\fscy0\t(250,500,2,\fscy770)\alpha&HC0&\t(4000,4250,2,\fscy0)}m 0 0 l 0 25 l 85 25 l 85 0XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Dialogue: 1,0:15:46.10,0:15:50.10,explaination 01,title,0,0,0,,{\pos(31,28)}{\an7\fscx0\t(0,250,2,\fscx100)\t(3750,4000,2,\fscx0)}註解  {\fs40\fnDFPHeiBold-B5\3c&H345761&\c&HFFFFFF&\bord\shad3}薛丁格的貓
+Dialogue: 0,0:15:46.10,0:15:50.10,explaination 02,content,0,0,0,,{\pos(30,93)}{\an7\fscy0\t(0,250,2,\fscy100)\t(3750,4000,2,\fscy0)}奧地利物理學家薛丁格於1935年提出\N的一個假想實驗，想藉由這個假想實\N驗來反駁哥本哈根詮釋，試圖顯露出\N量子態所需倚賴的量子理論仍然存在\N瑕疵。
+Dialogue: 0,0:21:49.16,0:21:51.49,eff 001,eff,0,0,0,,{\c&HFFFFFF&\pos(826,242)}給統括理事會的第一次報告書
+Dialogue: 0,0:23:31.30,0:23:40.02,下一回,,0,0,0,,{\fs50\fscx70\pos(382,200)}Accelerator
+Dialogue: 0,0:00:06.88,0:00:08.04,Default,,0,0,0,fx,{\be5\blur5}我回來了
+Dialogue: 0,0:00:09.84,0:00:12.74,Default,,0,0,0,fx,{\be5\blur5}美琴~ 妳在哭什麼呢?
+Dialogue: 0,0:00:20.19,0:00:21.29,Default,,0,0,0,fx,{\be5\blur5}這樣放著就好了
+Dialogue: 0,0:00:21.58,0:00:22.39,Default,,0,0,0,fx,{\be5\blur5}真的嗎?
+Dialogue: 0,0:00:23.09,0:00:26.09,Default,,0,0,0,fx,{\be5\blur5}如果美琴做個好孩子 呱太一定會復原的唷
+Dialogue: 0,0:00:26.32,0:00:27.64,Default,,0,0,0,fx,{\be5\blur5}真的嗎真的嗎?
+Dialogue: 0,0:00:27.99,0:00:31.29,Default,,0,0,0,fx,{\be5\blur5}莫非是聖誕老公公會幫我修好嗎?
+Dialogue: 0,0:00:32.22,0:00:35.39,Default,,0,0,0,fx,{\be5\blur5}聖誕老人? 現在是春天啊...
+Dialogue: 0,0:00:36.19,0:00:40.74,Default,,0,0,0,fx,{\be5\blur5}嗯 沒錯喔 那個歐吉桑是媽媽的好朋友 媽媽幫妳拜託他
+Dialogue: 0,0:00:41.00,0:00:42.14,Default,,0,0,0,fx,{\be5\blur5}你們是朋友啊?
+Dialogue: 0,0:00:42.55,0:00:43.08,Default,,0,0,0,fx,{\be5\blur5}交給我
+Dialogue: 0,0:00:44.60,0:00:46.74,Default,,0,0,0,fx,{\be5\blur5}所以現在快睡覺覺吧
+Dialogue: 0,0:01:11.00,0:01:12.75,Default,,0,0,0,fx,{\be5\blur5}好囉 準備完畢
+Dialogue: 0,0:01:13.04,0:01:14.94,Default,,0,0,0,fx,{\be5\blur5}媽媽 媽媽!
+Dialogue: 0,0:01:15.59,0:01:18.79,Default,,0,0,0,fx,{\be5\blur5}媽媽 妳看妳看 登登~!
+Dialogue: 0,0:01:18.95,0:01:20.14,Default,,0,0,0,fx,{\be5\blur5}修好了!
+Dialogue: 0,0:01:20.92,0:01:22.89,Default,,0,0,0,fx,{\be5\blur5}小時候 會讓我哭的事情
+Dialogue: 0,0:01:20.89,0:01:22.49,Upside,,0,0,0,fx,{\be5\blur5}嗯 太好了
+Dialogue: 0,0:01:23.30,0:01:26.69,Default,,0,0,0,fx,{\be5\blur5}在我睡覺時 媽媽會全部替我解決
+Dialogue: 0,0:01:28.51,0:01:31.39,Default,,0,0,0,fx,{\be5\blur5}如果那個實驗 和那天發生的事情
+Dialogue: 0,0:01:32.04,0:01:33.49,Default,,0,0,0,fx,{\be5\blur5}全部都是惡夢...
+Dialogue: 0,0:01:34.96,0:01:39.74,Default,,0,0,0,fx,{\be5\blur5}醒來後...全部都沒發生過 那該有多好?
+Dialogue: 0,0:01:43.51,0:01:46.24,Default,,0,0,0,fx,{\be5\blur5}早安 姐姐大人!
+Dialogue: 0,0:01:46.24,0:01:48.94,Default,,0,0,0,fx,{\be5\blur5}在挨揍之前要好好感受這幸福的觸感...
+Dialogue: 0,0:01:52.28,0:01:53.69,Default,,0,0,0,fx,{\be5\blur5}嗯 早
+Dialogue: 0,0:01:59.95,0:02:01.64,Default,,0,0,0,fx,{\be5\blur5}今天天氣也很好呢
+Dialogue: 0,0:02:03.42,0:02:04.84,Default,,0,0,0,fx,{\be5\blur5}現實沒那麼簡單
+Dialogue: 0,0:02:05.60,0:02:08.74,Default,,0,0,0,fx,{\be5\blur5}這裡沒有可以幫我解決一切的媽媽
+Dialogue: 0,0:02:09.42,0:02:12.54,Default,,0,0,0,fx,{\be5\blur5}即使求神拜佛 也不可能會發生奇蹟
+Dialogue: 0,0:02:15.60,0:02:18.64,Default,,0,0,0,fx,{\be5\blur5}會趕過來救我的英雄並不存在
+Dialogue: 0,0:02:20.40,0:02:21.89,Default,,0,0,0,fx,{\be5\blur5}今天也要出門嗎?
+Dialogue: 0,0:02:25.19,0:02:27.44,Default,,0,0,0,fx,{\be5\blur5}不過 雜事在今天就會辦完了
+Dialogue: 0,0:02:32.73,0:02:33.39,Default,,0,0,0,fx,{\be5\blur5}就在今天...
+Dialogue: 0,0:02:44.24,0:02:47.64,Default,,0,0,0,fx,{\be5\blur5}我只能親手了結這一切
+Dialogue: 0,0:04:22.05,0:04:23.30,Default,,0,0,0,fx,{\be5\blur5}時間差不多了
+Dialogue: 0,0:04:28.44,0:04:34.80,Default,,0,0,0,fx,{\be5\blur5}希望大家不會因為是我的朋友 而被投以怪異的眼光
+Dialogue: 0,0:04:43.15,0:04:44.40,Default,,0,0,0,fx,{\be5\blur5}樹狀圖設計者
+Dialogue: 0,0:04:43.15,0:04:44.40,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(960,980)}Tree Diagram
+Dialogue: 0,0:04:45.45,0:04:49.25,Default,,0,0,0,fx,{\be5\blur5}學園都市以分析氣象資料為藉口
+Dialogue: 0,0:04:49.75,0:04:52.50,Default,,0,0,0,fx,{\be5\blur5}所發射到太空的人造衛星「織女一號」上裝設的
+Dialogue: 0,0:04:52.75,0:04:54.95,Default,,0,0,0,fx,{\be5\blur5}世界最高階的超級電腦
+Dialogue: 0,0:04:56.11,0:04:57.00,Default,,0,0,0,fx,{\be5\blur5}每個月一次
+Dialogue: 0,0:04:57.47,0:05:00.65,Default,,0,0,0,fx,{\be5\blur5}預測地球上所有空氣粒子的動向
+Dialogue: 0,0:05:00.97,0:05:03.45,Default,,0,0,0,fx,{\be5\blur5}一次演算一整個月份的天氣
+Dialogue: 0,0:05:04.10,0:05:09.20,Default,,0,0,0,fx,{\be5\blur5}其他的日子就用來對學園都市的各種研究進行預測演算
+Dialogue: 0,0:05:10.39,0:05:11.10,Default,,0,0,0,fx,{\be5\blur5}並且
+Dialogue: 0,0:05:12.25,0:05:17.10,Default,,0,0,0,fx,{\be5\blur5}也是下達指示製造兩萬具複製人並殺害的超高級平行模擬器
+Dialogue: 0,0:05:21.10,0:05:24.40,Default,,0,0,0,fx,{\be5\blur5}喲 妳也剛補完習嗎?
+Dialogue: 0,0:05:24.69,0:05:25.90,Default,,0,0,0,fx,{\be5\blur5}嗶哩嗶哩中學生
+Dialogue: 0,0:05:26.14,0:05:27.75,Default,,0,0,0,fx,{\be5\blur5}啊 是你啊
+Dialogue: 0,0:05:28.36,0:05:30.40,Default,,0,0,0,fx,{\be5\blur5}我不是嗶哩嗶哩 是御坂美琴
+Dialogue: 0,0:05:31.04,0:05:34.20,Default,,0,0,0,fx,{\be5\blur5}我今天很累 想保留體力
+Dialogue: 0,0:05:34.73,0:05:36.65,Default,,0,0,0,fx,{\be5\blur5}就不對你嗶哩嗶哩放電了
+Dialogue: 0,0:05:37.18,0:05:38.65,Default,,0,0,0,fx,{\be5\blur5}妳自己還不是說了嗶哩嗶哩
+Dialogue: 0,0:05:39.59,0:05:42.35,Default,,0,0,0,fx,{\be5\blur5}對了 妳妹妹今天沒和妳一起啊?
+Dialogue: 0,0:05:43.62,0:05:47.00,Default,,0,0,0,fx,{\be5\blur5}昨天她幫我搬果汁 想跟她道個謝
+Dialogue: 0,0:05:47.24,0:05:49.40,Default,,0,0,0,fx,{\be5\blur5}你 又見到她了嗎?
+Dialogue: 0,0:05:49.60,0:05:52.20,Default,,0,0,0,fx,{\be5\blur5}欸...啊...是啊
+Dialogue: 0,0:05:52.65,0:05:53.25,Default,,0,0,0,fx,{\be5\blur5}為什麼?
+Dialogue: 0,0:05:54.12,0:05:57.05,Default,,0,0,0,fx,{\be5\blur5}妳問我為什麼...是巧合啦 巧合!
+Dialogue: 0,0:05:58.27,0:05:59.85,Default,,0,0,0,fx,{\be5\blur5}明天也晴天啊
+Dialogue: 0,0:06:02.75,0:06:05.45,Default,,0,0,0,fx,{\be5\blur5}我 超討厭那艘飛船的
+Dialogue: 0,0:06:06.84,0:06:07.55,Default,,0,0,0,fx,{\be5\blur5}為什麼啊?
+Dialogue: 0,0:06:11.27,0:06:16.05,Default,,0,0,0,fx,{\be5\blur5}因為人類竟然在遵守機械所訂下的政策
+Dialogue: 0,0:06:17.55,0:06:21.05,Default,,0,0,0,fx,{\be5\blur5}因此 我要讓它再也無法下達瘋狂的指示
+Dialogue: 0,0:06:21.72,0:06:23.55,Default,,0,0,0,fx,{\be5\blur5}竄改計畫
+Dialogue: 0,0:06:24.35,0:06:24.85,Default,,0,0,0,fx,{\be5\blur5}喂!
+Dialogue: 0,0:06:25.52,0:06:26.45,Default,,0,0,0,fx,{\be5\blur5}然後破壞它!
+Dialogue: 0,0:06:32.44,0:06:34.15,Default,,0,0,0,fx,{\be5\blur5}那傢伙怎麼回事啊?
+Dialogue: 0,0:06:34.44,0:06:37.45,Default,,0,0,0,fx,{\be5\blur5}真是的 是為了什麼事情那樣嗶哩嗶哩緊張兮兮的
+Dialogue: 0,0:06:42.98,0:06:43.75,Default,,0,0,0,fx,{\be5\blur5}嗶哩嗶哩!
+Dialogue: 0,0:06:45.03,0:06:46.62,Default,,0,0,0,fx,{\be5\blur5}妳剛剛明明往那邊走...
+Dialogue: 0,0:06:48.98,0:06:51.55,Default,,0,0,0,fx,{\be5\blur5}由於你沒有理由叫我嗶哩嗶哩
+Dialogue: 0,0:06:52.01,0:06:56.20,Default,,0,0,0,fx,{\be5\blur5}所以是這隻貓咪叫做嗶哩嗶哩 御坂這樣推測
+Dialogue: 0,0:06:56.64,0:06:58.65,Default,,0,0,0,fx,{\be5\blur5}原來妳是妹妹啊
+Dialogue: 0,0:06:59.13,0:07:01.55,Default,,0,0,0,fx,{\be5\blur5}沒有戴護目鏡還真的分不出來呢
+Dialogue: 0,0:07:03.73,0:07:06.05,Default,,0,0,0,fx,{\be5\blur5}話說回來 謝謝妳昨天幫忙我搬果汁
+Dialogue: 0,0:07:07.01,0:07:11.50,Default,,0,0,0,fx,{\be5\blur5}我做的目的並不是要你的道謝 御坂回答道
+Dialogue: 0,0:07:12.19,0:07:13.70,Default,,0,0,0,fx,{\be5\blur5}之所以摘掉護目鏡
+Dialogue: 0,0:07:14.01,0:07:17.25,Default,,0,0,0,fx,{\be5\blur5}是因為貓咪不喜歡鏡片等會反光的東西 貓咪有這種特性
+Dialogue: 0,0:07:17.48,0:07:19.75,Default,,0,0,0,fx,{\be5\blur5}御坂只是遵從這點
+Dialogue: 0,0:07:20.31,0:07:22.10,Default,,0,0,0,fx,{\be5\blur5}御坂說明道
+Dialogue: 0,0:07:22.72,0:07:23.90,Default,,0,0,0,fx,{\be5\blur5}貓會這樣啊?
+Dialogue: 0,0:07:24.20,0:07:26.15,Default,,0,0,0,fx,{\be5\blur5}那麼 為什麼又戴上了?
+Dialogue: 0,0:07:26.89,0:07:29.30,Default,,0,0,0,fx,{\be5\blur5}因為沒有必要再摘下了
+Dialogue: 0,0:07:29.64,0:07:31.65,Default,,0,0,0,fx,{\be5\blur5}御坂說明道
+Dialogue: 0,0:07:32.13,0:07:34.10,Default,,0,0,0,fx,{\be5\blur5}什麼? 已經餵完吃的了?
+Dialogue: 0,0:07:35.79,0:07:36.95,Default,,0,0,0,fx,{\be5\blur5}我還沒有餵牠
+Dialogue: 0,0:07:37.92,0:07:39.85,Default,,0,0,0,fx,{\be5\blur5}那麼 為什麼戴上?
+Dialogue: 0,0:07:46.24,0:07:49.20,Default,,0,0,0,fx,{\be5\blur5}這不是值得提及的問題
+Dialogue: 0,0:07:49.40,0:07:51.25,Default,,0,0,0,fx,{\be5\blur5}御坂拒絕回答
+Dialogue: 0,0:07:51.61,0:07:57.85,Default,,0,0,0,fx,{\be5\blur5}啊 什麼嘛 莫非是怕被別人看見?
+Dialogue: 0,0:07:59.56,0:08:02.00,Default,,0,0,0,fx,{\be5\blur5}並不是這樣
+Dialogue: 0,0:08:02.37,0:08:03.55,Default,,0,0,0,fx,{\be5\blur5}那麼 到底是為什麼?
+Dialogue: 0,0:08:06.59,0:08:07.10,Default,,0,0,0,fx,{\be5\blur5}喂
+Dialogue: 0,0:08:07.68,0:08:09.70,Default,,0,0,0,fx,{\be5\blur5}拒絕做出說明
+Dialogue: 0,0:08:09.88,0:08:11.65,Default,,0,0,0,fx,{\be5\blur5}御坂再度宣言道
+Dialogue: 0,0:08:13.96,0:08:16.15,Default,,0,0,0,fx,{\be5\blur5}算了 再見啦
+Dialogue: 0,0:08:17.00,0:08:20.45,Default,,0,0,0,fx,{\be5\blur5}請等一下 御坂阻止道
+Dialogue: 0,0:08:21.12,0:08:22.75,Default,,0,0,0,fx,{\be5\blur5}怎麼了啊?
+Dialogue: 0,0:08:23.29,0:08:26.30,Default,,0,0,0,fx,{\be5\blur5}請聽我說 這裡有一隻貓
+Dialogue: 0,0:08:26.82,0:08:30.75,Default,,0,0,0,fx,{\be5\blur5}面對這隻肚子餓的黑貓 卻什麼都不給牠吃就離開
+Dialogue: 0,0:08:30.77,0:08:31.90,Default,,0,0,0,fx,{\be5\blur5}你這是怎樣?
+Dialogue: 0,0:08:32.24,0:08:34.05,Default,,0,0,0,fx,{\be5\blur5}御坂這樣問道
+Dialogue: 0,0:08:34.29,0:08:38.50,Default,,0,0,0,fx,{\be5\blur5}但是 妳不是要將甜麵包給牠吃嗎?
+Dialogue: 0,0:08:38.75,0:08:42.25,Default,,0,0,0,fx,{\be5\blur5}御坂給這隻貓咪吃東西是不可能的
+Dialogue: 0,0:08:42.55,0:08:44.50,Default,,0,0,0,fx,{\be5\blur5}御坂做出結論
+Dialogue: 0,0:08:44.96,0:08:48.20,Default,,0,0,0,fx,{\be5\blur5}御坂有一個致命的缺陷
+Dialogue: 0,0:08:48.31,0:08:49.85,Default,,0,0,0,fx,{\be5\blur5}御坂補充說明道
+Dialogue: 0,0:08:50.14,0:08:50.95,Default,,0,0,0,fx,{\be5\blur5}缺陷?
+Dialogue: 0,0:08:51.08,0:08:52.50,Default,,0,0,0,fx,{\be5\blur5}別用這種不好的說法說自己啦
+Dialogue: 0,0:08:52.65,0:08:54.50,Default,,0,0,0,fx,{\be5\blur5}不 的確是缺陷
+Dialogue: 0,0:08:55.14,0:08:58.55,Default,,0,0,0,fx,{\be5\blur5}御坂的身體 一直都有微弱的磁場
+Dialogue: 0,0:08:58.76,0:09:00.70,Default,,0,0,0,fx,{\be5\blur5}御坂說明道
+Dialogue: 0,0:09:01.42,0:09:05.50,Default,,0,0,0,fx,{\be5\blur5}雖然人體感覺不到 但是動物能感覺到
+Dialogue: 0,0:09:06.66,0:09:09.50,Default,,0,0,0,fx,{\be5\blur5}也就是說 御坂的妹妹都是因為磁場的關係
+Dialogue: 0,0:09:09.70,0:09:11.65,Default,,0,0,0,fx,{\be5\blur5}所以容易被動物討厭嗎?
+Dialogue: 0,0:09:12.45,0:09:14.40,Default,,0,0,0,fx,{\be5\blur5}我認為並不是討厭我
+Dialogue: 0,0:09:15.14,0:09:17.20,Default,,0,0,0,fx,{\be5\blur5}而是會害怕
+Dialogue: 0,0:09:17.50,0:09:19.90,Default,,0,0,0,fx,{\be5\blur5}御坂要求訂正
+Dialogue: 0,0:09:20.41,0:09:23.15,Default,,0,0,0,fx,{\be5\blur5}那麼 給我好了 我來餵牠們就可...
+Dialogue: 0,0:09:23.81,0:09:27.40,Default,,0,0,0,fx,{\be5\blur5}並不是這樣 為什麼你不考慮把牠撿回家養呢?
+Dialogue: 0,0:09:27.50,0:09:29.10,Default,,0,0,0,fx,{\be5\blur5}御坂再度問道
+Dialogue: 0,0:09:29.36,0:09:34.00,Default,,0,0,0,fx,{\be5\blur5}被衛生局帶回去的動物 你知道會受到什麼樣的待遇嗎?
+Dialogue: 0,0:09:34.23,0:09:36.85,Default,,0,0,0,fx,{\be5\blur5}御坂來打個比方吧
+Dialogue: 0,0:09:37.43,0:09:41.70,Default,,0,0,0,fx,{\be5\blur5}首先將動物塞進透明的塑膠盒子裡
+Dialogue: 0,0:09:41.95,0:09:44.10,Default,,0,0,0,fx,{\be5\blur5}然後加入A3點20...
+Dialogue: 0,0:09:43.84,0:09:47.40,Default,,0,0,0,fx,{\be5\blur5}別說了! 不要堂堂正正地說這種討厭的事情
+Dialogue: 0,0:09:48.10,0:09:50.00,Default,,0,0,0,fx,{\be5\blur5}如果妳這麼想的話 那麼妳撿回去吧!
+Dialogue: 0,0:09:51.28,0:09:54.60,Default,,0,0,0,fx,{\be5\blur5}御坂收養這隻貓咪 是不可能的
+Dialogue: 0,0:09:54.79,0:09:56.35,Default,,0,0,0,fx,{\be5\blur5}御坂正直地回答
+Dialogue: 0,0:09:57.15,0:09:59.05,Default,,0,0,0,fx,{\be5\blur5}除了剛才所說的缺陷外
+Dialogue: 0,0:09:59.32,0:10:03.50,Default,,0,0,0,fx,{\be5\blur5}御坂所生存的地方和你的生活環境有點不同
+Dialogue: 0,0:10:03.76,0:10:05.85,Default,,0,0,0,fx,{\be5\blur5}御坂敘述理由
+Dialogue: 0,0:10:07.43,0:10:08.90,Default,,0,0,0,fx,{\be5\blur5}所以我說...
+Dialogue: 0,0:10:14.36,0:10:15.35,Default,,0,0,0,fx,{\be5\blur5}好啦好啦
+Dialogue: 0,0:10:19.30,0:10:20.70,Default,,0,0,0,fx,{\be5\blur5}我知道了~
+Dialogue: 0,0:10:30.87,0:10:33.55,Default,,0,0,0,fx,{\be5\blur5}胸部感到疼痛...嗎?
+Dialogue: 0,0:10:34.33,0:10:36.09,Default,,0,0,0,fx,{\be5\blur5}沒有什麼特別的異常啊...
+Dialogue: 0,0:10:36.65,0:10:39.40,Default,,0,0,0,fx,{\be5\blur5}明天就輪到10031號執行任務了喔
+Dialogue: 0,0:10:40.01,0:10:42.60,Default,,0,0,0,fx,{\be5\blur5}要是實驗出錯的話就糟糕了
+Dialogue: 0,0:10:42.88,0:10:45.90,Default,,0,0,0,fx,{\be5\blur5}對啊 要再詳細檢查嗎?
+Dialogue: 0,0:10:46.31,0:10:49.75,Default,,0,0,0,fx,{\be5\blur5}不用 這不至於影響到實驗
+Dialogue: 0,0:10:50.04,0:10:52.20,Default,,0,0,0,fx,{\be5\blur5}御坂自我分析道
+Dialogue: 0,0:10:53.59,0:10:57.40,Default,,0,0,0,fx,{\be5\blur5}實際也看不出來異常 如果妳這麼說的話就這樣吧
+Dialogue: 0,0:11:00.36,0:11:05.30,Default,,0,0,0,fx,{\be5\blur5}那個 如果眼前出現自己的複製人
+Dialogue: 0,0:11:05.34,0:11:07.30,Default,,0,0,0,fx,{\be5\blur5}會是什麼樣的感受呢?
+Dialogue: 0,0:11:07.57,0:11:09.55,Default,,0,0,0,fx,{\be5\blur5}御坂發問
+Dialogue: 0,0:11:09.89,0:11:11.30,Default,,0,0,0,fx,{\be5\blur5}自己的複製人!?
+Dialogue: 0,0:11:11.42,0:11:13.20,Default,,0,0,0,fx,{\be5\blur5}那當然是不希望她出現啦
+Dialogue: 0,0:11:13.40,0:11:15.25,Default,,0,0,0,fx,{\be5\blur5}是嗎? 不是很方便嗎?
+Dialogue: 0,0:11:15.30,0:11:19.75,Default,,0,0,0,fx,{\be5\blur5}欸!? 想像一下一個跟自己長得一模一樣的人站在自己的面前!
+Dialogue: 0,0:11:19.97,0:11:22.65,Default,,0,0,0,fx,{\be5\blur5}而且還用和自己一樣的聲音搭話喔...
+Dialogue: 0,0:11:23.08,0:11:25.70,Default,,0,0,0,fx,{\be5\blur5}光用想的雞皮疙瘩就掉滿地了
+Dialogue: 0,0:11:26.11,0:11:29.35,Default,,0,0,0,fx,{\be5\blur5}嗯...妳這樣一說的確有點毛
+Dialogue: 0,0:11:32.59,0:11:37.85,Default,,0,0,0,fx,{\be5\blur5}不要用這種聲音 這種樣子... 不要出現在我眼前!
+Dialogue: 0,0:11:38.60,0:11:39.90,Default,,0,0,0,fx,{\be5\blur5}對姐姐大人來說
+Dialogue: 0,0:11:40.51,0:11:43.10,Default,,0,0,0,fx,{\be5\blur5}御坂是她想要否定的存在呢...
+Dialogue: 0,0:11:46.41,0:11:51.60,Default,,0,0,0,fx,{\be5\blur5}感謝您搭乘學園都市觀光巴士
+Dialogue: 0,0:11:52.36,0:11:57.30,Default,,0,0,0,fx,{\be5\blur5}本巴士已進入第二十三學區 宇宙開發區域
+Dialogue: 0,0:11:58.30,0:12:03.90,Default,,0,0,0,fx,{\be5\blur5}宇宙開發區域 名符其實 集合了許多專門研究宇宙產業的設施
+Dialogue: 0,0:12:04.24,0:12:08.55,Default,,0,0,0,fx,{\be5\blur5}擁有火箭發射場的學園都市宇宙開發中心等設施
+Dialogue: 0,0:12:09.28,0:12:13.00,Default,,0,0,0,fx,{\be5\blur5}左手邊看到的建築物 是世界最高階的超級電腦
+Dialogue: 0,0:12:13.47,0:12:16.65,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(748,980)}Tree Diagram
+Dialogue: 0,0:12:13.47,0:12:16.65,Default,,0,0,0,fx,{\be5\blur5}「樹狀圖設計者」的情報收發中心
+Dialogue: 0,0:12:16.95,0:12:20.00,Default,,0,0,0,fx,{\be5\blur5}每天 根據情報來做出天氣預報以及...
+Dialogue: 0,0:12:28.50,0:12:31.50,Default,,0,0,0,fx,{\be5\blur5}真難得這時間會有學生來啊
+Dialogue: 0,0:12:32.08,0:12:36.40,Default,,0,0,0,fx,{\be5\blur5}是的 要做暑假報告 有些東西想要調查一下
+Dialogue: 0,0:12:36.76,0:12:40.30,Default,,0,0,0,fx,{\be5\blur5}妳還真是用功呢...雖然我想這麼說
+Dialogue: 0,0:12:40.67,0:12:43.35,Default,,0,0,0,fx,{\be5\blur5}但妳是事到如今才慌慌張張開始做對吧?
+Dialogue: 0,0:12:45.25,0:12:49.80,Default,,0,0,0,fx,{\be5\blur5}太陽也快下山了 可別迷路晃到那邊的鐵網附近喔
+Dialogue: 0,0:12:50.35,0:12:52.60,Default,,0,0,0,fx,{\be5\blur5}會被警衛機器人包圍的
+Dialogue: 0,0:12:52.92,0:12:55.25,Default,,0,0,0,fx,{\be5\blur5}好的 我會小心
+Dialogue: 0,0:13:02.80,0:13:08.10,Default,,0,0,0,fx,{\be5\blur5}情報收發中心 是與樹狀圖設計者通訊的唯一窗口
+Dialogue: 0,0:13:02.80,0:13:08.10,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1000,980)}Tree Diagram
+Dialogue: 0,0:13:08.81,0:13:12.50,Default,,0,0,0,fx,{\be5\blur5}從這裡駭入 讓它做出假預言
+Dialogue: 0,0:13:13.06,0:13:14.70,Default,,0,0,0,fx,{\be5\blur5}沒錯 例如
+Dialogue: 0,0:13:15.02,0:13:19.95,Default,,0,0,0,fx,{\be5\blur5}現在進行中的絕對能力進化計畫觀測出致命性的錯誤
+Dialogue: 0,0:13:15.02,0:13:19.95,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(868,980)}Level 6 Shift
+Dialogue: 0,0:13:20.53,0:13:24.95,Default,,0,0,0,fx,{\be5\blur5}錯誤是因為「一方通行」與「超電磁砲」交戰所產生的
+Dialogue: 0,0:13:20.53,0:13:24.95,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(716,980)}Accelerator
+Dialogue: 0,0:13:20.53,0:13:24.95,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1143,980)}Railgun
+Dialogue: 0,0:13:25.25,0:13:26.46,Default,,0,0,0,fx,{\be5\blur5}不可能修復
+Dialogue: 0,0:13:27.20,0:13:27.90,Default,,0,0,0,fx,{\be5\blur5}因此
+Dialogue: 0,0:13:28.20,0:13:31.60,Default,,0,0,0,fx,{\be5\blur5}一方通行是不可能進化為絕對能力者的
+Dialogue: 0,0:13:28.20,0:13:31.60,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1270,980)}Level 6
+Dialogue: 0,0:13:28.20,0:13:31.60,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(563,980)}Accelerator
+Dialogue: 0,0:13:32.42,0:13:37.00,Default,,0,0,0,fx,{\be5\blur5}完全依賴樹狀圖設計者的研究者們 會陷入恐慌吧
+Dialogue: 0,0:13:32.42,0:13:37.00,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(739,980)}Tree Diagram
+Dialogue: 0,0:13:40.25,0:13:45.15,Default,,0,0,0,fx,{\be5\blur5}當然 只要再次演算 就會知道搞錯了
+Dialogue: 0,0:13:46.69,0:13:49.00,Default,,0,0,0,fx,{\be5\blur5}結果 小把戲遲早會被揭穿
+Dialogue: 0,0:13:50.17,0:13:55.25,Default,,0,0,0,fx,{\be5\blur5}但是 在那之前我就會先將計畫逼向終止的絕境!
+Dialogue: 0,0:14:03.00,0:14:05.80,Default,,0,0,0,fx,{\be5\blur5}真是的 一開始交出來不就好了嗎?
+Dialogue: 0,0:14:05.97,0:14:06.90,Default,,0,0,0,fx,{\be5\blur5}那...那是...
+Dialogue: 0,0:14:07.20,0:14:08.65,Default,,0,0,0,fx,{\be5\blur5}吵死人了!
+Dialogue: 0,0:14:11.05,0:14:12.20,Default,,0,0,0,fx,{\be5\blur5}只有這點錢啊?
+Dialogue: 0,0:14:17.68,0:14:20.40,Default,,0,0,0,fx,{\be5\blur5}真是的 你也很不幸啊
+Dialogue: 0,0:14:22.69,0:14:26.35,Default,,0,0,0,fx,{\be5\blur5}為什麼牠在叫? 御坂問道
+Dialogue: 0,0:14:26.98,0:14:29.05,Default,,0,0,0,fx,{\be5\blur5}因為還想要吃東西 所以正在耍脾氣
+Dialogue: 0,0:14:29.44,0:14:30.45,Default,,0,0,0,fx,{\be5\blur5}耍脾氣?
+Dialogue: 0,0:14:31.40,0:14:32.95,Default,,0,0,0,fx,{\be5\blur5}妳也餵牠吃吃看啊
+Dialogue: 0,0:14:33.42,0:14:35.85,Default,,0,0,0,fx,{\be5\blur5}但是 我說過餵牠吃飼料是不可能的...
+Dialogue: 0,0:14:35.85,0:14:36.90,Default,,0,0,0,fx,{\be5\blur5}別說啦 快點餵
+Dialogue: 0,0:14:49.70,0:14:51.60,Default,,0,0,0,fx,{\be5\blur5}妳看 牠吃掉了對吧
+Dialogue: 0,0:14:55.76,0:14:57.30,Default,,0,0,0,fx,{\be5\blur5}牠正在耍脾氣嗎?
+Dialogue: 0,0:14:57.85,0:14:59.95,Default,,0,0,0,fx,{\be5\blur5}不 牠現在很開心
+Dialogue: 0,0:15:00.70,0:15:02.00,Default,,0,0,0,fx,{\be5\blur5}很開心?
+Dialogue: 0,0:15:08.21,0:15:10.15,Default,,0,0,0,fx,{\be5\blur5}對了 給牠取個名字吧
+Dialogue: 0,0:15:11.00,0:15:14.05,Default,,0,0,0,fx,{\be5\blur5}名字? 牠不是叫做嗶哩嗶哩嗎?
+Dialogue: 0,0:15:14.34,0:15:15.20,Default,,0,0,0,fx,{\be5\blur5}不是啦
+Dialogue: 0,0:15:15.58,0:15:18.70,Default,,0,0,0,fx,{\be5\blur5}這是妳的貓吧 替牠取一個妳喜歡的名字吧
+Dialogue: 0,0:15:19.99,0:15:21.05,Default,,0,0,0,fx,{\be5\blur5}御坂的...
+Dialogue: 0,0:15:23.56,0:15:24.05,Default,,0,0,0,fx,{\be5\blur5}狗
+Dialogue: 0,0:15:25.20,0:15:28.20,Default,,0,0,0,fx,{\be5\blur5}這隻黑貓 叫做狗 御坂命名道
+Dialogue: 0,0:15:28.87,0:15:31.55,Default,,0,0,0,fx,{\be5\blur5}明明是貓咪 卻叫做狗 呵呵呵
+Dialogue: 0,0:15:32.07,0:15:34.95,Default,,0,0,0,fx,{\be5\blur5}我說...那個...不認真點取嗎?
+Dialogue: 0,0:15:35.57,0:15:37.65,Default,,0,0,0,fx,{\be5\blur5}取個稍微有威嚴點的名字...?
+Dialogue: 0,0:15:37.77,0:15:41.40,Default,,0,0,0,fx,{\be5\blur5}那麼 德川家康 御坂再次考慮道
+Dialogue: 0,0:15:41.65,0:15:42.50,Default,,0,0,0,fx,{\be5\blur5}偉大過頭了吧
+Dialogue: 0,0:15:42.86,0:15:44.50,Default,,0,0,0,fx,{\be5\blur5}那麼 薛丁格吧
+Dialogue: 0,0:15:44.73,0:15:45.75,Default,,0,0,0,fx,{\be5\blur5}別開玩笑了!
+Dialogue: 0,0:15:46.17,0:15:51.55,Default,,0,0,0,fx,{\be5\blur5}就算是舉例 得意洋洋地論述著將貓放進毒氣箱子中的博士
+Dialogue: 0,0:15:51.88,0:15:53.50,Default,,0,0,0,fx,{\be5\blur5}怎麼可能會喜歡貓!
+Dialogue: 0,0:15:56.00,0:15:58.50,Default,,0,0,0,fx,{\be5\blur5}那麼 就先暫時叫做「保留」吧
+Dialogue: 0,0:15:59.35,0:16:00.25,Default,,0,0,0,fx,{\be5\blur5}保留!
+Dialogue: 0,0:16:02.40,0:16:06.75,Default,,0,0,0,fx,{\be5\blur5}總覺得到最後就會變成叫做「保留」啊...
+Dialogue: 0,0:16:09.41,0:16:11.80,Default,,0,0,0,fx,{\be5\blur5}對了 我們要去哪裡呢?
+Dialogue: 0,0:16:12.33,0:16:15.65,Default,,0,0,0,fx,{\be5\blur5}和昨天搬果汁時走的路線不一樣
+Dialogue: 0,0:16:15.90,0:16:17.60,Default,,0,0,0,fx,{\be5\blur5}御坂指出問題
+Dialogue: 0,0:16:17.87,0:16:21.00,Default,,0,0,0,fx,{\be5\blur5}我繞了路 因為想買本書
+Dialogue: 0,0:16:21.50,0:16:25.55,Default,,0,0,0,fx,{\be5\blur5}目的是去書店嗎? 御坂問道
+Dialogue: 0,0:16:26.19,0:16:30.85,Default,,0,0,0,fx,{\be5\blur5}以地理來說 剛才那個十字路口右轉似乎比較近
+Dialogue: 0,0:16:31.20,0:16:34.50,Default,,0,0,0,fx,{\be5\blur5}不是 不是那邊 而是對面的二手書店
+Dialogue: 0,0:16:35.27,0:16:38.25,Default,,0,0,0,fx,{\be5\blur5}關於飼養貓的方法 是不分新舊的吧
+Dialogue: 0,0:16:38.95,0:16:42.15,Default,,0,0,0,fx,{\be5\blur5}想要買關於飼養貓咪的書籍嗎?
+Dialogue: 0,0:16:42.45,0:16:44.65,Default,,0,0,0,fx,{\be5\blur5}御坂確認道
+Dialogue: 0,0:16:45.03,0:16:46.70,Default,,0,0,0,fx,{\be5\blur5}是想要書籍裡面記載的知識啊
+Dialogue: 0,0:16:47.04,0:16:48.30,Default,,0,0,0,fx,{\be5\blur5}我的話是不需要啦
+Dialogue: 0,0:16:48.59,0:16:52.05,Default,,0,0,0,fx,{\be5\blur5}因為我家那兩個啦  修女裝和巫女裝...
+Dialogue: 0,0:16:52.63,0:16:53.90,Default,,0,0,0,fx,{\be5\blur5}她們可不會啊...
+Dialogue: 0,0:16:54.31,0:16:58.70,Default,,0,0,0,fx,{\be5\blur5}也就是說 你要將飼養責任推給他人嗎?
+Dialogue: 0,0:16:59.04,0:17:00.70,Default,,0,0,0,fx,{\be5\blur5}御坂問道
+Dialogue: 0,0:17:01.08,0:17:06.65,Default,,0,0,0,fx,{\be5\blur5}也不是這樣啦...咦 妳生氣了?
+Dialogue: 0,0:17:07.09,0:17:08.00,Default,,0,0,0,fx,{\be5\blur5}我沒有生氣
+Dialogue: 0,0:17:08.50,0:17:11.70,Default,,0,0,0,fx,{\be5\blur5}只是 如果不謹慎看待貓咪的生命的話
+Dialogue: 0,0:17:11.93,0:17:13.95,Default,,0,0,0,fx,{\be5\blur5}你會被追究器物損壞罪的
+Dialogue: 0,0:17:14.15,0:17:16.05,Default,,0,0,0,fx,{\be5\blur5}御坂警告道
+Dialogue: 0,0:17:16.55,0:17:17.90,Default,,0,0,0,fx,{\be5\blur5}果然生氣了吧
+Dialogue: 0,0:17:18.27,0:17:19.25,Default,,0,0,0,fx,{\be5\blur5}沒有生氣
+Dialogue: 0,0:17:23.88,0:17:26.70,Default,,0,0,0,fx,{\be5\blur5}那麼 我去買一下書 妳在這等我
+Dialogue: 0,0:17:27.00,0:17:30.00,Default,,0,0,0,fx,{\be5\blur5}我知道了 御坂了解道
+Dialogue: 0,0:17:30.50,0:17:32.45,Default,,0,0,0,fx,{\be5\blur5}這兩句話意思重複了吧
+Dialogue: 0,0:17:33.72,0:17:38.15,Default,,0,0,0,fx,{\be5\blur5}話說回來 就這樣抱著貓咪進去店裡沒關係嗎?
+Dialogue: 0,0:17:38.46,0:17:41.20,Default,,0,0,0,fx,{\be5\blur5}你的台詞充滿了推諉搪塞的味道
+Dialogue: 0,0:17:41.33,0:17:43.35,Default,,0,0,0,fx,{\be5\blur5}請不要把貓咪交給我
+Dialogue: 0,0:17:43.23,0:17:44.85,Default,,0,0,0,fx,{\be5\blur5}接招吧 貓炸彈!
+Dialogue: 0,0:17:47.94,0:17:49.55,Default,,0,0,0,fx,{\be5\blur5}因為體質關係而被討厭?
+Dialogue: 0,0:17:50.11,0:17:53.80,Default,,0,0,0,fx,{\be5\blur5}越過那道高牆才能萌生真正的友情啊
+Dialogue: 0,0:17:56.99,0:18:00.30,Default,,0,0,0,fx,{\be5\blur5}真是的 到底是多沒神經
+Dialogue: 0,0:18:00.61,0:18:03.10,Default,,0,0,0,fx,{\be5\blur5}才會把小貓咪扔過來啊
+Dialogue: 0,0:18:03.35,0:18:05.60,Default,,0,0,0,fx,{\be5\blur5}御坂一個人發著牢騷
+Dialogue: 0,0:18:07.81,0:18:09.40,Default,,0,0,0,fx,{\be5\blur5}你在耍脾氣嗎?
+Dialogue: 0,0:18:11.73,0:18:14.30,Default,,0,0,0,fx,{\be5\blur5}還是很開心?
+Dialogue: 0,0:18:23.50,0:18:25.20,Default,,0,0,0,fx,{\be5\blur5}是我們不好...
+Dialogue: 0,0:18:25.53,0:18:27.10,Default,,0,0,0,fx,{\be5\blur5}所以 饒了我們...
+Dialogue: 0,0:18:28.80,0:18:35.55,Default,,0,0,0,fx,{\be5\blur5}喂喂 是你們先來找我麻煩 你以為道個歉就沒事了嗎?
+Dialogue: 0,0:18:37.10,0:18:39.70,Upside,,0,0,0,fx,{\be5\blur5}好痛 好痛喔! 為什麼碰不到...
+Dialogue: 0,0:18:45.44,0:18:51.20,Default,,0,0,0,fx,{\be5\blur5}真是的 有群人偶可是一句怨言都沒有地完成自己的任務啊
+Dialogue: 0,0:18:53.85,0:18:57.65,Default,,0,0,0,fx,{\be5\blur5}你們至少做到能讓我運動運動好消化一下晚餐吧
+Dialogue: 0,0:19:03.75,0:19:07.08,Default,,0,0,0,fx,{\be5\blur5}這麼說來 時間也差不多到了啊?
+Dialogue: 0,0:19:08.05,0:19:10.25,Default,,0,0,0,fx,{\be5\blur5}你們撿回一條小命呢
+Dialogue: 0,0:19:17.65,0:19:18.80,Default,,0,0,0,fx,{\be5\blur5}讓你久等了
+Dialogue: 0,0:19:21.19,0:19:27.15,Default,,0,0,0,fx,{\be5\blur5}下一個實驗對象 是我御坂10031號 御坂告知道
+Dialogue: 0,0:19:29.27,0:19:32.85,Default,,0,0,0,fx,{\be5\blur5}什麼嘛 妳們還真是會混淆耳目
+Dialogue: 0,0:19:33.85,0:19:36.55,Default,,0,0,0,fx,{\be5\blur5}讓你感到混亂 御坂需要為此道歉嗎?
+Dialogue: 0,0:19:38.20,0:19:41.75,Default,,0,0,0,fx,{\be5\blur5}馬上就要死的傢伙的道歉我承受不起啊
+Dialogue: 0,0:19:45.20,0:19:52.50,Default,,0,0,0,fx,{\be5\blur5}確認完畢 現在10031 10032號 照計畫進行行動
+Dialogue: 0,0:20:06.76,0:20:09.85,Default,,0,0,0,fx,{\be5\blur5}奇怪 完全沒有人的氣息
+Dialogue: 0,0:20:10.39,0:20:12.20,Default,,0,0,0,fx,{\be5\blur5}連感應器也沒啟用的話...
+Dialogue: 0,0:20:12.69,0:20:14.25,Default,,0,0,0,fx,{\be5\blur5}監視器恐怕也...
+Dialogue: 0,0:20:20.36,0:20:24.60,Default,,0,0,0,fx,{\be5\blur5}這裡是能與學園都市頭腦通訊的最重要的設施
+Dialogue: 0,0:20:28.89,0:20:34.45,Default,,0,0,0,fx,{\be5\blur5}但是 只有表面有些警備 內部幾乎暢行無阻
+Dialogue: 0,0:20:35.45,0:20:37.45,Default,,0,0,0,fx,{\be5\blur5}逃走了? 還是是陷阱?
+Dialogue: 0,0:20:38.02,0:20:41.10,Default,,0,0,0,fx,{\be5\blur5}不管是哪個 應該都有更好的做法
+Dialogue: 0,0:20:41.95,0:20:44.70,Default,,0,0,0,fx,{\be5\blur5}讓我入侵到這種地方 對他們而言沒有任何好處\N
+Dialogue: 0,0:20:52.09,0:20:53.95,Default,,0,0,0,fx,{\be5\blur5}難道他們認為不可能有人駭得進去...
+Dialogue: 0,0:20:54.05,0:20:55.25,Default,,0,0,0,fx,{\be5\blur5}是我低估了嗎?
+Dialogue: 0,0:20:59.23,0:21:01.50,Default,,0,0,0,fx,{\be5\blur5}連通訊室也空蕩蕩的?
+Dialogue: 0,0:21:02.55,0:21:04.35,Default,,0,0,0,fx,{\be5\blur5}設施的機能正在運作
+Dialogue: 0,0:21:06.09,0:21:06.70,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:21:08.80,0:21:10.15,Default,,0,0,0,fx,{\be5\blur5}這已經不是一天兩天的事了...
+Dialogue: 0,0:21:10.59,0:21:15.10,Default,,0,0,0,fx,{\be5\blur5}可以認為這個設施被放置一段時間了
+Dialogue: 0,0:21:15.92,0:21:16.60,Default,,0,0,0,fx,{\be5\blur5}為什麼?
+Dialogue: 0,0:21:18.28,0:21:20.45,Default,,0,0,0,fx,{\be5\blur5}現在想這些也無濟於事
+Dialogue: 0,0:21:21.14,0:21:22.90,Default,,0,0,0,fx,{\be5\blur5}總之先做該做的事情
+Dialogue: 0,0:21:23.88,0:21:24.45,Default,,0,0,0,fx,{\be5\blur5}這是...
+Dialogue: 0,0:21:26.92,0:21:27.65,Default,,0,0,0,fx,{\be5\blur5}怎麼回事?
+Dialogue: 0,0:21:28.95,0:21:30.80,Default,,0,0,0,fx,{\be5\blur5}今天的通訊件數是零件!?
+Dialogue: 0,0:21:31.34,0:21:34.75,Default,,0,0,0,fx,{\be5\blur5}每天應該都有數百件的委託傳給樹狀圖設計者啊
+Dialogue: 0,0:21:31.34,0:21:34.75,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1358,980)}Tree Diagram
+Dialogue: 0,0:21:36.70,0:21:40.40,Default,,0,0,0,fx,{\be5\blur5}不對 有新委託項目 可是卻完全沒有處裡啊
+Dialogue: 0,0:21:41.01,0:21:43.20,Default,,0,0,0,fx,{\be5\blur5}昨天是 更早之前也是 一直都是...
+Dialogue: 0,0:21:50.45,0:21:51.40,Default,,0,0,0,fx,{\be5\blur5}報告書?
+Dialogue: 0,0:21:53.10,0:21:56.70,Default,,0,0,0,fx,{\be5\blur5}第23次報告...24次報告
+Dialogue: 0,0:21:59.00,0:21:59.70,Default,,0,0,0,fx,{\be5\blur5}這是...
+Dialogue: 0,0:22:00.83,0:22:04.80,Default,,0,0,0,fx,{\be5\blur5}關於下落不明的樹狀圖設計者的最終報告
+Dialogue: 0,0:22:00.83,0:22:04.80,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1024,980)}Tree Diagram
+Dialogue: 0,0:22:05.89,0:22:08.65,Default,,0,0,0,fx,{\be5\blur5}7月28日 0:22
+Dialogue: 0,0:22:09.08,0:22:12.50,Default,,0,0,0,fx,{\be5\blur5}樹狀圖設計者從衛星軌道上消失
+Dialogue: 0,0:22:09.08,0:22:12.50,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(717,980)}Tree Diagram
+Dialogue: 0,0:22:13.00,0:22:17.05,Default,,0,0,0,fx,{\be5\blur5}同日 1:15 派出第一次搜查隊
+Dialogue: 0,0:22:17.46,0:22:22.00,Default,,0,0,0,fx,{\be5\blur5}同日 3:40 回收找到的部分殘骸
+Dialogue: 0,0:22:22.80,0:22:23.85,Default,,0,0,0,fx,{\be5\blur5}分析結果
+Dialogue: 0,0:22:24.24,0:22:25.75,Default,,0,0,0,fx,{\be5\blur5}樹狀圖設計者...
+Dialogue: 0,0:22:24.24,0:22:25.75,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(928,980)}Tree Diagram
+Dialogue: 0,0:22:29.32,0:22:30.90,Default,,0,0,0,fx,{\be5\blur5}樹狀圖設計者
+Dialogue: 0,0:22:29.32,0:22:30.90,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(960,980)}Tree Diagram
+Dialogue: 0,0:22:31.56,0:22:33.15,Default,,0,0,0,fx,{\be5\blur5}已不存在?
+Dialogue: 0,0:22:34.55,0:22:35.25,Default,,0,0,0,fx,{\be5\blur5}那...
+Dialogue: 0,0:22:36.43,0:22:41.85,Default,,0,0,0,fx,{\be5\blur5}我找找 貓 貓 貓...
+Dialogue: 0,0:23:31.26,0:23:33.20,Default,,0,0,0,fx,{\be5\blur5}樹狀圖設計者已不存在?
+Dialogue: 0,0:23:31.26,0:23:33.20,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(825,980)}Tree Diagram
+Dialogue: 0,0:23:33.20,0:23:34.25,Default,,0,0,0,fx,{\be5\blur5}實驗繼續進行著
+Dialogue: 0,0:23:34.25,0:23:36.00,Default,,0,0,0,fx,{\be5\blur5}已經沒有方法能拯救她們了嗎?
+Dialogue: 0,0:23:36.01,0:23:37.80,Default,,0,0,0,fx,{\be5\blur5}御坂要去進行下一個實驗
+Dialogue: 0,0:23:37.81,0:23:38.57,Default,,0,0,0,fx,{\be5\blur5}御坂...
+Dialogue: 0,0:23:38.57,0:23:39.85,Default,,0,0,0,fx,{\be5\blur5}不要去 求妳了!
+Dialogue: 5,0:03:03.16,0:03:06.66,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}Sorrow of your heart…
+Dialogue: 5,0:03:07.16,0:03:10.00,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)} I shoot it down
+Dialogue: 5,0:03:48.66,0:03:51.37,OPJP,,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}sister's noise…
+Dialogue: 5,0:03:52.92,0:03:55.58,OPJP,,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}I find it out…
+Dialogue: 5,0:04:01.59,0:04:04.64,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}Sorrow of your heart…
+Dialogue: 5,0:04:05.18,0:04:08.06,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)} I shoot it down
+Dialogue: 1,0:03:01.32,0:03:07.83,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}姐妹電氣  不斷尋找著心中的迷惘之所
+Dialogue: 1,0:03:07.87,0:03:14.84,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}無人能破壞這份交織重疊的感情
+Dialogue: 1,0:03:18.05,0:03:24.64,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}終而復始的真相遙在遠方
+Dialogue: 1,0:03:24.68,0:03:30.56,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}而我卻仍未察覺到你的那份痛楚
+Dialogue: 1,0:03:30.81,0:03:37.94,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}即使寄託於那天的夢想將我撕碎
+Dialogue: 1,0:03:38.03,0:03:44.91,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}只需堅信最重要的希望便可
+Dialogue: 1,0:03:46.45,0:03:49.58,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}雖近在咫尺
+Dialogue: 1,0:03:49.66,0:03:52.87,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}卻難聞你聲
+Dialogue: 1,0:03:52.87,0:03:59.71,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}在時光荏苒中總算遇見了你
+Dialogue: 1,0:03:59.76,0:04:06.18,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}姐妹電氣  不斷尋找著心中迷惘之所
+Dialogue: 1,0:04:06.18,0:04:12.60,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}一定會保護好互相感受到的同一份笑容
+Dialogue: 1,0:04:12.64,0:04:16.56,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}再也沒人能將其破壞
+Dialogue: 0,0:23:39.85,0:23:40.01,Default,,0,0,0,,
+Dialogue: 0,0:22:52.18,0:22:58.48,OPCN,NTP,0,0,0,,不知厭倦地細數著  而片片的雲朵卻飄向遠方
+Dialogue: 0,0:22:58.52,0:23:03.65,OPCN,NTP,0,0,0,,追上前去就能找到明天的夢想
+Dialogue: 0,0:23:03.69,0:23:07.15,OPCN,NTP,0,0,0,,親眼去確認一去不返的現在吧
+Dialogue: 0,0:23:07.19,0:23:10.32,OPCN,NTP,0,0,0,,你所傳達的感情
+Dialogue: 0,0:23:10.36,0:23:16.16,OPCN,NTP,0,0,0,,總有一天我也會傳達給你
+Dialogue: 0,0:23:16.20,0:23:22.13,OPCN,NTP,0,0,0,,像雲朵一般  悄悄地  悄悄地
+Dialogue: 0,0:23:22.17,0:23:27.21,OPCN,NTP,0,0,0,,無論在何處  也一直  一直地
+Dialogue: 0,0:23:27.21,0:23:29.38,OPCN,NTP,0,0,0,,向前
+Dialogue: 0,0:23:40.01,0:23:40.01,Default,,0,0,0,,

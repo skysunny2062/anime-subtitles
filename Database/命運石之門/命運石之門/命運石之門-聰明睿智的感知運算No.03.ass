@@ -1,0 +1,81 @@
+﻿[Script Info]
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,思源黑体 CN Medium,68,&H00FFFFFF,&HAC000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,23,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:09.44,0:00:12.11,Default,,0,0,0,,岡倫大叔和至大叔
+Dialogue: 0,0:00:13.20,0:00:15.62,Default,,0,0,0,,一直不換衣服 太不乾淨了
+Dialogue: 0,0:00:18.74,0:00:19.45,Default,,0,0,0,,原來如此
+Dialogue: 0,0:00:19.70,0:00:22.29,Default,,0,0,0,,被這麼直白地說了真是受傷呢
+Dialogue: 0,0:00:22.66,0:00:23.37,Default,,0,0,0,,啊
+Dialogue: 0,0:00:23.37,0:00:25.83,Default,,0,0,0,,我們做錯什麼了
+Dialogue: 0,0:00:25.92,0:00:28.50,Default,,0,0,0,,{\an8}衣服髒了和房租比起來
+Dialogue: 0,0:00:27.67,0:00:28.88,Default,,0,0,0,,雖然這麼說
+Dialogue: 0,0:00:29.38,0:00:31.59,Default,,0,0,0,,實際上也看不出哪裡乾淨
+Dialogue: 0,0:00:31.76,0:00:36.01,Default,,0,0,0,,你還說我們 夏天也一直穿着長筒襪 悶得發臭
+Dialogue: 0,0:00:36.05,0:00:37.05,Default,,0,0,0,,誰悶得發臭了
+Dialogue: 0,0:00:37.18,0:00:38.60,Default,,0,0,0,,我一直都有好好打理的
+Dialogue: 0,0:00:38.85,0:00:40.31,Default,,0,0,0,,別把我跟你們扯到一塊兒
+Dialogue: 0,0:00:41.72,0:00:43.60,Default,,0,0,0,,這樣行了吧 克莉絲汀娜
+Dialogue: 0,0:00:43.98,0:00:48.15,Default,,0,0,0,,讓我們被小學女生看了不會感到噁心
+Dialogue: 0,0:00:48.31,0:00:53.53,Default,,0,0,0,,用瘋狂先鋒前衛的服裝來打扮我們吧
+Dialogue: 0,0:00:54.11,0:00:54.74,Default,,0,0,0,,啥
+Dialogue: 0,0:00:54.99,0:00:57.57,Default,,0,0,0,,亂七八糟不知所云 但拜託給你了
+Dialogue: 0,0:00:57.87,0:00:58.57,Default,,0,0,0,,拜託了
+Dialogue: 0,0:01:00.37,0:01:04.12,Default,,0,0,0,,下面連接認知系統 開始預覽
+Dialogue: 0,0:01:04.50,0:01:05.21,Default,,0,0,0,,拜託啦
+Dialogue: 0,0:01:05.75,0:01:07.83,Default,,0,0,0,,服裝搭配可以預覽呀
+Dialogue: 0,0:01:08.17,0:01:11.30,Default,,0,0,0,,是 我會從那人的興趣愛好和性格類型中
+Dialogue: 0,0:01:11.55,0:01:13.63,Default,,0,0,0,,做出最適化選擇
+Dialogue: 0,0:01:14.30,0:01:16.51,Default,,0,0,0,,開始吧 先從橋田開始
+Dialogue: 0,0:01:16.72,0:01:19.47,Default,,0,0,0,,那麼現在開始試裝情景投影
+Dialogue: 0,0:01:20.01,0:01:21.47,Default,,0,0,0,,候選一號
+Dialogue: 0,0:01:23.06,0:01:24.27,Default,,0,0,0,,什麼怪聲
+Dialogue: 0,0:01:24.48,0:01:25.73,Default,,0,0,0,,這樣的感覺
+Dialogue: 0,0:01:35.78,0:01:36.61,Default,,0,0,0,,候選二號
+Dialogue: 0,0:01:42.24,0:01:43.12,Default,,0,0,0,,候選三號
+Dialogue: 0,0:01:46.71,0:01:47.33,Default,,0,0,0,,完畢
+Dialogue: 0,0:01:48.21,0:01:49.42,Default,,0,0,0,,橋田
+Dialogue: 0,0:01:49.75,0:01:53.76,Default,,0,0,0,,難道說那傢伙有讓我意想不到的興趣
+Dialogue: 0,0:01:55.05,0:01:56.09,Default,,0,0,0,,接下來 岡部
+Dialogue: 0,0:01:56.34,0:01:58.89,Default,,0,0,0,,好的
+Dialogue: 0,0:02:07.31,0:02:08.56,Default,,0,0,0,,候選二號
+Dialogue: 0,0:02:15.49,0:02:16.32,Default,,0,0,0,,候選三號
+Dialogue: 0,0:02:20.28,0:02:21.16,Default,,0,0,0,,完畢
+Dialogue: 0,0:02:25.75,0:02:26.54,Default,,0,0,0,,紅莉棲小姐
+Dialogue: 0,0:02:26.95,0:02:28.33,Default,,0,0,0,,以上投影作為參考
+Dialogue: 0,0:02:28.58,0:02:30.83,Default,,0,0,0,,最終的搭配由您來指定
+Dialogue: 0,0:02:31.21,0:02:32.50,Default,,0,0,0,,嗯 好
+Dialogue: 0,0:02:32.71,0:02:33.63,Default,,0,0,0,,交給我吧
+Dialogue: 0,0:02:36.17,0:02:37.38,Default,,0,0,0,,首先從橋田先生開始
+Dialogue: 0,0:02:38.63,0:02:41.68,Default,,0,0,0,,切 這絕對是隨隨便便覺得的
+Dialogue: 0,0:02:42.22,0:02:43.01,Default,,0,0,0,,不好意思 橋田
+Dialogue: 0,0:02:43.43,0:02:46.14,Default,,0,0,0,,那是因為你的定妝照我沒能看得下去
+Dialogue: 0,0:02:46.39,0:02:47.14,Default,,0,0,0,,什麼 算了
+Dialogue: 0,0:02:47.68,0:02:52.23,Default,,0,0,0,,靠這個說不定也會有女孩子跑來抱我的
+Dialogue: 0,0:02:52.61,0:02:53.40,Default,,0,0,0,,真樂觀
+Dialogue: 0,0:02:53.90,0:02:55.69,Default,,0,0,0,,那麼接下來 就是岡部先生了
+Dialogue: 0,0:02:58.28,0:02:59.57,Default,,0,0,0,,呃 這不是
+Dialogue: 0,0:02:59.78,0:03:02.24,Default,,0,0,0,,完完全全的新入社職工的樣子嗎
+Dialogue: 0,0:03:02.41,0:03:04.45,Default,,0,0,0,,完全帶不來備受矚目的感覺
+Dialogue: 0,0:03:04.53,0:03:05.74,Default,,0,0,0,,那種東西 不需要
+Dialogue: 0,0:03:08.16,0:03:11.92,Default,,0,0,0,,雖說如此 我確實覺得哪裡有些不足
+Dialogue: 0,0:03:16.96,0:03:17.42,Default,,0,0,0,,岡部
+Dialogue: 0,0:03:20.76,0:03:22.80,Default,,0,0,0,,啊 好能幹的助手
+Dialogue: 0,0:03:23.01,0:03:26.22,Default,,0,0,0,,果然這瘋狂科學家正裝不錯
+Dialogue: 0,0:03:26.31,0:03:30.10,Default,,0,0,0,,穿着這絕對不會再被說不乾淨啦
+Dialogue: 0,0:03:31.23,0:03:32.23,Default,,0,0,0,,是的呢
+Dialogue: 0,0:03:33.10,0:03:35.19,Default,,0,0,0,,果然岡部不穿白衣的話不行呢
+Dialogue: 0,0:03:35.52,0:03:36.65,Default,,0,0,0,,什麼呀 這種鬧劇
+Dialogue: 0,0:03:36.98,0:03:40.11,Default,,0,0,0,,沒有沒有 讓大家滿意歡樂的就是最好的
+Dialogue: 0,0:03:40.53,0:03:41.24,Default,,0,0,0,,OVER
+Dialogue: 0,0:00:00.98,0:00:05.98,Default,,0,0,0,,{\fn方正大标宋_GBK\1cH070609\bord0\b1\fs90}聰明睿智的Cognitive Computing\N\N\N
+Dialogue: 0,0:00:14.78,0:00:20.79,Default,,0,0,0,,{\fn方正正粗黑_GBK\3cFFFFFF\1c000000\shad3\fad(891,0)\pos(262.286,884.548)}#3 時尚篇

@@ -1,0 +1,1777 @@
+﻿[Script Info]
+Title: lovelive
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1920
+PlayResY: 1080
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: staff 方正正准黑_GBK,方正正准黑_GBK,65,&H00565B07,&H000000FF,&H32FEFEFE,&H00000000,0,0,0,0,100,100,0,0,1,1,0,7,23,23,23,1
+Style: TEXT jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,56,&H00FFFFFF,&H000000FF,&H00671AE6,&H78000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,20,1
+Style: TEXT cn 方正粗圆_GBK,方正粗圆_GBK,66,&H00FFFFFF,&H000000FF,&H00671AE6,&H78000000,0,0,0,0,100,100,0,0,1,3.4,0,2,15,15,30,1
+Style: NOTES 方正北魏楷书_GBK,方正粗圆_GBK,51,&H00E8E8F5,&H00FFFFFF,&H00000000,&H00000000,-1,0,0,0,100,100,3,0,1,2.1,0,7,15,15,15,1
+Style: OTHERS 方正正准黑_GBK,方正正准黑_GBK,63,&H00FFFFFF,&HF0000000,&H00000000,&H00000000,-1,0,0,0,100,100,6,0,1,3,0,2,0,0,3,134
+Style: 22-jp A-OTF Kumoya Std R,A-OTF Kumoya Std R,69,&H00E7E7F4,&H000000FF,&H0053B3D5,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,71,1
+Style: 22-cn 方正稚艺_GBK,方正稚艺_GBK,60,&H00E8E8F5,&H000000FF,&H0053B3D5,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,20,1
+Style: 35 jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,69,&H00FFFFFF,&H000000FF,&H009D65E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,2,15,15,20,1
+Style: 35 cn 方正粗圆_GBK,方正粗圆_GBK,66,&H00FFFFFF,&H000000FF,&H009D65E0,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,15,15,20,1
+Style: 43 jp A-OTF Folk Pro B,A-OTF Folk Pro B,65,&H00E8E8F5,&H000000FF,&H00290DBB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,15,15,71,1
+Style: 43 cn 方正正准黑_GBK,方正正准黑_GBK,60,&H00E8E8F5,&H000000FF,&H00290DBB,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,15,15,20,1
+Style: 71 jp A-OTF Kakumin Pro B,A-OTF Kakumin Pro B,66,&H00FFFFFF,&H000000FF,&H00737B7E,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,71,1
+Style: 71 cn 方正正准黑_GBK,方正正准黑_GBK,63,&H00FFFFFF,&H000000FF,&H00737B7E,&H00000000,-1,0,0,0,100,100,0,0,1,3.75,0,9,15,15,20,1
+Style: 86 jp A-OTF Shin Maru Go Pro DB,A-OTF Shin Maru Go Pro DB,75,&H00FFFFFF,&H000000FF,&H000F76F6,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,2,15,15,20,1
+Style: 86 cn 方正粗圆_GBK,方正粗圆_GBK,69,&H00FFFFFF,&H000000FF,&H000F76F6,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,15,15,20,1
+Style: 94 jp G-OTF Kyoukasho ICA Pro M,G-OTF Kyoukasho ICA Pro M,55,&H00FFFFFF,&H000000FF,&H008978E0,&H00000000,0,-1,0,0,100,100,0,0,1,4.5,0,8,23,23,20,1
+Style: 94 cn 方正北魏楷书_GBK,方正北魏楷书_GBK,60,&H00FFFFFF,&H000000FF,&H008978E0,&H00000000,0,-1,0,0,100,100,0,0,1,4.5,0,2,23,23,30,1
+Style: 60 方正北魏楷书_GBK,方正北魏楷书_GBK,75,&H00FFFFFF,&H000000FF,&H00D87B3E,&H00000000,0,0,0,0,100,100,0,0,1,4.5,0,9,23,23,23,1
+Style: 71 jp @A-OTF Kakumin Pro B - ed,@A-OTF Kakumin Pro B,50,&H00FFFFFF,&H000000FF,&H002B352C,&H00727A7D,0,0,0,0,100,100,0,0,1,1.5,2.25,7,75,15,15,1
+Style: 71 cn @方正正准黑_GBK - ed,@方正正准黑_GBK,63,&H00FFFFFF,&H000000FF,&H002B352C,&H00727A7D,-1,0,0,0,100,100,0,0,1,1.5,2.25,3,15,75,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:25.98,0:00:25.98,22-jp A-OTF Kumoya Std R,,0,0,0,,Hello,星を数えて
+Comment: 0,0:22:46.94,0:22:47.40,22-cn 方正稚艺_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Angelic Angel
+Comment: 0,0:35:51.47,0:35:53.47,35 cn 方正粗圆_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,43 jp A-OTF Folk Pro B,,0,0,0,,Heartbeat
+Comment: 0,0:43:52.01,0:43:54.01,43 cn 方正正准黑_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,71 jp A-OTF Kakumin Pro B,,0,0,0,,Future style
+Comment: 0,1:12:00.93,1:12:02.93,71 cn 方正正准黑_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,Sunny Day Song
+Comment: 0,1:27:17.56,1:27:19.56,86 cn 方正粗圆_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,僕たちはひとつの光
+Comment: 0,1:34:58.48,1:35:00.48,94 cn 方正北魏楷书_GBK,,0,0,0,,
+Comment: 0,0:00:25.98,0:00:25.98,60 方正北魏楷书_GBK,,0,0,0,,
+Comment: 0,0:55:58.63,0:55:58.63,60 方正北魏楷书_GBK,,0,0,0,,
+Comment: 0,0:55:58.63,0:56:00.25,NOTES 方正北魏楷书_GBK,,0,0,0,,---NOTES---
+Comment: 0,0:55:58.63,0:56:00.25,OTHERS 方正正准黑_GBK,,0,0,0,,---OTHERS---
+Comment: 0,0:00:00.00,0:00:00.00,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,
+Dialogue: 0,0:22:47.40,0:22:51.15,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}Hello,歌に呼ばれて
+Dialogue: 0,0:22:51.57,0:22:55.37,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}光あふれる街はカーニバルみたい
+Dialogue: 0,0:22:55.77,0:22:59.34,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}Hello,応えてみたら
+Dialogue: 0,0:22:59.44,0:23:04.89,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}きっと一歩ずつ世界広がるよ Hello!
+Dialogue: 0,0:23:16.89,0:23:20.40,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}踊り出す交差点で
+Dialogue: 0,0:23:20.67,0:23:23.69,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}みんな驚かない
+Dialogue: 0,0:23:25.20,0:23:28.90,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}なにもかも自由なの？
+Dialogue: 0,0:23:29.35,0:23:32.76,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}流れる人の波に
+Dialogue: 0,0:23:33.23,0:23:35.13,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}飲み込まれそうになるよ
+Dialogue: 0,0:23:35.33,0:23:37.22,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}知らない言葉のメロディー
+Dialogue: 0,0:23:37.46,0:23:41.92,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}不思議と力が湧いてくる
+Dialogue: 0,0:23:42.65,0:23:46.38,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}Hello,星を数えて
+Dialogue: 0,0:23:46.85,0:23:50.78,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}これから出会うことを占えば
+Dialogue: 0,0:23:51.00,0:23:54.69,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}Hello,予測不可能！？
+Dialogue: 0,0:23:54.69,0:23:57.14,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}きっと一緒なら
+Dialogue: 0,0:23:57.56,0:24:00.09,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}ぜんぶ楽しめる Hello!
+Dialogue: 0,0:24:00.42,0:24:05.85,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}明日起きたら どうなるかな
+Dialogue: 0,0:24:06.70,0:24:11.02,22-jp A-OTF Kumoya Std R,,0,0,0,,{\fad(300,300)\blur4.5}どうしようかな
+Dialogue: 1,0:22:47.40,0:22:51.15,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}Hello 受到歌聲的召喚
+Dialogue: 1,0:22:51.57,0:22:55.37,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}街上燈火通明好似狂歡節
+Dialogue: 1,0:22:55.77,0:22:59.34,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}Hello 試著作出回應
+Dialogue: 1,0:22:59.44,0:23:04.89,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}世界一定也會一點點變得寬廣 Hello
+Dialogue: 1,0:23:16.89,0:23:20.40,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}在十字街頭倏然起舞
+Dialogue: 1,0:23:20.67,0:23:23.69,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}行人卻也司空見慣
+Dialogue: 1,0:23:25.20,0:23:28.90,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}一切都是如此隨性
+Dialogue: 1,0:23:29.35,0:23:32.76,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}彷彿要被這湧動的人潮
+Dialogue: 1,0:23:33.23,0:23:35.13,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}所吞噬
+Dialogue: 1,0:23:35.33,0:23:37.22,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}未曾知曉的語言的旋律
+Dialogue: 1,0:23:37.46,0:23:41.92,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}令人好奇心與力量倍增
+Dialogue: 1,0:23:42.65,0:23:46.38,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}Hello 清點著漫天的繁星
+Dialogue: 1,0:23:46.85,0:23:50.78,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}試著占卜未來的遭遇
+Dialogue: 1,0:23:51.00,0:23:54.69,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}Hello 卻發現不可預知
+Dialogue: 1,0:23:54.69,0:23:57.14,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}那麼與夥伴一起
+Dialogue: 1,0:23:57.56,0:24:00.09,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}定可笑對一切 Hello
+Dialogue: 1,0:24:00.42,0:24:05.85,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}明日一覺醒來 一切會怎樣
+Dialogue: 1,0:24:06.70,0:24:11.02,22-cn 方正稚艺_GBK,,0,0,0,,{\fad(300,300)\blur4.5}要如何應對
+Dialogue: 0,0:35:53.33,0:35:54.75,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}ココはどこ？
+Dialogue: 0,0:35:54.75,0:35:58.96,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}待って言わないで わかってる
+Dialogue: 0,0:35:59.38,0:36:04.48,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}夢に見た熱い蜃気楼なのさ
+Dialogue: 0,0:36:05.40,0:36:06.82,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}キミはだれ？
+Dialogue: 0,0:36:06.82,0:36:11.01,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}なんて聞かないよ わかってる
+Dialogue: 0,0:36:11.42,0:36:16.27,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}おたがいの願いが呼んだ出会い
+Dialogue: 0,0:36:16.56,0:36:21.72,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}遠ざかるほど光る一番星
+Dialogue: 0,0:36:21.89,0:36:27.31,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}いつかそんな恋してみたかった
+Dialogue: 0,0:36:28.65,0:36:33.74,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}もういらないよ胸のブレーキは
+Dialogue: 0,0:36:34.14,0:36:38.13,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}見つめあうために
+Dialogue: 0,0:36:38.42,0:36:42.67,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}生まれた二人になってく
+Dialogue: 0,0:36:44.06,0:36:48.03,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}Ah「もしも」は欲しくないのさ
+Dialogue: 0,0:36:48.03,0:36:50.04,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}「もっと」が好きAngel
+Dialogue: 0,0:36:50.43,0:36:55.87,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}翼をただの飾りにはしない
+Dialogue: 0,0:36:56.10,0:36:59.96,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}Ah「もしも」は欲しくないけど
+Dialogue: 0,0:36:59.96,0:37:02.13,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}「もっと」は好きAngel
+Dialogue: 0,0:37:02.70,0:37:07.62,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}明日じゃない 大事なときは
+Dialogue: 0,0:37:07.77,0:37:13.38,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}今なんだと気がついて
+Dialogue: 0,0:37:13.68,0:37:21.74,35 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}こころの羽ばたきはとまらない
+Dialogue: 0,0:35:53.33,0:35:54.75,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}此處是何方
+Dialogue: 0,0:35:54.75,0:35:58.96,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}等等 不要說出口 我已知曉
+Dialogue: 0,0:35:59.38,0:36:04.48,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}這裡是夢中所見過的酷熱的海市蜃樓
+Dialogue: 0,0:36:05.40,0:36:06.82,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}你是何人
+Dialogue: 0,0:36:06.82,0:36:11.01,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我不會過問 因已了然於胸
+Dialogue: 0,0:36:11.42,0:36:16.27,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}這場邂逅正是回應了我們兩人的心願
+Dialogue: 0,0:36:16.56,0:36:21.72,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}距離越是遙遠 卻反而愈加閃耀的宵之明星
+Dialogue: 0,0:36:21.89,0:36:27.31,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我願於彼時經歷一場如此般熱烈的戀情
+Dialogue: 0,0:36:28.65,0:36:33.74,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}已無需克制內心裡的情感
+Dialogue: 0,0:36:34.14,0:36:38.13,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}成為為了注視彼此
+Dialogue: 0,0:36:38.42,0:36:42.67,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}而生的兩個人
+Dialogue: 0,0:36:44.06,0:36:48.03,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Ah 不希望只停留在「如果」
+Dialogue: 0,0:36:48.03,0:36:50.04,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}而追求「更進一步」的天使
+Dialogue: 0,0:36:50.43,0:36:55.87,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}不會甘心讓羽翼作為純粹的裝飾
+Dialogue: 0,0:36:56.10,0:36:59.96,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Ah 雖說不希望只是「如果」
+Dialogue: 0,0:36:59.96,0:37:02.13,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}想要「更進一步」的天使
+Dialogue: 0,0:37:02.70,0:37:07.62,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}才發覺此刻
+Dialogue: 0,0:37:07.77,0:37:13.38,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}遠比未來更需珍視
+Dialogue: 0,0:37:13.68,0:37:21.74,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}心之羽翼展翅高飛 生生不息
+Dialogue: 0,0:43:54.01,0:43:56.07,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}ランナウェイだ　ランランナウェイだ
+Dialogue: 0,0:43:56.13,0:43:57.81,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}なんなんなんで突然？
+Dialogue: 0,0:43:58.07,0:44:00.14,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}ランナウェイだ　ランランナウェイだ
+Dialogue: 0,0:44:00.17,0:44:01.95,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}いきなり人気者
+Dialogue: 0,0:44:02.19,0:44:05.86,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}ああ…まさかの大ブレイク
+Dialogue: 0,0:44:06.22,0:44:09.55,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}笑顏で切り抜けて　ランランランナウェイ！
+Dialogue: 0,0:44:09.55,0:44:13.33,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}おかしいな　もう一回目を閉じて深呼吸
+Dialogue: 0,0:44:13.59,0:44:17.65,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}おかしいな　ホントは梦見てるのかな
+Dialogue: 0,0:44:17.65,0:44:21.34,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}お互いをつねろう　痛いほどつねろう
+Dialogue: 0,0:44:21.64,0:44:26.24,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}消えないねこの街も追いかける人もね
+Dialogue: 0,0:44:26.30,0:44:28.42,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}消えない…消えないっ
+Dialogue: 0,0:44:29.77,0:44:33.42,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}ありがとうって思うヒマがないほど
+Dialogue: 0,0:44:33.58,0:44:37.54,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}びっくりしたままで　?←HEARTBEAT
+Dialogue: 0,0:44:37.81,0:44:41.54,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}幸せは突然すぎるときっと
+Dialogue: 0,0:44:41.68,0:44:48.25,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}ハテナから先へとなかなか進めない
+Dialogue: 0,0:44:48.68,0:44:50.36,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}さあ、どうしよう
+Dialogue: 0,0:44:50.79,0:44:54.34,43 jp A-OTF Folk Pro B,,0,0,0,,{\blur4.5\fad(300,300)}これから さあ、どしよう？
+Dialogue: 1,0:43:54.01,0:43:56.07,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}逃走吧 快快逃走吧
+Dialogue: 1,0:43:56.13,0:43:57.81,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}為何為何為何如此突然
+Dialogue: 1,0:43:58.07,0:44:00.14,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}逃走吧 快快逃走吧
+Dialogue: 1,0:44:00.17,0:44:01.95,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}忽然間成為了萬人迷
+Dialogue: 1,0:44:02.19,0:44:05.86,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}啊啊…意想不到的大人氣
+Dialogue: 1,0:44:06.22,0:44:09.55,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}面帶微笑從容突圍 快快快逃走
+Dialogue: 1,0:44:09.55,0:44:13.33,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好奇怪啊 再一次閉上雙眼深呼吸
+Dialogue: 1,0:44:13.59,0:44:17.65,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好奇怪啊 這是不是在做夢呢
+Dialogue: 1,0:44:17.65,0:44:21.34,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}互相掐一下臉吧 掐到覺得痛為止
+Dialogue: 1,0:44:21.64,0:44:26.24,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}這條街與追逐我們的人都好似無窮盡
+Dialogue: 1,0:44:26.30,0:44:28.42,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}無窮盡 沒有盡頭
+Dialogue: 1,0:44:29.77,0:44:33.42,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}毫無思考如何去感謝的空閒
+Dialogue: 1,0:44:33.58,0:44:37.54,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}仍覺受寵若驚 ?←HEARTBEAT
+Dialogue: 1,0:44:37.81,0:44:41.54,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}一定是因為幸福來得太突然
+Dialogue: 1,0:44:41.68,0:44:48.25,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}從問號開始就舉步維艱
+Dialogue: 1,0:44:48.68,0:44:50.36,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}到底如何是好
+Dialogue: 1,0:44:50.79,0:44:54.34,43 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}今後 到底如何是好
+Dialogue: 0,1:12:02.93,1:12:08.04,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}聴いてもらいたいんだ ずっと思い続けて
+Dialogue: 0,1:12:08.41,1:12:12.51,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}とにかく動きだしてみたら
+Dialogue: 0,1:12:12.85,1:12:18.26,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}新しい日々のなかで
+Dialogue: 0,1:12:18.29,1:12:23.14,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}新ずつ生まれた未来
+Dialogue: 0,1:12:23.73,1:12:28.65,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}まだ挑戦したいね やれるね
+Dialogue: 0,1:12:29.96,1:12:37.30,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}みんなで追いかけよう ときめきを
+Dialogue: 0,1:12:37.55,1:12:38.56,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}Future style
+Dialogue: 0,1:12:38.62,1:12:42.98,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}会いたいよ その瞬間待っててね
+Dialogue: 0,1:12:43.06,1:12:49.22,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}いつか描いた希望のステージ
+Dialogue: 0,1:12:49.50,1:12:53.63,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}世界中ここにしかない
+Dialogue: 0,1:12:54.01,1:12:55.00,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}Future style
+Dialogue: 0,1:12:55.05,1:12:59.35,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}会いたいよ その瞬間待っててね
+Dialogue: 0,1:12:59.46,1:13:05.71,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}今こそ全部叶えたい I wish starting
+Dialogue: 0,1:13:05.95,1:13:13.94,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}最高の夢をカタチにする時だと
+Dialogue: 0,1:13:14.26,1:13:19.12,71 jp A-OTF Kakumin Pro B,,0,0,0,,{\blur4.5\fad(300,300)}声が 聞こえる！
+Dialogue: 1,1:12:02.93,1:12:08.04,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我一直希望你能聽到這首歌
+Dialogue: 1,1:12:08.41,1:12:12.51,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}暫且嘗試著舞動起來
+Dialogue: 1,1:12:12.85,1:12:18.26,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}在嶄新的時日裡
+Dialogue: 1,1:12:18.29,1:12:23.14,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}未來便一點一滴逐漸誕生
+Dialogue: 1,1:12:23.73,1:12:28.65,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}渴望再挑戰試試 一定能做到的
+Dialogue: 1,1:12:29.96,1:12:37.30,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}大家一起追逐吧 那心中的悸動
+Dialogue: 1,1:12:37.55,1:12:38.56,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Future style
+Dialogue: 1,1:12:38.62,1:12:42.98,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好想見到你 請等待那一刻的到來吧
+Dialogue: 1,1:12:43.06,1:12:49.22,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}曾於心中描繪的希望的舞台
+Dialogue: 1,1:12:49.50,1:12:53.63,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}整個世界上獨此一處
+Dialogue: 1,1:12:54.01,1:12:55.00,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Future style
+Dialogue: 1,1:12:55.05,1:12:59.35,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好想見到你 請等待那一刻的到來吧
+Dialogue: 1,1:12:59.46,1:13:05.71,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}現在就想全部實現 I wish starting
+Dialogue: 1,1:13:05.95,1:13:13.94,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}這正是把最美好的夢想化為現實的一刻
+Dialogue: 1,1:13:14.26,1:13:19.12,71 cn 方正正准黑_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我聽見有個聲音如此呼喚
+Dialogue: 0,1:27:19.56,1:27:22.30,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}楽しいねこんな夢
+Dialogue: 0,1:27:22.35,1:27:27.23,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}えがおで喜び歌おうよ
+Dialogue: 0,1:27:27.36,1:27:30.60,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}それが始まりの合図
+Dialogue: 0,1:27:30.65,1:27:36.13,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}一歩ずつ君から 一歩ずつ僕から
+Dialogue: 0,1:27:36.20,1:27:41.34,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}どこかへ行きたい心のステップ
+Dialogue: 0,1:27:41.71,1:27:46.97,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}受けとめてあげるここで
+Dialogue: 0,1:27:47.21,1:27:52.11,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}最初は少しためらっても
+Dialogue: 0,1:27:52.80,1:27:58.19,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}受けとめる場所があるって
+Dialogue: 0,1:27:58.34,1:28:03.94,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}もっともっと知ってほしくなるよ…なるよ！
+Dialogue: 0,1:28:04.52,1:28:05.71,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:28:05.96,1:28:10.29,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 高く跳びあがれ
+Dialogue: 0,1:28:10.46,1:28:15.55,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}どんなことも乗り越えられる 気がするよ
+Dialogue: 0,1:28:15.67,1:28:16.80,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:28:17.06,1:28:21.25,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 口ずさむ時は
+Dialogue: 0,1:28:21.56,1:28:30.11,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}明日への期待がふくらんで いい気持ち
+Dialogue: 0,1:28:30.20,1:28:34.96,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Sun power!
+Dialogue: 0,1:28:35.74,1:28:40.60,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:28:44.14,1:28:46.90,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}元気でるこんな夢
+Dialogue: 0,1:28:46.97,1:28:51.61,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}あれこれみんなで語ろうよ
+Dialogue: 0,1:28:52.08,1:28:55.22,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}それは繋がりのサイン
+Dialogue: 0,1:28:55.30,1:29:00.75,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}二歩目はしっかりと 三歩目は大胆に
+Dialogue: 0,1:29:00.83,1:29:06.06,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}おそれず行けそうな予感でダンス
+Dialogue: 0,1:29:06.33,1:29:11.65,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}自分から手を伸ばしたら
+Dialogue: 0,1:29:11.87,1:29:17.54,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}もっともっと面白くなるよ…なるよ！
+Dialogue: 0,1:29:18.03,1:29:19.18,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:29:19.46,1:29:23.66,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 輝きになろう
+Dialogue: 0,1:29:24.01,1:29:29.01,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}なんて言える今の気分を分け合えば
+Dialogue: 0,1:29:29.19,1:29:30.29,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:29:30.58,1:29:34.78,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 君も踊り出す
+Dialogue: 0,1:29:34.96,1:29:40.82,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}幸せの予感に包まれ
+Dialogue: 0,1:29:40.97,1:29:49.02,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}なんでもできそうさ
+Dialogue: 0,1:30:14.85,1:30:16.26,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:30:16.33,1:30:20.56,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 輝きになろう
+Dialogue: 0,1:30:20.84,1:30:25.79,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}なんて言える今の気分を分け合えば
+Dialogue: 0,1:30:26.10,1:30:27.33,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:30:27.44,1:30:31.69,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 君も踊り出す
+Dialogue: 0,1:30:37.16,1:30:38.26,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:30:38.52,1:30:42.59,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 高く跳びあがれ
+Dialogue: 0,1:30:43.13,1:30:47.95,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}どんなことも乗り越えられる気がするよ
+Dialogue: 0,1:30:48.26,1:30:49.36,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:30:49.62,1:30:53.86,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 口ずさむ時は
+Dialogue: 0,1:30:54.18,1:31:01.73,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}明日への期待がふくらんでいい気持ち
+Dialogue: 0,1:31:02.85,1:31:07.69,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Sun power!
+Dialogue: 0,1:31:08.31,1:31:12.80,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:31:12.92,1:31:14.10,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}歌うよ
+Dialogue: 1,1:31:13.96,1:31:17.97,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:31:18.64,1:31:19.69,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}こんな夢
+Dialogue: 1,1:31:19.61,1:31:23.47,86 jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:27:19.56,1:27:22.30,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}如此美夢 令人欣喜
+Dialogue: 0,1:27:22.35,1:27:27.23,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}滿懷笑容 歌唱喜悅之情
+Dialogue: 0,1:27:27.36,1:27:30.60,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}那正是開始的信號
+Dialogue: 0,1:27:30.65,1:27:36.13,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}你向前一步 我緊跟一步
+Dialogue: 0,1:27:36.20,1:27:41.34,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}問詢內心留下的足跡所嚮往之處
+Dialogue: 0,1:27:41.71,1:27:46.97,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我願在這裡接納你的全部
+Dialogue: 0,1:27:47.21,1:27:52.11,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}哪怕你一開始稍有猶豫
+Dialogue: 0,1:27:52.80,1:27:58.19,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}我也能確定我們會有共同的歸宿
+Dialogue: 0,1:27:58.34,1:28:03.94,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}希望你能更加理解到這一點
+Dialogue: 0,1:28:04.52,1:28:05.71,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:28:05.96,1:28:10.29,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 高高地跳起來吧
+Dialogue: 0,1:28:10.46,1:28:15.55,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好像無論怎樣的困難 我們都能跨越
+Dialogue: 0,1:28:15.67,1:28:16.80,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:28:17.06,1:28:21.25,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 輕哼著歌曲的時候
+Dialogue: 0,1:28:21.56,1:28:30.11,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}胸中便會充滿期待明天的美好心情
+Dialogue: 0,1:28:30.20,1:28:34.96,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Sun power!
+Dialogue: 0,1:28:35.74,1:28:40.60,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:28:44.14,1:28:46.90,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}充滿能量 這樣的夢
+Dialogue: 0,1:28:46.97,1:28:51.61,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}一切一切 大家相聚暢談
+Dialogue: 0,1:28:52.08,1:28:55.22,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}那是心心相連的標誌
+Dialogue: 0,1:28:55.30,1:29:00.75,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}第二步要是沈著堅實 第三步就要大膽果決
+Dialogue: 0,1:29:00.83,1:29:06.06,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}不懼失敗隨著感覺起舞
+Dialogue: 0,1:29:06.33,1:29:11.65,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}只要敢於伸出雙手
+Dialogue: 0,1:29:11.87,1:29:17.54,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}就更能使自己樂在其中
+Dialogue: 0,1:29:18.03,1:29:19.18,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:29:19.46,1:29:23.66,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 讓我們變得耀眼吧
+Dialogue: 0,1:29:24.01,1:29:29.01,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}只要我們一起說出現在的心情
+Dialogue: 0,1:29:29.19,1:29:30.29,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:29:30.58,1:29:34.78,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 你也共同翩翩起舞
+Dialogue: 0,1:29:34.96,1:29:40.82,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}置身於幸福的預感之中
+Dialogue: 0,1:29:40.97,1:29:49.02,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好像一切事情都能成功
+Dialogue: 0,1:30:14.85,1:30:16.26,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:30:16.33,1:30:20.56,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 讓我們變得耀眼吧
+Dialogue: 0,1:30:20.84,1:30:25.79,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}只要我們一起說出現在的心情
+Dialogue: 0,1:30:26.10,1:30:27.33,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE
+Dialogue: 0,1:30:27.44,1:30:31.69,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY LIFE 你也共同翩翩起舞
+Dialogue: 0,1:30:37.16,1:30:38.26,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:30:38.52,1:30:42.59,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 高高地跳起來吧
+Dialogue: 0,1:30:43.13,1:30:47.95,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}好像無論怎樣的困難 我們都能跨越
+Dialogue: 0,1:30:48.26,1:30:49.36,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG
+Dialogue: 0,1:30:49.62,1:30:53.86,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY SONG 輕哼著歌曲的時候
+Dialogue: 0,1:30:54.18,1:31:01.73,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}胸中便會充滿期待明天的美好心情
+Dialogue: 0,1:31:02.85,1:31:07.69,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Sun power!
+Dialogue: 0,1:31:08.31,1:31:12.80,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:31:12.92,1:31:14.10,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}歌唱吧
+Dialogue: 1,1:31:13.96,1:31:17.97,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:31:18.64,1:31:19.69,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}如此美夢
+Dialogue: 1,1:31:19.61,1:31:23.47,86 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\fad(300,300)}SUNNY DAY Wow! Song power!
+Dialogue: 0,1:35:01.12,1:35:05.71,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&H0F76F6&}ほのかな予感から始まり
+Dialogue: 0,1:35:06.62,1:35:08.04,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&HF63D7A&}のぞみが
+Dialogue: 0,1:35:08.30,1:35:11.16,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&H53B1D4&}星空かけて
+Dialogue: 0,1:35:11.52,1:35:13.93,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&H0AAA34&}花を咲かせる
+Dialogue: 0,1:35:14.21,1:35:16.67,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&HAC18DE&}にっこり笑顔は
+Dialogue: 0,1:35:16.99,1:35:22.13,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}ずっと同じさ 友情の笑顔
+Dialogue: 0,1:35:22.51,1:35:27.55,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}忘れない いつまでも 忘れない
+Dialogue: 0,1:35:28.02,1:35:32.94,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}こんなにも心がひとつになる
+Dialogue: 0,1:35:33.44,1:35:40.34,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}世界を見つけた喜び
+Dialogue: 0,1:35:40.34,1:35:41.41,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}ともに
+Dialogue: 0,1:35:41.56,1:35:42.86,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}歌おう
+Dialogue: 0,1:35:43.00,1:35:45.18,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}最後まで
+Dialogue: 0,1:35:45.33,1:35:49.40,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}僕たちはひとつ
+Dialogue: 0,1:35:50.13,1:35:57.82,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&H727A7D&}ことりの翼がついに大きくなって
+Dialogue: 0,1:35:58.37,1:36:00.84,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}旅立ちの日だよ
+Dialogue: 0,1:36:01.14,1:36:08.61,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&HD58322&}遠くへと広がる海の色暖かく
+Dialogue: 0,1:36:09.06,1:36:14.52,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&HEDBB6C&}夢の中で描いた絵のようなんだ切なくて
+Dialogue: 0,1:36:14.92,1:36:22.35,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5\3c&H290DBB&}時をまき戻してみるかい
+Dialogue: 0,1:36:28.72,1:36:31.36,94 jp G-OTF Kyoukasho ICA Pro M,,0,0,0,,{\fad(300,300)\blur4.5}今が最高
+Dialogue: 0,1:36:53.51,1:36:58.37,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}皆と出会えたこと
+Dialogue: 0,1:36:58.70,1:37:04.40,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}嬉しくて離れたくないよ 本当だよ
+Dialogue: 0,1:37:04.59,1:37:07.14,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}涙はいらない
+Dialogue: 0,1:37:07.38,1:37:09.84,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}このまま踊ろう
+Dialogue: 0,1:37:10.08,1:37:15.62,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}手を振って もっと振って
+Dialogue: 0,1:37:18.21,1:37:26.04,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}光を追いかけてきた僕たちだから
+Dialogue: 0,1:37:26.57,1:37:29.12,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}さよならは言わない
+Dialogue: 0,1:37:29.39,1:37:33.33,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}また会おう 呼んでくれるかい
+Dialogue: 0,1:37:33.39,1:37:37.00,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}僕たちのこと
+Dialogue: 0,1:37:37.29,1:37:39.90,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}素敵だった 未来に
+Dialogue: 0,1:37:40.01,1:37:42.99,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}繋がった夢 夢の未来
+Dialogue: 0,1:37:43.15,1:37:48.10,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}君と僕の LIVE&LIFE
+Dialogue: 0,1:38:10.69,1:38:17.90,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}ことりの翼がついに大きくなって
+Dialogue: 0,1:38:19.04,1:38:21.58,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}旅立ちの日だよ
+Dialogue: 0,1:38:21.79,1:38:29.06,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}遠くへと広がる海の色暖かく
+Dialogue: 0,1:38:29.72,1:38:35.37,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}夢の中で描いた絵のようなんだ切なくて
+Dialogue: 0,1:38:35.56,1:38:42.32,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}時を巻き戻してみるかい
+Dialogue: 0,1:38:49.38,1:38:51.61,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}今が最高
+Dialogue: 0,1:38:51.72,1:38:54.44,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}だって
+Dialogue: 0,1:38:57.20,1:38:59.76,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}だって
+Dialogue: 0,1:39:00.45,1:39:03.22,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}今が最高
+Dialogue: 0,1:39:05.34,1:39:10.45,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}ほのかな予感から始まり
+Dialogue: 0,1:39:11.24,1:39:19.33,71 jp @A-OTF Kakumin Pro B - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}光を追いかけてきたんだよ
+Dialogue: 1,1:35:01.12,1:35:05.71,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&H0F76F6&}由渺小的預感拉開帷幕
+Dialogue: 1,1:35:06.62,1:35:08.04,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&HF63D7A&}希望於
+Dialogue: 1,1:35:08.30,1:35:11.16,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&H53B1D4&}星空飛馳
+Dialogue: 1,1:35:11.52,1:35:13.93,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&H0AAA34&}令花兒悄然綻放
+Dialogue: 1,1:35:14.21,1:35:16.67,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&HAC18DE&}恬美笑容
+Dialogue: 1,1:35:16.99,1:35:22.13,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}始終如一 是象徵友情的笑容
+Dialogue: 1,1:35:22.51,1:35:27.55,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}揮之不去 由始至終無法忘卻
+Dialogue: 1,1:35:28.02,1:35:32.94,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}令我們如此心心相連
+Dialogue: 1,1:35:33.44,1:35:40.34,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}發現整個世界的喜悅
+Dialogue: 1,1:35:40.34,1:35:41.41,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}共同
+Dialogue: 1,1:35:41.56,1:35:42.86,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}為之高歌
+Dialogue: 1,1:35:43.00,1:35:45.18,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}直至最後一刻
+Dialogue: 1,1:35:45.33,1:35:49.40,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}我們合而為一
+Dialogue: 1,1:35:50.13,1:35:57.82,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&H727A7D&}雛鳥的羽翼終於豐滿
+Dialogue: 1,1:35:58.37,1:36:00.84,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}是時候踏上旅程了
+Dialogue: 1,1:36:01.14,1:36:08.61,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&HD58322&}一望無際的海藍色如此溫馨
+Dialogue: 1,1:36:09.06,1:36:14.52,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&HEDBB6C&}如夢境中描繪的藍圖令人心悸
+Dialogue: 1,1:36:14.92,1:36:22.35,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5\3c&H290DBB&}不如讓時光倒轉吧？
+Dialogue: 1,1:36:28.72,1:36:31.36,94 cn 方正北魏楷书_GBK,,0,0,0,,{\fad(300,300)\blur4.5}此刻無可媲美
+Dialogue: 1,1:36:53.51,1:36:58.37,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}與大家邂逅一場
+Dialogue: 1,1:36:58.70,1:37:04.40,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}令我心中歡喜 不願分離
+Dialogue: 1,1:37:04.59,1:37:07.14,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}無需淚水陪伴
+Dialogue: 1,1:37:07.38,1:37:09.84,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}就這樣舞動下去
+Dialogue: 1,1:37:10.08,1:37:15.62,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}舉起雙手 全力揮舞
+Dialogue: 1,1:37:18.21,1:37:26.04,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}因為我們向著光明如此竭力追趕
+Dialogue: 1,1:37:26.57,1:37:29.12,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}無需再說什麼分別
+Dialogue: 1,1:37:29.39,1:37:33.33,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}再相會吧 你是否還能那般呼喚
+Dialogue: 1,1:37:33.39,1:37:37.00,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}我們的名字
+Dialogue: 1,1:37:37.29,1:37:39.90,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}在美好的未來裡
+Dialogue: 1,1:37:40.01,1:37:42.99,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}緊縛在一起的夢想
+Dialogue: 1,1:37:43.15,1:37:48.10,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}你與我的 LIVE&LIFE
+Dialogue: 1,1:38:10.69,1:38:17.90,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}雛鳥的羽翼終於豐滿
+Dialogue: 1,1:38:19.04,1:38:21.58,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}是時候踏上旅程了
+Dialogue: 1,1:38:21.79,1:38:29.06,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}一望無際的海藍色如此溫馨
+Dialogue: 1,1:38:29.72,1:38:35.37,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}如夢境中描繪的藍圖令人心悸
+Dialogue: 1,1:38:35.56,1:38:42.32,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}不如讓時光倒轉吧
+Dialogue: 1,1:38:49.38,1:38:51.61,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}此刻無可媲美
+Dialogue: 1,1:38:51.72,1:38:54.44,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}因為
+Dialogue: 1,1:38:57.20,1:38:59.76,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}因為
+Dialogue: 1,1:39:00.45,1:39:03.22,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}此刻無可媲美
+Dialogue: 1,1:39:05.34,1:39:10.45,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}由渺小的預感拉開帷幕
+Dialogue: 1,1:39:11.24,1:39:19.33,71 cn @方正正准黑_GBK - ed,,0,0,0,,{\fad(300,300)\blur4.5\frz270}我們一路追尋著光明而來
+Dialogue: 0,0:28:21.58,0:28:26.89,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}…As time goes by
+Dialogue: 0,0:28:28.66,0:28:31.16,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}And when two lovers woo
+Dialogue: 0,0:28:31.50,0:28:34.14,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}They still say "I love you"
+Dialogue: 0,0:28:34.46,0:28:39.33,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}On that you can rely
+Dialogue: 0,0:28:40.16,0:28:44.52,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}No matter what the future brings
+Dialogue: 0,0:28:44.73,0:28:49.64,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}As time goes by
+Dialogue: 0,0:28:52.13,0:28:55.18,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Moonlight and love songs
+Dialogue: 0,0:28:55.18,0:28:57.76,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Never out of date
+Dialogue: 0,0:28:58.17,0:29:03.56,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Hearts full of passion Jealousy and hate
+Dialogue: 0,0:29:03.97,0:29:09.29,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}Woman needs man And man must have his mate
+Dialogue: 0,0:29:09.30,0:29:14.33,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}That no one can deny
+Dialogue: 0,0:29:14.86,0:29:18.11,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}It's still the same old story
+Dialogue: 0,0:29:18.36,0:29:21.01,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}A fight for love and glory
+Dialogue: 0,0:29:21.24,0:29:26.19,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}A case of do or die
+Dialogue: 0,0:29:26.93,0:29:32.51,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}The world will always welcome lovers
+Dialogue: 0,0:29:32.99,0:29:38.33,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}As time goes by
+Dialogue: 0,0:29:38.83,0:29:50.79,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}As time goes by
+Dialogue: 0,1:01:16.26,1:01:19.30,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}It's still the same old story
+Dialogue: 0,1:01:19.61,1:01:22.34,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}A fight for love and glory
+Dialogue: 0,1:01:22.54,1:01:27.54,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}A case of do or die
+Dialogue: 0,1:01:28.16,1:01:33.74,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}The world will always welcome lovers
+Dialogue: 0,1:01:34.26,1:01:39.66,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}As time goes by
+Dialogue: 0,1:01:40.07,1:01:52.33,60 方正北魏楷书_GBK,,0,0,0,,{\blur4.5\fad(300,300)}As time goes by
+Dialogue: 0,1:18:19.84,1:18:24.76,NOTES 方正北魏楷书_GBK,,0,0,0,,注:與idol同音
+Dialogue: 0,0:56:00.25,0:56:02.70,OTHERS 方正正准黑_GBK,,0,0,0,,{\frz25.92\fs105\frx10\fry4\bord0\blur2.25\pos(1116,178.5)\c&HD0D1D1&}綺羅   翼
+Dialogue: 0,1:06:33.42,1:06:36.18,22-cn 方正稚艺_GBK,,0,0,0,,{\bord0\blur2.4\fs105\c&H1D2C3D&\b1\pos(1443,159)}我們在LoveLive中奪冠了
+Dialogue: 0,1:06:33.42,1:06:36.18,22-cn 方正稚艺_GBK,,0,0,0,,{\bord0\blur2.4\fs105\c&H1D2C3D&\b1\pos(1368,271.5)}謝 謝
+Dialogue: 0,1:06:33.42,1:06:36.18,22-cn 方正稚艺_GBK,,0,0,0,,{\bord0\fs105\blur2.4\c&H1D2C3D&\b1\pos(1404,885)}穗乃果
+Dialogue: 0,1:17:31.87,1:17:33.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\b1\bord6\blur6\c&H384D6E&\3c&H2D3F5E&\frx14\fry346\frz15.02\move(1015.5,117,1010.166,149,27,1737)}花陽之
+Dialogue: 0,1:17:31.87,1:17:33.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\b1\bord3\c&HD2E1D6&\3c&H394C6B&\frx14\fry346\frz15.02\move(1015.5,117,1010.166,149,27,1737)}花陽之
+Dialogue: 0,1:17:31.87,1:17:33.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\3c&HD2E1D6&\c&H6138F8&\bord3\move(651,733.5,643,770.833,27,1946)}奶 昔
+Dialogue: 0,1:17:31.87,1:17:33.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\3c&H2C326A&\c&H6138F8&\1a&HFF&\move(648,732,640,769.333,27,1946)}奶 昔
+Dialogue: 0,1:33:29.91,1:33:35.29,22-cn 方正稚艺_GBK,,0,0,0,,{\bord0\fs60\fsp75\blur2.4\c&H1D2C3D&\b1\frz14.45\move(729,655.5,1072.999,650.166,28,5366)\frx350\fry4}偶像研究部
+Dialogue: 1,0:00:35.87,0:00:36.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:00:57.57,0:00:59.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好涼
+Dialogue: 1,0:01:00.01,0:01:02.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:01:13.22,0:01:13.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼
+Dialogue: 1,0:01:14.88,0:01:16.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼 為什麼 為什麼
+Dialogue: 1,0:01:17.05,0:01:18.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然太勉強了
+Dialogue: 1,0:01:19.09,0:01:19.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}回去吧
+Dialogue: 1,0:01:20.08,0:01:20.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒問題
+Dialogue: 1,0:01:21.67,0:01:23.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下次肯定做得到
+Dialogue: 1,0:01:26.88,0:01:27.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要上了
+Dialogue: 1,0:02:08.74,0:02:10.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我叫高坂穂乃果
+Dialogue: 1,0:02:10.92,0:02:13.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是音乃木坂學院的高二生
+Dialogue: 1,0:02:13.90,0:02:16.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今天要參加送別三年生的畢業典禮
+Dialogue: 1,0:02:16.57,0:02:18.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}本應該是這樣的
+Dialogue: 1,0:02:21.93,0:02:22.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}花陽
+Dialogue: 1,0:02:23.26,0:02:25.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但好像來了緊急通知
+Dialogue: 1,0:02:25.96,0:02:26.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是巨蛋
+Dialogue: 1,0:02:28.65,0:02:31.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨 巨蛋
+Dialogue: 1,0:02:31.94,0:02:33.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨蛋
+Dialogue: 1,0:02:33.81,0:02:34.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:02:34.54,0:02:35.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:02:37.15,0:02:38.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是巨蛋大賽
+Dialogue: 1,0:02:39.39,0:02:40.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨蛋大賽
+Dialogue: 1,0:02:40.97,0:02:42.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是秋葉原巨蛋
+Dialogue: 1,0:02:42.44,0:02:43.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}第三次Love Live大賽
+Dialogue: 1,0:02:43.76,0:02:46.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在正在決議要不要在秋葉原巨蛋舉辦
+Dialogue: 1,0:02:46.91,0:02:49.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}秋葉原巨蛋 是經常舉辦棒球賽那地方嗎？
+Dialogue: 1,0:02:50.41,0:02:52.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要在那麼大的會場舉辦嗎
+Dialogue: 1,0:02:52.46,0:02:54.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們能出場嗎
+Dialogue: 1,0:02:54.73,0:02:57.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不不不 我們都已經畢業了
+Dialogue: 1,0:02:57.93,0:03:00.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}到這個月為止還算校園偶像的吧
+Dialogue: 1,0:03:00.56,0:03:01.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然在這裡
+Dialogue: 1,0:03:04.75,0:03:05.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}媽媽
+Dialogue: 1,0:03:05.94,0:03:06.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}理事長
+Dialogue: 1,0:03:07.31,0:03:09.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看來你們已經知道了啊
+Dialogue: 1,0:03:09.78,0:03:11.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下一屆Love Live的事
+Dialogue: 1,0:03:11.87,0:03:12.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是的
+Dialogue: 1,0:03:13.14,0:03:15.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的要在巨蛋舉行嗎
+Dialogue: 1,0:03:16.37,0:03:18.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在還沒確定下來
+Dialogue: 1,0:03:19.20,0:03:21.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以為了實現目標
+Dialogue: 1,0:03:21.58,0:03:25.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}說是想請你們這些上屆大賽冠軍來幫忙
+Dialogue: 1,0:03:26.77,0:03:28.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}剛剛來了通知
+Dialogue: 1,0:03:33.24,0:03:35.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這難道是說
+Dialogue: 1,0:03:37.68,0:03:38.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難道說
+Dialogue: 1,0:03:48.33,0:03:49.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}小鳥 護照帶了嗎
+Dialogue: 1,0:03:49.97,0:03:51.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}登機牌帶了嗎
+Dialogue: 1,0:03:51.42,0:03:52.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都帶了的
+Dialogue: 1,0:04:00.54,0:04:01.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}爸爸 謝謝你
+Dialogue: 1,0:04:02.29,0:04:03.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我出發了
+Dialogue: 1,0:04:08.46,0:04:10.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好 我要拍了喔
+Dialogue: 1,0:04:11.04,0:04:12.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家來笑一個
+Dialogue: 1,0:04:13.49,0:04:14.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}預備
+Dialogue: 1,0:04:14.96,0:04:17.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Nico-Nico-Ni
+Dialogue: 1,0:04:21.93,0:04:24.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}給 這是護身符
+Dialogue: 1,0:04:24.64,0:04:26.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}每個人都有喔
+Dialogue: 1,0:04:26.80,0:04:27.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝
+Dialogue: 1,0:04:28.57,0:04:30.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}話說 穂乃果在哪
+Dialogue: 1,0:04:35.59,0:04:37.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害喵
+Dialogue: 1,0:04:37.37,0:04:40.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜 回去和大家匯合吧
+Dialogue: 1,0:04:40.05,0:04:41.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好興奮喵
+Dialogue: 1,0:04:42.08,0:04:43.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}花陽 四處逛逛吧
+Dialogue: 1,0:04:48.93,0:04:52.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}誰 誰來救救我
+Dialogue: 1,0:04:59.86,0:05:02.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是最適合出行的卡
+Dialogue: 1,0:05:07.15,0:05:08.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果她不在喔
+Dialogue: 1,0:05:09.14,0:05:09.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難道說
+Dialogue: 1,0:05:10.11,0:05:12.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不 她說已經到了
+Dialogue: 1,0:05:19.88,0:05:20.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:05:21.74,0:05:23.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們 要走了
+Dialogue: 1,0:05:24.48,0:05:27.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}向著那片天空 向著陌生的新世界
+Dialogue: 1,0:05:47.31,0:05:48.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下一位
+Dialogue: 1,0:05:49.58,0:05:50.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好的
+Dialogue: 1,0:05:51.02,0:05:53.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Y-Yes
+Dialogue: 1,0:05:54.56,0:05:56.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我說花陽 你的包
+Dialogue: 1,0:05:56.58,0:05:57.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里
+Dialogue: 1,0:05:58.30,0:06:00.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒 沒問題嗎
+Dialogue: 1,0:06:00.70,0:06:01.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒事的
+Dialogue: 1,0:06:02.08,0:06:04.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}把那張紙條交給司機吧
+Dialogue: 1,0:06:04.52,0:06:05.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:06:05.71,0:06:08.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未 後面還有人在等著呢
+Dialogue: 1,0:06:08.33,0:06:09.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快上車喵
+Dialogue: 1,0:06:09.48,0:06:10.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等等
+Dialogue: 1,0:06:13.01,0:06:14.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的不要緊嗎
+Dialogue: 1,0:06:15.48,0:06:18.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不會帶我們去什麼奇怪的地方吧
+Dialogue: 1,0:06:18.85,0:06:21.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希和繪里也說了
+Dialogue: 1,0:06:21.65,0:06:23.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}正規計程車的話就不用擔心
+Dialogue: 1,0:06:23.92,0:06:26.11,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是語言不通啊
+Dialogue: 1,0:06:27.54,0:06:29.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再說為什麼是在國外啊
+Dialogue: 1,0:06:30.05,0:06:31.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出的話 在日本開不就好了嗎
+Dialogue: 1,0:06:32.20,0:06:33.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}媽媽不是說過了嗎
+Dialogue: 1,0:06:34.42,0:06:37.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為這邊的電視台要介紹校園偶像
+Dialogue: 1,0:06:38.36,0:06:40.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}音乃木坂也就收到了他們的委託
+Dialogue: 1,0:06:40.94,0:06:42.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是厲害啊
+Dialogue: 1,0:06:42.92,0:06:44.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}秋葉原巨蛋的容納人數
+Dialogue: 1,0:06:45.12,0:06:47.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大概是第二屆大賽決賽時的十倍
+Dialogue: 1,0:06:47.84,0:06:48.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}十倍
+Dialogue: 1,0:06:49.72,0:06:51.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼大啊
+Dialogue: 1,0:06:51.63,0:06:54.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖說Love Live很有人氣
+Dialogue: 1,0:06:54.28,0:06:55.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是就目前的成績來看
+Dialogue: 1,0:06:55.80,0:06:57.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是很難在巨蛋舉辦的
+Dialogue: 1,0:06:58.60,0:07:01.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以要通過轉播來增加人氣
+Dialogue: 1,0:07:01.74,0:07:05.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也就是說 要拿出夠格在巨蛋演出的成績來對吧
+Dialogue: 1,0:07:06.38,0:07:07.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要是真實現了的話
+Dialogue: 1,0:07:07.96,0:07:09.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}會作為嘉賓被邀請吧
+Dialogue: 1,0:07:10.42,0:07:11.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然不是很清楚
+Dialogue: 1,0:07:11.94,0:07:13.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也許會的吧
+Dialogue: 1,0:07:13.44,0:07:15.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}才不是「也許」 是「絕對」
+Dialogue: 1,0:07:17.73,0:07:21.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}將會有數萬觀眾為了妮可而湧入巨蛋
+Dialogue: 1,0:07:23.29,0:07:24.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太棒了
+Dialogue: 1,0:07:24.89,0:07:25.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真噁心
+Dialogue: 1,0:07:26.44,0:07:27.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}什麼啊
+Dialogue: 1,0:07:35.59,0:07:36.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害
+Dialogue: 1,0:07:37.76,0:07:39.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好多高樓大廈
+Dialogue: 1,0:07:39.21,0:07:40.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的啊
+Dialogue: 1,0:07:40.33,0:07:42.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那座橋我在書上見到過
+Dialogue: 1,0:07:44.52,0:07:46.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}原來世上還有這樣的城市啊
+Dialogue: 1,0:07:47.30,0:07:48.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害啊
+Dialogue: 1,0:07:49.63,0:07:50.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快看快看
+Dialogue: 1,0:07:51.81,0:07:53.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好大的卡車
+Dialogue: 1,0:07:57.33,0:07:59.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨大的賓館
+Dialogue: 1,0:08:00.21,0:08:01.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好寬廣的大廳
+Dialogue: 1,0:08:05.09,0:08:06.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好華麗
+Dialogue: 1,0:08:07.26,0:08:09.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只要海未她們來了就人齊了
+Dialogue: 1,0:08:10.03,0:08:11.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}地址你跟她們講清楚了嗎
+Dialogue: 1,0:08:12.27,0:08:13.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你就放心吧
+Dialogue: 1,0:08:13.62,0:08:15.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果把地址紙條交給她們了
+Dialogue: 1,0:08:15.46,0:08:16.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯 嗯
+Dialogue: 1,0:08:27.62,0:08:29.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這就是我們的賓館嗎
+Dialogue: 1,0:08:30.69,0:08:32.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好像哪裡不對
+Dialogue: 1,0:08:33.11,0:08:35.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}倒是像鬼屋喵
+Dialogue: 1,0:08:40.58,0:08:42.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和聽到的名字不一樣
+Dialogue: 1,0:08:49.38,0:08:50.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,0:08:50.70,0:08:53.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里給的地址被我抄錯了
+Dialogue: 1,0:08:54.22,0:08:55.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為是英語…
+Dialogue: 1,0:08:55.40,0:08:57.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今天這事絕不可原諒
+Dialogue: 1,0:08:57.52,0:09:00.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你以為你那粗枝大葉的性格
+Dialogue: 1,0:09:00.83,0:09:04.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}給我們添了多少麻煩啊
+Dialogue: 1,0:09:05.13,0:09:07.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}行了 反正已經安全到達了
+Dialogue: 1,0:09:07.31,0:09:10.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那是因為凜記住賓館的名字了
+Dialogue: 1,0:09:10.86,0:09:15.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要是沒記住的話 現在早就沒命了
+Dialogue: 1,0:09:17.78,0:09:19.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太誇張了喵
+Dialogue: 1,0:09:21.93,0:09:24.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未 不去看看大家的房間嗎
+Dialogue: 1,0:09:26.02,0:09:28.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}賓館的大廳很雄偉的喔
+Dialogue: 1,0:09:28.91,0:09:30.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那去附近的咖啡廳吧
+Dialogue: 1,0:09:34.01,0:09:36.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}吶 要不要來點點心轉換下心情
+Dialogue: 1,0:09:37.14,0:09:38.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我買了紙杯蛋糕
+Dialogue: 1,0:09:39.55,0:09:40.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}花陽幹得漂亮
+Dialogue: 1,0:09:41.23,0:09:44.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼吃完蛋糕就制定一下明天之後的安排吧
+Dialogue: 1,0:09:44.90,0:09:45.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:09:45.55,0:09:47.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未也吃的吧
+Dialogue: 1,0:09:48.68,0:09:49.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}吃
+Dialogue: 1,0:09:52.17,0:09:55.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想爬到那個鉛筆一樣的大樓上面去
+Dialogue: 1,0:09:56.05,0:09:58.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你以為我們來這是幹什麼的
+Dialogue: 1,0:09:58.70,0:09:59.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是幹什麼來著
+Dialogue: 1,0:09:59.71,0:10:00.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出
+Dialogue: 1,0:10:00.96,0:10:02.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我知道
+Dialogue: 1,0:10:02.79,0:10:04.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們有重要的演出
+Dialogue: 1,0:10:05.06,0:10:07.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可沒閒工夫去觀光
+Dialogue: 1,0:10:07.93,0:10:08.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:10:08.85,0:10:12.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}剛好 賓館的健身房裡似乎也設有排練室
+Dialogue: 1,0:10:13.21,0:10:14.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就在那練習吧
+Dialogue: 1,0:10:15.03,0:10:16.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以不要出門
+Dialogue: 1,0:10:17.72,0:10:19.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難得來一回
+Dialogue: 1,0:10:19.64,0:10:21.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}被嚇得不輕啊
+Dialogue: 1,0:10:21.89,0:10:23.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒事的沒事的
+Dialogue: 1,0:10:23.89,0:10:25.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這裡的人看上去都很友好
+Dialogue: 1,0:10:25.68,0:10:27.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果你說的話我才不信
+Dialogue: 1,0:10:29.14,0:10:31.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}確實 就算是Love Live的冠軍
+Dialogue: 1,0:10:32.44,0:10:34.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這次演出轉播也不能鬆懈
+Dialogue: 1,0:10:35.21,0:10:36.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊
+Dialogue: 1,0:10:37.06,0:10:39.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是演唱地點和內容
+Dialogue: 1,0:10:39.90,0:10:42.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}卻可以讓我們自己來選擇
+Dialogue: 1,0:10:43.31,0:10:46.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}該在這座城市的哪裡演唱才有{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的風格
+Dialogue: 1,0:10:46.80,0:10:49.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我認為有必要先熟悉下這座城市再做考慮
+Dialogue: 1,0:10:50.35,0:10:51.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不 這有點…
+Dialogue: 1,0:10:51.80,0:10:53.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊是啊
+Dialogue: 1,0:10:53.42,0:10:56.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以 早上早起好好練習
+Dialogue: 1,0:10:57.06,0:11:00.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}之後出門尋找能夠演唱的地點怎麼樣
+Dialogue: 1,0:11:00.87,0:11:01.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聽起來不錯
+Dialogue: 1,0:11:02.58,0:11:03.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}小鳥
+Dialogue: 1,0:11:03.93,0:11:04.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}贊同的請舉手
+Dialogue: 1,0:11:05.10,0:11:06.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我 我
+Dialogue: 1,0:11:11.61,0:11:12.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}決定了呢
+Dialogue: 1,0:11:14.13,0:11:14.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好
+Dialogue: 1,0:11:15.17,0:11:17.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}既然已經決定了就開吃吧
+Dialogue: 1,0:11:17.45,0:11:17.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:11:19.14,0:11:20.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們點的
+Dialogue: 1,0:11:21.90,0:11:22.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是什麼
+Dialogue: 1,0:11:22.89,0:11:23.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好大
+Dialogue: 1,0:11:23.62,0:11:24.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是乳酪蛋糕
+Dialogue: 1,0:11:25.24,0:11:28.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}來這邊的話就可以吃到 所以我非常期待
+Dialogue: 1,0:11:29.14,0:11:30.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是晚餐嗎
+Dialogue: 1,0:11:31.29,0:11:33.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真不愧是自由的國家
+Dialogue: 1,0:11:33.68,0:11:35.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和那有什麼關係嗎
+Dialogue: 1,0:11:42.51,0:11:43.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下輪必贏
+Dialogue: 1,0:11:45.81,0:11:47.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個
+Dialogue: 1,0:11:49.88,0:11:50.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這張嗎
+Dialogue: 1,0:11:52.18,0:11:52.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然還是這張
+Dialogue: 1,0:11:54.32,0:11:55.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我 我說
+Dialogue: 1,0:11:55.73,0:11:57.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明早還要早起
+Dialogue: 1,0:11:57.49,0:11:58.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}差不多該睡了吧
+Dialogue: 1,0:11:58.42,0:11:59.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不行
+Dialogue: 1,0:11:59.67,0:12:01.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一定還有別的辦法可以贏的
+Dialogue: 1,0:12:01.93,0:12:02.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一決勝負吧
+Dialogue: 1,0:12:05.74,0:12:06.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,0:12:07.54,0:12:09.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是為什麼
+Dialogue: 1,0:12:11.56,0:12:12.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我回來了
+Dialogue: 1,0:12:18.40,0:12:19.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真姬
+Dialogue: 1,0:12:20.82,0:12:22.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我買了果汁回來
+Dialogue: 1,0:12:23.13,0:12:23.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝
+Dialogue: 1,0:12:45.07,0:12:45.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是
+Dialogue: 1,0:12:46.24,0:12:47.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你擅自看些什麼啊
+Dialogue: 1,0:12:49.62,0:12:50.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,0:12:52.17,0:12:53.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}內容 你看了嗎
+Dialogue: 1,0:12:55.13,0:12:55.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:12:56.35,0:12:58.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真姬 難道說你
+Dialogue: 1,0:12:58.34,0:12:58.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係
+Dialogue: 1,0:13:00.16,0:13:02.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是我擅自做的
+Dialogue: 1,0:13:02.65,0:13:03.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}別在意
+Dialogue: 1,0:13:09.87,0:13:11.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好美啊
+Dialogue: 1,0:13:12.04,0:13:12.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:13:16.00,0:13:16.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:13:17.86,0:13:20.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}自己身處一個完全陌生的環境裡
+Dialogue: 1,0:13:21.60,0:13:24.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的有種很不可思議的感覺
+Dialogue: 1,0:13:26.40,0:13:27.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是來了個很遙遠的地方呢
+Dialogue: 1,0:13:31.15,0:13:32.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}花陽
+Dialogue: 1,0:13:32.94,0:13:34.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}寂寞嗎
+Dialogue: 1,0:13:34.75,0:13:36.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯 有點
+Dialogue: 1,0:13:44.69,0:13:45.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好暖和
+Dialogue: 1,0:13:51.04,0:13:52.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再來
+Dialogue: 1,0:13:53.81,0:13:56.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}絕對 絕對有貓膩
+Dialogue: 1,0:13:56.51,0:13:58.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我沒有作弊喔
+Dialogue: 1,0:13:58.48,0:14:00.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那就再來
+Dialogue: 1,0:14:02.03,0:14:04.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果
+Dialogue: 1,0:14:11.32,0:14:12.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:14:12.61,0:14:14.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好沉 好沉啊
+Dialogue: 1,0:14:28.70,0:14:29.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}什麼情況
+Dialogue: 1,0:14:31.61,0:14:33.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我說穂乃果
+Dialogue: 1,0:14:35.50,0:14:38.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼妮可會在我家啊
+Dialogue: 1,0:14:38.41,0:14:40.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為這不是你家啊
+Dialogue: 1,0:14:40.52,0:14:42.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是的 你這睡相是有多慘烈啊
+Dialogue: 1,0:14:43.05,0:14:44.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不但弄錯了床
+Dialogue: 1,0:14:44.53,0:14:46.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是蜜月主題
+Dialogue: 1,0:14:46.59,0:14:48.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}到底鬧哪樣啊
+Dialogue: 1,0:14:49.97,0:14:51.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就算你跟我說這些
+Dialogue: 1,0:14:52.00,0:14:54.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里你也說點什麼啊
+Dialogue: 1,0:14:57.97,0:14:59.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}奶奶
+Dialogue: 1,0:15:02.75,0:15:04.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}奶奶
+Dialogue: 1,0:15:10.11,0:15:11.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她說奶奶
+Dialogue: 1,0:15:13.18,0:15:14.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我一直都沒注意到
+Dialogue: 1,0:15:15.36,0:15:18.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里說不定是個愛撒嬌的人呢
+Dialogue: 1,0:15:22.73,0:15:23.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}奶奶
+Dialogue: 1,0:15:28.89,0:15:30.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早上真舒服
+Dialogue: 1,0:15:30.43,0:15:32.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好興奮喵
+Dialogue: 1,0:15:32.74,0:15:34.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們走吧
+Dialogue: 1,0:15:34.45,0:15:38.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大都市中心居然有這麼大的公園
+Dialogue: 1,0:15:38.73,0:15:39.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好棒啊
+Dialogue: 1,0:15:39.94,0:15:42.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們到底要聊到什麼時候
+Dialogue: 1,0:15:44.67,0:15:45.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未
+Dialogue: 1,0:15:45.78,0:15:47.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係的
+Dialogue: 1,0:15:51.12,0:15:53.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我可以…相信你吧
+Dialogue: 1,0:15:54.89,0:15:56.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}出發喵
+Dialogue: 1,0:15:59.56,0:16:01.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜還真是精力十足
+Dialogue: 1,0:16:32.22,0:16:33.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你好
+Dialogue: 1,0:16:35.95,0:16:36.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你好
+Dialogue: 1,0:16:50.27,0:16:50.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快看
+Dialogue: 1,0:16:51.24,0:16:53.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這裡居然有舞台
+Dialogue: 1,0:16:53.22,0:16:54.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的啊
+Dialogue: 1,0:16:54.45,0:16:56.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}會不會舉辦音樂會什麼的呢
+Dialogue: 1,0:16:57.17,0:16:58.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要上去看看嗎
+Dialogue: 1,0:17:01.06,0:17:02.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}累死了
+Dialogue: 1,0:17:06.77,0:17:08.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好舒服
+Dialogue: 1,0:17:08.28,0:17:11.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在這開演出或許也不錯呢
+Dialogue: 1,0:17:12.06,0:17:13.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}感覺身心都放鬆了
+Dialogue: 1,0:17:13.97,0:17:16.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那是因為我們大家在一起不是嗎
+Dialogue: 1,0:17:17.47,0:17:18.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也許吧
+Dialogue: 1,0:17:18.48,0:17:19.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}吶
+Dialogue: 1,0:17:20.16,0:17:21.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要不要跳一下試試看
+Dialogue: 1,0:17:24.12,0:17:24.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜
+Dialogue: 1,0:17:25.30,0:17:25.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒問題吧
+Dialogue: 1,0:17:27.26,0:17:29.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就交給凜領舞吧喵
+Dialogue: 1,0:17:29.49,0:17:30.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你好
+Dialogue: 1,0:17:32.75,0:17:34.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們是日本女孩嗎
+Dialogue: 1,0:17:34.97,0:17:35.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是
+Dialogue: 1,0:17:36.43,0:17:39.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們是日本學生
+Dialogue: 1,0:17:39.20,0:17:40.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們是來這演出的嗎？
+Dialogue: 1,0:17:42.67,0:17:44.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在 在說些什麼
+Dialogue: 1,0:17:44.96,0:17:47.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看來不是在生氣
+Dialogue: 1,0:17:47.46,0:17:49.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那我也知道
+Dialogue: 1,0:17:49.38,0:17:53.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是的 我們是校園偶像 我們組合叫{\fnA-OTF Shin Maru Go Pro DB}μ's
+Dialogue: 1,0:17:54.01,0:17:55.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像
+Dialogue: 1,0:17:58.46,0:18:00.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}日本聽起來真酷
+Dialogue: 1,0:18:00.89,0:18:02.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們也希望能去看看
+Dialogue: 1,0:18:02.64,0:18:05.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希望你們在這過得愉快
+Dialogue: 1,0:18:05.37,0:18:06.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好好享受
+Dialogue: 1,0:18:06.70,0:18:07.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見
+Dialogue: 1,0:18:07.36,0:18:08.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見
+Dialogue: 1,0:18:08.03,0:18:08.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見
+Dialogue: 1,0:18:08.80,0:18:09.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見了
+Dialogue: 1,0:18:10.17,0:18:11.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她們說難得來一次
+Dialogue: 1,0:18:11.78,0:18:14.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就好好逛一逛吧
+Dialogue: 1,0:18:14.52,0:18:15.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你看
+Dialogue: 1,0:18:16.70,0:18:18.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希你好厲害
+Dialogue: 1,0:18:18.30,0:18:20.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不愧是去過南極的人喵
+Dialogue: 1,0:18:22.22,0:18:23.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海外也很不錯吧
+Dialogue: 1,0:18:24.30,0:18:26.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}當然 多加注意也是必須的
+Dialogue: 1,0:18:28.17,0:18:29.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也許是吧
+Dialogue: 1,0:18:36.68,0:18:37.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好
+Dialogue: 1,0:18:38.91,0:18:40.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼就好好練習
+Dialogue: 1,0:18:41.16,0:18:42.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}然後去逛逛這座城市吧
+Dialogue: 1,0:18:50.64,0:18:52.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看到了
+Dialogue: 1,0:18:53.86,0:18:55.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好大啊喵
+Dialogue: 1,0:18:56.90,0:18:58.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}拍我拍我
+Dialogue: 1,0:18:58.62,0:19:01.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穂乃果你就像個英雄一樣
+Dialogue: 1,0:19:03.09,0:19:04.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要拍了喔
+Dialogue: 1,0:19:04.20,0:19:05.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好 好的
+Dialogue: 1,0:19:13.94,0:19:16.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這能吃完嗎
+Dialogue: 1,0:19:17.86,0:19:19.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好幸福
+Dialogue: 1,0:19:20.22,0:19:20.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}給你
+Dialogue: 1,0:19:21.31,0:19:22.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝
+Dialogue: 1,0:19:23.02,0:19:23.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不客氣
+Dialogue: 1,0:19:25.68,0:19:27.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這就是主幹道
+Dialogue: 1,0:19:29.08,0:19:32.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們會在一家叫蒂凡尼的店吃早餐吧
+Dialogue: 1,0:19:32.80,0:19:34.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}會是怎樣的一家餐廳呢
+Dialogue: 1,0:19:34.98,0:19:36.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可知道嗎
+Dialogue: 1,0:19:38.02,0:19:39.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那當然
+Dialogue: 1,0:19:40.46,0:19:41.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的嗎
+Dialogue: 1,0:19:41.67,0:19:43.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}會給我們吃些什麼呢
+Dialogue: 1,0:19:43.28,0:19:45.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}牛 牛排之類的
+Dialogue: 1,0:19:45.30,0:19:46.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好棒
+Dialogue: 1,0:19:46.76,0:19:48.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}根本不對
+Dialogue: 1,0:19:50.03,0:19:51.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}照得不錯喔
+Dialogue: 1,0:19:54.59,0:19:56.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們倆都好可愛
+Dialogue: 1,0:19:57.01,0:19:58.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是奇怪的衣服
+Dialogue: 1,0:19:59.49,0:20:00.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這麼羞恥的衣服
+Dialogue: 1,0:20:01.28,0:20:02.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真棒
+Dialogue: 1,0:20:02.57,0:20:05.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不愧是{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的服裝負責人
+Dialogue: 1,0:20:05.98,0:20:07.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們倆穿著都很合適喔
+Dialogue: 1,0:20:07.63,0:20:08.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是 是嗎
+Dialogue: 1,0:20:10.68,0:20:12.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未也好可愛
+Dialogue: 1,0:20:12.43,0:20:13.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是 是嗎
+Dialogue: 1,0:20:15.41,0:20:16.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那是什麼
+Dialogue: 1,0:20:16.81,0:20:20.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}據說萬聖節的時候 城裡的人們會做那種惡作劇
+Dialogue: 1,0:20:21.17,0:20:22.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要不要也試試看
+Dialogue: 1,0:20:23.07,0:20:23.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能行嗎
+Dialogue: 1,0:20:25.20,0:20:26.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}交給我吧
+Dialogue: 1,0:20:32.56,0:20:33.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}喂
+Dialogue: 1,0:20:33.56,0:20:35.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我的鞋啊
+Dialogue: 1,0:20:46.59,0:20:49.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不愧是世界的中心
+Dialogue: 1,0:20:50.24,0:20:51.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真美啊
+Dialogue: 1,0:20:52.03,0:20:56.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出的時候能有這種景色就太好了
+Dialogue: 1,0:20:58.80,0:21:00.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}感覺每個地方都好棒
+Dialogue: 1,0:21:00.54,0:21:01.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好難選啊
+Dialogue: 1,0:21:01.95,0:21:02.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊
+Dialogue: 1,0:21:05.95,0:21:08.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}最開始 還擔心在這個陌生之地
+Dialogue: 1,0:21:08.68,0:21:12.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能不能舉辦好我們風格的演出
+Dialogue: 1,0:21:15.30,0:21:15.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是嗎
+Dialogue: 1,0:21:18.24,0:21:18.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:21:19.52,0:21:20.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我知道了
+Dialogue: 1,0:21:20.76,0:21:21.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我知道了
+Dialogue: 1,0:21:22.34,0:21:24.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個城市會讓我感到興奮的原因
+Dialogue: 1,0:21:25.53,0:21:28.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個城市啊 稍微有點像秋葉原
+Dialogue: 1,0:21:30.00,0:21:30.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個城市
+Dialogue: 1,0:21:31.41,0:21:32.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}像秋葉原嗎
+Dialogue: 1,0:21:32.48,0:21:32.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:21:33.81,0:21:35.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好多快樂的事
+Dialogue: 1,0:21:36.04,0:21:38.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一個接一個不斷地變化著
+Dialogue: 1,0:21:41.06,0:21:43.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實我也有點這種感覺
+Dialogue: 1,0:21:43.85,0:21:45.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜也一樣呢
+Dialogue: 1,0:21:45.87,0:21:46.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:21:53.27,0:21:55.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這麼一說 好像還真是這樣
+Dialogue: 1,0:21:55.69,0:21:57.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}吸收各種事物
+Dialogue: 1,0:21:57.50,0:21:58.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一點一點地變化
+Dialogue: 1,0:21:59.09,0:22:00.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以在任何地方
+Dialogue: 1,0:22:00.99,0:22:03.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}感覺都能辦好{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}風格的演出
+Dialogue: 1,0:22:14.97,0:22:15.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下雨了
+Dialogue: 1,0:22:17.60,0:22:18.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒帶傘喔
+Dialogue: 1,0:22:19.48,0:22:20.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是傷腦筋
+Dialogue: 1,0:22:25.14,0:22:27.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明明還有想去的地方
+Dialogue: 1,0:22:28.91,0:22:30.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒辦法了
+Dialogue: 1,0:22:31.05,0:22:33.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這雨看樣子會越下越大
+Dialogue: 1,0:22:34.74,0:22:36.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是回賓館去吧
+Dialogue: 1,0:22:40.97,0:22:42.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真感傷呢
+Dialogue: 1,0:22:45.47,0:22:46.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係喵
+Dialogue: 1,0:24:17.36,0:24:18.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}星空喵
+Dialogue: 1,0:24:26.40,0:24:28.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}花陽 在哭嗎
+Dialogue: 1,0:24:28.98,0:24:30.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:24:32.42,0:24:33.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可
+Dialogue: 1,0:24:33.48,0:24:34.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你把花陽怎麼了
+Dialogue: 1,0:24:35.13,0:24:36.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不知道啊
+Dialogue: 1,0:24:38.30,0:24:39.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:24:39.41,0:24:40.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不舒服嗎
+Dialogue: 1,0:24:41.33,0:24:42.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}想家了嗎
+Dialogue: 1,0:24:44.04,0:24:45.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}米…
+Dialogue: 1,0:24:46.81,0:24:47.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}米
+Dialogue: 1,0:24:50.83,0:24:51.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}米…
+Dialogue: 1,0:24:53.40,0:24:55.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想吃白米飯
+Dialogue: 1,0:24:55.56,0:24:56.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}白米飯
+Dialogue: 1,0:24:56.58,0:24:57.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是的
+Dialogue: 1,0:24:57.56,0:24:59.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}來這裡之後
+Dialogue: 1,0:24:59.64,0:25:01.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}無論早中晚
+Dialogue: 1,0:25:01.78,0:25:03.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都是麵包麵包麵包麵包麵包
+Dialogue: 1,0:25:03.71,0:25:05.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}根本沒有白米飯
+Dialogue: 1,0:25:05.62,0:25:08.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是昨天的配菜裡有米飯…
+Dialogue: 1,0:25:08.18,0:25:10.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}米飯不是配菜 而是主食
+Dialogue: 1,0:25:10.86,0:25:13.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那種鬆鬆散散的番紅花飯 只是似是而非的東西
+Dialogue: 1,0:25:13.78,0:25:15.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}「吃」字加上「米飯」
+Dialogue: 1,0:25:16.21,0:25:19.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有了白米飯才是一頓飯的開始
+Dialogue: 1,0:25:22.21,0:25:26.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好想捧著暖烘烘的飯碗吃白米飯
+Dialogue: 1,0:25:29.62,0:25:30.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個麵包好好吃
+Dialogue: 1,0:25:30.97,0:25:33.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對白米飯好執著
+Dialogue: 1,0:25:33.87,0:25:35.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是…
+Dialogue: 1,0:25:35.78,0:25:38.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真姬 你知道哪裡能吃到嗎
+Dialogue: 1,0:25:39.82,0:25:42.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嘛 也不是不知道
+Dialogue: 1,0:25:46.61,0:25:49.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個城市還有這樣的店啊
+Dialogue: 1,0:25:49.87,0:25:51.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}畢竟是世界的中心
+Dialogue: 1,0:25:52.50,0:25:54.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}基本上應有盡有
+Dialogue: 1,0:25:56.23,0:25:57.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太好吃了
+Dialogue: 1,0:25:58.03,0:26:00.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然白米飯最棒了
+Dialogue: 1,0:26:00.76,0:26:02.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太好了花陽
+Dialogue: 1,0:26:04.02,0:26:06.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼 趁早回去吧
+Dialogue: 1,0:26:07.01,0:26:07.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:26:09.84,0:26:13.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}感覺這樣就像在放學路上一樣
+Dialogue: 1,0:26:13.21,0:26:15.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊 真不可思議
+Dialogue: 1,0:26:16.99,0:26:18.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明明能這樣和大家在一起的時間
+Dialogue: 1,0:26:19.84,0:26:21.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}已經所剩無幾了
+Dialogue: 1,0:26:22.84,0:26:26.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個城市卻神奇地讓我淡忘了這些
+Dialogue: 1,0:26:29.04,0:26:30.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}奇怪
+Dialogue: 1,0:26:30.93,0:26:31.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不好意思
+Dialogue: 1,0:26:32.40,0:26:33.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}借過一下
+Dialogue: 1,0:26:36.03,0:26:38.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是不是錢不夠呢
+Dialogue: 1,0:26:38.43,0:26:40.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}後來 希你教我…
+Dialogue: 1,0:26:41.55,0:26:42.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等等
+Dialogue: 1,0:26:45.72,0:26:46.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個…
+Dialogue: 1,0:26:47.82,0:26:49.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}麻煩讓一讓
+Dialogue: 1,0:27:12.43,0:27:14.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好疼
+Dialogue: 1,0:27:15.14,0:27:17.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好疼 好疼啊
+Dialogue: 1,0:27:29.00,0:27:31.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難道說 我和大家走散了？
+Dialogue: 1,0:27:37.09,0:27:39.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼辦啊
+Dialogue: 1,0:27:51.25,0:27:54.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}酒店旁的車站樓梯 不是這樣的吧
+Dialogue: 1,0:27:57.69,0:27:58.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,0:27:58.53,0:27:59.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,0:28:00.74,0:28:01.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,0:28:19.10,0:28:21.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我是從哪站坐上來的啊
+Dialogue: 1,0:29:57.89,0:29:58.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝
+Dialogue: 1,0:29:59.06,0:30:02.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝大家能駐足聽我唱歌
+Dialogue: 1,0:30:02.26,0:30:06.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希望大家能夠來參加我的演唱會
+Dialogue: 1,0:30:06.36,0:30:07.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見
+Dialogue: 1,0:30:15.09,0:30:19.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}偶爾是會有像你這樣迷路的人
+Dialogue: 1,0:30:20.27,0:30:23.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但沒想到你居然連酒店的名字都不知道
+Dialogue: 1,0:30:24.04,0:30:25.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,0:30:26.10,0:30:29.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是姐姐 你竟然只聽我說大大的車站就能明白
+Dialogue: 1,0:30:31.24,0:30:33.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你啊 每個動作都好誇張
+Dialogue: 1,0:30:36.05,0:30:39.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒事的 地址我大致清楚了
+Dialogue: 1,0:30:39.54,0:30:43.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大車站附近的大酒店是吧
+Dialogue: 1,0:30:43.73,0:30:44.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是的
+Dialogue: 1,0:30:44.41,0:30:46.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還有很大的吊燈對吧
+Dialogue: 1,0:30:46.38,0:30:47.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有
+Dialogue: 1,0:30:48.14,0:30:49.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那肯定是那裡了
+Dialogue: 1,0:30:51.70,0:30:52.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:30:53.58,0:30:55.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我忘記拿麥克風了
+Dialogue: 1,0:30:56.59,0:30:58.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那 那個
+Dialogue: 1,0:30:59.62,0:31:01.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是不是那個東西
+Dialogue: 1,0:31:07.61,0:31:09.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不要嚇我了
+Dialogue: 1,0:31:09.81,0:31:10.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉 抱歉
+Dialogue: 1,0:31:11.45,0:31:13.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}找到了不是挺好的嗎
+Dialogue: 1,0:31:15.82,0:31:17.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你一直在這裡唱歌嗎
+Dialogue: 1,0:31:18.14,0:31:18.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}算是吧
+Dialogue: 1,0:31:22.52,0:31:26.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}別看我這樣 以前可是和夥伴們一起唱歌的喔
+Dialogue: 1,0:31:27.31,0:31:28.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在日本
+Dialogue: 1,0:31:28.30,0:31:29.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是嗎
+Dialogue: 1,0:31:29.95,0:31:30.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:31:31.15,0:31:33.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是發生了很多事情
+Dialogue: 1,0:31:35.48,0:31:38.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}最後 我們的組合還是解散了
+Dialogue: 1,0:31:42.66,0:31:45.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}當時我完全不知道該怎麼辦
+Dialogue: 1,0:31:46.18,0:31:50.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}想著這也許是邁向下一步的好機會
+Dialogue: 1,0:31:56.24,0:31:56.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼了
+Dialogue: 1,0:31:59.76,0:32:00.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}然後
+Dialogue: 1,0:32:03.14,0:32:05.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}然後 怎麼樣了
+Dialogue: 1,0:32:08.94,0:32:10.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}很簡單
+Dialogue: 1,0:32:12.52,0:32:13.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的很簡單
+Dialogue: 1,0:32:18.20,0:32:21.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}至今我們為什麼唱歌
+Dialogue: 1,0:32:21.86,0:32:24.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}想成為怎樣的人 喜歡做什麼
+Dialogue: 1,0:32:25.34,0:32:28.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}考慮了這些 就會發現答案很簡單
+Dialogue: 1,0:32:38.07,0:32:38.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個
+Dialogue: 1,0:32:39.31,0:32:42.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我好像明白了又好像沒明白
+Dialogue: 1,0:32:42.32,0:32:43.63,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你現在這樣就行了
+Dialogue: 1,0:32:44.85,0:32:45.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣就行了
+Dialogue: 1,0:32:46.05,0:32:47.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不要啊
+Dialogue: 1,0:32:47.33,0:32:48.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}行了
+Dialogue: 1,0:32:51.87,0:32:52.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你很快就會明白的
+Dialogue: 1,0:32:59.46,0:33:00.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:33:05.48,0:33:06.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}各位
+Dialogue: 1,0:33:14.04,0:33:15.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}各位
+Dialogue: 1,0:33:15.89,0:33:17.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你在幹些什麼
+Dialogue: 1,0:33:22.84,0:33:23.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未
+Dialogue: 1,0:33:27.88,0:33:30.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你知道我們找你找得多苦嗎
+Dialogue: 1,0:33:40.14,0:33:40.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,0:33:43.97,0:33:44.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對了
+Dialogue: 1,0:33:45.12,0:33:46.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實我能回來…
+Dialogue: 1,0:33:48.34,0:33:48.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}奇怪
+Dialogue: 1,0:33:57.97,0:34:00.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我和路上遇到的人一起回來的
+Dialogue: 1,0:34:02.28,0:34:02.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}剛才
+Dialogue: 1,0:34:03.36,0:34:04.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒看到別人啊
+Dialogue: 1,0:34:05.22,0:34:06.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼可能
+Dialogue: 1,0:34:10.60,0:34:11.63,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}算了
+Dialogue: 1,0:34:12.27,0:34:14.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快回到房間 為明天做準備吧
+Dialogue: 1,0:34:16.17,0:34:17.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果 你回來啦
+Dialogue: 1,0:34:18.38,0:34:19.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太好了
+Dialogue: 1,0:34:19.63,0:34:20.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你好慢
+Dialogue: 1,0:34:21.21,0:34:22.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個 各位
+Dialogue: 1,0:34:23.68,0:34:24.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,0:34:26.02,0:34:28.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我明明是隊長
+Dialogue: 1,0:34:28.25,0:34:30.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}卻讓大家擔心了
+Dialogue: 1,0:34:31.09,0:34:32.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}已經沒關係了
+Dialogue: 1,0:34:33.53,0:34:34.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}相對的
+Dialogue: 1,0:34:35.50,0:34:37.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明天你要好好帶領大家
+Dialogue: 1,0:34:37.86,0:34:39.63,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}獻出最棒的演出喔
+Dialogue: 1,0:34:41.44,0:34:42.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里
+Dialogue: 1,0:34:42.94,0:34:45.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是我們最後的演出
+Dialogue: 1,0:34:45.70,0:34:48.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你要是敢稍微鬆懈的話 我可不會饒了你喔
+Dialogue: 1,0:34:49.05,0:34:49.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:34:50.17,0:34:52.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那為了明天 好好睡一覺吧喵
+Dialogue: 1,0:34:53.13,0:34:55.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你這麼精神還怎麼睡啊
+Dialogue: 1,0:35:02.53,0:35:05.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}「為了什麼而歌唱」嗎
+Dialogue: 1,0:38:11.42,0:38:12.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好漂亮
+Dialogue: 1,0:38:17.48,0:38:18.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:38:19.05,0:38:19.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你看
+Dialogue: 1,0:38:23.98,0:38:25.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你一直醒著嗎
+Dialogue: 1,0:38:25.89,0:38:27.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒有 我剛剛才醒
+Dialogue: 1,0:38:28.85,0:38:29.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}小鳥
+Dialogue: 1,0:38:31.44,0:38:33.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出很開心呢
+Dialogue: 1,0:38:35.36,0:38:35.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:38:36.37,0:38:38.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還和大家一起留下了很多回憶
+Dialogue: 1,0:38:47.20,0:38:48.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下次再一起去吧
+Dialogue: 1,0:38:50.05,0:38:50.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:38:51.73,0:38:53.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家再一起去一次
+Dialogue: 1,0:38:54.86,0:38:55.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}總有一天
+Dialogue: 1,0:38:56.45,0:38:57.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一定
+Dialogue: 1,0:39:02.34,0:39:03.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快看快看
+Dialogue: 1,0:39:03.42,0:39:06.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}昨天演出的轉播好像廣受好評呢
+Dialogue: 1,0:39:06.59,0:39:07.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太好了喵
+Dialogue: 1,0:39:08.01,0:39:11.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨蛋大賽上也能保持這個狀態就好了
+Dialogue: 1,0:39:11.72,0:39:12.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:39:13.78,0:39:17.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}坐經濟艙往返原來是這種感覺
+Dialogue: 1,0:39:17.20,0:39:18.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}炫富
+Dialogue: 1,0:39:18.10,0:39:19.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}才不是
+Dialogue: 1,0:39:20.16,0:39:23.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}兩位一回來還真是有精神
+Dialogue: 1,0:39:23.47,0:39:25.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}才不精神啊
+Dialogue: 1,0:39:25.39,0:39:26.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}話說回來 真姬
+Dialogue: 1,0:39:29.22,0:39:30.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}曲子完成了嗎
+Dialogue: 1,0:39:32.44,0:39:34.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我都說了 那是別的曲子
+Dialogue: 1,0:39:34.96,0:39:36.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我覺得一定會是首好曲子
+Dialogue: 1,0:39:37.21,0:39:39.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都說了不是了
+Dialogue: 1,0:39:39.20,0:39:40.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巴士差不多該來了喔
+Dialogue: 1,0:39:41.13,0:39:41.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們走吧
+Dialogue: 1,0:39:42.12,0:39:42.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:39:43.00,0:39:43.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}回去吧
+Dialogue: 1,0:39:52.16,0:39:53.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是熟人嗎
+Dialogue: 1,0:39:53.76,0:39:54.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不
+Dialogue: 1,0:39:55.07,0:39:56.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她們好可愛啊
+Dialogue: 1,0:39:58.43,0:39:59.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看向這邊了
+Dialogue: 1,0:40:05.13,0:40:05.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}什麼
+Dialogue: 1,0:40:07.02,0:40:07.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這究竟是
+Dialogue: 1,0:40:08.61,0:40:09.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼回事
+Dialogue: 1,0:40:10.28,0:40:11.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都在盯著我們看
+Dialogue: 1,0:40:12.28,0:40:13.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難道是狙擊手
+Dialogue: 1,0:40:14.84,0:40:16.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你做了什麼
+Dialogue: 1,0:40:16.33,0:40:19.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你是不是在美國那邊偷拿了什麼東西
+Dialogue: 1,0:40:19.32,0:40:20.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}才不是
+Dialogue: 1,0:40:20.97,0:40:21.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那 那個
+Dialogue: 1,0:40:24.26,0:40:25.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請給我簽名
+Dialogue: 1,0:40:26.09,0:40:29.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個 您是{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的高坂穗乃果吧
+Dialogue: 1,0:40:29.98,0:40:30.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是 是的
+Dialogue: 1,0:40:31.28,0:40:33.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這位是南小鳥對吧
+Dialogue: 1,0:40:34.08,0:40:34.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是
+Dialogue: 1,0:40:34.77,0:40:36.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼這位肯定是園田海未吧
+Dialogue: 1,0:40:37.02,0:40:37.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你搞錯了
+Dialogue: 1,0:40:38.06,0:40:38.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未
+Dialogue: 1,0:40:39.00,0:40:40.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼要撒謊
+Dialogue: 1,0:40:40.92,0:40:43.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為很嚇人啊
+Dialogue: 1,0:40:43.52,0:40:45.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在機場突然被人這樣…
+Dialogue: 1,0:40:45.33,0:40:47.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我是{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的鐵桿粉
+Dialogue: 1,0:40:49.82,0:40:50.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}粉絲
+Dialogue: 1,0:40:50.74,0:40:51.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也是
+Dialogue: 1,0:40:52.00,0:40:53.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也很喜歡你們
+Dialogue: 1,0:40:53.98,0:40:55.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}拜託了
+Dialogue: 1,0:41:02.93,0:41:04.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這究竟是…
+Dialogue: 1,0:41:05.20,0:41:06.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也不知道
+Dialogue: 1,0:41:07.82,0:41:09.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}難道是夢
+Dialogue: 1,0:41:09.27,0:41:11.11,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}確實有可能
+Dialogue: 1,0:41:11.32,0:41:14.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那 從哪裡開始是夢
+Dialogue: 1,0:41:17.23,0:41:19.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大概從我們踏上旅途時開始吧
+Dialogue: 1,0:41:19.49,0:41:21.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼早之前嗎
+Dialogue: 1,0:41:22.13,0:41:24.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不管怎麼說那也…
+Dialogue: 1,0:41:24.86,0:41:26.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是說…
+Dialogue: 1,0:41:26.58,0:41:27.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}或者可能
+Dialogue: 1,0:41:27.65,0:41:29.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}從我們的學校要廢校時開始
+Dialogue: 1,0:41:30.20,0:41:32.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那還真是場很長的夢啊喵
+Dialogue: 1,0:41:32.32,0:41:34.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那怎麼可能啊
+Dialogue: 1,0:41:34.44,0:41:35.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是吧 海未
+Dialogue: 1,0:41:36.75,0:41:38.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那 這是為什麼
+Dialogue: 1,0:42:06.35,0:42:07.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這…
+Dialogue: 1,0:42:07.70,0:42:08.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}到底是…
+Dialogue: 1,0:42:09.30,0:42:10.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼回事
+Dialogue: 1,0:42:11.95,0:42:12.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}喵
+Dialogue: 1,0:42:13.18,0:42:14.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這裡也有喵
+Dialogue: 1,0:42:14.75,0:42:16.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}連聲援傳單都有了
+Dialogue: 1,0:42:17.31,0:42:17.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是…
+Dialogue: 1,0:42:18.36,0:42:20.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個 難道你們是
+Dialogue: 1,0:42:23.79,0:42:24.53,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fs69}μ's
+Dialogue: 1,0:42:25.05,0:42:25.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是真的
+Dialogue: 1,0:42:26.38,0:42:28.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害 是本人啊
+Dialogue: 1,0:42:29.29,0:42:30.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害
+Dialogue: 1,0:42:30.27,0:42:31.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我是鐵桿粉
+Dialogue: 1,0:42:35.02,0:42:36.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們好
+Dialogue: 1,0:42:38.85,0:42:40.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是服了
+Dialogue: 1,0:42:42.66,0:42:43.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未
+Dialogue: 1,0:42:43.92,0:42:46.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不行 這樣我受不了
+Dialogue: 1,0:42:46.81,0:42:48.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}從美國回來後
+Dialogue: 1,0:42:48.20,0:42:51.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們已經出名到在路上隨便走走就能被認出來
+Dialogue: 1,0:42:51.70,0:42:54.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}畢竟我們的海外公演傳遍了秋葉原
+Dialogue: 1,0:42:54.70,0:42:56.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然這是夢吧
+Dialogue: 1,0:42:56.89,0:42:57.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:42:57.95,0:42:59.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不過我理解你為什麼會這麼想
+Dialogue: 1,0:43:01.76,0:43:03.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好高的點擊率
+Dialogue: 1,0:43:04.45,0:43:05.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那我們
+Dialogue: 1,0:43:06.55,0:43:08.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是真成了名人嗎
+Dialogue: 1,0:43:08.78,0:43:09.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼會
+Dialogue: 1,0:43:10.61,0:43:13.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不行 太難為情了
+Dialogue: 1,0:43:16.02,0:43:20.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 這不就說明海外公演很成功嗎
+Dialogue: 1,0:43:20.98,0:43:22.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯 我也這麼想
+Dialogue: 1,0:43:23.21,0:43:24.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看來巨蛋也不再是夢了
+Dialogue: 1,0:43:25.32,0:43:27.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如果巨蛋大賽能順利舉行的話
+Dialogue: 1,0:43:27.57,0:43:30.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Love Live也就能一直開辦下去了
+Dialogue: 1,0:43:31.00,0:43:32.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太好了
+Dialogue: 1,0:43:32.44,0:43:33.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好高興
+Dialogue: 1,0:43:34.18,0:43:35.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還太早
+Dialogue: 1,0:43:38.09,0:43:41.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在的當務之急 是要不被察覺地離開這裡
+Dialogue: 1,0:43:41.85,0:43:42.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒錯
+Dialogue: 1,0:43:43.37,0:43:44.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}畢竟我們
+Dialogue: 1,0:43:46.25,0:43:48.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在已經是明星了
+Dialogue: 1,0:45:06.10,0:45:07.11,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就是啊
+Dialogue: 1,0:45:07.56,0:45:11.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那場公演的轉播廣受好評
+Dialogue: 1,0:45:11.54,0:45:13.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}到處都在播放
+Dialogue: 1,0:45:13.84,0:45:14.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們看
+Dialogue: 1,0:45:16.56,0:45:17.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的啊
+Dialogue: 1,0:45:17.55,0:45:20.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還不光在秋葉原的街道上 其他地方也有
+Dialogue: 1,0:45:20.61,0:45:22.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的累壞了
+Dialogue: 1,0:45:22.65,0:45:25.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在姐姐回來之前 總有人登門拜訪來找姐姐妳
+Dialogue: 1,0:45:27.46,0:45:28.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}歡迎光臨
+Dialogue: 1,0:45:28.92,0:45:30.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請 請問
+Dialogue: 1,0:45:30.98,0:45:32.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}高坂穗乃果是不是…
+Dialogue: 1,0:45:37.25,0:45:40.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}歡迎光臨高坂穗乃果的住所「穗村」
+Dialogue: 1,0:45:40.50,0:45:41.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快請進
+Dialogue: 1,0:45:44.77,0:45:49.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然媽媽爸爸因為營業額上漲了而很開心
+Dialogue: 1,0:45:49.31,0:45:49.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的假的
+Dialogue: 1,0:45:50.44,0:45:52.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我要去交涉一下零花錢的事
+Dialogue: 1,0:45:52.61,0:45:54.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}多虧了我營業額大幅上升了對吧
+Dialogue: 1,0:45:55.23,0:45:57.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那零花錢也得漲漲才行啊
+Dialogue: 1,0:45:58.24,0:46:00.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在是說這種話的時候嗎
+Dialogue: 1,0:46:00.41,0:46:01.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就是
+Dialogue: 1,0:46:01.58,0:46:02.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們現在可是人氣偶像
+Dialogue: 1,0:46:03.16,0:46:04.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要好好注意一下自己的舉止
+Dialogue: 1,0:46:04.98,0:46:06.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不是吧
+Dialogue: 1,0:46:07.87,0:46:09.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看看A-RISE 你也明白的吧
+Dialogue: 1,0:46:10.09,0:46:13.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所謂人氣偶像 就是要保持驕傲
+Dialogue: 1,0:46:13.70,0:46:16.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}舉止優雅 毫不慌張
+Dialogue: 1,0:46:19.47,0:46:21.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可今天是來休假嗎
+Dialogue: 1,0:46:22.49,0:46:23.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好漂亮
+Dialogue: 1,0:46:27.95,0:46:29.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是拿你們沒辦法
+Dialogue: 1,0:46:30.33,0:46:33.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Nico-Nico-Ni
+Dialogue: 1,0:46:33.81,0:46:37.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Nui-Nui-Nui-Nui
+Dialogue: 1,0:46:37.89,0:46:39.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你在幹什麼
+Dialogue: 1,0:46:40.18,0:46:41.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}總之
+Dialogue: 1,0:46:41.23,0:46:43.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不知道什麼地方會被人看到
+Dialogue: 1,0:46:43.16,0:46:46.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}出門的時候 給我好好注意穿著和走路的方式
+Dialogue: 1,0:46:47.42,0:46:49.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}需要那麼注意嗎
+Dialogue: 1,0:46:49.65,0:46:51.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也覺得稍微有點…
+Dialogue: 1,0:46:51.37,0:46:53.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好麻煩啊
+Dialogue: 1,0:46:53.47,0:46:54.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}比起這些
+Dialogue: 1,0:46:55.04,0:46:57.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們還有其他必須考慮的事情吧
+Dialogue: 1,0:46:59.94,0:47:01.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}必須考慮的事情
+Dialogue: 1,0:47:02.54,0:47:03.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不明白嗎
+Dialogue: 1,0:47:03.87,0:47:05.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們人氣這麼高
+Dialogue: 1,0:47:05.46,0:47:07.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是深受粉絲們矚目的喔
+Dialogue: 1,0:47:08.26,0:47:09.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊
+Dialogue: 1,0:47:10.01,0:47:11.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這毫無疑問…
+Dialogue: 1,0:47:13.88,0:47:15.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下一次演出
+Dialogue: 1,0:47:15.39,0:47:16.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不行不行不行
+Dialogue: 1,0:47:16.81,0:47:17.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}絕對不行
+Dialogue: 1,0:47:18.20,0:47:19.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請你務必想想辦法
+Dialogue: 1,0:47:22.25,0:47:22.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}拜託了
+Dialogue: 1,0:47:22.97,0:47:24.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家知道我們認識{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}之後
+Dialogue: 1,0:47:24.20,0:47:25.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都說想看你們演出
+Dialogue: 1,0:47:26.09,0:47:27.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你能不能想想辦法
+Dialogue: 1,0:47:27.80,0:47:28.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:47:28.75,0:47:29.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:47:29.74,0:47:30.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:47:36.36,0:47:39.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都還覺得有下一次演出呢
+Dialogue: 1,0:47:40.38,0:47:42.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這也是當然的 畢竟人氣這麼高
+Dialogue: 1,0:47:43.30,0:47:46.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而且{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}會在大賽之後解散的事
+Dialogue: 1,0:47:46.70,0:47:48.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也並沒有對外公布
+Dialogue: 1,0:47:49.27,0:47:49.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:47:50.38,0:47:54.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里她們都高三了 這點大家都知道的啊
+Dialogue: 1,0:47:55.17,0:47:57.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}畢業之後就沒辦法當校園偶像
+Dialogue: 1,0:47:58.21,0:47:59.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就算不說大家也是知道的吧
+Dialogue: 1,0:48:00.13,0:48:02.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}或許對於觀眾來說
+Dialogue: 1,0:48:02.69,0:48:07.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們是不是校園偶像並不重要
+Dialogue: 1,0:48:11.12,0:48:14.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}實際上 也有人在畢業之後
+Dialogue: 1,0:48:14.69,0:48:16.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還在繼續做偶像活動
+Dialogue: 1,0:48:17.33,0:48:19.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}儘管不能再參加Love Live了
+Dialogue: 1,0:48:20.06,0:48:24.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是有許多人繼續進行著演出 發表著歌曲
+Dialogue: 1,0:48:25.19,0:48:25.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是嗎
+Dialogue: 1,0:48:26.26,0:48:28.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那我們該怎麼做
+Dialogue: 1,0:48:32.67,0:48:35.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只能辦演出了吧
+Dialogue: 1,0:48:36.64,0:48:37.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出
+Dialogue: 1,0:48:37.74,0:48:38.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對
+Dialogue: 1,0:48:40.09,0:48:43.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在觀眾面前 再辦一次演出
+Dialogue: 1,0:48:43.55,0:48:45.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好好向大家告別
+Dialogue: 1,0:48:46.69,0:48:49.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們現在因為演出的成功而備受關注
+Dialogue: 1,0:48:50.17,0:48:52.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼 現在不正是最好的時機嗎
+Dialogue: 1,0:48:54.42,0:48:55.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而且
+Dialogue: 1,0:48:55.90,0:48:58.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}正好有合適的曲子
+Dialogue: 1,0:48:59.47,0:49:00.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等等
+Dialogue: 1,0:49:00.40,0:49:01.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有這樣的曲子嗎
+Dialogue: 1,0:49:01.56,0:49:02.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希
+Dialogue: 1,0:49:02.24,0:49:03.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係吧
+Dialogue: 1,0:49:03.66,0:49:05.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實 真姬已經寫好了
+Dialogue: 1,0:49:06.41,0:49:07.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的新曲
+Dialogue: 1,0:49:07.94,0:49:08.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的嗎
+Dialogue: 1,0:49:08.92,0:49:11.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 明明要解散了 為什麼還
+Dialogue: 1,0:49:12.54,0:49:15.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我曾以為大賽時唱的歌就是最後一曲了
+Dialogue: 1,0:49:16.27,0:49:17.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但之後又發生了很多事嘛
+Dialogue: 1,0:49:18.92,0:49:21.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以想用這種形式來做一個終結
+Dialogue: 1,0:49:22.66,0:49:26.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但之前我沒打算在演出上唱這首歌
+Dialogue: 1,0:49:40.21,0:49:40.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個
+Dialogue: 1,0:49:41.38,0:49:42.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是首好曲子啊
+Dialogue: 1,0:49:42.61,0:49:43.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不公平
+Dialogue: 1,0:49:43.68,0:49:45.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜也想聽
+Dialogue: 1,0:49:45.07,0:49:46.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有我獨唱的部分嗎
+Dialogue: 1,0:49:47.37,0:49:49.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聽聽看 很好聽喔
+Dialogue: 1,0:49:49.41,0:49:51.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜也要聽凜也要聽
+Dialogue: 1,0:49:51.24,0:49:51.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}給
+Dialogue: 1,0:49:51.85,0:49:52.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}喵
+Dialogue: 1,0:49:53.07,0:49:54.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}快 我也想聽
+Dialogue: 1,0:49:55.41,0:49:57.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里也是幹勁十足啊
+Dialogue: 1,0:49:57.23,0:49:59.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒 沒有啦
+Dialogue: 1,0:49:59.40,0:50:01.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}海未 能作詞嗎
+Dialogue: 1,0:50:02.06,0:50:02.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}當然
+Dialogue: 1,0:50:02.96,0:50:05.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實我已經寫了一些
+Dialogue: 1,0:50:06.04,0:50:06.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也是
+Dialogue: 1,0:50:07.39,0:50:09.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在國外的時候一直在看衣服
+Dialogue: 1,0:50:11.30,0:50:14.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都想到一塊兒了
+Dialogue: 1,0:50:15.34,0:50:16.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼樣 不試試嗎
+Dialogue: 1,0:50:17.74,0:50:19.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的告別演出
+Dialogue: 1,0:50:24.16,0:50:25.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:50:28.21,0:50:30.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們是為了什麼唱歌
+Dialogue: 1,0:50:32.46,0:50:33.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:50:34.40,0:50:35.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,0:50:36.04,0:50:37.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有這麼好的曲子
+Dialogue: 1,0:50:38.12,0:50:39.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不唱就浪費了
+Dialogue: 1,0:50:40.45,0:50:41.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}來吧
+Dialogue: 1,0:50:41.25,0:50:43.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}最後的告別演出
+Dialogue: 1,0:50:43.96,0:50:46.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}練習會很辛苦喔
+Dialogue: 1,0:50:46.74,0:50:50.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在我們月底離開音乃木坂學院之前
+Dialogue: 1,0:50:51.30,0:50:53.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這期間 要做的事情可有不少喔
+Dialogue: 1,0:50:58.44,0:51:00.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家 能打擾一下嗎
+Dialogue: 1,0:51:03.85,0:51:04.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}媽媽
+Dialogue: 1,0:51:09.39,0:51:10.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希望我們繼續下去
+Dialogue: 1,0:51:11.24,0:51:11.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:51:12.36,0:51:16.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像中 A-RISE和{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}擁有壓倒性的人氣
+Dialogue: 1,0:51:17.34,0:51:19.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大賽要在巨蛋舉辦的話
+Dialogue: 1,0:51:20.01,0:51:24.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都認為 你們的力量是不可或缺的
+Dialogue: 1,0:51:25.46,0:51:26.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家…
+Dialogue: 1,0:51:27.18,0:51:29.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也能理解這種想法
+Dialogue: 1,0:51:30.60,0:51:32.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}人氣已經這麼高了的話
+Dialogue: 1,0:51:33.29,0:51:34.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}高三學生畢業後
+Dialogue: 1,0:51:35.40,0:51:38.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如果覺得繼續做校園偶像很難
+Dialogue: 1,0:51:38.97,0:51:40.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也可以採用其他方式
+Dialogue: 1,0:51:41.54,0:51:44.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}總之 為了讓現在的熱潮持續下去
+Dialogue: 1,0:51:46.60,0:51:50.11,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都希望{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}能一直走下去
+Dialogue: 1,0:51:54.10,0:51:55.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這也太…
+Dialogue: 1,0:51:56.16,0:51:56.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:52:02.89,0:52:04.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真讓人為難啊
+Dialogue: 1,0:52:05.26,0:52:08.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明明我們剛討論完告別演出的事
+Dialogue: 1,0:52:08.77,0:52:10.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我反對
+Dialogue: 1,0:52:10.75,0:52:13.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}確實是因為Love Live我們才能走到今天
+Dialogue: 1,0:52:14.36,0:52:16.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}有必要做到這地步嗎
+Dialogue: 1,0:52:17.44,0:52:19.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯 沒錯
+Dialogue: 1,0:52:20.05,0:52:23.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但如果我們能讓大賽成功舉辦
+Dialogue: 1,0:52:23.73,0:52:26.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像的未來會更加寬廣
+Dialogue: 1,0:52:27.05,0:52:30.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們也是為此才去海外的
+Dialogue: 1,0:52:30.10,0:52:30.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等等
+Dialogue: 1,0:52:31.25,0:52:32.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不是都決定好了嗎
+Dialogue: 1,0:52:33.02,0:52:37.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}高三學生畢業後{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}就解散 不是都說好了嗎
+Dialogue: 1,0:52:39.48,0:52:40.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}正如真姬所說
+Dialogue: 1,0:52:41.29,0:52:43.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}既然已經決定了要解散
+Dialogue: 1,0:52:43.36,0:52:44.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就得好好解散
+Dialogue: 1,0:52:44.80,0:52:45.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不是嗎
+Dialogue: 1,0:52:46.09,0:52:47.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可
+Dialogue: 1,0:52:48.09,0:52:48.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣真的好嗎
+Dialogue: 1,0:52:49.10,0:52:51.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如果繼續 就能登上巨蛋的舞台
+Dialogue: 1,0:52:51.71,0:52:53.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我當然想去
+Dialogue: 1,0:52:53.33,0:52:55.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 我們不是已經決定了嗎
+Dialogue: 1,0:52:55.85,0:52:57.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}九個人一起商量做的決定
+Dialogue: 1,0:52:58.50,0:53:01.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那時的決心不能輕易改變
+Dialogue: 1,0:53:02.53,0:53:03.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們明白的吧
+Dialogue: 1,0:53:05.44,0:53:06.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可…
+Dialogue: 1,0:53:09.18,0:53:11.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如果{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}解散了
+Dialogue: 1,0:53:11.71,0:53:14.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在巨蛋的演出也會化為泡影吧
+Dialogue: 1,0:53:14.80,0:53:18.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}僅僅因為我們沒繼續下去就變成這樣的話…
+Dialogue: 1,0:53:20.33,0:53:22.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是 就算如此…
+Dialogue: 1,0:53:23.86,0:53:24.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:53:27.81,0:53:29.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果 你怎麼想
+Dialogue: 1,0:53:30.92,0:53:31.63,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:53:39.28,0:53:40.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我回來了
+Dialogue: 1,0:53:40.81,0:53:42.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}啊 雪穗
+Dialogue: 1,0:53:42.25,0:53:43.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}打擾了
+Dialogue: 1,0:53:43.61,0:53:44.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}姐姐呢
+Dialogue: 1,0:53:45.09,0:53:45.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在樓上吧
+Dialogue: 1,0:54:04.25,0:54:05.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好難抉擇
+Dialogue: 1,0:54:11.41,0:54:13.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家會高興嗎
+Dialogue: 1,0:54:15.65,0:54:17.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}繼續下去的話
+Dialogue: 1,0:54:19.47,0:54:20.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}姐姐
+Dialogue: 1,0:54:22.10,0:54:23.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能打擾下嗎
+Dialogue: 1,0:54:23.28,0:54:23.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:54:24.59,0:54:25.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}打擾了
+Dialogue: 1,0:54:26.10,0:54:26.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}亞里沙
+Dialogue: 1,0:54:27.29,0:54:28.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你沒回俄羅斯嗎
+Dialogue: 1,0:54:29.24,0:54:29.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:54:30.30,0:54:32.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今後我要努力當好校園偶像
+Dialogue: 1,0:54:33.30,0:54:35.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在可沒空回去
+Dialogue: 1,0:54:36.81,0:54:37.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}原來如此
+Dialogue: 1,0:54:37.86,0:54:41.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以 想問下在學校哪裡練習比較合適
+Dialogue: 1,0:54:42.35,0:54:44.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們不知道選哪裡好
+Dialogue: 1,0:54:45.82,0:54:46.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣啊
+Dialogue: 1,0:54:46.90,0:54:49.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有什麼推薦的地方嗎
+Dialogue: 1,0:54:50.92,0:54:53.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然還是天台吧 畢竟那裡很大
+Dialogue: 1,0:54:53.69,0:54:56.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然下雨就練不了了
+Dialogue: 1,0:54:56.95,0:54:59.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但天台不是有你們在練習嗎
+Dialogue: 1,0:55:00.15,0:55:00.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒問題
+Dialogue: 1,0:55:01.15,0:55:03.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}離遠點就不會互相打擾了
+Dialogue: 1,0:55:04.05,0:55:07.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而且 我還可以每天偷偷看你們勤奮練習的樣子
+Dialogue: 1,0:55:07.75,0:55:08.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不行不行
+Dialogue: 1,0:55:09.06,0:55:10.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們才剛剛開始
+Dialogue: 1,0:55:14.56,0:55:15.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}姐姐
+Dialogue: 1,0:55:20.34,0:55:22.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不開心嗎
+Dialogue: 1,0:55:24.34,0:55:25.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}開心
+Dialogue: 1,0:55:25.46,0:55:26.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊
+Dialogue: 1,0:55:26.73,0:55:28.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我和亞里沙討論過了
+Dialogue: 1,0:55:28.93,0:55:31.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們的目標
+Dialogue: 1,0:55:31.24,0:55:33.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是成為不輸給{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的開開心心的校園偶像
+Dialogue: 1,0:55:34.03,0:55:34.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以
+Dialogue: 1,0:55:36.18,0:55:37.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以我們希望
+Dialogue: 1,0:55:38.25,0:55:40.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的各位能一直開心
+Dialogue: 1,0:55:42.97,0:55:43.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再見
+Dialogue: 1,0:55:52.02,0:55:53.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}開心
+Dialogue: 1,0:55:57.96,0:55:58.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}電話
+Dialogue: 1,0:56:16.60,0:56:17.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,0:56:17.97,0:56:18.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}翼
+Dialogue: 1,0:56:19.40,0:56:20.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好久不見
+Dialogue: 1,0:56:20.97,0:56:21.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}歡迎回來
+Dialogue: 1,0:56:22.86,0:56:25.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這身打扮是怎麼回事
+Dialogue: 1,0:56:28.36,0:56:29.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個 一時匆忙
+Dialogue: 1,0:56:32.19,0:56:34.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有時間嗎
+Dialogue: 1,0:56:34.78,0:56:35.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有車在等著
+Dialogue: 1,0:56:36.62,0:56:37.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}去兜兜風吧
+Dialogue: 1,0:56:38.19,0:56:39.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}兜 兜風
+Dialogue: 1,0:56:48.34,0:56:50.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那邊怎麼樣
+Dialogue: 1,0:56:50.35,0:56:50.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,0:56:51.41,0:56:54.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}很開心 也學到了很多
+Dialogue: 1,0:56:54.59,0:56:55.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣啊
+Dialogue: 1,0:56:55.49,0:56:57.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}演出似乎也大獲成功啊
+Dialogue: 1,0:56:58.34,0:57:00.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家一直在討論這個話題
+Dialogue: 1,0:57:01.45,0:57:03.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒有啦
+Dialogue: 1,0:57:04.01,0:57:06.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下次打算在哪裡開演出
+Dialogue: 1,0:57:10.14,0:57:11.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個
+Dialogue: 1,0:57:12.88,0:57:15.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一臉迷茫的樣子呢
+Dialogue: 1,0:57:17.18,0:57:19.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}高三學生畢業時{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}解散
+Dialogue: 1,0:57:21.77,0:57:25.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們曾認為這是最好的選擇
+Dialogue: 1,0:57:26.51,0:57:27.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:57:28.41,0:57:31.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在有很多人在等著我們
+Dialogue: 1,0:57:33.33,0:57:36.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希望我們為Love Live出份力
+Dialogue: 1,0:57:37.33,0:57:39.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你不想辜負他們的期待是嗎
+Dialogue: 1,0:57:39.65,0:57:41.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有人為我們加油
+Dialogue: 1,0:57:41.97,0:57:44.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有人想聽我們唱歌
+Dialogue: 1,0:57:45.64,0:57:46.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想回應他們的期待
+Dialogue: 1,0:57:47.98,0:57:49.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們一直都是這麼做的
+Dialogue: 1,0:57:50.50,0:57:51.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然我…
+Dialogue: 1,0:57:51.86,0:57:53.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那就繼續下去吧
+Dialogue: 1,0:57:54.04,0:57:54.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也想
+Dialogue: 1,0:57:56.88,0:57:57.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是
+Dialogue: 1,0:58:00.50,0:58:01.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是
+Dialogue: 1,0:58:01.69,0:58:04.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是我們以後的經紀人團隊
+Dialogue: 1,0:58:05.56,0:58:07.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}經紀人？
+Dialogue: 1,0:58:07.55,0:58:10.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們決定要將我們的組合繼續下去
+Dialogue: 1,0:58:10.62,0:58:13.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}即便我們從學校畢業 不再是校園偶像
+Dialogue: 1,0:58:14.77,0:58:17.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也希望我們三人能作為A-RISE一起歌唱
+Dialogue: 1,0:58:18.09,0:58:18.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是我們的想法
+Dialogue: 1,0:58:20.81,0:58:21.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}翼
+Dialogue: 1,0:58:22.58,0:58:24.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我很理解你的心情
+Dialogue: 1,0:58:25.61,0:58:26.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也曾經迷茫過
+Dialogue: 1,0:58:27.30,0:58:30.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}以Love Live為目標 一直堅持做校園偶像
+Dialogue: 1,0:58:31.22,0:58:34.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}並在功成名就之時迎來結束
+Dialogue: 1,0:58:34.82,0:58:36.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我覺得這是件很美妙的事情
+Dialogue: 1,0:58:38.01,0:58:38.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是
+Dialogue: 1,0:58:40.12,0:58:41.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就這樣退場還是有點捨不得
+Dialogue: 1,0:58:45.93,0:58:49.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我希望 能將這美好的一瞬永遠繼續下去
+Dialogue: 1,0:58:50.11,0:58:52.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}並且 繼續給觀眾帶來歡笑
+Dialogue: 1,0:58:52.86,0:58:55.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在更高更廣闊的舞台上展翅飛翔
+Dialogue: 1,0:58:58.64,0:59:01.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是我們內心的想法 所以我們…
+Dialogue: 1,0:59:06.26,0:59:08.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}無論你作何選擇 都是你的自由
+Dialogue: 1,0:59:09.49,0:59:11.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但我們是要繼續向前的
+Dialogue: 1,0:59:12.97,0:59:14.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也希望你們能堅持下去
+Dialogue: 1,0:59:18.46,0:59:21.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}作為一同征戰過Love Live的夥伴
+Dialogue: 1,0:59:22.56,0:59:23.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今後也一樣
+Dialogue: 1,1:00:28.69,1:00:29.41,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fs69}μ's
+Dialogue: 1,1:00:30.27,1:00:31.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像
+Dialogue: 1,1:00:32.69,1:00:35.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我希望{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}這個組合能繼續走下去
+Dialogue: 1,1:00:36.46,1:00:38.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我希望大家能永遠開開心心的
+Dialogue: 1,1:00:39.33,1:00:41.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}無論你作何選擇 都是你的自由
+Dialogue: 1,1:00:43.63,1:00:46.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是搞不懂啊
+Dialogue: 1,1:00:48.67,1:00:50.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒想到會變成這樣
+Dialogue: 1,1:00:55.30,1:00:57.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}果然還是繼續下去比較好吧
+Dialogue: 1,1:01:04.86,1:01:05.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是
+Dialogue: 1,1:01:07.06,1:01:07.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那樣一來
+Dialogue: 1,1:01:22.33,1:01:23.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個聲音是
+Dialogue: 1,1:01:57.44,1:01:58.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}又見面了啊
+Dialogue: 1,1:01:59.20,1:02:01.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼回事 為什麼你會在這裡
+Dialogue: 1,1:02:01.86,1:02:03.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那時你也是突然就消失了
+Dialogue: 1,1:02:04.73,1:02:07.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這隻麥克風 我家也有和這個一樣的
+Dialogue: 1,1:02:08.17,1:02:10.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我可是一直想跟你道謝的
+Dialogue: 1,1:02:10.42,1:02:12.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱 抱歉
+Dialogue: 1,1:02:12.53,1:02:15.14,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對了 我家就在這附近
+Dialogue: 1,1:02:16.35,1:02:18.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請你來我家喝口茶吧
+Dialogue: 1,1:02:18.44,1:02:19.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也想把那個麥克風還給你
+Dialogue: 1,1:02:20.27,1:02:24.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等…我的行李還在那呢
+Dialogue: 1,1:02:28.36,1:02:30.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就是這裡 請進
+Dialogue: 1,1:02:30.83,1:02:31.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不必了 就到這吧
+Dialogue: 1,1:02:32.99,1:02:34.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還是下次再說吧
+Dialogue: 1,1:02:40.98,1:02:43.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼 好不容易又見面了
+Dialogue: 1,1:02:47.29,1:02:48.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你得出答案了嗎
+Dialogue: 1,1:02:50.67,1:02:51.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個時候的
+Dialogue: 1,1:02:53.49,1:02:54.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}閉上眼睛
+Dialogue: 1,1:02:59.10,1:03:00.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}像這樣嗎
+Dialogue: 1,1:03:02.76,1:03:03.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你能翱翔
+Dialogue: 1,1:03:04.61,1:03:05.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}翱翔
+Dialogue: 1,1:03:34.32,1:03:37.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}無論何時 你都可以翱翔藍天
+Dialogue: 1,1:03:38.50,1:03:39.63,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和那時一樣
+Dialogue: 1,1:04:18.52,1:04:20.09,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果 我是繪里
+Dialogue: 1,1:04:21.30,1:04:24.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}後來 我們三個人聊了一下
+Dialogue: 1,1:04:26.27,1:04:27.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在我們人氣大增
+Dialogue: 1,1:04:28.16,1:04:31.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們的歌曲也有很多聽眾
+Dialogue: 1,1:04:32.48,1:04:36.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而且大家都希望我們為Love Live出一份力
+Dialogue: 1,1:04:37.40,1:04:38.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這都令我們很欣慰
+Dialogue: 1,1:04:40.64,1:04:44.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 我們的想法並未改變
+Dialogue: 1,1:04:46.62,1:04:49.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們不會將{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}繼續下去
+Dialogue: 1,1:04:50.75,1:04:52.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為我們
+Dialogue: 1,1:05:00.26,1:05:03.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只想做校園偶像
+Dialogue: 1,1:05:08.89,1:05:11.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們喜歡校園偶像
+Dialogue: 1,1:05:34.51,1:05:37.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為了學校 也為了大家
+Dialogue: 1,1:05:38.06,1:05:41.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們九名學生聚集在一起
+Dialogue: 1,1:05:42.20,1:05:45.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}互相競爭 攜手並進
+Dialogue: 1,1:05:46.32,1:05:47.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們熱愛校園偶像
+Dialogue: 1,1:05:51.49,1:05:55.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能夠在有限的時光中 竭盡全力綻放自己的光芒
+Dialogue: 1,1:05:55.79,1:05:57.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以我們熱愛校園偶像
+Dialogue: 1,1:06:01.07,1:06:03.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我找到答案了
+Dialogue: 1,1:06:13.63,1:06:17.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}最初 為了學校 我開始歌唱
+Dialogue: 1,1:06:19.63,1:06:20.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}開始做起了偶像
+Dialogue: 1,1:06:22.85,1:06:25.10,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}然後 與大家相遇
+Dialogue: 1,1:06:26.01,1:06:27.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們一同以Love Live為目標
+Dialogue: 1,1:06:28.22,1:06:29.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}竭盡全力奔跑至今
+Dialogue: 1,1:06:30.83,1:06:34.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們實現了那個以前以為永遠不可能實現的目標
+Dialogue: 1,1:06:39.65,1:06:42.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這並不是運氣使然
+Dialogue: 1,1:06:46.73,1:06:49.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而是因為我們竭盡全力忘我地奮鬥了
+Dialogue: 1,1:06:50.92,1:06:51.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也是因為
+Dialogue: 1,1:06:55.19,1:06:56.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們很開心地享受著
+Dialogue: 1,1:07:04.39,1:07:05.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都來啦
+Dialogue: 1,1:07:06.26,1:07:07.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你還真是慢啊
+Dialogue: 1,1:07:15.76,1:07:17.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有段時間不見了
+Dialogue: 1,1:07:17.63,1:07:19.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想差不多要開始練習了
+Dialogue: 1,1:07:20.04,1:07:22.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們現在可還是校園偶像呢
+Dialogue: 1,1:07:22.89,1:07:26.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嘛 我倒是怎樣都無所謂
+Dialogue: 1,1:07:27.88,1:07:30.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們總在一起的話 還挺麻煩的
+Dialogue: 1,1:07:31.73,1:07:34.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為我們已經心有靈犀了
+Dialogue: 1,1:07:39.24,1:07:41.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想大家的答案一定是一樣的
+Dialogue: 1,1:07:42.73,1:07:45.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}正是因為{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}是校園偶像
+Dialogue: 1,1:07:46.91,1:07:48.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都沒有異議吧
+Dialogue: 1,1:07:50.44,1:07:52.21,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是巨蛋大賽
+Dialogue: 1,1:07:54.41,1:07:56.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們也一定會讓它成真的
+Dialogue: 1,1:07:57.71,1:07:58.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}什麼意思
+Dialogue: 1,1:07:59.18,1:08:00.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要辦演出
+Dialogue: 1,1:08:00.89,1:08:04.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要在演出上向大家展現校園偶像的美好之處
+Dialogue: 1,1:08:05.07,1:08:07.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不只有A-RISE和{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}才出類拔萃
+Dialogue: 1,1:08:09.38,1:08:11.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所有的校園偶像都很棒
+Dialogue: 1,1:08:11.85,1:08:13.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要通過演出讓大家明白這一點
+Dialogue: 1,1:08:14.83,1:08:15.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是這樣一來
+Dialogue: 1,1:08:16.76,1:08:17.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}具體要怎麼做呢
+Dialogue: 1,1:08:18.11,1:08:21.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實呢 我有一個很棒的想法
+Dialogue: 1,1:08:21.73,1:08:23.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}過來過來
+Dialogue: 1,1:08:25.15,1:08:25.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}其實我想…
+Dialogue: 1,1:08:29.03,1:08:30.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你是認真的嗎
+Dialogue: 1,1:08:30.41,1:08:31.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在才開始準備來得及嗎
+Dialogue: 1,1:08:32.17,1:08:32.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就是啊
+Dialogue: 1,1:08:32.92,1:08:34.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你知道這需要花多少工夫嗎
+Dialogue: 1,1:08:35.32,1:08:36.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然時間不太充裕
+Dialogue: 1,1:08:36.96,1:08:39.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但如果成功了 你們不覺得會很有趣嗎
+Dialogue: 1,1:08:39.62,1:08:41.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好啊 我贊成
+Dialogue: 1,1:08:41.96,1:08:43.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聽起來很有趣
+Dialogue: 1,1:08:43.50,1:08:44.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如 如果我們做到了
+Dialogue: 1,1:08:44.97,1:08:46.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那這一定會是一場史無前例的演出
+Dialogue: 1,1:08:48.37,1:08:50.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像妮可要的就是這種演出
+Dialogue: 1,1:08:50.98,1:08:54.03,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}說的也是 這會是全世界最棒的演出
+Dialogue: 1,1:08:54.69,1:08:55.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}確實
+Dialogue: 1,1:08:56.03,1:08:59.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}說不定這會是我們參加過的最有趣的演出
+Dialogue: 1,1:08:59.46,1:09:00.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}各位
+Dialogue: 1,1:09:03.80,1:09:05.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你說要我們一起辦演出？
+Dialogue: 1,1:09:05.56,1:09:09.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}最終還是決定要就此解散
+Dialogue: 1,1:09:10.10,1:09:14.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然這個消息還沒有告訴過組外的人
+Dialogue: 1,1:09:14.98,1:09:17.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 我們希望能把大家聚在一起
+Dialogue: 1,1:09:17.26,1:09:19.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}將校園偶像的美妙之處傳遞出去
+Dialogue: 1,1:09:21.44,1:09:22.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我明白了
+Dialogue: 1,1:09:23.10,1:09:24.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只要我們這些校園偶像
+Dialogue: 1,1:09:24.80,1:09:27.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能夠辦一場讓自己從心底感到開心的演出
+Dialogue: 1,1:09:27.68,1:09:29.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼即便我們謝幕了
+Dialogue: 1,1:09:29.84,1:09:33.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}巨蛋大賽也一定能夠繼續下去 對嗎
+Dialogue: 1,1:09:35.08,1:09:35.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是的
+Dialogue: 1,1:09:36.36,1:09:38.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這想法真有你的風格 聽起來挺有意思
+Dialogue: 1,1:09:39.41,1:09:42.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}能讓大家一起開心也不錯
+Dialogue: 1,1:09:42.68,1:09:45.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}畢竟我們現在仍然是校園偶像
+Dialogue: 1,1:09:46.28,1:09:47.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們願意幫忙
+Dialogue: 1,1:09:47.48,1:09:48.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}非常感謝
+Dialogue: 1,1:09:49.70,1:09:51.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是 我有一個請求
+Dialogue: 1,1:09:54.51,1:09:56.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我希望大家能一起唱一首歌
+Dialogue: 1,1:09:57.82,1:09:59.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家一起唱一首歌
+Dialogue: 1,1:10:00.21,1:10:00.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒錯
+Dialogue: 1,1:10:01.24,1:10:02.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不是某個組合的歌曲
+Dialogue: 1,1:10:02.89,1:10:04.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而是所有校園偶像共同的歌曲
+Dialogue: 1,1:10:06.02,1:10:08.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}既然要把大家都湊在一起辦演出
+Dialogue: 1,1:10:08.21,1:10:11.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也應該有一首符合這一主題的歌曲
+Dialogue: 1,1:10:11.55,1:10:16.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我希望身為冠軍的你們可以創作出這樣一首歌來
+Dialogue: 1,1:10:17.65,1:10:18.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如何
+Dialogue: 1,1:10:19.26,1:10:22.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是讓我們參加的唯一條件
+Dialogue: 1,1:10:25.49,1:10:26.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我想試試
+Dialogue: 1,1:10:26.68,1:10:27.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個想法很棒
+Dialogue: 1,1:10:28.26,1:10:29.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也很想這麼做
+Dialogue: 1,1:10:31.22,1:10:32.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是時間可不多喔
+Dialogue: 1,1:10:33.33,1:10:34.16,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係
+Dialogue: 1,1:10:36.85,1:10:37.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}多謝款待
+Dialogue: 1,1:10:38.73,1:10:40.05,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我會將這件事告訴大家的
+Dialogue: 1,1:10:49.40,1:10:50.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好燙
+Dialogue: 1,1:10:54.46,1:10:55.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好驚人啊
+Dialogue: 1,1:10:55.96,1:10:58.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}郵件才剛發出去 就收到了好幾封回覆
+Dialogue: 1,1:10:58.88,1:10:59.61,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的嗎
+Dialogue: 1,1:11:00.02,1:11:04.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是其中有好幾個組合只是對這件事有點感興趣而已
+Dialogue: 1,1:11:04.59,1:11:05.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也是
+Dialogue: 1,1:11:05.56,1:11:07.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}突然被人邀請參加
+Dialogue: 1,1:11:07.77,1:11:09.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也可能會很困擾呢
+Dialogue: 1,1:11:09.64,1:11:12.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也許電話聯繫她們詳細說明一下會比較好
+Dialogue: 1,1:11:13.69,1:11:15.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還抽時間做這種事真的好嗎
+Dialogue: 1,1:11:16.04,1:11:18.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們已經沒多少時間了
+Dialogue: 1,1:11:19.10,1:11:20.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個嘛
+Dialogue: 1,1:11:20.41,1:11:21.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那你說該怎麼辦
+Dialogue: 1,1:11:21.76,1:11:22.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}直接去找她們吧
+Dialogue: 1,1:11:23.31,1:11:25.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不錯 直接和她們見面是最好的
+Dialogue: 1,1:11:27.37,1:11:28.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}見面！？
+Dialogue: 1,1:11:28.70,1:11:29.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你認真的嗎
+Dialogue: 1,1:11:29.92,1:11:30.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:11:30.69,1:11:32.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然我們能去的地方很有限
+Dialogue: 1,1:11:33.29,1:11:35.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是面對面傾訴衷腸的話
+Dialogue: 1,1:11:35.84,1:11:37.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一定能夠相互理解的
+Dialogue: 1,1:11:38.12,1:11:39.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是 怎麼做呢
+Dialogue: 1,1:11:39.87,1:11:40.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}很簡單的
+Dialogue: 1,1:11:41.24,1:11:41.95,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真姬
+Dialogue: 1,1:11:42.76,1:11:44.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}借我們車票錢
+Dialogue: 1,1:11:44.73,1:11:45.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}原來如此
+Dialogue: 1,1:11:45.93,1:11:48.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為什麼你們都看我啊
+Dialogue: 1,1:11:49.01,1:11:50.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}來 出發吧
+Dialogue: 1,1:11:52.32,1:11:53.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都在等著呢
+Dialogue: 1,1:13:24.39,1:13:26.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家 來這邊來這邊
+Dialogue: 1,1:13:26.63,1:13:27.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}等等我
+Dialogue: 1,1:13:27.82,1:13:29.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你走得太快了
+Dialogue: 0,1:13:29.39,1:13:31.10,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\an2}One Two Three Four
+Dialogue: 0,1:13:31.32,1:13:33.03,35 cn 方正粗圆_GBK,,0,0,0,,{\blur4.5\an2}Five Six Seven Eight
+Dialogue: 1,1:13:33.42,1:13:34.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎 怎麼辦
+Dialogue: 1,1:13:34.90,1:13:36.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她們正在努力練習啊
+Dialogue: 1,1:13:37.31,1:13:38.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你去和她們說一下
+Dialogue: 1,1:13:38.59,1:13:39.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我 我嗎
+Dialogue: 1,1:13:39.33,1:13:40.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你不是部長嗎
+Dialogue: 1,1:13:42.91,1:13:44.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們好 初次見面
+Dialogue: 1,1:13:45.05,1:13:46.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我是{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的南小鳥
+Dialogue: 1,1:13:47.21,1:13:49.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}方便談一下話嗎
+Dialogue: 1,1:13:50.64,1:13:51.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好可愛
+Dialogue: 1,1:13:52.11,1:13:53.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請 請問有什麼事
+Dialogue: 1,1:13:55.62,1:13:57.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}想讓我們站上舞台的話就來決個勝負吧
+Dialogue: 1,1:13:58.82,1:14:00.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}贏了的話就聽你們的
+Dialogue: 1,1:14:01.81,1:14:04.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}很好 有趣
+Dialogue: 1,1:14:05.34,1:14:07.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}讓你們見識見識{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}真正的實力
+Dialogue: 1,1:14:10.11,1:14:11.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請多多指教
+Dialogue: 1,1:14:12.55,1:14:13.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要開演出了
+Dialogue: 1,1:14:14.16,1:14:14.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請多指教
+Dialogue: 1,1:14:15.08,1:14:16.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都和我們一樣努力
+Dialogue: 1,1:14:17.25,1:14:18.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都在努力呢
+Dialogue: 1,1:14:19.21,1:14:20.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼辦才好
+Dialogue: 1,1:14:20.49,1:14:22.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也不好這麼唐突就上去搭話
+Dialogue: 1,1:14:22.31,1:14:24.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這種時候就讓凜上吧
+Dialogue: 1,1:14:25.15,1:14:25.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}凜去說嗎
+Dialogue: 1,1:14:26.08,1:14:26.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}來 這個給你
+Dialogue: 1,1:14:31.14,1:14:31.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個
+Dialogue: 1,1:14:32.47,1:14:33.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有什麼事嗎
+Dialogue: 1,1:14:33.72,1:14:35.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我是校園偶像的使者
+Dialogue: 1,1:14:36.16,1:14:38.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}想和你們一起開演出的說
+Dialogue: 1,1:14:40.14,1:14:41.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那是什麼
+Dialogue: 1,1:14:41.90,1:14:44.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是她在海外學會的新招數
+Dialogue: 1,1:14:44.36,1:14:45.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是蠢透了
+Dialogue: 1,1:14:46.35,1:14:47.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她們同意參加了喵
+Dialogue: 1,1:14:48.92,1:14:50.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有郵件來了
+Dialogue: 1,1:14:50.52,1:14:51.50,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不止是從東京發來的
+Dialogue: 1,1:14:51.86,1:14:53.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}從全國好幾所學校都有郵件發來
+Dialogue: 1,1:14:53.80,1:14:54.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好厲害
+Dialogue: 1,1:14:57.10,1:14:58.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣就有20組了喵
+Dialogue: 1,1:14:59.54,1:15:00.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Hello
+Dialogue: 1,1:15:00.66,1:15:01.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}杏樹
+Dialogue: 1,1:15:04.35,1:15:06.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們來幫你們作曲了
+Dialogue: 1,1:15:07.50,1:15:08.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是給你們的慰問品
+Dialogue: 1,1:15:10.92,1:15:12.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}啊 好可愛的衣服
+Dialogue: 1,1:15:13.25,1:15:14.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝誇獎
+Dialogue: 1,1:15:14.59,1:15:17.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}被穗乃果拜託了之後 趕緊做出來的
+Dialogue: 1,1:15:18.71,1:15:21.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們倆都有個蠻幹的搭檔
+Dialogue: 1,1:15:21.55,1:15:22.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真辛苦啊
+Dialogue: 1,1:15:22.81,1:15:24.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}肯定要很多衣服吧
+Dialogue: 1,1:15:24.89,1:15:25.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我來幫忙吧
+Dialogue: 1,1:15:26.10,1:15:28.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我又想到新的服裝設計了
+Dialogue: 1,1:15:29.69,1:15:30.30,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}怎麼樣
+Dialogue: 1,1:15:31.34,1:15:33.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的很辛苦呢
+Dialogue: 1,1:15:35.84,1:15:36.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這曲子真不錯
+Dialogue: 1,1:15:37.21,1:15:39.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如果有什麼主意的話說來聽聽
+Dialogue: 1,1:15:39.55,1:15:40.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我會試著把它加進來的
+Dialogue: 1,1:15:43.62,1:15:44.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}讓我想想
+Dialogue: 1,1:15:45.25,1:15:47.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那 這樣如何
+Dialogue: 1,1:15:53.77,1:15:54.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你在幹什麼
+Dialogue: 1,1:15:55.96,1:15:57.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}什 什麼都沒做
+Dialogue: 1,1:15:58.40,1:15:59.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是真姬啊
+Dialogue: 1,1:16:00.54,1:16:01.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都說了沒什麼
+Dialogue: 1,1:16:02.19,1:16:05.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}說來 不是說要唱上次真姬作的曲子嗎
+Dialogue: 1,1:16:06.40,1:16:09.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那她們兩個怎麼又在那麼親密地寫新曲啊
+Dialogue: 1,1:16:09.77,1:16:11.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也問過她
+Dialogue: 1,1:16:11.61,1:16:14.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她說那首曲子想讓我們九個人一起唱
+Dialogue: 1,1:16:16.50,1:16:17.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是什麼話嘛
+Dialogue: 1,1:16:18.27,1:16:20.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是來自全國各地的心聲
+Dialogue: 1,1:16:20.64,1:16:22.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有這麼多嗎
+Dialogue: 1,1:16:22.82,1:16:24.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要從這裡面選的話…
+Dialogue: 1,1:16:25.08,1:16:26.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這些話裡都充滿了大家的感情
+Dialogue: 1,1:16:27.46,1:16:27.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要上了喔
+Dialogue: 1,1:16:29.80,1:16:31.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家好
+Dialogue: 1,1:16:32.43,1:16:35.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今天真的非常感謝大家能聚集在這裡
+Dialogue: 1,1:16:36.45,1:16:38.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這次的演出和比賽不同
+Dialogue: 1,1:16:38.91,1:16:41.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是由大家親手操辦的演出
+Dialogue: 1,1:16:41.90,1:16:43.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}自己親手製作舞台
+Dialogue: 1,1:16:44.52,1:16:46.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}親自去邀請許多人來參加
+Dialogue: 1,1:16:47.56,1:16:48.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就讓我們用自己的力量
+Dialogue: 1,1:16:49.14,1:16:51.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}舉辦一場成功的演出吧
+Dialogue: 1,1:16:52.30,1:16:53.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}姐姐
+Dialogue: 1,1:16:54.81,1:16:56.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你要過來幫忙嗎
+Dialogue: 1,1:16:56.74,1:16:57.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:16:57.89,1:16:59.29,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}當然
+Dialogue: 1,1:16:59.55,1:17:02.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是 我們還不是校園偶像
+Dialogue: 1,1:17:03.12,1:17:04.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也可以參加嗎
+Dialogue: 1,1:17:06.44,1:17:08.01,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒問題
+Dialogue: 1,1:17:13.98,1:17:14.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}有這個
+Dialogue: 1,1:17:15.94,1:17:17.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們明天要舉辦演出
+Dialogue: 1,1:17:18.13,1:17:19.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這次是所有人都參加的演出
+Dialogue: 1,1:17:20.32,1:17:21.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家一起唱歌吧
+Dialogue: 1,1:17:21.88,1:17:23.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請多多捧場
+Dialogue: 1,1:17:23.54,1:17:24.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}歡迎光臨
+Dialogue: 1,1:17:25.17,1:17:29.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這裡有校園偶像推出的菜單 很好吃喔
+Dialogue: 1,1:17:29.46,1:17:30.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個
+Dialogue: 1,1:17:30.83,1:17:32.53,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這上面寫的…
+Dialogue: 1,1:17:34.06,1:17:36.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}白米奶昔是什麼
+Dialogue: 1,1:17:37.37,1:17:38.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這個…
+Dialogue: 1,1:17:38.82,1:17:40.45,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請多多捧場
+Dialogue: 1,1:17:40.49,1:17:42.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請大家都來參加吧
+Dialogue: 1,1:17:42.33,1:17:43.73,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝惠顧
+Dialogue: 1,1:17:43.93,1:17:45.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一定要來看演出喔
+Dialogue: 1,1:17:45.96,1:17:47.19,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這樣好嗎
+Dialogue: 1,1:17:47.85,1:17:49.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}再往右一點
+Dialogue: 1,1:17:54.81,1:17:56.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家好
+Dialogue: 1,1:17:56.29,1:17:57.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家嗨起來了沒
+Dialogue: 1,1:17:58.03,1:18:00.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}據說明天 全國的校園偶像就會聚在一起
+Dialogue: 1,1:18:00.92,1:18:03.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為我們帶來一場特殊的演出呢
+Dialogue: 1,1:18:03.73,1:18:04.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真讓人期待啊
+Dialogue: 1,1:18:04.94,1:18:05.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真讓人期待啊
+Dialogue: 1,1:18:06.08,1:18:07.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果 加油
+Dialogue: 1,1:18:07.98,1:18:09.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}加油
+Dialogue: 1,1:18:09.31,1:18:10.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}謝謝
+Dialogue: 1,1:18:10.78,1:18:13.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家也一定要來看演出啊
+Dialogue: 1,1:18:13.36,1:18:14.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要開演出了
+Dialogue: 1,1:18:14.74,1:18:16.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}請大家來參加吧
+Dialogue: 1,1:18:21.04,1:18:21.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}寫好了
+Dialogue: 1,1:18:22.53,1:18:24.54,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的要把這個掛起來嗎
+Dialogue: 1,1:18:24.84,1:18:26.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一 二
+Dialogue: 1,1:18:30.64,1:18:31.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}搞定了
+Dialogue: 1,1:18:31.94,1:18:34.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}雖然走了不少彎路
+Dialogue: 1,1:18:35.23,1:18:36.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這也是一種體驗
+Dialogue: 1,1:18:36.63,1:18:37.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:18:37.14,1:18:39.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在自己做的舞台上 大家一起
+Dialogue: 1,1:18:39.85,1:18:41.51,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好興奮喵
+Dialogue: 1,1:18:41.84,1:18:43.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}已經有點想上去跳了
+Dialogue: 1,1:18:44.14,1:18:45.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}說什麼呢
+Dialogue: 1,1:18:45.44,1:18:46.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}明天才是正式演出
+Dialogue: 1,1:18:47.79,1:18:49.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是還是練習一下吧
+Dialogue: 1,1:18:50.05,1:18:51.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在練習嗎
+Dialogue: 1,1:18:51.29,1:18:52.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}都已經傍晚了喔
+Dialogue: 1,1:18:52.88,1:18:54.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}A-RISE也不可能突然就…
+Dialogue: 1,1:18:54.25,1:18:55.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們不介意
+Dialogue: 1,1:18:56.29,1:18:57.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不錯
+Dialogue: 1,1:18:59.44,1:19:00.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好
+Dialogue: 1,1:19:00.59,1:19:03.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那大家就來最後排練一遍吧
+Dialogue: 1,1:19:05.41,1:19:07.11,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好嘞 要加油了
+Dialogue: 1,1:19:07.24,1:19:09.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們要跟上A-RISE和{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}的步伐
+Dialogue: 1,1:19:09.76,1:19:10.76,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}加油
+Dialogue: 1,1:19:10.81,1:19:11.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也是
+Dialogue: 1,1:19:15.40,1:19:15.99,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,1:19:18.37,1:19:19.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個 大家
+Dialogue: 1,1:19:20.50,1:19:24.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們有話必須要告訴大家
+Dialogue: 1,1:19:30.72,1:19:32.88,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為我們
+Dialogue: 1,1:19:34.13,1:19:36.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只想做校園偶像
+Dialogue: 1,1:19:38.18,1:19:38.68,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那個
+Dialogue: 1,1:19:40.21,1:19:41.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們…
+Dialogue: 1,1:19:42.03,1:19:45.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}在這場演出結束之後
+Dialogue: 1,1:19:45.97,1:19:48.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}將停止偶像活動
+Dialogue: 1,1:20:00.86,1:20:03.32,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們喜歡做校園偶像
+Dialogue: 1,1:20:03.86,1:20:05.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為了學校而歌唱
+Dialogue: 1,1:20:05.79,1:20:07.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為了大家而歌唱
+Dialogue: 1,1:20:07.78,1:20:11.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}互相競爭 攜手並進
+Dialogue: 1,1:20:12.04,1:20:14.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}在這樣有限的時間裡
+Dialogue: 1,1:20:15.03,1:20:18.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}竭盡全力綻放自己光芒的校園偶像 我們最喜歡了
+Dialogue: 1,1:20:19.64,1:20:22.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}希望能珍藏這份感受
+Dialogue: 1,1:20:22.94,1:20:25.20,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和大家談過以後 我們做出了這個決定
+Dialogue: 1,1:20:26.48,1:20:27.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}姐姐
+Dialogue: 1,1:20:29.17,1:20:32.69,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是 Love Live還會繼續下去的
+Dialogue: 1,1:20:34.00,1:20:36.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家的 校園偶像的美妙之處
+Dialogue: 1,1:20:37.30,1:20:39.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}以及今後永不熄滅的輝煌
+Dialogue: 1,1:20:39.44,1:20:40.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們想將這些傳遞給更多人
+Dialogue: 1,1:20:41.58,1:20:43.36,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}只要我們攜手共進
+Dialogue: 1,1:20:44.13,1:20:47.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}從今往後 Love Live的舞台一定會越來越廣闊
+Dialogue: 1,1:20:51.37,1:20:52.33,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這也太…
+Dialogue: 1,1:21:00.14,1:21:03.25,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}所以 明天我們唱的不是完結之歌
+Dialogue: 1,1:21:03.84,1:21:06.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和我們一起 為了校園偶像
+Dialogue: 1,1:21:07.16,1:21:10.85,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為了支持我們的所有人而歌唱吧
+Dialogue: 1,1:21:12.42,1:21:16.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家同心協力 一起歌唱吧
+Dialogue: 1,1:21:23.02,1:21:24.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安
+Dialogue: 1,1:21:24.44,1:21:25.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你好
+Dialogue: 1,1:21:39.40,1:21:39.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好
+Dialogue: 1,1:21:40.45,1:21:41.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安 穗乃果
+Dialogue: 1,1:21:42.29,1:21:43.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安
+Dialogue: 1,1:21:44.46,1:21:44.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}走吧
+Dialogue: 1,1:21:46.80,1:21:48.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}睡好了嗎
+Dialogue: 1,1:21:48.58,1:21:49.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯 沒問題
+Dialogue: 1,1:21:50.29,1:21:52.00,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今天大晴天真是太好了
+Dialogue: 1,1:21:52.19,1:21:53.26,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是啊
+Dialogue: 1,1:21:53.52,1:21:54.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看來演出一定會成功的
+Dialogue: 1,1:21:56.20,1:21:57.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不過 還真是奇妙啊
+Dialogue: 1,1:21:58.24,1:22:01.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我以為Love Live結束的時候已經竭盡全力了
+Dialogue: 1,1:22:01.78,1:22:05.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也沒有留下什麼遺憾
+Dialogue: 1,1:22:05.64,1:22:06.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也是
+Dialogue: 1,1:22:06.56,1:22:09.87,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒想到居然會乘上飛機去海外呢
+Dialogue: 1,1:22:11.33,1:22:12.83,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}可是 很開心
+Dialogue: 1,1:22:12.97,1:22:13.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:22:17.02,1:22:17.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安
+Dialogue: 1,1:22:18.24,1:22:19.57,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家來得真早啊
+Dialogue: 1,1:22:19.86,1:22:22.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}昨天住在花陽家裡了
+Dialogue: 1,1:22:22.62,1:22:25.55,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因為某個人說太緊張了睡不著
+Dialogue: 1,1:22:25.64,1:22:27.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}才 才不是
+Dialogue: 1,1:22:27.42,1:22:29.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}因 因為媽媽說可以去住我才…
+Dialogue: 1,1:22:30.38,1:22:31.07,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}媽媽？
+Dialogue: 1,1:22:31.28,1:22:33.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真姬 加油
+Dialogue: 1,1:22:34.38,1:22:36.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我會把大家的媽媽們都叫來
+Dialogue: 1,1:22:36.64,1:22:38.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一起看你們演出喔
+Dialogue: 1,1:22:38.82,1:22:39.97,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}媽媽們也要來？
+Dialogue: 1,1:22:40.31,1:22:41.79,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要變成MaMa Live了
+Dialogue: 1,1:22:42.08,1:22:44.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是的 都說了讓她不要來了
+Dialogue: 1,1:22:45.64,1:22:47.22,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}變得更熱鬧了 不是挺好的嗎
+Dialogue: 1,1:22:47.95,1:22:49.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好了 走吧
+Dialogue: 1,1:22:50.05,1:22:50.72,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安
+Dialogue: 1,1:22:51.26,1:22:52.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}鼓足幹勁上場吧
+Dialogue: 1,1:22:52.98,1:22:55.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}看來沒有人遲到
+Dialogue: 1,1:22:56.84,1:22:58.49,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}還有一個不好說的
+Dialogue: 1,1:22:59.06,1:22:59.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不
+Dialogue: 1,1:23:00.06,1:23:02.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}她肯定會比誰都先到吧
+Dialogue: 1,1:23:05.90,1:23:06.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是妮可
+Dialogue: 1,1:23:09.20,1:23:10.24,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太慢了
+Dialogue: 1,1:23:10.92,1:23:13.18,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}妮可一直一個人等著嗎
+Dialogue: 1,1:23:13.36,1:23:14.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}也太有幹勁了吧
+Dialogue: 1,1:23:14.93,1:23:17.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那又怎麼樣 演出今天就要開始了
+Dialogue: 1,1:23:19.04,1:23:21.91,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼 {\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}全員就都來齊了
+Dialogue: 1,1:23:23.29,1:23:26.86,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}昨天 能把我們的決定說出來 太好了
+Dialogue: 1,1:23:27.64,1:23:28.08,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:23:29.16,1:23:29.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}是呢
+Dialogue: 1,1:23:30.43,1:23:31.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我也覺得
+Dialogue: 1,1:23:32.48,1:23:35.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真是的 穗乃果突然就開始說了
+Dialogue: 1,1:23:35.64,1:23:36.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對不起
+Dialogue: 1,1:23:37.08,1:23:40.75,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}但是這樣一來 就沒有什麼可以迷茫和猶豫的了
+Dialogue: 1,1:23:41.48,1:23:41.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}對吧
+Dialogue: 1,1:23:42.32,1:23:44.60,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們直到最後都是校園偶像
+Dialogue: 1,1:23:45.62,1:23:48.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}為了未來的Love Live 竭盡全力吧
+Dialogue: 1,1:23:50.42,1:23:51.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}繪里
+Dialogue: 1,1:23:52.51,1:23:53.06,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}嗯
+Dialogue: 1,1:24:02.04,1:24:04.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好嘞 看誰先到UTX那邊
+Dialogue: 1,1:24:05.64,1:24:07.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}誰輸了誰請大家喝果汁
+Dialogue: 1,1:24:08.78,1:24:10.46,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}搶跑太狡猾了喵
+Dialogue: 1,1:24:10.52,1:24:11.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不會輸的
+Dialogue: 1,1:24:56.98,1:24:57.67,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我能翱翔
+Dialogue: 1,1:25:01.97,1:25:03.04,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}無論何時都能
+Dialogue: 1,1:25:10.21,1:25:11.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和那時一樣
+Dialogue: 1,1:25:15.74,1:25:16.41,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}穗乃果
+Dialogue: 1,1:25:35.41,1:25:36.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這是…
+Dialogue: 1,1:25:38.11,1:25:39.40,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}如你所見
+Dialogue: 1,1:25:50.44,1:25:52.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聽了你們的講話以後
+Dialogue: 1,1:25:52.83,1:25:54.74,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聚集了如此多的人
+Dialogue: 1,1:26:04.87,1:26:05.70,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}這麼多人
+Dialogue: 1,1:26:20.72,1:26:22.43,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}終於到了這個時刻
+Dialogue: 1,1:26:22.57,1:26:25.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}和大賽不一樣 我們已經不是競爭對手了
+Dialogue: 1,1:26:26.43,1:26:27.78,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們已經一體同心
+Dialogue: 1,1:26:28.99,1:26:31.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們是 校園偶像
+Dialogue: 1,1:26:39.47,1:26:42.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}各位 謝謝你們今天來到這裡
+Dialogue: 1,1:26:43.05,1:26:44.37,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}終於到了正式演出的時候了
+Dialogue: 1,1:26:44.81,1:26:48.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}現在的我們 一定能夠到達任何地方
+Dialogue: 1,1:26:48.98,1:26:50.98,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一定能夠實現任何夢想
+Dialogue: 1,1:26:52.90,1:26:53.62,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}歌唱吧
+Dialogue: 1,1:26:55.16,1:26:57.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}唱出校園偶像的美好
+Dialogue: 1,1:31:49.94,1:31:51.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要照了喔
+Dialogue: 1,1:31:51.54,1:31:52.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好的
+Dialogue: 1,1:31:55.44,1:31:57.59,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}你們兩個太沉了
+Dialogue: 1,1:31:57.70,1:31:59.64,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我說妮可你不要擠嘛
+Dialogue: 1,1:31:59.79,1:32:00.48,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}就是
+Dialogue: 1,1:32:00.49,1:32:02.23,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}不要在意不要在意
+Dialogue: 1,1:32:02.63,1:32:04.17,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}大家都別鬧了
+Dialogue: 1,1:32:07.90,1:32:08.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}那麼各位
+Dialogue: 1,1:32:09.17,1:32:11.34,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}把練習過的那個喊出來吧
+Dialogue: 1,1:32:13.14,1:32:14.58,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}預備
+Dialogue: 1,1:32:15.06,1:32:16.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Love Live
+Dialogue: 1,1:32:51.04,1:32:51.90,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}早安
+Dialogue: 1,1:32:52.10,1:32:53.15,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}太慢了
+Dialogue: 1,1:32:54.37,1:32:54.94,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}抱歉
+Dialogue: 1,1:32:55.78,1:33:00.56,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}聽好了 首先給高一學生介紹我們的活動內容
+Dialogue: 1,1:33:00.95,1:33:02.42,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}要是感興趣的話
+Dialogue: 1,1:33:02.83,1:33:04.35,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}下次就讓她來看我們的演出
+Dialogue: 1,1:33:04.99,1:33:06.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}沒關係 交給我吧
+Dialogue: 1,1:33:07.13,1:33:08.28,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}真的嗎
+Dialogue: 1,1:33:09.36,1:33:12.96,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}各位新生 恭喜入學
+Dialogue: 1,1:33:13.85,1:33:17.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}從今天起大家就是這所音乃木坂學院的一員了
+Dialogue: 1,1:33:18.97,1:33:21.02,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}希望大家在今後的校園生活中
+Dialogue: 1,1:33:21.51,1:33:25.66,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}每一天都能過得開心而充實
+Dialogue: 1,1:33:32.82,1:33:34.93,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}校園偶像 {\fnA-OTF Shin Maru Go Pro DB}μ's
+Dialogue: 1,1:33:36.79,1:33:40.38,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}它在這所音乃木坂學院孕育而生
+Dialogue: 1,1:33:42.47,1:33:44.31,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}它從廢校危機中拯救了學校
+Dialogue: 1,1:33:44.82,1:33:46.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}直到在大賽中獲得冠軍
+Dialogue: 1,1:33:47.53,1:33:52.47,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}我們繼承了這份意志活動至今
+Dialogue: 1,1:33:53.25,1:33:57.27,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}憑藉以{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}為中心的校園偶像的力量
+Dialogue: 1,1:33:57.76,1:34:01.12,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}使得Love Live得以在巨蛋會場開幕
+Dialogue: 1,1:34:01.55,1:34:06.52,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}今年的Love Live也以巨蛋為目標 再度開始預選了
+Dialogue: 1,1:34:08.94,1:34:12.44,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}而{\fnA-OTF Shin Maru Go Pro DB}μ's{\r\blur4.5}最後的演出…
+Dialogue: 1,1:34:13.44,1:34:15.82,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}好 要上了喔
+Dialogue: 1,1:34:16.63,1:34:17.13,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}一
+Dialogue: 1,1:34:17.48,1:34:17.89,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}二
+Dialogue: 1,1:34:18.44,1:34:18.92,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}三
+Dialogue: 1,1:34:19.33,1:34:19.84,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}四
+Dialogue: 1,1:34:20.32,1:34:20.77,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}五
+Dialogue: 1,1:34:21.16,1:34:21.81,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}六
+Dialogue: 1,1:34:22.21,1:34:22.80,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}七
+Dialogue: 1,1:34:23.09,1:34:23.71,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}八
+Dialogue: 1,1:34:24.02,1:34:24.65,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}九
+Dialogue: 1,1:34:27.32,1:34:28.62,TEXT jp A-OTF Shin Maru Go Pro DB,,0,0,0,,{\blur4.5\fs69}μ's
+Dialogue: 1,1:34:29.20,1:34:33.39,TEXT cn 方正粗圆_GBK,,0,0,0,,{\blur4.5}Music Start

@@ -1,0 +1,467 @@
+﻿[Script Info]
+Title: THE_IDOLM@STER ep16
+Original Script: SumiSora
+ScriptType: v4.00+
+PlayResX: 640
+PlayResY: 360
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,24,&H00FFFFFF,&HF0000000,&H002E27DD,&H64D244DB,0,0,0,0,100,100,0,0,1,3,0,2,30,30,10,1
+Style: up,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H002E27DD,&H64D244DB,0,0,0,0,100,100,0,0,1,3,0,2,30,30,8,1
+Style: fad1,方正黑体_GBK,25,&H00FFFFFF,&HF0000000,&H000F0F0F,&H8C0F0F0F,-1,0,0,0,100,100,0,0,1,1,3,2,30,30,3,1
+Style: title,方正大黑_GBK,25,&H00FFFFFF,&HF0000000,&H000F0F0F,&H80000000,0,0,0,0,100,100,0,0,1,0,2,2,30,30,10,134
+Style: songcn,萝莉体-DDC.yolan,18,&H00FFFFFF,&HF0FFFFFF,&H004F63FC,&H64000000,0,-1,0,0,100,100,0,0,1,2.2,0,9,10,10,25,1
+Style: songjp,EPSON 太丸ゴシック体Ｂ,15,&H00FFFFFF,&HF0FFFFFF,&H004F63FC,&H64000000,0,-1,0,0,100,100,0,0,1,2.2,0,9,10,10,5,1
+Style: Bann,黑体,30,&H002E27DD,&H00FFFFFF,&H00D244DB,&H8C7F7F7F,0,0,0,0,100,100,0,0,1,0,3,8,5,5,4,1
+Style: END,方正大黑_GBK,36,&H00FFFFFF,&HF0000000,&H00FFFFFF,&H28000000,0,0,0,0,100,100,0,0,1,0,3,2,30,30,10,134
+Style: frz,@方正大黑_GBK,34,&H00000000,&HF0000000,&HA0FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,2,30,30,10,134
+Style: text,微软雅黑,16,&H600F0F0F,&HF0000000,&H00FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,0,0,2,30,30,10,134
+Style: OPCN,華康少女文字W5(P),20,&H007A43CD,&HF0000000,&H00FFFFFF,&HC86932BE,-1,0,0,0,100,100,0,0,1,3,1,3,20,20,10,1
+Style: OPJP,DFGMaruMoji-SL,18,&H007A43CD,&HF0000000,&H00FFFFFF,&HC86932BE,-1,0,0,0,100,100,0,0,1,3,1,7,20,20,10,128
+Style: EDCN,華康方圓體W7,16,&H00FFFFFF,&HF0000000,&H00FF0000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,3,0,1,15,15,6,1
+Style: EDJP,DFPMaruMoji-W9,16,&H00FFFFFF,&HF0000000,&H00FF0000,&H00FFFFFF,0,0,0,0,100,100,2,0,1,3,0,9,15,15,6,128
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,-----------------OP--------------------
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,=============title================
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,=========TEXT============
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,--------------IN--------------
+Comment: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,---------ED----------
+Dialogue: 0,0:01:04.93,0:01:06.72,OPJP,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:01:06.72,0:01:10.56,OPJP,NTP,0,0,0,,{\fad(100,100)}変わる世界輝け
+Dialogue: 0,0:01:10.56,0:01:12.36,OPJP,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:01:12.36,0:01:19.45,OPJP,NTP,0,0,0,,{\fad(100,100)}私の世界私のモノCHANGE!!
+Dialogue: 0,0:01:25.28,0:01:27.41,OPJP,NTP,0,0,0,,{\fad(100,100)}きらめくSTAGE
+Dialogue: 0,0:01:27.41,0:01:30.34,OPJP,NTP,0,0,0,,{\fad(100,100)}イベント·グラビア·CM
+Dialogue: 0,0:01:30.34,0:01:32.13,OPJP,NTP,0,0,0,,{\fad(100,100)}TVでSHOW  TIME
+Dialogue: 0,0:01:32.13,0:01:35.63,OPJP,NTP,0,0,0,,{\fad(100,100)}始まり続くSTORY
+Dialogue: 0,0:01:36.70,0:01:38.83,OPJP,NTP,0,0,0,,{\fad(100,100)}何度NGでも
+Dialogue: 0,0:01:38.83,0:01:41.55,OPJP,NTP,0,0,0,,{\fad(100,100)}どんなライバルだって
+Dialogue: 0,0:01:41.55,0:01:44.07,OPJP,NTP,0,0,0,,{\fad(100,100)}負けないでTRY  AGAIN
+Dialogue: 0,0:01:44.07,0:01:46.59,OPJP,NTP,0,0,0,,{\fad(100,100)}立ち上がるSTREET
+Dialogue: 0,0:01:46.78,0:01:50.20,OPJP,NTP,0,0,0,,{\fad(100,100)}ENCOREはないLIFE
+Dialogue: 0,0:01:50.20,0:01:52.29,OPJP,NTP,0,0,0,,{\fad(100,100)}一度のLIVE
+Dialogue: 0,0:01:52.29,0:01:55.16,OPJP,NTP,0,0,0,,{\fad(100,100)}進め!!どこまでも
+Dialogue: 0,0:01:55.16,0:01:58.84,OPJP,NTP,0,0,0,,{\fad(100,100)}SHOW  MUST  GO  ON☆
+Dialogue: 0,0:01:58.97,0:02:00.99,OPJP,NTP,0,0,0,,{\fad(100,100)}3·2·1
+Dialogue: 0,0:02:01.48,0:02:03.18,OPJP,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:02:03.18,0:02:07.03,OPJP,NTP,0,0,0,,{\fad(100,100)}変わらない夢描いて
+Dialogue: 0,0:02:07.03,0:02:08.77,OPJP,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  今を!!
+Dialogue: 0,0:02:08.77,0:02:12.61,OPJP,NTP,0,0,0,,{\fad(100,100)}好きに自由に変えるREADY!!
+Dialogue: 0,0:02:12.61,0:02:14.37,OPJP,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  前を!!
+Dialogue: 0,0:02:14.37,0:02:19.07,OPJP,NTP,0,0,0,,{\fad(100,100)}新しい未来追いかけながら
+Dialogue: 0,0:02:19.07,0:02:24.42,OPJP,NTP,0,0,0,,{\fad(100,100)}私らしい私でもっともっと
+Dialogue: 0,0:02:24.42,0:02:26.87,OPJP,NTP,0,0,0,,{\fad(100,100)}DREAM  COMES  TRUE
+Dialogue: 0,0:02:26.97,0:02:30.28,OPJP,NTP,0,0,0,,{\fad(100,100)}I  LOVE  ALL
+Dialogue: 0,0:01:04.93,0:01:06.72,OPCN,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:01:06.72,0:01:10.56,OPCN,NTP,0,0,0,,{\fad(100,100)}改變的世界　閃耀
+Dialogue: 0,0:01:10.56,0:01:12.36,OPCN,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:01:12.36,0:01:19.45,OPCN,NTP,0,0,0,,{\fad(100,100)}我的世界  我的一切CHANGE!!
+Dialogue: 0,0:01:25.28,0:01:27.41,OPCN,NTP,0,0,0,,{\fad(100,100)}閃耀的舞台
+Dialogue: 0,0:01:27.41,0:01:30.34,OPCN,NTP,0,0,0,,{\fad(100,100)}活動  封面  廣告
+Dialogue: 0,0:01:30.34,0:01:32.13,OPCN,NTP,0,0,0,,{\fad(100,100)}在電視裡SHOW  TIME
+Dialogue: 0,0:01:32.13,0:01:35.63,OPCN,NTP,0,0,0,,{\fad(100,100)}從頭開始的故事
+Dialogue: 0,0:01:36.70,0:01:38.83,OPCN,NTP,0,0,0,,{\fad(100,100)}不管NG多少次
+Dialogue: 0,0:01:38.83,0:01:41.55,OPCN,NTP,0,0,0,,{\fad(100,100)}不管是怎麼樣的對手
+Dialogue: 0,0:01:41.55,0:01:44.07,OPCN,NTP,0,0,0,,{\fad(100,100)}不會輸　TRY  AGAIN
+Dialogue: 0,0:01:44.07,0:01:46.59,OPCN,NTP,0,0,0,,{\fad(100,100)}腳踏實地捲土重來
+Dialogue: 0,0:01:46.78,0:01:50.20,OPCN,NTP,0,0,0,,{\fad(100,100)}沒有ENCORE的LIFE
+Dialogue: 0,0:01:50.20,0:01:52.29,OPCN,NTP,0,0,0,,{\fad(100,100)}只有一次的LIVE
+Dialogue: 0,0:01:52.29,0:01:55.16,OPCN,NTP,0,0,0,,{\fad(100,100)}前進  無論到哪
+Dialogue: 0,0:01:55.16,0:01:58.84,OPCN,NTP,0,0,0,,{\fad(100,100)}SHOW  MUST  GO  ON☆
+Dialogue: 0,0:01:58.97,0:02:00.99,OPCN,NTP,0,0,0,,{\fad(100,100)}3·2·1
+Dialogue: 0,0:02:01.48,0:02:03.18,OPCN,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  MY  WORLD!!
+Dialogue: 0,0:02:03.18,0:02:07.03,OPCN,NTP,0,0,0,,{\fad(100,100)}描繪著不變的夢想
+Dialogue: 0,0:02:07.03,0:02:08.77,OPCN,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  此刻!!
+Dialogue: 0,0:02:08.77,0:02:12.61,OPCN,NTP,0,0,0,,{\fad(100,100)}讓我們隨心所欲地準備改變!!
+Dialogue: 0,0:02:12.61,0:02:14.37,OPCN,NTP,0,0,0,,{\fad(100,100)}CHANGIN'  前進!!
+Dialogue: 0,0:02:14.37,0:02:19.07,OPCN,NTP,0,0,0,,{\fad(100,100)}一邊追尋著新的未來
+Dialogue: 0,0:02:19.07,0:02:24.42,OPCN,NTP,0,0,0,,{\fad(100,100)}以真正的我  更多更多
+Dialogue: 0,0:02:24.42,0:02:26.87,OPCN,NTP,0,0,0,,{\fad(100,100)}實現夢想
+Dialogue: 0,0:02:26.97,0:02:30.28,OPCN,NTP,0,0,0,,{\fad(100,100)}I  LOVE  ALL
+Dialogue: 0,0:02:36.10,0:02:41.65,title,NTP,0,0,0,,{\fad(1000,1000)}{\pos(420,267)}孤苦伶仃的{\fs 40}{\1c&Ha893de&}滋{\1c&H854c7f&}味
+Dialogue: 0,0:24:07.69,0:24:09.95,END,NTP,0,0,0,,{\pos(320,210)\shad1}{\fs50}{\1c&Hffffe0&}真{\r}{\1c&H9020d0&}的{\r}{\fs50}真命天子
+Dialogue: 0,0:00:47.12,0:00:51.41,*Default,NTP,0,0,0,,喂  等等  犬美
+Dialogue: 0,0:00:52.38,0:00:54.79,*Default,NTP,0,0,0,,光是逃我怎麼明白啊
+Dialogue: 0,0:00:55.58,0:00:59.99,*Default,NTP,0,0,0,,有話好好說嘛  犬美
+Dialogue: 0,0:01:03.21,0:01:04.39,*Default,NTP,0,0,0,,我那霸？
+Dialogue: 0,0:02:36.12,0:02:40.58,*Default,NTP,0,0,0,,犬美  為什麼要打翻飯碗啊
+Dialogue: 0,0:02:41.96,0:02:44.29,*Default,NTP,0,0,0,,什麼嘛  那反抗般的眼神
+Dialogue: 0,0:02:44.63,0:02:47.57,*Default,NTP,0,0,0,,踢翻飯碗的是犬美吧
+Dialogue: 0,0:02:48.92,0:02:50.19,*Default,NTP,0,0,0,,就算不是親手製作的
+Dialogue: 0,0:02:50.26,0:02:52.84,*Default,NTP,0,0,0,,但也精心考慮了營養的均衡呀
+Dialogue: 0,0:02:53.02,0:02:55.32,*Default,NTP,0,0,0,,為什麼唯獨犬美要那麼任性
+Dialogue: 0,0:02:56.49,0:02:59.08,*Default,NTP,0,0,0,,你是代表大家來發言的？
+Dialogue: 0,0:02:59.66,0:03:02.88,*Default,NTP,0,0,0,,哈姆藏  你也是這麼想的嗎
+Dialogue: 0,0:03:07.08,0:03:09.48,*Default,NTP,0,0,0,,哈姆藏你到底是哪邊的
+Dialogue: 0,0:03:11.38,0:03:12.86,*Default,NTP,0,0,0,,到底怎麼了
+Dialogue: 0,0:03:13.39,0:03:16.48,*Default,NTP,0,0,0,,好像是因為早餐在吵架呢
+Dialogue: 0,0:03:16.62,0:03:19.30,*Default,NTP,0,0,0,,真虧她們那樣能對話呢
+Dialogue: 0,0:03:19.52,0:03:23.06,*Default,NTP,0,0,0,,今天是「狂奔  動物世界」的拍攝日吧
+Dialogue: 0,0:03:23.41,0:03:26.37,*Default,NTP,0,0,0,,那個節目可是響和犬美做主角的啊
+Dialogue: 0,0:03:26.66,0:03:28.97,*Default,NTP,0,0,0,,這個樣子不要緊吧
+Dialogue: 0,0:03:30.41,0:03:33.91,*Default,NTP,0,0,0,,犬美  在那個節目人氣很高呢
+Dialogue: 0,0:03:33.96,0:03:37.14,*Default,NTP,0,0,0,,沒錯  不過話說回來  雪步
+Dialogue: 0,0:03:37.39,0:03:40.31,*Default,NTP,0,0,0,,你已經不怕狗了嗎
+Dialogue: 0,0:03:40.79,0:03:43.77,*Default,NTP,0,0,0,,是的  已經不害怕了
+Dialogue: 0,0:03:43.84,0:03:47.20,*Default,NTP,0,0,0,,我…我也是  完全不怕…
+Dialogue: 0,0:03:50.58,0:03:53.31,*Default,NTP,0,0,0,,千早  你好像沒什麼精神
+Dialogue: 0,0:03:53.46,0:03:54.43,*Default,NTP,0,0,0,,不要緊吧
+Dialogue: 0,0:03:55.04,0:03:57.94,*Default,NTP,0,0,0,,嗯  我去發聲練習了
+Dialogue: 0,0:03:58.75,0:04:00.07,*Default,NTP,0,0,0,,一路走好
+Dialogue: 0,0:04:00.42,0:04:01.81,*Default,NTP,0,0,0,,嗯  加油吧
+Dialogue: 0,0:04:02.50,0:04:05.46,*Default,NTP,0,0,0,,什麼！這樣說也太過分了
+Dialogue: 0,0:04:07.43,0:04:08.77,*Default,NTP,0,0,0,,居然說到這個地步
+Dialogue: 0,0:04:08.83,0:04:10.25,*Default,NTP,0,0,0,,你真不是人！
+Dialogue: 0,0:04:10.63,0:04:12.54,*Default,NTP,0,0,0,,它本來就不是人吧
+Dialogue: 0,0:04:14.19,0:04:15.92,*Default,NTP,0,0,0,,真是的  我生氣了
+Dialogue: 0,0:04:16.31,0:04:18.00,*Default,NTP,0,0,0,,我不管了
+Dialogue: 0,0:04:18.28,0:04:20.19,*Default,NTP,0,0,0,,你不用來參加拍攝了
+Dialogue: 0,0:04:20.42,0:04:21.72,*Default,NTP,0,0,0,,我們走  哈姆藏
+Dialogue: 0,0:04:23.53,0:04:25.74,*Default,NTP,0,0,0,,喂  等等  響
+Dialogue: 0,0:04:39.75,0:04:41.87,*Default,NTP,0,0,0,,還是老樣子  狀態不錯嘛
+Dialogue: 0,0:04:43.47,0:04:46.52,*Default,NTP,0,0,0,,你負責的那個動物節目
+Dialogue: 0,0:04:46.69,0:04:48.92,*Default,NTP,0,0,0,,沒錯  托您的福
+Dialogue: 0,0:04:49.24,0:04:51.51,*Default,NTP,0,0,0,,那件事  不會出錯吧
+Dialogue: 0,0:04:52.81,0:04:55.15,*Default,NTP,0,0,0,,是的  已經安排好了
+Dialogue: 0,0:04:55.25,0:04:57.40,*Default,NTP,0,0,0,,今天的外景一定取不成
+Dialogue: 0,0:04:57.63,0:05:01.30,*Default,NTP,0,0,0,,我那霸響肯定廢了
+Dialogue: 0,0:05:02.84,0:05:03.82,*Default,NTP,0,0,0,,辛苦
+Dialogue: 0,0:05:04.21,0:05:08.53,*Default,NTP,0,0,0,,哪裡  出道起就一直承蒙黑井社長的關照
+Dialogue: 0,0:05:08.58,0:05:11.39,*Default,NTP,0,0,0,,今後也請多關照
+Dialogue: 0,0:05:12.10,0:05:14.43,*Default,NTP,0,0,0,,拍攝我也去吧
+Dialogue: 0,0:05:14.95,0:05:17.51,*Default,NTP,0,0,0,,黑井社長親自來嗎
+Dialogue: 0,0:05:17.65,0:05:20.96,*Default,NTP,0,0,0,,沒錯  今天Jupiter也要麻煩你了
+Dialogue: 0,0:05:21.09,0:05:26.92,*Default,NTP,0,0,0,,而且我也想欣賞欣賞765事務所那些傢伙哭得多難看
+Dialogue: 0,0:05:29.66,0:05:31.30,*Default,NTP,0,0,0,,將軍
+Dialogue: 0,0:05:32.86,0:05:36.29,*Default,NTP,0,0,0,,不是吧  犬美要請假嗎
+Dialogue: 0,0:05:36.53,0:05:40.10,*Default,NTP,0,0,0,,抱歉  有點身體不適
+Dialogue: 0,0:05:40.30,0:05:43.26,*Default,NTP,0,0,0,,哎呀  真是擔心呢  小響
+Dialogue: 0,0:05:43.47,0:05:47.34,*Default,NTP,0,0,0,,犬美什麼的  在不在都一樣
+Dialogue: 0,0:05:47.89,0:05:50.72,*Default,NTP,0,0,0,,我一個人照樣能撐起場子
+Dialogue: 0,0:05:50.91,0:05:52.14,*Default,NTP,0,0,0,,真了不起
+Dialogue: 0,0:05:52.32,0:05:55.44,*Default,NTP,0,0,0,,因為擔心才那麼堅強的吧
+Dialogue: 0,0:05:55.93,0:06:00.62,*Default,NTP,0,0,0,,但是這也不好辦呢  得去找代替的主角的動物才行
+Dialogue: 0,0:06:03.15,0:06:06.54,*Default,NTP,0,0,0,,那樣的話  就讓它上吧
+Dialogue: 0,0:06:08.04,0:06:09.57,*Default,NTP,0,0,0,,哎呀  負責人
+Dialogue: 0,0:06:09.94,0:06:12.00,*Default,NTP,0,0,0,,這是黑法爾西昂3世
+Dialogue: 0,0:06:12.19,0:06:15.42,*Default,NTP,0,0,0,,以防這種情況而準備的
+Dialogue: 0,0:06:15.58,0:06:18.00,*Default,NTP,0,0,0,,嗯  幫大忙了
+Dialogue: 0,0:06:18.24,0:06:21.87,*Default,NTP,0,0,0,,不過和犬美比起來真是一點都不可愛
+Dialogue: 0,0:06:22.24,0:06:24.34,*Default,NTP,0,0,0,,只是緊張而已啦
+Dialogue: 0,0:06:24.74,0:06:26.52,*Default,NTP,0,0,0,,請多關照哦  犬三郎
+Dialogue: 0,0:06:26.57,0:06:28.37,*Default,NTP,0,0,0,,等等  我那霸小姐
+Dialogue: 0,0:06:28.60,0:06:30.80,*Default,NTP,0,0,0,,它是黑法爾西昂3世啊
+Dialogue: 0,0:06:31.06,0:06:32.84,*Default,NTP,0,0,0,,乖乖
+Dialogue: 0,0:06:32.92,0:06:34.59,*Default,NTP,0,0,0,,請多關照哦  犬三郎
+Dialogue: 0,0:06:36.64,0:06:39.75,*Default,NTP,0,0,0,,你幹什麼吶  犬三郎
+Dialogue: 0,0:06:39.93,0:06:41.91,*Default,NTP,0,0,0,,不要緊吧…
+Dialogue: 0,0:06:42.13,0:06:43.58,*Default,NTP,0,0,0,,誰知道呢
+Dialogue: 0,0:06:47.58,0:06:50.07,*Default,NTP,0,0,0,,4  3  2…
+Dialogue: 0,0:06:51.97,0:06:54.64,*Default,NTP,0,0,0,,大家好  我是我那霸響
+Dialogue: 0,0:06:54.85,0:06:56.75,*Default,NTP,0,0,0,,「狂奔  動物世界」
+Dialogue: 0,0:06:56.92,0:07:00.42,*Default,NTP,0,0,0,,首先是老樣子  動物探險隊的欄目
+Dialogue: 0,0:07:00.60,0:07:03.49,*Default,NTP,0,0,0,,今天來了新隊員哦
+Dialogue: 0,0:07:06.33,0:07:09.64,*Default,NTP,0,0,0,,鏘  犬三郎哦
+Dialogue: 0,0:07:09.83,0:07:12.29,*Default,NTP,0,0,0,,讓我們來聽下它的熱情吧
+Dialogue: 0,0:07:12.92,0:07:14.69,*Default,NTP,0,0,0,,怎麼樣  犬三郎
+Dialogue: 0,0:07:18.61,0:07:20.12,*Default,NTP,0,0,0,,麥克風被…
+Dialogue: 0,0:07:22.31,0:07:24.42,*Default,NTP,0,0,0,,{\an9\fad(400,0)\bord0\1c&000000&}「繼續」
+Dialogue: 0,0:07:24.73,0:07:29.57,*Default,NTP,0,0,0,,不管怎樣  好期待今天會遇上什麼動物呢
+Dialogue: 0,0:07:29.70,0:07:33.19,*Default,NTP,0,0,0,,那麼  鼓起精神  開始探險
+Dialogue: 0,0:07:37.47,0:07:38.94,*Default,NTP,0,0,0,,累死了
+Dialogue: 0,0:07:39.51,0:07:42.61,*Default,NTP,0,0,0,,要是犬美在的話就不用這麼辛苦了
+Dialogue: 0,0:07:43.65,0:07:46.53,*Default,NTP,0,0,0,,不不不  我才不管什麼犬美
+Dialogue: 0,0:07:46.75,0:07:48.65,*Default,NTP,0,0,0,,有沒有它都一樣
+Dialogue: 0,0:07:48.93,0:07:53.53,*Default,NTP,0,0,0,,響  等會和平常一樣  換個地方繼續拍攝
+Dialogue: 0,0:07:53.98,0:07:56.80,*Default,NTP,0,0,0,,今天要在池塘附近尋找動物
+Dialogue: 0,0:07:57.01,0:07:58.42,*Default,NTP,0,0,0,,嗯  知道了
+Dialogue: 0,0:07:58.63,0:08:01.76,*Default,NTP,0,0,0,,還有剛才從導演那裡聽說
+Dialogue: 0,0:08:02.33,0:08:05.98,*Default,NTP,0,0,0,,今天Jupiter會作為嘉賓過來
+Dialogue: 0,0:08:06.48,0:08:07.31,*Default,NTP,0,0,0,,那些傢伙嗎
+Dialogue: 0,0:08:08.38,0:08:11.05,*Default,NTP,0,0,0,,會在節目中的其他欄目進行拍攝
+Dialogue: 0,0:08:11.50,0:08:14.25,*Default,NTP,0,0,0,,應該不會直接和你有關聯
+Dialogue: 0,0:08:14.51,0:08:16.78,*Default,NTP,0,0,0,,但是不知道961事務所會做些什麼
+Dialogue: 0,0:08:17.14,0:08:18.09,*Default,NTP,0,0,0,,所以小心點
+Dialogue: 0,0:08:19.04,0:08:22.69,*Default,NTP,0,0,0,,我絕對不會輸給那些耍詐的傢伙
+Dialogue: 0,0:08:24.52,0:08:26.65,*Default,NTP,0,0,0,,Jupiter來了
+Dialogue: 0,0:08:28.50,0:08:30.24,*Default,NTP,0,0,0,,我去看下情況
+Dialogue: 0,0:08:30.66,0:08:32.62,*Default,NTP,0,0,0,,一定要當心啊
+Dialogue: 0,0:08:35.46,0:08:37.21,*Default,NTP,0,0,0,,不好意思  我那霸小姐
+Dialogue: 0,0:08:38.10,0:08:39.00,*Default,NTP,0,0,0,,是
+Dialogue: 0,0:08:39.56,0:08:41.27,*Default,NTP,0,0,0,,取景巴士坐不下了
+Dialogue: 0,0:08:41.73,0:08:44.76,*Default,NTP,0,0,0,,導演讓我單獨帶你過去
+Dialogue: 0,0:08:45.21,0:08:46.95,*Default,NTP,0,0,0,,請來這邊
+Dialogue: 0,0:08:48.37,0:08:51.79,*Default,NTP,0,0,0,,但是我們的製作人還沒有回來呀
+Dialogue: 0,0:08:52.99,0:08:54.69,*Default,NTP,0,0,0,,待會兒會坐巴士來的
+Dialogue: 0,0:09:04.82,0:09:07.44,*Default,NTP,0,0,0,,冬馬君～冬馬君～
+Dialogue: 0,0:09:07.49,0:09:09.81,*Default,NTP,0,0,0,,北斗  朝這邊看！
+Dialogue: 0,0:09:09.94,0:09:12.06,*Default,NTP,0,0,0,,翔太  最棒了！
+Dialogue: 0,0:09:12.69,0:09:16.35,*Default,NTP,0,0,0,,吶  你是第一次見到Jupiter吧
+Dialogue: 0,0:09:17.27,0:09:18.91,*Default,NTP,0,0,0,,不用介意我…
+Dialogue: 0,0:09:19.09,0:09:20.34,*Default,NTP,0,0,0,,我來介紹一下吧
+Dialogue: 0,0:09:20.47,0:09:26.14,*Default,NTP,0,0,0,,這位是正處佳境的充滿活力的765製作人
+Dialogue: 0,0:09:26.23,0:09:27.57,*Default,NTP,0,0,0,,765事務所嗎
+Dialogue: 0,0:09:29.60,0:09:30.44,*Default,NTP,0,0,0,,就是你啊
+Dialogue: 0,0:09:31.39,0:09:32.42,*Default,NTP,0,0,0,,我可是聽說了
+Dialogue: 0,0:09:32.86,0:09:33.97,*Default,NTP,0,0,0,,為了宣傳偶像
+Dialogue: 0,0:09:34.23,0:09:36.91,*Default,NTP,0,0,0,,讓她們做了很多不乾淨的活是吧
+Dialogue: 0,0:09:37.41,0:09:38.18,*Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:09:39.31,0:09:41.32,*Default,NTP,0,0,0,,雖然不知道他們是怎麼告訴你們的
+Dialogue: 0,0:09:41.82,0:09:43.92,*Default,NTP,0,0,0,,765事務所絕不是那樣的事務所
+Dialogue: 0,0:09:44.59,0:09:47.67,*Default,NTP,0,0,0,,還有我們絕對不會輸給961事務所
+Dialogue: 0,0:09:51.55,0:09:53.44,*Default,NTP,0,0,0,,嘁  那傢伙搞什麼啊
+Dialogue: 0,0:09:54.77,0:09:57.18,*Default,NTP,0,0,0,,看來關係不錯  太好了
+Dialogue: 0,0:09:57.47,0:09:59.07,*Default,NTP,0,0,0,,嗯  是啊
+Dialogue: 0,0:09:59.16,0:10:00.80,*Default,NTP,0,0,0,,是這樣嗎
+Dialogue: 0,0:10:01.67,0:10:04.86,*Default,NTP,0,0,0,,原來如此  他就是765事務所的…
+Dialogue: 0,0:10:05.92,0:10:08.76,*Default,NTP,0,0,0,,一臉下三濫事務所的長相
+Dialogue: 0,0:10:09.08,0:10:13.32,*Default,NTP,0,0,0,,那麼  他一個人在這裡  也就是說…
+Dialogue: 0,0:10:13.77,0:10:17.06,*Default,NTP,0,0,0,,是的  計劃已經開始了
+Dialogue: 0,0:10:18.18,0:10:19.11,*Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:10:19.93,0:10:22.81,*Default,NTP,0,0,0,,革命總是來得那麼突然啊
+Dialogue: 0,0:10:24.59,0:10:27.71,*Default,NTP,0,0,0,,一切都將在轉眼間改變
+Dialogue: 0,0:10:30.73,0:10:32.32,*Default,NTP,0,0,0,,到了
+Dialogue: 0,0:10:32.53,0:10:33.44,*Default,NTP,0,0,0,,是
+Dialogue: 0,0:10:36.04,0:10:38.11,*Default,NTP,0,0,0,,咦  是在這裡嗎
+Dialogue: 0,0:10:38.64,0:10:42.16,*Default,NTP,0,0,0,,製作人說是要在池塘附近拍攝的說…
+Dialogue: 0,0:10:43.01,0:10:43.98,*Default,NTP,0,0,0,,抱歉
+Dialogue: 0,0:10:44.59,0:10:47.08,*Default,NTP,0,0,0,,怎麼回事  等等
+Dialogue: 0,0:10:47.48,0:10:50.41,*Default,NTP,0,0,0,,我也是被吩咐的啊
+Dialogue: 0,0:10:50.99,0:10:52.74,*Default,NTP,0,0,0,,被吩咐？被誰…
+Dialogue: 0,0:10:58.86,0:11:00.61,*Default,NTP,0,0,0,,真是虛弱呢
+Dialogue: 0,0:11:00.87,0:11:03.21,*Default,NTP,0,0,0,,犬美  一點都不動呢
+Dialogue: 0,0:11:03.59,0:11:05.84,*Default,NTP,0,0,0,,就沒有辦法嗎
+Dialogue: 0,0:11:05.99,0:11:07.83,*Default,NTP,0,0,0,,束手無策呢
+Dialogue: 0,0:11:08.24,0:11:14.46,*Default,NTP,0,0,0,,但是響總是說為了犬美它們要努力工作
+Dialogue: 0,0:11:16.97,0:11:18.81,*Default,NTP,0,0,0,,咦  有電話
+Dialogue: 0,0:11:20.28,0:11:22.26,*Default,NTP,0,0,0,,你好  765事務所
+Dialogue: 0,0:11:22.86,0:11:24.82,*Default,NTP,0,0,0,,哎呀  製作人先生
+Dialogue: 0,0:11:26.27,0:11:27.72,*Default,NTP,0,0,0,,響嗎
+Dialogue: 0,0:11:28.45,0:11:31.12,*Default,NTP,0,0,0,,不  沒有聯繫過這裡
+Dialogue: 0,0:11:31.50,0:11:33.35,*Default,NTP,0,0,0,,不在一起嗎
+Dialogue: 0,0:11:33.65,0:11:37.28,*Default,NTP,0,0,0,,說是移動中擅自下了車
+Dialogue: 0,0:11:37.58,0:11:38.88,*Default,NTP,0,0,0,,擅自下車？
+Dialogue: 0,0:11:39.07,0:11:40.31,*Default,NTP,0,0,0,,怎麼可能
+Dialogue: 0,0:11:40.46,0:11:42.14,*Default,NTP,0,0,0,,我也不相信
+Dialogue: 0,0:11:42.83,0:11:44.83,*Default,NTP,0,0,0,,有給響的手機打過電話嗎
+Dialogue: 0,0:11:45.58,0:11:47.85,*Default,NTP,0,0,0,,拍攝前就放在我這裡了
+Dialogue: 0,0:11:48.18,0:11:50.08,*Default,NTP,0,0,0,,總之我會再聯繫的
+Dialogue: 0,0:11:50.32,0:11:51.18,*Default,NTP,0,0,0,,再見
+Dialogue: 0,0:11:52.37,0:11:54.12,*Default,NTP,0,0,0,,為什麼會這樣啊
+Dialogue: 0,0:11:54.53,0:11:56.96,*Default,NTP,0,0,0,,再說為什麼響不坐取景巴士
+Dialogue: 0,0:11:57.09,0:11:58.79,*Default,NTP,0,0,0,,而去坐其他車啊
+Dialogue: 0,0:11:59.09,0:12:00.55,*Default,NTP,0,0,0,,這個其實…
+Dialogue: 0,0:12:00.83,0:12:05.14,*Default,NTP,0,0,0,,我那霸說自己是主持人所以要特殊待遇
+Dialogue: 0,0:12:05.19,0:12:08.87,*Default,NTP,0,0,0,,請等等  響怎麼會說這種話
+Dialogue: 0,0:12:09.04,0:12:10.38,*Default,NTP,0,0,0,,說的也是
+Dialogue: 0,0:12:10.58,0:12:14.19,*Default,NTP,0,0,0,,她平時都會一直等到自己的拍攝結束的說
+Dialogue: 0,0:12:14.60,0:12:17.89,*Default,NTP,0,0,0,,但是啊  現在的人可說不好
+Dialogue: 0,0:12:19.48,0:12:22.36,*Default,NTP,0,0,0,,有事務所的人在這裡也不太好說
+Dialogue: 0,0:12:22.67,0:12:25.02,*Default,NTP,0,0,0,,很多人啊  一有點名氣態度就變了
+Dialogue: 0,0:12:25.21,0:12:28.00,*Default,NTP,0,0,0,,怎麼這樣說  我們這的偶像不是這樣的
+Dialogue: 0,0:12:28.18,0:12:30.72,*Default,NTP,0,0,0,,唉  大家都是這麼說的
+Dialogue: 0,0:12:32.33,0:12:37.71,*Default,NTP,0,0,0,,怎麼樣  導演  這次試試看用其它偶像來吧
+Dialogue: 0,0:12:37.93,0:12:39.40,*Default,NTP,0,0,0,,讓Jupiter來嗎
+Dialogue: 0,0:12:39.64,0:12:43.90,*Default,NTP,0,0,0,,嗯  他們人氣挺火的  很適合來替場
+Dialogue: 0,0:12:44.01,0:12:47.42,*Default,NTP,0,0,0,,這次來做嘉賓也是正巧
+Dialogue: 0,0:12:48.46,0:12:52.40,*Default,NTP,0,0,0,,是呢  雖然響是最好的這點不會錯
+Dialogue: 0,0:12:52.68,0:12:55.72,*Default,NTP,0,0,0,,但是太強求的話對收視也不好
+Dialogue: 0,0:12:55.85,0:12:58.58,*Default,NTP,0,0,0,,請再多等一會  拜託了
+Dialogue: 0,0:12:58.81,0:13:01.16,*Default,NTP,0,0,0,,我會想辦法把她找來的  再等一下
+Dialogue: 0,0:13:01.84,0:13:03.83,*Default,NTP,0,0,0,,都這麼說了的話就等一下吧
+Dialogue: 0,0:13:04.05,0:13:06.54,*Default,NTP,0,0,0,,但是要趕在太陽下山前拍完哦
+Dialogue: 0,0:13:06.86,0:13:09.39,*Default,NTP,0,0,0,,我知道了  在那之前一定會把她找回來的
+Dialogue: 0,0:13:12.09,0:13:13.32,*Default,NTP,0,0,0,,沒問題嗎
+Dialogue: 0,0:13:13.67,0:13:15.42,*Default,NTP,0,0,0,,誰知道呢
+Dialogue: 0,0:13:16.33,0:13:19.49,*Default,NTP,0,0,0,,喂  有人嗎
+Dialogue: 0,0:13:19.73,0:13:24.69,*Default,NTP,0,0,0,,喂  製作人  導演
+Dialogue: 0,0:13:26.08,0:13:28.68,*Default,NTP,0,0,0,,不行啊  一個人都沒有
+Dialogue: 0,0:13:31.51,0:13:35.06,*Default,NTP,0,0,0,,就算想爬上去  這裡的土質太鬆軟  爬不了
+Dialogue: 0,0:13:36.68,0:13:39.98,*Default,NTP,0,0,0,,難道說這個是製作人所說的
+Dialogue: 0,0:13:41.26,0:13:44.91,*Default,NTP,0,0,0,,但是不知道961事務所會做些什麼  所以小心點
+Dialogue: 0,0:13:46.25,0:13:51.05,*Default,NTP,0,0,0,,怎麼辦  要是這樣趕不上拍攝的話  我…
+Dialogue: 0,0:13:53.59,0:13:57.47,*Default,NTP,0,0,0,,把哈姆藏扔到懸崖上面？為什麼啊
+Dialogue: 0,0:13:59.12,0:14:02.95,*Default,NTP,0,0,0,,什麼  要去聯絡犬美它們來救我們？
+Dialogue: 0,0:14:03.31,0:14:06.82,*Default,NTP,0,0,0,,真正的取景地點的話  犬美也能嗅出來？
+Dialogue: 0,0:14:08.55,0:14:13.46,*Default,NTP,0,0,0,,不  這不行  我和犬美現在還在吵架中
+Dialogue: 0,0:14:13.69,0:14:14.77,*Default,NTP,0,0,0,,犬美什麼的
+Dialogue: 0,0:14:19.42,0:14:20.27,*Default,NTP,0,0,0,,哈姆藏
+Dialogue: 0,0:14:22.78,0:14:23.55,*Default,NTP,0,0,0,,哈姆藏
+Dialogue: 0,0:14:27.73,0:14:28.64,*Default,NTP,0,0,0,,哈姆藏
+Dialogue: 0,0:14:31.45,0:14:32.12,*Default,NTP,0,0,0,,下雨了
+Dialogue: 0,0:14:35.21,0:14:38.74,*Default,NTP,0,0,0,,響  響
+Dialogue: 0,0:14:54.41,0:14:59.67,*Default,NTP,0,0,0,,幸好只是陣雨  雨停了之後就以Jupiter為中心來拍攝吧
+Dialogue: 0,0:15:00.27,0:15:01.35,*Default,NTP,0,0,0,,是啊
+Dialogue: 0,0:15:01.78,0:15:06.56,*Default,NTP,0,0,0,,小節目的拍攝也很不錯的吧  不愧是紅人啊
+Dialogue: 0,0:15:06.71,0:15:10.65,*Default,NTP,0,0,0,,嗯  我想拍完也不會出什麼錯吧
+Dialogue: 0,0:15:14.75,0:15:20.86,*Default,NTP,0,0,0,,真是的  今天從和犬美吵架開始  做什麼都不順
+Dialogue: 0,0:15:23.04,0:15:26.67,*Default,NTP,0,0,0,,犬美  為什麼因為飯的問題而那樣的…
+Dialogue: 0,0:15:41.33,0:15:42.55,*Default,NTP,0,0,0,,哈姆藏！
+Dialogue: 0,0:15:43.51,0:15:46.95,*Default,NTP,0,0,0,,難道說一個人來到這的？  響呢
+Dialogue: 0,0:15:49.22,0:15:51.99,*Default,NTP,0,0,0,,啊嗚  好像在說什麼
+Dialogue: 0,0:15:52.18,0:15:55.23,*Default,NTP,0,0,0,,怎麼辦  我們可聽不懂它說什麼啊
+Dialogue: 0,0:15:59.08,0:16:03.07,*Default,NTP,0,0,0,,犬美  誒  等等  誒誒  什麼
+Dialogue: 0,0:16:04.55,0:16:09.62,*Default,NTP,0,0,0,,難道說  是要帶我們去響那裡嗎
+Dialogue: 0,0:16:12.51,0:16:15.50,*Default,NTP,0,0,0,,說起來  前段時間還是
+Dialogue: 0,0:16:17.46,0:16:20.90,*Default,NTP,0,0,0,,我還一份一份地給大家做飯
+Dialogue: 0,0:16:21.61,0:16:26.13,*Default,NTP,0,0,0,,把不喜歡吃的東西切碎和喜歡吃的混在一起
+Dialogue: 0,0:16:27.90,0:16:30.97,*Default,NTP,0,0,0,,但是  最近忙了起來
+Dialogue: 0,0:16:31.84,0:16:34.97,*Default,NTP,0,0,0,,喂  犬美  貓吉
+Dialogue: 0,0:16:35.23,0:16:37.39,*Default,NTP,0,0,0,,各位  吃飯了哦
+Dialogue: 0,0:16:38.93,0:16:43.43,*Default,NTP,0,0,0,,我馬上要去工作了  大家要好好看家哦
+Dialogue: 0,0:16:44.40,0:16:45.46,*Default,NTP,0,0,0,,那麼再見
+Dialogue: 0,0:16:53.55,0:16:56.06,*Default,NTP,0,0,0,,是啊  是這樣
+Dialogue: 0,0:16:56.92,0:16:59.98,*Default,NTP,0,0,0,,犬美說的不只是飯的問題
+Dialogue: 0,0:17:00.96,0:17:04.60,*Default,NTP,0,0,0,,也不是什麼營養均衡不均衡的
+Dialogue: 0,0:17:05.31,0:17:09.26,*Default,NTP,0,0,0,,只是想跟我在一起  一定只是這樣而已啊
+Dialogue: 0,0:17:10.11,0:17:14.33,*Default,NTP,0,0,0,,明明是這樣  我卻責怪犬美  和它吵架
+Dialogue: 0,0:17:14.85,0:17:16.15,*Default,NTP,0,0,0,,說得這麼過分
+Dialogue: 0,0:17:18.37,0:17:20.05,*Default,NTP,0,0,0,,我太差勁了
+Dialogue: 0,0:17:25.25,0:17:28.60,*Default,NTP,0,0,0,,犬美  為什麼在這
+Dialogue: 0,0:17:33.33,0:17:36.52,*Default,NTP,0,0,0,,你們也是  弄得這麼髒
+Dialogue: 0,0:17:37.46,0:17:41.50,*Default,NTP,0,0,0,,對不起  大家  我什麼都不知道
+Dialogue: 0,0:17:53.72,0:17:57.07,*Default,NTP,0,0,0,,對不起  還沒有找到響
+Dialogue: 0,0:17:57.36,0:17:58.33,*Default,NTP,0,0,0,,是嗎
+Dialogue: 0,0:17:58.69,0:18:03.61,*Default,NTP,0,0,0,,果然呢  算了要是繼續下雨反而就好了
+Dialogue: 0,0:18:04.01,0:18:07.45,*Default,NTP,0,0,0,,好了  各位  動物探險隊的Opening
+Dialogue: 0,0:18:07.62,0:18:09.73,*Default,NTP,0,0,0,,由Jupiter為中心重新拍攝了哦
+Dialogue: 0,0:18:09.98,0:18:12.72,*Default,NTP,0,0,0,,快點準備吧  別讓紅人久等了
+Dialogue: 0,0:18:16.08,0:18:17.64,*Default,NTP,0,0,0,,這太陽公公還真不懂
+Dialogue: 0,0:18:17.77,0:18:20.43,*Default,NTP,0,0,0,,明明要是能再多下一會雨就好了
+Dialogue: 0,0:18:26.48,0:18:29.35,*Default,NTP,0,0,0,,你好  你睫毛很長呀
+Dialogue: 0,0:18:32.82,0:18:35.43,*Default,NTP,0,0,0,,黑井先生  開始拍攝了
+Dialogue: 0,0:18:35.82,0:18:39.04,*Default,NTP,0,0,0,,和計劃一樣  Jupiter成為主持人了
+Dialogue: 0,0:18:39.37,0:18:41.08,*Default,NTP,0,0,0,,哈哈  是嗎
+Dialogue: 0,0:18:41.72,0:18:45.28,*Default,NTP,0,0,0,,那個765事務的製作人  看起來相當不甘心呢
+Dialogue: 0,0:18:45.87,0:18:51.87,*Default,NTP,0,0,0,,嘿嘿  都還不知道其實是被那個助導騙走丟在路上了
+Dialogue: 0,0:18:52.34,0:18:54.14,*Default,NTP,0,0,0,,果然是這麼一回事啊
+Dialogue: 0,0:18:54.29,0:18:57.43,*Default,NTP,0,0,0,,啊  7  765事務
+Dialogue: 0,0:18:58.13,0:19:02.10,*Default,NTP,0,0,0,,就覺得你剛才的態度很奇怪
+Dialogue: 0,0:19:02.61,0:19:05.79,*Default,NTP,0,0,0,,沒想到居然全部坦白了
+Dialogue: 0,0:19:07.49,0:19:09.98,*Default,NTP,0,0,0,,你就是黑井社長吧
+Dialogue: 0,0:19:10.20,0:19:11.33,*Default,NTP,0,0,0,,是的
+Dialogue: 0,0:19:11.76,0:19:15.13,*Default,NTP,0,0,0,,去告訴導演  馬上把拍攝中止
+Dialogue: 0,0:19:15.75,0:19:18.17,*Default,NTP,0,0,0,,不能再讓你們…
+Dialogue: 0,0:19:18.22,0:19:19.66,*Default,NTP,0,0,0,,為所欲為嗎
+Dialogue: 0,0:19:19.89,0:19:20.56,*Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:19:21.99,0:19:23.60,*Default,NTP,0,0,0,,不管理由如何
+Dialogue: 0,0:19:23.74,0:19:28.64,*Default,NTP,0,0,0,,你們C級事務所的偶像拍攝期不在都是事實
+Dialogue: 0,0:19:28.96,0:19:31.52,*Default,NTP,0,0,0,,而Jupiter正在填補空缺
+Dialogue: 0,0:19:31.72,0:19:33.88,*Default,NTP,0,0,0,,你有權去中止嗎
+Dialogue: 0,0:19:34.22,0:19:35.71,*Default,NTP,0,0,0,,是啊是啊
+Dialogue: 0,0:19:37.05,0:19:39.85,*Default,NTP,0,0,0,,要是想中止Jupiter的拍攝的話
+Dialogue: 0,0:19:40.10,0:19:43.46,*Default,NTP,0,0,0,,就馬上帶你那的偶像來吧
+Dialogue: 0,0:19:44.12,0:19:46.62,*Default,NTP,0,0,0,,嘿嘿  要是能的話呢
+Dialogue: 0,0:19:48.75,0:19:50.55,*Default,NTP,0,0,0,,大家久等了
+Dialogue: 0,0:19:56.23,0:19:57.98,*Default,NTP,0,0,0,,對不起遲到了
+Dialogue: 0,0:19:58.70,0:19:59.51,*Default,NTP,0,0,0,,響
+Dialogue: 0,0:19:59.84,0:20:00.70,*Default,NTP,0,0,0,,那傢伙
+Dialogue: 0,0:20:00.91,0:20:03.00,*Default,NTP,0,0,0,,啊  趕上了啊
+Dialogue: 0,0:20:03.31,0:20:06.22,*Default,NTP,0,0,0,,擔心死我了  響  沒事嗎
+Dialogue: 0,0:20:06.35,0:20:11.31,*Default,NTP,0,0,0,,嗯  製作人  導演  給你們添麻煩了真是對不起
+Dialogue: 0,0:20:11.69,0:20:13.95,*Default,NTP,0,0,0,,沒關係  反正都回來了
+Dialogue: 0,0:20:15.44,0:20:18.34,*Default,NTP,0,0,0,,好  各位  快點重新準備了
+Dialogue: 0,0:20:18.72,0:20:22.35,*Default,NTP,0,0,0,,不好意思Jupiter  今天辛苦你們了
+Dialogue: 0,0:20:22.55,0:20:23.39,*Default,NTP,0,0,0,,什麼
+Dialogue: 0,0:20:23.56,0:20:24.65,*Default,NTP,0,0,0,,什麼嘛
+Dialogue: 0,0:20:25.17,0:20:27.69,*Default,NTP,0,0,0,,彩排明明準備得很棒的
+Dialogue: 0,0:20:29.21,0:20:31.44,*Default,NTP,0,0,0,,你好  我很開心哦
+Dialogue: 0,0:20:34.64,0:20:39.55,*Default,NTP,0,0,0,,別開玩笑了  自己跑掉  又自己跑回來了
+Dialogue: 0,0:20:50.07,0:20:52.24,*Default,NTP,0,0,0,,這到底是
+Dialogue: 0,0:20:53.14,0:20:57.30,*Default,NTP,0,0,0,,那個  黑井社長  這是那個  哪裡出錯了
+Dialogue: 0,0:20:57.38,0:20:59.13,*Default,NTP,0,0,0,,和你就是到此為止了
+Dialogue: 0,0:20:59.98,0:21:02.84,*Default,NTP,0,0,0,,那個  等等  黑井社長
+Dialogue: 0,0:21:06.01,0:21:08.91,*Default,NTP,0,0,0,,大叔  這到底是怎麼回事啊
+Dialogue: 0,0:21:09.19,0:21:13.62,*Default,NTP,0,0,0,,看來是被765事務的骯髒手段算計到了
+Dialogue: 0,0:21:14.01,0:21:18.29,*Default,NTP,0,0,0,,把你們耍來耍去  來報復之前的事吧
+Dialogue: 0,0:21:18.57,0:21:20.96,*Default,NTP,0,0,0,,報怨也適可而止啊
+Dialogue: 0,0:21:22.14,0:21:25.78,*Default,NTP,0,0,0,,果然無藥可救了呢  765事務的人
+Dialogue: 0,0:21:26.18,0:21:28.54,*Default,NTP,0,0,0,,偶像的話就用實力來一決勝負啊
+Dialogue: 0,0:21:33.10,0:21:34.94,*Default,NTP,0,0,0,,那麼正式開始了
+Dialogue: 0,0:21:35.81,0:21:37.61,*Default,NTP,0,0,0,,3  2
+Dialogue: 0,0:21:39.46,0:21:43.13,*Default,NTP,0,0,0,,大家好  今天的「狂奔  動物世界」
+Dialogue: 0,0:21:43.36,0:21:48.70,*Default,NTP,0,0,0,,竟然竟然  和這麼多的夥伴一起播放了哦
+Dialogue: 0,0:21:49.14,0:21:53.72,*Default,NTP,0,0,0,,其實  在這裡各位都是我不可或缺的家人呢
+Dialogue: 0,0:21:54.25,0:21:55.99,*Default,NTP,0,0,0,,得救了  音無小姐
+Dialogue: 0,0:21:56.24,0:22:00.07,*Default,NTP,0,0,0,,要謝的話不要謝我  謝犬美她們吧
+Dialogue: 0,0:22:00.43,0:22:04.22,*Default,NTP,0,0,0,,在山裡跑了個遍  來找到響的呢
+Dialogue: 0,0:22:04.67,0:22:09.61,*Default,NTP,0,0,0,,好厲害呢  響和犬美她們的羈絆
+Dialogue: 0,0:22:09.99,0:22:12.71,*Default,NTP,0,0,0,,這週會遇到什麼動物呢
+Dialogue: 0,0:22:12.87,0:22:15.89,*Default,NTP,0,0,0,,那麼  開始探險了哦
+Dialogue: 0,0:22:20.20,0:22:22.50,*Default,NTP,0,0,0,,好  大家跑起來吧
+Dialogue: 0,0:22:27.61,0:22:30.75,*Default,NTP,0,0,0,,哼哼  只要和大家一起
+Dialogue: 0,0:22:30.93,0:22:34.20,*Default,NTP,0,0,0,,以後也什麼都沒問題
+Dialogue: 0,0:23:56.02,0:23:58.32,*Default,NTP,0,0,0,,下週的偶像大師
+Dialogue: 0,0:23:58.40,0:24:01.62,*Default,NTP,0,0,0,,那個  錄影是高畫質的  備用機器有2台…
+Dialogue: 0,0:24:01.67,0:24:02.96,*Default,NTP,0,0,0,,怎麼了雪步
+Dialogue: 0,0:24:03.01,0:24:06.29,*Default,NTP,0,0,0,,四條姐  下週我要在家裡看片
+Dialogue: 0,0:24:06.34,0:24:09.00,*Default,NTP,0,0,0,,大家  下週一定要看
+Dialogue: 0,0:14:32.24,0:14:35.49,songjp,NTP,0,0,0,,{\fad  (70,70)}READY  TRIAL  DANCE  READY  TRIAL  DANCE
+Dialogue: 0,0:14:35.52,0:14:38.90,songjp,NTP,0,0,0,,{\fad  (70,70)}WOW  WOW  WOW  WOW
+Dialogue: 0,0:14:39.01,0:14:42.39,songjp,NTP,0,0,0,,{\fad  (70,70)}EVERY  BOY  DO  IT  EVERY  GIRL  DO  IT
+Dialogue: 0,0:14:42.39,0:14:46.84,songjp,NTP,0,0,0,,{\fad  (70,70)}YEAH  YEAH  YEAH  YEAH
+Dialogue: 0,0:14:53.82,0:14:57.07,songjp,NTP,0,0,0,,{\fad  (70,70)}今が始まるIT'S  BRAND  NEW  STAGE
+Dialogue: 0,0:14:57.15,0:15:00.34,songjp,NTP,0,0,0,,{\fad  (70,70)}夢を刻んでくPURE  HEARTBEAT
+Dialogue: 0,0:15:00.50,0:15:03.00,songjp,NTP,0,0,0,,{\fad  (70,70)}STAND  UP  DRESS  UP  LIGHT  UP
+Dialogue: 0,0:15:03.00,0:15:05.71,songjp,NTP,0,0,0,,{\fad  (70,70)}絶対NEVER  GIVE  UP
+Dialogue: 0,0:15:06.70,0:15:09.62,songjp,NTP,0,0,0,,{\fad  (70,70)}さあSTEP  BY  STEP
+Dialogue: 0,0:15:09.68,0:15:13.35,songjp,NTP,0,0,0,,{\fad  (70,70)}自分のまま
+Dialogue: 0,0:15:13.69,0:15:16.97,songjp,NTP,0,0,0,,{\fad  (70,70)}さあGOOD  BYE  DREAM
+Dialogue: 0,0:15:17.14,0:15:20.30,songjp,NTP,0,0,0,,{\fad  (70,70)}REALにMETAMORPHOSE
+Dialogue: 0,0:15:20.30,0:15:23.67,songjp,NTP,0,0,0,,{\fad  (70,70)}いつだってI  CAN  GO  NOW
+Dialogue: 0,0:15:23.67,0:15:30.72,songjp,NTP,0,0,0,,{\fad (70,70)}もっとCRAZY  BURNING  HEART
+Dialogue: 0,0:15:30.96,0:15:34.35,songjp,NTP,0,0,0,,{\fad (70,70)}READY  TRIAL  DANCE  READY  TRIAL  DANCE
+Dialogue: 0,0:15:34.35,0:15:37.78,songjp,NTP,0,0,0,,{\fad (70,70)}力強くLIFE
+Dialogue: 0,0:15:37.82,0:15:41.11,songjp,NTP,0,0,0,,{\fad (70,70)}EVERY  BOY  DO  IT  EVERY  GIRL  DO  IT
+Dialogue: 0,0:15:41.11,0:15:45.45,songjp,NTP,0,0,0,,{\fad (70,70)}DON'T  STOP  FUTURE
+Dialogue: 0,0:14:53.82,0:14:57.07,songcn,NTP,0,0,0,,{\fad (70,70)}現在正開始IT'S  BRAND  NEW  STAGE
+Dialogue: 0,0:14:57.15,0:15:00.34,songcn,NTP,0,0,0,,{\fad (70,70)}把夢想刻下  PURE  HEARTBEAT
+Dialogue: 0,0:15:00.50,0:15:03.00,songcn,NTP,0,0,0,,{\fad (70,70)}STAND  UP  DRESS  UP  LIGHT  UP
+Dialogue: 0,0:15:03.00,0:15:05.71,songcn,NTP,0,0,0,,{\fad (70,70)}絕對NEVER  GIVE  UP
+Dialogue: 0,0:15:06.70,0:15:09.62,songcn,NTP,0,0,0,,{\fad (70,70)}好  STEP  BY  STEP
+Dialogue: 0,0:15:09.68,0:15:13.35,songcn,NTP,0,0,0,,{\fad (70,70)}按著自己的步伐
+Dialogue: 0,0:15:13.69,0:15:16.97,songcn,NTP,0,0,0,,{\fad (70,70)}好  GOOD  BYE  DREAM
+Dialogue: 0,0:15:17.14,0:15:20.30,songcn,NTP,0,0,0,,{\fad (70,70)}已經夢想成真
+Dialogue: 0,0:15:20.30,0:15:23.67,songcn,NTP,0,0,0,,{\fad (70,70)}無論何時  I  CAN  GO  NOW
+Dialogue: 0,0:15:23.67,0:15:30.72,songcn,NTP,0,0,0,,{\fad (70,70)}更多  CRAZY  BURNING  HEART
+Dialogue: 0,0:15:30.96,0:15:34.35,songcn,NTP,0,0,0,,{\fad (70,70)}READY  TRIAL  DANCE  READY  TRIAL  DANCE
+Dialogue: 0,0:15:34.35,0:15:37.78,songcn,NTP,0,0,0,,{\fad (70,70)}強有力的LIFE
+Dialogue: 0,0:15:37.82,0:15:41.11,songcn,NTP,0,0,0,,{\fad (70,70)}EVERY  BOY  DO  IT  EVERY  GIRL  DO  IT
+Dialogue: 0,0:15:41.11,0:15:45.45,songcn,NTP,0,0,0,,{\fad (70,70)}DON'T  STOP  FUTURE
+Dialogue: 0,0:22:22.79,0:22:28.80,EDJP,NTP,0,0,0,,{\fad (111,111)}いつだって微笑んで　歩き出せる仲間となら
+Dialogue: 0,0:22:28.88,0:22:30.98,EDJP,NTP,0,0,0,,{\fad (111,111)}輝いで見つめて
+Dialogue: 0,0:22:30.98,0:22:34.79,EDJP,NTP,0,0,0,,{\fad (111,111)}今、始まる  It's  a  Brand  New  Day!
+Dialogue: 0,0:22:46.66,0:22:48.89,EDJP,NTP,0,0,0,,{\fad (111,111)}Catch Up　見つけましょ
+Dialogue: 0,0:22:49.63,0:22:52.23,EDJP,NTP,0,0,0,,{\fad (111,111)}瞳の中にうつる
+Dialogue: 0,0:22:52.55,0:22:58.26,EDJP,NTP,0,0,0,,{\fad (111,111)}Dreamin'　その先の  ドギドギを感じたいの
+Dialogue: 0,0:22:58.39,0:23:00.52,EDJP,NTP,0,0,0,,{\fad (111,111)}ストレートな思い
+Dialogue: 0,0:23:00.52,0:23:04.21,EDJP,NTP,0,0,0,,{\fad (111,111)}止められないの　乙女の熱いハート
+Dialogue: 0,0:23:04.37,0:23:09.85,EDJP,NTP,0,0,0,,{\fad (111,111)}出会えだカモネ　本当の私色（Color）
+Dialogue: 0,0:23:10.82,0:23:13.54,EDJP,NTP,0,0,0,,{\fad (111,111)}OH  YEAH～（なんくるないさ）
+Dialogue: 0,0:23:13.65,0:23:19.13,EDJP,NTP,0,0,0,,{\fad (111,111)}進め　負けない　ここから始まる
+Dialogue: 0,0:23:19.18,0:23:22.79,EDJP,NTP,0,0,0,,{\fad (111,111)}手と手を繋いで走り出す
+Dialogue: 0,0:23:22.92,0:23:30.90,EDJP,NTP,0,0,0,,{\fad (111,111)}自分たちの未来は負けたり　へこんだりしない
+Dialogue: 0,0:23:31.04,0:23:34.52,EDJP,NTP,0,0,0,,{\fad (111,111)}世界が呼んでいるだから
+Dialogue: 0,0:23:34.72,0:23:36.75,EDJP,NTP,0,0,0,,{\fad (111,111)}飛び込んじゃえば
+Dialogue: 0,0:23:36.91,0:23:38.24,EDJP,NTP,0,0,0,,{\fad (111,111)}たぶん　All  Right!
+Dialogue: 0,0:23:46.52,0:23:49.83,EDJP,NTP,0,0,0,,{\fad (111,111)}今始まるIt's  a  Brand  New  Day!
+Dialogue: 0,0:22:22.79,0:22:28.80,EDCN,NTP,0,0,0,,{\fad (111,111)\an9}只要有個夥伴  時時向我微笑著  陪我一起走
+Dialogue: 0,0:22:28.88,0:22:30.98,EDCN,NTP,0,0,0,,{\fad (111,111)\an9}閃閃地注視著
+Dialogue: 0,0:22:30.98,0:22:34.79,EDCN,NTP,0,0,0,,{\fad (111,111)\an9}現在開始 It's  a  Brand  New  Day!
+Dialogue: 0,0:22:46.66,0:22:48.89,EDCN,NTP,0,0,0,,{\fad (111,111)}Catch Up  把它找出來吧
+Dialogue: 0,0:22:49.63,0:22:52.23,EDCN,NTP,0,0,0,,{\fad (111,111)}在瞳孔中映出
+Dialogue: 0,0:22:52.55,0:22:58.26,EDCN,NTP,0,0,0,,{\fad (111,111)}夢想的前方  心跳的感覺
+Dialogue: 0,0:22:58.39,0:23:00.52,EDCN,NTP,0,0,0,,{\fad (111,111)}筆直的思念
+Dialogue: 0,0:23:00.52,0:23:04.21,EDCN,NTP,0,0,0,,{\fad (111,111)}擋不住的少女熱情
+Dialogue: 0,0:23:04.37,0:23:09.85,EDCN,NTP,0,0,0,,{\fad (111,111)}說不定很想邂逅呢  這才是真正的我
+Dialogue: 0,0:23:10.82,0:23:13.54,EDCN,NTP,0,0,0,,{\fad (111,111)}OH  YEAH～（沒什麼大不了的）
+Dialogue: 0,0:23:13.65,0:23:19.13,EDCN,NTP,0,0,0,,{\fad (111,111)}前進  不認輸  才剛剛開始
+Dialogue: 0,0:23:19.18,0:23:22.79,EDCN,NTP,0,0,0,,{\fad (111,111)}手牽起手  邁出腳步
+Dialogue: 0,0:23:22.92,0:23:30.90,EDCN,NTP,0,0,0,,{\fad (111,111)}我們的未來不會輸  不會屈服
+Dialogue: 0,0:23:31.04,0:23:34.52,EDCN,NTP,0,0,0,,{\fad (111,111)}因為世界正呼喚著我們呢
+Dialogue: 0,0:23:34.72,0:23:36.75,EDCN,NTP,0,0,0,,{\fad (111,111)}跳進去的話
+Dialogue: 0,0:23:36.91,0:23:38.24,EDCN,NTP,0,0,0,,{\fad (111,111)}大概  All  Right
+Dialogue: 0,0:23:46.52,0:23:49.83,EDCN,NTP,0,0,0,,{\fad (111,111)}現在開始It's  a  Brand  New  Day!

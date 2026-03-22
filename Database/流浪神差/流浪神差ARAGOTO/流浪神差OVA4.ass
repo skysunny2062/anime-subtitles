@@ -1,0 +1,606 @@
+﻿[Script Info]
+
+Title: Default Aegisub file
+Original Script: 
+ScriptType: v4.00+
+Collisions: Reverse
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: NOTE,SubLan,30,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,1,0,8,20,20,13,1
+Style: TEXT,SubYuan,30,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,100,0,0,1,0,0,2,20,20,20,1
+Style: UPJP,A-OTF Reimin Y40 Pr6N EB,30,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,0,0,0,0,100,95,0,0,1,0,0,8,20,20,50,128
+Style: UPCN,SubSans,40,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,1,0,8,20,20,13,1
+Style: EDJP,FOT-Matisse ProN EB,33,&H00FFFFFF,&HF0000000,&H1EBC9BE6,&H00000000,0,0,0,0,100,100,2,0,1,2,0,2,20,20,13,128
+Style: EDCN,SubSerif,30,&H00FFFFFF,&HF0000000,&H1EBC9BE6,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,8,20,20,10,134
+Style: OPJP,FOT-Matisse ProN EB,40,&H00000000,&HF0000000,&H00FFFFFF,&H00000000,0,0,0,0,100,100,2,0,1,0,0,2,20,20,13,128
+Style: OPCN,SubSerif,33,&H00000000,&HF0000000,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,2,0,1,0,0,8,20,20,13,134
+Style: JP,A-OTF Reimin Y40 Pr6N EB,33,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,0,0,0,0,100,95,0,0,1,1,0,2,20,20,3,128
+Style: CN,SubSans,47,&H00FFFFFF,&HF0000000,&H20000000,&H80000000,-1,0,0,0,100,95,0,0,1,2,0,2,20,20,30,1
+Style: TITLE3,SubSerif,47,&H00FFFFFF,&HF0000000,&HC0FFFFFF,&H80000000,-1,0,0,0,100,100,8,0,1,0,0,7,20,20,20,134
+Style: TITLE1,SubSerif,47,&H00000000,&HF0000000,&HC0000000,&H80000000,-1,0,0,0,100,100,8,0,1,0,0,7,20,20,20,134
+Style: Main,Microsoft YaHei,45,&H00FFFFFF,&H000000FF,&H00393939,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,2,15,15,15,1
+Style: Minor,Microsoft YaHei,40,&H00FFFFFF,&H000000FF,&H00393939,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,8,15,15,15,1
+Style: Tip,FZZhunYuan-M02,35,&H00FFFFFF,&HFF000000,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,15,15,15,1
+Style: Loanwords,Microsoft YaHei,32,&H00FFFFFF,&H000000FF,&H00393939,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,60,1
+Style: Title,FZDaBiaoSong-B06,37,&H00000000,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,5,10,10,10,1
+Style: STAFF,FZDaHei-B02,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,15,15,15,1
+Style: edJP,FOT-Matisse Pro EB,45,&H00FFFFFF,&H000000FF,&H006E00C1,&H00000000,0,0,0,0,100,100,0,0,1,1,0,9,15,15,15,1
+Style: edCH,FZDaBiaoSong-B06,40,&H00FCFAFB,&H000000FF,&H006E00C1,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,1,15,15,15,1
+Style: opCH,FZDaBiaoSong-B06,42,&H000A00A3,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,3,15,15,15,1
+Style: opJP,FOT-Matisse Pro EB,45,&H000A00A3,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,7,15,15,15,1
+Style: Title2,FZDaBiaoSong-B06,37,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.92,0:00:01.87,Main,,0,0,0,,博物館
+Dialogue: 0,0:00:02.71,0:00:03.52,Main,,0,0,0,,體育館
+Dialogue: 0,0:00:04.29,0:00:05.18,Main,,0,0,0,,舞池
+Dialogue: 0,0:00:06.87,0:00:10.23,Main,,0,0,0,,先代還真是去了好多地方視察啊
+Dialogue: 0,0:00:12.37,0:00:14.48,Main,,0,0,0,,邦彌 這裡是哪裡啊
+Dialogue: 0,0:00:15.56,0:00:20.29,Main,,0,0,0,,啊 這裡是昭和後期在日本誕生的大型主題樂園
+Dialogue: 0,0:00:21.01,0:00:22.33,Main,,0,0,0,,CAPyPer LAND
+Dialogue: 0,0:00:23.71,0:00:25.08,Main,,0,0,0,,CAPyPer LAND
+Dialogue: 4,0:00:45.91,0:00:46.08,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 3,0:00:46.00,0:00:46.41,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 2,0:00:46.04,0:00:46.41,OPCN,,0,0,0,,{\bord0\alpha50\move(625,20,640,10,)\c&H3BF4F3&}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 1,0:00:46.08,0:00:46.41,OPCN,,0,0,0,,{\bord0\alpha50\move(625,15,640,10,)\c&HF6F25A&}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 0,0:00:46.16,0:00:46.41,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H231FDD&}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 0,0:00:46.41,0:00:49.40,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)}表露無遺的臉上 崩壞的狂亂小子們
+Dialogue: 4,0:00:49.40,0:00:49.57,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 3,0:00:49.49,0:00:49.90,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 2,0:00:49.53,0:00:49.90,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H231FDD&}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 1,0:00:49.57,0:00:49.90,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&H3BF4F3&}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 0,0:00:49.65,0:00:49.90,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&HF6F25A&}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 0,0:00:49.90,0:00:52.66,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur7)}厭惡 謊言 崩壞 棄盡日常
+Dialogue: 4,0:00:52.66,0:00:52.83,OPCN,,0,0,0,,{\pos(635,15)\fad(100,0)\bord0}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 3,0:00:52.75,0:00:53.16,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 2,0:00:52.79,0:00:53.16,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&HF6F25A&}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 1,0:00:52.83,0:00:53.16,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H231FDD&}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 0,0:00:52.91,0:00:53.16,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H3BF4F3&}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 0,0:00:53.16,0:00:56.06,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur5)}香甜體溫之蜜 濃郁撲鼻
+Dialogue: 4,0:00:56.06,0:00:56.23,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}喚醒氣味氣味氣味
+Dialogue: 3,0:00:56.15,0:00:56.56,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}喚醒氣味氣味氣味
+Dialogue: 2,0:00:56.19,0:00:56.56,OPCN,,0,0,0,,{\bord0\alpha50\move(625,20,640,10,)\c&H3BF4F3&}喚醒氣味氣味氣味
+Dialogue: 1,0:00:56.23,0:00:56.56,OPCN,,0,0,0,,{\bord0\alpha50\move(625,15,640,10,)\c&HF6F25A&}喚醒氣味氣味氣味
+Dialogue: 0,0:00:56.31,0:00:56.56,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H231FDD&}喚醒氣味氣味氣味
+Dialogue: 0,0:00:56.56,0:00:58.71,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur12)}喚醒氣味氣味氣味
+Dialogue: 4,0:01:12.57,0:01:12.74,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}瘋狂吧 Hey Kids!
+Dialogue: 3,0:01:12.66,0:01:13.07,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}瘋狂吧 Hey Kids!
+Dialogue: 2,0:01:12.70,0:01:13.07,OPCN,,0,0,0,,{\bord0\alpha50\move(625,20,640,10,)\c&H3BF4F3&}瘋狂吧 Hey Kids!
+Dialogue: 1,0:01:12.74,0:01:13.07,OPCN,,0,0,0,,{\bord0\alpha50\move(625,15,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:12.82,0:01:13.07,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H231FDD&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:13.07,0:01:14.34,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)}瘋狂吧 Hey Kids!
+Dialogue: 4,0:01:14.34,0:01:14.51,OPCN,,0,0,0,,{\pos(635,15)\fad(100,0)\bord0}逐漸改變時代 無法停止的焦躁
+Dialogue: 3,0:01:14.43,0:01:14.84,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)}逐漸改變時代 無法停止的焦躁
+Dialogue: 2,0:01:14.47,0:01:14.84,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H3BF4F3&}逐漸改變時代 無法停止的焦躁
+Dialogue: 1,0:01:14.51,0:01:14.84,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H3BF4F3&}逐漸改變時代 無法停止的焦躁
+Dialogue: 0,0:01:14.59,0:01:14.84,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H3BF4F3&}逐漸改變時代 無法停止的焦躁
+Dialogue: 0,0:01:14.84,0:01:19.37,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur6)}逐漸改變時代 無法停止的焦躁
+Dialogue: 4,0:01:19.37,0:01:19.54,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}瘋狂吧 Hey Kids!
+Dialogue: 3,0:01:19.46,0:01:19.87,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}瘋狂吧 Hey Kids!
+Dialogue: 2,0:01:19.50,0:01:19.87,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H231FDD&}瘋狂吧 Hey Kids!
+Dialogue: 1,0:01:19.54,0:01:19.87,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&H3BF4F3&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:19.62,0:01:19.87,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:19.87,0:01:21.17,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur7)}瘋狂吧 Hey Kids!
+Dialogue: 4,0:01:21.17,0:01:21.34,OPCN,,0,0,0,,{\pos(625,25)\fad(100,0)\bord0} 與妳必然的邂逅 oh oh oh
+Dialogue: 3,0:01:21.26,0:01:21.67,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)} 與妳必然的邂逅 oh oh oh
+Dialogue: 2,0:01:21.30,0:01:21.67,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&HF6F25A&} 與妳必然的邂逅 oh oh oh
+Dialogue: 1,0:01:21.34,0:01:21.67,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&HF6F25A&} 與妳必然的邂逅 oh oh oh
+Dialogue: 0,0:01:21.42,0:01:21.67,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&HF6F25A&} 與妳必然的邂逅 oh oh oh
+Dialogue: 0,0:01:21.67,0:01:26.06,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur7)} 與妳必然的邂逅 oh oh oh
+Dialogue: 4,0:01:26.06,0:01:26.23,OPCN,,0,0,0,,{\pos(625,25)\fad(100,0)\bord0}瘋狂後流淚
+Dialogue: 3,0:01:26.15,0:01:26.56,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)}瘋狂後流淚
+Dialogue: 2,0:01:26.19,0:01:26.56,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H231FDD&}瘋狂後流淚
+Dialogue: 1,0:01:26.23,0:01:26.56,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&H3BF4F3&}瘋狂後流淚
+Dialogue: 0,0:01:26.31,0:01:26.56,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&HF6F25A&}瘋狂後流淚
+Dialogue: 0,0:01:26.56,0:01:27.86,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur8)}瘋狂後流淚
+Dialogue: 4,0:01:27.86,0:01:28.03,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 3,0:01:27.95,0:01:28.36,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 2,0:01:27.99,0:01:28.36,OPCN,,0,0,0,,{\bord0\alpha50\move(625,20,640,10,)\c&H3BF4F3&}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 1,0:01:28.03,0:01:28.36,OPCN,,0,0,0,,{\bord0\alpha50\move(625,15,640,10,)\c&HF6F25A&}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 0,0:01:28.11,0:01:28.36,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H231FDD&}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 0,0:01:28.36,0:01:32.89,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur8)}找尋 無法忘懷的愛 想永遠繫於一起
+Dialogue: 4,0:01:32.89,0:01:33.06,OPCN,,0,0,0,,{\pos(635,15)\fad(100,0)\bord0}瘋狂吧 Hey Kids!
+Dialogue: 3,0:01:32.98,0:01:33.39,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)}瘋狂吧 Hey Kids!
+Dialogue: 2,0:01:33.02,0:01:33.39,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids!
+Dialogue: 1,0:01:33.06,0:01:33.39,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H231FDD&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:33.14,0:01:33.39,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H3BF4F3&}瘋狂吧 Hey Kids!
+Dialogue: 0,0:01:33.39,0:01:34.57,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur9)}瘋狂吧 Hey Kids!
+Dialogue: 4,0:01:34.57,0:01:34.74,OPCN,,0,0,0,,{\pos(640,10)\fad(100,0)\bord0}即使這樣未來也是虛幻的嗎？
+Dialogue: 3,0:01:34.66,0:01:35.07,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)}即使這樣未來也是虛幻的嗎？
+Dialogue: 2,0:01:34.70,0:01:35.07,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H231FDD&}即使這樣未來也是虛幻的嗎？
+Dialogue: 1,0:01:34.74,0:01:35.07,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H231FDD&}即使這樣未來也是虛幻的嗎？
+Dialogue: 0,0:01:34.82,0:01:35.07,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&H231FDD&}即使這樣未來也是虛幻的嗎？
+Dialogue: 0,0:01:35.07,0:01:38.59,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur9)}即使這樣未來也是虛幻的嗎？
+Dialogue: 4,0:01:39.66,0:01:39.83,OPCN,,0,0,0,,{\pos(640,10)\fad(100,0)\bord0}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 3,0:01:39.75,0:01:40.16,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 2,0:01:39.79,0:01:40.16,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 1,0:01:39.83,0:01:40.16,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 0,0:01:39.91,0:01:40.16,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&HF6F25A&}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 0,0:01:40.16,0:01:44.34,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}瘋狂吧 Hey Kids! 揍飛無趣的自我
+Dialogue: 4,0:01:44.37,0:01:44.54,OPCN,,0,0,0,,{\pos(635,15)\fad(100,0)\bord0}無意義的抗爭
+Dialogue: 3,0:01:44.46,0:01:44.87,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)}無意義的抗爭
+Dialogue: 2,0:01:44.50,0:01:44.87,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H3BF4F3&}無意義的抗爭
+Dialogue: 1,0:01:44.54,0:01:44.87,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)\c&H3BF4F3&}無意義的抗爭
+Dialogue: 0,0:01:44.62,0:01:44.87,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&H3BF4F3&}無意義的抗爭
+Dialogue: 0,0:01:44.87,0:01:46.42,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}無意義的抗爭
+Dialogue: 4,0:01:46.42,0:01:46.59,OPCN,,0,0,0,,{\pos(630,20)\fad(100,0)\bord0}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 3,0:01:46.51,0:01:46.92,OPCN,,0,0,0,,{\bord0\alpha50\move(630,20,640,10,)}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 2,0:01:46.55,0:01:46.92,OPCN,,0,0,0,,{\bord0\alpha50\move(625,25,640,10,)\c&H231FDD&}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 1,0:01:46.59,0:01:46.92,OPCN,,0,0,0,,{\bord0\alpha50\move(635,15,640,10,)\c&H3BF4F3&}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 0,0:01:46.67,0:01:46.92,OPCN,,0,0,0,,{\bord0\alpha50\move(640,10,640,10,)\c&HF6F25A&}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 0,0:01:46.92,0:01:51.67,OPCN,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur11)}瘋狂後平靜？？ 不吐露我的名字嗎？
+Dialogue: 4,0:00:31.25,0:00:31.42,OPJP,,0,0,0,,{\pos(625,695)\fad(100,0)\bord0\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 3,0:00:31.34,0:00:31.75,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 2,0:00:31.38,0:00:31.75,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 1,0:00:31.42,0:00:31.75,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&H3BF4F3&\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 0,0:00:31.50,0:00:31.75,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 0,0:00:31.75,0:00:33.19,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)\fnSubSerif\fs33.333\b1}「Tonight We honor the hero!!」
+Dialogue: 4,0:00:45.91,0:00:46.08,OPJP,,0,0,0,,{\pos(625,695)\fad(100,0)\bord0}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 3,0:00:46.00,0:00:46.41,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 2,0:00:46.04,0:00:46.41,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&H231FDD&}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 1,0:00:46.08,0:00:46.41,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&H3BF4F3&}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 0,0:00:46.16,0:00:46.41,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 0,0:00:46.41,0:00:49.40,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)}塞ぐ{\fnSubSerif\fs33.333\b1}NO{\fn\fs\b}面に　壊す狂乱{\fnSubSerif\fs33.333\b1}Kids
+Dialogue: 4,0:00:49.40,0:00:49.57,OPJP,,0,0,0,,{\pos(650,700)\fad(100,0)\bord0}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 3,0:00:49.49,0:00:49.90,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 2,0:00:49.53,0:00:49.90,OPJP,,0,0,0,,{\bord0\alpha50\move(655,700,640,710,)\c&H3BF4F3&}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 1,0:00:49.57,0:00:49.90,OPJP,,0,0,0,,{\bord0\alpha50\move(655,705,640,710,)\c&HF6F25A&}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 0,0:00:49.65,0:00:49.90,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H231FDD&}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 0,0:00:49.90,0:00:52.66,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)}嘘　嫌い　崩壊　日々を投下して
+Dialogue: 4,0:00:52.66,0:00:52.83,OPJP,,0,0,0,,{\pos(630,700)\fad(100,0)\bord0}甘い体温の蜜匂いだって
+Dialogue: 3,0:00:52.75,0:00:53.16,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)}甘い体温の蜜匂いだって
+Dialogue: 2,0:00:52.79,0:00:53.16,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&H231FDD&}甘い体温の蜜匂いだって
+Dialogue: 1,0:00:52.83,0:00:53.16,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&H3BF4F3&}甘い体温の蜜匂いだって
+Dialogue: 0,0:00:52.91,0:00:53.16,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&}甘い体温の蜜匂いだって
+Dialogue: 0,0:00:53.16,0:00:56.06,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur7)}甘い体温の蜜匂いだって
+Dialogue: 4,0:00:56.06,0:00:56.23,OPJP,,0,0,0,,{\pos(635,705)\fad(100,0)\bord0}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 3,0:00:56.15,0:00:56.56,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 2,0:00:56.19,0:00:56.56,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 1,0:00:56.23,0:00:56.56,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&H231FDD&}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 0,0:00:56.31,0:00:56.56,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H3BF4F3&}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 0,0:00:56.56,0:00:58.71,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur5)}ソソる　{\fnSubSerif\fs33.333\b1}flavor flavor flavor
+Dialogue: 4,0:00:58.71,0:00:58.88,OPJP,,0,0,0,,{\pos(650,700)\fad(100,0)\bord0\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 3,0:00:58.80,0:00:59.21,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 2,0:00:58.84,0:00:59.21,OPJP,,0,0,0,,{\bord0\alpha50\move(655,700,640,710,)\c&H3BF4F3&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 1,0:00:58.88,0:00:59.21,OPJP,,0,0,0,,{\bord0\alpha50\move(655,705,640,710,)\c&HF6F25A&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:00:58.96,0:00:59.21,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:00:59.21,0:01:01.91,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur12)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 4,0:01:01.99,0:01:02.16,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 3,0:01:02.08,0:01:02.49,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 2,0:01:02.12,0:01:02.49,OPJP,,0,0,0,,{\bord0\alpha50\move(655,695,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 1,0:01:02.16,0:01:02.49,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:01:02.24,0:01:02.49,OPJP,,0,0,0,,{\bord0\alpha50\move(645,705,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:01:02.49,0:01:05.36,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur5)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 4,0:01:05.36,0:01:05.53,OPJP,,0,0,0,,{\pos(625,695)\fad(100,0)\bord0\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 3,0:01:05.45,0:01:05.86,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 2,0:01:05.49,0:01:05.86,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 1,0:01:05.53,0:01:05.86,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&H3BF4F3&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:01:05.61,0:01:05.86,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 0,0:01:05.86,0:01:09.94,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)\fnSubSerif\fs33.333\b1}Just wanna hold your hands
+Dialogue: 4,0:01:12.57,0:01:12.74,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 3,0:01:12.66,0:01:13.07,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 2,0:01:12.70,0:01:13.07,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 1,0:01:12.74,0:01:13.07,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&HF6F25A&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:12.82,0:01:13.07,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&HF6F25A&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:13.07,0:01:14.34,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur6)}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 4,0:01:14.34,0:01:14.51,OPJP,,0,0,0,,{\pos(650,700)\fad(100,0)\bord0}次第に時代は変わって　終わらない焦燥
+Dialogue: 3,0:01:14.43,0:01:14.84,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)}次第に時代は変わって　終わらない焦燥
+Dialogue: 2,0:01:14.47,0:01:14.84,OPJP,,0,0,0,,{\bord0\alpha50\move(655,700,640,710,)\c&H3BF4F3&}次第に時代は変わって　終わらない焦燥
+Dialogue: 1,0:01:14.51,0:01:14.84,OPJP,,0,0,0,,{\bord0\alpha50\move(655,705,640,710,)\c&HF6F25A&}次第に時代は変わって　終わらない焦燥
+Dialogue: 0,0:01:14.59,0:01:14.84,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H231FDD&}次第に時代は変わって　終わらない焦燥
+Dialogue: 0,0:01:14.84,0:01:19.37,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur4)}次第に時代は変わって　終わらない焦燥
+Dialogue: 4,0:01:19.37,0:01:19.54,OPJP,,0,0,0,,{\pos(645,705)\fad(100,0)\bord0}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 3,0:01:19.46,0:01:19.87,OPJP,,0,0,0,,{\bord0\alpha50\move(645,705,640,710,)}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 2,0:01:19.50,0:01:19.87,OPJP,,0,0,0,,{\bord0\alpha50\move(655,695,640,710,)\c&H3BF4F3&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 1,0:01:19.54,0:01:19.87,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\c&H3BF4F3&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:19.62,0:01:19.87,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H3BF4F3&}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:19.87,0:01:21.17,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur6)}狂って　{\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 4,0:01:21.17,0:01:21.34,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 3,0:01:21.26,0:01:21.67,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 2,0:01:21.30,0:01:21.67,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 1,0:01:21.34,0:01:21.67,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&HF6F25A&}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 0,0:01:21.42,0:01:21.67,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&HF6F25A&}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 0,0:01:21.67,0:01:26.06,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}出会うはずだったあなたと {\fnSubSerif\fs33.333\b1}oh oh oh
+Dialogue: 4,0:01:26.06,0:01:26.23,OPJP,,0,0,0,,{\pos(655,695)\fad(100,0)\bord0}狂って泣いた
+Dialogue: 3,0:01:26.15,0:01:26.56,OPJP,,0,0,0,,{\bord0\alpha50\move(655,695,640,710,)}狂って泣いた
+Dialogue: 2,0:01:26.19,0:01:26.56,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\c&HF6F25A&}狂って泣いた
+Dialogue: 1,0:01:26.23,0:01:26.56,OPJP,,0,0,0,,{\bord0\alpha50\move(645,705,640,710,)\c&HF6F25A&}狂って泣いた
+Dialogue: 0,0:01:26.31,0:01:26.56,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&}狂って泣いた
+Dialogue: 0,0:01:26.56,0:01:27.86,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur7)}狂って泣いた
+Dialogue: 4,0:01:27.86,0:01:28.03,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 3,0:01:27.95,0:01:28.36,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 2,0:01:27.99,0:01:28.36,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 1,0:01:28.03,0:01:28.36,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&HF6F25A&}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 0,0:01:28.11,0:01:28.36,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&HF6F25A&}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 0,0:01:28.36,0:01:32.89,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}忘れない愛を探して　繋ぎたいずっと
+Dialogue: 4,0:01:32.89,0:01:33.06,OPJP,,0,0,0,,{\pos(650,700)\fad(100,0)\bord0}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 3,0:01:32.98,0:01:33.39,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 2,0:01:33.02,0:01:33.39,OPJP,,0,0,0,,{\bord0\alpha50\move(655,700,640,710,)\c&H3BF4F3&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 1,0:01:33.06,0:01:33.39,OPJP,,0,0,0,,{\bord0\alpha50\move(655,705,640,710,)\c&HF6F25A&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:33.14,0:01:33.39,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H231FDD&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 0,0:01:33.39,0:01:34.57,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur8)}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!
+Dialogue: 4,0:01:34.57,0:01:34.74,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}それでも未来は儚いか
+Dialogue: 3,0:01:34.66,0:01:35.07,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}それでも未来は儚いか
+Dialogue: 2,0:01:34.70,0:01:35.07,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}それでも未来は儚いか
+Dialogue: 1,0:01:34.74,0:01:35.07,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&HF6F25A&}それでも未来は儚いか
+Dialogue: 0,0:01:34.82,0:01:35.07,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&HF6F25A&}それでも未来は儚いか
+Dialogue: 0,0:01:35.07,0:01:38.59,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}それでも未来は儚いか
+Dialogue: 4,0:01:39.66,0:01:39.83,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 3,0:01:39.75,0:01:40.16,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 2,0:01:39.79,0:01:40.16,OPJP,,0,0,0,,{\bord0\alpha50\move(655,695,640,710,)\c&H231FDD&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 1,0:01:39.83,0:01:40.16,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\c&H231FDD&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 0,0:01:39.91,0:01:40.16,OPJP,,0,0,0,,{\bord0\alpha50\move(645,705,640,710,)\c&H231FDD&}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 0,0:01:40.16,0:01:44.34,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur9)}狂って {\fnSubSerif\fs33.333\b1}Hey Kids!{\fn\fs\b} くだらないエゴを飛ばして
+Dialogue: 4,0:01:44.37,0:01:44.54,OPJP,,0,0,0,,{\pos(640,710)\fad(100,0)\bord0}意味のない抗争
+Dialogue: 3,0:01:44.46,0:01:44.87,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)}意味のない抗争
+Dialogue: 2,0:01:44.50,0:01:44.87,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&HF6F25A&}意味のない抗争
+Dialogue: 1,0:01:44.54,0:01:44.87,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\c&HF6F25A&}意味のない抗争
+Dialogue: 0,0:01:44.62,0:01:44.87,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&HF6F25A&}意味のない抗争
+Dialogue: 0,0:01:44.87,0:01:46.42,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}意味のない抗争
+Dialogue: 4,0:01:46.42,0:01:46.59,OPJP,,0,0,0,,{\pos(645,705)\fad(100,0)\bord0}狂って平気 私の名前を吐かないか
+Dialogue: 3,0:01:46.51,0:01:46.92,OPJP,,0,0,0,,{\bord0\alpha50\move(645,705,640,710,)}狂って平気 私の名前を吐かないか
+Dialogue: 2,0:01:46.55,0:01:46.92,OPJP,,0,0,0,,{\bord0\alpha50\move(655,695,640,710,)\c&H3BF4F3&}狂って平気 私の名前を吐かないか
+Dialogue: 1,0:01:46.59,0:01:46.92,OPJP,,0,0,0,,{\bord0\alpha50\move(650,700,640,710,)\c&H3BF4F3&}狂って平気 私の名前を吐かないか
+Dialogue: 0,0:01:46.67,0:01:46.92,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&H3BF4F3&}狂って平気 私の名前を吐かないか
+Dialogue: 0,0:01:46.92,0:01:51.67,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur10)}狂って平気 私の名前を吐かないか
+Dialogue: 4,0:01:51.67,0:01:51.84,OPJP,,0,0,0,,{\pos(630,700)\fad(100,0)\bord0\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 3,0:01:51.76,0:01:52.17,OPJP,,0,0,0,,{\bord0\alpha50\move(630,700,640,710,)\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 2,0:01:51.80,0:01:52.17,OPJP,,0,0,0,,{\bord0\alpha50\move(625,695,640,710,)\c&H231FDD&\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 1,0:01:51.84,0:01:52.17,OPJP,,0,0,0,,{\bord0\alpha50\move(635,705,640,710,)\c&H3BF4F3&\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 0,0:01:51.92,0:01:52.17,OPJP,,0,0,0,,{\bord0\alpha50\move(640,710,640,710,)\c&HF6F25A&\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 0,0:01:52.17,0:01:54.42,OPJP,,0,0,0,,{\bord0\t(0,200,\bord1\c&H00029D&\blur11)\fnSubSerif\fs33.333\b1}I swear. I respect the hero
+Dialogue: 0,0:01:56.72,0:01:58.52,Main,,0,0,0,,欸 是明天嗎
+Dialogue: 0,0:01:59.18,0:02:00.68,Main,,0,0,0,,我確實沒有什麼計劃
+Dialogue: 0,0:02:00.68,0:02:01.60,Main,,0,0,0,,太好了
+Dialogue: 0,0:02:01.90,0:02:04.19,Main,,0,0,0,,那我們和雪音三個人一起去玩吧
+Dialogue: 0,0:02:04.19,0:02:05.93,Main,,0,0,0,,欸 為什麼突然這麼說
+Dialogue: 0,0:02:06.31,0:02:08.54,Main,,0,0,0,,我打工地方的店長是個好人
+Dialogue: 0,0:02:08.72,0:02:10.91,Main,,0,0,0,,硬是塞給我好多錢
+Dialogue: 0,0:02:11.28,0:02:12.16,Main,,0,0,0,,你家的孩子
+Dialogue: 0,0:02:12.62,0:02:14.30,Main,,0,0,0,,你這麼年輕就有小孩了嗎
+Dialogue: 0,0:02:15.28,0:02:15.82,Main,,0,0,0,,結婚啦
+Dialogue: 0,0:02:16.04,0:02:16.86,Main,,0,0,0,,沒有喔
+Dialogue: 0,0:02:18.16,0:02:20.14,Main,,0,0,0,,好拼啊 你太拼了
+Dialogue: 0,0:02:21.56,0:02:24.55,Main,,0,0,0,,那你應該把錢用在更重要的地方上啊
+Dialogue: 0,0:02:24.63,0:02:26.19,Main,,0,0,0,,別和我客氣啦
+Dialogue: 0,0:02:26.41,0:02:28.67,Main,,0,0,0,,一直都受到了日和的諸多關照
+Dialogue: 0,0:02:28.75,0:02:30.77,Main,,0,0,0,,我要帶你去個好地方
+Dialogue: 0,0:02:33.10,0:02:36.22,Main,,0,0,0,,好吧 那我就恭敬不如從命了
+Dialogue: 0,0:02:39.86,0:02:41.34,Main,,0,0,0,,好地方啊
+Dialogue: 0,0:02:44.53,0:02:49.74,Main,,0,0,0,,鏘 歡迎來到CAPyPer LAND
+Dialogue: 0,0:02:52.21,0:02:56.17,Title,,0,0,0,,{\pos(970,493)\be40}一\N起\N拍\N照\N吧
+Dialogue: 0,0:02:56.30,0:03:00.11,Main,,0,0,0,,哇啊 終於能見到真身了
+Dialogue: 0,0:03:00.27,0:03:03.91,Main,,0,0,0,,這個是水豚 這邊也是水豚 那邊也是水豚
+Dialogue: 0,0:03:03.95,0:03:06.26,Main,,0,0,0,,{\a6}發現了好多水豚
+Dialogue: 0,0:03:04.03,0:03:06.12,Main,,0,0,0,,情緒太過高漲了吧
+Dialogue: 0,0:03:06.55,0:03:09.05,Main,,0,0,0,,欸 日和的表情像鬼一樣
+Dialogue: 0,0:03:09.34,0:03:10.25,Main,,0,0,0,,真可怕
+Dialogue: 0,0:03:10.37,0:03:13.08,Main,,0,0,0,,還不是你一直水豚水豚的 吵死人了
+Dialogue: 0,0:03:14.22,0:03:16.44,Main,,0,0,0,,為 為什麼偏偏來了這裡
+Dialogue: 0,0:03:21.53,0:03:22.58,Main,,0,0,0,,你幹什麼 混蛋
+Dialogue: 0,0:03:23.15,0:03:25.94,Main,,0,0,0,,這個地方 明明不想再來第二次的
+Dialogue: 0,0:03:26.82,0:03:28.32,Main,,0,0,0,,日和 你怎麼了
+Dialogue: 0,0:03:29.45,0:03:30.45,Main,,0,0,0,,身體不舒服嗎
+Dialogue: 0,0:03:32.57,0:03:35.46,Main,,0,0,0,,總覺得 這傢伙已經樂得找不著北了
+Dialogue: 0,0:03:35.73,0:03:37.56,Main,,0,0,0,,算了 今天就隨他去吧
+Dialogue: 0,0:03:41.87,0:03:47.37,Main,,0,0,0,,之前只要有錢就去喝酒 賭博 亂買開運小物的廢物
+Dialogue: 0,0:03:47.48,0:03:49.32,Main,,0,0,0,,現在竟然會為了別人去花錢
+Dialogue: 0,0:03:49.90,0:03:52.25,Main,,0,0,0,,我感動得都要哭了
+Dialogue: 0,0:03:52.25,0:03:54.69,Main,,0,0,0,,雪音君 真是辛苦你了
+Dialogue: 0,0:03:55.34,0:03:58.92,Main,,0,0,0,,終於 終於要見到實物了
+Dialogue: 0,0:03:59.02,0:04:01.67,Main,,0,0,0,,它會不會和我拍照呢 會不會和我握手呢
+Dialogue: 0,0:04:01.93,0:04:03.83,Main,,0,0,0,,真的像做夢一樣
+Dialogue: 0,0:04:03.83,0:04:07.67,Main,,0,0,0,,實物  這傢伙 真的相信水豚是存在的嗎
+Dialogue: 0,0:04:08.29,0:04:10.21,Main,,0,0,0,,像漂浮在空中的天使一樣
+Dialogue: 0,0:04:10.35,0:04:10.97,Main,,0,0,0,,那是蟲子吧
+Dialogue: 0,0:04:12.87,0:04:15.56,Main,,0,0,0,,這裡最開心的怎麼看都是這傢伙啊
+Dialogue: 0,0:04:17.66,0:04:18.82,Main,,0,0,0,,啊 時間到了
+Dialogue: 0,0:04:20.35,0:04:23.14,Main,,0,0,0,,喂 日和還有雪音 你們快點過來啊
+Dialogue: 0,0:04:29.32,0:04:29.82,Main,,0,0,0,,好啦
+Dialogue: 0,0:04:33.21,0:04:35.67,Main,,0,0,0,,交換日記也已經寫到第五本了
+Dialogue: 0,0:04:39.39,0:04:44.03,Main,,0,0,0,,請在高天原建一個CAPyPer LAND
+Dialogue: 0,0:04:44.52,0:04:47.36,Main,,0,0,0,,CAPyPer LAND 那是什麼
+Dialogue: 0,0:04:50.71,0:04:51.32,Main,,0,0,0,,有客人來了
+Dialogue: 0,0:04:52.64,0:04:54.64,Main,,0,0,0,,喔 惠比壽那裡的
+Dialogue: 0,0:04:55.06,0:04:56.37,Main,,0,0,0,,我是邦彌
+Dialogue: 0,0:04:56.99,0:04:59.31,Main,,0,0,0,,抱歉突然來訪
+Dialogue: 0,0:04:59.93,0:05:02.75,Main,,0,0,0,,請問我家少主有來過嗎
+Dialogue: 0,0:05:03.16,0:05:05.16,Main,,0,0,0,,並沒有 沒有來吧
+Dialogue: 0,0:05:05.67,0:05:06.00,Main,,0,0,0,,是的
+Dialogue: 0,0:05:06.50,0:05:07.19,Main,,0,0,0,,果然
+Dialogue: 0,0:05:07.66,0:05:08.93,Main,,0,0,0,,惠比壽怎麼了
+Dialogue: 0,0:05:09.69,0:05:15.34,Main,,0,0,0,,其實 我們在去下界視察的途中走散了
+Dialogue: 0,0:05:16.67,0:05:19.35,Main,,0,0,0,,早上的上班時間 被人流沖散了
+Dialogue: 0,0:05:19.51,0:05:21.15,Main,,0,0,0,,少主
+Dialogue: 0,0:05:22.25,0:05:27.45,Main,,0,0,0,,我以為是先回高天原了 然而並不見人影
+Dialogue: 0,0:05:27.66,0:05:30.24,Main,,0,0,0,,一個人在下界嗎
+Dialogue: 0,0:05:30.60,0:05:31.47,Main,,0,0,0,,視察地點在哪裡
+Dialogue: 0,0:05:31.99,0:05:35.37,Main,,0,0,0,,我還沒有問過他具體要去的地名
+Dialogue: 0,0:05:36.62,0:05:37.92,Main,,0,0,0,,啊 好擔心啊
+Dialogue: 0,0:05:38.01,0:05:40.03,Main,,0,0,0,,知道紅燈停綠燈行嗎
+Dialogue: 0,0:05:40.03,0:05:42.39,Main,,0,0,0,,知道上電梯的時機嗎
+Dialogue: 0,0:05:42.39,0:05:46.21,Main,,0,0,0,,會不會按錯了沖廁所的按鈕而變得全身濕透…
+Dialogue: 0,0:05:46.58,0:05:48.38,Main,,0,0,0,,總之我們一起分頭找吧
+Dialogue: 0,0:05:48.98,0:05:50.12,Main,,0,0,0,,有什麼可能去的地方嗎
+Dialogue: 0,0:05:50.46,0:05:51.58,Main,,0,0,0,,可能去的地方
+Dialogue: 0,0:05:52.23,0:05:53.15,Main,,0,0,0,,你總知道些什麼吧
+Dialogue: 0,0:06:01.54,0:06:02.75,Main,,0,0,0,,很久很久以前
+Dialogue: 0,0:06:03.06,0:06:06.79,Main,,0,0,0,,水豚的祖先們居住在一個小島國之中
+Dialogue: 0,0:06:07.23,0:06:09.63,Main,,0,0,0,,然而 國內爆發了鼠疫
+Dialogue: 0,0:06:09.79,0:06:12.51,Main,,0,0,0,,許多同伴接連死去
+Dialogue: 0,0:06:12.98,0:06:15.28,Main,,0,0,0,,大家都生活在恐慌之中
+Dialogue: 0,0:06:15.81,0:06:18.25,Main,,0,0,0,,有一天 其中的一個同伴發話了
+Dialogue: 0,0:06:19.33,0:06:22.03,Main,,0,0,0,,在日出方向有一個幸福的國度
+Dialogue: 0,0:06:22.32,0:06:23.36,Main,,0,0,0,,那裡沒有飢餓和寒冷
+Dialogue: 0,0:06:23.36,0:06:26.64,Main,,0,0,0,,是個能讓大家一起幸福快樂的生活下去的夢想與希望之國
+Dialogue: 0,0:06:27.04,0:06:29.13,Main,,0,0,0,,於是開展了普陀羅渡海
+Dialogue: 0,0:06:29.34,0:06:33.82,Main,,0,0,0,,水豚們意氣風發地接連渡海
+Dialogue: 0,0:06:34.49,0:06:38.34,Main,,0,0,0,,同伴們在暴風中接連被海水吞沒
+Dialogue: 0,0:06:39.16,0:06:42.24,Main,,0,0,0,,然後 幸運上岸的那一對
+Dialogue: 0,0:06:42.80,0:06:44.77,Main,,0,0,0,,以幾何級數繁殖
+Dialogue: 0,0:06:45.59,0:06:48.44,Main,,0,0,0,,才建立了這個不可思議的水豚王國
+Dialogue: 0,0:06:48.70,0:06:50.40,Main,,0,0,0,,吶 這故事不錯吧
+Dialogue: 0,0:06:52.76,0:06:56.00,Main,,0,0,0,,原來如此 原來是這樣的設定啊
+Dialogue: 0,0:06:56.88,0:06:58.07,Main,,0,0,0,,惠 惠比壽大人
+Dialogue: 0,0:06:58.23,0:07:00.25,Main,,0,0,0,,先代留下的筆記本裡寫著
+Dialogue: 0,0:07:00.54,0:07:07.62,Main,,0,0,0,,這種將客人帶入角色 徹底灌輸自己的世界觀的營銷方式真是值得稱讚
+Dialogue: 0,0:07:08.40,0:07:11.54,Main,,0,0,0,,呀啊 不要破壞夜斗的夢啊
+Dialogue: 0,0:07:11.78,0:07:14.68,Main,,0,0,0,,有禁忌之語 這點也和宗教差不多
+Dialogue: 0,0:07:15.13,0:07:17.89,Main,,0,0,0,,如果這個主題公園被改造成極樂淨土的話
+Dialogue: 0,0:07:17.98,0:07:21.54,Main,,0,0,0,,就能吸引大量的財富了吧
+Dialogue: 0,0:07:21.77,0:07:23.79,Main,,0,0,0,,不知道我們能不能做到呢
+Dialogue: 0,0:07:25.51,0:07:27.40,Main,,0,0,0,,話說 你怎麼會在這裡
+Dialogue: 0,0:07:27.80,0:07:28.85,Main,,0,0,0,,難道說你是一個人來的
+Dialogue: 0,0:07:28.91,0:07:30.01,Main,,0,0,0,,欸 你迷路了嗎
+Dialogue: 0,0:07:30.27,0:07:31.28,Main,,0,0,0,,邦彌叔叔呢
+Dialogue: 0,0:07:31.54,0:07:32.71,Main,,0,0,0,,給我保護好啊啊
+Dialogue: 0,0:07:32.93,0:07:36.53,Main,,0,0,0,,啊 那裡是先代拍照的地方
+Dialogue: 0,0:07:36.53,0:07:38.04,Main,,0,0,0,,好好聽人家說話啊
+Dialogue: 0,0:07:41.31,0:07:42.23,Main,,0,0,0,,沒受傷吧
+Dialogue: 0,0:07:42.96,0:07:46.51,Main,,0,0,0,,走路不要東張西望嘛 鞋帶都散了
+Dialogue: 0,0:07:46.70,0:07:47.13,Main,,0,0,0,,啊
+Dialogue: 0,0:07:49.65,0:07:52.94,Main,,0,0,0,,是 是水豚啊
+Dialogue: 0,0:07:53.68,0:07:54.34,Main,,0,0,0,,真的耶
+Dialogue: 0,0:07:55.41,0:07:56.31,Main,,0,0,0,,那個布偶
+Dialogue: 0,0:07:56.31,0:07:58.03,Main,,0,0,0,,不能說它是布偶
+Dialogue: 0,0:07:58.19,0:08:01.77,Main,,0,0,0,,啊 水豚 能注意到我嗎
+Dialogue: 0,0:08:02.21,0:08:06.40,Main,,0,0,0,,快看我 快看我 快看我 看我 看我 看我
+Dialogue: 0,0:08:06.40,0:08:12.43,Main,,0,0,0,,哇啊 水豚
+Dialogue: 0,0:08:15.52,0:08:17.93,Main,,0,0,0,,啊 夜斗 幫我拍照吧
+Dialogue: 0,0:08:22.84,0:08:24.20,Main,,0,0,0,,謝啦
+Dialogue: 0,0:08:24.51,0:08:28.39,Main,,0,0,0,,沒辦法呀 水豚是屬於孩子們的
+Dialogue: 0,0:08:31.35,0:08:33.61,Main,,0,0,0,,欸 我 我也一起嗎
+Dialogue: 0,0:08:35.80,0:08:37.07,Main,,0,0,0,,算了啦 我不用的
+Dialogue: 0,0:08:38.62,0:08:41.32,Main,,0,0,0,,夜斗 再來一張
+Dialogue: 0,0:08:43.32,0:08:44.58,Main,,0,0,0,,雪音君好像還挺高興的
+Dialogue: 0,0:08:45.14,0:08:46.91,Main,,0,0,0,,啊 水豚在那裡
+Dialogue: 0,0:08:49.96,0:08:52.06,Main,,0,0,0,,啊 都是小孩子了
+Dialogue: 0,0:08:52.20,0:08:56.25,Main,,0,0,0,,我也想一起拍照啊 想拍照啊
+Dialogue: 0,0:08:56.47,0:08:58.88,Main,,0,0,0,,什麼嘛 原來和夜斗他們在一起啊
+Dialogue: 0,0:08:59.41,0:09:00.70,Main,,0,0,0,,通知邦彌吧
+Dialogue: 0,0:09:01.21,0:09:04.80,Main,,0,0,0,,好的 他現在應該在CAPyPer ZOO裡找吧
+Dialogue: 0,0:09:06.21,0:09:08.48,Main,,0,0,0,,兆麻 有一件事讓我很在意
+Dialogue: 0,0:09:09.76,0:09:13.94,Main,,0,0,0,,為什麼這裡的人都喜歡戴著奇怪的耳朵呢
+Dialogue: 0,0:09:15.02,0:09:18.74,Main,,0,0,0,,還用頭身分離的東西吃零食
+Dialogue: 0,0:09:20.30,0:09:21.71,Main,,0,0,0,,喔 那裡的隊伍好像很長
+Dialogue: 0,0:09:21.86,0:09:25.03,Main,,0,0,0,,120分鐘  他們在等誰呢
+Dialogue: 0,0:09:25.64,0:09:27.67,Main,,0,0,0,,他們因為什麼這麼高興呢
+Dialogue: 0,0:09:31.03,0:09:32.47,Main,,0,0,0,,很適合你喲 威娜
+Dialogue: 0,0:09:33.93,0:09:36.41,Main,,0,0,0,,難得來一趟 就一起到處轉轉吧
+Dialogue: 0,0:09:37.80,0:09:38.28,Main,,0,0,0,,好可愛
+Dialogue: 0,0:09:38.64,0:09:42.10,Main,,0,0,0,,少主 您在哪裡啊  少主
+Dialogue: 0,0:09:43.66,0:09:44.94,Main,,0,0,0,,你拍了很多嘛
+Dialogue: 0,0:09:49.60,0:09:51.90,Main,,0,0,0,,雖然我覺得這是孩子才喜歡的東西
+Dialogue: 0,0:09:52.54,0:09:54.40,Main,,0,0,0,,不過水豚真的不錯啊
+Dialogue: 0,0:09:54.43,0:09:55.29,Main,,0,0,0,,對吧
+Dialogue: 0,0:09:55.82,0:09:58.22,Main,,0,0,0,,啊 這對杯子好可愛
+Dialogue: 0,0:09:58.41,0:10:00.22,Main,,0,0,0,,這個短褲也好可愛
+Dialogue: 0,0:10:00.49,0:10:02.50,Main,,0,0,0,,果然來這裡還是要帶這個呀
+Dialogue: 0,0:10:02.50,0:10:04.99,Main,,0,0,0,,哇 雪音君你好可愛啊
+Dialogue: 0,0:10:05.07,0:10:06.37,Main,,0,0,0,,不愧是CAPyPer LAND
+Dialogue: 0,0:10:06.95,0:10:08.94,Main,,0,0,0,,就連原本不屑一顧的雪音君都像是被施了魔法一樣
+Dialogue: 0,0:10:10.76,0:10:12.38,Main,,0,0,0,,來 日和你也戴上
+Dialogue: 0,0:10:12.38,0:10:13.40,Main,,0,0,0,,日和也戴上嘛
+Dialogue: 0,0:10:13.93,0:10:17.26,Main,,0,0,0,,多 多謝 但是你們有這份心就夠了
+Dialogue: 0,0:10:20.90,0:10:21.51,Main,,0,0,0,,嗯 正好
+Dialogue: 0,0:10:21.69,0:10:22.68,Main,,0,0,0,,很合適 很合適
+Dialogue: 0,0:10:23.74,0:10:25.50,Main,,0,0,0,,謝 謝謝
+Dialogue: 0,0:10:27.13,0:10:29.96,Main,,0,0,0,,要是不帶水豚的則是半價
+Dialogue: 0,0:10:30.20,0:10:32.11,Main,,0,0,0,,或者是半價以下啊
+Dialogue: 0,0:10:32.57,0:10:37.14,Main,,0,0,0,,大型的毛絨公仔為什麼能賣這麼貴
+Dialogue: 0,0:10:40.05,0:10:41.41,Main,,0,0,0,,來 惠比壽大人也戴上
+Dialogue: 0,0:10:41.80,0:10:43.72,Main,,0,0,0,,那我就此告辭了
+Dialogue: 0,0:10:44.67,0:10:46.04,Main,,0,0,0,,受你們照顧了
+Dialogue: 0,0:10:47.82,0:10:50.85,Main,,0,0,0,,別擔心 我會和同伴在那邊回合
+Dialogue: 0,0:10:52.11,0:10:53.14,Main,,0,0,0,,走了呀
+Dialogue: 0,0:10:53.58,0:10:54.62,Main,,0,0,0,,算了
+Dialogue: 0,0:10:55.07,0:10:57.49,Main,,0,0,0,,看那樣子 應該是見到認識的人了吧
+Dialogue: 0,0:10:57.93,0:10:59.65,Main,,0,0,0,,我們也去開心地玩吧
+Dialogue: 0,0:10:59.86,0:11:02.06,Main,,0,0,0,,喔 這個帶子好可愛啊
+Dialogue: 0,0:11:08.53,0:11:09.02,Main,,0,0,0,,好吃
+Dialogue: 0,0:11:09.19,0:11:10.48,Main,,0,0,0,,不愧是CAPyPer LAND
+Dialogue: 0,0:11:10.48,0:11:12.28,Main,,0,0,0,,什麼都好吃
+Dialogue: 0,0:11:12.28,0:11:14.47,Main,,0,0,0,,休想逃走
+Dialogue: 0,0:11:14.79,0:11:16.92,Main,,0,0,0,,小夜斗
+Dialogue: 0,0:11:19.17,0:11:20.20,Main,,0,0,0,,大黑
+Dialogue: 0,0:11:20.31,0:11:23.08,Main,,0,0,0,,小福 你在這裡幹什麼
+Dialogue: 0,0:11:23.51,0:11:26.87,Main,,0,0,0,,嘿嘿 一看到小夜斗那純粹的笑容
+Dialogue: 0,0:11:26.87,0:11:28.86,Main,,0,0,0,,我就忍不住想搗亂
+Dialogue: 0,0:11:29.12,0:11:31.19,Main,,0,0,0,,我就知道會這樣
+Dialogue: 0,0:11:31.80,0:11:33.29,Main,,0,0,0,,之前不是告訴過你了嗎
+Dialogue: 0,0:11:33.46,0:11:36.45,Main,,0,0,0,,要是在人多的地方造成災難就麻煩了吧
+Dialogue: 0,0:11:36.95,0:11:37.55,Main,,0,0,0,,回去吧
+Dialogue: 0,0:11:37.55,0:11:38.75,Main,,0,0,0,,不要啦
+Dialogue: 0,0:11:38.75,0:11:40.64,Main,,0,0,0,,人家才剛來
+Dialogue: 0,0:11:40.79,0:11:43.30,Main,,0,0,0,,要是在這種小孩玩的地方出狀況那還得了
+Dialogue: 0,0:11:43.61,0:11:45.43,Main,,0,0,0,,我一定會克制的
+Dialogue: 0,0:11:45.43,0:11:47.14,Main,,0,0,0,,你看 剛一說你就開始了
+Dialogue: 0,0:11:47.26,0:11:49.49,Main,,0,0,0,,人家不想回去嘛
+Dialogue: 0,0:11:49.49,0:11:50.98,Main,,0,0,0,,不行
+Dialogue: 0,0:11:50.98,0:11:51.70,Main,,0,0,0,,爸爸
+Dialogue: 0,0:11:59.21,0:12:01.00,Main,,0,0,0,,怎麼了 是迷路了嗎
+Dialogue: 0,0:12:17.36,0:12:18.28,Main,,0,0,0,,大黑
+Dialogue: 0,0:12:19.82,0:12:23.63,Main,,0,0,0,,一會兒就好了 我也想和大黑一起玩
+Dialogue: 0,0:12:24.55,0:12:27.32,Main,,0,0,0,,已經20年沒有像這樣兩個人約會了
+Dialogue: 0,0:12:27.62,0:12:30.13,Main,,0,0,0,,拜託了 偶爾玩一下也沒關係的嘛
+Dialogue: 0,0:12:35.68,0:12:37.10,Main,,0,0,0,,就一會兒喔
+Dialogue: 0,0:12:45.23,0:12:47.32,Main,,0,0,0,,夜斗 不要太亂來啊
+Dialogue: 0,0:12:47.66,0:12:49.38,Main,,0,0,0,,總覺得 有種不好的預感
+Dialogue: 0,0:12:57.12,0:13:05.89,Tip,,0,0,0,,修理中 請稍後
+Dialogue: 0,0:12:58.29,0:13:00.00,Main,,0,0,0,,驚險度爆表呢
+Dialogue: 0,0:13:00.22,0:13:03.53,Main,,0,0,0,,真 真是個玩法新穎的咖啡杯遊藝機呢
+Dialogue: 0,0:13:04.02,0:13:05.66,Main,,0,0,0,,快 快去下一個地方吧
+Dialogue: 0,0:13:07.21,0:13:09.08,Main,,0,0,0,,當中混著一條真的鯊魚啊
+Dialogue: 0,0:13:10.53,0:13:12.24,Main,,0,0,0,,真的飛起來了啊
+Dialogue: 0,0:13:12.57,0:13:15.03,Main,,0,0,0,,這 這裡是給小朋友遊玩的地方的說
+Dialogue: 0,0:13:15.27,0:13:16.46,Main,,0,0,0,,好涼呀
+Dialogue: 0,0:13:19.70,0:13:22.05,Main,,0,0,0,,速度簡直快得不科學
+Dialogue: 0,0:13:24.23,0:13:25.72,Main,,0,0,0,,失敗了啊
+Dialogue: 0,0:13:25.95,0:13:29.57,Main,,0,0,0,,欸 這張照片中後座的人怎麼有點眼熟
+Dialogue: 0,0:13:30.29,0:13:30.83,Main,,0,0,0,,嘛 隨便啦
+Dialogue: 0,0:13:34.67,0:13:37.06,Main,,0,0,0,,感覺對面的區域異常吵鬧呢
+Dialogue: 0,0:13:39.10,0:13:42.38,Main,,0,0,0,,比起那個 兆麻 這遊戲完全打不中呢
+Dialogue: 0,0:13:46.73,0:13:49.61,Main,,0,0,0,,早知道這樣 我就把刈巴數巴他們帶過來了
+Dialogue: 0,0:13:50.95,0:13:51.45,Main,,0,0,0,,給我試試吧
+Dialogue: 0,0:13:54.18,0:13:56.29,Main,,0,0,0,,很厲害嘛
+Dialogue: 0,0:13:59.80,0:14:02.36,Main,,0,0,0,,兆麻 你也來一口如何
+Dialogue: 0,0:14:11.02,0:14:12.85,Main,,0,0,0,,威娜 差不多該回去了
+Dialogue: 0,0:14:13.57,0:14:15.24,Main,,0,0,0,,還有些工作需要解決
+Dialogue: 0,0:14:16.89,0:14:18.85,Main,,0,0,0,,至少今天 你也好好享受一下吧
+Dialogue: 0,0:14:19.69,0:14:20.98,Main,,0,0,0,,頭飾和你很配呢
+Dialogue: 0,0:14:23.55,0:14:23.87,Main,,0,0,0,,威…
+Dialogue: 0,0:14:27.25,0:14:30.98,Main,,0,0,0,,從高天原來訪的痴女大人 痴女大人
+Dialogue: 0,0:14:31.47,0:14:33.98,Main,,0,0,0,,惠比壽君正在CAPyPer廣場等您
+Dialogue: 0,0:14:40.58,0:14:43.80,Main,,0,0,0,,痴女小姐 兆麻先生 你們果然也來了
+Dialogue: 0,0:14:44.08,0:14:46.49,Main,,0,0,0,,你 你不是和夜斗他們在一起嗎
+Dialogue: 0,0:14:46.82,0:14:50.07,Main,,0,0,0,,拜託了一下廣播員之後 幫我做了很多事呢
+Dialogue: 0,0:14:50.72,0:14:55.18,Main,,0,0,0,,這裡的工作人員都有很好地進行過培訓 不學習可不行
+Dialogue: 0,0:14:55.35,0:14:56.81,Main,,0,0,0,,滴下來了
+Dialogue: 0,0:14:58.38,0:15:01.70,Main,,0,0,0,,總之先回去吧 邦彌他也很擔心你
+Dialogue: 0,0:15:02.30,0:15:06.42,Tip,,0,0,0,,正在修理中 非常抱歉給您造成了麻煩
+Dialogue: 0,0:15:03.02,0:15:05.89,Main,,0,0,0,,設施都一起壞掉了 真是不走運
+Dialogue: 0,0:15:06.03,0:15:08.34,Main,,0,0,0,,還想再坐幾次呢
+Dialogue: 0,0:15:08.42,0:15:10.91,Main,,0,0,0,,哇 糟糕 馬上就要開始了
+Dialogue: 0,0:15:11.43,0:15:12.99,Main,,0,0,0,,什 什麼
+Dialogue: 0,0:15:12.99,0:15:14.17,Main,,0,0,0,,快點快點
+Dialogue: 0,0:15:14.44,0:15:18.71,Main,,0,0,0,,最後水豚會給我們施加很棒的微笑魔法呢
+Dialogue: 0,0:15:20.93,0:15:23.18,Main,,0,0,0,,花燈車遊行
+Dialogue: 0,0:15:29.95,0:15:32.64,Main,,0,0,0,,這裡是夢幻廣場東側 千秋支援
+Dialogue: 0,0:15:35.59,0:15:37.71,Main,,0,0,0,,等等日和 為什麼要逃走呀
+Dialogue: 0,0:15:37.92,0:15:39.40,Main,,0,0,0,,放開我
+Dialogue: 0,0:15:39.40,0:15:39.99,Main,,0,0,0,,修羅場
+Dialogue: 0,0:15:40.27,0:15:42.08,Main,,0,0,0,,爽快點分手不就好了嗎
+Dialogue: 0,0:15:42.08,0:15:45.15,Main,,0,0,0,,聽說那種男人很容易變成跟蹤狂呢
+Dialogue: 0,0:15:45.62,0:15:47.50,Main,,0,0,0,,各位 請後退
+Dialogue: 0,0:15:47.64,0:15:51.10,Main,,0,0,0,,唉 他這傢伙 總是在這種糟糕的時候特別顯眼
+Dialogue: 0,0:15:51.10,0:15:53.22,Main,,0,0,0,,雪音君 你快想想辦法
+Dialogue: 0,0:15:53.22,0:15:54.82,Main,,0,0,0,,雪音 幫把手 幫把手啊
+Dialogue: 0,0:15:54.82,0:15:56.10,Main,,0,0,0,,我還是潛水吧
+Dialogue: 0,0:15:56.61,0:16:01.00,Main,,0,0,0,,真是的 夜斗那傢伙又在引起莫名其妙的騷動
+Dialogue: 0,0:16:01.37,0:16:03.38,Main,,0,0,0,,感覺是不是去幫一下他會比較好
+Dialogue: 0,0:16:03.64,0:16:06.39,Main,,0,0,0,,別理他 今天難得這麼高興
+Dialogue: 0,0:16:06.58,0:16:08.41,Main,,0,0,0,,要是扯上他的話就全都泡湯了
+Dialogue: 0,0:16:09.02,0:16:11.76,Main,,0,0,0,,難得有機會看到遊行 為什麼不去看呢
+Dialogue: 0,0:16:12.00,0:16:13.29,Main,,0,0,0,,你一個人去看不就好了嗎
+Dialogue: 0,0:16:13.29,0:16:15.29,Main,,0,0,0,,和日和一起比較好嘛
+Dialogue: 0,0:16:15.48,0:16:17.33,Main,,0,0,0,,一個人好寂寞的
+Dialogue: 0,0:16:17.54,0:16:19.72,Main,,0,0,0,,別人會覺得  那個人好可憐啊
+Dialogue: 0,0:16:19.82,0:16:21.90,Main,,0,0,0,,會被社會性給殺掉的
+Dialogue: 0,0:16:22.12,0:16:24.59,Main,,0,0,0,,夜斗你和社會性一點關係都沒有吧
+Dialogue: 0,0:16:24.64,0:16:26.28,Main,,0,0,0,,啊 你剛才很隨意地說出了很過分的話啊
+Dialogue: 0,0:16:26.45,0:16:29.98,Main,,0,0,0,,只有遊行我不要看 拜託了快放手
+Dialogue: 0,0:16:29.98,0:16:34.76,Main,,0,0,0,,不要啊啊啊 我要一起看啊啊啊
+Dialogue: 0,0:16:52.17,0:16:53.57,Main,,0,0,0,,你看 很漂亮吧
+Dialogue: 0,0:16:53.97,0:16:57.09,Main,,0,0,0,,我就想要和日和一起看這個...
+Dialogue: 0,0:17:12.16,0:17:13.21,Main,,0,0,0,,又搞砸了
+Dialogue: 0,0:17:15.89,0:17:18.22,Main,,0,0,0,,為什麼我會一個人高興得不得了呢
+Dialogue: 0,0:17:19.80,0:17:23.21,Main,,0,0,0,,和你在一起的時候 不知不覺就太放縱了 真是太差勁了
+Dialogue: 0,0:17:27.08,0:17:28.17,Main,,0,0,0,,回家吧
+Dialogue: 0,0:17:31.36,0:17:34.84,Main,,0,0,0,,說起來 你從一開始就不是很開心的樣子呢
+Dialogue: 0,0:17:35.51,0:17:37.97,Main,,0,0,0,,抱歉呢 硬拉著你陪我
+Dialogue: 0,0:17:41.11,0:17:43.59,Main,,0,0,0,,我真是個被社會淘汰的人呢
+Dialogue: 0,0:17:48.33,0:17:49.08,Main,,0,0,0,,我
+Dialogue: 0,0:17:50.30,0:17:53.13,Main,,0,0,0,,我其實也想和夜斗一起來的
+Dialogue: 0,0:17:53.92,0:17:58.75,Main,,0,0,0,,抱歉說了任性的話 可是 那個
+Dialogue: 0,0:17:59.90,0:18:01.90,Main,,0,0,0,,請 請再
+Dialogue: 0,0:18:07.22,0:18:08.66,Main,,0,0,0,,請再陪我一起待一會
+Dialogue: 0,0:18:16.77,0:18:18.95,Main,,0,0,0,,你說的話和剛才完全反過來了
+Dialogue: 0,0:18:21.98,0:18:24.50,Main,,0,0,0,,雖說 你說了讓我很高興的話
+Dialogue: 0,0:18:27.21,0:18:30.84,Main,,0,0,0,,那些話語 我可以相信到什麼程度
+Dialogue: 0,0:18:49.28,0:18:51.19,Main,,0,0,0,,放開手可不行呀
+Dialogue: 0,0:18:53.31,0:18:54.56,Main,,0,0,0,,他是在看煙火呢
+Dialogue: 0,0:18:55.96,0:18:57.44,Main,,0,0,0,,拍到好照片了嗎
+Dialogue: 0,0:18:59.03,0:18:59.70,Main,,0,0,0,,是的
+Dialogue: 0,0:19:08.96,0:19:11.71,Main,,0,0,0,,真漂亮呢 大黑
+Dialogue: 0,0:19:12.36,0:19:17.91,Main,,0,0,0,,是呢 已經多少年沒有在這麼近的地方看煙火了
+Dialogue: 0,0:19:21.93,0:19:23.07,Main,,0,0,0,,蟑 蟑螂
+Dialogue: 0,0:19:23.26,0:19:23.89,Main,,0,0,0,,黑器
+Dialogue: 0,0:19:25.43,0:19:25.81,Main,,0,0,0,,等…
+Dialogue: 0,0:19:31.81,0:19:32.99,Main,,0,0,0,,討厭 糟糕了
+Dialogue: 0,0:19:32.99,0:19:35.72,Main,,0,0,0,,不小心打開風穴了
+Dialogue: 0,0:19:41.61,0:19:43.18,Main,,0,0,0,,欸 冰山
+Dialogue: 0,0:19:43.37,0:19:45.80,Main,,0,0,0,,好厲害 這也是表演的一部分嗎
+Dialogue: 0,0:19:48.46,0:19:49.44,Main,,0,0,0,,水豚他們
+Dialogue: 0,0:19:50.01,0:19:51.93,Main,,0,0,0,,不能看啊
+Dialogue: 0,0:20:10.27,0:20:14.55,Main,,0,0,0,,水豚裡竟然是個大叔
+Dialogue: 0,0:20:15.43,0:20:18.95,Main,,0,0,0,,哈哈 這樣一來小夜斗也終於成為大人了呢
+Dialogue: 0,0:20:19.89,0:20:23.09,Main,,0,0,0,,你們倆 今天為什麼對我這麼溫柔啊
+Dialogue: 0,0:20:24.30,0:20:26.99,Main,,0,0,0,,別管這麼多了 喝酒喝酒 多喝點
+Dialogue: 0,0:20:27.22,0:20:28.78,Main,,0,0,0,,為什麼買了這麼多
+Dialogue: 0,0:20:32.34,0:20:33.95,Main,,0,0,0,,夜斗君 夜斗君
+Dialogue: 0,0:20:36.40,0:20:38.25,Main,,0,0,0,,你討厭我了嗎
+Dialogue: 0,0:20:38.55,0:20:39.58,Main,,0,0,0,,最討厭了
+Dialogue: 0,0:20:39.78,0:20:42.74,Main,,0,0,0,,被你這麼說 好傷心呢
+Dialogue: 0,0:20:43.39,0:20:46.58,Main,,0,0,0,,今天的那個 是試膽大會的一環呢
+Dialogue: 0,0:20:47.25,0:20:48.24,Main,,0,0,0,,試膽大會
+Dialogue: 0,0:20:48.91,0:20:50.65,Main,,0,0,0,,是的 很可怕吧
+Dialogue: 0,0:20:51.19,0:20:53.57,Main,,0,0,0,,那個是穿著我的皮的幽靈
+Dialogue: 0,0:20:54.07,0:20:57.08,Main,,0,0,0,,所以 下次放心再來我的王國玩吧
+Dialogue: 0,0:20:57.87,0:21:00.70,Main,,0,0,0,,水豚無論何時都一直是你的朋友
+Dialogue: 0,0:21:18.83,0:21:21.43,Main,,0,0,0,,日和 說那種話的話
+Dialogue: 0,0:21:21.62,0:21:23.95,Main,,0,0,0,,以後就得繼續和他那奇怪的幻想打交道了
+Dialogue: 0,0:21:24.33,0:21:26.45,Main,,0,0,0,,夢還是不要打碎比較好吧
+Dialogue: 0,0:21:27.15,0:21:30.13,Main,,0,0,0,,難得的美好回憶 我不想浪費了呀
+Dialogue: 0,0:21:31.65,0:21:33.45,Main,,0,0,0,,因為真的 很高興呢
+Dialogue: 0,0:21:38.60,0:21:42.00,Main,,0,0,0,,對了 這是剛才邦彌先生送過來的
+Dialogue: 0,0:21:43.29,0:21:44.38,Main,,0,0,0,,說是惠比壽大人給的
+Dialogue: 0,0:21:45.52,0:21:47.69,Tip,,0,0,0,,今天謝謝你們了 惠比壽
+Dialogue: 0,0:21:51.48,0:21:53.23,Main,,0,0,0,,還想再一起去一次呢
+Dialogue: 0,0:21:57.39,0:22:00.81,Main,,0,0,0,,惠 惠比壽大人 為什麼會拍了這種照片
+Dialogue: 0,0:22:10.02,0:22:12.19,Main,,0,0,0,,今天學到了很多東西呢
+Dialogue: 0,0:22:12.79,0:22:17.96,Main,,0,0,0,,為了讓日本的GDP成為世界第一 還要繼續加油
+Dialogue: 0,0:22:23.15,0:22:24.25,Main,,0,0,0,,晚安
+Dialogue: 0,0:22:25.44,0:22:32.10,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}巡迴往復的四季中 有我們的呼吸
+Dialogue: 0,0:22:32.38,0:22:38.72,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}直到一切成為回憶 請你不要忘記
+Dialogue: 0,0:22:52.24,0:22:55.75,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}孤獨一人 抱膝長坐
+Dialogue: 0,0:22:55.81,0:22:58.81,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}在那天 我仰首遙望
+Dialogue: 0,0:22:59.04,0:23:04.90,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}萬里無雲的天空下 佇立著孤身一人的你
+Dialogue: 0,0:23:05.01,0:23:08.96,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}所見之物永遠銘刻於心
+Dialogue: 0,0:23:09.15,0:23:12.30,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}只為人世間無常的別離
+Dialogue: 0,0:23:12.50,0:23:15.66,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}然而我卻佯裝不知
+Dialogue: 0,0:23:15.74,0:23:21.35,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}滿臉笑意 面對現在的你
+Dialogue: 0,0:23:23.28,0:23:30.50,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}悲傷 歡喜 心臟的律動
+Dialogue: 0,0:23:30.67,0:23:36.64,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}永不停息 支撐著我的生命
+Dialogue: 0,0:23:36.64,0:23:43.58,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}思緒 感情 真摯的愛意
+Dialogue: 0,0:23:44.10,0:23:47.32,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}有你的奉獻
+Dialogue: 0,0:23:47.34,0:23:52.64,EDCN,,0,0,0,,{\fad(50,200)\blur5\clip(200,5,1100,23)\t(50,100,\clip(200,5,1100,31))\t(100,150,\clip(200,5,1100,39))\t(150,200,\clip(200,5,1100,47))\t(200,250,\clip(200,5,1100,55))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}我將繼續前行 你可都看在眼裡？
+Dialogue: 0,0:22:25.44,0:22:32.10,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}やがて巡り巡る季節に　僕らは息をする
+Dialogue: 0,0:22:32.38,0:22:38.72,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}思い出になるその時までずっと忘れないで
+Dialogue: 0,0:22:52.24,0:22:55.75,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}一人ぼっち　膝を抱えて
+Dialogue: 0,0:22:55.81,0:22:58.81,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}見上げたんだ　あの日
+Dialogue: 0,0:22:59.04,0:23:04.90,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}思ってたより晴れた空とあなたがそこにいた
+Dialogue: 0,0:23:05.01,0:23:08.96,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}見えてるもの全て胸に焼き付けたんだ
+Dialogue: 0,0:23:09.15,0:23:12.30,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}いつか来るさよならの時のため
+Dialogue: 0,0:23:12.50,0:23:15.66,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}だけど今は気づかぬふりをして
+Dialogue: 0,0:23:15.74,0:23:21.35,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}僕は笑う　あなたと今
+Dialogue: 0,0:23:23.28,0:23:30.50,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}悲しみ　喜び　心臓の鼓動を
+Dialogue: 0,0:23:30.67,0:23:36.64,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}伝えて動かすんだ　僕という命
+Dialogue: 0,0:23:36.64,0:23:43.58,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\bord0\blur0.667)}想いや感情　掛け値なしの愛を
+Dialogue: 0,0:23:44.10,0:23:47.32,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}あなたがくれたから
+Dialogue: 0,0:23:47.34,0:23:52.64,EDJP,,0,0,0,,{\fad(50,200)\blur5\clip(200,700,1100,715)\t(50,100,\clip(200,687,1100,715))\t(100,150,\clip(200,675,1100,715))\t(150,200,\clip(200,662,1100,715))\t(200,250,\clip(200,650,1100,715))\t(250,300,\1c&H7909C1&\3c&HFFFFFF&)}進むよ　見ててくれる？

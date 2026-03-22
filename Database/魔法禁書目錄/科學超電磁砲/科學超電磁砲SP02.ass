@@ -1,0 +1,223 @@
+﻿[Script Info]
+Title: 
+Original Script: 
+ScriptType: v4.00+
+PlayResX: 848
+PlayResY: 480
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,33,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,2,30,30,10,1
+Style: Default2,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,2,30,30,10,1
+Style: Default3,方正准圆_GBK,30,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,8,30,30,8,1
+Style: title,DFNMingXBold-B5,25,&H00FFFFFF,&HF0000000,&H00FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,8,30,30,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.95,0:00:05.92,*Default,NTP,0,0,0,,更加完整的超電磁砲{\fnArial}Ⅱ
+Dialogue: 0,0:00:16.54,0:00:18.31,*Default,NTP,0,0,0,,錢啊
+Dialogue: 0,0:00:19.60,0:00:23.28,*Default,NTP,0,0,0,,地獄耳的超強破壞威力
+Dialogue: 2,0:00:23.27,0:00:25.24,*Default,NTP,0,0,0,,{\an1}就是這個！
+Dialogue: 0,0:00:23.44,0:00:25.70,*Default,NTP,0,0,0,,第一課 結束
+Dialogue: 0,0:00:31.27,0:00:34.80,*Default,NTP,0,0,0,,教教我們吧！ 電磁砲！
+Dialogue: 0,0:00:35.38,0:00:39.58,*Default,NTP,0,0,0,,是是 有什麼問題都會教你們哦
+Dialogue: 0,0:00:40.01,0:00:40.88,*Default,NTP,0,0,0,,舉手
+Dialogue: 0,0:00:40.98,0:00:45.35,*Default,NTP,0,0,0,,幻想御手事件中出現的 「聯覺性」是什麼
+Dialogue: 0,0:00:45.41,0:00:47.44,*Default,NTP,0,0,0,,問得好
+Dialogue: 0,0:00:47.54,0:00:49.10,*Default,NTP,0,0,0,,所謂的聯覺性
+Dialogue: 0,0:00:49.10,0:00:52.42,*Default,NTP,0,0,0,,就是透過一種刺激 而得到複數種感覺
+Dialogue: 0,0:00:52.46,0:00:53.39,*Default,NTP,0,0,0,,舉例來說 就是這樣
+Dialogue: 0,0:00:54.07,0:00:58.00,*Default,NTP,0,0,0,,{\an9\fs30\fad(300,0)}好痛
+Dialogue: 0,0:00:55.65,0:00:58.00,*Default,NTP,0,0,0,,{\an9\fs30\fad(0,0)}好爽
+Dialogue: 0,0:00:57.12,0:00:58.10,*Default,NTP,0,0,0,,其他例子還有
+Dialogue: 0,0:00:58.01,0:01:02.00,*Default,NTP,0,0,0,,{\an8\fs30\fad(0,0)}討厭
+Dialogue: 0,0:00:58.85,0:01:02.00,*Default,NTP,0,0,0,,{\an7\fs30\fad(200,0)}喜歡
+Dialogue: 0,0:01:00.35,0:01:02.00,*Default,NTP,0,0,0,,{\an9\fs30\fad(200,0)}愛
+Dialogue: 0,0:01:02.55,0:01:07.74,*Default,NTP,0,0,0,,就像這樣 一句話中 也包含有幾種意思
+Dialogue: 0,0:01:07.87,0:01:10.75,*Default,NTP,0,0,0,,往往人不會說出自己的真心話
+Dialogue: 0,0:01:10.98,0:01:13.92,*Default,NTP,0,0,0,,嘛 從我的人生觀層面上來說
+Dialogue: 0,0:01:13.92,0:01:15.29,*Default,NTP,0,0,0,,她對我說「討厭」的時候
+Dialogue: 0,0:01:15.30,0:01:17.77,*Default,NTP,0,0,0,,意思就是「非常非常OK」
+Dialogue: 0,0:01:16.90,0:01:17.84,*Default,NTP,0,0,0,,黑子
+Dialogue: 0,0:01:18.54,0:01:22.20,*Default,NTP,0,0,0,,難怪用日語跟你溝通不了
+Dialogue: 0,0:01:23.02,0:01:25.15,*Default,NTP,0,0,0,,而且你說的完全是錯的
+Dialogue: 0,0:01:25.29,0:01:26.64,*Default,NTP,0,0,0,,Why{\fsp-5}?!
+Dialogue: 0,0:01:27.33,0:01:28.66,*Default,NTP,0,0,0,,錯了嗎
+Dialogue: 0,0:01:49.56,0:01:50.75,*Default,NTP,0,0,0,,你們啊...
+Dialogue: 0,0:01:55.13,0:01:58.59,*Default,NTP,0,0,0,,啊 從今天起 我就是你們的班導師
+Dialogue: 0,0:01:58.83,0:02:00.15,*Default,NTP,0,0,0,,叫木山春生
+Dialogue: 0,0:02:00.77,0:02:01.73,*Default,NTP,0,0,0,,請多關照
+Dialogue: 0,0:02:04.07,0:02:06.33,*Default,NTP,0,0,0,,我討厭小孩子
+Dialogue: 0,0:02:06.96,0:02:09.52,*Default,NTP,0,0,0,,又不懂禮貌 又情緒化
+Dialogue: 0,0:02:09.96,0:02:11.63,*Default,NTP,0,0,0,,還吵著要沒有的東西
+Dialogue: 0,0:02:12.06,0:02:14.50,*Default,NTP,0,0,0,,還老指摘別人戴假牙 假髮的
+Dialogue: 0,0:02:15.01,0:02:17.42,*Default,NTP,0,0,0,,還喜歡吃漢堡和咖哩
+Dialogue: 0,0:02:17.89,0:02:20.30,*Default,NTP,0,0,0,,更把我當飛機場
+Dialogue: 0,0:02:20.87,0:02:23.07,*Default,NTP,0,0,0,,木山老師～
+Dialogue: 0,0:02:24.96,0:02:27.67,*Default,NTP,0,0,0,,我討厭小孩子～
+Dialogue: 0,0:02:37.50,0:02:39.48,*Default,NTP,0,0,0,,那是什麼...
+Dialogue: 0,0:02:41.84,0:02:43.65,*Default,NTP,0,0,0,,那個嘛...
+Dialogue: 0,0:02:44.27,0:02:45.63,*Default,NTP,0,0,0,,停！ 我懂了我懂了
+Dialogue: 0,0:02:45.67,0:02:49.30,*Default,NTP,0,0,0,,不用全說出來 我理解 我理解的
+Dialogue: 0,0:02:50.39,0:02:51.56,*Default,NTP,0,0,0,,我當然能理解
+Dialogue: 0,0:02:51.83,0:02:54.63,*Default,NTP,0,0,0,,不 不 我什麼都...
+Dialogue: 0,0:02:54.72,0:02:58.12,*Default,NTP,0,0,0,,沒問題！ 別以為我還小就不知道啊
+Dialogue: 0,0:02:58.22,0:02:59.98,*Default,NTP,0,0,0,,啊不 那個...
+Dialogue: 0,0:03:00.07,0:03:02.06,*Default,NTP,0,0,0,,我...我知道的
+Dialogue: 0,0:03:02.10,0:03:04.96,*Default,NTP,0,0,0,,沒人會喜歡那樣的啦
+Dialogue: 0,0:03:05.00,0:03:07.16,*Default,NTP,0,0,0,,就像「過了夜再走 過了夜再走」啊
+Dialogue: 0,0:03:07.28,0:03:11.41,*Default,NTP,0,0,0,,「那時爸爸他…」之類的事呢 嗯嗯
+Dialogue: 0,0:03:13.49,0:03:14.52,*Default,NTP,0,0,0,,得驅邪了
+Dialogue: 0,0:03:15.07,0:03:17.96,*Default,NTP,0,0,0,,就說你搞錯啦！
+Dialogue: 0,0:03:18.01,0:03:19.68,*Default,NTP,0,0,0,,我知道個好地方哦
+Dialogue: 0,0:00:00.00,0:00:00.00,*Default,NTP,0,0,0,,
+Dialogue: 0,0:03:20.48,0:03:23.73,*Default,NTP,0,0,0,,不過 脫衣女的傳說還有後續
+Dialogue: 0,0:03:23.76,0:03:24.70,*Default,NTP,0,0,0,,嗯嗯
+Dialogue: 0,0:03:24.91,0:03:26.98,*Default,NTP,0,0,0,,脫衣女一喝酒
+Dialogue: 0,0:03:27.29,0:03:29.64,*Default,NTP,0,0,0,,好像會進化成竹皮屐婆婆
+Dialogue: 0,0:03:29.69,0:03:30.85,*Default,NTP,0,0,0,,進化？
+Dialogue: 0,0:03:31.59,0:03:32.57,*Default,NTP,0,0,0,,嗯嗯
+Dialogue: 0,0:03:32.77,0:03:35.68,*Default,NTP,0,0,0,,進化後的脫衣女 變成竹皮屐婆婆
+Dialogue: 0,0:03:35.73,0:03:37.42,*Default,NTP,0,0,0,,白天會在城裡橫行
+Dialogue: 0,0:03:37.56,0:03:39.39,*Default,NTP,0,0,0,,全身赤裸 腳穿竹皮屐
+Dialogue: 0,0:03:39.70,0:03:41.31,*Default,NTP,0,0,0,,是進化的痕跡
+Dialogue: 0,0:03:41.44,0:03:42.92,*Default,NTP,0,0,0,,而且場所是高圓寺
+Dialogue: 0,0:03:42.93,0:03:44.86,*Default,NTP,0,0,0,,哎喲媽呀
+Dialogue: 0,0:03:45.18,0:03:47.34,*Default,NTP,0,0,0,,不過 聽說她一感覺到人的氣息
+Dialogue: 0,0:03:47.45,0:03:50.27,*Default,NTP,0,0,0,,就會恢復自我 然後回自己家
+Dialogue: 0,0:03:50.46,0:03:51.57,*Default,NTP,0,0,0,,那是什麼啊
+Dialogue: 0,0:03:52.13,0:03:54.41,*Default,NTP,0,0,0,,這發展真叫人失望啊
+Dialogue: 0,0:03:54.44,0:03:58.32,*Default,NTP,0,0,0,,是我的話 感覺到他人的視線 肯定會越來越high才對
+Dialogue: 0,0:03:58.33,0:03:59.56,*Default,NTP,0,0,0,,真沒意思
+Dialogue: 0,0:04:00.35,0:04:04.71,*Default,NTP,0,0,0,,就跟黃老鼠長大後就不可愛一樣呢
+Dialogue: 0,0:04:04.73,0:04:05.83,*Default,NTP,0,0,0,,抓到啦
+Dialogue: 0,0:04:05.85,0:04:06.46,*Default,NTP,0,0,0,,〇卡
+Dialogue: 0,0:04:06.46,0:04:09.69,*Default,NTP,0,0,0,,「金銀珠寶當禮物」哦～
+Dialogue: 0,0:04:19.14,0:04:21.28,*Default,NTP,0,0,0,,鱸魚 又是你啊
+Dialogue: 0,0:04:27.88,0:04:30.20,*Default,NTP,0,0,0,,章魚 這可有保證了
+Dialogue: 0,0:04:36.43,0:04:38.49,*Default,NTP,0,0,0,,鯛魚 值得祝賀 說出來了
+Dialogue: 0,0:04:45.00,0:04:47.68,*Default,NTP,0,0,0,,石鯛 荒磯之王者
+Dialogue: 0,0:04:53.73,0:04:56.00,*Default,NTP,0,0,0,,鮪魚 兩晚連續放
+Dialogue: 0,0:04:56.29,0:04:58.15,*Default,NTP,0,0,0,,Yes～Yes！Oh～
+Dialogue: 0,0:05:12.50,0:05:14.92,*Default,NTP,0,0,0,,牛奶果然是武藏野牌好喝
+Dialogue: 0,0:05:15.10,0:05:16.14,*Default,NTP,0,0,0,,就是
+Dialogue: 0,0:05:16.23,0:05:17.01,*Default,NTP,0,0,0,,沒錯
+Dialogue: 0,0:05:18.25,0:05:18.98,*Default,NTP,0,0,0,,對
+Dialogue: 0,0:05:21.16,0:05:23.87,*Default,NTP,0,0,0,,喝喝牛奶 就萬事解決
+Dialogue: 0,0:05:23.94,0:05:25.33,*Default,NTP,0,0,0,,升Cup～
+Dialogue: 0,0:05:28.24,0:05:30.97,*Default,NTP,0,0,0,,不知會不會出痱子呢
+Dialogue: 0,0:05:31.18,0:05:32.26,*Default,NTP,0,0,0,,當然會！
+Dialogue: 0,0:05:32.58,0:05:33.22,*Default,NTP,0,0,0,,對吧
+Dialogue: 0,0:05:37.57,0:05:41.19,*Default,NTP,0,0,0,,我看看 寒天果凍
+Dialogue: 0,0:05:41.29,0:05:45.27,*Default,NTP,0,0,0,,遊戲主機 搖桿
+Dialogue: 0,0:05:45.73,0:05:48.66,*Default,NTP,0,0,0,,錄影帶 還有漫畫
+Dialogue: 0,0:05:49.05,0:05:51.09,*Default,NTP,0,0,0,,剩下的就是....哦
+Dialogue: 0,0:05:51.59,0:05:53.86,*Default,NTP,0,0,0,,內衣內衣
+Dialogue: 0,0:06:02.31,0:06:04.48,*Default,NTP,0,0,0,,同樣是牆壁 但這是謎之壁
+Dialogue: 0,0:06:04.96,0:06:07.66,*Default,NTP,0,0,0,,以前很流行呢 這一類型的
+Dialogue: 0,0:06:09.66,0:06:10.82,*Default,NTP,0,0,0,,我說 黑子
+Dialogue: 0,0:06:10.89,0:06:12.88,*Default,NTP,0,0,0,,什麼事 姐姐大人
+Dialogue: 0,0:06:13.21,0:06:14.88,*Default,NTP,0,0,0,,這學園都市啊
+Dialogue: 0,0:06:14.99,0:06:17.40,*Default,NTP,0,0,0,,周圍不是都有圍牆嗎
+Dialogue: 0,0:06:17.55,0:06:19.77,*Default,NTP,0,0,0,,又不能自由出入
+Dialogue: 0,0:06:20.04,0:06:22.32,*Default,NTP,0,0,0,,某種意義上來說 是閉鎖空間
+Dialogue: 0,0:06:22.42,0:06:24.18,*Default,NTP,0,0,0,,這又怎樣
+Dialogue: 0,0:06:24.38,0:06:26.43,*Default,NTP,0,0,0,,我知道了
+Dialogue: 0,0:06:26.82,0:06:28.80,*Default,NTP,0,0,0,,住在這都市的人
+Dialogue: 0,0:06:28.87,0:06:32.92,*Default,NTP,0,0,0,,只是被移植了自己住在未來都市的記憶
+Dialogue: 0,0:06:33.05,0:06:35.42,*Default,NTP,0,0,0,,但其實根本不是什麼未來
+Dialogue: 0,0:06:35.80,0:06:37.33,*Default,NTP,0,0,0,,其實是在21世紀
+Dialogue: 0,0:06:37.37,0:06:41.28,*Default,NTP,0,0,0,,我們的生活 正透過電視向外面的觀眾播出
+Dialogue: 0,0:06:41.37,0:06:43.66,*Default,NTP,0,0,0,,有人還看得很爽
+Dialogue: 0,0:06:43.70,0:06:46.02,*Default,NTP,0,0,0,,把這當作一大娛樂了呢
+Dialogue: 0,0:06:46.03,0:06:48.73,*Default,NTP,0,0,0,,什麼{\fsp-5}?!
+Dialogue: 0,0:06:48.90,0:06:52.19,*Default,NTP,0,0,0,,又來了 怎麼突然間說這個啊
+Dialogue: 0,0:06:52.45,0:06:56.54,*Default,NTP,0,0,0,,是是 我發現了網路上的帖子了
+Dialogue: 0,0:06:56.63,0:06:59.26,*Default,NTP,0,0,0,,應該說 是我發的帖
+Dialogue: 0,0:06:59.33,0:07:01.14,*Default,NTP,0,0,0,,厲害 初春
+Dialogue: 0,0:07:01.15,0:07:02.78,*Default,NTP,0,0,0,,有好好穿內褲嗎
+Dialogue: 0,0:07:02.80,0:07:03.88,*Default,NTP,0,0,0,,有穿啊
+Dialogue: 0,0:07:03.94,0:07:05.17,*Default,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:07:05.24,0:07:06.67,*Default,NTP,0,0,0,,當然
+Dialogue: 0,0:07:06.77,0:07:12.30,*Default,NTP,0,0,0,,請不要用沒有可信性的消息來迷惑姐姐大人
+Dialogue: 0,0:07:12.39,0:07:16.24,*Default,NTP,0,0,0,,再說 網路上的訊息 大部分都是假的啊
+Dialogue: 0,0:07:16.24,0:07:18.72,*Default,NTP,0,0,0,,那只不過是一個契機
+Dialogue: 0,0:07:18.84,0:07:21.09,*Default,NTP,0,0,0,,然後我察覺到了
+Dialogue: 0,0:07:21.50,0:07:24.04,*Default,NTP,0,0,0,,這都市老是發生怪事
+Dialogue: 0,0:07:24.12,0:07:25.77,*Default,NTP,0,0,0,,你想想 竟然有二千日元的紙幣
+Dialogue: 0,0:07:25.77,0:07:27.01,*Default,NTP,0,0,0,,竟然還在流通
+Dialogue: 0,0:07:27.33,0:07:29.78,*Default,NTP,0,0,0,,我還在外面生活那時都沒有的
+Dialogue: 0,0:07:29.79,0:07:30.65,*Default,NTP,0,0,0,,已經消失了
+Dialogue: 0,0:07:30.70,0:07:33.84,*Default,NTP,0,0,0,,那種東西竟然只存在於這裡 不覺得奇怪嗎
+Dialogue: 0,0:07:33.87,0:07:35.67,*Default,NTP,0,0,0,,再說 現金竟然會流通？
+Dialogue: 0,0:07:35.67,0:07:36.74,*Default,NTP,0,0,0,,現金啊 Cash啊
+Dialogue: 0,0:07:36.89,0:07:40.31,*Default,NTP,0,0,0,,外面的世界 我根本就沒有用過那個的記憶
+Dialogue: 0,0:07:40.60,0:07:44.04,*Default,NTP,0,0,0,,難道是跟外面不一樣的貨幣嗎
+Dialogue: 0,0:07:44.69,0:07:46.93,*Default,NTP,0,0,0,,外面用的是貝利卡 貝利卡
+Dialogue: 0,0:07:46.97,0:07:48.06,*Default,NTP,0,0,0,,貝利卡啊？
+Dialogue: 0,0:07:48.07,0:07:51.07,*Default,NTP,0,0,0,,對啊 貝利卡 不是日元
+Dialogue: 0,0:07:51.17,0:07:53.26,*Default,NTP,0,0,0,,網路上都有寫哦
+Dialogue: 0,0:07:53.26,0:07:55.34,*Default,NTP,0,0,0,,不 應該說都在用呢
+Dialogue: 0,0:07:55.34,0:07:56.31,*Default,NTP,0,0,0,,真的假的
+Dialogue: 0,0:07:56.31,0:08:00.20,*Default,NTP,0,0,0,,果然果然果然是那樣 就是那樣那樣那樣那樣
+Dialogue: 0,0:08:00.22,0:08:02.48,*Default,NTP,0,0,0,,那 就必須用猜拳分勝負了呢
+Dialogue: 0,0:08:02.48,0:08:03.99,*Default,NTP,0,0,0,,要過橋了 鋼筋做的橋
+Dialogue: 0,0:08:04.09,0:08:04.84,*Default,NTP,0,0,0,,出問題囉
+Dialogue: 0,0:08:04.85,0:08:05.61,*Default,NTP,0,0,0,,我接受
+Dialogue: 0,0:08:09.80,0:08:12.22,*Default,NTP,0,0,0,,唉 姐姐大人
+Dialogue: 0,0:08:12.51,0:08:14.16,*Default,NTP,0,0,0,,什麼嘛 黑子
+Dialogue: 0,0:08:14.24,0:08:16.59,*Default,NTP,0,0,0,,這麼多證據堆在你面前了
+Dialogue: 0,0:08:16.60,0:08:17.79,*Default,NTP,0,0,0,,你還想說不是嗎
+Dialogue: 0,0:08:17.89,0:08:19.38,*Default,NTP,0,0,0,,哦 是Glay吧
+Dialogue: 0,0:08:19.39,0:08:21.62,*Default,NTP,0,0,0,,Glay在這裡也超活躍嗎
+Dialogue: 0,0:08:21.68,0:08:22.93,*Default,NTP,0,0,0,,太猛了！
+Dialogue: 0,0:08:22.93,0:08:24.59,*Default,NTP,0,0,0,,又來灰色了
+Dialogue: 0,0:08:24.59,0:08:27.14,*Default,NTP,0,0,0,,笨蛋 錯啦 是歌手啦 歌手
+Dialogue: 0,0:08:27.19,0:08:30.75,*Default,NTP,0,0,0,,真是的 請適可而止吧
+Dialogue: 0,0:08:30.89,0:08:34.26,*Default,NTP,0,0,0,,姐姐大人 這裡是學園都市啊
+Dialogue: 0,0:08:37.49,0:08:40.50,*Default,NTP,0,0,0,,對啊 這裡是學園都市呢 學園都市
+Dialogue: 0,0:08:40.63,0:08:43.23,*Default,NTP,0,0,0,,Bravo 學園都市！
+Dialogue: 0,0:08:43.27,0:08:44.99,*Default,NTP,0,0,0,,ha ha ha
+Dialogue: 0,0:08:45.21,0:08:49.29,*Default,NTP,0,0,0,,對啊 這裡是我們的歸宿·學園都市啊
+Dialogue: 0,0:08:49.30,0:08:50.50,*Default,NTP,0,0,0,,歸宿啊～
+Dialogue: 0,0:08:50.52,0:08:53.07,*Default,NTP,0,0,0,,才怪 學園都市才不是呢
+Dialogue: 0,0:08:54.30,0:08:55.96,*Default,NTP,0,0,0,,這裡是學園都市
+Dialogue: 0,0:08:56.59,0:08:59.28,*Default,NTP,0,0,0,,居住著各式各樣的能力者的都市
+Dialogue: 0,0:09:00.06,0:09:04.62,*Default,NTP,0,0,0,,無論發生什麼事 也不足為奇
+Dialogue: 0,0:09:00.96,0:09:04.90,*Default,NTP,0,0,0,,{\fnsimhei\fad(1400,0)\shad0\1c&H000000&\3c&Hffffff&\fs25\pos(684,358)}待續？
+Dialogue: 0,0:09:28.60,0:09:31.60,*Default,NTP,0,0,0,,「要珍惜用電」環節 因特典的長度限制Cut掉了
+Dialogue: 0,0:04:04.73,0:04:05.83,*Default2,NTP,0,0,0,,<ゲットだぜ>: 精靈寶可夢名台詞
+Dialogue: 0,0:04:06.46,0:04:09.69,*Default2,NTP,0,0,0,,某品牌洗衣粉1966年的活動 在洗衣粉盒子裡放金或銀或珍珠等寶飾吊墜
+Dialogue: 0,0:00:23.44,0:00:25.70,*Default3,NTP,0,0,0,,幻魔大戰某人的台詞 CV是原田知世
+Dialogue: 0,0:04:00.35,0:04:04.71,*Default3,NTP,0,0,0,,指皮卡丘進化成雷丘
+Dialogue: 0,0:04:27.88,0:04:30.20,*Default3,NTP,0,0,0,,冷笑話 重點是把章魚的墨 連到お墨付き的墨上去
+Dialogue: 0,0:04:36.43,0:04:38.49,*Default3,NTP,0,0,0,,{\fs27}同樣冷笑話 鯛<タイ>めでたい　而且發音來說めでたい也是一種鯛魚 目出鯛
+Dialogue: 0,0:04:53.73,0:04:56.00,*Default3,NTP,0,0,0,,{\fs27}2007年的新春特別電視劇 播放前的告知廣告就有這一句 影響很大 於是有這個neta
+Dialogue: 0,0:05:28.24,0:05:30.97,*Default3,NTP,0,0,0,,指升Cup了以後 夏天由於出汗在咪咪下方長的痱子
+Dialogue: 0,0:05:37.57,0:05:41.19,*Default3,NTP,0,0,0,,用寒天粉加水加糖再加其他一些材料冰鎮後的果凍
+Dialogue: 0,0:07:06.76,0:07:08.04,*Default3,NTP,0,0,0,,真的嗎
+Dialogue: 0,0:07:08.03,0:07:09.29,*Default3,NTP,0,0,0,,當然
+Dialogue: 0,0:07:09.33,0:07:10.65,*Default3,NTP,0,0,0,,真的嗎～
+Dialogue: 0,0:07:10.68,0:07:12.01,*Default3,NTP,0,0,0,,真金都沒這麼真
+Dialogue: 0,0:07:12.12,0:07:13.05,*Default3,NTP,0,0,0,,是嗎
+Dialogue: 0,0:07:44.69,0:07:46.93,*Default3,NTP,0,0,0,,<貝利卡>: 是賭博默示錄開司的neta 1日元=10貝利卡
+Dialogue: 0,0:08:00.22,0:08:02.48,*Default3,NTP,0,0,0,,同樣是賭博默示錄開司的neta 下同
+Dialogue: 0,0:08:04.09,0:08:05.61,*Default3,NTP,0,0,0,,{\fs25}「そもさん」 「せっぱ」是禪問答用語 一個出題 一個回答 翻譯成現代語就見翻譯
+Dialogue: 0,0:08:05.99,0:08:09.50,*Default3,NTP,0,0,0,,<ざわざわ…>: 還是開司neta 這個大概大家都知道
+Dialogue: 0,0:08:24.59,0:08:27.14,*Default3,NTP,0,0,0,,{\fs27}指日本知名搖滾樂隊 不過該樂隊取這個名字時的想法也跟灰色有關就是了
+Dialogue: 0,0:00:25.81,0:00:30.86,*title,NTP,0,0,0,,{\bord0\pos(385,10)}{\fs23}那個人真的不會變老呢 雖然沒見{\1c&H4D81DF}過真人 不過人肯定還是那樣子
+Dialogue: 0,0:01:26.60,0:01:31.55,*title,NTP,0,0,0,,{\bord0\pos(374,8)}{\fs23}不、人生出乎意料地就是那樣哦 {\1c&H4D81DF}所以不要氣餒再次去攻略吧
+Dialogue: 0,0:01:26.60,0:01:31.55,*title,NTP,0,0,0,,{\bord0\pos(591,36)}{\1c&H4D81DF}{\fs23}第三次左右就會有改變了 一定
+Dialogue: 0,0:01:49.05,0:01:53.98,*title,NTP,0,0,0,,{\bord0\pos(387,8)}{\fs23}吃刨冰時會有超刺激的感覺 是不{\1c&H4D81DF}是真的？ 我就沒這種感覺了…
+Dialogue: 0,0:01:49.05,0:01:53.98,*title,NTP,0,0,0,,{\bord0\pos(611,38)}{\1c&H4D81DF}{\fs23}不過吃芥末時會有 那可是真的猛啊
+Dialogue: 0,0:02:24.70,0:02:29.60,*title,NTP,0,0,0,,{\bord0\pos(417,8)}{\fs20}想到了小鹿絆理的neta 不過沒能展{\1c&H4D81DF}開… 不過難得想到了 就在這寫出來吧
+Dialogue: 0,0:03:14.99,0:03:19.96,*title,NTP,0,0,0,,{\bord0\pos(411,8)}{\fs20}日本的高齡化、少子化問題堆積如山{\1c&H4D81DF}\h\h總之結婚、造人、大家積極地向前進吧
+Dialogue: 0,0:04:04.54,0:04:10.10,*title,NTP,0,0,0,,{\bord0\pos(415,8)\fs18}對不起〇〇、我們沒有惡意的\h\h只是{\1c&H4D81DF}因為沒找到neta罷了、操心勞神沒完沒了啊
+Dialogue: 0,0:04:56.05,0:05:01.00,*title,NTP,0,0,0,,{\bord0\pos(405,8)}久違地去了趟蛸安 他家的{\1c&H4D81DF}章魚還是那麼大那麼好吃！
+Dialogue: 0,0:04:56.05,0:05:01.00,*title,NTP,0,0,0,,{\bord0\pos(520,36)}岡{\1c&H4D81DF}崎店要當總店了?!
+Dialogue: 0,0:05:30.97,0:05:35.94,*title,NTP,0,0,0,,{\bord0\pos(423,8)}{\fs22}小時候在學校吃飯時、偶爾會有{\1c&H4D81DF}甜甜的粉(不能說商品名)味道超好～
+Dialogue: 0,0:05:30.97,0:05:35.94,*title,NTP,0,0,0,,{\bord0\pos(598,36)}{\1c&H4D81DF}{\fs22}長大以後就狂買暢飲！ 大人真棒～
+Dialogue: 0,0:05:57.00,0:06:01.90,*title,NTP,0,0,0,,{\bord0\pos(445,8)}{\fs21}女性身上穿什麼內衣是個謎啊{\1c&H4D81DF} 可愛的她竟然穿這麼挑逗的…爽爆了！
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,

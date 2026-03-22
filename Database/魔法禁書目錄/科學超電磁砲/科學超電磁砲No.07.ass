@@ -1,0 +1,421 @@
+﻿[Script Info]
+Title: 
+Original Script: 
+ScriptType: v4.00+
+PlayResX: 848
+PlayResY: 480
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圆_GBK,33,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,2,30,30,10,1
+Style: Default2,方正准圆_GBK,22,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,2,30,30,10,1
+Style: Default3,方正准圆_GBK,30,&H00FFFFFF,&HF0000000,&H00808080,&H50FFFFFF,-1,0,0,0,100,100,0,0,1,5,1,8,30,30,8,1
+Style: ED_jap,ms Gothic,24,&H00D9D9D9,&H000000FF,&H00000000,&H00574A57,0,0,0,0,100,100,0,0,1,1,0,2,20,20,8,1
+Style: OP_jap,DFPKaiSho-Bd,26,&HFFD9D9D9,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,2,2,20,20,8,1
+Style: staff,simhei,22,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,-1,0,0,0,100,100,0,0,1,1,0,2,30,30,10,1
+Style: title,DFNMingXBold-B5,25,&H00FFFFFF,&HF0000000,&H00FFFFFF,&HF0000000,0,0,0,0,100,100,0,0,1,1,0,8,30,30,10,1
+Style: opcn,FZCuYuan-M03,26,&H00FFFFFF,&HFFFFFFFF,&H003360E8,&HF0101010,0,0,0,0,100,100,0,0,1,4,0,8,45,45,18,1
+Style: edcn,FZZhunYuan-M02,30,&H00FFFFFF,&H000000FF,&H64343467,&H00000000,0,0,0,0,100,100,0,0,1,2,1,8,45,45,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:52.79,0:00:55.80,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}放{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}て{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}!{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}心{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}刻{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ん{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}だ{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}夢{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を
+Dialogue: 0,0:00:55.80,0:00:59.58,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}未{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}来{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}え{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}置{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}き{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}去{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}り{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}し{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}て
+Dialogue: 0,0:00:59.58,0:01:02.55,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}限{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}界{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ど{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}知{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い　{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}意{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}味{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}無{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い{\r\shad2\be1\t(600,615,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(615,650,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}!
+Dialogue: 0,0:01:02.55,0:01:06.03,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}能{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}力{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}が{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}光{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}散{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}す
+Dialogue: 0,0:01:06.03,0:01:11.66,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}そ{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}先{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}遥{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}想{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を
+Dialogue: 0,0:01:13.81,0:01:17.85,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}歩{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}て{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}き{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}た　{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}道{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を
+Dialogue: 0,0:01:17.90,0:01:20.45,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}振{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}り{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}返{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}と{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}し{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か
+Dialogue: 0,0:01:20.45,0:01:26.96,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}出{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}来{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}…{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}今{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}で{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}全{\r\shad2\be1\t(600,615,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(615,650,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}て{\r\shad2\be1\t(650,665,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(665,700,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を{\r\shad2\be1\t(700,715,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(715,750,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}壊{\r\shad2\be1\t(750,765,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(765,800,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}せ{\r\shad2\be1\t(800,815,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(815,850,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る
+Dialogue: 0,0:01:27.10,0:01:30.17,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}暗{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}闇{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}堕{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ち{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}街{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}並{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}み
+Dialogue: 0,0:01:30.17,0:01:33.76,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}人{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}は{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ど{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ま{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}で{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}立{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ち{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}向{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}え{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(600,615,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(615,650,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(650,665,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(665,700,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}?
+Dialogue: 0,0:01:33.76,0:01:36.92,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}加{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}速{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}す{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}そ{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}痛{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}み{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら
+Dialogue: 0,0:01:36.93,0:01:41.34,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}誰{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}き{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}っ{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}と{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}守{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}れ{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}よ
+Dialogue: 0,0:01:41.34,0:01:41.92,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}Loo{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}king{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}!
+Dialogue: 0,0:01:41.92,0:01:44.49,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}The {\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}blitz {\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}loop {\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}this {\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}planet {\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}to {\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}search {\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}way.
+Dialogue: 0,0:01:44.49,0:01:48.19,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}Only {\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}my {\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}RAILGUN {\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}can {\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}shoot {\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}it. {\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}今{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}す{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ぐ
+Dialogue: 0,0:01:48.25,0:01:51.18,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}身{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}体{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}中{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を　{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}光{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}速{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}で
+Dialogue: 0,0:01:51.20,0:01:54.95,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}駆{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}け{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}巡{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}っ{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}た　{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}確{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}予{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}感
+Dialogue: 0,0:01:55.00,0:01:57.91,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}掴{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}め{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}!{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}望{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}む{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}も{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}残{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ず
+Dialogue: 0,0:01:57.91,0:02:01.66,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}輝{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}け{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}自{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}分{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}し{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}で
+Dialogue: 0,0:02:01.67,0:02:04.56,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}信{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}じ{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}て{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}よ　{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}あ{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}日{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}誓{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}い{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}を
+Dialogue: 0,0:02:04.62,0:02:08.21,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}こ{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}の{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}瞳{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}光{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}涙
+Dialogue: 0,0:02:08.25,0:02:13.61,OP_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad2\be1\t(0,15,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(15,50,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}そ{\r\shad2\be1\t(50,65,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(65,100,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}れ{\r\shad2\be1\t(100,115,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(115,150,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(150,165,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(165,200,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}え{\r\shad2\be1\t(200,215,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(215,250,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}も{\r\shad2\be1\t(250,265,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(265,300,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}強{\r\shad2\be1\t(300,315,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(315,350,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}さ{\r\shad2\be1\t(350,365,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(365,400,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}に{\r\shad2\be1\t(400,415,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(415,450,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}な{\r\shad2\be1\t(450,465,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(465,500,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}る{\r\shad2\be1\t(500,515,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(515,550,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}か{\r\shad2\be1\t(550,565,1,\shad0\1c&Hfffcf7&\bord2\3c&H2a40f7&)\t(565,600,1,\1a&H00&\bord1\shad0\1c&Hfffdf9&\3c&H3360e8&)}ら
+Dialogue: 0,0:20:46.46,0:20:50.90,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Dear {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}My {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}Friend　{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}Every {\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}day {\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}& {\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}night
+Dialogue: 0,0:20:51.07,0:20:53.80,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Always {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}be {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}with {\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}you
+Dialogue: 0,0:20:53.84,0:20:58.34,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Dear {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}My {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}Friend　{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}Every {\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}day {\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}& {\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}night
+Dialogue: 0,0:20:58.48,0:21:02.06,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Always {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}be {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}with {\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}you
+Dialogue: 0,0:21:02.10,0:21:09.29,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}話{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}し{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}て{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}も　{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}ま{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}だ{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}ま{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}だ　{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}足{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}り{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}な{\r\shad0\t(440,460,1,\shad4\1c&Hbbb5e8&)\t(464,480,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(480,500,1,\shad4\1c&Hbbb5e8&)\t(504,520,1,\shad2\1c&Hffffff&)}ま{\r\shad0\t(520,540,1,\shad4\1c&Hbbb5e8&)\t(544,560,1,\shad2\1c&Hffffff&)}ま
+Dialogue: 0,0:21:09.56,0:21:16.62,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}夕{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}焼{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}け{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}が　{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}街{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}を{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}染{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}め{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}て{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}ゆ{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}く
+Dialogue: 0,0:21:17.06,0:21:24.00,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}思{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}う{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}よ{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}う{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}に　{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}な{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}か{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}な{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}か　{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}か{\r\shad0\t(440,460,1,\shad4\1c&Hbbb5e8&)\t(464,480,1,\shad2\1c&Hffffff&)}な{\r\shad0\t(480,500,1,\shad4\1c&Hbbb5e8&)\t(504,520,1,\shad2\1c&Hffffff&)}い…{\r\shad0\t(520,540,1,\shad4\1c&Hbbb5e8&)\t(544,560,1,\shad2\1c&Hffffff&)}っ{\r\shad0\t(560,580,1,\shad4\1c&Hbbb5e8&)\t(584,600,1,\shad2\1c&Hffffff&)}て
+Dialogue: 0,0:21:24.47,0:21:31.71,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}気{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}づ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}た{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}ら　{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}一{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}緒{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}に　{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}泣{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}て{\r\shad0\t(440,460,1,\shad4\1c&Hbbb5e8&)\t(464,480,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(480,500,1,\shad4\1c&Hbbb5e8&)\t(504,520,1,\shad2\1c&Hffffff&)}た
+Dialogue: 0,0:21:31.95,0:21:35.70,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}恋{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}も　{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}夢{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}も　{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}花{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}も　{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}虹{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}も　{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}風{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}も
+Dialogue: 0,0:21:35.71,0:21:38.27,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}ぜ{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}ん{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}ぶ{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}掴{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}も{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}う{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}よ
+Dialogue: 0,0:21:38.36,0:21:40.02,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}ダイ{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}ジョ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}ウブ!
+Dialogue: 0,0:21:40.06,0:21:46.47,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}元{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}気{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}出{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}し{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}て　{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}私{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}が{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}そ{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}ば{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}に{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(440,460,1,\shad4\1c&Hbbb5e8&)\t(464,480,1,\shad2\1c&Hffffff&)}る{\r\shad0\t(480,500,1,\shad4\1c&Hbbb5e8&)\t(504,520,1,\shad2\1c&Hffffff&)}か{\r\shad0\t(520,540,1,\shad4\1c&Hbbb5e8&)\t(544,560,1,\shad2\1c&Hffffff&)}ら
+Dialogue: 0,0:21:46.48,0:21:49.95,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}今{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}日{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}の{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}ミ{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}ス　{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}悔{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}や{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}む{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}よ{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}り
+Dialogue: 0,0:21:49.97,0:21:53.00,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}今　{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}乗{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}り{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}越{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}え{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}て
+Dialogue: 0,0:21:53.12,0:21:54.93,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}ダイ{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}ジョ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}ウブ!
+Dialogue: 0,0:21:55.02,0:21:56.88,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}迷{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}わ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}な{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}で
+Dialogue: 0,0:21:56.90,0:22:02.81,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}ま{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}だ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}見{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}ぬ{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}未{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}来{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}へ{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}と{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}向{\r\shad0\t(360,380,1,\shad4\1c&Hbbb5e8&)\t(384,400,1,\shad2\1c&Hffffff&)}かっ{\r\shad0\t(400,420,1,\shad4\1c&Hbbb5e8&)\t(424,440,1,\shad2\1c&Hffffff&)}て
+Dialogue: 0,0:22:02.81,0:22:08.37,ED_jap,NTP,0,0,0,,{\fad(150,1050)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}ず{\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}っ{\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}と　{\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}歩{\r\shad0\t(160,180,1,\shad4\1c&Hbbb5e8&)\t(184,200,1,\shad2\1c&Hffffff&)}い{\r\shad0\t(200,220,1,\shad4\1c&Hbbb5e8&)\t(224,240,1,\shad2\1c&Hffffff&)}て{\r\shad0\t(240,260,1,\shad4\1c&Hbbb5e8&)\t(264,280,1,\shad2\1c&Hffffff&)}ゆ{\r\shad0\t(280,300,1,\shad4\1c&Hbbb5e8&)\t(304,320,1,\shad2\1c&Hffffff&)}こ{\r\shad0\t(320,340,1,\shad4\1c&Hbbb5e8&)\t(344,360,1,\shad2\1c&Hffffff&)}う
+Dialogue: 2,0:22:07.39,0:22:10.80,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Every {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}day {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}& {\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}night
+Dialogue: 0,0:22:11.09,0:22:14.61,ED_jap,NTP,0,0,0,,{\fad(150,150)}{\r\shad0\t(0,20,1,\shad4\1c&Hbbb5e8&)\t(24,40,1,\shad2\1c&Hffffff&)}Always {\r\shad0\t(40,60,1,\shad4\1c&Hbbb5e8&)\t(64,80,1,\shad2\1c&Hffffff&)}be {\r\shad0\t(80,100,1,\shad4\1c&Hbbb5e8&)\t(104,120,1,\shad2\1c&Hffffff&)}with {\r\shad0\t(120,140,1,\shad4\1c&Hbbb5e8&)\t(144,160,1,\shad2\1c&Hffffff&)}you
+Dialogue: 0,0:00:04.73,0:00:05.88,*Default,NTP,0,0,0,,一週前
+Dialogue: 0,0:00:06.00,0:00:08.64,*Default,NTP,0,0,0,,以出現第一位犧牲者為開端
+Dialogue: 0,0:00:13.28,0:00:15.16,*Default,NTP,0,0,0,,連續虛空爆破事件
+Dialogue: 0,0:00:13.28,0:00:15.16,*Default2,NTP,0,0,0,,{\pos(424,438)}<Graviton>
+Dialogue: 0,0:00:15.19,0:00:18.36,*Default,NTP,0,0,0,,其威力 及範圍正在擴大
+Dialogue: 0,0:00:24.16,0:00:27.06,*Default,NTP,0,0,0,,地點及時間都沒能找到關聯性
+Dialogue: 0,0:00:27.29,0:00:29.85,*Default,NTP,0,0,0,,雖然有用讀心能力調查過遺留物
+Dialogue: 0,0:00:27.29,0:00:29.85,*Default2,NTP,0,0,0,,{\pos(394,436)}<Psychometry>
+Dialogue: 0,0:00:30.04,0:00:32.30,*Default,NTP,0,0,0,,依然沒能找到線索
+Dialogue: 0,0:00:32.87,0:00:34.90,*Default,NTP,0,0,0,,為了不讓犧牲者繼續出現
+Dialogue: 0,0:00:34.96,0:00:38.49,*Default,NTP,0,0,0,,我們要和警備員合作 更為提高警惕
+Dialogue: 0,0:00:38.58,0:00:40.60,*Default,NTP,0,0,0,,投入全部力量去解決事件
+Dialogue: 0,0:02:25.16,0:02:26.26,*Default,NTP,0,0,0,,你沒事吧
+Dialogue: 0,0:02:26.40,0:02:29.87,*Default,NTP,0,0,0,,昨晚又熬夜調查了吧 那個虛空爆破事件
+Dialogue: 0,0:02:26.40,0:02:29.87,*Default2,NTP,0,0,0,,{\pos(562,438)}<Graviton>
+Dialogue: 0,0:02:30.07,0:02:31.68,*Default,NTP,0,0,0,,沒辦法
+Dialogue: 0,0:02:31.91,0:02:33.72,*Default,NTP,0,0,0,,現在調查沒有進展
+Dialogue: 0,0:02:33.80,0:02:37.09,*Default,NTP,0,0,0,,就得確認有沒有什麼地方遺漏了
+Dialogue: 0,0:02:37.40,0:02:39.60,*Default,NTP,0,0,0,,熱衷於工作是件好事
+Dialogue: 0,0:02:39.87,0:02:41.75,*Default,NTP,0,0,0,,但是不要太勉強自己
+Dialogue: 0,0:02:42.90,0:02:45.19,*Default,NTP,0,0,0,,啊 姐姐大人～
+Dialogue: 0,0:02:45.45,0:02:48.06,*Default,NTP,0,0,0,,原來你是這麼擔心我啊
+Dialogue: 0,0:02:48.12,0:02:51.51,*Default,NTP,0,0,0,,既然這樣 今晚我們能大床同睡的話
+Dialogue: 0,0:02:52.34,0:02:54.71,*Default,NTP,0,0,0,,黑子我 疲勞一定會馬上恢復
+Dialogue: 0,0:02:56.99,0:03:00.80,*Default,NTP,0,0,0,,啊 姐姐大人 請等等我
+Dialogue: 0,0:03:01.10,0:03:03.90,*Default,NTP,0,0,0,,姐姐大人真是的 這麼愛害羞
+Dialogue: 0,0:03:12.57,0:03:14.61,*Default,NTP,0,0,0,,AIM擴散力場
+Dialogue: 0,0:03:14.91,0:03:17.32,*Default,NTP,0,0,0,,對能力者來說 可是近在咫尺的現象
+Dialogue: 0,0:03:17.90,0:03:22.35,*Default,NTP,0,0,0,,所謂的AIM 就是「An Invountary Movement」的略寫
+Dialogue: 0,0:03:23.00,0:03:27.95,*Default,NTP,0,0,0,,指能力者在無意識之下向周圍散發出的微弱力量
+Dialogue: 0,0:03:28.95,0:03:30.95,*Default,NTP,0,0,0,,人類的五官無法感知
+Dialogue: 0,0:03:31.15,0:03:34.01,*Default,NTP,0,0,0,,只有專用的機械儀器才能測量得到
+Dialogue: 0,0:03:34.69,0:03:38.60,*Default,NTP,0,0,0,,不過 現在這個領域的研究取得了明顯的進展
+Dialogue: 0,0:03:39.03,0:03:39.77,*Default,NTP,0,0,0,,例如...
+Dialogue: 0,0:03:40.66,0:03:41.77,*Default,NTP,0,0,0,,什麼事啊
+Dialogue: 0,0:03:42.86,0:03:45.57,*Default,NTP,0,0,0,,回家的時候 要不要去Seventh Mist買點東西
+Dialogue: 0,0:03:46.95,0:03:49.45,*Default,NTP,0,0,0,,但是我還有風紀委員的工作...
+Dialogue: 0,0:03:49.47,0:03:51.81,*Default,NTP,0,0,0,,稍微去一下沒問題的啦
+Dialogue: 0,0:03:51.89,0:03:53.77,*Default,NTP,0,0,0,,就說自己在巡邏中嘛
+Dialogue: 0,0:03:53.78,0:03:56.79,*Default,NTP,0,0,0,,這次這招可行不通
+Dialogue: 0,0:03:56.92,0:03:58.47,*Default,NTP,0,0,0,,畢竟事件還在調查當中
+Dialogue: 0,0:03:59.54,0:04:01.10,*Default,NTP,0,0,0,,這樣啊...
+Dialogue: 0,0:04:10.49,0:04:11.21,*Default,NTP,0,0,0,,喲
+Dialogue: 0,0:04:15.20,0:04:17.23,*Default,NTP,0,0,0,,再借點錢給我們吧
+Dialogue: 0,0:04:17.25,0:04:22.59,*Default,NTP,0,0,0,,呃 但是 之前你們借的錢都還沒還...
+Dialogue: 0,0:04:29.07,0:04:31.47,*Default,NTP,0,0,0,,不是說過肯定會還的嗎
+Dialogue: 0,0:04:31.99,0:04:33.46,*Default,NTP,0,0,0,,到我們出人頭地的時候再還嘛
+Dialogue: 0,0:04:33.46,0:04:38.77,*Default,NTP,0,0,0,,再說啊 無期限無利息無限制不是你的賣點嗎
+Dialogue: 0,0:04:38.86,0:04:40.86,*Default,NTP,0,0,0,,什麼嘛 就這麼點啊
+Dialogue: 0,0:04:41.14,0:04:44.77,*Default,NTP,0,0,0,,好了 在風紀委員來之前 我們快走吧
+Dialogue: 0,0:04:44.92,0:04:46.21,*Default,NTP,0,0,0,,輕鬆輕鬆
+Dialogue: 0,0:04:46.44,0:04:49.85,*Default,NTP,0,0,0,,他們不是都等到事件發生過了才過來嘛
+Dialogue: 0,0:04:52.44,0:04:55.10,*Default,NTP,0,0,0,,混蛋 都在搞什麼啊
+Dialogue: 0,0:04:56.05,0:04:57.80,*Default,NTP,0,0,0,,去你的風紀委員
+Dialogue: 0,0:04:58.17,0:05:00.92,*Default,NTP,0,0,0,,就因為你們這麼無能 我才會受這種罪啊
+Dialogue: 0,0:05:03.87,0:05:04.86,*Default,NTP,0,0,0,,等著瞧
+Dialogue: 0,0:05:12.92,0:05:13.81,*Default,NTP,0,0,0,,討厭
+Dialogue: 0,0:05:13.87,0:05:16.72,*Default,NTP,0,0,0,,要是有多點線索就好了
+Dialogue: 0,0:05:16.76,0:05:18.24,*Default,NTP,0,0,0,,就是
+Dialogue: 0,0:05:18.24,0:05:23.90,*Default,NTP,0,0,0,,現在知道的 只是犯人應該是大能力者以上
+Dialogue: 0,0:05:18.24,0:05:23.90,*Default2,NTP,0,0,0,,{\pos(575,438)}<Level 4>
+Dialogue: 0,0:05:25.81,0:05:29.25,*Default,NTP,0,0,0,,但是資料庫裡面沒有符合條件的人呢
+Dialogue: 0,0:05:29.82,0:05:33.48,*Default,NTP,0,0,0,,難道是短時間內能力得到飛躍性發展的能力者什麼的
+Dialogue: 0,0:05:33.76,0:05:38.11,*Default,NTP,0,0,0,,怎麼可能 再怎麼說 短期內升這麼多實在太難了
+Dialogue: 0,0:05:38.47,0:05:42.67,*Default,NTP,0,0,0,,也是呢 這種事根本不可能
+Dialogue: 0,0:05:44.20,0:05:47.96,*Default,NTP,0,0,0,,多給點耐性 我們從頭在遺留物上找線索吧
+Dialogue: 0,0:05:47.96,0:05:49.07,*Default,NTP,0,0,0,,有道理
+Dialogue: 0,0:05:59.07,0:06:00.10,*Default,NTP,0,0,0,,佐天～
+Dialogue: 0,0:06:10.57,0:06:14.10,*Default,NTP,0,0,0,,跟黑子在一起 初春也夠辛苦的吧
+Dialogue: 0,0:06:14.68,0:06:16.14,*Default,NTP,0,0,0,,看來是了
+Dialogue: 0,0:06:16.53,0:06:18.61,*Default,NTP,0,0,0,,雖然今天也邀了她去買東西
+Dialogue: 0,0:06:18.92,0:06:20.30,*Default,NTP,0,0,0,,她都說不去了
+Dialogue: 0,0:06:20.39,0:06:23.92,*Default,NTP,0,0,0,,算了 在炸彈狂落網之前 這也是沒辦法
+Dialogue: 0,0:06:26.41,0:06:31.41,*Default,NTP,0,0,0,,不由得有點點想法呢
+Dialogue: 0,0:06:31.47,0:06:32.16,*Default,NTP,0,0,0,,呃
+Dialogue: 0,0:06:32.77,0:06:34.30,*Default,NTP,0,0,0,,啊不 怎麼表達好呢
+Dialogue: 0,0:06:34.98,0:06:38.08,*Default,NTP,0,0,0,,「初春跟黑子作為風紀委員都在努力
+Dialogue: 0,0:06:38.33,0:06:40.35,*Default,NTP,0,0,0,,御坂學姐又這麼有實力
+Dialogue: 0,0:06:40.74,0:06:42.70,*Default,NTP,0,0,0,,而我呢」...只是有這個想法罷了
+Dialogue: 0,0:06:48.12,0:06:51.43,*Default,NTP,0,0,0,,那個 不好意思 我沒有太過沉重的意思
+Dialogue: 0,0:06:52.05,0:06:56.57,*Default,NTP,0,0,0,,只是在想「如果我也有能力的話 或許生活會改變」
+Dialogue: 0,0:07:00.43,0:07:05.51,*Default,NTP,0,0,0,,啊啊 要是有幻想御手 超能力者也不是夢啊
+Dialogue: 0,0:07:00.43,0:07:05.51,*Default2,NTP,0,0,0,,{\pos(370,436)}<Level Upper>
+Dialogue: 0,0:07:00.43,0:07:05.51,*Default2,NTP,0,0,0,,{\pos(484,436)}<Level 5>
+Dialogue: 0,0:07:05.77,0:07:07.12,*Default,NTP,0,0,0,,幻想御手？
+Dialogue: 0,0:07:05.77,0:07:07.12,*Default2,NTP,0,0,0,,{\pos(414,438)}<Level Upper>
+Dialogue: 0,0:07:07.59,0:07:09.93,*Default,NTP,0,0,0,,就是先前說的那些都市傳說啊
+Dialogue: 0,0:07:10.67,0:07:15.04,*Default,NTP,0,0,0,,聽說是個能輕易將能力的等級提上去的道具
+Dialogue: 0,0:07:17.55,0:07:22.05,*Default,NTP,0,0,0,,既然有脫衣女 我就在想這說不定還真的存在
+Dialogue: 0,0:07:22.81,0:07:24.97,*Default,NTP,0,0,0,,不過嘛 不可能有的吧
+Dialogue: 0,0:07:27.10,0:07:27.87,*Default,NTP,0,0,0,,我說
+Dialogue: 0,0:07:28.89,0:07:30.07,*Default,NTP,0,0,0,,大家一起去吧
+Dialogue: 0,0:07:35.96,0:07:38.75,*Default,NTP,0,0,0,,跟姐姐一起去購物嗎
+Dialogue: 0,0:07:39.01,0:07:40.54,*Default,NTP,0,0,0,,你們兩個都不用值班吧
+Dialogue: 0,0:07:40.81,0:07:43.97,*Default,NTP,0,0,0,,我跟佐天聊了聊 商量要不要讓你們去輕鬆一下
+Dialogue: 0,0:07:44.08,0:07:46.57,*Default,NTP,0,0,0,,這 這樣啊...
+Dialogue: 0,0:07:47.38,0:07:50.68,*Default,NTP,0,0,0,,不過 難得姐姐大人邀我 我還是不去了
+Dialogue: 0,0:07:51.88,0:07:54.32,*Default,NTP,0,0,0,,我還想多查一會
+Dialogue: 0,0:07:55.59,0:07:56.41,*Default,NTP,0,0,0,,這樣啊
+Dialogue: 0,0:07:56.77,0:07:58.93,*Default,NTP,0,0,0,,我明白了 你加油
+Dialogue: 0,0:08:00.08,0:08:01.11,*Default,NTP,0,0,0,,晚安
+Dialogue: 0,0:08:23.85,0:08:25.70,*Default,NTP,0,0,0,,新世界要來了
+Dialogue: 0,0:08:33.46,0:08:35.36,*Default,NTP,0,0,0,,我要拯救自己
+Dialogue: 0,0:08:39.73,0:08:42.38,*Default,NTP,0,0,0,,話說回來 白井她來不了呢
+Dialogue: 0,0:08:42.85,0:08:44.61,*Default,NTP,0,0,0,,要不要買點什麼禮物給她
+Dialogue: 0,0:08:44.66,0:08:45.79,*Default,NTP,0,0,0,,哦 這主意不錯
+Dialogue: 0,0:08:45.79,0:08:48.44,*Default,NTP,0,0,0,,沒有救我的風紀委員
+Dialogue: 0,0:08:49.77,0:08:50.72,*Default,NTP,0,0,0,,沒必要存在
+Dialogue: 0,0:08:52.95,0:08:55.99,*title,NTP,0,0,0,,{\pos(358,10)}{\bord0\shad0}#7 能力與{\1c&H4D81DF} 力量
+Dialogue: 0,0:09:03.08,0:09:04.56,*Default,NTP,0,0,0,,這邊這邊
+Dialogue: 0,0:09:05.36,0:09:07.14,*Default,NTP,0,0,0,,初春有什麼地方想逛的嗎
+Dialogue: 0,0:09:08.43,0:09:10.40,*Default,NTP,0,0,0,,沒有特別想去的
+Dialogue: 0,0:09:12.04,0:09:15.51,*Default,NTP,0,0,0,,初春～來一下
+Dialogue: 0,0:09:15.54,0:09:17.49,*Default,NTP,0,0,0,,什麼事
+Dialogue: 0,0:09:19.08,0:09:21.28,*Default,NTP,0,0,0,,看 你看這條怎樣
+Dialogue: 0,0:09:21.80,0:09:23.35,*Default,NTP,0,0,0,,不行不行不行
+Dialogue: 0,0:09:23.47,0:09:26.07,*Default,NTP,0,0,0,,這種怎麼能穿啊
+Dialogue: 0,0:09:26.23,0:09:28.68,*Default,NTP,0,0,0,,穿了這條以後 就算被我撩了裙子
+Dialogue: 0,0:09:28.79,0:09:31.33,*Default,NTP,0,0,0,,也能堂堂正正地向周圍展示了吧
+Dialogue: 0,0:09:32.86,0:09:34.15,*Default,NTP,0,0,0,,請不要給別人看到
+Dialogue: 0,0:09:34.19,0:09:35.94,*Default,NTP,0,0,0,,請不要撩我裙子
+Dialogue: 0,0:09:36.02,0:09:37.27,*Default,NTP,0,0,0,,哎呀 真可惜
+Dialogue: 0,0:09:37.71,0:09:40.46,*Default,NTP,0,0,0,,御坂學姐 有什麼想找的嗎
+Dialogue: 0,0:09:41.86,0:09:43.00,*Default,NTP,0,0,0,,我想想
+Dialogue: 0,0:09:43.35,0:09:45.00,*Default,NTP,0,0,0,,我想買套睡衣
+Dialogue: 0,0:09:46.29,0:09:47.88,*Default,NTP,0,0,0,,那就來這家店吧
+Dialogue: 0,0:09:51.79,0:09:56.58,*Default,NTP,0,0,0,,雖然轉過不少地方 就是沒遇到喜歡的呢
+Dialogue: 0,0:10:05.40,0:10:07.39,*Default,NTP,0,0,0,,喂喂 你看這件 很可愛吧...
+Dialogue: 0,0:10:07.54,0:10:10.09,*Default,NTP,0,0,0,,你看啊 初春 這件睡衣
+Dialogue: 0,0:10:10.49,0:10:14.36,*Default,NTP,0,0,0,,這麼幼稚的 現今社會應該不會有人穿了吧
+Dialogue: 0,0:10:14.42,0:10:18.22,*Default,NTP,0,0,0,,雖然我上小學的時候還穿過這種
+Dialogue: 0,0:10:18.44,0:10:20.12,*Default,NTP,0,0,0,,現在就實在有點...
+Dialogue: 0,0:10:20.35,0:10:24.37,*Default,NTP,0,0,0,,也是呢 都中學生了 這件不能穿了呢
+Dialogue: 0,0:10:24.56,0:10:26.17,*Default,NTP,0,0,0,,嗯 不能穿
+Dialogue: 0,0:10:29.30,0:10:31.57,*Default,NTP,0,0,0,,啊 我去看看泳衣
+Dialogue: 0,0:10:31.57,0:10:34.15,*Default,NTP,0,0,0,,哦 泳衣的話就在那邊哦
+Dialogue: 0,0:10:34.15,0:10:35.12,*Default,NTP,0,0,0,,真的？
+Dialogue: 0,0:10:36.97,0:10:39.61,*Default,NTP,0,0,0,,有什麼所謂 反正都是睡衣
+Dialogue: 0,0:10:39.63,0:10:41.55,*Default,NTP,0,0,0,,又不是給別人看的
+Dialogue: 0,0:10:42.59,0:10:43.98,*Default,NTP,0,0,0,,你看這件怎樣
+Dialogue: 0,0:10:44.25,0:10:45.79,*Default,NTP,0,0,0,,好 趁現在
+Dialogue: 0,0:10:46.34,0:10:48.54,*Default,NTP,0,0,0,,只是照鏡子比一比就好了
+Dialogue: 0,0:10:50.09,0:10:50.81,*Default,NTP,0,0,0,,我照
+Dialogue: 0,0:10:51.98,0:10:53.52,*Default,NTP,0,0,0,,你搞什麼啊 電光閃閃
+Dialogue: 0,0:10:57.13,0:10:59.36,*Default,NTP,0,0,0,,為什麼你會在這裡啊
+Dialogue: 0,0:10:59.46,0:11:00.94,*Default,NTP,0,0,0,,我不能來嗎
+Dialogue: 0,0:11:01.61,0:11:02.97,*Default,NTP,0,0,0,,大哥哥～
+Dialogue: 0,0:11:06.49,0:11:08.58,*Default,NTP,0,0,0,,哦 是常盤台的大姐姐
+Dialogue: 0,0:11:10.39,0:11:12.64,*Default,NTP,0,0,0,,哦 你就是掉包包那個
+Dialogue: 0,0:11:13.95,0:11:16.13,*Default,NTP,0,0,0,,她叫你哥哥 原來你有妹妹啊
+Dialogue: 0,0:11:16.53,0:11:20.80,*Default,NTP,0,0,0,,錯啦錯啦 這孩子說在找賣衣服的店
+Dialogue: 0,0:11:21.24,0:11:23.16,*Default,NTP,0,0,0,,就帶她到這裡罷了
+Dialogue: 0,0:11:23.41,0:11:26.74,*Default,NTP,0,0,0,,是大哥哥帶我到這裡的
+Dialogue: 0,0:11:26.93,0:11:29.30,*Default,NTP,0,0,0,,我也要像電視裡面的人那樣
+Dialogue: 0,0:11:29.36,0:11:31.99,*Default,NTP,0,0,0,,穿漂亮衣服 打扮自己
+Dialogue: 0,0:11:32.08,0:11:36.47,*Default,NTP,0,0,0,,這樣啊 不過現在已經打扮得很可愛了哦
+Dialogue: 0,0:11:36.76,0:11:39.17,*Default,NTP,0,0,0,,跟某個穿短褲的傢伙不同呢
+Dialogue: 0,0:11:39.69,0:11:40.81,*Default,NTP,0,0,0,,什麼意思啊 要幹一場嗎
+Dialogue: 0,0:11:41.34,0:11:43.92,*Default,NTP,0,0,0,,那就把上次的決鬥 在這裡了結了吧
+Dialogue: 0,0:11:45.37,0:11:48.36,*Default,NTP,0,0,0,,你腦子裡面就這件事嗎
+Dialogue: 0,0:11:50.15,0:11:54.08,*Default,NTP,0,0,0,,再說 你真的打算在這麼多人的地方開打嗎
+Dialogue: 0,0:11:56.11,0:11:59.04,*Default,NTP,0,0,0,,大哥哥 我想去看那邊
+Dialogue: 0,0:11:59.15,0:12:00.59,*Default,NTP,0,0,0,,哦 收到
+Dialogue: 0,0:12:01.76,0:12:05.07,*Default,NTP,0,0,0,,大姐姐再見 拜拜
+Dialogue: 0,0:12:16.20,0:12:17.64,*Default,NTP,0,0,0,,發生什麼事了
+Dialogue: 0,0:12:19.59,0:12:20.70,*Default,NTP,0,0,0,,沒事
+Dialogue: 0,0:12:29.28,0:12:33.48,*Default,NTP,0,0,0,,怎麼每次遇到他 我就會亂方寸了呢
+Dialogue: 0,0:12:36.00,0:12:36.76,*Default,NTP,0,0,0,,呱太
+Dialogue: 0,0:12:38.77,0:12:40.40,*Default,NTP,0,0,0,,不是啊...
+Dialogue: 0,0:12:42.50,0:12:44.47,*Default,NTP,0,0,0,,說起來還真的是一點都不像
+Dialogue: 0,0:12:54.70,0:13:00.32,*Default,NTP,0,0,0,,難不成是「雖然手段一樣 但不是同一個犯人」之類的？
+Dialogue: 0,0:13:00.63,0:13:01.68,*Default,NTP,0,0,0,,怎麼可能
+Dialogue: 0,0:13:01.99,0:13:03.33,*Default,NTP,0,0,0,,我只是說說看罷了
+Dialogue: 0,0:13:03.67,0:13:06.26,*Default,NTP,0,0,0,,主要是沒多少關聯性啊
+Dialogue: 0,0:13:06.38,0:13:10.38,*Default,NTP,0,0,0,,不抓緊的話 說不定又有人要遭殃了
+Dialogue: 0,0:13:10.86,0:13:13.19,*Default,NTP,0,0,0,,但起碼得找到點線索
+Dialogue: 0,0:13:13.72,0:13:16.04,*Default,NTP,0,0,0,,已經有九個同事受傷了
+Dialogue: 0,0:13:17.85,0:13:18.92,*Default,NTP,0,0,0,,九個？
+Dialogue: 0,0:13:20.22,0:13:21.17,*Default,NTP,0,0,0,,怎麼了
+Dialogue: 0,0:13:21.79,0:13:23.77,*Default,NTP,0,0,0,,你不覺得數量太多了嗎
+Dialogue: 0,0:13:25.53,0:13:26.95,*Default,NTP,0,0,0,,難道犯人的目標...
+Dialogue: 0,0:13:30.36,0:13:32.71,*Default,NTP,0,0,0,,衛星確認到重力子加速
+Dialogue: 0,0:13:36.45,0:13:38.31,*Default,NTP,0,0,0,,初春 你手機是不是響了
+Dialogue: 0,0:13:38.57,0:13:39.76,*Default,NTP,0,0,0,,哦 真的哦
+Dialogue: 0,0:13:41.09,0:13:42.14,*Default,NTP,0,0,0,,喂
+Dialogue: 0,0:13:41.80,0:13:45.27,*Default,NTP,0,0,0,,初春 虛空爆破事件有續報了
+Dialogue: 0,0:13:45.97,0:13:47.59,*Default,NTP,0,0,0,,學園都市的監視衛星
+Dialogue: 0,0:13:47.61,0:13:50.40,*Default,NTP,0,0,0,,觀測到重力子有爆炸性的加速
+Dialogue: 0,0:13:50.41,0:13:51.76,*Default,NTP,0,0,0,,觀測地點是...？
+Dialogue: 0,0:13:51.37,0:13:54.69,*Default,NTP,0,0,0,,我現在正讓附近的警備員趕過來
+Dialogue: 0,0:13:54.94,0:13:56.73,*Default,NTP,0,0,0,,你趕快回來支部這裡
+Dialogue: 0,0:13:56.73,0:13:58.82,*Default,NTP,0,0,0,,先告訴我觀測地點
+Dialogue: 0,0:13:59.03,0:14:02.12,*Default,NTP,0,0,0,,第七學區的服裝店 Seventh Mist
+Dialogue: 0,0:14:04.69,0:14:06.45,*Default,NTP,0,0,0,,Seventh Mist...
+Dialogue: 0,0:14:06.77,0:14:09.32,*Default,NTP,0,0,0,,剛好 我就在現場
+Dialogue: 0,0:14:09.60,0:14:11.52,*Default,NTP,0,0,0,,立刻開始疏導客人避難
+Dialogue: 0,0:14:12.79,0:14:15.65,*Default,NTP,0,0,0,,初春？喂 喂
+Dialogue: 0,0:14:16.36,0:14:17.57,*Default,NTP,0,0,0,,她說什麼
+Dialogue: 0,0:14:18.04,0:14:19.87,*Default,NTP,0,0,0,,初春怎麼了
+Dialogue: 0,0:14:24.48,0:14:26.05,*Default,NTP,0,0,0,,請冷靜聽我說
+Dialogue: 0,0:14:26.14,0:14:28.42,*Default,NTP,0,0,0,,已經知道犯人的下一個目標在哪裡了
+Dialogue: 0,0:14:28.62,0:14:29.74,*Default,NTP,0,0,0,,就是這家店
+Dialogue: 0,0:14:29.84,0:14:31.82,*Default,NTP,0,0,0,,你 你說什麼
+Dialogue: 0,0:14:32.24,0:14:35.97,*Default,NTP,0,0,0,,御坂學姐 不好意思 請你幫我一起疏導顧客
+Dialogue: 0,0:14:36.42,0:14:37.25,*Default,NTP,0,0,0,,明白
+Dialogue: 0,0:14:37.58,0:14:39.01,*Default,NTP,0,0,0,,佐天 就請你去避難吧
+Dialogue: 0,0:14:40.94,0:14:43.40,*Default,NTP,0,0,0,,嗯 初春你也要小心啊
+Dialogue: 0,0:14:48.65,0:14:50.34,*Default,NTP,0,0,0,,這次的目標是...
+Dialogue: 0,0:14:52.08,0:14:54.24,*Default,NTP,0,0,0,,各位顧客請注意
+Dialogue: 0,0:14:54.77,0:14:58.16,*Default,NTP,0,0,0,,由於店內電力系統發生故障
+Dialogue: 0,0:14:58.35,0:15:03.20,*Default,NTP,0,0,0,,事出突然 本店今天停止營業
+Dialogue: 0,0:15:04.11,0:15:06.92,*Default,NTP,0,0,0,,工作人員現將指引大家到出口
+Dialogue: 0,0:15:08.52,0:15:09.96,*Default,NTP,0,0,0,,出什麼故障了
+Dialogue: 0,0:15:10.00,0:15:11.58,*Default,NTP,0,0,0,,我才剛來啊
+Dialogue: 0,0:15:11.88,0:15:12.59,*Default,NTP,0,0,0,,電光閃閃
+Dialogue: 0,0:15:14.18,0:15:15.16,*Default,NTP,0,0,0,,有沒有看到那個孩子
+Dialogue: 0,0:15:16.36,0:15:17.53,*Default,NTP,0,0,0,,她沒跟你在一起嗎
+Dialogue: 0,0:15:17.84,0:15:18.94,*Default,NTP,0,0,0,,她不在外面
+Dialogue: 0,0:15:19.59,0:15:21.07,*Default,NTP,0,0,0,,難道她還在裡面？
+Dialogue: 0,0:15:21.41,0:15:22.72,*Default,NTP,0,0,0,,你搞什麼啊
+Dialogue: 0,0:15:23.33,0:15:23.95,*Default,NTP,0,0,0,,喂
+Dialogue: 0,0:15:32.24,0:15:33.04,*Default,NTP,0,0,0,,初春？
+Dialogue: 0,0:15:33.27,0:15:34.89,*Default,NTP,0,0,0,,所有顧客已經疏導完畢
+Dialogue: 0,0:15:35.30,0:15:37.04,*Default,NTP,0,0,0,,現在趕快離開現場
+Dialogue: 0,0:15:37.43,0:15:38.33,*Default,NTP,0,0,0,,呃
+Dialogue: 0,0:15:38.51,0:15:40.41,*Default,NTP,0,0,0,,過去各個事件 人身受傷害的
+Dialogue: 0,0:15:40.43,0:15:41.89,*Default,NTP,0,0,0,,都只是風紀委員
+Dialogue: 0,0:15:42.36,0:15:46.27,*Default,NTP,0,0,0,,犯人的真正目標 是身處觀測地點周圍的風紀委員
+Dialogue: 0,0:15:46.73,0:15:49.95,*Default,NTP,0,0,0,,他這次的目標 就是你啊 初春
+Dialogue: 0,0:15:51.18,0:15:52.91,*Default,NTP,0,0,0,,大姐姐
+Dialogue: 0,0:16:01.19,0:16:02.04,*Default,NTP,0,0,0,,那是...
+Dialogue: 0,0:16:03.05,0:16:06.85,*Default,NTP,0,0,0,,一個戴眼鏡的大哥哥叫我交給你的
+Dialogue: 0,0:16:06.93,0:16:07.57,*Default,NTP,0,0,0,,給
+Dialogue: 0,0:16:12.98,0:16:15.09,*Default,NTP,0,0,0,,請你們快跑 那是炸彈
+Dialogue: 0,0:16:15.12,0:16:16.50,*Default,NTP,0,0,0,,用超電磁砲將整個炸彈射飛
+Dialogue: 0,0:16:17.38,0:16:18.12,*Default,NTP,0,0,0,,糟...
+Dialogue: 0,0:16:25.88,0:16:26.57,*Default,NTP,0,0,0,,怎麼回事
+Dialogue: 0,0:16:26.60,0:16:27.55,*Default,NTP,0,0,0,,爆炸了
+Dialogue: 0,0:16:29.78,0:16:31.66,*Default,NTP,0,0,0,,不就是之前那些連續爆炸恐怖事件嘛
+Dialogue: 0,0:16:31.72,0:16:33.15,*Default,NTP,0,0,0,,裡面好像還有人啊
+Dialogue: 0,0:16:33.40,0:16:35.34,*Default,NTP,0,0,0,,還有個風紀委員的女孩
+Dialogue: 0,0:16:35.93,0:16:38.21,*Default,NTP,0,0,0,,很危險 快退後
+Dialogue: 0,0:16:42.34,0:16:45.63,*Default,NTP,0,0,0,,很好 很棒 太讚了
+Dialogue: 0,0:16:45.82,0:16:49.05,*Default,NTP,0,0,0,,我漸漸使慣了強大的力量了
+Dialogue: 0,0:16:52.35,0:16:53.61,*Default,NTP,0,0,0,,馬上就好了
+Dialogue: 0,0:16:53.81,0:16:55.84,*Default,NTP,0,0,0,,等我再多搞幾次出來
+Dialogue: 0,0:16:55.87,0:16:59.26,*Default,NTP,0,0,0,,那些無能的風紀委員還有臭飛
+Dialogue: 0,0:16:59.29,0:17:01.34,*Default,NTP,0,0,0,,全都把他們炸飛...
+Dialogue: 0,0:17:10.96,0:17:12.75,*Default,NTP,0,0,0,,到底是怎麼了
+Dialogue: 0,0:17:12.79,0:17:13.67,*Default,NTP,0,0,0,,Hi～
+Dialogue: 0,0:17:14.83,0:17:19.10,*Default,NTP,0,0,0,,看起來也不用我說明來意了吧 炸彈狂先生
+Dialogue: 0,0:17:20.27,0:17:23.34,*Default,NTP,0,0,0,,你 你說什麼啊 我完全不懂
+Dialogue: 0,0:17:23.35,0:17:26.79,*Default,NTP,0,0,0,,嘛 這威力的確很大
+Dialogue: 0,0:17:27.19,0:17:30.03,*Default,NTP,0,0,0,,不過很可惜 別說死傷者
+Dialogue: 0,0:17:30.16,0:17:33.11,*Default,NTP,0,0,0,,連那麼一點擦傷的人都沒有哦
+Dialogue: 0,0:17:33.35,0:17:35.57,*Default,NTP,0,0,0,,這 這不可能！
+Dialogue: 0,0:17:35.58,0:17:37.32,*Default,NTP,0,0,0,,我可是出盡全力的
+Dialogue: 0,0:17:40.95,0:17:43.93,*Default,NTP,0,0,0,,不 在外面看也知道是個威力很大的爆炸
+Dialogue: 0,0:17:44.78,0:17:48.49,*Default,NTP,0,0,0,,於是就以為裡面的人應該沒救了...
+Dialogue: 0,0:17:57.99,0:17:59.24,*Default,NTP,0,0,0,,超電磁砲
+Dialogue: 0,0:18:03.27,0:18:06.37,*Default,NTP,0,0,0,,這次是常盤台的王牌大人啊
+Dialogue: 0,0:18:07.20,0:18:08.42,*Default,NTP,0,0,0,,每次總是這樣
+Dialogue: 0,0:18:08.65,0:18:10.04,*Default,NTP,0,0,0,,無論我做什麼
+Dialogue: 0,0:18:10.73,0:18:14.26,*Default,NTP,0,0,0,,都有人用力量 將我按倒在地
+Dialogue: 0,0:18:14.93,0:18:16.32,*Default,NTP,0,0,0,,我要殺了你
+Dialogue: 0,0:18:16.81,0:18:18.78,*Default,NTP,0,0,0,,都是你們這些人的錯
+Dialogue: 0,0:18:19.22,0:18:20.71,*Default,NTP,0,0,0,,風紀委員也一樣
+Dialogue: 0,0:18:20.96,0:18:24.63,*Default,NTP,0,0,0,,有力量的人 個個都一樣！
+Dialogue: 0,0:18:27.36,0:18:29.25,*Default,NTP,0,0,0,,張嘴閉嘴力量力量的
+Dialogue: 0,0:18:31.94,0:18:33.65,*Default,NTP,0,0,0,,給我咬緊牙關
+Dialogue: 0,0:18:41.91,0:18:42.67,*Default,NTP,0,0,0,,真是的
+Dialogue: 0,0:18:50.19,0:18:52.08,*Default,NTP,0,0,0,,挨這拳是活該
+Dialogue: 0,0:18:52.89,0:18:56.17,*Default,NTP,0,0,0,,像你這種用力量來做藉口的人
+Dialogue: 0,0:18:56.39,0:18:58.73,*Default,NTP,0,0,0,,大概就是她最不能原諒的類型了
+Dialogue: 0,0:18:59.67,0:19:00.74,*Default,NTP,0,0,0,,你知道嗎
+Dialogue: 0,0:19:01.09,0:19:02.83,*Default,NTP,0,0,0,,常盤台的超電磁砲
+Dialogue: 0,0:19:02.94,0:19:05.42,*Default,NTP,0,0,0,,原本只是個低能力者
+Dialogue: 0,0:19:02.94,0:19:05.42,*Default2,NTP,0,0,0,,{\pos(499,438)}<Level 1>
+Dialogue: 0,0:19:05.69,0:19:08.01,*Default,NTP,0,0,0,,她是經過不同常人的努力
+Dialogue: 0,0:19:08.05,0:19:10.79,*Default,NTP,0,0,0,,才獲得了超能力者的力量
+Dialogue: 0,0:19:08.05,0:19:10.79,*Default2,NTP,0,0,0,,{\pos(440,438)}<Level 5>
+Dialogue: 0,0:19:11.54,0:19:15.85,*Default,NTP,0,0,0,,不過 大概就算只是低能力者
+Dialogue: 0,0:19:11.54,0:19:15.85,*Default2,NTP,0,0,0,,{\pos(546,438)}<Level 1>
+Dialogue: 0,0:19:16.40,0:19:19.41,*Default,NTP,0,0,0,,姐姐大人還是會擋在你面前
+Dialogue: 0,0:19:39.89,0:19:41.16,*Default,NTP,0,0,0,,白井
+Dialogue: 0,0:19:43.27,0:19:45.32,*Default,NTP,0,0,0,,真是的 擔心死我了
+Dialogue: 0,0:19:45.53,0:19:46.49,*Default,NTP,0,0,0,,對不起
+Dialogue: 0,0:19:46.94,0:19:49.13,*Default,NTP,0,0,0,,不過 多虧了御坂學姐
+Dialogue: 0,0:19:49.22,0:19:51.21,*Default,NTP,0,0,0,,你看 我就像現在這樣毫髮無傷
+Dialogue: 0,0:19:51.34,0:19:54.13,*Default,NTP,0,0,0,,是常盤台的大姐姐救了我們
+Dialogue: 0,0:19:54.67,0:19:55.64,*Default,NTP,0,0,0,,對吧～
+Dialogue: 0,0:19:55.83,0:19:57.51,*Default,NTP,0,0,0,,真帥氣啊
+Dialogue: 0,0:19:57.76,0:19:58.70,*Default,NTP,0,0,0,,對吧～
+Dialogue: 0,0:19:58.68,0:20:00.06,*Default,NTP,0,0,0,,不過話說回來
+Dialogue: 0,0:20:01.17,0:20:04.24,*Default,NTP,0,0,0,,只有初春她們的所在地毫髮無傷這點
+Dialogue: 0,0:20:04.77,0:20:08.01,*Default,NTP,0,0,0,,要怎麼使用能力才能達到這個效果
+Dialogue: 0,0:20:15.70,0:20:18.25,*Default,NTP,0,0,0,,姐姐大人
+Dialogue: 0,0:20:18.76,0:20:21.61,*Default,NTP,0,0,0,,這次你真的立大功了
+Dialogue: 0,0:20:21.75,0:20:23.60,*Default,NTP,0,0,0,,謝謝你～
+Dialogue: 0,0:20:26.71,0:20:31.27,*Default,NTP,0,0,0,,黑子我 今天姐姐大人有什麼要求都一定照辦
+Dialogue: 0,0:20:31.80,0:20:37.23,*Default,NTP,0,0,0,,例如刷背 按摩 什～麼都肯做
+Dialogue: 0,0:20:37.23,0:20:40.82,*Default,NTP,0,0,0,,那只是你的欲望吧 我就免了
+Dialogue: 0,0:20:40.84,0:20:44.65,*Default,NTP,0,0,0,,啊 怎麼這樣 姐姐大人～
+Dialogue: 0,0:22:19.22,0:22:23.20,*Default,NTP,0,0,0,,當時 我的超電磁砲沒能趕上
+Dialogue: 0,0:22:34.88,0:22:37.79,*Default,NTP,0,0,0,,真正救了初春她們的
+Dialogue: 0,0:22:41.54,0:22:42.28,*Default,NTP,0,0,0,,是這傢伙
+Dialogue: 0,0:22:46.27,0:22:47.88,*Default,NTP,0,0,0,,呃 設埋伏嗎
+Dialogue: 0,0:22:48.72,0:22:49.58,*Default,NTP,0,0,0,,這樣好嗎
+Dialogue: 0,0:22:49.93,0:22:50.63,*Default,NTP,0,0,0,,啊？
+Dialogue: 0,0:22:51.11,0:22:55.15,*Default,NTP,0,0,0,,大家都以為是我救的場
+Dialogue: 0,0:22:56.90,0:22:58.61,*Default,NTP,0,0,0,,你主動站出來的話 就變成英雄了
+Dialogue: 0,0:22:58.90,0:23:01.38,*Default,NTP,0,0,0,,啊？那是什麼啊
+Dialogue: 0,0:23:02.67,0:23:05.96,*Default,NTP,0,0,0,,大家毫髮無傷 不就沒問題了嗎
+Dialogue: 0,0:23:06.60,0:23:08.76,*Default,NTP,0,0,0,,是誰救的根本無關緊要吧
+Dialogue: 0,0:23:17.47,0:23:19.23,*Default,NTP,0,0,0,,別裝得這麼拽啊
+Dialogue: 0,0:23:22.18,0:23:24.57,*Default,NTP,0,0,0,,耍什麼帥啊
+Dialogue: 0,0:23:24.78,0:23:26.70,*Default,NTP,0,0,0,,而且就對我一個？
+Dialogue: 0,0:23:27.87,0:23:29.52,*Default,NTP,0,0,0,,氣死我了
+Dialogue: 0,0:23:32.57,0:23:41.02,*title,NTP,0,0,0,,{\1c&H4D81DF\bord1.5}#8 幻想御手
+Dialogue: 0,0:23:32.57,0:23:41.02,*title,NTP,68,0,38,,{\1c&H4D81DF\bord1.5\fs14}<Level Upper>
+Dialogue: 0,0:23:31.22,0:23:32.74,*Default,NTP,0,0,0,,真是的 那傢伙總是這樣
+Dialogue: 0,0:23:32.74,0:23:33.79,*Default,NTP,0,0,0,,啊 氣死我了
+Dialogue: 0,0:23:33.79,0:23:36.10,*Default,NTP,0,0,0,,現在不是臉紅的時候 姐姐大人
+Dialogue: 0,0:23:36.11,0:23:36.53,*Default,NTP,0,0,0,,下週是...
+Dialogue: 0,0:23:36.53,0:23:38.53,*Default,NTP,0,0,0,,你說誰臉紅了
+Dialogue: 0,0:23:37.66,0:23:39.71,*Default,NTP,0,0,0,,我我我 我說的是夕陽
+Dialogue: 0,0:00:52.91,0:00:55.78,opcn,NTP,0,0,0,,{\fad(50,50)}放飛深刻於心靈中的夢想
+Dialogue: 0,0:00:55.80,0:00:59.57,opcn,NTP,0,0,0,,{\fad(20,50)}即使捨去未來也在所不惜
+Dialogue: 0,0:00:59.68,0:01:02.57,opcn,NTP,0,0,0,,{\fad(50,50)}極限什麼的不去管它  因為毫無意義
+Dialogue: 0,0:01:02.59,0:01:11.58,opcn,NTP,0,0,0,,{\fad(50,50)}以此力綻放遙遠彼方的思念
+Dialogue: 0,0:01:13.73,0:01:20.24,opcn,NTP,0,0,0,,{\fad(50,50)}走過的這條路  如果只能回頭四顧
+Dialogue: 0,0:01:20.40,0:01:26.98,opcn,NTP,0,0,0,,{\fad(50,50)}何不在此讓一切灰飛煙滅
+Dialogue: 0,0:01:27.08,0:01:30.27,opcn,NTP,0,0,0,,{\fad(50,50)}墜入黑暗的街道中
+Dialogue: 0,0:01:30.33,0:01:33.66,opcn,NTP,0,0,0,,{\fad(50,50)}人們能夠堅持到何時
+Dialogue: 0,0:01:33.78,0:01:36.91,opcn,NTP,0,0,0,,{\fad(50,50)}定能在這加速的疼痛中
+Dialogue: 0,0:01:36.97,0:01:41.21,opcn,NTP,0,0,0,,{\fad(50,50)}將重要的人守護
+Dialogue: 0,0:01:41.52,0:01:44.47,opcn,NTP,0,0,0,,{\fad(50,50)}看吧  在這閃電充斥的星球上
+Dialogue: 0,0:01:44.54,0:01:48.24,opcn,NTP,0,0,0,,{\fad(50,50)}如今只有我的電磁炮能脫穎而出
+Dialogue: 0,0:01:48.31,0:01:54.94,opcn,NTP,0,0,0,,{\fad(50,50)}抓住身體內以光速交織著的  切實的預感
+Dialogue: 0,0:01:55.03,0:02:01.66,opcn,NTP,0,0,0,,{\fad(50,50)}只要自身所望  則不遺餘力地綻放光輝
+Dialogue: 0,0:02:01.70,0:02:04.62,opcn,NTP,0,0,0,,{\fad(50,50)}堅信著昔日的誓言
+Dialogue: 0,0:02:04.64,0:02:13.69,opcn,NTP,0,0,0,,{\fad(50,50)}在眼中閃爍的淚光  也會化做自身的堅強
+Dialogue: 0,0:00:00.00,0:00:05.00,Default,,0,0,0,,
+Dialogue: 0,0:21:02.25,0:21:09.15,edcn,NTP,0,0,0,,{\fad(50,50)}話還遠遠沒有說夠
+Dialogue: 0,0:21:09.70,0:21:16.59,edcn,NTP,0,0,0,,{\fad(50,50)}晚霞已染紅了街道
+Dialogue: 0,0:21:17.11,0:21:24.07,edcn,NTP,0,0,0,,{\fad(50,50)}世事難都如人願
+Dialogue: 0,0:21:24.65,0:21:31.79,edcn,NTP,0,0,0,,{\fad(50,50)}察覺時已相依哭泣
+Dialogue: 0,0:21:32.12,0:21:35.86,edcn,NTP,0,0,0,,{\fad(50,50)}戀情  夢想  鮮花  彩虹  微風
+Dialogue: 0,0:21:35.88,0:21:38.42,edcn,NTP,0,0,0,,{\fad(50,50)}抓緊這一切
+Dialogue: 0,0:21:38.54,0:21:42.21,edcn,NTP,0,0,0,,{\fad(50,50)}沒事的  打起精神來
+Dialogue: 0,0:21:42.27,0:21:46.59,edcn,NTP,0,0,0,,{\fad(50,50)}因為有我在你的身邊
+Dialogue: 0,0:21:46.71,0:21:53.43,edcn,NTP,0,0,0,,{\fad(50,50)}與其悔恨今日不如放眼明天
+Dialogue: 0,0:21:53.51,0:21:57.17,edcn,NTP,0,0,0,,{\fad(50,50)}沒事的  不要迷惘
+Dialogue: 0,0:21:57.21,0:22:03.30,edcn,NTP,0,0,0,,{\fad(50,50)}向著未知的未來
+Dialogue: 0,0:22:03.32,0:22:08.38,edcn,NTP,0,0,0,,{\fad(50,50)}永遠走下去
+Dialogue: 0,0:00:05.00,0:00:06.00,Default,,0,0,0,,

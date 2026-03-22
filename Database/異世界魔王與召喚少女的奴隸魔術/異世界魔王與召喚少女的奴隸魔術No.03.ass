@@ -1,0 +1,422 @@
+﻿[Script Info]
+Title: 
+Original Script: 
+ScriptType: v4.00
+PlayResX: 1280
+PlayResY: 720
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,方正准圓_GBK,45,&H00FFFFFF,&H000000FF,&H000000FF,&H00777777,-1,0,0,0,100,100,0,0,1,2,0,2,7,7,10,1
+Style: OPJP,思源宋體,48,&H00FFFFFF,&H00000000,&H78000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,8,13,13,3,1
+Style: OPCN,思源宋體,48,&H00FFFFFF,&H00000000,&H78000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,2,0,0,10,1
+Style: EDJP,思源宋體,48,&H00FFFFFF,&H00000000,&H78000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,8,13,13,3,1
+Style: EDCN,思源宋體,48,&H00FFFFFF,&H00000000,&H78000000,&H00000000,-1,0,0,0,100,100,2,0,1,2,0,2,13,13,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:39.04,0:00:43.22,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}塞がれた過去から抜け出して
+Dialogue: 0,0:00:43.65,0:00:48.86,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}次の場所へ思い走らせる
+Dialogue: 0,0:00:49.69,0:00:54.15,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}辿り著く場所なんてなくても
+Dialogue: 0,0:00:54.37,0:00:59.94,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}今日の涙が星になる日まで
+Dialogue: 0,0:01:00.06,0:01:11.56,OPJP,NTP,0,0,0,!Effect,{\an9\pos(1273.333,10)\fs36.667\blur2\fad(100,100)}２つの　小さな命が燃えている
+Dialogue: 0,0:01:00.86,0:01:02.82,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}君は僕のよう
+Dialogue: 0,0:01:03.54,0:01:05.37,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}僕は君のよう
+Dialogue: 0,0:01:05.65,0:01:10.53,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)\pos()}違うのに同じ　背中合わせだね
+Dialogue: 0,0:01:11.03,0:01:18.68,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}覚醒の果に　決意輝けて
+Dialogue: 0,0:01:16.09,0:01:19.86,OPJP,NTP,0,0,0,!Effect,{\an9\pos(1273.333,6.667)\fs36.667\blur2\fad(100,100)}Go into the brand new world
+Dialogue: 0,0:01:20.21,0:01:21.33,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}負けたくない
+Dialogue: 0,0:01:21.33,0:01:22.98,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}逃げたくない
+Dialogue: 0,0:01:23.20,0:01:25.77,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}不可能なんて信じない
+Dialogue: 0,0:01:26.03,0:01:30.58,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}奪い奪われる日々は要らない
+Dialogue: 0,0:01:30.86,0:01:33.62,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}夢を見て　夢に愛され
+Dialogue: 0,0:01:33.87,0:01:36.36,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}新たなる光になる
+Dialogue: 0,0:01:36.66,0:01:41.86,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}優しさだけじゃ誰も守れないならば
+Dialogue: 0,0:01:42.18,0:01:47.82,OPJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}本當の強さを知りたいから
+Dialogue: 0,0:00:39.04,0:00:43.22,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}突破過去的重重封鎖
+Dialogue: 0,0:00:43.65,0:00:48.86,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}向著彼岸　一往無前
+Dialogue: 0,0:00:49.69,0:00:54.15,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}就算道路永無止境
+Dialogue: 0,0:00:54.37,0:00:59.94,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}今日的淚水終將化為星辰
+Dialogue: 0,0:01:00.06,0:01:11.56,OPCN,NTP,0,0,0,!Effect,{\an3\pos(1273.333,703.333)\blur2\fs36.667\fad(100,100)}一對微小的生命　在此刻燃燒
+Dialogue: 0,0:01:00.86,0:01:02.82,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}你中有我
+Dialogue: 0,0:01:03.54,0:01:05.37,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}我中有你
+Dialogue: 0,0:01:05.65,0:01:10.53,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}雖截然不同　卻並肩作戰
+Dialogue: 0,0:01:11.03,0:01:18.68,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}決意指向　覺醒的前方
+Dialogue: 0,0:01:20.21,0:01:21.33,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}不想認輸
+Dialogue: 0,0:01:21.33,0:01:22.98,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}不願逃避
+Dialogue: 0,0:01:23.20,0:01:25.77,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}相信事事皆有可能
+Dialogue: 0,0:01:26.03,0:01:30.58,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}遠離爭鬥的日子
+Dialogue: 0,0:01:30.86,0:01:33.62,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}懷抱夢想　深愛希望
+Dialogue: 0,0:01:33.87,0:01:36.36,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}成為新的光芒
+Dialogue: 0,0:01:36.66,0:01:41.86,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}只有溫柔　無法守護
+Dialogue: 0,0:01:42.18,0:01:47.82,OPCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}那就去找到　真正的強大吧
+Dialogue: 0,0:01:56.40,0:01:58.58,Default,NTP,0,0,0,!Effect,不好意思 麻煩你們跑一趟
+Dialogue: 0,0:01:59.28,0:02:01.88,Default,NTP,0,0,0,!Effect,前不久剛讓你們辛苦一番
+Dialogue: 0,0:02:02.22,0:02:04.32,Default,NTP,0,0,0,!Effect,這次又是指名迪亞布羅先生的任務哦
+Dialogue: 0,0:02:04.75,0:02:06.72,Default,NTP,0,0,0,!Effect,特意指名迪亞布羅嗎
+Dialogue: 0,0:02:06.86,0:02:08.62,Default,NTP,0,0,0,!Effect,該不會又是什麼陷阱吧
+Dialogue: 0,0:02:10.16,0:02:12.06,Default,NTP,0,0,0,!Effect,這次的沒問題啦
+Dialogue: 0,0:02:12.09,0:02:14.73,Default,NTP,0,0,0,!Effect,畢竟是魔法師協會的老大
+Dialogue: 0,0:02:14.76,0:02:16.90,Default,NTP,0,0,0,!Effect,賽勒絲汀娜·波特賴爾發起
+Dialogue: 0,0:02:17.47,0:02:19.70,Default,NTP,0,0,0,!Effect,我直接接下的任務
+Dialogue: 0,0:02:20.17,0:02:21.40,Default,NTP,0,0,0,!Effect,賽勒絲發佈的嗎
+Dialogue: 0,0:02:21.44,0:02:24.14,Default,NTP,0,0,0,!Effect,而且內容簡單 報酬還豐厚
+Dialogue: 0,0:02:24.14,0:02:27.18,Default,NTP,0,0,0,!Effect,是為了卡拉克的事給我賠罪嗎
+Dialogue: 0,0:02:27.21,0:02:29.51,Default,NTP,0,0,0,!Effect,嗯 應該是這樣吧
+Dialogue: 0,0:02:29.54,0:02:31.25,Default,NTP,0,0,0,!Effect,我不去
+Dialogue: 0,0:02:32.18,0:02:34.72,Default,NTP,0,0,0,!Effect,我不想欠賽勒絲的人情
+Dialogue: 0,0:02:34.78,0:02:36.95,Default,NTP,0,0,0,!Effect,如果是普通的任務倒無所謂
+Dialogue: 0,0:02:36.95,0:02:39.85,Default,NTP,0,0,0,!Effect,但是與任務難度不符的高報酬任務 我拒絕接受
+Dialogue: 0,0:02:40.76,0:02:41.96,Default,NTP,0,0,0,!Effect,還真是認真啊
+Dialogue: 0,0:02:42.59,0:02:44.59,Default,NTP,0,0,0,!Effect,不過確實是雪中送炭啊
+Dialogue: 0,0:02:44.59,0:02:46.86,Default,NTP,0,0,0,!Effect,我們手頭錢又不多
+Dialogue: 0,0:02:48.06,0:02:49.53,Default,NTP,0,0,0,!Effect,任務這麼簡單
+Dialogue: 0,0:02:49.86,0:02:52.57,Default,NTP,0,0,0,!Effect,不用三個人一起去應該也沒問題
+Dialogue: 0,0:02:52.63,0:02:54.40,Default,NTP,0,0,0,!Effect,你說怎麼辦 迪亞布羅
+Dialogue: 0,0:02:57.54,0:03:01.91,Default,NTP,0,0,0,!Effect,這個任務的酬勞就讓蕾姆當住宿費花掉吧
+Dialogue: 0,0:03:04.31,0:03:07.75,Default,NTP,0,0,0,!Effect,你不想來的話就自己一個人留在城裡吧
+Dialogue: 0,0:03:08.52,0:03:09.48,Default,NTP,0,0,0,!Effect,好的
+Dialogue: 0,0:03:09.65,0:03:12.75,Default,NTP,0,0,0,!Effect,好 雪拉和迪亞布羅先生去 對吧
+Dialogue: 0,0:03:12.92,0:03:14.82,Default,NTP,0,0,0,!Effect,那就這樣決定了
+Dialogue: 0,0:03:14.89,0:03:15.82,Default,NTP,0,0,0,!Effect,有勞你們了
+Dialogue: 0,0:03:17.39,0:03:20.43,Default,NTP,0,0,0,!Effect,往烏魯格寨橋送慰問品
+Dialogue: 0,0:03:20.56,0:03:21.60,Default,NTP,0,0,0,!Effect,太輕鬆了吧
+Dialogue: 0,0:03:21.60,0:03:23.57,Default,NTP,0,0,0,!Effect,真的是在給我賠罪啊
+Dialogue: 0,0:03:23.60,0:03:26.63,Default,NTP,0,0,0,!Effect,賽勒絲她真的以為發佈這麼簡單的任務
+Dialogue: 0,0:03:26.67,0:03:30.07,Default,NTP,0,0,0,!Effect,我會乖乖收下酬勞嗎
+Dialogue: 0,0:03:33.41,0:03:36.81,Default,NTP,0,0,0,!Effect,我倒是覺得賽勒絲小姐很善良啊
+Dialogue: 0,0:03:38.51,0:03:39.58,Default,NTP,0,0,0,!Effect,等等 混魔族
+Dialogue: 0,0:03:41.38,0:03:46.02,Default,NTP,0,0,0,!Effect,現在城裡人人皆知的那個混魔族 就是你吧
+Dialogue: 0,0:03:46.72,0:03:50.46,Default,NTP,0,0,0,!Effect,和傳言一樣 長著一張壞人臉啊
+Dialogue: 0,0:03:50.99,0:03:52.13,Default,NTP,0,0,0,!Effect,埃米爾
+Dialogue: 0,0:03:52.13,0:03:52.16,Default,NTP,0,0,0,!Effect,傳言埃米 傳專言
+Dialogue: 0,0:03:52.16,0:03:54.43,Default,NTP,0,0,0,!Effect,傳言 什麼傳言
+Dialogue: 0,0:03:54.80,0:03:57.37,Default,NTP,0,0,0,!Effect,傳聞有個長角的陌生混魔族
+Dialogue: 0,0:03:57.40,0:04:00.57,Default,NTP,0,0,0,!Effect,給女性戴上項圈帶著她們四處走動
+Dialogue: 0,0:04:00.60,0:04:03.57,Default,NTP,0,0,0,!Effect,說的就是你吧 混魔族
+Dialogue: 0,0:04:03.61,0:04:05.61,Default,NTP,0,0,0,!Effect,這傳言也太糟糕了
+Dialogue: 0,0:04:06.47,0:04:09.84,Default,NTP,0,0,0,!Effect,話說這個角只是裝備「歪曲王冠」而已啊
+Dialogue: 0,0:04:09.88,0:04:11.95,Default,NTP,0,0,0,!Effect,被當成真的角了嗎
+Dialogue: 0,0:04:13.35,0:04:14.75,Default,NTP,0,0,0,!Effect,這傢伙什麼來路
+Dialogue: 0,0:04:14.82,0:04:18.62,Default,NTP,0,0,0,!Effect,是號稱冒險者協會最強大的戰士
+Dialogue: 0,0:04:18.69,0:04:19.92,Default,NTP,0,0,0,!Effect,沒錯
+Dialogue: 0,0:04:20.39,0:04:21.72,Default,NTP,0,0,0,!Effect,小爺我名叫
+Dialogue: 0,0:04:22.02,0:04:24.46,Default,NTP,0,0,0,!Effect,埃米爾·畢謝爾貝傑爾
+Dialogue: 0,0:04:24.49,0:04:30.60,Default,NTP,0,0,0,!Effect,Lv50 是協會第一的怪力戰士
+Dialogue: 0,0:04:31.80,0:04:35.27,Default,NTP,0,0,0,!Effect,長角的混魔族覺悟吧
+Dialogue: 0,0:04:37.04,0:04:38.47,Default,NTP,0,0,0,!Effect,好像遊戲一樣
+Dialogue: 0,0:04:38.51,0:04:39.24,Default,NTP,0,0,0,!Effect,就是這個
+Dialogue: 0,0:04:39.24,0:04:41.88,Default,NTP,0,0,0,!Effect,就是要有挑戰者 才有當魔王的感覺啊
+Dialogue: 0,0:04:44.31,0:04:47.92,Default,NTP,0,0,0,!Effect,誰允許你自報家門了 小弟弟
+Dialogue: 0,0:04:48.12,0:04:49.08,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:04:49.15,0:04:53.25,Default,NTP,0,0,0,!Effect,那你呢 是誰允許你帶著兩人四處走動的
+Dialogue: 0,0:04:53.29,0:04:54.72,Default,NTP,0,0,0,!Effect,你聽好了 混魔族
+Dialogue: 0,0:04:54.79,0:04:59.23,Default,NTP,0,0,0,!Effect,我熱愛女性啊
+Dialogue: 0,0:05:02.10,0:05:02.66,Default,NTP,0,0,0,!Effect,啥玩意
+Dialogue: 0,0:05:02.96,0:05:05.53,Default,NTP,0,0,0,!Effect,竟然讓蕾姆和雪拉做你的奴隸
+Dialogue: 0,0:05:05.57,0:05:08.34,Default,NTP,0,0,0,!Effect,身為女性守護者的我決不允許
+Dialogue: 0,0:05:08.37,0:05:09.74,Default,NTP,0,0,0,!Effect,埃米爾 你聽我說
+Dialogue: 0,0:05:09.77,0:05:10.91,Default,NTP,0,0,0,!Effect,這個項圈是
+Dialogue: 0,0:05:11.24,0:05:15.21,Default,NTP,0,0,0,!Effect,你們放心吧 我這就來救你們
+Dialogue: 0,0:05:15.61,0:05:17.11,Default,NTP,0,0,0,!Effect,這人腦殼有包
+Dialogue: 0,0:05:17.11,0:05:20.32,Default,NTP,0,0,0,!Effect,不過這還是到了這個世界以來第一次遇到挑戰者
+Dialogue: 0,0:05:20.72,0:05:23.82,Default,NTP,0,0,0,!Effect,戰鬥方式是不是和遊戲一樣呢
+Dialogue: 0,0:05:24.85,0:05:28.39,Default,NTP,0,0,0,!Effect,Lv50的話 應該能使用一些特殊技能了
+Dialogue: 0,0:05:31.16,0:05:33.59,Default,NTP,0,0,0,!Effect,這個姿勢 是劍刃重擊
+Dialogue: 0,0:05:33.96,0:05:35.26,Default,NTP,0,0,0,!Effect,是在瞬間向敵人突擊
+Dialogue: 0,0:05:35.30,0:05:37.07,Default,NTP,0,0,0,!Effect,進行反復橫掃的武技
+Dialogue: 0,0:05:37.10,0:05:39.30,Default,NTP,0,0,0,!Effect,是開始攻擊的慣常手段
+Dialogue: 0,0:05:40.54,0:05:42.30,Default,NTP,0,0,0,!Effect,咦 我怎麼
+Dialogue: 0,0:05:42.90,0:05:44.97,Default,NTP,0,0,0,!Effect,久違地興奮起來了
+Dialogue: 0,0:05:45.57,0:05:47.68,Default,NTP,0,0,0,!Effect,劍刃重擊 這樣的慣常手段
+Dialogue: 0,0:05:47.71,0:05:50.55,Default,NTP,0,0,0,!Effect,在PK戰中容易被對手識破
+Dialogue: 0,0:05:50.58,0:05:52.05,Default,NTP,0,0,0,!Effect,但經驗老道的玩家
+Dialogue: 0,0:05:52.08,0:05:54.72,Default,NTP,0,0,0,!Effect,可以只發動劍刃重擊的突擊部分
+Dialogue: 0,0:05:54.78,0:05:58.59,Default,NTP,0,0,0,!Effect,取消橫掃 緊接著開始下個攻擊動作
+Dialogue: 0,0:05:59.85,0:06:02.46,Default,NTP,0,0,0,!Effect,迪亞布羅他怎麼好像怪怪的
+Dialogue: 0,0:06:03.29,0:06:05.96,Default,NTP,0,0,0,!Effect,接招吧 看我來解放她們倆
+Dialogue: 0,0:06:05.99,0:06:06.93,Default,NTP,0,0,0,!Effect,來吧
+Dialogue: 0,0:06:12.87,0:06:14.90,Default,NTP,0,0,0,!Effect,居然不取消橫擔動作
+Dialogue: 0,0:06:15.20,0:06:17.97,Default,NTP,0,0,0,!Effect,真是意外 你竟能接下這一招
+Dialogue: 0,0:06:19.21,0:06:22.31,Default,NTP,0,0,0,!Effect,實在菜的不行 我反而有些震驚
+Dialogue: 0,0:06:24.01,0:06:25.58,Default,NTP,0,0,0,!Effect,阿爾卑斯大斬
+Dialogue: 0,0:06:25.61,0:06:27.08,Default,NTP,0,0,0,!Effect,阿爾卑斯大斬
+Dialogue: 0,0:06:27.55,0:06:29.05,Default,NTP,0,0,0,!Effect,這招威力強大但相對的
+Dialogue: 0,0:06:29.12,0:06:31.99,Default,NTP,0,0,0,!Effect,發動的前搖時間也較長
+Dialogue: 0,0:06:32.02,0:06:33.69,Default,NTP,0,0,0,!Effect,居然在這麼近距離發動嗎
+Dialogue: 0,0:06:33.76,0:06:35.86,Default,NTP,0,0,0,!Effect,力量不斷湧現
+Dialogue: 0,0:06:35.89,0:06:40.63,Default,NTP,0,0,0,!Effect,等我使出這一招 勝利就是我囊中之物
+Dialogue: 0,0:06:42.83,0:06:43.63,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:06:45.27,0:06:47.44,Default,NTP,0,0,0,!Effect,感覺像在吊錘菜雞
+Dialogue: 0,0:06:48.50,0:06:52.51,Default,NTP,0,0,0,!Effect,我光以為這個世界和遊戲裡相比等級偏低
+Dialogue: 0,0:06:52.97,0:06:55.08,Default,NTP,0,0,0,!Effect,居然連玩家技能水準也這麼爛嗎
+Dialogue: 0,0:06:55.84,0:06:59.01,Default,NTP,0,0,0,!Effect,算了 說不定只是這傢伙比較蠢吧
+Dialogue: 0,0:07:00.68,0:07:03.02,Default,NTP,0,0,0,!Effect,絕不認輸
+Dialogue: 0,0:07:04.22,0:07:05.89,Default,NTP,0,0,0,!Effect,還挺有毅力的
+Dialogue: 0,0:07:05.89,0:07:09.86,Default,NTP,0,0,0,!Effect,小爺我絕不可能在敵人面前倒下
+Dialogue: 0,0:07:11.26,0:07:13.39,Default,NTP,0,0,0,!Effect,下一招我就不會手下留情了
+Dialogue: 0,0:07:13.43,0:07:17.30,Default,NTP,0,0,0,!Effect,為了被蹂躪的女性們 我會戰鬥到底
+Dialogue: 0,0:07:17.50,0:07:19.53,Default,NTP,0,0,0,!Effect,好啊 放馬過來
+Dialogue: 0,0:07:20.64,0:07:22.44,Default,NTP,0,0,0,!Effect,停
+Dialogue: 0,0:07:23.74,0:07:25.41,Default,NTP,0,0,0,!Effect,蕾姆 雪拉
+Dialogue: 0,0:07:25.71,0:07:27.68,Default,NTP,0,0,0,!Effect,埃米爾 夠了
+Dialogue: 0,0:07:27.68,0:07:30.24,Default,NTP,0,0,0,!Effect,別放棄希望啊 我現在就
+Dialogue: 0,0:07:30.28,0:07:31.38,Default,NTP,0,0,0,!Effect,不是這樣的
+Dialogue: 0,0:07:32.45,0:07:35.12,Default,NTP,0,0,0,!Effect,你誤會了吧
+Dialogue: 0,0:07:37.49,0:07:41.32,Default,NTP,0,0,0,!Effect,也就是說 我們會戴上這個隸從項圈
+Dialogue: 0,0:07:42.19,0:07:44.53,Default,NTP,0,0,0,!Effect,是由於我的失誤
+Dialogue: 0,0:07:44.96,0:07:48.66,Default,NTP,0,0,0,!Effect,迪亞布羅是幫助我們想辦法解除項圈的
+Dialogue: 0,0:07:48.93,0:07:51.47,Default,NTP,0,0,0,!Effect,雖然很感激你的好意
+Dialogue: 0,0:07:51.80,0:07:54.40,Default,NTP,0,0,0,!Effect,但是一切都是你誤會了
+Dialogue: 0,0:07:58.21,0:08:00.01,Default,NTP,0,0,0,!Effect,太好了太好了
+Dialogue: 0,0:08:00.58,0:08:04.05,Default,NTP,0,0,0,!Effect,原來沒有女性被強迫戴上隸從項圈啊
+Dialogue: 0,0:08:04.25,0:08:06.11,Default,NTP,0,0,0,!Effect,這人臉皮太厚了吧
+Dialogue: 0,0:08:06.68,0:08:08.42,Default,NTP,0,0,0,!Effect,失禮了 混魔族
+Dialogue: 0,0:08:08.42,0:08:09.88,Default,NTP,0,0,0,!Effect,你叫什麼名字
+Dialogue: 0,0:08:09.92,0:08:11.09,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:08:11.12,0:08:14.39,Default,NTP,0,0,0,!Effect,我叫埃米爾·畢謝爾貝傑爾
+Dialogue: 0,0:08:14.46,0:08:18.03,Default,NTP,0,0,0,!Effect,是一切女性 和女性的同伴的同伴
+Dialogue: 0,0:08:18.73,0:08:22.56,Default,NTP,0,0,0,!Effect,需要幫忙的時候 隨時可以找我
+Dialogue: 0,0:08:22.60,0:08:25.60,Default,NTP,0,0,0,!Effect,不過你的身手也相當了得
+Dialogue: 0,0:08:26.07,0:08:26.87,Default,NTP,0,0,0,!Effect,這樣啊
+Dialogue: 0,0:08:27.37,0:08:29.30,Default,NTP,0,0,0,!Effect,再會了 朋友啊
+Dialogue: 0,0:08:31.04,0:08:32.04,Default,NTP,0,0,0,!Effect,朋友
+Dialogue: 0,0:08:32.67,0:08:36.84,Default,NTP,0,0,0,!Effect,抱歉 因為我們 你被人誤會了
+Dialogue: 0,0:08:38.21,0:08:41.35,Default,NTP,0,0,0,!Effect,那種小嘍囉 根本不夠看
+Dialogue: 0,0:08:41.85,0:08:46.69,Default,NTP,0,0,0,!Effect,埃米爾也不是壞人 實力也相當不錯
+Dialogue: 0,0:08:46.75,0:08:49.22,Default,NTP,0,0,0,!Effect,不過那個人看起來傻傻的呢
+Dialogue: 0,0:08:49.26,0:08:50.63,Default,NTP,0,0,0,!Effect,居然說出來了
+Dialogue: 0,0:08:53.86,0:09:00.40,Default,NTP,0,0,0,!Effect,跑腿兒 跑腿兒 去烏魯格寨橋
+Dialogue: 0,0:09:00.47,0:09:02.97,Default,NTP,0,0,0,!Effect,烏魯格寨橋啊 在遊戲中
+Dialogue: 0,0:09:03.00,0:09:07.01,Default,NTP,0,0,0,!Effect,是保護法德拉 不受食人森林怪物入侵的寨橋吧
+Dialogue: 0,0:09:08.04,0:09:09.68,Default,NTP,0,0,0,!Effect,天氣真好呀
+Dialogue: 0,0:09:09.74,0:09:13.18,Default,NTP,0,0,0,!Effect,不過 只是普通的跑腿 有點無聊啊
+Dialogue: 0,0:09:13.25,0:09:14.12,Default,NTP,0,0,0,!Effect,是啊
+Dialogue: 0,0:09:17.82,0:09:20.62,Default,NTP,0,0,0,!Effect,我說 要不要下去洗個澡
+Dialogue: 0,0:09:21.52,0:09:24.09,Default,NTP,0,0,0,!Effect,好不好嘛 來嘛
+Dialogue: 0,0:09:24.73,0:09:26.76,Default,NTP,0,0,0,!Effect,和女孩一起洗澡
+Dialogue: 0,0:09:27.09,0:09:28.76,Default,NTP,0,0,0,!Effect,這種福利事件
+Dialogue: 0,0:09:28.80,0:09:31.90,Default,NTP,0,0,0,!Effect,有交流障礙的我絕不可能達成
+Dialogue: 0,0:09:32.73,0:09:36.80,Default,NTP,0,0,0,!Effect,蠢貨 正執行任務呢 你你你洗什麼澡啊
+Dialogue: 0,0:09:36.87,0:09:38.67,Default,NTP,0,0,0,!Effect,可是好無聊啊
+Dialogue: 0,0:09:38.71,0:09:41.31,Default,NTP,0,0,0,!Effect,想做點有趣的事啊
+Dialogue: 0,0:09:41.34,0:09:43.95,Default,NTP,0,0,0,!Effect,要是有亂入 就有趣了
+Dialogue: 0,0:09:43.98,0:09:45.01,Default,NTP,0,0,0,!Effect,亂入
+Dialogue: 0,0:09:45.08,0:09:49.55,Default,NTP,0,0,0,!Effect,指的是在低等級的任務中 出現高等級怪獸的情況
+Dialogue: 0,0:09:50.18,0:09:51.92,Default,NTP,0,0,0,!Effect,我可不要那樣
+Dialogue: 0,0:09:55.19,0:09:58.16,Default,NTP,0,0,0,!Effect,我可不像迪亞布羅這麼強
+Dialogue: 0,0:09:58.23,0:10:02.03,Default,NTP,0,0,0,!Effect,蠢蠢蠢蠢貨 冒險者怎麼能害怕危險
+Dialogue: 0,0:10:02.10,0:10:05.63,Default,NTP,0,0,0,!Effect,當然我也不想一直這樣
+Dialogue: 0,0:10:06.00,0:10:11.44,Default,NTP,0,0,0,!Effect,我想變得像迪亞布羅和蕾姆一樣強大 想獨立起來
+Dialogue: 0,0:10:12.17,0:10:14.01,Default,NTP,0,0,0,!Effect,那你努力吧
+Dialogue: 0,0:10:14.98,0:10:16.11,Default,NTP,0,0,0,!Effect,謝謝你
+Dialogue: 0,0:10:16.14,0:10:20.25,Default,NTP,0,0,0,!Effect,所以在那之前 可能還會給你添麻煩
+Dialogue: 0,0:10:20.25,0:10:21.98,Default,NTP,0,0,0,!Effect,迪亞布羅也要幫幫我呀
+Dialogue: 0,0:10:22.62,0:10:25.69,Default,NTP,0,0,0,!Effect,我還會變得更大的
+Dialogue: 0,0:10:25.72,0:10:30.32,Default,NTP,0,0,0,!Effect,再變大的話我就要升天了
+Dialogue: 0,0:10:37.00,0:10:38.33,Default,NTP,0,0,0,!Effect,那個男人 是魔族嗎
+Dialogue: 0,0:10:38.40,0:10:40.47,Default,NTP,0,0,0,!Effect,為什麼會從法德拉方向來
+Dialogue: 0,0:10:40.97,0:10:42.94,Default,NTP,0,0,0,!Effect,你們是什麼人 我是
+Dialogue: 0,0:10:42.97,0:10:45.24,Default,NTP,0,0,0,!Effect,住口 可疑的傢伙
+Dialogue: 0,0:10:45.31,0:10:47.61,Default,NTP,0,0,0,!Effect,既然不是魔族 你那角是怎麼回事
+Dialogue: 0,0:10:47.64,0:10:48.84,Default,NTP,0,0,0,!Effect,又說我的角啊
+Dialogue: 0,0:10:50.65,0:10:53.35,Default,NTP,0,0,0,!Effect,等等各位 這個人是混魔族
+Dialogue: 0,0:10:53.41,0:10:54.48,Default,NTP,0,0,0,!Effect,不是魔族
+Dialogue: 0,0:10:54.55,0:10:55.48,Default,NTP,0,0,0,!Effect,波利斯
+Dialogue: 0,0:10:55.52,0:10:59.49,Default,NTP,0,0,0,!Effect,他應該是最近城裡傳聞的那個長角的混魔族
+Dialogue: 0,0:10:59.52,0:11:01.99,Default,NTP,0,0,0,!Effect,給女人戴項圈的那個
+Dialogue: 0,0:11:03.76,0:11:05.26,Default,NTP,0,0,0,!Effect,居然被傳言救了一把
+Dialogue: 0,0:11:05.59,0:11:09.50,Default,NTP,0,0,0,!Effect,我們是接了任務 來送慰問品的 看 葡萄酒
+Dialogue: 0,0:11:09.96,0:11:13.57,Default,NTP,0,0,0,!Effect,不像話 居然把我當成惡魔
+Dialogue: 0,0:11:14.00,0:11:17.00,Default,NTP,0,0,0,!Effect,看你們草木皆兵 發生什麼事了
+Dialogue: 0,0:11:17.04,0:11:21.04,Default,NTP,0,0,0,!Effect,是這樣 剛才巡邏傳來的報告
+Dialogue: 0,0:11:21.54,0:11:25.58,Default,NTP,0,0,0,!Effect,說有超過一百隻的魔族大軍 正在往這裡來
+Dialogue: 0,0:11:25.78,0:11:27.05,Default,NTP,0,0,0,!Effect,魔族
+Dialogue: 0,0:11:27.08,0:11:28.22,Default,NTP,0,0,0,!Effect,100隻
+Dialogue: 0,0:11:28.52,0:11:30.62,Default,NTP,0,0,0,!Effect,我們也十分難以置信
+Dialogue: 0,0:11:31.12,0:11:32.12,Default,NTP,0,0,0,!Effect,魔族
+Dialogue: 0,0:11:32.49,0:11:35.76,Default,NTP,0,0,0,!Effect,在十字幻想曲中的任何一個劇情中 都是BOSS級別
+Dialogue: 0,0:11:36.16,0:11:39.96,Default,NTP,0,0,0,!Effect,魔族成群入侵的事件 從沒聽說過
+Dialogue: 0,0:11:41.10,0:11:44.20,Default,NTP,0,0,0,!Effect,這在遊戲裡根本不可能 是大規模的亂入嗎
+Dialogue: 0,0:11:45.83,0:11:47.67,Default,NTP,0,0,0,!Effect,你那邊怎麼樣了
+Dialogue: 0,0:11:47.74,0:11:48.77,Default,NTP,0,0,0,!Effect,快各就各位
+Dialogue: 0,0:11:48.80,0:11:49.57,Default,NTP,0,0,0,!Effect,快點
+Dialogue: 0,0:11:51.77,0:11:53.91,Default,NTP,0,0,0,!Effect,會怎麼樣啊 迪亞布羅
+Dialogue: 0,0:11:54.71,0:11:55.64,Default,NTP,0,0,0,!Effect,會怎麼樣
+Dialogue: 0,0:11:57.11,0:11:59.95,Default,NTP,0,0,0,!Effect,想都不用想 這裡的人都會被滅
+Dialogue: 0,0:12:01.15,0:12:03.42,Default,NTP,0,0,0,!Effect,這個世界的人類和遊戲裡相比
+Dialogue: 0,0:12:03.45,0:12:05.72,Default,NTP,0,0,0,!Effect,等級和技能水準都明顯偏低
+Dialogue: 0,0:12:06.29,0:12:09.36,Default,NTP,0,0,0,!Effect,就算抵抗 撐不了多久就會被虐殺的吧
+Dialogue: 0,0:12:10.02,0:12:10.83,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:12:11.59,0:12:13.19,Default,NTP,0,0,0,!Effect,問題不在這裡
+Dialogue: 0,0:12:14.43,0:12:16.93,Default,NTP,0,0,0,!Effect,就算他們突破了烏魯格寨橋
+Dialogue: 0,0:12:17.20,0:12:20.43,Default,NTP,0,0,0,!Effect,法德拉也有賽勒絲的結界守護
+Dialogue: 0,0:12:20.67,0:12:22.24,Default,NTP,0,0,0,!Effect,魔族是進不去的
+Dialogue: 0,0:12:22.70,0:12:25.61,Default,NTP,0,0,0,!Effect,那為何還要進行如此無益的遠征
+Dialogue: 0,0:12:25.97,0:12:30.08,Default,NTP,0,0,0,!Effect,據說 魔族現正為了復活克雷布斯庫爾姆
+Dialogue: 0,0:12:30.11,0:12:32.38,Default,NTP,0,0,0,!Effect,而四下進行活動
+Dialogue: 0,0:12:33.15,0:12:35.15,Default,NTP,0,0,0,!Effect,那麼他們的目標是蕾姆嗎
+Dialogue: 0,0:12:35.75,0:12:38.72,Default,NTP,0,0,0,!Effect,她體內寄宿著魔王的秘密被發現了嗎
+Dialogue: 0,0:12:39.85,0:12:40.82,Default,NTP,0,0,0,!Effect,回到城裡吧
+Dialogue: 0,0:12:41.22,0:12:45.93,Default,NTP,0,0,0,!Effect,就算是我 一口氣對付100隻魔族也有些棘手
+Dialogue: 0,0:12:46.86,0:12:47.60,Default,NTP,0,0,0,!Effect,那個
+Dialogue: 0,0:12:48.73,0:12:51.00,Default,NTP,0,0,0,!Effect,這個是道謝信
+Dialogue: 0,0:12:51.97,0:12:54.44,Default,NTP,0,0,0,!Effect,能當做我們收下了葡萄酒的證明
+Dialogue: 0,0:12:54.47,0:12:57.27,Default,NTP,0,0,0,!Effect,現在是說這個的時候嗎 情況十萬火急啊
+Dialogue: 0,0:12:57.34,0:13:00.31,Default,NTP,0,0,0,!Effect,也許你們會覺得我沒有危機感
+Dialogue: 0,0:13:00.34,0:13:03.38,Default,NTP,0,0,0,!Effect,但如果今天是我人生的最後一天
+Dialogue: 0,0:13:04.04,0:13:06.18,Default,NTP,0,0,0,!Effect,我就想認真度過
+Dialogue: 0,0:13:08.75,0:13:10.65,Default,NTP,0,0,0,!Effect,你們不撤退嗎
+Dialogue: 0,0:13:11.12,0:13:12.75,Default,NTP,0,0,0,!Effect,我們撤退的話
+Dialogue: 0,0:13:12.82,0:13:17.39,Default,NTP,0,0,0,!Effect,在田裡勞作的人們 行動較慢的旅人們就要遭殃了
+Dialogue: 0,0:13:18.66,0:13:22.40,Default,NTP,0,0,0,!Effect,給大家爭取時間逃進城裡 就是我們的任務
+Dialogue: 0,0:13:24.43,0:13:25.40,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:13:29.37,0:13:33.17,Default,NTP,0,0,0,!Effect,小子 很遺憾 你的覺悟要白費了
+Dialogue: 0,0:13:35.21,0:13:39.45,Default,NTP,0,0,0,!Effect,我絕不會讓今天 成為你人生中的最後一天
+Dialogue: 0,0:13:44.35,0:13:45.55,Default,NTP,0,0,0,!Effect,蕾姆
+Dialogue: 0,0:13:46.69,0:13:48.86,Default,NTP,0,0,0,!Effect,蕾姆 有客人找你
+Dialogue: 0,0:13:49.39,0:13:50.36,Default,NTP,0,0,0,!Effect,客人
+Dialogue: 0,0:13:58.37,0:13:59.23,Default,NTP,0,0,0,!Effect,迪亞布羅先生
+Dialogue: 0,0:13:59.83,0:14:02.00,Default,NTP,0,0,0,!Effect,最後一位平民已經出去了
+Dialogue: 0,0:14:02.07,0:14:04.17,Default,NTP,0,0,0,!Effect,在他們到達城裡之前
+Dialogue: 0,0:14:04.24,0:14:07.88,Default,NTP,0,0,0,!Effect,為了給他們爭取時間 我們現在要關上大門
+Dialogue: 0,0:14:07.98,0:14:09.84,Default,NTP,0,0,0,!Effect,那你就快關上吧
+Dialogue: 0,0:14:09.91,0:14:13.41,Default,NTP,0,0,0,!Effect,請您三思 一個人戰鬥太亂來了
+Dialogue: 0,0:14:14.95,0:14:15.95,Default,NTP,0,0,0,!Effect,迪亞布羅先生
+Dialogue: 0,0:14:16.02,0:14:17.55,Default,NTP,0,0,0,!Effect,魔族來了
+Dialogue: 0,0:14:58.33,0:14:59.69,Default,NTP,0,0,0,!Effect,你們退下
+Dialogue: 0,0:14:59.76,0:15:02.33,Default,NTP,0,0,0,!Effect,站在我身邊 不方便我使用魔法
+Dialogue: 0,0:15:02.40,0:15:03.00,Default,NTP,0,0,0,!Effect,可是
+Dialogue: 0,0:15:03.06,0:15:04.50,Default,NTP,0,0,0,!Effect,聽他的吧
+Dialogue: 0,0:15:05.03,0:15:07.94,Default,NTP,0,0,0,!Effect,不會有事的 迪亞布羅很強
+Dialogue: 0,0:15:14.11,0:15:14.94,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:15:15.34,0:15:16.18,Default,NTP,0,0,0,!Effect,怎麼了
+Dialogue: 0,0:15:17.85,0:15:19.08,Default,NTP,0,0,0,!Effect,你要小心
+Dialogue: 0,0:15:29.79,0:15:31.53,Default,NTP,0,0,0,!Effect,「你要小心」嗎
+Dialogue: 0,0:15:32.33,0:15:35.76,Default,NTP,0,0,0,!Effect,在戰鬥前被別人擔心 這還是第一次
+Dialogue: 0,0:15:36.93,0:15:38.60,Default,NTP,0,0,0,!Effect,100隻魔族是很可怕
+Dialogue: 0,0:15:39.20,0:15:40.20,Default,NTP,0,0,0,!Effect,但是這一刻
+Dialogue: 0,0:15:40.27,0:15:42.67,Default,NTP,0,0,0,!Effect,就算對手是魔王我也不會輸
+Dialogue: 0,0:15:44.41,0:15:45.47,Default,NTP,0,0,0,!Effect,你們這幫傢伙
+Dialogue: 0,0:15:46.17,0:15:48.84,Default,NTP,0,0,0,!Effect,是誰允許你們進軍到此的
+Dialogue: 0,0:15:49.38,0:15:53.98,Default,NTP,0,0,0,!Effect,竟不知我在此地 為你們的無知感到羞恥吧
+Dialogue: 0,0:16:00.99,0:16:04.66,Default,NTP,0,0,0,!Effect,你又小又弱
+Dialogue: 0,0:16:05.49,0:16:07.96,Default,NTP,0,0,0,!Effect,宰了你 宰了你
+Dialogue: 0,0:16:17.00,0:16:18.34,Default,NTP,0,0,0,!Effect,宰了你
+Dialogue: 0,0:16:19.67,0:16:23.28,Default,NTP,0,0,0,!Effect,這樣還敢對我刀劍相向嗎 也好
+Dialogue: 0,0:16:24.01,0:16:26.25,Default,NTP,0,0,0,!Effect,那就等我殲滅你們吧
+Dialogue: 0,0:16:26.88,0:16:28.48,Default,NTP,0,0,0,!Effect,我已經罷免卡拉克先生了
+Dialogue: 0,0:16:29.82,0:16:31.89,Default,NTP,0,0,0,!Effect,他擅自假借協會之名
+Dialogue: 0,0:16:31.89,0:16:34.66,Default,NTP,0,0,0,!Effect,讓你們遇到了那樣的危險
+Dialogue: 0,0:16:35.32,0:16:39.09,Default,NTP,0,0,0,!Effect,而且 前陣子在城中的召喚獸騷動
+Dialogue: 0,0:16:39.13,0:16:40.63,Default,NTP,0,0,0,!Effect,似乎也是他引起的
+Dialogue: 0,0:16:41.13,0:16:42.53,Default,NTP,0,0,0,!Effect,必須讓他承擔責任
+Dialogue: 0,0:16:43.20,0:16:45.73,Default,NTP,0,0,0,!Effect,給你們添麻煩了
+Dialogue: 0,0:16:46.27,0:16:46.90,Default,NTP,0,0,0,!Effect,不會
+Dialogue: 0,0:16:49.20,0:16:53.24,Default,NTP,0,0,0,!Effect,對了 卡拉克先生說了一件事 令我很在意
+Dialogue: 0,0:16:54.21,0:16:57.18,Default,NTP,0,0,0,!Effect,迪亞布羅先生自稱魔王
+Dialogue: 0,0:16:58.25,0:17:00.95,Default,NTP,0,0,0,!Effect,迪亞布羅是異世界的魔王
+Dialogue: 0,0:17:01.78,0:17:02.72,Default,NTP,0,0,0,!Effect,真的嗎
+Dialogue: 0,0:17:02.75,0:17:04.28,Default,NTP,0,0,0,!Effect,什麼意思
+Dialogue: 0,0:17:05.05,0:17:08.19,Default,NTP,0,0,0,!Effect,我知道你是一位十分有才能的召喚術士
+Dialogue: 0,0:17:08.76,0:17:11.69,Default,NTP,0,0,0,!Effect,但是我從沒聽說過異世界有什麼魔王
+Dialogue: 0,0:17:12.09,0:17:14.80,Default,NTP,0,0,0,!Effect,就算有也不可能被召喚出來
+Dialogue: 0,0:17:15.83,0:17:16.80,Default,NTP,0,0,0,!Effect,有沒有可能
+Dialogue: 0,0:17:18.10,0:17:23.57,Default,NTP,0,0,0,!Effect,他其實是一名魔族 是被你的靈魂吸引而來的呢
+Dialogue: 0,0:17:23.64,0:17:24.74,Default,NTP,0,0,0,!Effect,不可能
+Dialogue: 0,0:17:25.14,0:17:28.58,Default,NTP,0,0,0,!Effect,迪亞布羅要是想殺我 機會有的是
+Dialogue: 0,0:17:29.18,0:17:30.31,Default,NTP,0,0,0,!Effect,恰恰相反
+Dialogue: 0,0:17:31.65,0:17:35.28,Default,NTP,0,0,0,!Effect,區區克雷布斯庫爾姆的靈魂 就由我來粉碎
+Dialogue: 0,0:17:36.42,0:17:41.52,Default,NTP,0,0,0,!Effect,不過取出靈魂的方法 還需要時間研究
+Dialogue: 0,0:17:44.96,0:17:46.16,Default,NTP,0,0,0,!Effect,我做錯什麼了嗎
+Dialogue: 0,0:17:46.83,0:17:50.73,Default,NTP,0,0,0,!Effect,第一次有人和我說 不會離開我
+Dialogue: 0,0:17:51.13,0:17:53.20,Default,NTP,0,0,0,!Effect,是你太小看我了
+Dialogue: 0,0:17:54.07,0:17:59.21,Default,NTP,0,0,0,!Effect,我可沒有那麼弱小 會因為這點小事就逃跑
+Dialogue: 0,0:17:59.97,0:18:00.81,Default,NTP,0,0,0,!Effect,什麼恰恰相反
+Dialogue: 0,0:18:02.38,0:18:03.14,Default,NTP,0,0,0,!Effect,沒事
+Dialogue: 0,0:18:08.38,0:18:10.92,Default,NTP,0,0,0,!Effect,客人 現在這裡被包場了哦
+Dialogue: 0,0:18:14.66,0:18:15.59,Default,NTP,0,0,0,!Effect,卡拉克先生
+Dialogue: 0,0:18:16.86,0:18:19.83,Default,NTP,0,0,0,!Effect,賽勒絲大人 請您重新考慮
+Dialogue: 0,0:18:20.09,0:18:24.20,Default,NTP,0,0,0,!Effect,為什麼我得離開魔法師協會
+Dialogue: 0,0:18:24.60,0:18:26.63,Default,NTP,0,0,0,!Effect,因為你犯了錯誤
+Dialogue: 0,0:18:26.67,0:18:28.44,Default,NTP,0,0,0,!Effect,我沒有錯
+Dialogue: 0,0:18:28.47,0:18:33.04,Default,NTP,0,0,0,!Effect,可是大家都撒謊 說我被掃地出門了
+Dialogue: 0,0:18:33.34,0:18:38.21,Default,NTP,0,0,0,!Effect,所以我就教訓了他們 讓他們說實話
+Dialogue: 0,0:18:38.28,0:18:39.98,Default,NTP,0,0,0,!Effect,教訓了他們
+Dialogue: 0,0:18:40.01,0:18:42.28,Default,NTP,0,0,0,!Effect,魔法師協會的各位怎麼樣了
+Dialogue: 0,0:18:42.32,0:18:44.32,Default,NTP,0,0,0,!Effect,擔心擔心我啊
+Dialogue: 0,0:18:44.52,0:18:47.02,Default,NTP,0,0,0,!Effect,冷靜點 有話好好說
+Dialogue: 0,0:18:48.39,0:18:50.22,Default,NTP,0,0,0,!Effect,大家都好奇怪
+Dialogue: 0,0:18:50.39,0:18:55.36,Default,NTP,0,0,0,!Effect,我為了協會鞠躬盡瘁 可是卻沒有人理解真正的我
+Dialogue: 0,0:18:56.83,0:18:59.87,Default,NTP,0,0,0,!Effect,果然 那傢伙說的是對的
+Dialogue: 0,0:18:59.90,0:19:00.83,Default,NTP,0,0,0,!Effect,那傢伙
+Dialogue: 0,0:19:07.67,0:19:08.81,Default,NTP,0,0,0,!Effect,住手 卡拉克
+Dialogue: 0,0:19:09.18,0:19:11.21,Default,NTP,0,0,0,!Effect,別再丟人現眼了
+Dialogue: 0,0:19:11.21,0:19:13.28,Default,NTP,0,0,0,!Effect,我不能接受這樣的世界
+Dialogue: 0,0:19:14.52,0:19:15.95,Default,NTP,0,0,0,!Effect,那把劍是怎麼回事
+Dialogue: 0,0:19:16.42,0:19:19.22,Default,NTP,0,0,0,!Effect,不知道為什麼有一種不祥的預感
+Dialogue: 0,0:19:21.02,0:19:25.39,Default,NTP,0,0,0,!Effect,我必須糾正這個世界
+Dialogue: 0,0:19:25.56,0:19:27.66,Default,NTP,0,0,0,!Effect,阻止他 暗影之蛇
+Dialogue: 0,0:19:30.56,0:19:31.23,Default,NTP,0,0,0,!Effect,卡拉克先生
+Dialogue: 0,0:19:38.64,0:19:39.41,Default,NTP,0,0,0,!Effect,怎麼會
+Dialogue: 0,0:19:39.77,0:19:40.81,Default,NTP,0,0,0,!Effect,別靠近他
+Dialogue: 0,0:19:50.25,0:19:52.69,Default,NTP,0,0,0,!Effect,怎麼會 不可能
+Dialogue: 0,0:19:53.49,0:19:56.12,Default,NTP,0,0,0,!Effect,這是 魔族
+Dialogue: 0,0:19:58.43,0:20:01.40,Default,NTP,0,0,0,!Effect,終於輪到我古雷格大人登場了
+Dialogue: 0,0:20:01.83,0:20:05.23,Default,NTP,0,0,0,!Effect,磨磨唧唧的 人族真是廢話多
+Dialogue: 0,0:20:10.14,0:20:10.84,Default,NTP,0,0,0,!Effect,好了
+Dialogue: 0,0:20:11.74,0:20:13.91,Default,NTP,0,0,0,!Effect,你們準備好受死了嗎
+Dialogue: 0,0:20:20.11,0:20:21.05,Default,NTP,0,0,0,!Effect,好厲害
+Dialogue: 0,0:20:21.28,0:20:22.35,Default,NTP,0,0,0,!Effect,迪亞布羅
+Dialogue: 0,0:20:23.05,0:20:25.02,Default,NTP,0,0,0,!Effect,大概打倒三十隻了吧
+Dialogue: 0,0:20:25.72,0:20:28.36,Default,NTP,0,0,0,!Effect,要儘量避免使用MP消耗大的魔法
+Dialogue: 0,0:20:29.46,0:20:31.12,Default,NTP,0,0,0,!Effect,否則我會先吃不消的
+Dialogue: 0,0:20:39.00,0:20:40.40,Default,NTP,0,0,0,!Effect,指揮官來了嗎
+Dialogue: 0,0:21:02.92,0:21:04.63,Default,NTP,0,0,0,!Effect,為何從魔獸背上下來了
+Dialogue: 0,0:21:05.83,0:21:07.66,Default,NTP,0,0,0,!Effect,因為它動不了
+Dialogue: 0,0:21:08.40,0:21:11.77,Default,NTP,0,0,0,!Effect,平時總是乖乖的聽我的話
+Dialogue: 0,0:21:12.33,0:21:15.40,Default,NTP,0,0,0,!Effect,但是 見到你之後 它就不動了
+Dialogue: 0,0:21:16.40,0:21:21.91,Default,NTP,0,0,0,!Effect,比起大搖大擺靠近的你 魔獸還更明事理呢
+Dialogue: 0,0:21:22.51,0:21:24.54,Default,NTP,0,0,0,!Effect,它深知無法戰勝我
+Dialogue: 0,0:21:28.38,0:21:32.75,Default,NTP,0,0,0,!Effect,艾德爾卡特 是魔族的最強槍兵
+Dialogue: 0,0:21:33.85,0:21:37.16,Default,NTP,0,0,0,!Effect,絕不會敗給 區區混魔族的魔法師
+Dialogue: 0,0:21:37.82,0:21:40.86,Default,NTP,0,0,0,!Effect,只要打倒指揮官 軍團撤退的可能性很大
+Dialogue: 0,0:21:41.30,0:21:42.73,Default,NTP,0,0,0,!Effect,現在正是關鍵時刻
+Dialogue: 0,0:21:43.40,0:21:48.07,Default,NTP,0,0,0,!Effect,好啊 就讓我試試你到底有多強吧
+Dialogue: 0,0:21:49.07,0:21:51.41,Default,NTP,0,0,0,!Effect,上嗎 上不上
+Dialogue: 0,0:21:52.44,0:21:53.17,Default,NTP,0,0,0,!Effect,上
+Dialogue: 0,0:22:00.40,0:22:09.83,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}むしゃくしゃな心の中　痛いんだ　これはきっと...
+Dialogue: 0,0:22:10.64,0:22:11.99,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}これはきっと...
+Dialogue: 0,0:22:24.99,0:22:29.24,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}隣にいると胸が苦しくなって
+Dialogue: 0,0:22:30.15,0:22:33.39,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}ため息だって出ちゃう
+Dialogue: 0,0:22:34.92,0:22:40.17,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}ねぇもっと教えて好きな場所とか
+Dialogue: 0,0:22:40.44,0:22:43.54,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}ついでに好きなタイプとか
+Dialogue: 0,0:22:45.64,0:22:50.69,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}誰に言われてもう止まれない
+Dialogue: 0,0:22:50.74,0:22:57.99,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}だって仕方がない　これが戀だ
+Dialogue: 0,0:22:58.54,0:23:02.72,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}朝起きてあなたが好き
+Dialogue: 0,0:23:03.20,0:23:07.84,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}最悪な日でもあなたが好き
+Dialogue: 0,0:23:08.84,0:23:12.99,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}會えなくてもあなたが好き
+Dialogue: 0,0:23:13.54,0:23:18.21,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}もしも生まれ変わってもあなたが好き
+Dialogue: 0,0:23:19.19,0:23:23.16,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}Darlin', make me happy lalala I need you.
+Dialogue: 0,0:23:24.34,0:23:28.84,EDJP,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}Darlin', make me happy lalala I love you.
+Dialogue: 0,0:22:00.40,0:22:09.83,EDCN,NTP,0,0,0,!Effect,{blur3\fad(100,100)}心煩意亂　隱隱作痛　這一定是
+Dialogue: 0,0:22:10.64,0:22:11.99,EDCN,NTP,0,0,0,!Effect,{blur3\fad(100,100)}這一定是
+Dialogue: 0,0:22:24.99,0:22:29.24,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}在你身旁　就苦悶不已
+Dialogue: 0,0:22:30.15,0:22:33.39,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}不住發出歎息
+Dialogue: 0,0:22:34.92,0:22:40.17,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}能不能告訴我　你喜歡去哪裡
+Dialogue: 0,0:22:40.44,0:22:43.54,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}順便請問　你喜歡什麼類型呀
+Dialogue: 0,0:22:45.64,0:22:50.69,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}任誰也無法阻止
+Dialogue: 0,0:22:50.74,0:22:57.99,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}無可奈何　這就是愛
+Dialogue: 0,0:22:58.54,0:23:02.72,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}早上醒來　就想著你
+Dialogue: 0,0:23:03.20,0:23:07.84,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}糟糕的日子裡　也愛著你
+Dialogue: 0,0:23:08.84,0:23:12.99,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}就算見不到面　也還惦記你
+Dialogue: 0,0:23:13.54,0:23:18.21,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}到了下輩子　也還是喜歡你
+Dialogue: 0,0:23:19.19,0:23:23.16,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}Darlin', make me happy lalala I need you.
+Dialogue: 0,0:23:24.34,0:23:28.84,EDCN,NTP,0,0,0,!Effect,{\blur2\fad(100,100)}Darlin', make me happy lalala I love you.
+Dialogue: 0,0:23:30.97,0:23:32.04,Default,NTP,0,0,0,!Effect,結束了 人族
+Dialogue: 0,0:23:32.07,0:23:34.47,Default,NTP,0,0,0,!Effect,只要能打敗你 魔族就贏了
+Dialogue: 0,0:23:34.47,0:23:36.08,Default,NTP,0,0,0,!Effect,你簡直一無所知
+Dialogue: 0,0:23:36.11,0:23:37.68,Default,NTP,0,0,0,!Effect,真正的魔王除了我
+Dialogue: 0,0:23:37.74,0:23:40.00,Default,NTP,0,0,0,!Effect,魔王迪亞布羅之外 別無他人

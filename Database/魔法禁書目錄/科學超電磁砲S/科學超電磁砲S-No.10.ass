@@ -1,0 +1,664 @@
+﻿[Script Info]
+Title: Default Aegisub file
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+PlayResX: 1920
+PlayResY: 1080
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: thanks-furigana,DFLiSong-Md,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: warning en BS11-furigana,Eras Demi ITC,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning en-furigana,Eras Demi ITC,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,8,10,10,10,1
+Style: warning ch BS11-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: warning ch-furigana,華康雅藝體W6,22.5,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0,2,10,10,10,1
+Style: thanks TV-furigana,Babylon5,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,0,0,10,1
+Style: staff TV-furigana,DFFangYuanW7-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,0,0,0,1
+Style: explaination-furigana,華康中黑體(P),20,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,0.84375,0.84375,7,20,10,8,1
+Style: warning-furigana,華康雅藝體W6,22.5,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,8,10,10,10,1
+Style: ADT-furigana,@華康新特明體,35,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: Upside-furigana,DFPHuaZongW5-B5,25,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,3.5,0,2,15,15,130,1
+Style: other-furigana,華康新綜藝體,30,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: 副本 - UP-furigana,華康粗圓體,26.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,15,15,15,1
+Style: 下一回-furigana,@華康雅藝體W6(P),37.5,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.375,0,2,15,15,15,1
+Style: staff-furigana,DFPFangSongW6-B5,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0.5,0,7,0,0,0,1
+Style: Default,DFPHuaZongW5-B5,61,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,0,0,0,0,100,100,0,0,1,7,0,2,15,15,35,1
+Style: Default-furigana,華康新綜藝體W5(P),32,&H00FFFFFF,&H000000FF,&H00004FD0,&H00E16227,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,15,1
+Style: staff,DFPFangSongW6-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: 下一回,@華康雅藝體W6(P),75,&H000A3BDD,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: 副本 - UP,華康粗圓體,53,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,15,15,15,1
+Style: other,華康新綜藝體,60,&H00000000,&H000000FF,&H00FFFFFF,&H00000000,0,0,0,0,100,100,0,0,1,0.75,0,2,15,15,15,1
+Style: Upside,DFPHuaZongW5-B5,50,&H00FFFFFF,&H000000FF,&H00004FD0,&H000D0C0C,-1,0,0,0,100,100,0,0,1,7,0,2,15,15,130,1
+Style: ADT,@華康新特明體,70,&H00D3D2FC,&H000000FF,&H00D3D2FC,&H00000000,0,0,0,0,100,100,0,0,1,0,0,2,10,10,10,1
+Style: warning,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,8,10,10,10,1
+Style: explaination,華康中黑體(P),40,&H00FFFFFF,&H000000FF,&H00345761,&H96000000,-1,0,0,0,100,100,0,0,1,1.6875,1.6875,7,20,10,8,1
+Style: staff TV,DFFangYuanW7-B5,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,0,0,0,1
+Style: thanks TV,Babylon5,60,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,0,0,10,1
+Style: warning ch,華康雅藝體W6,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning ch BS11,華康雅藝體W6,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,10,10,10,1
+Style: warning en,Eras Demi ITC,45,&H00BCD7FF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: warning en BS11,Eras Demi ITC,45,&H00FFFFFF,&H00000000,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,8,10,10,10,1
+Style: thanks,DFLiSong-Md,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,7,0,0,0,1
+Style: OPCN,思源黑体 CN Normal,68,&H00FFFFFF,&HF0000000,&H00000000,&HF0000000,0,-1,0,0,100,100,0,0,1,3,0,2,45,45,30,134
+Style: OPJP,HGMinchoE,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,0,2,30,30,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:00:00.00,Default,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Upside,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:00.00,0:00:00.00,Default-furigana,,0,0,0,template pre-line keeptags,{\be5\blur5}
+Comment: 0,0:00:18.12,0:00:19.38,Default,,0,0,0,karaoke,攻擊停止了?
+Comment: 0,0:00:20.50,0:00:22.68,Default,,0,0,0,karaoke,對方不可能就這樣放過我
+Comment: 0,0:00:23.27,0:00:25.07,Default,,0,0,0,karaoke,是要先看看我的反應再行動嗎?
+Comment: 0,0:00:33.54,0:00:36.60,Default,,0,0,0,karaoke,如果有能鎖定對方位置的能力者在
+Comment: 0,0:00:37.41,0:00:39.59,Default,,0,0,0,karaoke,躲起來反而適得其反
+Comment: 0,0:00:41.33,0:00:41.91,Default,,0,0,0,karaoke,但是
+Comment: 0,0:00:42.78,0:00:44.42,Default,,0,0,0,karaoke,雖然敵人就在前方
+Comment: 0,0:00:45.02,0:00:47.75,Default,,0,0,0,karaoke,我已經沒有和她們再戰鬥下去的力量...
+Comment: 0,0:00:52.63,0:00:53.79,Default,,0,0,0,karaoke,這個膠帶...
+Comment: 0,0:00:54.69,0:00:55.85,Default,,0,0,0,karaoke,是那個金髮的...
+Comment: 0,0:00:56.67,0:00:57.42,Default,,0,0,0,karaoke,那傢伙...
+Comment: 0,0:00:57.86,0:01:00.73,Default,,0,0,0,karaoke,竟然在設施裡到處貼了這個嗎?
+Comment: 0,0:01:01.46,0:01:02.45,Default,,0,0,0,karaoke,真棘手啊
+Comment: 0,0:01:03.99,0:01:04.89,Default,,0,0,0,karaoke,也就是說...
+Comment: 0,0:01:30.09,0:01:31.71,Default,,0,0,0,karaoke,可以利用...吧...?
+Comment: 0,0:01:32.98,0:01:36.24,Default,OP,0,0,0,,
+Comment: 0,0:03:02.95,0:03:05.41,Default,001,0,0,0,,
+Comment: 0,0:03:05.12,0:03:05.90,Default,,0,0,0,karaoke,辛苦了
+Comment: 0,0:03:06.23,0:03:09.27,Default,,0,0,0,karaoke,我們要到S-Processor去 和絹旗會合
+Comment: 0,0:03:10.00,0:03:12.66,Default,,0,0,0,karaoke,你們在這裡待命 直到麥野出來
+Comment: 0,0:03:13.17,0:03:13.77,Default,,0,0,0,karaoke,瞭解
+Comment: 0,0:03:20.35,0:03:21.80,Default,,0,0,0,karaoke,好累啊
+Comment: 0,0:03:22.53,0:03:23.14,Default,,0,0,0,karaoke,芙蘭達
+Comment: 0,0:03:24.95,0:03:28.31,Default,,0,0,0,karaoke,如果只有芙蘭達一個人 就不用先撤退了...
+Comment: 0,0:03:28.71,0:03:33.01,Default,,0,0,0,karaoke,別在意別在意 接下來交給麥野就沒問題啦
+Comment: 0,0:03:33.67,0:03:37.51,Default,,0,0,0,karaoke,結果 多虧了瀧壺 才能單方面的將敵人逼至絕境
+Comment: 0,0:03:38.20,0:03:41.88,Default,,0,0,0,karaoke,比起這個  妳用這麼亂來的方式使用力量沒關係嗎?
+Comment: 0,0:03:42.28,0:03:44.16,Default,,0,0,0,karaoke,我有時候光看就覺得可怕
+Comment: 0,0:03:46.39,0:03:47.22,Default,,0,0,0,karaoke,沒關係的
+Comment: 0,0:03:48.36,0:03:49.25,Default,,0,0,0,karaoke,因為我的容身之處
+Comment: 0,0:03:50.03,0:03:50.83,Default,,0,0,0,karaoke,只有這裡...
+Comment: 0,0:03:53.31,0:03:54.35,Default,,0,0,0,karaoke,這樣啊
+Comment: 0,0:03:55.63,0:03:59.07,Default,,0,0,0,karaoke,要是有一天瀧壺能有其它容身之處就好了
+Comment: 0,0:04:08.22,0:04:08.72,Default,,0,0,0,karaoke,怎麼了?
+Comment: 0,0:04:09.81,0:04:10.46,Default,,0,0,0,karaoke,炸彈...
+Comment: 0,0:04:11.51,0:04:13.48,Default,,0,0,0,karaoke,我忘了回收...
+Comment: 0,0:04:21.99,0:04:23.26,Default,,0,0,0,karaoke,終於來了啊
+Comment: 0,0:04:23.89,0:04:25.92,Default,,0,0,0,karaoke,還真像大人物登場啊
+Comment: 0,0:04:30.56,0:04:30.96,Default,,0,0,0,karaoke,什...
+Comment: 0,0:04:31.75,0:04:33.26,Default,,0,0,0,karaoke,芙蘭達...
+Comment: 0,0:04:33.79,0:04:35.98,Default,,0,0,0,karaoke,竟然後續沒收拾好就給我離開了?
+Comment: 0,0:04:39.37,0:04:40.70,Default,,0,0,0,karaoke,妳的其他夥伴呢?
+Comment: 0,0:04:41.14,0:04:42.11,Default,,0,0,0,karaoke,我讓她們回去了
+Comment: 0,0:04:42.79,0:04:44.91,Default,,0,0,0,karaoke,我想跟妳一對一決鬥啊
+Comment: 0,0:04:45.42,0:04:46.26,Default,,0,0,0,karaoke,超電磁砲
+Comment: 0,0:04:45.42,0:04:46.26,Default-furigana,,0,0,0,karaoke,{\pos(960,980)}Railgun
+Comment: 0,0:04:47.56,0:04:48.51,Default,,0,0,0,karaoke,被發現了嗎?
+Comment: 0,0:04:49.02,0:04:49.87,Default,,0,0,0,karaoke,算了
+Comment: 0,0:04:50.28,0:04:55.11,Default,,0,0,0,karaoke,要和我一對一單挑 正合我意!
+Comment: 0,0:04:56.91,0:04:57.81,Default,,0,0,0,karaoke,原來如此
+Comment: 0,0:05:05.85,0:05:09.74,Default,,0,0,0,karaoke,想用芙蘭達的炸彈來補足力量衰退的部分嗎?
+Comment: 0,0:05:10.31,0:05:11.32,Default,,0,0,0,karaoke,不過這樣一來
+Comment: 0,0:05:11.94,0:05:15.78,Default,,0,0,0,karaoke,不就等於妳承認了無法憑自己的力量打敗我?
+Comment: 0,0:05:16.22,0:05:17.16,Default,,0,0,0,karaoke,那個能力...
+Comment: 0,0:05:17.57,0:05:18.96,Default,,0,0,0,karaoke,竟然連暴風也能彈開嗎?
+Comment: 0,0:05:19.39,0:05:20.23,Default,,0,0,0,karaoke,既然這樣...
+Comment: 0,0:05:21.64,0:05:22.84,Default,,0,0,0,karaoke,不管來幾次還是一樣
+Comment: 0,0:05:23.39,0:05:26.86,Default,,0,0,0,karaoke,不對 她打算趁爆炸封住我行動的時候繞路闖進去嗎?
+Comment: 0,0:05:27.53,0:05:30.81,Default,,0,0,0,karaoke,還是想繞過我 直接闖進後方的資料庫?
+Comment: 0,0:05:31.60,0:05:34.41,Default,,0,0,0,karaoke,不過啊 只要先將娃娃擊落...
+Comment: 0,0:05:36.22,0:05:38.36,Default,,0,0,0,karaoke,怎麼回事!? 妳在娃娃裡裝了什麼東西?
+Comment: 0,0:05:38.63,0:05:41.26,Default,,0,0,0,karaoke,沒錯 我在裡面裝了可以用磁力操縱的金屬
+Comment: 0,0:05:42.35,0:05:43.81,Default,,0,0,0,karaoke,盡做些麻煩的事...!
+Comment: 0,0:05:46.99,0:05:50.06,Default,,0,0,0,karaoke,數量不多也許妳能擊落 不過...
+Comment: 0,0:05:53.13,0:05:55.17,Default,,0,0,0,karaoke,如果有這麼多 妳怎麼做?
+Comment: 0,0:06:10.09,0:06:13.58,Default,,0,0,0,karaoke,她的能力看起來應該不屬於可以展開彈幕的類型
+Comment: 0,0:06:13.96,0:06:14.51,Default,,0,0,0,karaoke,既然如此...
+Comment: 0,0:06:15.53,0:06:17.96,Default,,0,0,0,karaoke,想要靠壓倒性的數量壓制我嗎?
+Comment: 0,0:06:32.53,0:06:33.71,Default,,0,0,0,karaoke,「擴散支援半導體」
+Comment: 0,0:06:34.53,0:06:37.40,Default,,0,0,0,karaoke,對自己的弱點採取應對措施是理所當然的啊
+Comment: 0,0:06:37.89,0:06:40.46,Default,,0,0,0,karaoke,別小看我們道具啊 死小鬼
+Comment: 0,0:06:37.89,0:06:40.46,Default-furigana,,0,0,0,karaoke,{\pos(984,980)}Item
+Comment: 0,0:06:42.51,0:06:45.96,Default,,0,0,0,karaoke,都是因為芙蘭達的疏忽 增加了點我的工作量
+Comment: 0,0:06:48.86,0:06:51.76,Default,,0,0,0,karaoke,不過中學生的智力就只有這種程度啊?
+Comment: 0,0:06:52.27,0:06:55.06,Default,,0,0,0,karaoke,真是的  什麼排名第三啊?
+Comment: 0,0:06:55.66,0:06:58.96,Default,,0,0,0,karaoke,就因為是以能力研究的應用所產生的利益作為判斷基準
+Comment: 0,0:06:59.39,0:07:02.71,Default,,0,0,0,karaoke,妳排名第三 我排名第四?
+Comment: 0,0:07:05.20,0:07:07.31,Default,,0,0,0,karaoke,只要在這裡殺掉妳
+Comment: 0,0:07:08.40,0:07:11.41,Default,,0,0,0,karaoke,就可以證明和排名完全無關了吧?
+Comment: 0,0:07:14.61,0:07:16.32,Default,,0,0,0,karaoke,排名第四的超能力者?
+Comment: 0,0:07:14.61,0:07:16.32,Default-furigana,,0,0,0,karaoke,{\pos(1103,980)}Level 5
+Comment: 0,0:07:16.81,0:07:17.56,Default,,0,0,0,karaoke,也就是說...
+Comment: 0,0:07:18.15,0:07:19.53,Default,,0,0,0,karaoke,這傢伙是...原子崩壞?
+Comment: 0,0:07:18.15,0:07:19.53,Default-furigana,,0,0,0,karaoke,{\pos(1103,980)}Melt Downer
+Comment: 0,0:07:20.22,0:07:20.85,Default,,0,0,0,karaoke,就是她嗎?
+Comment: 0,0:07:22.19,0:07:24.81,Default,,0,0,0,karaoke,還剩下...三個嗎?
+Comment: 0,0:07:30.64,0:07:35.21,Default,,0,0,0,karaoke,怎麼啦?  該不會這種程度就束手無策了吧?
+Comment: 0,0:07:41.36,0:07:44.31,Default,,0,0,0,karaoke,果然是小鬼 自暴自棄想搞特攻?
+Comment: 0,0:07:49.41,0:07:52.06,Default,,0,0,0,karaoke,真是的  不僅粗魯 還早洩啊?
+Comment: 0,0:07:53.49,0:07:54.66,Default,,0,0,0,karaoke,什麼! 還有一個!
+Comment: 0,0:07:55.55,0:07:56.66,Default,,0,0,0,karaoke,這傢伙 背後...
+Comment: 0,0:07:59.20,0:07:59.61,Default,,0,0,0,karaoke,防護盾!
+Comment: 0,0:08:00.23,0:08:02.11,Default,,0,0,0,karaoke,不 這種距離已經來不及了
+Comment: 0,0:08:02.36,0:08:03.16,Default,,0,0,0,karaoke,可惡
+Comment: 0,0:08:05.07,0:08:06.66,Default,,0,0,0,karaoke,騙妳的啦
+Comment: 0,0:08:10.41,0:08:11.66,Default,,0,0,0,karaoke,妳忘了嗎?
+Comment: 0,0:08:12.31,0:08:15.61,Default,,0,0,0,karaoke,我也可以干涉妳的電擊啊
+Comment: 0,0:08:16.38,0:08:19.96,Default,,0,0,0,karaoke,妳該不會自以為要贏了吧?
+Comment: 0,0:08:21.35,0:08:25.99,Default,,0,0,0,karaoke,誰勝誰敗從一開始就成定局了 超電磁砲...
+Comment: 0,0:08:21.35,0:08:25.99,Default-furigana,,0,0,0,karaoke,{\pos(1337,980)}Railgun
+Comment: 0,0:08:30.23,0:08:31.71,Default,,0,0,0,karaoke,妳才忘了吧
+Comment: 0,0:08:32.26,0:08:34.06,Default,,0,0,0,karaoke,我不是說我在裡面裝了金屬嗎?
+Comment: 0,0:08:34.84,0:08:37.11,Default,,0,0,0,karaoke,就算不爆炸 也是十足的凶器啊
+Comment: 0,0:08:52.46,0:08:53.41,Default,,0,0,0,karaoke,是這裡嗎?
+Comment: 0,0:09:16.59,0:09:18.66,Default,,0,0,0,karaoke,總之 這樣就差不多了吧?
+Comment: 0,0:09:20.99,0:09:23.91,Default,,0,0,0,karaoke,如果可以 我想確認是否完全燒光了
+Comment: 0,0:09:25.07,0:09:27.76,Default,,0,0,0,karaoke,不過我現在這樣子 最後也只會被捲入...
+Comment: 0,0:09:28.74,0:09:30.91,Default,,0,0,0,karaoke,問題在於剩下的那一處
+Comment: 0,0:09:31.71,0:09:34.56,Default,,0,0,0,karaoke,如果也有和這邊一樣等級的能力者在...
+Comment: 0,0:09:35.53,0:09:36.16,Default,,0,0,0,karaoke,實在是...
+Comment: 0,0:09:38.51,0:09:40.96,Default,,0,0,0,karaoke,怎麼會... 那女人不見了!?
+Comment: 0,0:09:41.69,0:09:44.03,Default,,0,0,0,karaoke,莫非...應該不可能那麼快就可以行動...
+Comment: 0,0:09:52.94,0:09:55.86,Default,,0,0,0,karaoke,喂喂 現在不是悠哉睡覺的時候吧
+Comment: 0,0:09:56.37,0:09:58.46,Default,,0,0,0,karaoke,剛剛妳所對我做的事情
+Comment: 0,0:09:58.75,0:10:01.86,Default,,0,0,0,karaoke,現在我要以一兆倍奉還給妳!!
+Comment: 0,0:09:59.45,0:10:02.95,Default,title,0,0,0,,
+Comment: 0,0:10:02.95,0:10:06.58,ADT,002,0,0,0,,
+Comment: 0,0:10:07.45,0:10:09.72,Default,,0,0,0,karaoke,喂喂 怎麼啦?
+Comment: 0,0:10:10.17,0:10:15.12,Default,,0,0,0,karaoke,不快點起來的話 我就這樣把妳烤成黑炭喔!
+Comment: 0,0:10:16.62,0:10:19.37,Default,,0,0,0,karaoke,到處亂竄到處亂竄的
+Comment: 0,0:10:19.61,0:10:23.02,Default,,0,0,0,karaoke,幸好這幾天沒吃什麼東西...
+Comment: 0,0:10:23.93,0:10:26.92,Default,,0,0,0,karaoke,喂 不要逃啊 婊子
+Comment: 0,0:10:27.88,0:10:30.57,Default,,0,0,0,karaoke,炸彈用光了就想拍拍屁股逃跑
+Comment: 0,0:10:30.77,0:10:32.74,Default,,0,0,0,karaoke,這樣排名第三這個稱號會哭喔
+Comment: 0,0:10:32.79,0:10:35.12,Default,,0,0,0,karaoke,那種鬼東西就隨它哭吧
+Comment: 0,0:10:35.58,0:10:38.31,Default,,0,0,0,karaoke,目的已經達成 接下來只要逃出去就好了
+Comment: 0,0:10:39.05,0:10:42.42,Default,,0,0,0,karaoke,目前電力系統已經被破壞  逃走路徑有三個
+Comment: 0,0:10:42.88,0:10:45.72,Default,,0,0,0,karaoke,如果從逃生樓梯衝出去的話...不行
+Comment: 0,0:10:45.97,0:10:48.92,Default,,0,0,0,karaoke,她的能力可以轟掉整個樓梯
+Comment: 0,0:10:49.39,0:10:51.37,Default,,0,0,0,karaoke,樓梯上幾乎沒有能閃避的空間
+Comment: 0,0:10:52.16,0:10:54.00,Default,,0,0,0,karaoke,還是走有很多雜物的搬運口?
+Comment: 0,0:10:54.73,0:10:57.07,Default,,0,0,0,karaoke,但是 搬運口只有一條路
+Comment: 0,0:10:57.59,0:11:00.22,Default,,0,0,0,karaoke,如果在某處被堵住 就變成甕中之鱉了
+Comment: 0,0:11:00.73,0:11:01.57,Default,,0,0,0,karaoke,剩下的是...
+Comment: 0,0:11:07.27,0:11:10.22,Default,,0,0,0,karaoke,喂~~喂~~ 妳真的沒轍了嗎?
+Comment: 0,0:11:10.44,0:11:16.02,Default,,0,0,0,karaoke,像妳這樣四處逃竄 根本不是蜘蛛 簡直是蟑螂啊! 妳這傢伙
+Comment: 0,0:11:17.09,0:11:19.47,Default,,0,0,0,karaoke,既然這樣 就像蟑螂一樣 讓我「噗吱」一聲踩扁
+Comment: 0,0:11:24.23,0:11:25.02,Default,,0,0,0,karaoke,喂
+Comment: 0,0:11:25.24,0:11:26.07,Default,,0,0,0,karaoke,我是絹旗
+Comment: 0,0:11:27.08,0:11:30.37,Default,,0,0,0,karaoke,幹嘛? 我現在殺得正爽 長話短說喔
+Comment: 0,0:11:30.82,0:11:33.62,Default,,0,0,0,karaoke,我這邊的移送準備超完成了
+Comment: 0,0:11:34.09,0:11:36.82,Default,,0,0,0,karaoke,瀧壺她們剛剛和我會合了
+Comment: 0,0:11:39.18,0:11:41.37,Default,,0,0,0,karaoke,就算毀掉立足點也沒有用?
+Comment: 0,0:11:38.77,0:11:41.47,Upside,,0,0,0,karaoke,如果沒問題 我就超護送她們...
+Comment: 0,0:11:41.87,0:11:44.22,Default,,0,0,0,karaoke,既然這樣我就直接轟掉她
+Comment: 0,0:11:43.71,0:11:44.22,Upside,,0,0,0,karaoke,麥野?
+Comment: 0,0:11:45.12,0:11:45.72,Default,,0,0,0,karaoke,是
+Comment: 0,0:11:46.51,0:11:46.92,Default,,0,0,0,karaoke,是
+Comment: 0,0:11:47.68,0:11:48.64,Default,,0,0,0,karaoke,超瞭解了
+Comment: 0,0:11:50.95,0:11:52.69,Default,,0,0,0,karaoke,超原封不動的傳達嗎?
+Comment: 0,0:11:53.78,0:11:55.87,Default,,0,0,0,karaoke,我知道了 掰掰
+Comment: 0,0:11:56.86,0:11:59.21,Default,,0,0,0,karaoke,她說我們可以先超進行了
+Comment: 0,0:11:59.69,0:12:01.25,Default,,0,0,0,karaoke,那...那個...
+Comment: 0,0:12:01.56,0:12:01.92,Default,,0,0,0,karaoke,什麼?
+Comment: 0,0:12:02.32,0:12:05.87,Default,,0,0,0,karaoke,麥野她...有沒有...很生氣的感覺?
+Comment: 0,0:12:06.17,0:12:08.85,Default,,0,0,0,karaoke,那個...炸彈...什麼的?
+Comment: 0,0:12:09.45,0:12:12.22,Default,,0,0,0,karaoke,沒有 她鬥志超高昂的
+Comment: 0,0:12:12.41,0:12:13.72,Default,,0,0,0,karaoke,太好了...
+Comment: 0,0:12:14.03,0:12:16.22,Default,,0,0,0,karaoke,不過 有話要我超傳達給芙蘭達
+Comment: 0,0:12:16.35,0:12:17.61,Default,,0,0,0,karaoke,嗯? 什麼什麼?
+Comment: 0,0:12:18.17,0:12:21.79,Default,,0,0,0,karaoke,「等 著 受 罰 吧」 她這麼說
+Comment: 0,0:12:29.91,0:12:31.42,Default,,0,0,0,karaoke,能就這樣逃掉嗎?
+Comment: 0,0:12:58.36,0:13:00.92,Default,,0,0,0,karaoke,嗶哩 嗶哩 嗶哩的?
+Comment: 0,0:13:01.22,0:13:03.77,Default,,0,0,0,karaoke,別笑掉我大牙了 死小鬼!
+Comment: 0,0:13:04.29,0:13:06.02,Default,,0,0,0,karaoke,妳以為憑妳這種程度的小孩打架
+Comment: 0,0:13:06.02,0:13:09.17,Default,,0,0,0,karaoke,就能解決這座城市裡的「黑暗」嗎?
+Comment: 0,0:13:11.42,0:13:14.22,Default,,0,0,0,karaoke,喂 再讓我玩得更愉悅點吧
+Comment: 0,0:13:14.69,0:13:18.82,Default,,0,0,0,karaoke,如果妳不想成為現代藝術風格的愚蠢作品的話
+Comment: 0,0:13:31.49,0:13:32.95,Default,,0,0,0,karaoke,我知道妳很難受
+Comment: 0,0:13:33.49,0:13:37.33,Default,,0,0,0,karaoke,但沒想到妳竟然會逃到這種簡直像在拜託我殺掉妳的地點
+Comment: 0,0:13:38.07,0:13:39.72,Default,,0,0,0,karaoke,什麼排名第三啊
+Comment: 0,0:13:40.02,0:13:42.17,Default,,0,0,0,karaoke,不過就是個乳臭未乾的臭丫頭嘛
+Comment: 0,0:13:42.60,0:13:45.07,Default,,0,0,0,karaoke,既然這樣 最後就該拿出骨氣
+Comment: 0,0:13:45.37,0:13:50.02,Default,,0,0,0,karaoke,使出妳最擅長的「超電磁砲」攻擊給我看看啊
+Comment: 0,0:13:45.37,0:13:50.02,Default-furigana,,0,0,0,karaoke,{\pos(960,980)}Railgun
+Comment: 0,0:13:54.66,0:13:58.78,Default,,0,0,0,karaoke,喂喂 在我欺凌妳之前先瘋掉 就一點都不好玩了喔
+Comment: 0,0:14:00.67,0:14:01.57,Default,,0,0,0,karaoke,說的也是
+Comment: 0,0:14:02.12,0:14:04.84,Default,,0,0,0,karaoke,現在的我 別說是「超電磁砲」了
+Comment: 0,0:14:02.12,0:14:04.84,Default-furigana,,0,0,0,karaoke,{\pos(1155,980)}Railgun
+Comment: 0,0:14:05.21,0:14:08.42,Default,,0,0,0,karaoke,連躲開妳一擊的力氣都沒有
+Comment: 0,0:14:09.27,0:14:10.02,Default,,0,0,0,karaoke,所以
+Comment: 0,0:14:10.33,0:14:12.02,Default,,0,0,0,karaoke,我才會賭在這條路徑上
+Comment: 0,0:14:13.15,0:14:15.02,Default,,0,0,0,karaoke,妳那個金髮的夥伴
+Comment: 0,0:14:15.42,0:14:17.17,Default,,0,0,0,karaoke,她真的很難纏啊
+Comment: 0,0:14:17.52,0:14:19.27,Default,,0,0,0,karaoke,我被她的炸彈炸飛
+Comment: 0,0:14:19.33,0:14:20.17,Default,,0,0,0,karaoke,被她騙
+Comment: 0,0:14:20.43,0:14:21.32,Default,,0,0,0,karaoke,還被她踹
+Comment: 0,0:14:21.72,0:14:22.42,Default,,0,0,0,karaoke,還有
+Comment: 0,0:14:23.21,0:14:26.62,Default,,0,0,0,karaoke,連立足之地都差點被打垮...呢
+Comment: 0,0:14:27.98,0:14:29.17,Default,,0,0,0,karaoke,所以我孤注一擲
+Comment: 0,0:14:29.83,0:14:32.63,Default,,0,0,0,karaoke,如果她在所有地方都設下了陷阱...
+Comment: 0,0:14:33.06,0:14:37.77,Default,,0,0,0,karaoke,像這種明顯的地方 一定也會設的 對吧?
+Comment: 0,0:14:39.40,0:14:43.37,Default,,0,0,0,karaoke,現在的我 至少還能發出能代替那個工具的電氣信號
+Comment: 0,0:14:44.86,0:14:49.24,Default,,0,0,0,karaoke,所以不能看不起小孩打架對吧? 歐巴桑
+Comment: 0,0:14:50.28,0:14:53.62,Default,,0,0,0,karaoke,笨...芙蘭達－－－!!
+Comment: 0,0:15:03.45,0:15:04.37,Default,,0,0,0,karaoke,抓住它!
+Comment: 0,0:15:09.82,0:15:10.67,Default,,0,0,0,karaoke,怎麼會...
+Comment: 0,0:15:11.47,0:15:12.17,Default,,0,0,0,karaoke,難道...
+Comment: 0,0:15:18.51,0:15:19.97,Default,,0,0,0,karaoke,給我下來 混蛋
+Comment: 0,0:15:20.19,0:15:21.97,Upside,,0,0,0,karaoke,還沒分出勝負啊
+Comment: 0,0:15:20.22,0:15:22.71,Default,,0,0,0,karaoke,竟然還沒死 皮還真厚
+Comment: 0,0:15:26.24,0:15:27.32,Default,,0,0,0,karaoke,給她逃掉了嗎?
+Comment: 0,0:15:29.64,0:15:32.42,Default,,0,0,0,karaoke,雖然用原子崩壞的放射減緩了下墜速度
+Comment: 0,0:15:29.64,0:15:32.42,Default-furigana,,0,0,0,karaoke,{\pos(747,980)}Melt Downer
+Comment: 0,0:15:33.20,0:15:35.60,Default,,0,0,0,karaoke,但是還是沒能完美著地啊
+Comment: 0,0:15:36.56,0:15:38.06,Default,,0,0,0,karaoke,需要調整一下啊
+Comment: 0,0:15:39.42,0:15:42.12,Default,,0,0,0,karaoke,現在馬上叫瀧壺回來 這次一定要...
+Comment: 0,0:15:43.88,0:15:47.82,Default,,0,0,0,karaoke,不 那死小鬼是常盤台的學生...
+Comment: 0,0:15:48.40,0:15:50.37,Default,,0,0,0,karaoke,那麼那傢伙的目的到底是...?
+Comment: 0,0:15:54.55,0:15:56.42,Default,,0,0,0,karaoke,這邊的目的已經達成
+Comment: 0,0:15:57.22,0:15:59.57,Default,,0,0,0,karaoke,但是 最後的一處...
+Comment: 0,0:16:02.27,0:16:03.64,Default,,0,0,0,karaoke,已經...沒有力氣...
+Comment: 0,0:16:05.11,0:16:05.82,Default,,0,0,0,karaoke,可惡
+Comment: 0,0:16:07.59,0:16:08.62,Default,,0,0,0,karaoke,喂 快點
+Comment: 0,0:16:08.90,0:16:11.16,Default,,0,0,0,karaoke,上面的火勢似乎已經蔓延開來了
+Comment: 0,0:16:11.92,0:16:13.17,Default,,0,0,0,karaoke,但...但是 那傢伙還沒...
+Comment: 0,0:16:13.20,0:16:14.52,Upside,,0,0,0,karaoke,別理那個慢烏龜了!
+Comment: 0,0:16:16.56,0:16:21.72,Default,,0,0,0,karaoke,可惡 不是說雇用了暗部 所以沒問題了嗎?
+Comment: 0,0:16:22.31,0:16:23.62,Default,,0,0,0,karaoke,真是的...根本沒有用...
+Comment: 0,0:16:26.74,0:16:28.82,Default,,0,0,0,karaoke,幹...幹什麼 什麼!!
+Comment: 0,0:16:28.94,0:16:33.27,Default-furigana,,0,0,0,karaoke,{\pos(808,980)}Railgun
+Comment: 0,0:16:28.94,0:16:33.27,Default,,0,0,0,karaoke,我現在開始對超電磁砲想摧毀的計畫產生興趣了
+Comment: 0,0:16:33.86,0:16:34.57,Default,,0,0,0,karaoke,給我看看
+Comment: 0,0:16:34.76,0:16:36.77,Default,,0,0,0,karaoke,怎...怎麼可能給妳看!
+Comment: 0,0:16:37.17,0:16:40.12,Default,,0,0,0,karaoke,如果把情報漏洩給外界 連我也會被消滅...
+Comment: 0,0:16:41.46,0:16:44.97,Default,,0,0,0,karaoke,是要現在變成滿是油脂的肉塊
+Comment: 0,0:16:45.82,0:16:49.97,Default,,0,0,0,karaoke,還是賭上極小的可能性過著逃亡人生
+Comment: 0,0:16:50.43,0:16:51.97,Default,,0,0,0,karaoke,你想要哪個?
+Comment: 0,0:16:56.02,0:16:57.32,Default,,0,0,0,karaoke,這在搞什麼啊!
+Comment: 0,0:16:57.72,0:17:00.72,Default,,0,0,0,karaoke,排名第一竟然被迫做這種事情
+Comment: 0,0:17:01.12,0:17:04.92,Default,,0,0,0,karaoke,只要「噗滋噗滋」的殺掉兩萬隻史萊姆 就能升級?
+Comment: 0,0:17:05.57,0:17:08.87,Default,,0,0,0,karaoke,學園都市的統括理事會到底在想什麼...
+Comment: 0,0:17:13.87,0:17:15.18,Default,,0,0,0,karaoke,原來如此
+Comment: 0,0:17:15.51,0:17:17.97,Default-furigana,,0,0,0,karaoke,{\pos(1115,980)}Item
+Comment: 0,0:17:15.51,0:17:17.97,Default,,0,0,0,karaoke,所以才雇用我們「道具」啊...
+Comment: 0,0:17:18.60,0:17:20.32,Default,,0,0,0,karaoke,這不是很有趣嗎?
+Comment: 0,0:17:20.57,0:17:23.57,Default,,0,0,0,karaoke,讓她痛苦掙扎 最後徹底沉沒
+Comment: 0,0:17:24.41,0:17:27.77,Default,,0,0,0,karaoke,沉到學園都市的黑暗深淵中...呢
+Comment: 0,0:17:44.88,0:17:46.27,Default,,0,0,0,karaoke,已經早上了啊...
+Comment: 0,0:17:59.35,0:18:00.52,Default,,0,0,0,karaoke,真是狼狽啊
+Comment: 0,0:18:07.86,0:18:11.15,Default,,0,0,0,karaoke,S-Processor 腦神經應用分析所
+Comment: 0,0:18:11.97,0:18:14.57,Default,,0,0,0,karaoke,昨天沒能消滅的最後一處
+Comment: 0,0:18:15.45,0:18:17.07,Default,,0,0,0,karaoke,應該是這裡沒錯...
+Comment: 0,0:18:21.82,0:18:22.58,Default,,0,0,0,karaoke,好奇怪
+Comment: 0,0:18:23.22,0:18:29.37,Default,,0,0,0,karaoke,不僅沒有人進出 別說是保全系統了  連所有電子機器都沒有在運作?
+Comment: 0,0:18:30.27,0:18:30.84,Default,,0,0,0,karaoke,是陷阱嗎?
+Comment: 0,0:18:47.27,0:18:48.97,Default,,0,0,0,karaoke,果然沒有任何人
+Comment: 0,0:18:49.57,0:18:52.74,Default,,0,0,0,karaoke,不只這樣 就連數據也全部被消除了?
+Comment: 0,0:18:58.75,0:19:02.67,Default,,0,0,0,karaoke,因為昨天的攻防戰 所以放棄繼續計畫了嗎?
+Comment: 0,0:19:03.72,0:19:06.72,Default,,0,0,0,karaoke,只憑藉一處 計畫沒辦法維持下去?
+Comment: 0,0:19:06.87,0:19:14.72,Default,,0,0,0,karaoke,雖然不太清楚 總算將那些人逼到撤退了啊...
+Comment: 0,0:19:18.53,0:19:20.92,Default,,0,0,0,karaoke,這樣子...結束了?
+Comment: 0,0:19:22.77,0:19:26.47,Default,,0,0,0,karaoke,真的嗎...總覺得...沒有踏實感...
+Comment: 0,0:19:27.33,0:19:30.92,Default,,0,0,0,karaoke,是因為遭遇了太多超乎現實的事情嗎...?
+Comment: 0,0:19:43.01,0:19:45.62,Default,,0,0,0,karaoke,再見 姐姐大人
+Comment: 0,0:19:55.44,0:19:56.97,Default,,0,0,0,karaoke,原來如此啊
+Comment: 0,0:19:57.51,0:20:00.32,Default,,0,0,0,karaoke,和原定計畫不同 正想著到底是什麼狀況
+Comment: 0,0:20:00.96,0:20:04.07,Default,,0,0,0,karaoke,妳...是原型吧?
+Comment: 0,0:20:00.96,0:20:04.07,Default-furigana,,0,0,0,karaoke,{\pos(1010,980)}original
+Comment: 0,0:20:07.19,0:20:08.87,Default-furigana,,0,0,0,karaoke,{\pos(1020,980)}Accelerator
+Comment: 0,0:20:07.19,0:20:08.87,Default,,0,0,0,karaoke,我是一方通行
+Comment: 0,0:20:10.23,0:20:11.22,Default,,0,0,0,karaoke,多多指教
+Comment: 0,0:20:12.28,0:20:13.33,Default,,0,0,0,karaoke,為什麼啊!?
+Comment: 0,0:20:13.57,0:20:17.57,Default,,0,0,0,karaoke,妳們也是活生生的人吧!? 也是有生命的吧!?
+Comment: 0,0:20:20.45,0:20:24.04,Default,,0,0,0,karaoke,御坂只是為了計畫而被製造出來的複製品
+Comment: 0,0:20:24.93,0:20:26.27,Default,,0,0,0,karaoke,製造出來的身體
+Comment: 0,0:20:26.45,0:20:27.77,Default,,0,0,0,karaoke,製造出來的心
+Comment: 0,0:20:28.57,0:20:30.42,Default,,0,0,0,karaoke,單價為十八萬的...
+Comment: 0,0:20:31.06,0:20:32.41,Default,,0,0,0,karaoke,實驗動物
+Comment: 0,0:20:42.89,0:20:46.22,Default,,0,0,0,karaoke,至今為止發生的事情 不可能抹去消失
+Comment: 0,0:20:48.29,0:20:52.12,Default,,0,0,0,karaoke,今後也還有很多非做不可的事情
+Comment: 0,0:20:53.01,0:20:53.52,Default,,0,0,0,karaoke,但是
+Comment: 0,0:20:55.37,0:20:57.02,Default,,0,0,0,karaoke,實驗結束了!
+Comment: 0,0:20:58.75,0:20:59.61,Default,,0,0,0,karaoke,她們...
+Comment: 0,0:21:15.87,0:21:19.67,Default,,0,0,0,karaoke,她們...可以不用死了...
+Comment: 0,0:21:21.47,0:21:23.48,Default,,0,0,0,karaoke,我們大家都跟隨著御坂
+Comment: 0,0:21:24.37,0:21:27.97,Default,,0,0,0,karaoke,無法獨自承受時 隨時都可以跟我們說喔
+Comment: 0,0:21:32.75,0:21:35.52,Default,,0,0,0,karaoke,大家 我現在要回去了
+Comment: 0,0:21:43.09,0:21:43.87,Default,,0,0,0,karaoke,咦
+Comment: 0,0:21:47.71,0:21:49.15,Default,,0,0,0,karaoke,這是怎樣啦!?
+Comment: 0,0:21:50.23,0:21:52.02,Default,,0,0,0,karaoke,真是怪了...
+Comment: 0,0:21:53.36,0:21:56.22,Default,,0,0,0,karaoke,該不會...故障了吧?
+Comment: 0,0:21:59.47,0:22:00.16,Default,,0,0,0,karaoke,真的假的?
+Comment: 0,0:22:00.95,0:22:04.55,Default,ED,0,0,0,,
+Comment: 0,0:23:32.32,0:23:34.81,Default,,0,0,0,karaoke,突然出現在御坂美琴面前的我 上條當麻
+Comment: 0,0:23:34.81,0:23:37.51,Default,,0,0,0,karaoke,和突然出現在我上條當麻面前的御坂美琴一起
+Comment: 0,0:23:37.51,0:23:40.56,Default,,0,0,0,karaoke,到底誰是誰都搞不清楚的一個故事
+Comment: 0,0:23:37.88,0:23:38.66,Default,,0,0,0,karaoke,才不是!
+Comment: 0,0:23:38.77,0:23:40.85,Default,,0,0,0,karaoke,話說為什麼是你在做預告啊!?
+Comment: 0,0:23:30.97,0:23:32.26,Default,next,0,0,0,,
+Comment: 0,0:23:40.98,0:23:48.98,下一回,thanks,0,0,0,,
+Comment: 0,0:23:45.97,0:23:47.97,staff,export,0,0,0,,
+Dialogue: 0,0:09:59.45,0:10:02.95,ADT,,0,0,0,,{\frz-90\fs70\pos(472,561)}原子崩壞
+Dialogue: 0,0:09:59.45,0:10:02.95,ADT,,0,0,0,,{\fs50\an7\pos(248,942)\fscx80}Melt Downer
+Dialogue: 0,0:23:32.26,0:23:40.97,下一回,,0,0,0,,{\an1\frz-90\fs100\pos(72.714,205.286)}自動\N販賣機
+Dialogue: 0,0:00:18.12,0:00:19.38,Default,,0,0,0,fx,{\be5\blur5}攻擊停止了?
+Dialogue: 0,0:00:20.50,0:00:22.68,Default,,0,0,0,fx,{\be5\blur5}對方不可能就這樣放過我
+Dialogue: 0,0:00:23.27,0:00:25.07,Default,,0,0,0,fx,{\be5\blur5}是要先看看我的反應再行動嗎?
+Dialogue: 0,0:00:33.54,0:00:36.60,Default,,0,0,0,fx,{\be5\blur5}如果有能鎖定對方位置的能力者在
+Dialogue: 0,0:00:37.41,0:00:39.59,Default,,0,0,0,fx,{\be5\blur5}躲起來反而適得其反
+Dialogue: 0,0:00:41.33,0:00:41.91,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:00:42.78,0:00:44.42,Default,,0,0,0,fx,{\be5\blur5}雖然敵人就在前方
+Dialogue: 0,0:00:45.02,0:00:47.75,Default,,0,0,0,fx,{\be5\blur5}我已經沒有和她們再戰鬥下去的力量...
+Dialogue: 0,0:00:52.63,0:00:53.79,Default,,0,0,0,fx,{\be5\blur5}這個膠帶...
+Dialogue: 0,0:00:54.69,0:00:55.85,Default,,0,0,0,fx,{\be5\blur5}是那個金髮的...
+Dialogue: 0,0:00:56.67,0:00:57.42,Default,,0,0,0,fx,{\be5\blur5}那傢伙...
+Dialogue: 0,0:00:57.86,0:01:00.73,Default,,0,0,0,fx,{\be5\blur5}竟然在設施裡到處貼了這個嗎?
+Dialogue: 0,0:01:01.46,0:01:02.45,Default,,0,0,0,fx,{\be5\blur5}真棘手啊
+Dialogue: 0,0:01:03.99,0:01:04.89,Default,,0,0,0,fx,{\be5\blur5}也就是說...
+Dialogue: 0,0:01:30.09,0:01:31.71,Default,,0,0,0,fx,{\be5\blur5}可以利用...吧...?
+Dialogue: 0,0:03:05.12,0:03:05.90,Default,,0,0,0,fx,{\be5\blur5}辛苦了
+Dialogue: 0,0:03:06.23,0:03:09.27,Default,,0,0,0,fx,{\be5\blur5}我們要到S-Processor去 和絹旗會合
+Dialogue: 0,0:03:10.00,0:03:12.66,Default,,0,0,0,fx,{\be5\blur5}你們在這裡待命 直到麥野出來
+Dialogue: 0,0:03:13.17,0:03:13.77,Default,,0,0,0,fx,{\be5\blur5}瞭解
+Dialogue: 0,0:03:20.35,0:03:21.80,Default,,0,0,0,fx,{\be5\blur5}好累啊
+Dialogue: 0,0:03:22.53,0:03:23.14,Default,,0,0,0,fx,{\be5\blur5}芙蘭達
+Dialogue: 0,0:03:24.95,0:03:28.31,Default,,0,0,0,fx,{\be5\blur5}如果只有芙蘭達一個人 就不用先撤退了...
+Dialogue: 0,0:03:28.71,0:03:33.01,Default,,0,0,0,fx,{\be5\blur5}別在意別在意 接下來交給麥野就沒問題啦
+Dialogue: 0,0:03:33.67,0:03:37.51,Default,,0,0,0,fx,{\be5\blur5}結果 多虧了瀧壺 才能單方面的將敵人逼至絕境
+Dialogue: 0,0:03:38.20,0:03:41.88,Default,,0,0,0,fx,{\be5\blur5}比起這個  妳用這麼亂來的方式使用力量沒關係嗎?
+Dialogue: 0,0:03:42.28,0:03:44.16,Default,,0,0,0,fx,{\be5\blur5}我有時候光看就覺得可怕
+Dialogue: 0,0:03:46.39,0:03:47.22,Default,,0,0,0,fx,{\be5\blur5}沒關係的
+Dialogue: 0,0:03:48.36,0:03:49.25,Default,,0,0,0,fx,{\be5\blur5}因為我的容身之處
+Dialogue: 0,0:03:50.03,0:03:50.83,Default,,0,0,0,fx,{\be5\blur5}只有這裡...
+Dialogue: 0,0:03:53.31,0:03:54.35,Default,,0,0,0,fx,{\be5\blur5}這樣啊
+Dialogue: 0,0:03:55.63,0:03:59.07,Default,,0,0,0,fx,{\be5\blur5}要是有一天瀧壺能有其它容身之處就好了
+Dialogue: 0,0:04:08.22,0:04:08.72,Default,,0,0,0,fx,{\be5\blur5}怎麼了?
+Dialogue: 0,0:04:09.81,0:04:10.46,Default,,0,0,0,fx,{\be5\blur5}炸彈...
+Dialogue: 0,0:04:11.51,0:04:13.48,Default,,0,0,0,fx,{\be5\blur5}我忘了回收...
+Dialogue: 0,0:04:21.99,0:04:23.26,Default,,0,0,0,fx,{\be5\blur5}終於來了啊
+Dialogue: 0,0:04:23.89,0:04:25.92,Default,,0,0,0,fx,{\be5\blur5}還真像大人物登場啊
+Dialogue: 0,0:04:30.56,0:04:30.96,Default,,0,0,0,fx,{\be5\blur5}什...
+Dialogue: 0,0:04:31.75,0:04:33.26,Default,,0,0,0,fx,{\be5\blur5}芙蘭達...
+Dialogue: 0,0:04:33.79,0:04:35.98,Default,,0,0,0,fx,{\be5\blur5}竟然後續沒收拾好就給我離開了?
+Dialogue: 0,0:04:39.37,0:04:40.70,Default,,0,0,0,fx,{\be5\blur5}妳的其他夥伴呢?
+Dialogue: 0,0:04:41.14,0:04:42.11,Default,,0,0,0,fx,{\be5\blur5}我讓她們回去了
+Dialogue: 0,0:04:42.79,0:04:44.91,Default,,0,0,0,fx,{\be5\blur5}我想跟妳一對一決鬥啊
+Dialogue: 0,0:04:45.42,0:04:46.26,Default,,0,0,0,fx,{\be5\blur5}超電磁砲
+Dialogue: 0,0:04:45.42,0:04:46.26,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(960,980)}Railgun
+Dialogue: 0,0:04:47.56,0:04:48.51,Default,,0,0,0,fx,{\be5\blur5}被發現了嗎?
+Dialogue: 0,0:04:49.02,0:04:49.87,Default,,0,0,0,fx,{\be5\blur5}算了
+Dialogue: 0,0:04:50.28,0:04:55.11,Default,,0,0,0,fx,{\be5\blur5}要和我一對一單挑 正合我意!
+Dialogue: 0,0:04:56.91,0:04:57.81,Default,,0,0,0,fx,{\be5\blur5}原來如此
+Dialogue: 0,0:05:05.85,0:05:09.74,Default,,0,0,0,fx,{\be5\blur5}想用芙蘭達的炸彈來補足力量衰退的部分嗎?
+Dialogue: 0,0:05:10.31,0:05:11.32,Default,,0,0,0,fx,{\be5\blur5}不過這樣一來
+Dialogue: 0,0:05:11.94,0:05:15.78,Default,,0,0,0,fx,{\be5\blur5}不就等於妳承認了無法憑自己的力量打敗我?
+Dialogue: 0,0:05:16.22,0:05:17.16,Default,,0,0,0,fx,{\be5\blur5}那個能力...
+Dialogue: 0,0:05:17.57,0:05:18.96,Default,,0,0,0,fx,{\be5\blur5}竟然連暴風也能彈開嗎?
+Dialogue: 0,0:05:19.39,0:05:20.23,Default,,0,0,0,fx,{\be5\blur5}既然這樣...
+Dialogue: 0,0:05:21.64,0:05:22.84,Default,,0,0,0,fx,{\be5\blur5}不管來幾次還是一樣
+Dialogue: 0,0:05:23.39,0:05:26.86,Default,,0,0,0,fx,{\be5\blur5}不對 她打算趁爆炸封住我行動的時候繞路闖進去嗎?
+Dialogue: 0,0:05:27.53,0:05:30.81,Default,,0,0,0,fx,{\be5\blur5}還是想繞過我 直接闖進後方的資料庫?
+Dialogue: 0,0:05:31.60,0:05:34.41,Default,,0,0,0,fx,{\be5\blur5}不過啊 只要先將娃娃擊落...
+Dialogue: 0,0:05:36.22,0:05:38.36,Default,,0,0,0,fx,{\be5\blur5}怎麼回事!? 妳在娃娃裡裝了什麼東西?
+Dialogue: 0,0:05:38.63,0:05:41.26,Default,,0,0,0,fx,{\be5\blur5}沒錯 我在裡面裝了可以用磁力操縱的金屬
+Dialogue: 0,0:05:42.35,0:05:43.81,Default,,0,0,0,fx,{\be5\blur5}盡做些麻煩的事...!
+Dialogue: 0,0:05:46.99,0:05:50.06,Default,,0,0,0,fx,{\be5\blur5}數量不多也許妳能擊落 不過...
+Dialogue: 0,0:05:53.13,0:05:55.17,Default,,0,0,0,fx,{\be5\blur5}如果有這麼多 妳怎麼做?
+Dialogue: 0,0:06:10.09,0:06:13.58,Default,,0,0,0,fx,{\be5\blur5}她的能力看起來應該不屬於可以展開彈幕的類型
+Dialogue: 0,0:06:13.96,0:06:14.51,Default,,0,0,0,fx,{\be5\blur5}既然如此...
+Dialogue: 0,0:06:15.53,0:06:17.96,Default,,0,0,0,fx,{\be5\blur5}想要靠壓倒性的數量壓制我嗎?
+Dialogue: 0,0:06:32.53,0:06:33.71,Default,,0,0,0,fx,{\be5\blur5}「擴散支援半導體」
+Dialogue: 0,0:06:34.53,0:06:37.40,Default,,0,0,0,fx,{\be5\blur5}對自己的弱點採取應對措施是理所當然的啊
+Dialogue: 0,0:06:37.89,0:06:40.46,Default,,0,0,0,fx,{\be5\blur5}別小看我們道具啊 死小鬼
+Dialogue: 0,0:06:37.89,0:06:40.46,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(984,980)}Item
+Dialogue: 0,0:06:42.51,0:06:45.96,Default,,0,0,0,fx,{\be5\blur5}都是因為芙蘭達的疏忽 增加了點我的工作量
+Dialogue: 0,0:06:48.86,0:06:51.76,Default,,0,0,0,fx,{\be5\blur5}不過中學生的智力就只有這種程度啊?
+Dialogue: 0,0:06:52.27,0:06:55.06,Default,,0,0,0,fx,{\be5\blur5}真是的  什麼排名第三啊?
+Dialogue: 0,0:06:55.66,0:06:58.96,Default,,0,0,0,fx,{\be5\blur5}就因為是以能力研究的應用所產生的利益作為判斷基準
+Dialogue: 0,0:06:59.39,0:07:02.71,Default,,0,0,0,fx,{\be5\blur5}妳排名第三 我排名第四?
+Dialogue: 0,0:07:05.20,0:07:07.31,Default,,0,0,0,fx,{\be5\blur5}只要在這裡殺掉妳
+Dialogue: 0,0:07:08.40,0:07:11.41,Default,,0,0,0,fx,{\be5\blur5}就可以證明和排名完全無關了吧?
+Dialogue: 0,0:07:14.61,0:07:16.32,Default,,0,0,0,fx,{\be5\blur5}排名第四的超能力者?
+Dialogue: 0,0:07:14.61,0:07:16.32,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1103,980)}Level 5
+Dialogue: 0,0:07:16.81,0:07:17.56,Default,,0,0,0,fx,{\be5\blur5}也就是說...
+Dialogue: 0,0:07:18.15,0:07:19.53,Default,,0,0,0,fx,{\be5\blur5}這傢伙是...原子崩壞?
+Dialogue: 0,0:07:18.15,0:07:19.53,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1103,980)}Melt Downer
+Dialogue: 0,0:07:20.22,0:07:20.85,Default,,0,0,0,fx,{\be5\blur5}就是她嗎?
+Dialogue: 0,0:07:22.19,0:07:24.81,Default,,0,0,0,fx,{\be5\blur5}還剩下...三個嗎?
+Dialogue: 0,0:07:30.64,0:07:35.21,Default,,0,0,0,fx,{\be5\blur5}怎麼啦?  該不會這種程度就束手無策了吧?
+Dialogue: 0,0:07:41.36,0:07:44.31,Default,,0,0,0,fx,{\be5\blur5}果然是小鬼 自暴自棄想搞特攻?
+Dialogue: 0,0:07:49.41,0:07:52.06,Default,,0,0,0,fx,{\be5\blur5}真是的  不僅粗魯 還早洩啊?
+Dialogue: 0,0:07:53.49,0:07:54.66,Default,,0,0,0,fx,{\be5\blur5}什麼! 還有一個!
+Dialogue: 0,0:07:55.55,0:07:56.66,Default,,0,0,0,fx,{\be5\blur5}這傢伙 背後...
+Dialogue: 0,0:07:59.20,0:07:59.61,Default,,0,0,0,fx,{\be5\blur5}防護盾!
+Dialogue: 0,0:08:00.23,0:08:02.11,Default,,0,0,0,fx,{\be5\blur5}不 這種距離已經來不及了
+Dialogue: 0,0:08:02.36,0:08:03.16,Default,,0,0,0,fx,{\be5\blur5}可惡
+Dialogue: 0,0:08:05.07,0:08:06.66,Default,,0,0,0,fx,{\be5\blur5}騙妳的啦
+Dialogue: 0,0:08:10.41,0:08:11.66,Default,,0,0,0,fx,{\be5\blur5}妳忘了嗎?
+Dialogue: 0,0:08:12.31,0:08:15.61,Default,,0,0,0,fx,{\be5\blur5}我也可以干涉妳的電擊啊
+Dialogue: 0,0:08:16.38,0:08:19.96,Default,,0,0,0,fx,{\be5\blur5}妳該不會自以為要贏了吧?
+Dialogue: 0,0:08:21.35,0:08:25.99,Default,,0,0,0,fx,{\be5\blur5}誰勝誰敗從一開始就成定局了 超電磁砲...
+Dialogue: 0,0:08:21.35,0:08:25.99,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1337,980)}Railgun
+Dialogue: 0,0:08:30.23,0:08:31.71,Default,,0,0,0,fx,{\be5\blur5}妳才忘了吧
+Dialogue: 0,0:08:32.26,0:08:34.06,Default,,0,0,0,fx,{\be5\blur5}我不是說我在裡面裝了金屬嗎?
+Dialogue: 0,0:08:34.84,0:08:37.11,Default,,0,0,0,fx,{\be5\blur5}就算不爆炸 也是十足的凶器啊
+Dialogue: 0,0:08:52.46,0:08:53.41,Default,,0,0,0,fx,{\be5\blur5}是這裡嗎?
+Dialogue: 0,0:09:16.59,0:09:18.66,Default,,0,0,0,fx,{\be5\blur5}總之 這樣就差不多了吧?
+Dialogue: 0,0:09:20.99,0:09:23.91,Default,,0,0,0,fx,{\be5\blur5}如果可以 我想確認是否完全燒光了
+Dialogue: 0,0:09:25.07,0:09:27.76,Default,,0,0,0,fx,{\be5\blur5}不過我現在這樣子 最後也只會被捲入...
+Dialogue: 0,0:09:28.74,0:09:30.91,Default,,0,0,0,fx,{\be5\blur5}問題在於剩下的那一處
+Dialogue: 0,0:09:31.71,0:09:34.56,Default,,0,0,0,fx,{\be5\blur5}如果也有和這邊一樣等級的能力者在...
+Dialogue: 0,0:09:35.53,0:09:36.16,Default,,0,0,0,fx,{\be5\blur5}實在是...
+Dialogue: 0,0:09:38.51,0:09:40.96,Default,,0,0,0,fx,{\be5\blur5}怎麼會... 那女人不見了!?
+Dialogue: 0,0:09:41.69,0:09:44.03,Default,,0,0,0,fx,{\be5\blur5}莫非...應該不可能那麼快就可以行動...
+Dialogue: 0,0:09:52.94,0:09:55.86,Default,,0,0,0,fx,{\be5\blur5}喂喂 現在不是悠哉睡覺的時候吧
+Dialogue: 0,0:09:56.37,0:09:58.46,Default,,0,0,0,fx,{\be5\blur5}剛剛妳所對我做的事情
+Dialogue: 0,0:09:58.75,0:10:01.86,Default,,0,0,0,fx,{\be5\blur5}現在我要以一兆倍奉還給妳!!
+Dialogue: 0,0:10:07.45,0:10:09.72,Default,,0,0,0,fx,{\be5\blur5}喂喂 怎麼啦?
+Dialogue: 0,0:10:10.17,0:10:15.12,Default,,0,0,0,fx,{\be5\blur5}不快點起來的話 我就這樣把妳烤成黑炭喔!
+Dialogue: 0,0:10:16.62,0:10:19.37,Default,,0,0,0,fx,{\be5\blur5}到處亂竄到處亂竄的
+Dialogue: 0,0:10:19.61,0:10:23.02,Default,,0,0,0,fx,{\be5\blur5}幸好這幾天沒吃什麼東西...
+Dialogue: 0,0:10:23.93,0:10:26.92,Default,,0,0,0,fx,{\be5\blur5}喂 不要逃啊 婊子
+Dialogue: 0,0:10:27.88,0:10:30.57,Default,,0,0,0,fx,{\be5\blur5}炸彈用光了就想拍拍屁股逃跑
+Dialogue: 0,0:10:30.77,0:10:32.74,Default,,0,0,0,fx,{\be5\blur5}這樣排名第三這個稱號會哭喔
+Dialogue: 0,0:10:32.79,0:10:35.12,Default,,0,0,0,fx,{\be5\blur5}那種鬼東西就隨它哭吧
+Dialogue: 0,0:10:35.58,0:10:38.31,Default,,0,0,0,fx,{\be5\blur5}目的已經達成 接下來只要逃出去就好了
+Dialogue: 0,0:10:39.05,0:10:42.42,Default,,0,0,0,fx,{\be5\blur5}目前電力系統已經被破壞  逃走路徑有三個
+Dialogue: 0,0:10:42.88,0:10:45.72,Default,,0,0,0,fx,{\be5\blur5}如果從逃生樓梯衝出去的話...不行
+Dialogue: 0,0:10:45.97,0:10:48.92,Default,,0,0,0,fx,{\be5\blur5}她的能力可以轟掉整個樓梯
+Dialogue: 0,0:10:49.39,0:10:51.37,Default,,0,0,0,fx,{\be5\blur5}樓梯上幾乎沒有能閃避的空間
+Dialogue: 0,0:10:52.16,0:10:54.00,Default,,0,0,0,fx,{\be5\blur5}還是走有很多雜物的搬運口?
+Dialogue: 0,0:10:54.73,0:10:57.07,Default,,0,0,0,fx,{\be5\blur5}但是 搬運口只有一條路
+Dialogue: 0,0:10:57.59,0:11:00.22,Default,,0,0,0,fx,{\be5\blur5}如果在某處被堵住 就變成甕中之鱉了
+Dialogue: 0,0:11:00.73,0:11:01.57,Default,,0,0,0,fx,{\be5\blur5}剩下的是...
+Dialogue: 0,0:11:07.27,0:11:10.22,Default,,0,0,0,fx,{\be5\blur5}喂~~喂~~ 妳真的沒轍了嗎?
+Dialogue: 0,0:11:10.44,0:11:16.02,Default,,0,0,0,fx,{\be5\blur5}像妳這樣四處逃竄 根本不是蜘蛛 簡直是蟑螂啊! 妳這傢伙
+Dialogue: 0,0:11:17.09,0:11:19.47,Default,,0,0,0,fx,{\be5\blur5}既然這樣 就像蟑螂一樣 讓我「噗吱」一聲踩扁
+Dialogue: 0,0:11:24.23,0:11:25.02,Default,,0,0,0,fx,{\be5\blur5}喂
+Dialogue: 0,0:11:25.24,0:11:26.07,Default,,0,0,0,fx,{\be5\blur5}我是絹旗
+Dialogue: 0,0:11:27.08,0:11:30.37,Default,,0,0,0,fx,{\be5\blur5}幹嘛? 我現在殺得正爽 長話短說喔
+Dialogue: 0,0:11:30.82,0:11:33.62,Default,,0,0,0,fx,{\be5\blur5}我這邊的移送準備超完成了
+Dialogue: 0,0:11:34.09,0:11:36.82,Default,,0,0,0,fx,{\be5\blur5}瀧壺她們剛剛和我會合了
+Dialogue: 0,0:11:39.18,0:11:41.37,Default,,0,0,0,fx,{\be5\blur5}就算毀掉立足點也沒有用?
+Dialogue: 0,0:11:38.77,0:11:41.47,Upside,,0,0,0,fx,{\be5\blur5}如果沒問題 我就超護送她們...
+Dialogue: 0,0:11:41.87,0:11:44.22,Default,,0,0,0,fx,{\be5\blur5}既然這樣我就直接轟掉她
+Dialogue: 0,0:11:43.71,0:11:44.22,Upside,,0,0,0,fx,{\be5\blur5}麥野?
+Dialogue: 0,0:11:45.12,0:11:45.72,Default,,0,0,0,fx,{\be5\blur5}是
+Dialogue: 0,0:11:46.51,0:11:46.92,Default,,0,0,0,fx,{\be5\blur5}是
+Dialogue: 0,0:11:47.68,0:11:48.64,Default,,0,0,0,fx,{\be5\blur5}超瞭解了
+Dialogue: 0,0:11:50.95,0:11:52.69,Default,,0,0,0,fx,{\be5\blur5}超原封不動的傳達嗎?
+Dialogue: 0,0:11:53.78,0:11:55.87,Default,,0,0,0,fx,{\be5\blur5}我知道了 掰掰
+Dialogue: 0,0:11:56.86,0:11:59.21,Default,,0,0,0,fx,{\be5\blur5}她說我們可以先超進行了
+Dialogue: 0,0:11:59.69,0:12:01.25,Default,,0,0,0,fx,{\be5\blur5}那...那個...
+Dialogue: 0,0:12:01.56,0:12:01.92,Default,,0,0,0,fx,{\be5\blur5}什麼?
+Dialogue: 0,0:12:02.32,0:12:05.87,Default,,0,0,0,fx,{\be5\blur5}麥野她...有沒有...很生氣的感覺?
+Dialogue: 0,0:12:06.17,0:12:08.85,Default,,0,0,0,fx,{\be5\blur5}那個...炸彈...什麼的?
+Dialogue: 0,0:12:09.45,0:12:12.22,Default,,0,0,0,fx,{\be5\blur5}沒有 她鬥志超高昂的
+Dialogue: 0,0:12:12.41,0:12:13.72,Default,,0,0,0,fx,{\be5\blur5}太好了...
+Dialogue: 0,0:12:14.03,0:12:16.22,Default,,0,0,0,fx,{\be5\blur5}不過 有話要我超傳達給芙蘭達
+Dialogue: 0,0:12:16.35,0:12:17.61,Default,,0,0,0,fx,{\be5\blur5}嗯? 什麼什麼?
+Dialogue: 0,0:12:18.17,0:12:21.79,Default,,0,0,0,fx,{\be5\blur5}「等 著 受 罰 吧」 她這麼說
+Dialogue: 0,0:12:29.91,0:12:31.42,Default,,0,0,0,fx,{\be5\blur5}能就這樣逃掉嗎?
+Dialogue: 0,0:12:58.36,0:13:00.92,Default,,0,0,0,fx,{\be5\blur5}嗶哩 嗶哩 嗶哩的?
+Dialogue: 0,0:13:01.22,0:13:03.77,Default,,0,0,0,fx,{\be5\blur5}別笑掉我大牙了 死小鬼!
+Dialogue: 0,0:13:04.29,0:13:06.02,Default,,0,0,0,fx,{\be5\blur5}妳以為憑妳這種程度的小孩打架
+Dialogue: 0,0:13:06.02,0:13:09.17,Default,,0,0,0,fx,{\be5\blur5}就能解決這座城市裡的「黑暗」嗎?
+Dialogue: 0,0:13:11.42,0:13:14.22,Default,,0,0,0,fx,{\be5\blur5}喂 再讓我玩得更愉悅點吧
+Dialogue: 0,0:13:14.69,0:13:18.82,Default,,0,0,0,fx,{\be5\blur5}如果妳不想成為現代藝術風格的愚蠢作品的話
+Dialogue: 0,0:13:31.49,0:13:32.95,Default,,0,0,0,fx,{\be5\blur5}我知道妳很難受
+Dialogue: 0,0:13:33.49,0:13:37.33,Default,,0,0,0,fx,{\be5\blur5}但沒想到妳竟然會逃到這種簡直像在拜託我殺掉妳的地點
+Dialogue: 0,0:13:38.07,0:13:39.72,Default,,0,0,0,fx,{\be5\blur5}什麼排名第三啊
+Dialogue: 0,0:13:40.02,0:13:42.17,Default,,0,0,0,fx,{\be5\blur5}不過就是個乳臭未乾的臭丫頭嘛
+Dialogue: 0,0:13:42.60,0:13:45.07,Default,,0,0,0,fx,{\be5\blur5}既然這樣 最後就該拿出骨氣
+Dialogue: 0,0:13:45.37,0:13:50.02,Default,,0,0,0,fx,{\be5\blur5}使出妳最擅長的「超電磁砲」攻擊給我看看啊
+Dialogue: 0,0:13:45.37,0:13:50.02,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(960,980)}Railgun
+Dialogue: 0,0:13:54.66,0:13:58.78,Default,,0,0,0,fx,{\be5\blur5}喂喂 在我欺凌妳之前先瘋掉 就一點都不好玩了喔
+Dialogue: 0,0:14:00.67,0:14:01.57,Default,,0,0,0,fx,{\be5\blur5}說的也是
+Dialogue: 0,0:14:02.12,0:14:04.84,Default,,0,0,0,fx,{\be5\blur5}現在的我 別說是「超電磁砲」了
+Dialogue: 0,0:14:02.12,0:14:04.84,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1155,980)}Railgun
+Dialogue: 0,0:14:05.21,0:14:08.42,Default,,0,0,0,fx,{\be5\blur5}連躲開妳一擊的力氣都沒有
+Dialogue: 0,0:14:09.27,0:14:10.02,Default,,0,0,0,fx,{\be5\blur5}所以
+Dialogue: 0,0:14:10.33,0:14:12.02,Default,,0,0,0,fx,{\be5\blur5}我才會賭在這條路徑上
+Dialogue: 0,0:14:13.15,0:14:15.02,Default,,0,0,0,fx,{\be5\blur5}妳那個金髮的夥伴
+Dialogue: 0,0:14:15.42,0:14:17.17,Default,,0,0,0,fx,{\be5\blur5}她真的很難纏啊
+Dialogue: 0,0:14:17.52,0:14:19.27,Default,,0,0,0,fx,{\be5\blur5}我被她的炸彈炸飛
+Dialogue: 0,0:14:19.33,0:14:20.17,Default,,0,0,0,fx,{\be5\blur5}被她騙
+Dialogue: 0,0:14:20.43,0:14:21.32,Default,,0,0,0,fx,{\be5\blur5}還被她踹
+Dialogue: 0,0:14:21.72,0:14:22.42,Default,,0,0,0,fx,{\be5\blur5}還有
+Dialogue: 0,0:14:23.21,0:14:26.62,Default,,0,0,0,fx,{\be5\blur5}連立足之地都差點被打垮...呢
+Dialogue: 0,0:14:27.98,0:14:29.17,Default,,0,0,0,fx,{\be5\blur5}所以我孤注一擲
+Dialogue: 0,0:14:29.83,0:14:32.63,Default,,0,0,0,fx,{\be5\blur5}如果她在所有地方都設下了陷阱...
+Dialogue: 0,0:14:33.06,0:14:37.77,Default,,0,0,0,fx,{\be5\blur5}像這種明顯的地方 一定也會設的 對吧?
+Dialogue: 0,0:14:39.40,0:14:43.37,Default,,0,0,0,fx,{\be5\blur5}現在的我 至少還能發出能代替那個工具的電氣信號
+Dialogue: 0,0:14:44.86,0:14:49.24,Default,,0,0,0,fx,{\be5\blur5}所以不能看不起小孩打架對吧? 歐巴桑
+Dialogue: 0,0:14:50.28,0:14:53.62,Default,,0,0,0,fx,{\be5\blur5}笨...芙蘭達－－－!!
+Dialogue: 0,0:15:03.45,0:15:04.37,Default,,0,0,0,fx,{\be5\blur5}抓住它!
+Dialogue: 0,0:15:09.82,0:15:10.67,Default,,0,0,0,fx,{\be5\blur5}怎麼會...
+Dialogue: 0,0:15:11.47,0:15:12.17,Default,,0,0,0,fx,{\be5\blur5}難道...
+Dialogue: 0,0:15:18.51,0:15:19.97,Default,,0,0,0,fx,{\be5\blur5}給我下來 混蛋
+Dialogue: 0,0:15:20.19,0:15:21.97,Upside,,0,0,0,fx,{\be5\blur5}還沒分出勝負啊
+Dialogue: 0,0:15:20.22,0:15:22.71,Default,,0,0,0,fx,{\be5\blur5}竟然還沒死 皮還真厚
+Dialogue: 0,0:15:26.24,0:15:27.32,Default,,0,0,0,fx,{\be5\blur5}給她逃掉了嗎?
+Dialogue: 0,0:15:29.64,0:15:32.42,Default,,0,0,0,fx,{\be5\blur5}雖然用原子崩壞的放射減緩了下墜速度
+Dialogue: 0,0:15:29.64,0:15:32.42,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(747,980)}Melt Downer
+Dialogue: 0,0:15:33.20,0:15:35.60,Default,,0,0,0,fx,{\be5\blur5}但是還是沒能完美著地啊
+Dialogue: 0,0:15:36.56,0:15:38.06,Default,,0,0,0,fx,{\be5\blur5}需要調整一下啊
+Dialogue: 0,0:15:39.42,0:15:42.12,Default,,0,0,0,fx,{\be5\blur5}現在馬上叫瀧壺回來 這次一定要...
+Dialogue: 0,0:15:43.88,0:15:47.82,Default,,0,0,0,fx,{\be5\blur5}不 那死小鬼是常盤台的學生...
+Dialogue: 0,0:15:48.40,0:15:50.37,Default,,0,0,0,fx,{\be5\blur5}那麼那傢伙的目的到底是...?
+Dialogue: 0,0:15:54.55,0:15:56.42,Default,,0,0,0,fx,{\be5\blur5}這邊的目的已經達成
+Dialogue: 0,0:15:57.22,0:15:59.57,Default,,0,0,0,fx,{\be5\blur5}但是 最後的一處...
+Dialogue: 0,0:16:02.27,0:16:03.64,Default,,0,0,0,fx,{\be5\blur5}已經...沒有力氣...
+Dialogue: 0,0:16:05.11,0:16:05.82,Default,,0,0,0,fx,{\be5\blur5}可惡
+Dialogue: 0,0:16:07.59,0:16:08.62,Default,,0,0,0,fx,{\be5\blur5}喂 快點
+Dialogue: 0,0:16:08.90,0:16:11.16,Default,,0,0,0,fx,{\be5\blur5}上面的火勢似乎已經蔓延開來了
+Dialogue: 0,0:16:11.92,0:16:13.17,Default,,0,0,0,fx,{\be5\blur5}但...但是 那傢伙還沒...
+Dialogue: 0,0:16:13.20,0:16:14.52,Upside,,0,0,0,fx,{\be5\blur5}別理那個慢烏龜了!
+Dialogue: 0,0:16:16.56,0:16:21.72,Default,,0,0,0,fx,{\be5\blur5}可惡 不是說雇用了暗部 所以沒問題了嗎?
+Dialogue: 0,0:16:22.31,0:16:23.62,Default,,0,0,0,fx,{\be5\blur5}真是的...根本沒有用...
+Dialogue: 0,0:16:26.74,0:16:28.82,Default,,0,0,0,fx,{\be5\blur5}幹...幹什麼 什麼!!
+Dialogue: 0,0:16:28.94,0:16:33.27,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(808,980)}Railgun
+Dialogue: 0,0:16:28.94,0:16:33.27,Default,,0,0,0,fx,{\be5\blur5}我現在開始對超電磁砲想摧毀的計畫產生興趣了
+Dialogue: 0,0:16:33.86,0:16:34.57,Default,,0,0,0,fx,{\be5\blur5}給我看看
+Dialogue: 0,0:16:34.76,0:16:36.77,Default,,0,0,0,fx,{\be5\blur5}怎...怎麼可能給妳看!
+Dialogue: 0,0:16:37.17,0:16:40.12,Default,,0,0,0,fx,{\be5\blur5}如果把情報漏洩給外界 連我也會被消滅...
+Dialogue: 0,0:16:41.46,0:16:44.97,Default,,0,0,0,fx,{\be5\blur5}是要現在變成滿是油脂的肉塊
+Dialogue: 0,0:16:45.82,0:16:49.97,Default,,0,0,0,fx,{\be5\blur5}還是賭上極小的可能性過著逃亡人生
+Dialogue: 0,0:16:50.43,0:16:51.97,Default,,0,0,0,fx,{\be5\blur5}你想要哪個?
+Dialogue: 0,0:16:56.02,0:16:57.32,Default,,0,0,0,fx,{\be5\blur5}這在搞什麼啊!
+Dialogue: 0,0:16:57.72,0:17:00.72,Default,,0,0,0,fx,{\be5\blur5}排名第一竟然被迫做這種事情
+Dialogue: 0,0:17:01.12,0:17:04.92,Default,,0,0,0,fx,{\be5\blur5}只要「噗滋噗滋」的殺掉兩萬隻史萊姆 就能升級?
+Dialogue: 0,0:17:05.57,0:17:08.87,Default,,0,0,0,fx,{\be5\blur5}學園都市的統括理事會到底在想什麼...
+Dialogue: 0,0:17:13.87,0:17:15.18,Default,,0,0,0,fx,{\be5\blur5}原來如此
+Dialogue: 0,0:17:15.51,0:17:17.97,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1115,980)}Item
+Dialogue: 0,0:17:15.51,0:17:17.97,Default,,0,0,0,fx,{\be5\blur5}所以才雇用我們「道具」啊...
+Dialogue: 0,0:17:18.60,0:17:20.32,Default,,0,0,0,fx,{\be5\blur5}這不是很有趣嗎?
+Dialogue: 0,0:17:20.57,0:17:23.57,Default,,0,0,0,fx,{\be5\blur5}讓她痛苦掙扎 最後徹底沉沒
+Dialogue: 0,0:17:24.41,0:17:27.77,Default,,0,0,0,fx,{\be5\blur5}沉到學園都市的黑暗深淵中...呢
+Dialogue: 0,0:17:44.88,0:17:46.27,Default,,0,0,0,fx,{\be5\blur5}已經早上了啊...
+Dialogue: 0,0:17:59.35,0:18:00.52,Default,,0,0,0,fx,{\be5\blur5}真是狼狽啊
+Dialogue: 0,0:18:07.86,0:18:11.15,Default,,0,0,0,fx,{\be5\blur5}S-Processor 腦神經應用分析所
+Dialogue: 0,0:18:11.97,0:18:14.57,Default,,0,0,0,fx,{\be5\blur5}昨天沒能消滅的最後一處
+Dialogue: 0,0:18:15.45,0:18:17.07,Default,,0,0,0,fx,{\be5\blur5}應該是這裡沒錯...
+Dialogue: 0,0:18:21.82,0:18:22.58,Default,,0,0,0,fx,{\be5\blur5}好奇怪
+Dialogue: 0,0:18:23.22,0:18:29.37,Default,,0,0,0,fx,{\be5\blur5}不僅沒有人進出 別說是保全系統了  連所有電子機器都沒有在運作?
+Dialogue: 0,0:18:30.27,0:18:30.84,Default,,0,0,0,fx,{\be5\blur5}是陷阱嗎?
+Dialogue: 0,0:18:47.27,0:18:48.97,Default,,0,0,0,fx,{\be5\blur5}果然沒有任何人
+Dialogue: 0,0:18:49.57,0:18:52.74,Default,,0,0,0,fx,{\be5\blur5}不只這樣 就連數據也全部被消除了?
+Dialogue: 0,0:18:58.75,0:19:02.67,Default,,0,0,0,fx,{\be5\blur5}因為昨天的攻防戰 所以放棄繼續計畫了嗎?
+Dialogue: 0,0:19:03.72,0:19:06.72,Default,,0,0,0,fx,{\be5\blur5}只憑藉一處 計畫沒辦法維持下去?
+Dialogue: 0,0:19:06.87,0:19:14.72,Default,,0,0,0,fx,{\be5\blur5}雖然不太清楚 總算將那些人逼到撤退了啊...
+Dialogue: 0,0:19:18.53,0:19:20.92,Default,,0,0,0,fx,{\be5\blur5}這樣子...結束了?
+Dialogue: 0,0:19:22.77,0:19:26.47,Default,,0,0,0,fx,{\be5\blur5}真的嗎...總覺得...沒有踏實感...
+Dialogue: 0,0:19:27.33,0:19:30.92,Default,,0,0,0,fx,{\be5\blur5}是因為遭遇了太多超乎現實的事情嗎...?
+Dialogue: 0,0:19:43.01,0:19:45.62,Default,,0,0,0,fx,{\be5\blur5}再見 姐姐大人
+Dialogue: 0,0:19:55.44,0:19:56.97,Default,,0,0,0,fx,{\be5\blur5}原來如此啊
+Dialogue: 0,0:19:57.51,0:20:00.32,Default,,0,0,0,fx,{\be5\blur5}和原定計畫不同 正想著到底是什麼狀況
+Dialogue: 0,0:20:00.96,0:20:04.07,Default,,0,0,0,fx,{\be5\blur5}妳...是原型吧?
+Dialogue: 0,0:20:00.96,0:20:04.07,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1010,980)}original
+Dialogue: 0,0:20:07.19,0:20:08.87,Default-furigana,,0,0,0,fx,{\be5\blur5}{\pos(1020,980)}Accelerator
+Dialogue: 0,0:20:07.19,0:20:08.87,Default,,0,0,0,fx,{\be5\blur5}我是一方通行
+Dialogue: 0,0:20:10.23,0:20:11.22,Default,,0,0,0,fx,{\be5\blur5}多多指教
+Dialogue: 0,0:20:12.28,0:20:13.33,Default,,0,0,0,fx,{\be5\blur5}為什麼啊!?
+Dialogue: 0,0:20:13.57,0:20:17.57,Default,,0,0,0,fx,{\be5\blur5}妳們也是活生生的人吧!? 也是有生命的吧!?
+Dialogue: 0,0:20:20.45,0:20:24.04,Default,,0,0,0,fx,{\be5\blur5}御坂只是為了計畫而被製造出來的複製品
+Dialogue: 0,0:20:24.93,0:20:26.27,Default,,0,0,0,fx,{\be5\blur5}製造出來的身體
+Dialogue: 0,0:20:26.45,0:20:27.77,Default,,0,0,0,fx,{\be5\blur5}製造出來的心
+Dialogue: 0,0:20:28.57,0:20:30.42,Default,,0,0,0,fx,{\be5\blur5}單價為十八萬的...
+Dialogue: 0,0:20:31.06,0:20:32.41,Default,,0,0,0,fx,{\be5\blur5}實驗動物
+Dialogue: 0,0:20:42.89,0:20:46.22,Default,,0,0,0,fx,{\be5\blur5}至今為止發生的事情 不可能抹去消失
+Dialogue: 0,0:20:48.29,0:20:52.12,Default,,0,0,0,fx,{\be5\blur5}今後也還有很多非做不可的事情
+Dialogue: 0,0:20:53.01,0:20:53.52,Default,,0,0,0,fx,{\be5\blur5}但是
+Dialogue: 0,0:20:55.37,0:20:57.02,Default,,0,0,0,fx,{\be5\blur5}實驗結束了!
+Dialogue: 0,0:20:58.75,0:20:59.61,Default,,0,0,0,fx,{\be5\blur5}她們...
+Dialogue: 0,0:21:15.87,0:21:19.67,Default,,0,0,0,fx,{\be5\blur5}她們...可以不用死了...
+Dialogue: 0,0:21:21.47,0:21:23.48,Default,,0,0,0,fx,{\be5\blur5}我們大家都跟隨著御坂
+Dialogue: 0,0:21:24.37,0:21:27.97,Default,,0,0,0,fx,{\be5\blur5}無法獨自承受時 隨時都可以跟我們說喔
+Dialogue: 0,0:21:32.75,0:21:35.52,Default,,0,0,0,fx,{\be5\blur5}大家 我現在要回去了
+Dialogue: 0,0:21:43.09,0:21:43.87,Default,,0,0,0,fx,{\be5\blur5}咦
+Dialogue: 0,0:21:47.71,0:21:49.15,Default,,0,0,0,fx,{\be5\blur5}這是怎樣啦!?
+Dialogue: 0,0:21:50.23,0:21:52.02,Default,,0,0,0,fx,{\be5\blur5}真是怪了...
+Dialogue: 0,0:21:53.36,0:21:56.22,Default,,0,0,0,fx,{\be5\blur5}該不會...故障了吧?
+Dialogue: 0,0:21:59.47,0:22:00.16,Default,,0,0,0,fx,{\be5\blur5}真的假的?
+Dialogue: 0,0:23:32.32,0:23:34.81,Default,,0,0,0,fx,{\be5\blur5}突然出現在御坂美琴面前的我 上條當麻
+Dialogue: 0,0:23:34.81,0:23:37.51,Default,,0,0,0,fx,{\be5\blur5}和突然出現在我上條當麻面前的御坂美琴一起
+Dialogue: 0,0:23:37.51,0:23:40.56,Default,,0,0,0,fx,{\be5\blur5}到底誰是誰都搞不清楚的一個故事
+Dialogue: 0,0:23:37.88,0:23:38.66,Default,,0,0,0,fx,{\be5\blur5}才不是!
+Dialogue: 0,0:23:38.77,0:23:40.85,Default,,0,0,0,fx,{\be5\blur5}話說為什麼是你在做預告啊!?
+Dialogue: 5,0:01:48.16,0:01:51.67,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}Sorrow of your heart…
+Dialogue: 5,0:01:52.17,0:01:55.00,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)} I shoot it down
+Dialogue: 5,0:02:33.67,0:02:36.38,OPJP,,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}sister's noise…
+Dialogue: 5,0:02:37.92,0:02:40.59,OPJP,,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}I find it out…
+Dialogue: 5,0:02:46.60,0:02:49.64,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)}Sorrow of your heart…
+Dialogue: 5,0:02:50.19,0:02:53.06,OPJP,NTP,0,0,0,,{\blur4.5}{\fscx70\fscy70\fad(300,300)\pos(961.5,979.5)} I shoot it down
+Dialogue: 1,0:01:46.33,0:01:52.84,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}姐妹電氣  不斷尋找著心中的迷惘之所
+Dialogue: 1,0:01:52.88,0:01:59.84,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}無人能破壞這份交織重疊的感情
+Dialogue: 1,0:02:03.05,0:02:09.64,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}終而復始的真相遙在遠方
+Dialogue: 1,0:02:09.69,0:02:15.57,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}而我卻仍未察覺到你的那份痛楚
+Dialogue: 1,0:02:15.82,0:02:22.95,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}即使寄託於那天的夢想將我撕碎
+Dialogue: 1,0:02:23.03,0:02:29.91,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}只需堅信最重要的希望便可
+Dialogue: 1,0:02:31.46,0:02:34.59,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}雖近在咫尺
+Dialogue: 1,0:02:34.67,0:02:37.88,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}卻難聞你聲
+Dialogue: 1,0:02:37.88,0:02:44.72,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}在時光荏苒中總算遇見了你
+Dialogue: 1,0:02:44.76,0:02:51.19,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}姐妹電氣  不斷尋找著心中迷惘之所
+Dialogue: 1,0:02:51.19,0:02:57.61,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}一定會保護好互相感受到的同一份笑容
+Dialogue: 1,0:02:57.65,0:03:01.57,OPCN,NTP,0,0,0,,{\blur4.5\fad(300,300)}再也沒人能將其破壞
+Dialogue: 0,0:23:40.85,0:23:40.98,Default,,0,0,0,,
+Dialogue: 0,0:22:12.89,0:22:18.60,OPCN,NTP,0,0,0,,仰望著陌生的天空
+Dialogue: 0,0:22:19.02,0:22:24.44,OPCN,NTP,0,0,0,,總和你一起漫步
+Dialogue: 0,0:22:24.53,0:22:30.53,OPCN,NTP,0,0,0,,仿佛看見了嶄新的未來
+Dialogue: 0,0:22:30.57,0:22:36.71,OPCN,NTP,0,0,0,,我開始追尋
+Dialogue: 0,0:22:36.75,0:22:45.05,OPCN,NTP,0,0,0,,如果在迷糊的視野中迷失的話
+Dialogue: 0,0:22:45.09,0:22:53.14,OPCN,NTP,0,0,0,,若觸碰到深信之心  一切將會完全改變
+Dialogue: 0,0:22:53.18,0:22:59.48,OPCN,NTP,0,0,0,,不知厭倦地細數著  而片片的雲朵卻飄向遠方
+Dialogue: 0,0:22:59.52,0:23:04.65,OPCN,NTP,0,0,0,,追上前去就能找到明天的夢想
+Dialogue: 0,0:23:04.69,0:23:08.15,OPCN,NTP,0,0,0,,親眼去確認一去不返的現在吧
+Dialogue: 0,0:23:08.19,0:23:11.32,OPCN,NTP,0,0,0,,你所傳達的感情
+Dialogue: 0,0:23:11.36,0:23:17.16,OPCN,NTP,0,0,0,,總有一天我也會傳達給你
+Dialogue: 0,0:23:17.20,0:23:23.13,OPCN,NTP,0,0,0,,像雲朵一般  悄悄地  悄悄地
+Dialogue: 0,0:23:23.17,0:23:28.21,OPCN,NTP,0,0,0,,無論在何處  也一直  一直地
+Dialogue: 0,0:23:28.21,0:23:30.38,OPCN,NTP,0,0,0,,向前
+Dialogue: 0,0:23:40.98,0:23:40.98,Default,,0,0,0,,

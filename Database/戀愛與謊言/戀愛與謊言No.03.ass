@@ -1,0 +1,411 @@
+﻿[Script Info]
+Title: 
+Original Script: 
+ScriptType: v4.00
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+ScaledBorderAndShadow: no
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,微軟正黑體,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,2,2,0,0,1,1
+Style: OP,微軟正黑體,56,&H00FFFFFF,&H000000FF,&H000000FF,&H000000FF,0,0,0,0,100,100,0,0,1,1,2,2,0,0,1,1
+Style: Staff,微軟正黑體,56,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,2,2,0,0,1,1
+Style: TopHorizontalCenter,微軟正黑體,72,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,2,8,0,0,1,1
+Style: ED,微軟正黑體,56,&H00FFFFFF,&H000000FF,&H000000FF,&H000000FF,0,0,0,0,100,100,0,0,1,1,2,2,0,0,1,1
+Style: Sub,微軟正黑體,36,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,2,2,0,0,1,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:06.07,0:00:07.87,Default,NTP,0,0,0,!Effect,抱歉 上課鈴都已經響了
+Dialogue: 0,0:00:09.95,0:00:12.95,Default,NTP,0,0,0,!Effect,我只是有些無論如何也想問清楚的事情
+Dialogue: 0,0:00:16.21,0:00:18.92,Default,NTP,0,0,0,!Effect,莉莉之後和你說了些什麼嗎
+Dialogue: 0,0:00:20.25,0:00:21.75,Default,NTP,0,0,0,!Effect,這個...
+Dialogue: 0,0:00:22.51,0:00:26.18,Default,NTP,0,0,0,!Effect,她叫我一天和高崎同學接吻一次
+Dialogue: 0,0:00:35.19,0:00:41.78,OP,NTP,0,0,0,!Effect,真っ赤な線を描いたちっぽけな心の話
+Dialogue: 0,0:00:42.18,0:00:48.37,OP,NTP,0,0,0,!Effect,僕らの未来はどこに向かって光るの
+Dialogue: 0,0:00:48.75,0:00:55.34,OP,NTP,0,0,0,!Effect,続きの線を描いた　色づいてしまう度にまぶしい
+Dialogue: 0,0:00:55.46,0:01:00.80,OP,NTP,0,0,0,!Effect,そんな心のリズムを繋ぎだす
+Dialogue: 0,0:01:02.34,0:01:08.97,OP,NTP,0,0,0,!Effect,かなしいかなしいかなしいかなしい
+Dialogue: 0,0:01:08.98,0:01:15.02,OP,NTP,0,0,0,!Effect,うれしいうれしいうれしいうれしい
+Dialogue: 0,0:01:15.72,0:01:21.61,OP,NTP,0,0,0,!Effect,２つの感情に揺さぶられては
+Dialogue: 0,0:01:22.41,0:01:29.13,OP,NTP,0,0,0,!Effect,まだ見ぬ指先を照らし出してくだけ
+Dialogue: 0,0:01:29.38,0:01:36.27,OP,NTP,0,0,0,!Effect,このまま嘘でもいいから夢泳がせて
+Dialogue: 0,0:01:36.27,0:01:42.13,OP,NTP,0,0,0,!Effect,かなしいかなしい今を探してく
+Dialogue: 0,0:01:42.94,0:01:49.66,OP,NTP,0,0,0,!Effect,僕らは見えない未来を信じてる
+Dialogue: 0,0:01:49.66,0:01:55.45,OP,NTP,0,0,0,!Effect,だから悲しい悲しい今を探しては光った
+Dialogue: 0,0:01:55.46,0:01:56.69,OP,NTP,0,0,0,!Effect,引つかた
+Dialogue: 0,0:02:01.96,0:02:03.17,Default,NTP,0,0,0,!Effect,怎麼辦
+Dialogue: 0,0:02:03.80,0:02:05.22,Default,NTP,0,0,0,!Effect,這就要離婚了嗎
+Dialogue: 0,0:02:08.26,0:02:10.72,Default,NTP,0,0,0,!Effect,你已經見過政府通知的對象了吧
+Dialogue: 0,0:02:11.26,0:02:13.06,Default,NTP,0,0,0,!Effect,都還沒結婚呢
+Dialogue: 0,0:02:13.81,0:02:18.27,Default,NTP,0,0,0,!Effect,她又叫我週日去她家 要幹什麼呢
+Dialogue: 0,0:02:18.60,0:02:19.69,Default,NTP,0,0,0,!Effect,做該做的事吧
+Dialogue: 0,0:02:21.65,0:02:23.40,Default,NTP,0,0,0,!Effect,不不 怎麼會呢
+Dialogue: 0,0:02:23.40,0:02:25.95,Default,NTP,0,0,0,!Effect,而且她也說絕對不會和我結婚的
+Dialogue: 0,0:02:26.95,0:02:30.87,Default,NTP,0,0,0,!Effect,由佳吏 你再去和高崎同學接一次吻吧
+Dialogue: 0,0:02:31.58,0:02:33.12,Default,NTP,0,0,0,!Effect,而且她還說了那種話
+Dialogue: 0,0:02:33.99,0:02:35.83,Default,NTP,0,0,0,!Effect,不過你膽子可真大啊 小根
+Dialogue: 0,0:02:36.41,0:02:37.79,Default,NTP,0,0,0,!Effect,居然敢一個人跑去女校
+Dialogue: 0,0:02:38.54,0:02:40.04,Default,NTP,0,0,0,!Effect,是我的話我絕對不會去的
+Dialogue: 0,0:02:42.42,0:02:43.63,Default,NTP,0,0,0,!Effect,去年好像也發生這種事了啊
+Dialogue: 0,0:02:43.75,0:02:46.26,Default,NTP,0,0,0,!Effect,對了 在補習學校第一次見面的時候
+Dialogue: 0,0:02:47.68,0:02:50.14,Default,NTP,0,0,0,!Effect,東中的仁阪 就是你吧
+Dialogue: 0,0:02:51.18,0:02:53.35,Default,NTP,0,0,0,!Effect,就是你隨便撩了別人的妹子吧
+Dialogue: 0,0:02:54.14,0:02:55.39,Default,NTP,0,0,0,!Effect,你在說什麼啊
+Dialogue: 0,0:02:55.56,0:02:56.85,Default,NTP,0,0,0,!Effect,別想糊弄我
+Dialogue: 0,0:02:57.31,0:02:59.06,Default,NTP,0,0,0,!Effect,我的政府通知的對象啊
+Dialogue: 0,0:02:59.65,0:03:03.36,Default,NTP,0,0,0,!Effect,在電車上見過你之後 就只想著你
+Dialogue: 0,0:03:04.86,0:03:06.36,Default,NTP,0,0,0,!Effect,真是太討厭了
+Dialogue: 0,0:03:06.57,0:03:08.15,Default,NTP,0,0,0,!Effect,坐什麼電車啊 給我走路去
+Dialogue: 0,0:03:08.70,0:03:10.53,Default,NTP,0,0,0,!Effect,我說 你在聽嗎
+Dialogue: 0,0:03:13.83,0:03:16.62,Default,NTP,0,0,0,!Effect,他好像叫 根島吧
+Dialogue: 0,0:03:17.17,0:03:18.83,Default,NTP,0,0,0,!Effect,這場景也太尷尬了吧
+Dialogue: 0,0:03:19.29,0:03:20.33,Default,NTP,0,0,0,!Effect,能走開去那邊嗎
+Dialogue: 0,0:03:22.67,0:03:24.29,Default,NTP,0,0,0,!Effect,你好歹也說點什麼啊
+Dialogue: 0,0:03:25.63,0:03:26.51,Default,NTP,0,0,0,!Effect,所以說...
+Dialogue: 0,0:03:27.13,0:03:27.86,Default,NTP,0,0,0,!Effect,你怎麼回事啊
+Dialogue: 0,0:03:29.05,0:03:30.27,Default,NTP,0,0,0,!Effect,他怎麼還在這
+Dialogue: 0,0:03:30.28,0:03:33.64,Default,NTP,0,0,0,!Effect,你這傢伙 難道去向教導主任告狀了嗎
+Dialogue: 0,0:03:35.94,0:03:38.27,Default,NTP,0,0,0,!Effect,跟這個傢伙沒關係 真的
+Dialogue: 0,0:03:38.43,0:03:41.44,Default,NTP,0,0,0,!Effect,我 我沒有叫教導主任的
+Dialogue: 0,0:03:42.27,0:03:45.27,Default,NTP,0,0,0,!Effect,但是我叫了警察
+Dialogue: 0,0:03:49.82,0:03:51.03,Default,NTP,0,0,0,!Effect,那真是太好笑了
+Dialogue: 0,0:03:51.53,0:03:53.32,Default,NTP,0,0,0,!Effect,之後還被狠狠訓斥了一番
+Dialogue: 0,0:03:53.49,0:03:55.16,Default,NTP,0,0,0,!Effect,該說你做事不考慮後果呢
+Dialogue: 0,0:03:55.16,0:03:56.62,Default,NTP,0,0,0,!Effect,還是說你小題大做呢
+Dialogue: 0,0:04:00.22,0:04:02.21,Default,NTP,0,0,0,!Effect,小根的話不管在哪都能生活得很好的
+Dialogue: 0,0:04:02.54,0:04:04.29,Default,NTP,0,0,0,!Effect,最糟糕的情況也不過就叫警察來吧
+Dialogue: 0,0:04:05.62,0:04:06.37,Default,NTP,0,0,0,!Effect,加油哦
+Dialogue: 0,0:04:07.37,0:04:09.25,Default,NTP,0,0,0,!Effect,這傢伙 真開心啊
+Dialogue: 0,0:04:11.29,0:04:13.17,Default,NTP,0,0,0,!Effect,收到政府通知的這一周
+Dialogue: 0,0:04:14.29,0:04:17.01,Default,NTP,0,0,0,!Effect,我告白了 也接吻了
+Dialogue: 0,0:04:18.30,0:04:20.09,Default,NTP,0,0,0,!Effect,可是 我的生活裡
+Dialogue: 0,0:04:26.06,0:04:27.68,Default,NTP,0,0,0,!Effect,還是沒有高崎同學的存在
+Dialogue: 0,0:04:29.56,0:04:30.44,Default,NTP,0,0,0,!Effect,直到這一天
+Dialogue: 0,0:04:34.44,0:04:37.69,Default,NTP,0,0,0,!Effect,歡迎 快進來快進來
+Dialogue: 0,0:04:38.49,0:04:41.16,Default,NTP,0,0,0,!Effect,您好 打擾了
+Dialogue: 0,0:04:41.49,0:04:43.95,Default,NTP,0,0,0,!Effect,太慢了 你也不看看現在幾點了
+Dialogue: 0,0:04:44.32,0:04:45.87,Default,NTP,0,0,0,!Effect,你都遲到二十分鐘了
+Dialogue: 0,0:04:46.24,0:04:48.00,Default,NTP,0,0,0,!Effect,我不是道歉了嗎
+Dialogue: 0,0:04:48.37,0:04:49.83,Default,NTP,0,0,0,!Effect,這裡真的很偏僻啊
+Dialogue: 0,0:04:50.04,0:04:51.46,Default,NTP,0,0,0,!Effect,你連地圖也不會看嗎
+Dialogue: 0,0:04:51.62,0:04:55.63,Default,NTP,0,0,0,!Effect,莉莉奈實在是太想見由佳吏了吧
+Dialogue: 0,0:04:55.63,0:04:57.05,Default,NTP,0,0,0,!Effect,那怎麼可能呢
+Dialogue: 0,0:04:57.42,0:04:59.26,Default,NTP,0,0,0,!Effect,就是這樣啊
+Dialogue: 0,0:04:59.84,0:05:02.76,Default,NTP,0,0,0,!Effect,總之 媽媽你千萬別進我房裡來啊
+Dialogue: 0,0:05:02.84,0:05:06.26,Default,NTP,0,0,0,!Effect,我不會去的 你們三人好好相處哦
+Dialogue: 0,0:05:07.26,0:05:07.89,Default,NTP,0,0,0,!Effect,好的
+Dialogue: 0,0:05:08.43,0:05:09.14,Default,NTP,0,0,0,!Effect,這邊
+Dialogue: 0,0:05:10.77,0:05:11.56,Default,NTP,0,0,0,!Effect,三人?
+Dialogue: 0,0:05:14.23,0:05:15.44,Default,NTP,0,0,0,!Effect,久等了 美咲
+Dialogue: 0,0:05:19.90,0:05:21.99,Default,NTP,0,0,0,!Effect,高崎同學怎麼會在這裡
+Dialogue: 0,0:05:23.24,0:05:24.28,Default,NTP,0,0,0,!Effect,是莉莉奈叫來的嗎
+Dialogue: 0,0:05:24.99,0:05:26.83,Default,NTP,0,0,0,!Effect,但是 我該作何應對才好呢
+Dialogue: 0,0:05:28.49,0:05:32.08,Default,NTP,0,0,0,!Effect,莉莉 抱歉 我先回去了
+Dialogue: 0,0:05:32.66,0:05:34.00,Default,NTP,0,0,0,!Effect,由佳吏在這讓你不自在了嗎
+Dialogue: 0,0:05:35.29,0:05:37.29,Default,NTP,0,0,0,!Effect,之前你和他明明聊得很開心
+Dialogue: 0,0:05:37.80,0:05:40.05,Default,NTP,0,0,0,!Effect,我還以為叫他過來也沒關係
+Dialogue: 0,0:05:40.55,0:05:43.13,Default,NTP,0,0,0,!Effect,這個 果然還是不太好吧
+Dialogue: 0,0:05:43.63,0:05:45.59,Default,NTP,0,0,0,!Effect,是因為政府通知所以才不好嗎
+Dialogue: 0,0:05:46.80,0:05:50.43,Default,NTP,0,0,0,!Effect,我們現在既不會結婚也不會交往
+Dialogue: 0,0:05:51.02,0:05:53.73,Default,NTP,0,0,0,!Effect,又有什麼可介意的呢 對吧
+Dialogue: 0,0:05:54.90,0:05:56.86,Default,NTP,0,0,0,!Effect,嗯 嗯
+Dialogue: 0,0:05:57.65,0:06:01.99,Default,NTP,0,0,0,!Effect,而且 我是不可能喜歡根島由佳吏的
+Dialogue: 0,0:06:06.12,0:06:09.03,Default,NTP,0,0,0,!Effect,沒事的 高崎同學 我就先回去了
+Dialogue: 0,0:06:10.16,0:06:10.99,Default,NTP,0,0,0,!Effect,你要回去了嗎
+Dialogue: 0,0:06:12.16,0:06:12.62,Default,NTP,0,0,0,!Effect,不行嗎
+Dialogue: 0,0:06:13.29,0:06:15.87,Default,NTP,0,0,0,!Effect,不是這個意思 可是你難得來一趟
+Dialogue: 0,0:06:16.50,0:06:17.08,Default,NTP,0,0,0,!Effect,可是...
+Dialogue: 0,0:06:17.54,0:06:18.71,Default,NTP,0,0,0,!Effect,我明白了 莉莉
+Dialogue: 0,0:06:20.88,0:06:22.55,Default,NTP,0,0,0,!Effect,根島同也一起來玩吧
+Dialogue: 0,0:06:23.92,0:06:26.76,Default,NTP,0,0,0,!Effect,太好了 聽你這麼說我好高興
+Dialogue: 0,0:06:27.05,0:06:29.97,Default,NTP,0,0,0,!Effect,抱歉 剛才是我沒有做好心理準備
+Dialogue: 0,0:06:30.93,0:06:34.06,Default,NTP,0,0,0,!Effect,高崎同學 居然很普通地和我說話了
+Dialogue: 0,0:06:34.89,0:06:38.23,Default,NTP,0,0,0,!Effect,是我不好 本來想著要給你一個驚喜的
+Dialogue: 0,0:06:38.48,0:06:40.02,Default,NTP,0,0,0,!Effect,我是很驚訝的
+Dialogue: 0,0:06:40.98,0:06:42.48,Default,NTP,0,0,0,!Effect,請多關照 根島同學
+Dialogue: 0,0:06:43.32,0:06:44.99,Default,NTP,0,0,0,!Effect,嗯 嗯
+Dialogue: 0,0:06:46.11,0:06:48.87,Default,NTP,0,0,0,!Effect,莉莉奈 雖然你老是亂來
+Dialogue: 0,0:06:49.78,0:06:51.08,Default,NTP,0,0,0,!Effect,但是現在我還得感謝你
+Dialogue: 0,0:06:53.87,0:06:54.96,Default,NTP,0,0,0,!Effect,這個好可愛啊
+Dialogue: 0,0:06:55.54,0:06:56.33,Default,NTP,0,0,0,!Effect,是嗎
+Dialogue: 0,0:06:56.67,0:06:58.75,Default,NTP,0,0,0,!Effect,莉莉經常看這個嗎
+Dialogue: 0,0:06:59.00,0:07:02.38,Default,NTP,0,0,0,!Effect,不是 因為我喜歡的小說家在這本雜誌上有專欄
+Dialogue: 0,0:07:02.67,0:07:03.59,Default,NTP,0,0,0,!Effect,我就是衝著這個買的
+Dialogue: 0,0:07:03.88,0:07:04.80,Default,NTP,0,0,0,!Effect,是這樣啊
+Dialogue: 0,0:07:05.17,0:07:07.38,Default,NTP,0,0,0,!Effect,我覺得這個還挺適合你的
+Dialogue: 0,0:07:08.05,0:07:08.97,Default,NTP,0,0,0,!Effect,是嗎
+Dialogue: 0,0:07:09.32,0:07:10.70,TopHorizontalCenter,NTP,0,0,0,!Effect,你看 這個怎麼樣
+Dialogue: 0,0:07:09.97,0:07:12.47,Default,NTP,0,0,0,!Effect,所以叫我來到底是幹什麼
+Dialogue: 0,0:07:13.89,0:07:15.48,Default,NTP,0,0,0,!Effect,那 那個 莉莉奈
+Dialogue: 0,0:07:16.48,0:07:20.36,Default,NTP,0,0,0,!Effect,對了 你存在感太弱了我都把你忘了
+Dialogue: 0,0:07:21.73,0:07:22.98,Default,NTP,0,0,0,!Effect,你存在感太弱了
+Dialogue: 0,0:07:22.98,0:07:23.65,Default,NTP,0,0,0,!Effect,好過分
+Dialogue: 0,0:07:24.94,0:07:26.53,Default,NTP,0,0,0,!Effect,由佳吏 你...
+Dialogue: 0,0:07:27.20,0:07:28.49,Default,NTP,0,0,0,!Effect,和美咲接吻吧
+Dialogue: 0,0:07:31.70,0:07:35.20,Default,NTP,0,0,0,!Effect,之前她說的話 原來是認真的嗎
+Dialogue: 0,0:07:37.25,0:07:38.96,Default,NTP,0,0,0,!Effect,等一下 怎麼會變成這樣啊
+Dialogue: 0,0:07:39.42,0:07:40.54,Default,NTP,0,0,0,!Effect,你們之前就接吻過了吧
+Dialogue: 0,0:07:40.92,0:07:42.54,Default,NTP,0,0,0,!Effect,再來一次也沒有什麼啊
+Dialogue: 0,0:07:42.71,0:07:44.67,Default,NTP,0,0,0,!Effect,你 你在說什麼啊
+Dialogue: 0,0:07:45.05,0:07:46.47,Default,NTP,0,0,0,!Effect,我在說你們接吻吧
+Dialogue: 0,0:07:46.67,0:07:47.76,Default,NTP,0,0,0,!Effect,我不是這個意思
+Dialogue: 0,0:07:48.09,0:07:49.84,Default,NTP,0,0,0,!Effect,美咲呢 不願意嗎
+Dialogue: 0,0:07:52.51,0:07:53.72,Default,NTP,0,0,0,!Effect,抱歉 我離開一下
+Dialogue: 0,0:07:54.39,0:07:55.68,Default,NTP,0,0,0,!Effect,廁所在出門左轉處哦
+Dialogue: 0,0:07:56.18,0:07:56.81,Default,NTP,0,0,0,!Effect,謝謝
+Dialogue: 0,0:08:03.36,0:08:06.15,Default,NTP,0,0,0,!Effect,笨蛋莉莉奈 你這樣讓高崎同學多尷尬啊
+Dialogue: 0,0:08:06.94,0:08:09.07,Default,NTP,0,0,0,!Effect,我只是覺得你們這樣太沒有效率了
+Dialogue: 0,0:08:09.07,0:08:11.49,Default,NTP,0,0,0,!Effect,什麼啊 別做多餘的事啊
+Dialogue: 0,0:08:11.49,0:08:13.78,Default,NTP,0,0,0,!Effect,你這什麼態度 真是難以置信
+Dialogue: 0,0:08:14.20,0:08:15.16,Default,NTP,0,0,0,!Effect,你以為我是為了誰啊
+Dialogue: 0,0:08:15.16,0:08:15.95,Default,NTP,0,0,0,!Effect,久等了
+Dialogue: 0,0:08:22.25,0:08:23.75,Default,NTP,0,0,0,!Effect,我們來接吻吧
+Dialogue: 0,0:08:26.76,0:08:27.59,Default,NTP,0,0,0,!Effect,要做嗎
+Dialogue: 0,0:08:29.26,0:08:29.72,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: 0,0:08:31.13,0:08:33.35,Default,NTP,0,0,0,!Effect,和高崎同學再次接吻
+Dialogue: 0,0:08:34.60,0:08:35.72,Default,NTP,0,0,0,!Effect,可是 這樣的話...
+Dialogue: 0,0:08:36.64,0:08:37.27,Default,NTP,0,0,0,!Effect,而且...
+Dialogue: 0,0:08:39.23,0:08:41.27,Default,NTP,0,0,0,!Effect,你們不用介意我的
+Dialogue: 0,0:08:41.52,0:08:42.44,Default,NTP,0,0,0,!Effect,這怎麼做得到啊
+Dialogue: 0,0:08:43.23,0:08:45.32,Default,NTP,0,0,0,!Effect,莉莉 這樣真的好嗎
+Dialogue: 0,0:08:45.82,0:08:49.03,Default,NTP,0,0,0,!Effect,嗯 親到你們滿意為止吧
+Dialogue: 0,0:08:49.40,0:08:50.57,Default,NTP,0,0,0,!Effect,你們不是兩情相悅嗎
+Dialogue: 0,0:08:50.78,0:08:52.66,Default,NTP,0,0,0,!Effect,那每天接吻不就好了
+Dialogue: 0,0:08:53.20,0:08:54.66,Default,NTP,0,0,0,!Effect,你在說什麼啊
+Dialogue: 0,0:08:56.08,0:08:59.04,Default,NTP,0,0,0,!Effect,好浪漫 像電視劇一樣
+Dialogue: 0,0:09:00.12,0:09:03.46,Default,NTP,0,0,0,!Effect,對莉莉奈來說 就像在看電視劇一樣嗎
+Dialogue: 0,0:09:05.75,0:09:09.05,Default,NTP,0,0,0,!Effect,那 你要看好了哦
+Dialogue: 0,0:09:10.67,0:09:11.13,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: 0,0:09:17.14,0:09:19.68,Default,NTP,0,0,0,!Effect,莉莉奈在旁邊呢 要怎麼辦...
+Dialogue: 0,0:09:34.82,0:09:36.70,Default,NTP,0,0,0,!Effect,抱歉 我喘不過氣了怎麼辦
+Dialogue: 0,0:09:39.95,0:09:41.25,Default,NTP,0,0,0,!Effect,根島同學真可愛
+Dialogue: 0,0:09:44.25,0:09:44.96,Default,NTP,0,0,0,!Effect,莉莉奈
+Dialogue: 0,0:09:50.09,0:09:51.42,Default,NTP,0,0,0,!Effect,是 是呢
+Dialogue: 0,0:09:56.80,0:09:58.51,Default,NTP,0,0,0,!Effect,突然要離開很抱歉
+Dialogue: 0,0:09:59.10,0:10:00.97,Default,NTP,0,0,0,!Effect,突然想起今晚輪到我做晚飯
+Dialogue: 0,0:10:01.31,0:10:04.98,Default,NTP,0,0,0,!Effect,沒有 那個我很開心呢
+Dialogue: 0,0:10:05.56,0:10:06.02,Default,NTP,0,0,0,!Effect,說出來了
+Dialogue: 0,0:10:07.48,0:10:10.44,Default,NTP,0,0,0,!Effect,莉莉 看到剛才的場景 你怎麼想呢
+Dialogue: 0,0:10:12.86,0:10:13.78,Default,NTP,0,0,0,!Effect,心跳加速了嗎
+Dialogue: 0,0:10:16.62,0:10:20.87,Default,NTP,0,0,0,!Effect,我啊 希望莉莉能喜歡上根島同學
+Dialogue: 0,0:10:21.79,0:10:23.75,Default,NTP,0,0,0,!Effect,因為我可能做不到了
+Dialogue: 0,0:10:25.79,0:10:27.25,Default,NTP,0,0,0,!Effect,那麼怎麼可能呢
+Dialogue: 0,0:10:27.96,0:10:30.71,Default,NTP,0,0,0,!Effect,我覺得你可以的
+Dialogue: 0,0:10:34.72,0:10:37.01,Default,NTP,0,0,0,!Effect,我和根島同學接吻的話
+Dialogue: 0,0:10:38.22,0:10:39.14,Default,NTP,0,0,0,!Effect,你不會覺得討厭嗎
+Dialogue: 0,0:10:39.43,0:10:41.06,Default,NTP,0,0,0,!Effect,我不覺得啊
+Dialogue: 0,0:10:43.31,0:10:44.14,Default,NTP,0,0,0,!Effect,是嗎
+Dialogue: 0,0:10:45.64,0:10:47.06,Default,NTP,0,0,0,!Effect,就算現在覺得無所謂
+Dialogue: 0,0:10:47.65,0:10:49.11,Default,NTP,0,0,0,!Effect,總有一天你也會介意的
+Dialogue: 0,0:10:49.48,0:10:50.19,Default,NTP,0,0,0,!Effect,怎麼會...
+Dialogue: 0,0:10:50.44,0:10:52.90,Default,NTP,0,0,0,!Effect,今天很謝謝你 再見
+Dialogue: 0,0:11:08.92,0:11:10.38,Default,NTP,0,0,0,!Effect,怎麼了 你沒事吧
+Dialogue: 0,0:11:10.38,0:11:11.21,Default,NTP,0,0,0,!Effect,別碰我
+Dialogue: 0,0:11:11.71,0:11:12.21,Default,NTP,0,0,0,!Effect,抱歉
+Dialogue: 0,0:11:13.63,0:11:15.22,Default,NTP,0,0,0,!Effect,這樣太奇怪了
+Dialogue: 0,0:11:16.47,0:11:19.18,Default,NTP,0,0,0,!Effect,對啊 怎麼會這樣呢
+Dialogue: 0,0:11:19.30,0:11:20.14,Default,NTP,0,0,0,!Effect,根島由佳吏
+Dialogue: 0,0:11:21.18,0:11:25.10,Default,NTP,0,0,0,!Effect,今後 你必須每天和美咲接吻一次
+Dialogue: 0,0:11:27.60,0:11:29.60,Default,NTP,0,0,0,!Effect,政府通知到來的這一周
+Dialogue: 0,0:11:30.56,0:11:34.61,Default,NTP,0,0,0,!Effect,我的戀情到底算是結束了 還是開始了呢
+Dialogue: 0,0:11:46.79,0:11:47.87,Default,NTP,0,0,0,!Effect,就到這兒吧
+Dialogue: 0,0:11:49.83,0:11:52.42,Default,NTP,0,0,0,!Effect,莉莉奈 你和高崎同學之間發生什麼了嗎
+Dialogue: 0,0:11:53.04,0:11:54.42,Default,NTP,0,0,0,!Effect,還說了那麼奇怪的話
+Dialogue: 0,0:11:54.92,0:11:55.46,Default,NTP,0,0,0,!Effect,奇怪？
+Dialogue: 0,0:11:56.05,0:11:58.22,Default,NTP,0,0,0,!Effect,叫我每天和她接吻一次
+Dialogue: 0,0:11:59.13,0:12:00.34,Default,NTP,0,0,0,!Effect,她和你說了什麼嗎
+Dialogue: 0,0:12:00.68,0:12:01.76,Default,NTP,0,0,0,!Effect,沒說什麼啊
+Dialogue: 0,0:12:06.68,0:12:07.39,Default,NTP,0,0,0,!Effect,仁阪
+Dialogue: 0,0:12:10.65,0:12:11.15,Default,NTP,0,0,0,!Effect,小根
+Dialogue: 0,0:12:12.48,0:12:14.48,Default,NTP,0,0,0,!Effect,真巧 你出來買東西嗎
+Dialogue: 0,0:12:15.07,0:12:15.65,Default,NTP,0,0,0,!Effect,你呢
+Dialogue: 0,0:12:17.65,0:12:21.20,Default,NTP,0,0,0,!Effect,這是莉莉 真田莉莉奈 我的政府通知對像
+Dialogue: 0,0:12:22.57,0:12:23.99,Default,NTP,0,0,0,!Effect,比傳聞中更親近你嘛
+Dialogue: 0,0:12:24.45,0:12:25.95,Default,NTP,0,0,0,!Effect,她又不是狗
+Dialogue: 0,0:12:30.42,0:12:31.08,Default,NTP,0,0,0,!Effect,是處女吧
+Dialogue: 0,0:12:32.00,0:12:35.04,Default,NTP,0,0,0,!Effect,你 你 你在說什麼啊 仁阪
+Dialogue: 0,0:12:35.30,0:12:37.13,Default,NTP,0,0,0,!Effect,這是當然的吧
+Dialogue: 0,0:12:37.88,0:12:40.55,Default,NTP,0,0,0,!Effect,也對啊 一般都是
+Dialogue: 0,0:12:41.47,0:12:42.01,Default,NTP,0,0,0,!Effect,我先走了
+Dialogue: 0,0:12:46.56,0:12:48.85,Default,NTP,0,0,0,!Effect,那個人怎麼回事 變態嗎
+Dialogue: 0,0:12:49.64,0:12:50.73,Default,NTP,0,0,0,!Effect,他明明很帥啊
+Dialogue: 0,0:12:50.73,0:12:52.19,Default,NTP,0,0,0,!Effect,那關我什麼事
+Dialogue: 0,0:12:52.40,0:12:55.07,Default,NTP,0,0,0,!Effect,初次見面就說那種話的都是變態
+Dialogue: 0,0:12:55.36,0:12:57.07,Default,NTP,0,0,0,!Effect,別這麼說嘛
+Dialogue: 0,0:12:58.07,0:13:01.36,Default,NTP,0,0,0,!Effect,仁阪是我重要的朋友
+Dialogue: 0,0:13:07.95,0:13:10.29,Default,NTP,0,0,0,!Effect,飯後運動好難受
+Dialogue: 0,0:13:10.54,0:13:11.71,Default,NTP,0,0,0,!Effect,好熱
+Dialogue: 0,0:13:12.29,0:13:14.04,Default,NTP,0,0,0,!Effect,第五節課是體育課真是辛苦
+Dialogue: 0,0:13:15.46,0:13:17.80,Default,NTP,0,0,0,!Effect,仁阪 看這邊
+Dialogue: 0,0:13:18.09,0:13:19.51,Default,NTP,0,0,0,!Effect,仁阪同學
+Dialogue: 0,0:13:20.55,0:13:21.88,Default,NTP,0,0,0,!Effect,仁阪粉絲俱樂部
+Dialogue: 0,0:13:22.34,0:13:24.09,Default,NTP,0,0,0,!Effect,仁阪 人家在叫你哦
+Dialogue: 0,0:13:25.09,0:13:26.76,Default,NTP,0,0,0,!Effect,受歡迎的男人 真是辛苦呢
+Dialogue: 0,0:13:27.14,0:13:28.60,Default,NTP,0,0,0,!Effect,大家都是太閒了
+Dialogue: 0,0:13:29.22,0:13:31.43,Default,NTP,0,0,0,!Effect,不知道什麼時候政府通知就來了
+Dialogue: 0,0:13:31.73,0:13:33.56,Default,NTP,0,0,0,!Effect,又不能好好的談戀愛
+Dialogue: 0,0:13:34.02,0:13:36.52,Default,NTP,0,0,0,!Effect,只能像那樣隨便找個什麼瞎鬧騰罷了
+Dialogue: 0,0:13:37.98,0:13:40.15,Default,NTP,0,0,0,!Effect,受歡迎的男人說的話都不一樣呢
+Dialogue: 0,0:13:40.78,0:13:42.40,Default,NTP,0,0,0,!Effect,竹田你不是也在追女孩子嗎
+Dialogue: 0,0:13:42.86,0:13:44.53,Default,NTP,0,0,0,!Effect,叫什麼的偶像來著
+Dialogue: 0,0:13:44.70,0:13:46.66,Default,NTP,0,0,0,!Effect,我可是真心支持者她的
+Dialogue: 0,0:13:47.12,0:13:47.91,Default,NTP,0,0,0,!Effect,是嗎
+Dialogue: 0,0:13:49.03,0:13:52.16,Default,NTP,0,0,0,!Effect,對啊 由國家決定結婚對像這件事
+Dialogue: 0,0:13:52.75,0:13:55.37,Default,NTP,0,0,0,!Effect,就算是像仁阪這樣受歡迎的人也是一樣的呢
+Dialogue: 0,0:13:55.83,0:13:57.50,Default,NTP,0,0,0,!Effect,也算是某種意義上的平等嗎
+Dialogue: 0,0:13:58.50,0:13:59.88,Default,NTP,0,0,0,!Effect,我說 仁阪
+Dialogue: 0,0:14:02.38,0:14:03.17,Default,NTP,0,0,0,!Effect,高崎同學
+Dialogue: 0,0:14:04.05,0:14:05.47,Default,NTP,0,0,0,!Effect,穿體操服真漂亮
+Dialogue: 0,0:14:06.09,0:14:07.43,Default,NTP,0,0,0,!Effect,髮型也很可愛
+Dialogue: 0,0:14:20.23,0:14:22.32,Default,NTP,0,0,0,!Effect,抱歉 我去還一下鑰匙
+Dialogue: 0,0:14:22.73,0:14:23.57,Default,NTP,0,0,0,!Effect,你們先走吧
+Dialogue: 0,0:14:27.82,0:14:30.58,Default,NTP,0,0,0,!Effect,那兩個人是不是有什麼關係啊
+Dialogue: 0,0:14:31.33,0:14:33.33,Default,NTP,0,0,0,!Effect,不 應該是我的錯覺
+Dialogue: 0,0:14:34.50,0:14:37.00,Default,NTP,0,0,0,!Effect,總覺得有種特別的氛圍
+Dialogue: 0,0:14:38.00,0:14:38.88,Default,NTP,0,0,0,!Effect,別想了
+Dialogue: 0,0:14:39.38,0:14:40.59,Default,NTP,0,0,0,!Effect,太過般配開始胃疼了
+Dialogue: 0,0:14:41.09,0:14:43.55,Default,NTP,0,0,0,!Effect,小根 不回教室嗎
+Dialogue: 0,0:14:45.09,0:14:46.34,Default,NTP,0,0,0,!Effect,我先走了
+Dialogue: 0,0:14:47.22,0:14:48.39,Default,NTP,0,0,0,!Effect,仁阪嗎
+Dialogue: 0,0:14:48.80,0:14:50.35,Default,NTP,0,0,0,!Effect,雖然關係不錯
+Dialogue: 0,0:14:50.55,0:14:53.35,Default,NTP,0,0,0,!Effect,但是總是猜不透他在想些什麼
+Dialogue: 0,0:14:54.02,0:14:57.89,Default,NTP,0,0,0,!Effect,因為是帥哥 在班級裡也很顯眼
+Dialogue: 0,0:14:58.14,0:15:00.61,Default,NTP,0,0,0,!Effect,不知為何會和我們這種土包子在一起玩
+Dialogue: 0,0:15:01.36,0:15:04.11,Default,NTP,0,0,0,!Effect,這之前也突然跟高崎同學搭話了
+Dialogue: 0,0:15:04.53,0:15:05.94,Default,NTP,0,0,0,!Effect,直接問問他嗎
+Dialogue: 0,0:15:06.44,0:15:07.95,Default,NTP,0,0,0,!Effect,不但是該怎麼問
+Dialogue: 0,0:15:16.45,0:15:17.08,Default,NTP,0,0,0,!Effect,根島同學
+Dialogue: 0,0:15:20.33,0:15:21.13,Default,NTP,0,0,0,!Effect,高崎同學
+Dialogue: 0,0:15:23.80,0:15:26.55,Default,NTP,0,0,0,!Effect,高崎同學出現在我的生活裡了
+Dialogue: 0,0:15:33.43,0:15:35.31,Default,NTP,0,0,0,!Effect,抱歉 上課鈴都已經響了
+Dialogue: 0,0:15:36.35,0:15:37.31,Default,NTP,0,0,0,!Effect,沒事 沒關係
+Dialogue: 0,0:15:38.14,0:15:40.48,Default,NTP,0,0,0,!Effect,我只是有些無論如何也想問清楚的事情
+Dialogue: 0,0:15:41.60,0:15:44.15,Default,NTP,0,0,0,!Effect,莉莉之後和你說了些什麼嗎
+Dialogue: 0,0:15:46.15,0:15:46.82,Default,NTP,0,0,0,!Effect,這個...
+Dialogue: 0,0:15:47.24,0:15:50.07,Default,NTP,0,0,0,!Effect,她叫我一天和高崎同學接吻一次
+Dialogue: 0,0:15:50.78,0:15:51.24,Default,NTP,0,0,0,!Effect,接吻
+Dialogue: 0,0:15:52.32,0:15:54.12,Default,NTP,0,0,0,!Effect,是真的 真的這麼說的
+Dialogue: 0,0:15:54.70,0:15:56.08,Default,NTP,0,0,0,!Effect,不是我編的
+Dialogue: 0,0:15:56.79,0:15:59.00,Default,NTP,0,0,0,!Effect,嗯 沒關係 我知道
+Dialogue: 0,0:15:59.87,0:16:04.92,Default,NTP,0,0,0,!Effect,話說回來 一天一次 莉莉完全沒明白呢
+Dialogue: 0,0:16:06.25,0:16:08.84,Default,NTP,0,0,0,!Effect,高崎同學 你對莉莉奈說了什麼嗎
+Dialogue: 0,0:16:12.89,0:16:13.47,Default,NTP,0,0,0,!Effect,老師來了
+Dialogue: 0,0:16:26.61,0:16:30.15,Default,NTP,0,0,0,!Effect,剛剛上過體育課身上有汗味 抱歉
+Dialogue: 0,0:16:55.39,0:16:56.05,Default,NTP,0,0,0,!Effect,抱歉
+Dialogue: 0,0:17:08.11,0:17:12.32,Default,NTP,0,0,0,!Effect,這樣做還是不太好吧
+Dialogue: 0,0:17:14.11,0:17:16.24,Default,NTP,0,0,0,!Effect,雖然莉莉奈有叫我們接吻
+Dialogue: 0,0:17:26.25,0:17:27.21,Default,NTP,0,0,0,!Effect,這不是戀愛
+Dialogue: 0,0:17:28.71,0:17:31.46,Default,NTP,0,0,0,!Effect,像這樣用謊言欺騙自己
+Dialogue: 0,0:17:32.88,0:17:34.51,Default,NTP,0,0,0,!Effect,原來這麼困難
+Dialogue: 0,0:17:49.61,0:17:50.82,Default,NTP,0,0,0,!Effect,好累
+Dialogue: 0,0:17:50.90,0:17:51.73,Default,NTP,0,0,0,!Effect,回去吧
+Dialogue: 0,0:17:51.73,0:17:52.49,Default,NTP,0,0,0,!Effect,拜拜
+Dialogue: 0,0:17:52.49,0:17:53.95,Default,NTP,0,0,0,!Effect,不想去社團
+Dialogue: 0,0:17:54.70,0:17:55.61,Default,NTP,0,0,0,!Effect,真的嗎
+Dialogue: 0,0:17:56.61,0:17:57.74,Default,NTP,0,0,0,!Effect,莉莉奈嗎
+Dialogue: 0,0:18:01.37,0:18:04.12,Default,NTP,0,0,0,!Effect,8節課 真不愧是私立學校
+Dialogue: 0,0:18:05.54,0:18:06.62,Default,NTP,0,0,0,!Effect,我說 仁阪
+Dialogue: 0,0:18:08.29,0:18:11.17,Default,NTP,0,0,0,!Effect,能不能談談 我有點事想要問你
+Dialogue: 0,0:18:12.38,0:18:14.59,Default,NTP,0,0,0,!Effect,抱歉 馬上要去開委員會了
+Dialogue: 0,0:18:15.72,0:18:18.05,Default,NTP,0,0,0,!Effect,那我等你開完會之後 好嗎
+Dialogue: 0,0:18:18.72,0:18:20.39,Default,NTP,0,0,0,!Effect,是那麼重要的事嗎
+Dialogue: 0,0:18:21.51,0:18:25.89,Default,NTP,0,0,0,!Effect,不 不 不 只是像猜猜我家晚飯是什麼一樣的小事
+Dialogue: 0,0:18:27.15,0:18:29.06,Default,NTP,0,0,0,!Effect,那是什麼啊 完全不想聽
+Dialogue: 0,0:18:31.02,0:18:37.53,Default,NTP,0,0,0,!Effect,但正好 我也有想問你的事
+Dialogue: 0,0:18:40.12,0:18:40.62,Default,NTP,0,0,0,!Effect,嗯
+Dialogue: 0,0:18:44.04,0:18:47.79,Default,NTP,0,0,0,!Effect,但是 高崎同學到底對莉莉奈說什麼呢
+Dialogue: 0,0:18:48.29,0:18:50.34,Default,NTP,0,0,0,!Effect,還叫我們一天接吻一次
+Dialogue: 0,0:18:52.71,0:18:55.63,Default,NTP,0,0,0,!Effect,話說回來 我剛剛已經做了吧
+Dialogue: 0,0:18:56.38,0:19:00.14,Default,NTP,0,0,0,!Effect,這樣是不是違反了政府通知的禁止戀愛的規定
+Dialogue: 0,0:19:00.64,0:19:02.18,Default,NTP,0,0,0,!Effect,但那是莉莉奈叫我們做的
+Dialogue: 0,0:19:02.85,0:19:05.35,Default,NTP,0,0,0,!Effect,但那個時候莉莉奈也很慌亂
+Dialogue: 0,0:19:05.73,0:19:07.31,Default,NTP,0,0,0,!Effect,不知道她到底是不是認真的
+Dialogue: 0,0:19:08.90,0:19:11.52,Default,NTP,0,0,0,!Effect,算了 想那麼多也沒用
+Dialogue: 0,0:19:14.57,0:19:16.32,Default,NTP,0,0,0,!Effect,體育課之後好累啊
+Dialogue: 0,0:19:17.86,0:19:18.78,Default,NTP,0,0,0,!Effect,好困
+Dialogue: 0,0:19:19.32,0:19:20.49,Default,NTP,0,0,0,!Effect,太扯了
+Dialogue: 0,0:19:20.70,0:19:21.32,Default,NTP,0,0,0,!Effect,不妙
+Dialogue: 0,0:19:21.32,0:19:22.49,Default,NTP,0,0,0,!Effect,對吧對吧
+Dialogue: 0,0:19:32.54,0:19:34.38,Default,NTP,0,0,0,!Effect,是仁阪同學 是仁阪同學
+Dialogue: 0,0:19:34.75,0:19:36.71,Default,NTP,0,0,0,!Effect,住手 我看見了
+Dialogue: 0,0:19:38.26,0:19:39.72,Default,NTP,0,0,0,!Effect,小根 久等了
+Dialogue: 0,0:19:40.68,0:19:43.30,Default,NTP,0,0,0,!Effect,本來以為衛生委員沒什麼事做我才當的
+Dialogue: 0,0:19:43.64,0:19:44.76,Default,NTP,0,0,0,!Effect,沒想到這麼多事
+Dialogue: 0,0:19:45.56,0:19:46.72,Default,NTP,0,0,0,!Effect,早知道就不當了
+Dialogue: 0,0:19:48.27,0:19:48.73,Default,NTP,0,0,0,!Effect,小根
+Dialogue: 0,0:19:54.02,0:19:56.07,Default,NTP,0,0,0,!Effect,找我有事自己還睡著了
+Dialogue: 0,0:19:56.78,0:19:59.82,Default,NTP,0,0,0,!Effect,而且 為什麼要跪著睡啊
+Dialogue: 0,0:20:03.32,0:20:05.66,Default,NTP,0,0,0,!Effect,真是莫名其妙
+Dialogue: 0,0:20:48.49,0:20:51.46,Default,NTP,0,0,0,!Effect,仁阪 你開完會了嗎
+Dialogue: 0,0:20:51.91,0:20:53.21,Default,NTP,0,0,0,!Effect,早就完了
+Dialogue: 0,0:20:53.54,0:20:56.04,Default,NTP,0,0,0,!Effect,你再晚醒兩分鐘我就回去了
+Dialogue: 0,0:20:56.88,0:20:57.59,Default,NTP,0,0,0,!Effect,抱歉
+Dialogue: 0,0:20:59.84,0:21:00.63,Default,NTP,0,0,0,!Effect,你要問我什麼話
+Dialogue: 0,0:21:05.04,0:21:06.33,Default,NTP,0,0,0,!Effect,仁阪的話
+Dialogue: 0,0:21:07.31,0:21:10.81,Default,NTP,0,0,0,!Effect,會喜歡班上的女孩子嗎
+Dialogue: 0,0:21:11.52,0:21:12.77,Default,NTP,0,0,0,!Effect,比如高崎同學之類的
+Dialogue: 0,0:21:14.94,0:21:16.19,Default,NTP,0,0,0,!Effect,你怎麼會這麼想
+Dialogue: 0,0:21:20.57,0:21:22.61,Default,NTP,0,0,0,!Effect,因為我覺得你們很般配
+Dialogue: 0,0:21:22.99,0:21:24.07,Default,NTP,0,0,0,!Effect,如果是的話你要怎麼辦
+Dialogue: 0,0:21:28.12,0:21:29.08,Default,NTP,0,0,0,!Effect,騙你的
+Dialogue: 0,0:21:31.87,0:21:32.46,Default,NTP,0,0,0,!Effect,太好了
+Dialogue: 0,0:21:35.21,0:21:36.79,Default,NTP,0,0,0,!Effect,你要問的只有這個而已嗎
+Dialogue: 0,0:21:37.29,0:21:40.59,Default,NTP,0,0,0,!Effect,我為了這麼聊的事浪費這麼久的時間啊
+Dialogue: 0,0:21:42.88,0:21:44.63,Default,NTP,0,0,0,!Effect,那來猜猜我們家今晚晚飯是什麼啊
+Dialogue: 0,0:21:46.55,0:21:47.64,Default,NTP,0,0,0,!Effect,斯特羅加羅夫牛肉
+Dialogue: 0,0:21:47.97,0:21:49.51,Default,NTP,0,0,0,!Effect,那是什麼 最終Boss嗎
+Dialogue: 0,0:21:52.31,0:21:56.98,Default,NTP,0,0,0,!Effect,此時的我 似乎忽略了很多東西
+Dialogue: 0,0:21:58.98,0:22:03.61,Default,NTP,0,0,0,!Effect,戀情 愛意和謊言
+Dialogue: 0,0:22:25.24,0:22:27.02,ED,NTP,0,0,0,!Effect,さっきの言葉はまだ
+Dialogue: 0,0:22:27.02,0:22:29.55,ED,NTP,0,0,0,!Effect,I can't say I want to say
+Dialogue: 0,0:22:29.55,0:22:31.63,ED,NTP,0,0,0,!Effect,言えないままでしまってる
+Dialogue: 0,0:22:31.63,0:22:33.91,ED,NTP,0,0,0,!Effect,I always lie
+Dialogue: 0,0:22:33.91,0:22:36.20,ED,NTP,0,0,0,!Effect,星の瞬きほど早く
+Dialogue: 0,0:22:36.20,0:22:38.63,ED,NTP,0,0,0,!Effect,願い事するひまも無く
+Dialogue: 0,0:22:38.63,0:22:40.77,ED,NTP,0,0,0,!Effect,短い夏が終わってく
+Dialogue: 0,0:22:40.77,0:22:43.59,ED,NTP,0,0,0,!Effect,I can't say
+Dialogue: 0,0:22:43.59,0:22:46.48,ED,NTP,0,0,0,!Effect,Heart beat sound
+Dialogue: 0,0:22:46.48,0:22:52.48,ED,NTP,0,0,0,!Effect,気づかないでいてね高鳴る鼓動
+Dialogue: 0,0:22:52.48,0:22:56.44,ED,NTP,0,0,0,!Effect,Can't keep it to myself
+Dialogue: 0,0:22:56.44,0:22:59.29,ED,NTP,0,0,0,!Effect,自然にこぼれたはにかむ顔が
+Dialogue: 0,0:22:59.29,0:23:05.62,ED,NTP,0,0,0,!Effect,隠せないメッセージ
+Dialogue: 0,0:23:05.62,0:23:07.45,ED,NTP,0,0,0,!Effect,I know why I love you
+Dialogue: 0,0:23:07.45,0:23:09.91,ED,NTP,0,0,0,!Effect,未来を重ねた
+Dialogue: 0,0:23:09.91,0:23:14.61,ED,NTP,0,0,0,!Effect,二人の温もりが ここに残ってる
+Dialogue: 0,0:23:14.61,0:23:16.61,ED,NTP,0,0,0,!Effect,ありふれた日々に
+Dialogue: 0,0:23:16.61,0:23:19.21,ED,NTP,0,0,0,!Effect,はじまりのキスを
+Dialogue: 0,0:23:19.21,0:23:34.76,ED,NTP,0,0,0,!Effect,ひとりの夜は 君の夢を見てた
+Dialogue: 0,0:23:37.25,0:23:39.29,Default,NTP,0,0,0,!Effect,這周看見了不同的莉莉奈呢
+Dialogue: 0,0:23:39.29,0:23:39.83,Default,NTP,0,0,0,!Effect,媽媽
+Dialogue: 0,0:23:39.83,0:23:42.67,Default,NTP,0,0,0,!Effect,下周好像要去由佳吏家裡做客呢
+Dialogue: 0,0:23:42.67,0:23:43.59,Default,NTP,0,0,0,!Effect,我知道了
+Dialogue: 0,0:23:44.13,0:23:45.63,Default,NTP,0,0,0,!Effect,下回 戀愛的科學
+Dialogue: 0,0:00:35.19,0:00:41.78,OP,NTP,0,0,0,!Effect,{\an8}畫下等待的長線 這是心中小小的聲音
+Dialogue: 0,0:00:42.18,0:00:48.37,OP,NTP,0,0,0,!Effect,{\an8}我們的未來 到底會走向何方呢
+Dialogue: 0,0:00:48.75,0:00:55.34,OP,NTP,0,0,0,!Effect,{\an8}畫下連續的長線 接下來的旅途必定也耀眼奪目吧
+Dialogue: 0,0:00:55.46,0:01:00.80,OP,NTP,0,0,0,!Effect,{\an8}就這樣 連接上心的旋律
+Dialogue: 0,0:01:02.34,0:01:08.97,OP,NTP,0,0,0,!Effect,{\an8}悲傷 悲傷 悲傷和悲傷
+Dialogue: 0,0:01:08.98,0:01:15.02,OP,NTP,0,0,0,!Effect,{\an8}快樂 快樂 快樂和快樂
+Dialogue: 0,0:01:15.72,0:01:21.61,OP,NTP,0,0,0,!Effect,{\an8}把兩份感傷的心疊放在一起
+Dialogue: 0,0:01:22.41,0:01:29.13,OP,NTP,0,0,0,!Effect,{\an8}看不清的未來裡誰才是該出場的配角
+Dialogue: 0,0:01:29.38,0:01:36.27,OP,NTP,0,0,0,!Effect,{\an8}就這樣下去 即使是謊言也讓我把這美夢做完吧
+Dialogue: 0,0:01:36.27,0:01:42.13,OP,NTP,0,0,0,!Effect,{\an8}悲傷地 悲傷地 現在就去尋找吧
+Dialogue: 0,0:01:42.94,0:01:49.66,OP,NTP,0,0,0,!Effect,{\an8}我們相信著看不見的未來
+Dialogue: 0,0:01:49.66,0:01:55.45,OP,NTP,0,0,0,!Effect,{\an8}悲傷地 悲傷地 去尋找著
+Dialogue: 0,0:01:55.46,0:01:56.69,OP,NTP,0,0,0,!Effect,{\an8}現在就去吧
+Dialogue: 0,0:22:25.24,0:22:27.02,ED,NTP,0,0,0,!Effect,剛才想說的話
+Dialogue: 0,0:22:29.55,0:22:31.63,ED,NTP,0,0,0,!Effect,還沒能說出口
+Dialogue: 0,0:22:33.91,0:22:36.20,ED,NTP,0,0,0,!Effect,時間轉瞬即逝
+Dialogue: 0,0:22:36.20,0:22:38.63,ED,NTP,0,0,0,!Effect,無暇許下心願
+Dialogue: 0,0:22:38.63,0:22:40.77,ED,NTP,0,0,0,!Effect,短暫夏日就此結束
+Dialogue: 0,0:22:46.48,0:22:52.48,ED,NTP,0,0,0,!Effect,別讓他發現 心聲難以克制
+Dialogue: 0,0:22:56.44,0:22:59.29,ED,NTP,0,0,0,!Effect,自然流露的靦腆表情
+Dialogue: 0,0:22:59.29,0:23:05.62,ED,NTP,0,0,0,!Effect,掩藏不住心意
+Dialogue: 0,0:23:07.45,0:23:09.91,ED,NTP,0,0,0,!Effect,兩人的溫度
+Dialogue: 0,0:23:09.91,0:23:14.61,ED,NTP,0,0,0,!Effect,歷經歲月 停留在此
+Dialogue: 0,0:23:14.61,0:23:16.61,ED,NTP,0,0,0,!Effect,在平淡的日子裡
+Dialogue: 0,0:23:16.61,0:23:19.21,ED,NTP,0,0,0,!Effect,時常回想起我們第一次的吻
+Dialogue: 0,0:23:19.21,0:23:34.76,ED,NTP,0,0,0,!Effect,孤獨的夜裡 在夢中與你相會

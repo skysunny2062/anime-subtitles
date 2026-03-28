@@ -244,5 +244,6 @@ def main():
 
 if __name__ == "__main__":
     ctypes.windll.kernel32.SetConsoleTitleW(f'{PROGRAM_NAME}')
+    os.system("cls")
     os.system("COLOR 0B")
     main()
